@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(proto:*)",
+      "Bash(moon:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(powershell -Command:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "angular-cli",
+    "directus-stronghold"
+  ]
+}

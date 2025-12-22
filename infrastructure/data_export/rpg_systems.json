@@ -1,0 +1,1090 @@
+﻿[
+    {
+        "id":  "e9a6b1c2-eb5e-469c-bbf2-26a6f6955cae",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:43.039Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.375Z",
+        "identifier":  "carved-from-brindlewood",
+        "bbg_id":  null,
+        "bgg_id":  106921,
+        "translations":  [
+                             1320,
+                             1321
+                         ]
+    },
+    {
+        "id":  "7a87e76b-e04b-4803-83ed-f2f4d2299f74",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:44.973Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.480Z",
+        "identifier":  "chronicle-system",
+        "bbg_id":  null,
+        "bgg_id":  22610,
+        "translations":  [
+                             1322,
+                             1323
+                         ]
+    },
+    {
+        "id":  "c8291fdc-2473-4908-8984-1d8edbd48031",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:46.926Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.581Z",
+        "identifier":  "cortex-classic",
+        "bbg_id":  null,
+        "bgg_id":  2044,
+        "translations":  [
+                             1324,
+                             1325
+                         ]
+    },
+    {
+        "id":  "558c69dc-4193-4072-8b7e-9ead31bc06db",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:48.857Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.699Z",
+        "identifier":  "cortex-plus",
+        "bbg_id":  null,
+        "bgg_id":  12891,
+        "translations":  [
+                             1326,
+                             1327
+                         ]
+    },
+    {
+        "id":  "ed0a2f98-5303-4084-8693-0a9223f0f48c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:50.761Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.790Z",
+        "identifier":  "osr-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1328,
+                             1329
+                         ]
+    },
+    {
+        "id":  "d349d82e-ba44-4301-99f5-4dedc4a182f8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:52.653Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.897Z",
+        "identifier":  "d-and-d-4e-game-system",
+        "bbg_id":  null,
+        "bgg_id":  2304,
+        "translations":  [
+                             1330,
+                             1331
+                         ]
+    },
+    {
+        "id":  "fd83376a-b0e3-426d-8e37-1af446ae4490",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:54.501Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.987Z",
+        "identifier":  "d-and-d-5e-game-system",
+        "bbg_id":  null,
+        "bgg_id":  69967,
+        "translations":  [
+                             1332,
+                             1333
+                         ]
+    },
+    {
+        "id":  "3aa8af1c-8d4f-422c-8ef4-01bc0e37d723",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:56.350Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.109Z",
+        "identifier":  "d20-modern-system",
+        "bbg_id":  null,
+        "bgg_id":  2885,
+        "translations":  [
+                             1334,
+                             1335
+                         ]
+    },
+    {
+        "id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:58.272Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.244Z",
+        "identifier":  "d20-system",
+        "bbg_id":  null,
+        "bgg_id":  467,
+        "translations":  [
+                             1336,
+                             1337
+                         ]
+    },
+    {
+        "id":  "67c400a0-b4f0-4db2-be23-03e3e81eaf4b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:00.120Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.359Z",
+        "identifier":  "essence20",
+        "bbg_id":  null,
+        "bgg_id":  72494,
+        "translations":  [
+                             1338,
+                             1339
+                         ]
+    },
+    {
+        "id":  "18ab6c86-335d-41e1-a506-0d0f18fe5f89",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:01.968Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.473Z",
+        "identifier":  "fate-3",
+        "bbg_id":  null,
+        "bgg_id":  577,
+        "translations":  [
+                             1340,
+                             1341
+                         ]
+    },
+    {
+        "id":  "641ccab9-d4d6-4624-ab88-dc82ffc92aae",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:03.917Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.604Z",
+        "identifier":  "fate-core",
+        "bbg_id":  null,
+        "bgg_id":  26506,
+        "translations":  [
+                             1342,
+                             1343
+                         ]
+    },
+    {
+        "id":  "8d082137-f2b2-4327-8802-23e1b4517ab0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:05.770Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:43.795Z",
+        "identifier":  "forged-in-the-dark",
+        "bbg_id":  null,
+        "bgg_id":  48735,
+        "translations":  [
+                             1344,
+                             1345
+                         ]
+    },
+    {
+        "id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:07.616Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.054Z",
+        "identifier":  "gumshoe",
+        "bbg_id":  null,
+        "bgg_id":  1264,
+        "translations":  [
+                             1346,
+                             1347
+                         ]
+    },
+    {
+        "id":  "0edae0d0-63c4-452f-8130-dcfec5a2f3d1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:09.561Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.176Z",
+        "identifier":  "quickshock-gumshoe",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1348,
+                             1349
+                         ]
+    },
+    {
+        "id":  "d17a0d63-8115-46da-acbf-20bd574ca686",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:11.596Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.295Z",
+        "identifier":  "gurps-system",
+        "bbg_id":  null,
+        "bgg_id":  484,
+        "translations":  [
+                             1350,
+                             1351
+                         ]
+    },
+    {
+        "id":  "bd3a2f1a-01ae-490f-8812-cde73c3d4e55",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:13.640Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.387Z",
+        "identifier":  "hero-system",
+        "bbg_id":  null,
+        "bgg_id":  992,
+        "translations":  [
+                             1352,
+                             1353
+                         ]
+    },
+    {
+        "id":  "c639b80a-0e70-408e-a35c-53d874173e38",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:15.583Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.491Z",
+        "identifier":  "hero-system-4",
+        "bbg_id":  null,
+        "bgg_id":  991,
+        "translations":  [
+                             1354,
+                             1355
+                         ]
+    },
+    {
+        "id":  "5d26afee-9dd7-4f4e-bbea-74f6b784807b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:17.537Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.590Z",
+        "identifier":  "hero-system-5",
+        "bbg_id":  null,
+        "bgg_id":  497,
+        "translations":  [
+                             1356,
+                             1357
+                         ]
+    },
+    {
+        "id":  "87b3b624-86cf-4999-bab5-acd82fa9ac99",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:19.397Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.712Z",
+        "identifier":  "hero-system-6",
+        "bbg_id":  null,
+        "bgg_id":  2653,
+        "translations":  [
+                             1358,
+                             1359
+                         ]
+    },
+    {
+        "id":  "3d09b27f-0452-4b6c-834e-7fc13bbe4f28",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:21.328Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.820Z",
+        "identifier":  "icon-system",
+        "bbg_id":  null,
+        "bgg_id":  990,
+        "translations":  [
+                             1360,
+                             1361
+                         ]
+    },
+    {
+        "id":  "80d1d7eb-a049-40c3-9816-aab5bf5b1c41",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:23.266Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:44.919Z",
+        "identifier":  "interlock",
+        "bbg_id":  null,
+        "bgg_id":  998,
+        "translations":  [
+                             1362,
+                             1363
+                         ]
+    },
+    {
+        "id":  "fe8cf379-22eb-484c-ad80-74b092796c74",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:25.109Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.006Z",
+        "identifier":  "fuzion",
+        "bbg_id":  null,
+        "bgg_id":  478,
+        "translations":  [
+                             1364,
+                             1365
+                         ]
+    },
+    {
+        "id":  "2aabf489-eda2-4717-a4e0-16f2809e06fb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:27.036Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.113Z",
+        "identifier":  "brp-system-d20",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1366,
+                             1367
+                         ]
+    },
+    {
+        "id":  "10e76705-7d36-4cce-b8fa-bb7b144c36cc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:32.684Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.445Z",
+        "identifier":  "palladium-megaversal",
+        "bbg_id":  null,
+        "bgg_id":  733,
+        "translations":  [
+                             1372,
+                             1373
+                         ]
+    },
+    {
+        "id":  "f4b5b4e8-5ed5-4c30-aad1-029be2f45ea5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:34.528Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.543Z",
+        "identifier":  "pathfinder-system",
+        "bbg_id":  null,
+        "bgg_id":  2789,
+        "translations":  [
+                             1374,
+                             1375
+                         ]
+    },
+    {
+        "id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:36.371Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.632Z",
+        "identifier":  "powered-by-the-apocalypse",
+        "bbg_id":  null,
+        "bgg_id":  17185,
+        "translations":  [
+                             1376,
+                             1377
+                         ]
+    },
+    {
+        "id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:40.169Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.822Z",
+        "identifier":  "savage-worlds",
+        "bbg_id":  null,
+        "bgg_id":  517,
+        "translations":  [
+                             1380,
+                             1381
+                         ]
+    },
+    {
+        "id":  "f7678e78-8951-4416-8f33-d256790208c9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:42.069Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.919Z",
+        "identifier":  "siege-engine",
+        "bbg_id":  null,
+        "bgg_id":  510,
+        "translations":  [
+                             1382,
+                             1383
+                         ]
+    },
+    {
+        "id":  "b820d9bf-e1db-4f9c-9e84-ace41761fb90",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:43.904Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.006Z",
+        "identifier":  "sombra-system",
+        "bbg_id":  null,
+        "bgg_id":  3078,
+        "translations":  [
+                             1384,
+                             1385
+                         ]
+    },
+    {
+        "id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:45.789Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.108Z",
+        "identifier":  "storyteller-system",
+        "bbg_id":  null,
+        "bgg_id":  480,
+        "translations":  [
+                             1386,
+                             1387
+                         ]
+    },
+    {
+        "id":  "c42070a2-73f6-46ff-8708-21f221f25d4d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:49.589Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.314Z",
+        "identifier":  "unisystem",
+        "bbg_id":  null,
+        "bgg_id":  627,
+        "translations":  [
+                             1390,
+                             1391
+                         ]
+    },
+    {
+        "id":  "b17b951b-ca8f-4314-bbff-d0e5d5a7d709",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:51.540Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.423Z",
+        "identifier":  "vortex-system",
+        "bbg_id":  null,
+        "bgg_id":  22874,
+        "translations":  [
+                             1392,
+                             1393
+                         ]
+    },
+    {
+        "id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:53.385Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.512Z",
+        "identifier":  "warhammer-system",
+        "bbg_id":  null,
+        "bgg_id":  1989,
+        "translations":  [
+                             1394,
+                             1395
+                         ]
+    },
+    {
+        "id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:55.232Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.600Z",
+        "identifier":  "year-zero-engine",
+        "bbg_id":  null,
+        "bgg_id":  43636,
+        "translations":  [
+                             1396,
+                             1397
+                         ]
+    },
+    {
+        "id":  "e684ba7b-d042-4121-a7e7-dcc0fb32bf2e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:59.008Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.785Z",
+        "identifier":  "roleina",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1400,
+                             1401
+                         ]
+    },
+    {
+        "id":  "cf9678dc-5a22-45f1-9ebd-dffcb61450f5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:00.864Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.876Z",
+        "identifier":  "favored-by-fortune",
+        "bbg_id":  null,
+        "bgg_id":  75932,
+        "translations":  [
+                             1402,
+                             1403
+                         ]
+    },
+    {
+        "id":  "cfefc2f4-4ce4-46e8-90bd-3127cdf092f0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:02.792Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.965Z",
+        "identifier":  "motor-de-emociones",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1404,
+                             1405
+                         ]
+    },
+    {
+        "id":  "0b4f0d65-b0a8-43c8-ae7c-69124026a77d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:04.640Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.060Z",
+        "identifier":  "bx-dnd",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1406,
+                             1407
+                         ]
+    },
+    {
+        "id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:08.525Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.254Z",
+        "identifier":  "roll-and-keep",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1410,
+                             1411
+                         ]
+    },
+    {
+        "id":  "96fac33d-e574-4162-bd17-58ad7184e9be",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:10.642Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.359Z",
+        "identifier":  "kult-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1412,
+                             1413
+                         ]
+    },
+    {
+        "id":  "fb162176-3f41-4841-b703-8b3deb1fe849",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:24.000Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.028Z",
+        "identifier":  "honey-heist",
+        "bbg_id":  null,
+        "bgg_id":  68128,
+        "translations":  [
+                             1426,
+                             1427
+                         ]
+    },
+    {
+        "id":  "4725945b-e35e-4601-beb6-bc968fc7ad02",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:25.847Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.128Z",
+        "identifier":  "kids-on-bikes",
+        "bbg_id":  null,
+        "bgg_id":  57741,
+        "translations":  [
+                             1428,
+                             1429
+                         ]
+    },
+    {
+        "id":  "8a6fe5b1-951e-43a5-8f10-0d9d3350cd45",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:29.544Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.317Z",
+        "identifier":  "wushu-system",
+        "bbg_id":  null,
+        "bgg_id":  2513,
+        "translations":  [
+                             1432,
+                             1433
+                         ]
+    },
+    {
+        "id":  "e386afd0-6124-4901-8bf2-65d48cb01720",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:31.470Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.411Z",
+        "identifier":  "rooted-in-trophy",
+        "bbg_id":  null,
+        "bgg_id":  60475,
+        "translations":  [
+                             1434,
+                             1435
+                         ]
+    },
+    {
+        "id":  "c0775e1e-6fbb-4ab7-9d93-3b1c2f9c2508",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:33.315Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.510Z",
+        "identifier":  "monad-echo",
+        "bbg_id":  null,
+        "bgg_id":  70620,
+        "translations":  [
+                             1436,
+                             1437
+                         ]
+    },
+    {
+        "id":  "449cdf4f-5b4e-4968-9946-930a43922890",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:35.262Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.595Z",
+        "identifier":  "houses-of-the-blooded",
+        "bbg_id":  null,
+        "bgg_id":  5671,
+        "translations":  [
+                             1438,
+                             1439
+                         ]
+    },
+    {
+        "id":  "ab878638-4586-4ee5-b7bc-c3557dbb60b1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:39.684Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.872Z",
+        "identifier":  "2d6-xd6",
+        "bbg_id":  null,
+        "bgg_id":  68444,
+        "translations":  [
+                             1444,
+                             1445
+                         ]
+    },
+    {
+        "id":  "6652c51f-a804-4284-a891-c821afb6f1e4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:41.611Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.968Z",
+        "identifier":  "the-maltese-falcon-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1446,
+                             1447
+                         ]
+    },
+    {
+        "id":  "605839bd-37c7-4176-b654-22a912d92d04",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:37.416Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.030Z",
+        "identifier":  "2d20-system",
+        "bbg_id":  null,
+        "bgg_id":  34087,
+        "translations":  [
+                             1314,
+                             1315
+                         ]
+    },
+    {
+        "id":  "b55c83a8-ef0a-4a74-9070-880da5f8905f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:39.343Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.177Z",
+        "identifier":  "adventure-game-engine",
+        "bbg_id":  null,
+        "bgg_id":  12882,
+        "translations":  [
+                             1316,
+                             1317
+                         ]
+    },
+    {
+        "id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:58:41.189Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:42.280Z",
+        "identifier":  "brp-system-d100",
+        "bbg_id":  null,
+        "bgg_id":  603,
+        "translations":  [
+                             1318,
+                             1319
+                         ]
+    },
+    {
+        "id":  "629cfe01-967c-436d-82dd-efc9a44fc23c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:12.846Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.446Z",
+        "identifier":  "cue-system",
+        "bbg_id":  null,
+        "bgg_id":  25150,
+        "translations":  [
+                             1414,
+                             1415
+                         ]
+    },
+    {
+        "id":  "ae01149c-8ae7-4c7e-b07a-fff771e84ba0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:16.543Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.626Z",
+        "identifier":  "imperium-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1418,
+                             1419
+                         ]
+    },
+    {
+        "id":  "6fc76888-c043-43f3-aa4d-8716494824da",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:18.419Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.711Z",
+        "identifier":  "dps-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1420,
+                             1421
+                         ]
+    },
+    {
+        "id":  "5d363477-0cce-4d10-b0d9-8b25cc44eaff",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:22.136Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.905Z",
+        "identifier":  "the-one-ring-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1424,
+                             1425
+                         ]
+    },
+    {
+        "id":  "056d8e69-b89a-4525-88b0-db6021e0116d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:28.902Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.234Z",
+        "identifier":  "lord-of-the-rings-adventure-game",
+        "bbg_id":  null,
+        "bgg_id":  2781,
+        "translations":  [
+                             1368,
+                             1369
+                         ]
+    },
+    {
+        "id":  "e31fd74e-b7ff-4bb7-a89f-6899283d5622",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:30.747Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.341Z",
+        "identifier":  "narrative-dice-system",
+        "bbg_id":  null,
+        "bgg_id":  26027,
+        "translations":  [
+                             1370,
+                             1371
+                         ]
+    },
+    {
+        "id":  "93de8bed-4764-4e72-a12d-eaff01f9680c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:38.291Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:45.733Z",
+        "identifier":  "rolemaster-game-system",
+        "bbg_id":  null,
+        "bgg_id":  1575,
+        "translations":  [
+                             1378,
+                             1379
+                         ]
+    },
+    {
+        "id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:47.742Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.210Z",
+        "identifier":  "storytelling-system",
+        "bbg_id":  null,
+        "bgg_id":  479,
+        "translations":  [
+                             1388,
+                             1389
+                         ]
+    },
+    {
+        "id":  "22ace1f2-2686-443b-84fe-2f7067b97085",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T17:59:57.156Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:46.698Z",
+        "identifier":  "y-system",
+        "bbg_id":  null,
+        "bgg_id":  75843,
+        "translations":  [
+                             1398,
+                             1399
+                         ]
+    },
+    {
+        "id":  "b275d8a7-9eab-4f6f-abad-e93e3efc9990",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:06.487Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.150Z",
+        "identifier":  "coda-system",
+        "bbg_id":  null,
+        "bgg_id":  476,
+        "translations":  [
+                             1408,
+                             1409
+                         ]
+    },
+    {
+        "id":  "cb58d513-ec44-4006-b3c7-fe396e1adbea",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:14.697Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.542Z",
+        "identifier":  "illuminated-worlds",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1416,
+                             1417
+                         ]
+    },
+    {
+        "id":  "674de993-ec80-46d2-b4e9-061b835f38a0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:20.289Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:47.810Z",
+        "identifier":  "hitos",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1422,
+                             1423
+                         ]
+    },
+    {
+        "id":  "72db7249-b112-4448-8e90-08e543663373",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:27.698Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.226Z",
+        "identifier":  "mark-of-the-odd",
+        "bbg_id":  null,
+        "bgg_id":  68041,
+        "translations":  [
+                             1430,
+                             1431
+                         ]
+    },
+    {
+        "id":  "fab4dae3-caaa-4486-962f-1b3b6a19cbe8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-05T18:00:37.153Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:48.778Z",
+        "identifier":  "sistema-heroico",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1442,
+                             1443
+                         ]
+    },
+    {
+        "id":  "3ed98870-a370-4ca2-9f55-298ab74a9ca6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:46:33.447Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:49.061Z",
+        "identifier":  "mork-borg-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1448,
+                             1449
+                         ]
+    },
+    {
+        "id":  "7e241946-9324-49ba-97bb-d15ef6ae5f40",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:46:33.519Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:42:49.158Z",
+        "identifier":  "icrpg-system",
+        "bbg_id":  null,
+        "bgg_id":  null,
+        "translations":  [
+                             1450,
+                             1451
+                         ]
+    }
+]

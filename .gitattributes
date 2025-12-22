@@ -1,0 +1,91 @@
+# =============================================================================
+# Git Attributes - Line ending normalization
+# =============================================================================
+
+# Default behavior: auto-detect and normalize
+* text=auto eol=lf
+
+# =============================================================================
+# Source code
+# =============================================================================
+*.ts text eol=lf charset=utf-8 diff=typescript
+*.tsx text eol=lf charset=utf-8 diff=typescript
+*.js text eol=lf charset=utf-8 diff=javascript
+*.jsx text eol=lf charset=utf-8 diff=javascript
+*.mjs text eol=lf charset=utf-8 diff=javascript
+*.cjs text eol=lf charset=utf-8 diff=javascript
+*.json text eol=lf charset=utf-8 diff=json
+*.css text eol=lf charset=utf-8 diff=css
+*.scss text eol=lf charset=utf-8 diff=scss
+*.html text eol=lf charset=utf-8 diff=html
+*.astro text eol=lf charset=utf-8 diff=astro
+*.vue text eol=lf charset=utf-8 diff=vue
+*.svelte text eol=lf charset=utf-8 diff=svelte
+
+# =============================================================================
+# Configuration files
+# =============================================================================
+*.yml text eol=lf charset=utf-8 diff=yaml
+*.yaml text eol=lf charset=utf-8 diff=yaml
+*.toml text eol=lf charset=utf-8 diff=toml
+*.md text eol=lf charset=utf-8 diff=markdown
+*.mdx text eol=lf charset=utf-8 diff=markdown
+.gitignore text eol=lf charset=utf-8
+.gitattributes text eol=lf charset=utf-8
+.editorconfig text eol=lf charset=utf-8
+.prettierrc text eol=lf charset=utf-8
+.eslintrc text eol=lf charset=utf-8
+
+# =============================================================================
+# Shell scripts
+# =============================================================================
+*.sh text eol=lf charset=utf-8
+*.bash text eol=lf charset=utf-8
+
+# =============================================================================
+# Windows scripts (keep CRLF)
+# =============================================================================
+*.bat text eol=crlf charset=utf-8
+*.cmd text eol=crlf charset=utf-8
+*.ps1 text eol=crlf charset=utf-8
+
+# =============================================================================
+# Docker
+# =============================================================================
+Dockerfile text eol=lf charset=utf-8
+docker-compose*.yml text eol=lf charset=utf-8
+*.dockerfile text eol=lf charset=utf-8
+
+# =============================================================================
+# Binary files (do not normalize)
+# =============================================================================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.avif binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# =============================================================================
+# Lock files (generated, treat as binary for diff)
+# =============================================================================
+bun.lockb binary
+package-lock.json binary -diff
+yarn.lock binary -diff
+pnpm-lock.yaml binary -diff
+
+# =============================================================================
+# Linguist overrides (for GitHub language stats)
+# =============================================================================
+*.astro linguist-language=Astro

@@ -1,0 +1,6057 @@
+﻿[
+    {
+        "id":  1,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  2,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  3,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  4,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  5,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  6,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  7,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  8,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  9,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  10,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  11,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  12,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  13,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  14,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  15,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  16,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  17,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  18,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  19,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  20,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  21,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  22,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  23,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  24,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  25,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  26,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  27,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  28,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  29,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  30,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  31,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  32,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  33,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  34,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  35,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  36,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  37,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  38,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  39,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  40,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  41,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  42,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  43,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  44,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  45,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  46,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  47,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  48,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  49,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  50,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  51,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  52,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  53,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  54,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  55,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  56,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  57,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  58,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  59,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  60,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  61,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  62,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  63,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  64,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  65,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  66,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  67,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  68,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  69,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  70,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  71,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  72,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  73,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  74,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  75,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  76,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  77,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  78,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  79,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  80,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  81,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  82,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  83,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  84,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  85,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  86,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  87,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  88,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  89,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  90,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  91,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  92,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  93,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  94,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  95,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  96,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  97,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  98,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  99,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  100,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  101,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  102,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  103,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  104,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  105,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  106,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  107,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  108,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  109,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  110,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  111,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  112,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  113,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  114,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  115,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  116,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  117,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  118,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  119,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  120,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  121,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  122,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  123,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  124,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  125,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  126,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  127,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  128,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  129,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  130,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  131,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  132,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  133,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  134,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  135,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  136,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  137,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  138,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  139,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  140,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  141,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  142,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  143,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  144,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  145,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  146,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  147,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  148,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  149,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  150,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  151,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  152,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  153,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  154,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  155,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  156,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  157,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  158,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  159,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  160,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  161,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  162,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  163,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  164,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  165,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  166,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  167,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  168,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  169,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  170,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  171,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  172,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  173,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  174,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  175,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  176,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  177,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  178,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  179,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  180,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  181,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  182,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  183,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  184,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  185,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  186,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  187,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  188,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  189,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  190,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  191,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  192,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  193,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  194,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  195,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  196,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  197,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  198,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  199,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  200,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  201,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  202,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  203,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  204,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  205,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  206,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  207,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  208,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  209,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  210,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  211,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  212,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  213,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  214,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  215,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  216,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  217,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  218,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  219,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  220,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  221,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  222,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  223,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  224,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  225,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  226,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  227,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  228,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  229,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  230,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  231,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  232,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  233,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  234,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  235,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  236,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  237,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  238,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  239,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  240,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  241,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  242,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  243,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  244,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  245,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  246,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  247,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  248,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  249,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  250,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  251,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  252,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  253,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  254,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  255,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  256,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  257,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  258,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  259,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  260,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  261,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  262,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  263,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  264,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  265,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  266,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  267,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  268,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  269,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  270,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  271,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  272,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  273,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  274,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  275,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  276,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  277,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  278,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  279,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  280,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  281,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  282,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  283,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  284,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  285,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  286,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  287,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  288,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  289,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  290,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  291,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  292,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  293,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  294,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  295,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  296,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  297,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  298,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  299,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  300,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  301,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  302,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  303,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  304,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  305,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  306,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  307,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  308,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  309,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  310,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  311,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  312,
+        "rpg_families_id":  null,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  313,
+        "rpg_families_id":  null,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  314,
+        "rpg_families_id":  null,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  315,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  316,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  317,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  318,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  319,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  320,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  321,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  322,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  323,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  324,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  325,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  326,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  327,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  328,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  329,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  330,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  331,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  332,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  333,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  334,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  335,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  336,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  337,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  338,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  339,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  340,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  341,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  342,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  343,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  344,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  345,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  346,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  347,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  348,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  349,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  350,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  351,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  352,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  353,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  354,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  355,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  356,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  357,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  358,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  359,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  360,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  361,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  362,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  363,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  364,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  365,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  366,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  367,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  368,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  369,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  370,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  371,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  372,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  373,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  374,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  375,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  376,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  377,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  378,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  379,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  380,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  381,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  382,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  383,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  384,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  385,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  386,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  387,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  388,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  389,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  390,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  391,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  392,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  393,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  394,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  395,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  396,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  397,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  398,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  399,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  400,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  401,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  402,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  403,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  404,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  405,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  406,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  407,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  408,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  409,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  410,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  411,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  412,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  413,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  414,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  415,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  416,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  417,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  418,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  419,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  420,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  421,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  422,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  423,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  424,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  425,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  426,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  427,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  428,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  429,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  430,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  431,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  432,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  433,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  434,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  435,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  436,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  437,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  438,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  439,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  440,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  441,
+        "rpg_families_id":  null,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621"
+    },
+    {
+        "id":  442,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  443,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  444,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  445,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  446,
+        "rpg_families_id":  null,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353"
+    },
+    {
+        "id":  447,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  448,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  449,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  450,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  451,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  452,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  453,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  454,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  455,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  456,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  457,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  458,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  459,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  460,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  461,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  462,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  463,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  464,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  465,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  466,
+        "rpg_families_id":  null,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138"
+    },
+    {
+        "id":  467,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  468,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  469,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  470,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  471,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  472,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  473,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  474,
+        "rpg_families_id":  null,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a"
+    },
+    {
+        "id":  475,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  476,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  477,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  478,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  479,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  480,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  481,
+        "rpg_families_id":  null,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e"
+    },
+    {
+        "id":  482,
+        "rpg_families_id":  null,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623"
+    },
+    {
+        "id":  483,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  484,
+        "rpg_families_id":  null,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  485,
+        "rpg_families_id":  null,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  486,
+        "rpg_families_id":  null,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  487,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  488,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  489,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  490,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  491,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  492,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  493,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  494,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  495,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  496,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  497,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  498,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  499,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  500,
+        "rpg_families_id":  null,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611"
+    },
+    {
+        "id":  501,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  502,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  503,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  504,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  505,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  506,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  507,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  508,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  509,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  510,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  511,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  512,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  513,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  514,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  515,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  516,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  517,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  518,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  519,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  520,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  521,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  522,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  523,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  524,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  525,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  526,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  527,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  528,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  529,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  530,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  531,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  532,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  533,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  534,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  535,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  536,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  537,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  538,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  539,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  540,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  541,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  542,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  543,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  544,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  545,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  546,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  547,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  548,
+        "rpg_families_id":  null,
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57"
+    },
+    {
+        "id":  549,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  550,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  551,
+        "rpg_families_id":  null,
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574"
+    },
+    {
+        "id":  552,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  553,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  554,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  555,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  556,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  557,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  558,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  559,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  560,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  561,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  562,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  563,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  564,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  565,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  566,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  567,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  568,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  569,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  570,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  571,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  572,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  573,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  574,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  575,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  576,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  577,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  578,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  579,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  580,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  581,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  582,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  583,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  584,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  585,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  586,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  587,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  588,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  589,
+        "rpg_families_id":  null,
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e"
+    },
+    {
+        "id":  590,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  591,
+        "rpg_families_id":  null,
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316"
+    },
+    {
+        "id":  592,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  593,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  594,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  595,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  596,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  597,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  598,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  599,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  600,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  601,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  602,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  603,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  604,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  605,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  606,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  607,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  608,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  609,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  610,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  611,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  612,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  613,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  614,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  615,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  616,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  617,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  618,
+        "rpg_families_id":  null,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621"
+    },
+    {
+        "id":  619,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  620,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  621,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  622,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  623,
+        "rpg_families_id":  null,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353"
+    },
+    {
+        "id":  624,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  625,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  626,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  627,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  628,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  629,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  630,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  631,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  632,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  633,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  634,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  635,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  636,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  637,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  638,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  639,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  640,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  641,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  642,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  643,
+        "rpg_families_id":  null,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138"
+    },
+    {
+        "id":  644,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  645,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  646,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  647,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  648,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  649,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  650,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  651,
+        "rpg_families_id":  null,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a"
+    },
+    {
+        "id":  652,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  653,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  654,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  655,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  656,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  657,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  658,
+        "rpg_families_id":  null,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e"
+    },
+    {
+        "id":  659,
+        "rpg_families_id":  null,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623"
+    },
+    {
+        "id":  660,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  661,
+        "rpg_families_id":  null,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  662,
+        "rpg_families_id":  null,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  663,
+        "rpg_families_id":  null,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  664,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  665,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  666,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  667,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  668,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  669,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  670,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  671,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  672,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  673,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  674,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  675,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  676,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  677,
+        "rpg_families_id":  null,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611"
+    },
+    {
+        "id":  678,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  679,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  690,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  691,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  692,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  693,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  694,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  695,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  696,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  697,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  698,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  699,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  700,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  701,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  702,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  703,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  704,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  705,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  706,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  707,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  708,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  709,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  710,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  711,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  712,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  713,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  714,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  715,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  716,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  717,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  718,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  719,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  720,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  721,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  722,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  723,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  724,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  725,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  726,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  727,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  728,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  729,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  730,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  731,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  732,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  733,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  734,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  735,
+        "rpg_families_id":  null,
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57"
+    },
+    {
+        "id":  736,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  737,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  738,
+        "rpg_families_id":  null,
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574"
+    },
+    {
+        "id":  739,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  740,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  741,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  742,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  743,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  744,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  745,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  746,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  747,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  748,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  749,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  750,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  751,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  752,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  753,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  754,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  755,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  756,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  757,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  758,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  759,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  760,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  761,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  762,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  763,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  764,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  765,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  766,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  767,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  768,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  769,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  770,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  771,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  772,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  773,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  774,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  775,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  776,
+        "rpg_families_id":  null,
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e"
+    },
+    {
+        "id":  777,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  778,
+        "rpg_families_id":  null,
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316"
+    },
+    {
+        "id":  779,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  780,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  781,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  782,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  783,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  784,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  785,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  786,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  787,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  788,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  789,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  790,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  791,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  792,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  793,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  794,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  795,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  796,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  797,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  798,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  799,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  800,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  801,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  802,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  803,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  804,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  805,
+        "rpg_families_id":  null,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621"
+    },
+    {
+        "id":  806,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  807,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  808,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  809,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  810,
+        "rpg_families_id":  null,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353"
+    },
+    {
+        "id":  811,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  812,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  813,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  814,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  815,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  816,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  817,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  818,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  819,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  820,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  821,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  822,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  823,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  824,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  825,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  826,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  827,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  828,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  829,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  830,
+        "rpg_families_id":  null,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138"
+    },
+    {
+        "id":  831,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  832,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  833,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  834,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  835,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  836,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  837,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  838,
+        "rpg_families_id":  null,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a"
+    },
+    {
+        "id":  839,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  840,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  841,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  842,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  843,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  844,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  845,
+        "rpg_families_id":  null,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e"
+    },
+    {
+        "id":  846,
+        "rpg_families_id":  null,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623"
+    },
+    {
+        "id":  847,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  848,
+        "rpg_families_id":  null,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  849,
+        "rpg_families_id":  null,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  850,
+        "rpg_families_id":  null,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  851,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  852,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  853,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  854,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  855,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  856,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  857,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  858,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  859,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  860,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  861,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  862,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  863,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  864,
+        "rpg_families_id":  null,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611"
+    },
+    {
+        "id":  865,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  866,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  888,
+        "rpg_families_id":  null,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  889,
+        "rpg_families_id":  null,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  890,
+        "rpg_families_id":  null,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  891,
+        "rpg_families_id":  null,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  892,
+        "rpg_families_id":  null,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  893,
+        "rpg_families_id":  null,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  894,
+        "rpg_families_id":  null,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  895,
+        "rpg_families_id":  null,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  896,
+        "rpg_families_id":  null,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  897,
+        "rpg_families_id":  null,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  898,
+        "rpg_families_id":  null,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  899,
+        "rpg_families_id":  null,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  900,
+        "rpg_families_id":  null,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  901,
+        "rpg_families_id":  null,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  902,
+        "rpg_families_id":  null,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  903,
+        "rpg_families_id":  null,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  904,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  905,
+        "rpg_families_id":  null,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  906,
+        "rpg_families_id":  null,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  907,
+        "rpg_families_id":  null,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  908,
+        "rpg_families_id":  null,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  909,
+        "rpg_families_id":  null,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  910,
+        "rpg_families_id":  null,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  911,
+        "rpg_families_id":  null,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  912,
+        "rpg_families_id":  null,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  913,
+        "rpg_families_id":  null,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  914,
+        "rpg_families_id":  null,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  915,
+        "rpg_families_id":  null,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  916,
+        "rpg_families_id":  null,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  917,
+        "rpg_families_id":  null,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  918,
+        "rpg_families_id":  null,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  919,
+        "rpg_families_id":  null,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  920,
+        "rpg_families_id":  null,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  921,
+        "rpg_families_id":  null,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  922,
+        "rpg_families_id":  null,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  923,
+        "rpg_families_id":  null,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  924,
+        "rpg_families_id":  null,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  925,
+        "rpg_families_id":  null,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  926,
+        "rpg_families_id":  null,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  927,
+        "rpg_families_id":  null,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  928,
+        "rpg_families_id":  null,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  929,
+        "rpg_families_id":  null,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  930,
+        "rpg_families_id":  null,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  931,
+        "rpg_families_id":  null,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  932,
+        "rpg_families_id":  null,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  933,
+        "rpg_families_id":  null,
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57"
+    },
+    {
+        "id":  934,
+        "rpg_families_id":  null,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  935,
+        "rpg_families_id":  null,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  936,
+        "rpg_families_id":  null,
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574"
+    },
+    {
+        "id":  937,
+        "rpg_families_id":  null,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  938,
+        "rpg_families_id":  null,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  939,
+        "rpg_families_id":  null,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  940,
+        "rpg_families_id":  null,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  941,
+        "rpg_families_id":  null,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  942,
+        "rpg_families_id":  null,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  943,
+        "rpg_families_id":  null,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  944,
+        "rpg_families_id":  null,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  945,
+        "rpg_families_id":  null,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  946,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  947,
+        "rpg_families_id":  null,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  948,
+        "rpg_families_id":  null,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  949,
+        "rpg_families_id":  null,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  950,
+        "rpg_families_id":  null,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  951,
+        "rpg_families_id":  null,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  952,
+        "rpg_families_id":  null,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  953,
+        "rpg_families_id":  null,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  954,
+        "rpg_families_id":  null,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  955,
+        "rpg_families_id":  null,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  956,
+        "rpg_families_id":  null,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  957,
+        "rpg_families_id":  null,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  958,
+        "rpg_families_id":  null,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  959,
+        "rpg_families_id":  null,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  960,
+        "rpg_families_id":  null,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  961,
+        "rpg_families_id":  null,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  962,
+        "rpg_families_id":  null,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  963,
+        "rpg_families_id":  null,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  964,
+        "rpg_families_id":  null,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  965,
+        "rpg_families_id":  null,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  966,
+        "rpg_families_id":  null,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  967,
+        "rpg_families_id":  null,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  968,
+        "rpg_families_id":  null,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  969,
+        "rpg_families_id":  null,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  970,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  971,
+        "rpg_families_id":  null,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  972,
+        "rpg_families_id":  null,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  973,
+        "rpg_families_id":  null,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  974,
+        "rpg_families_id":  null,
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e"
+    },
+    {
+        "id":  975,
+        "rpg_families_id":  null,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  976,
+        "rpg_families_id":  null,
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316"
+    },
+    {
+        "id":  977,
+        "rpg_families_id":  null,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  978,
+        "rpg_families_id":  null,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  979,
+        "rpg_families_id":  null,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  980,
+        "rpg_families_id":  null,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  981,
+        "rpg_families_id":  null,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  982,
+        "rpg_families_id":  null,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  983,
+        "rpg_families_id":  null,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  984,
+        "rpg_families_id":  null,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  985,
+        "rpg_families_id":  null,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  986,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  987,
+        "rpg_families_id":  null,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  988,
+        "rpg_families_id":  null,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  989,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  990,
+        "rpg_families_id":  null,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  991,
+        "rpg_families_id":  null,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  992,
+        "rpg_families_id":  null,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  993,
+        "rpg_families_id":  null,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  994,
+        "rpg_families_id":  null,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  995,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  996,
+        "rpg_families_id":  null,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  997,
+        "rpg_families_id":  null,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  998,
+        "rpg_families_id":  null,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  999,
+        "rpg_families_id":  null,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  1000,
+        "rpg_families_id":  null,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  1001,
+        "rpg_families_id":  null,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  1002,
+        "rpg_families_id":  null,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  1003,
+        "rpg_families_id":  null,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621"
+    },
+    {
+        "id":  1004,
+        "rpg_families_id":  null,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  1005,
+        "rpg_families_id":  null,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  1006,
+        "rpg_families_id":  null,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  1007,
+        "rpg_families_id":  null,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  1008,
+        "rpg_families_id":  null,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353"
+    },
+    {
+        "id":  1009,
+        "rpg_families_id":  null,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  1010,
+        "rpg_families_id":  null,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  1011,
+        "rpg_families_id":  null,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  1012,
+        "rpg_families_id":  null,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  1013,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1014,
+        "rpg_families_id":  null,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  1015,
+        "rpg_families_id":  null,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  1016,
+        "rpg_families_id":  null,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1017,
+        "rpg_families_id":  null,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  1018,
+        "rpg_families_id":  null,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  1019,
+        "rpg_families_id":  null,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  1020,
+        "rpg_families_id":  null,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  1021,
+        "rpg_families_id":  null,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  1022,
+        "rpg_families_id":  null,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  1023,
+        "rpg_families_id":  null,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  1024,
+        "rpg_families_id":  null,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  1025,
+        "rpg_families_id":  null,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  1026,
+        "rpg_families_id":  null,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  1027,
+        "rpg_families_id":  null,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  1028,
+        "rpg_families_id":  null,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138"
+    },
+    {
+        "id":  1029,
+        "rpg_families_id":  null,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  1030,
+        "rpg_families_id":  null,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  1031,
+        "rpg_families_id":  null,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  1032,
+        "rpg_families_id":  null,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  1033,
+        "rpg_families_id":  null,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  1034,
+        "rpg_families_id":  null,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  1035,
+        "rpg_families_id":  null,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  1036,
+        "rpg_families_id":  null,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a"
+    },
+    {
+        "id":  1037,
+        "rpg_families_id":  null,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  1038,
+        "rpg_families_id":  null,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  1039,
+        "rpg_families_id":  null,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  1040,
+        "rpg_families_id":  null,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  1041,
+        "rpg_families_id":  null,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  1042,
+        "rpg_families_id":  null,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  1043,
+        "rpg_families_id":  null,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e"
+    },
+    {
+        "id":  1044,
+        "rpg_families_id":  null,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623"
+    },
+    {
+        "id":  1045,
+        "rpg_families_id":  null,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  1046,
+        "rpg_families_id":  null,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  1047,
+        "rpg_families_id":  null,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  1048,
+        "rpg_families_id":  null,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  1049,
+        "rpg_families_id":  null,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  1050,
+        "rpg_families_id":  null,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  1051,
+        "rpg_families_id":  null,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  1052,
+        "rpg_families_id":  null,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  1053,
+        "rpg_families_id":  null,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  1054,
+        "rpg_families_id":  null,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  1055,
+        "rpg_families_id":  null,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  1056,
+        "rpg_families_id":  null,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  1057,
+        "rpg_families_id":  null,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  1058,
+        "rpg_families_id":  null,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  1059,
+        "rpg_families_id":  null,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  1060,
+        "rpg_families_id":  null,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  1061,
+        "rpg_families_id":  null,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  1062,
+        "rpg_families_id":  null,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611"
+    },
+    {
+        "id":  1063,
+        "rpg_families_id":  null,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  1064,
+        "rpg_families_id":  null,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    },
+    {
+        "id":  1065,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61"
+    },
+    {
+        "id":  1066,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14"
+    },
+    {
+        "id":  1067,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b"
+    },
+    {
+        "id":  1068,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb"
+    },
+    {
+        "id":  1069,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0"
+    },
+    {
+        "id":  1070,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e"
+    },
+    {
+        "id":  1071,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7"
+    },
+    {
+        "id":  1072,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180"
+    },
+    {
+        "id":  1073,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330"
+    },
+    {
+        "id":  1074,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009"
+    },
+    {
+        "id":  1075,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae"
+    },
+    {
+        "id":  1076,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40"
+    },
+    {
+        "id":  1077,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617"
+    },
+    {
+        "id":  1078,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5"
+    },
+    {
+        "id":  1079,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607"
+    },
+    {
+        "id":  1080,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e"
+    },
+    {
+        "id":  1081,
+        "rpg_families_id":  "a63d5a04-56dd-462e-a04c-7ba50f12020d",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1082,
+        "rpg_families_id":  "77c18eab-b29b-426e-ab44-35db8a65eab4",
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44"
+    },
+    {
+        "id":  1083,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f"
+    },
+    {
+        "id":  1084,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181"
+    },
+    {
+        "id":  1085,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017"
+    },
+    {
+        "id":  1086,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b"
+    },
+    {
+        "id":  1087,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4"
+    },
+    {
+        "id":  1088,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb"
+    },
+    {
+        "id":  1089,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60"
+    },
+    {
+        "id":  1090,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c"
+    },
+    {
+        "id":  1091,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97"
+    },
+    {
+        "id":  1092,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f"
+    },
+    {
+        "id":  1093,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472"
+    },
+    {
+        "id":  1094,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97"
+    },
+    {
+        "id":  1095,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de"
+    },
+    {
+        "id":  1096,
+        "rpg_families_id":  "bc5adf19-d41f-4741-b6a3-3a82613d815a",
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f"
+    },
+    {
+        "id":  1097,
+        "rpg_families_id":  "4a7e04f3-290c-4fee-9fd5-6bd3c7eeabfa",
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e"
+    },
+    {
+        "id":  1098,
+        "rpg_families_id":  "43692bfb-ff14-4430-a1b4-274b603bf210",
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0"
+    },
+    {
+        "id":  1099,
+        "rpg_families_id":  "336ea897-ceb8-490e-b1a5-73547ae250b8",
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490"
+    },
+    {
+        "id":  1100,
+        "rpg_families_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208"
+    },
+    {
+        "id":  1101,
+        "rpg_families_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9"
+    },
+    {
+        "id":  1102,
+        "rpg_families_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909"
+    },
+    {
+        "id":  1103,
+        "rpg_families_id":  "6193e392-ac9f-4ad7-a8a1-df870c8672f8",
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c"
+    },
+    {
+        "id":  1104,
+        "rpg_families_id":  "d1347d6f-5bf4-4856-a6a5-06a0c019b214",
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0"
+    },
+    {
+        "id":  1105,
+        "rpg_families_id":  "186c8cb6-8bd9-4d3d-9c2b-9cb4bbd39531",
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f"
+    },
+    {
+        "id":  1106,
+        "rpg_families_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f"
+    },
+    {
+        "id":  1107,
+        "rpg_families_id":  "e817a51d-7e96-4cc4-bc25-30cbd0298756",
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3"
+    },
+    {
+        "id":  1108,
+        "rpg_families_id":  "0caf3e36-b974-490a-b1dd-4a6312238f5b",
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9"
+    },
+    {
+        "id":  1109,
+        "rpg_families_id":  "8a540ea6-52f3-49af-94e8-6fff752a73c0",
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac"
+    },
+    {
+        "id":  1110,
+        "rpg_families_id":  "20110ae5-a016-4850-bb4c-f5a4ba769bee",
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57"
+    },
+    {
+        "id":  1111,
+        "rpg_families_id":  "086d2de9-cf5b-4d49-b6f7-72ca94bfa633",
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e"
+    },
+    {
+        "id":  1112,
+        "rpg_families_id":  "9be53c0c-25ba-4850-91fc-ff4f8e287efa",
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e"
+    },
+    {
+        "id":  1113,
+        "rpg_families_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574"
+    },
+    {
+        "id":  1114,
+        "rpg_families_id":  "c10add26-3089-48ec-bcea-e656abf8e7af",
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52"
+    },
+    {
+        "id":  1115,
+        "rpg_families_id":  "a9fbc613-4893-47d5-8aad-cff49420ca7f",
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c"
+    },
+    {
+        "id":  1116,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a"
+    },
+    {
+        "id":  1117,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7"
+    },
+    {
+        "id":  1118,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8"
+    },
+    {
+        "id":  1119,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1"
+    },
+    {
+        "id":  1120,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913"
+    },
+    {
+        "id":  1121,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511"
+    },
+    {
+        "id":  1122,
+        "rpg_families_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1"
+    },
+    {
+        "id":  1123,
+        "rpg_families_id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1124,
+        "rpg_families_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2"
+    },
+    {
+        "id":  1125,
+        "rpg_families_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f"
+    },
+    {
+        "id":  1126,
+        "rpg_families_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce"
+    },
+    {
+        "id":  1127,
+        "rpg_families_id":  "cb87de6d-a78c-48f8-bd16-23cb319ffd19",
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae"
+    },
+    {
+        "id":  1128,
+        "rpg_families_id":  "3e76b63c-801b-41d8-8e20-c2803459a6cb",
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3"
+    },
+    {
+        "id":  1129,
+        "rpg_families_id":  "53aaf0d1-de7e-4274-88fa-a189edd5d1ed",
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665"
+    },
+    {
+        "id":  1130,
+        "rpg_families_id":  "41c9d28d-a5c0-4bc8-a99a-3d450a382e8f",
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a"
+    },
+    {
+        "id":  1131,
+        "rpg_families_id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805"
+    },
+    {
+        "id":  1132,
+        "rpg_families_id":  "8c21acb2-9c3e-4eb2-9595-2ba3201b8fe6",
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee"
+    },
+    {
+        "id":  1133,
+        "rpg_families_id":  "7db6883d-7526-4506-86d9-31adbbb4f0c5",
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb"
+    },
+    {
+        "id":  1134,
+        "rpg_families_id":  "d51c4f2c-53f8-4701-9022-99d7f8d9baaa",
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227"
+    },
+    {
+        "id":  1135,
+        "rpg_families_id":  "5c105f76-29e1-415d-9ec5-7d247077dbbb",
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811"
+    },
+    {
+        "id":  1136,
+        "rpg_families_id":  "22eb008e-73b1-4b46-89b8-1023329c3adf",
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265"
+    },
+    {
+        "id":  1137,
+        "rpg_families_id":  "0176199c-18c1-4843-8906-16179e2fe2ee",
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3"
+    },
+    {
+        "id":  1138,
+        "rpg_families_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643"
+    },
+    {
+        "id":  1139,
+        "rpg_families_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d"
+    },
+    {
+        "id":  1140,
+        "rpg_families_id":  "9878ae4a-0e77-4db8-b68b-41cae662685b",
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1"
+    },
+    {
+        "id":  1141,
+        "rpg_families_id":  "feec719a-77a5-4b69-b915-649a559eb309",
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1"
+    },
+    {
+        "id":  1142,
+        "rpg_families_id":  "b0436176-6e9a-4b9f-a4e6-f0d22c2fa0a8",
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda"
+    },
+    {
+        "id":  1143,
+        "rpg_families_id":  "da9da762-1e6f-422b-b49d-4db676a5ca00",
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8"
+    },
+    {
+        "id":  1144,
+        "rpg_families_id":  "8827fb6f-47f1-44ff-84fa-73d9f32d50e6",
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0"
+    },
+    {
+        "id":  1145,
+        "rpg_families_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b"
+    },
+    {
+        "id":  1146,
+        "rpg_families_id":  "724dee89-b375-4050-9bef-736ae0fb14ac",
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617"
+    },
+    {
+        "id":  1147,
+        "rpg_families_id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1148,
+        "rpg_families_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "settings_id":  "f3e769a3-f172-4e57-879f-de474198858f"
+    },
+    {
+        "id":  1149,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c"
+    },
+    {
+        "id":  1150,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78"
+    },
+    {
+        "id":  1151,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2"
+    },
+    {
+        "id":  1152,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e"
+    },
+    {
+        "id":  1153,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99"
+    },
+    {
+        "id":  1154,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316"
+    },
+    {
+        "id":  1155,
+        "rpg_families_id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf"
+    },
+    {
+        "id":  1156,
+        "rpg_families_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190"
+    },
+    {
+        "id":  1157,
+        "rpg_families_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652"
+    },
+    {
+        "id":  1158,
+        "rpg_families_id":  "519f5f04-8426-465a-9d2e-59ccf37c7ce8",
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9"
+    },
+    {
+        "id":  1159,
+        "rpg_families_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89"
+    },
+    {
+        "id":  1160,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50"
+    },
+    {
+        "id":  1161,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5"
+    },
+    {
+        "id":  1162,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426"
+    },
+    {
+        "id":  1163,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a"
+    },
+    {
+        "id":  1164,
+        "rpg_families_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1165,
+        "rpg_families_id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7"
+    },
+    {
+        "id":  1166,
+        "rpg_families_id":  "252a730d-eb9f-47b0-bd47-01e237d80390",
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7"
+    },
+    {
+        "id":  1167,
+        "rpg_families_id":  "5c7ec17e-a968-4a4b-aaf5-678b7d9ebd1c",
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a"
+    },
+    {
+        "id":  1168,
+        "rpg_families_id":  "a72e349f-ad3c-437b-a70d-e4e9fb283ca4",
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd"
+    },
+    {
+        "id":  1169,
+        "rpg_families_id":  "6118d5e6-3722-4f30-91a9-642edb170329",
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56"
+    },
+    {
+        "id":  1170,
+        "rpg_families_id":  "7dbb513a-ef32-41d8-8d6a-679e41f1ef09",
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0"
+    },
+    {
+        "id":  1171,
+        "rpg_families_id":  "f85cfaf5-901a-46f1-afc8-fb611c8b312b",
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b"
+    },
+    {
+        "id":  1172,
+        "rpg_families_id":  "c9e77770-b16e-4da0-bcd5-fe51549c2af0",
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843"
+    },
+    {
+        "id":  1173,
+        "rpg_families_id":  "55b9ed93-299e-4153-ac23-18eaf23cd63c",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1174,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6"
+    },
+    {
+        "id":  1175,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e"
+    },
+    {
+        "id":  1176,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6"
+    },
+    {
+        "id":  1177,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde"
+    },
+    {
+        "id":  1178,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4"
+    },
+    {
+        "id":  1179,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314"
+    },
+    {
+        "id":  1180,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a"
+    },
+    {
+        "id":  1181,
+        "rpg_families_id":  "befd33b8-79b6-4dca-83af-1d62499b0f2d",
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621"
+    },
+    {
+        "id":  1182,
+        "rpg_families_id":  "7c41f54c-c2ac-44b4-a8f5-6e465e90a97f",
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf"
+    },
+    {
+        "id":  1183,
+        "rpg_families_id":  "0711689b-dd66-49a9-b3bf-216aec1d608b",
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922"
+    },
+    {
+        "id":  1184,
+        "rpg_families_id":  "b96b6a26-5dcb-4a64-80a6-fbbfffec3ca9",
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b"
+    },
+    {
+        "id":  1185,
+        "rpg_families_id":  "eadea0bd-f205-4c69-90f3-c636531b7eee",
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562"
+    },
+    {
+        "id":  1186,
+        "rpg_families_id":  "1be26ca4-9581-4f97-b153-d09cf9f0fa27",
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353"
+    },
+    {
+        "id":  1187,
+        "rpg_families_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b"
+    },
+    {
+        "id":  1188,
+        "rpg_families_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128"
+    },
+    {
+        "id":  1189,
+        "rpg_families_id":  "6ee263fd-e9ae-4edf-b1c8-84f2adbfbc55",
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899"
+    },
+    {
+        "id":  1190,
+        "rpg_families_id":  "6f383bc2-c8ea-4fa6-b0e9-66ddb9b0a5f5",
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465"
+    },
+    {
+        "id":  1191,
+        "rpg_families_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1192,
+        "rpg_families_id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9"
+    },
+    {
+        "id":  1193,
+        "rpg_families_id":  "4cc7786c-19e6-4455-a58a-7b2bb651a1fd",
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89"
+    },
+    {
+        "id":  1194,
+        "rpg_families_id":  "285de6ac-d5c8-48aa-bec9-cd3150e31a32",
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061"
+    },
+    {
+        "id":  1195,
+        "rpg_families_id":  "a594b4fa-e492-490b-a0a3-c0d9b0f6bdd3",
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba"
+    },
+    {
+        "id":  1196,
+        "rpg_families_id":  "75a51dcb-a795-4587-bf71-d0535f101135",
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930"
+    },
+    {
+        "id":  1197,
+        "rpg_families_id":  "b3466ee7-9d69-438d-a7e8-2883264c1bdb",
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132"
+    },
+    {
+        "id":  1198,
+        "rpg_families_id":  "849876aa-ce43-46f9-ab1c-7dbc0c411011",
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b"
+    },
+    {
+        "id":  1199,
+        "rpg_families_id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c"
+    },
+    {
+        "id":  1200,
+        "rpg_families_id":  "6d790f58-41cb-43de-92b8-ab796dbbc2cf",
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba"
+    },
+    {
+        "id":  1201,
+        "rpg_families_id":  "e256c1e9-e8b7-461f-a19a-e527d1902243",
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855"
+    },
+    {
+        "id":  1202,
+        "rpg_families_id":  "3a8898bf-788b-40ac-bc44-89bf03f37481",
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d"
+    },
+    {
+        "id":  1203,
+        "rpg_families_id":  "2dfff4c6-6608-4c7c-aa33-e1c37a51e01e",
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9"
+    },
+    {
+        "id":  1204,
+        "rpg_families_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334"
+    },
+    {
+        "id":  1205,
+        "rpg_families_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a"
+    },
+    {
+        "id":  1206,
+        "rpg_families_id":  "6e3172d1-ef06-41ef-a917-e28d696fa5ef",
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138"
+    },
+    {
+        "id":  1207,
+        "rpg_families_id":  "f321b101-6dae-4c2a-ad3f-02ba13e5d656",
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c"
+    },
+    {
+        "id":  1208,
+        "rpg_families_id":  "7db008ac-0320-45b4-8f4c-4d52d7bc0e57",
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879"
+    },
+    {
+        "id":  1209,
+        "rpg_families_id":  "8751adb3-cbc4-4d67-bb26-f5065c5910c7",
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670"
+    },
+    {
+        "id":  1210,
+        "rpg_families_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3"
+    },
+    {
+        "id":  1211,
+        "rpg_families_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48"
+    },
+    {
+        "id":  1212,
+        "rpg_families_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9"
+    },
+    {
+        "id":  1213,
+        "rpg_families_id":  "c226b502-bfd7-4ad6-b86f-850ded56bf37",
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4"
+    },
+    {
+        "id":  1214,
+        "rpg_families_id":  "d6cef9ab-08b0-4ee4-a53d-5748217ca357",
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a"
+    },
+    {
+        "id":  1215,
+        "rpg_families_id":  "674555a5-8ece-4ad9-9b9b-68fc7740a85b",
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224"
+    },
+    {
+        "id":  1216,
+        "rpg_families_id":  "31f62d11-d682-42ed-8686-c3ae02581940",
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94"
+    },
+    {
+        "id":  1217,
+        "rpg_families_id":  "3aede0ce-ab2e-48fc-a624-b1f59cf5b2ae",
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7"
+    },
+    {
+        "id":  1218,
+        "rpg_families_id":  "0db3de87-56ad-4632-a555-416d87dc0ce7",
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61"
+    },
+    {
+        "id":  1219,
+        "rpg_families_id":  "d6f2188b-7e57-40d2-acd0-9d0f674b1ebf",
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c"
+    },
+    {
+        "id":  1220,
+        "rpg_families_id":  "bd6dc38b-849e-48eb-8272-34a3df11979d",
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44"
+    },
+    {
+        "id":  1221,
+        "rpg_families_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e"
+    },
+    {
+        "id":  1222,
+        "rpg_families_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623"
+    },
+    {
+        "id":  1223,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095"
+    },
+    {
+        "id":  1224,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411"
+    },
+    {
+        "id":  1225,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d"
+    },
+    {
+        "id":  1226,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb"
+    },
+    {
+        "id":  1227,
+        "rpg_families_id":  "1b37af7c-9b43-494c-91ad-dc0f287d0f34",
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c"
+    },
+    {
+        "id":  1228,
+        "rpg_families_id":  "3e183dec-44eb-4a7b-b90a-9923da9b7a30",
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc"
+    },
+    {
+        "id":  1229,
+        "rpg_families_id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8"
+    },
+    {
+        "id":  1230,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697"
+    },
+    {
+        "id":  1231,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304"
+    },
+    {
+        "id":  1232,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0"
+    },
+    {
+        "id":  1233,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca"
+    },
+    {
+        "id":  1234,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0"
+    },
+    {
+        "id":  1235,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0"
+    },
+    {
+        "id":  1236,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085"
+    },
+    {
+        "id":  1237,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182"
+    },
+    {
+        "id":  1238,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536"
+    },
+    {
+        "id":  1239,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f"
+    },
+    {
+        "id":  1240,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611"
+    },
+    {
+        "id":  1241,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141"
+    },
+    {
+        "id":  1242,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0"
+    }
+]

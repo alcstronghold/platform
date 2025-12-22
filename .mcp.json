@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "angular-cli": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@angular/cli", "mcp"]
+    },
+    "directus-stronghold": {
+      "type": "http",
+      "url": "https://backend.alcstronghold.local/mcp",
+      "headers": {
+        "Authorization": "Bearer X2qaf9DZxuPjWQjkww81RnD0SoOwUMby",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
