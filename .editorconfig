@@ -1,0 +1,21 @@
+# EditorConfig - https://editorconfig.org
+root = true
+
+# Default for all files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+
+# TypeScript & JavaScript
+[*.{ts,js,mjs,cjs}]
+quote_type = single
+
+# Markdown - allow trailing whitespace (line breaks)
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off

@@ -1,0 +1,12 @@
+﻿[
+    {
+        "code":  "ca-ES",
+        "name":  "Català",
+        "direction":  "ltr"
+    },
+    {
+        "code":  "es-ES",
+        "name":  "Castellano",
+        "direction":  "ltr"
+    }
+]

@@ -1,0 +1,2033 @@
+﻿[
+    {
+        "id":  "43692bfb-ff14-4430-a1b4-274b603bf210",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.902Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.899Z",
+        "identifier":  "amazing-tales",
+        "name":  "Amazing Tales",
+        "translations":  [
+                             1353,
+                             1354
+                         ],
+        "settings":  [
+                         1098
+                     ]
+    },
+    {
+        "id":  "336ea897-ceb8-490e-b1a5-73547ae250b8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.986Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.004Z",
+        "identifier":  "untitled-goose-gang",
+        "name":  "Untitled Goose Gang",
+        "translations":  [
+                             1355,
+                             1356
+                         ],
+        "settings":  [
+                         1099
+                     ]
+    },
+    {
+        "id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.079Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.119Z",
+        "identifier":  "middle-earth",
+        "name":  "Middle-earth",
+        "translations":  [
+                             1357,
+                             1358
+                         ],
+        "settings":  [
+                         1100,
+                         1101,
+                         1102
+                     ]
+    },
+    {
+        "id":  "d1347d6f-5bf4-4856-a6a5-06a0c019b214",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.259Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.360Z",
+        "identifier":  "runecairn",
+        "name":  "Runecairn",
+        "translations":  [
+                             1361,
+                             1362
+                         ],
+        "settings":  [
+                         1104
+                     ]
+    },
+    {
+        "id":  "186c8cb6-8bd9-4d3d-9c2b-9cb4bbd39531",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.342Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.472Z",
+        "identifier":  "dinowest",
+        "name":  "Dinowest",
+        "translations":  [
+                             1363,
+                             1364
+                         ],
+        "settings":  [
+                         1105
+                     ]
+    },
+    {
+        "id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.417Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.601Z",
+        "identifier":  "legend-of-the-five-rings",
+        "name":  "Legend of the Five Rings",
+        "translations":  [
+                             1365,
+                             1366
+                         ],
+        "settings":  [
+                         1106
+                     ]
+    },
+    {
+        "id":  "e817a51d-7e96-4cc4-bc25-30cbd0298756",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.494Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.722Z",
+        "identifier":  "root",
+        "name":  "Root",
+        "translations":  [
+                             1367,
+                             1368
+                         ],
+        "settings":  [
+                         1107
+                     ]
+    },
+    {
+        "id":  "0caf3e36-b974-490a-b1dd-4a6312238f5b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.573Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.823Z",
+        "identifier":  "scheherazade",
+        "name":  "Scheherazade",
+        "translations":  [
+                             1369,
+                             1370
+                         ],
+        "settings":  [
+                         1108
+                     ]
+    },
+    {
+        "id":  "8a540ea6-52f3-49af-94e8-6fff752a73c0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.654Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.044Z",
+        "identifier":  "cy-borg",
+        "name":  "CY_BORG",
+        "translations":  [
+                             1371,
+                             1372
+                         ],
+        "settings":  [
+                         1109
+                     ]
+    },
+    {
+        "id":  "086d2de9-cf5b-4d49-b6f7-72ca94bfa633",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.817Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.256Z",
+        "identifier":  "broken-compass",
+        "name":  "Broken Compass",
+        "translations":  [
+                             1375,
+                             1376
+                         ],
+        "settings":  [
+                         1111
+                     ]
+    },
+    {
+        "id":  "9be53c0c-25ba-4850-91fc-ff4f8e287efa",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.895Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.381Z",
+        "identifier":  "la-puerta-de-ishtar",
+        "name":  "La Puerta de Ishtar",
+        "translations":  [
+                             1377,
+                             1378
+                         ],
+        "settings":  [
+                         1112
+                     ]
+    },
+    {
+        "id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.972Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.533Z",
+        "identifier":  "ragnarok",
+        "name":  "Ragnarok",
+        "translations":  [
+                             1379,
+                             1380
+                         ],
+        "settings":  [
+                         1113
+                     ]
+    },
+    {
+        "id":  "c10add26-3089-48ec-bcea-e656abf8e7af",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.044Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.642Z",
+        "identifier":  "yggdrasill",
+        "name":  "Yggdrasill",
+        "translations":  [
+                             1381,
+                             1382
+                         ],
+        "settings":  [
+                         1114
+                     ]
+    },
+    {
+        "id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.211Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.871Z",
+        "identifier":  "warhammer-40000",
+        "name":  "Warhammer 40,000",
+        "translations":  [
+                             1385,
+                             1386
+                         ],
+        "settings":  [
+                         1116,
+                         1117,
+                         1118,
+                         1119,
+                         1120,
+                         1121
+                     ]
+    },
+    {
+        "id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.375Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.041Z",
+        "identifier":  "warhammer-fantasy",
+        "name":  "Warhammer Fantasy",
+        "translations":  [
+                             1387,
+                             1388
+                         ],
+        "settings":  [
+                         1122
+                     ]
+    },
+    {
+        "id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.460Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.167Z",
+        "identifier":  "savage-worlds",
+        "name":  "Savage Worlds",
+        "translations":  [
+                             1389,
+                             1390
+                         ],
+        "settings":  [
+                         1123
+                     ]
+    },
+    {
+        "id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.536Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.285Z",
+        "identifier":  "deadlands",
+        "name":  "Deadlands",
+        "translations":  [
+                             1391,
+                             1392
+                         ],
+        "settings":  [
+                         1124,
+                         1125,
+                         1126
+                     ]
+    },
+    {
+        "id":  "3e76b63c-801b-41d8-8e20-c2803459a6cb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.694Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.536Z",
+        "identifier":  "cuervos-de-asgard-motor-club",
+        "name":  "Cuervos de Asgard Motor Club",
+        "translations":  [
+                             1395,
+                             1396
+                         ],
+        "settings":  [
+                         1128
+                     ]
+    },
+    {
+        "id":  "53aaf0d1-de7e-4274-88fa-a189edd5d1ed",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.796Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.651Z",
+        "identifier":  "the-flux",
+        "name":  "The Flux",
+        "translations":  [
+                             1397,
+                             1398
+                         ],
+        "settings":  [
+                         1129
+                     ]
+    },
+    {
+        "id":  "41c9d28d-a5c0-4bc8-a99a-3d450a382e8f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.886Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.763Z",
+        "identifier":  "seapunk-unleashed",
+        "name":  "Seapunk Unleashed",
+        "translations":  [
+                             1399,
+                             1400
+                         ],
+        "settings":  [
+                         1130
+                     ]
+    },
+    {
+        "id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.970Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.880Z",
+        "identifier":  "fiasco",
+        "name":  "Fiasco",
+        "translations":  [
+                             1401,
+                             1402
+                         ],
+        "settings":  [
+                         1131
+                     ]
+    },
+    {
+        "id":  "7db6883d-7526-4506-86d9-31adbbb4f0c5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.137Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.108Z",
+        "identifier":  "apocalypse-world",
+        "name":  "Apocalypse World",
+        "translations":  [
+                             1405,
+                             1406
+                         ],
+        "settings":  [
+                         1133
+                     ]
+    },
+    {
+        "id":  "d51c4f2c-53f8-4701-9022-99d7f8d9baaa",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.241Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.243Z",
+        "identifier":  "bloodheist",
+        "name":  "Bloodheist",
+        "translations":  [
+                             1407,
+                             1408
+                         ],
+        "settings":  [
+                         1134
+                     ]
+    },
+    {
+        "id":  "5c105f76-29e1-415d-9ec5-7d247077dbbb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.330Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.357Z",
+        "identifier":  "ink",
+        "name":  "Ink",
+        "translations":  [
+                             1409,
+                             1410
+                         ],
+        "settings":  [
+                         1135
+                     ]
+    },
+    {
+        "id":  "0176199c-18c1-4843-8906-16179e2fe2ee",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.509Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.583Z",
+        "identifier":  "caucho-y-cromo",
+        "name":  "Rubber \u0026 Chrome",
+        "translations":  [
+                             1413,
+                             1414
+                         ],
+        "settings":  [
+                         1137
+                     ]
+    },
+    {
+        "id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.601Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.710Z",
+        "identifier":  "witchcraft",
+        "name":  "WitchCraft",
+        "translations":  [
+                             1415,
+                             1416
+                         ],
+        "settings":  [
+                         1138,
+                         1139
+                     ]
+    },
+    {
+        "id":  "9878ae4a-0e77-4db8-b68b-41cae662685b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.692Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.843Z",
+        "identifier":  "maho-shojo",
+        "name":  "Mahō Shōjo",
+        "translations":  [
+                             1417,
+                             1418
+                         ],
+        "settings":  [
+                         1140
+                     ]
+    },
+    {
+        "id":  "feec719a-77a5-4b69-b915-649a559eb309",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.794Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.949Z",
+        "identifier":  "runequest",
+        "name":  "RuneQuest",
+        "translations":  [
+                             1419,
+                             1420
+                         ],
+        "settings":  [
+                         1141
+                     ]
+    },
+    {
+        "id":  "b0436176-6e9a-4b9f-a4e6-f0d22c2fa0a8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.880Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.061Z",
+        "identifier":  "dungeon-world",
+        "name":  "Dungeon World",
+        "translations":  [
+                             1421,
+                             1422
+                         ],
+        "settings":  [
+                         1142
+                     ]
+    },
+    {
+        "id":  "8827fb6f-47f1-44ff-84fa-73d9f32d50e6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.063Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.312Z",
+        "identifier":  "old-school-essentials",
+        "name":  "Old-School Essentials",
+        "translations":  [
+                             1425,
+                             1426
+                         ],
+        "settings":  [
+                         1144
+                     ]
+    },
+    {
+        "id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.149Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.444Z",
+        "identifier":  "ars-magica",
+        "name":  "Ars Magica",
+        "translations":  [
+                             1427,
+                             1428
+                         ],
+        "settings":  [
+                         1145
+                     ]
+    },
+    {
+        "id":  "724dee89-b375-4050-9bef-736ae0fb14ac",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.236Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.568Z",
+        "identifier":  "the-dresden-files",
+        "name":  "The Dresden Files",
+        "translations":  [
+                             1429,
+                             1430
+                         ],
+        "settings":  [
+                         1146
+                     ]
+    },
+    {
+        "id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.318Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.673Z",
+        "identifier":  "fate",
+        "name":  "Fate",
+        "translations":  [
+                             1431,
+                             1432
+                         ],
+        "settings":  [
+                         1147
+                     ]
+    },
+    {
+        "id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.412Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.857Z",
+        "identifier":  "star-trek",
+        "name":  "Star Trek",
+        "translations":  [
+                             1435,
+                             1436
+                         ],
+        "settings":  [
+                         1149,
+                         1150,
+                         1151,
+                         1152,
+                         1153,
+                         1154
+                     ]
+    },
+    {
+        "id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.595Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.112Z",
+        "identifier":  "kult",
+        "name":  "Kult",
+        "translations":  [
+                             1439,
+                             1440
+                         ],
+        "settings":  [
+                         1156
+                     ]
+    },
+    {
+        "id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.675Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.224Z",
+        "identifier":  "aquelarre",
+        "name":  "Aquelarre",
+        "translations":  [
+                             1441,
+                             1442
+                         ],
+        "settings":  [
+                         1157
+                     ]
+    },
+    {
+        "id":  "519f5f04-8426-465a-9d2e-59ccf37c7ce8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.764Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.317Z",
+        "identifier":  "the-dee-sanction",
+        "name":  "The Dee Sanction",
+        "translations":  [
+                             1443,
+                             1444
+                         ],
+        "settings":  [
+                         1158
+                     ]
+    },
+    {
+        "id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.854Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.423Z",
+        "identifier":  "shadowrun",
+        "name":  "Shadowrun",
+        "translations":  [
+                             1445,
+                             1446
+                         ],
+        "settings":  [
+                         1159
+                     ]
+    },
+    {
+        "id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.039Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.654Z",
+        "identifier":  "gurps",
+        "name":  "GURPS",
+        "translations":  [
+                             1449,
+                             1450
+                         ],
+        "settings":  [
+                         1164
+                     ]
+    },
+    {
+        "id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.120Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.764Z",
+        "identifier":  "kids-on-bikes",
+        "name":  "Kids on Bikes",
+        "translations":  [
+                             1451,
+                             1452
+                         ],
+        "settings":  [
+                         1165
+                     ]
+    },
+    {
+        "id":  "252a730d-eb9f-47b0-bd47-01e237d80390",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.203Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.866Z",
+        "identifier":  "alien",
+        "name":  "Alien",
+        "translations":  [
+                             1453,
+                             1454
+                         ],
+        "settings":  [
+                         1166
+                     ]
+    },
+    {
+        "id":  "a72e349f-ad3c-437b-a70d-e4e9fb283ca4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.384Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.100Z",
+        "identifier":  "vaesen",
+        "name":  "Vaesen",
+        "translations":  [
+                             1457,
+                             1458
+                         ],
+        "settings":  [
+                         1168
+                     ]
+    },
+    {
+        "id":  "6118d5e6-3722-4f30-91a9-642edb170329",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.466Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.204Z",
+        "identifier":  "forbidden-lands",
+        "name":  "Forbidden Lands",
+        "translations":  [
+                             1459,
+                             1460
+                         ],
+        "settings":  [
+                         1169
+                     ]
+    },
+    {
+        "id":  "7dbb513a-ef32-41d8-8d6a-679e41f1ef09",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.553Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.319Z",
+        "identifier":  "the-walking-dead",
+        "name":  "The Walking Dead",
+        "translations":  [
+                             1461,
+                             1462
+                         ],
+        "settings":  [
+                         1170
+                     ]
+    },
+    {
+        "id":  "f85cfaf5-901a-46f1-afc8-fb611c8b312b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.640Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.427Z",
+        "identifier":  "tales-from-the-loop",
+        "name":  "Tales from the Loop",
+        "translations":  [
+                             1463,
+                             1464
+                         ],
+        "settings":  [
+                         1171
+                     ]
+    },
+    {
+        "id":  "c9e77770-b16e-4da0-bcd5-fe51549c2af0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.733Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.541Z",
+        "identifier":  "blade-runner",
+        "name":  "Blade Runner",
+        "translations":  [
+                             1465,
+                             1466
+                         ],
+        "settings":  [
+                         1172
+                     ]
+    },
+    {
+        "id":  "55b9ed93-299e-4153-ac23-18eaf23cd63c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.814Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.658Z",
+        "identifier":  "genesys",
+        "name":  "Genesys",
+        "translations":  [
+                             1467,
+                             1468
+                         ],
+        "settings":  [
+                         1173
+                     ]
+    },
+    {
+        "id":  "befd33b8-79b6-4dca-83af-1d62499b0f2d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.016Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.926Z",
+        "identifier":  "candela-obscura",
+        "name":  "Candela Obscura",
+        "translations":  [
+                             1471,
+                             1472
+                         ],
+        "settings":  [
+                         1181
+                     ]
+    },
+    {
+        "id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.054Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:08.908Z",
+        "identifier":  "starfinder",
+        "name":  "Starfinder",
+        "translations":  [
+                             1339,
+                             1340
+                         ],
+        "settings":  [
+                         1073,
+                         1074,
+                         1075,
+                         1076,
+                         1077,
+                         1078,
+                         1079,
+                         1080
+                     ]
+    },
+    {
+        "id":  "77c18eab-b29b-426e-ab44-35db8a65eab4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.254Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.224Z",
+        "identifier":  "horror-movie-world",
+        "name":  "Horror Movie World",
+        "translations":  [
+                             1343,
+                             1344
+                         ],
+        "settings":  [
+                         1082
+                     ]
+    },
+    {
+        "id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.329Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.342Z",
+        "identifier":  "star-wars",
+        "name":  "Star Wars",
+        "translations":  [
+                             1345,
+                             1346
+                         ],
+        "settings":  [
+                         1083,
+                         1084,
+                         1085,
+                         1086
+                     ]
+    },
+    {
+        "id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.421Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.505Z",
+        "identifier":  "dungeons-and-dragons",
+        "name":  "Dungeons \u0026 Dragons",
+        "translations":  [
+                             1347,
+                             1348
+                         ],
+        "settings":  [
+                         1087,
+                         1088,
+                         1089,
+                         1090,
+                         1091,
+                         1092,
+                         1093,
+                         1094,
+                         1095
+                     ]
+    },
+    {
+        "id":  "bc5adf19-d41f-4741-b6a3-3a82613d815a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.629Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.690Z",
+        "identifier":  "ablaneda",
+        "name":  "Ablaneda",
+        "translations":  [
+                             1349,
+                             1350
+                         ],
+        "settings":  [
+                         1096
+                     ]
+    },
+    {
+        "id":  "6ee263fd-e9ae-4edf-b1c8-84f2adbfbc55",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.729Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.945Z",
+        "identifier":  "inocentes",
+        "name":  "Inocentes",
+        "translations":  [
+                             1485,
+                             1486
+                         ],
+        "settings":  [
+                         1189
+                     ]
+    },
+    {
+        "id":  "6f383bc2-c8ea-4fa6-b0e9-66ddb9b0a5f5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.823Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.084Z",
+        "identifier":  "tierras-quebradas",
+        "name":  "Tierras Quebradas",
+        "translations":  [
+                             1487,
+                             1488
+                         ],
+        "settings":  [
+                         1190
+                     ]
+    },
+    {
+        "id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.907Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.211Z",
+        "identifier":  "wushu",
+        "name":  "Wushu",
+        "translations":  [
+                             1489,
+                             1490
+                         ],
+        "settings":  [
+                         1191
+                     ]
+    },
+    {
+        "id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.989Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.328Z",
+        "identifier":  "feng-shui",
+        "name":  "Feng Shui",
+        "translations":  [
+                             1491,
+                             1492
+                         ],
+        "settings":  [
+                         1192
+                     ]
+    },
+    {
+        "id":  "4cc7786c-19e6-4455-a58a-7b2bb651a1fd",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.087Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.444Z",
+        "identifier":  "reflejo",
+        "name":  "Reflejo",
+        "translations":  [
+                             1493,
+                             1494
+                         ],
+        "settings":  [
+                         1193
+                     ]
+    },
+    {
+        "id":  "285de6ac-d5c8-48aa-bec9-cd3150e31a32",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.162Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.553Z",
+        "identifier":  "fragmentos",
+        "name":  "Fragmentos",
+        "translations":  [
+                             1495,
+                             1496
+                         ],
+        "settings":  [
+                         1194
+                     ]
+    },
+    {
+        "id":  "a594b4fa-e492-490b-a0a3-c0d9b0f6bdd3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.248Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.660Z",
+        "identifier":  "blood-and-honor",
+        "name":  "Blood \u0026 Honor",
+        "translations":  [
+                             1497,
+                             1498
+                         ],
+        "settings":  [
+                         1195
+                     ]
+    },
+    {
+        "id":  "75a51dcb-a795-4587-bf71-d0535f101135",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.334Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.770Z",
+        "identifier":  "liminal",
+        "name":  "Liminal",
+        "translations":  [
+                             1499,
+                             1500
+                         ],
+        "settings":  [
+                         1196
+                     ]
+    },
+    {
+        "id":  "b3466ee7-9d69-438d-a7e8-2883264c1bdb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.428Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.866Z",
+        "identifier":  "broken-tales",
+        "name":  "Broken Tales",
+        "translations":  [
+                             1501,
+                             1502
+                         ],
+        "settings":  [
+                         1197
+                     ]
+    },
+    {
+        "id":  "849876aa-ce43-46f9-ab1c-7dbc0c411011",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.681Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:18.965Z",
+        "identifier":  "viking-death-squad",
+        "name":  "Viking Death Squad",
+        "translations":  [
+                             1503,
+                             1504
+                         ],
+        "settings":  [
+                         1198
+                     ]
+    },
+    {
+        "id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.772Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.082Z",
+        "identifier":  "trophy",
+        "name":  "Trophy",
+        "translations":  [
+                             1505,
+                             1506
+                         ],
+        "settings":  [
+                         1199
+                     ]
+    },
+    {
+        "id":  "6d790f58-41cb-43de-92b8-ab796dbbc2cf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.858Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.182Z",
+        "identifier":  "shinobigami",
+        "name":  "Shinobigami",
+        "translations":  [
+                             1507,
+                             1508
+                         ],
+        "settings":  [
+                         1200
+                     ]
+    },
+    {
+        "id":  "e256c1e9-e8b7-461f-a19a-e527d1902243",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:09.943Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.283Z",
+        "identifier":  "castle-falkenstein",
+        "name":  "Castle Falkenstein",
+        "translations":  [
+                             1509,
+                             1510
+                         ],
+        "settings":  [
+                         1201
+                     ]
+    },
+    {
+        "id":  "3a8898bf-788b-40ac-bc44-89bf03f37481",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.036Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.381Z",
+        "identifier":  "yuuyake-koyake",
+        "name":  "Golden Sky Stories",
+        "translations":  [
+                             1511,
+                             1512
+                         ],
+        "settings":  [
+                         1202
+                     ]
+    },
+    {
+        "id":  "2dfff4c6-6608-4c7c-aa33-e1c37a51e01e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.134Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.499Z",
+        "identifier":  "8-tesoros",
+        "name":  "8 Tesoros",
+        "translations":  [
+                             1513,
+                             1514
+                         ],
+        "settings":  [
+                         1203
+                     ]
+    },
+    {
+        "id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.231Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.617Z",
+        "identifier":  "dyss-mitica",
+        "name":  "Dyss Mítica",
+        "translations":  [
+                             1515,
+                             1516
+                         ],
+        "settings":  [
+                         1204,
+                         1205
+                     ]
+    },
+    {
+        "id":  "6e3172d1-ef06-41ef-a917-e28d696fa5ef",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.340Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.722Z",
+        "identifier":  "mausritter",
+        "name":  "Mausritter",
+        "translations":  [
+                             1517,
+                             1518
+                         ],
+        "settings":  [
+                         1206
+                     ]
+    },
+    {
+        "id":  "f321b101-6dae-4c2a-ad3f-02ba13e5d656",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.413Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.835Z",
+        "identifier":  "blacksad",
+        "name":  "Blacksad",
+        "translations":  [
+                             1519,
+                             1520
+                         ],
+        "settings":  [
+                         1207
+                     ]
+    },
+    {
+        "id":  "7db008ac-0320-45b4-8f4c-4d52d7bc0e57",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.495Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:19.952Z",
+        "identifier":  "fanhunter",
+        "name":  "Fanhunter",
+        "translations":  [
+                             1521,
+                             1522
+                         ],
+        "settings":  [
+                         1208
+                     ]
+    },
+    {
+        "id":  "8751adb3-cbc4-4d67-bb26-f5065c5910c7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.570Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.052Z",
+        "identifier":  "monsterhearts",
+        "name":  "Monsterhearts",
+        "translations":  [
+                             1523,
+                             1524
+                         ],
+        "settings":  [
+                         1209
+                     ]
+    },
+    {
+        "id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.659Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.166Z",
+        "identifier":  "avatar",
+        "name":  "Avatar",
+        "translations":  [
+                             1525,
+                             1526
+                         ],
+        "settings":  [
+                         1210,
+                         1211,
+                         1212
+                     ]
+    },
+    {
+        "id":  "c226b502-bfd7-4ad6-b86f-850ded56bf37",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.758Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.301Z",
+        "identifier":  "honey-heist",
+        "name":  "Honey Heist",
+        "translations":  [
+                             1527,
+                             1528
+                         ],
+        "settings":  [
+                         1213
+                     ]
+    },
+    {
+        "id":  "d6cef9ab-08b0-4ee4-a53d-5748217ca357",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.849Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.402Z",
+        "identifier":  "hero-kids",
+        "name":  "Hero Kids",
+        "translations":  [
+                             1529,
+                             1530
+                         ],
+        "settings":  [
+                         1214
+                     ]
+    },
+    {
+        "id":  "674555a5-8ece-4ad9-9b9b-68fc7740a85b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:10.927Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.520Z",
+        "identifier":  "contratiempos",
+        "name":  "Contratiempos",
+        "translations":  [
+                             1531,
+                             1532
+                         ],
+        "settings":  [
+                         1215
+                     ]
+    },
+    {
+        "id":  "31f62d11-d682-42ed-8686-c3ae02581940",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.007Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.663Z",
+        "identifier":  "dune",
+        "name":  "Dune",
+        "translations":  [
+                             1533,
+                             1534
+                         ],
+        "settings":  [
+                         1216
+                     ]
+    },
+    {
+        "id":  "3aede0ce-ab2e-48fc-a624-b1f59cf5b2ae",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.096Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.772Z",
+        "identifier":  "the-troubleshooters",
+        "name":  "The Troubleshooters",
+        "translations":  [
+                             1535,
+                             1536
+                         ],
+        "settings":  [
+                         1217
+                     ]
+    },
+    {
+        "id":  "0db3de87-56ad-4632-a555-416d87dc0ce7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.177Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:20.914Z",
+        "identifier":  "cosmere",
+        "name":  "Cosmere",
+        "translations":  [
+                             1537,
+                             1538
+                         ],
+        "settings":  [
+                         1218
+                     ]
+    },
+    {
+        "id":  "d6f2188b-7e57-40d2-acd0-9d0f674b1ebf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.269Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.034Z",
+        "identifier":  "brindlewood-bay",
+        "name":  "Brindlewood Bay",
+        "translations":  [
+                             1539,
+                             1540
+                         ],
+        "settings":  [
+                         1219
+                     ]
+    },
+    {
+        "id":  "bd6dc38b-849e-48eb-8272-34a3df11979d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.356Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.161Z",
+        "identifier":  "dragonbane",
+        "name":  "Dragonbane",
+        "translations":  [
+                             1541,
+                             1542
+                         ],
+        "settings":  [
+                         1220
+                     ]
+    },
+    {
+        "id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.437Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.284Z",
+        "identifier":  "chronicles-of-darkness",
+        "name":  "Chronicles of Darkness",
+        "translations":  [
+                             1543,
+                             1544
+                         ],
+        "settings":  [
+                         1221,
+                         1222
+                     ]
+    },
+    {
+        "id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.507Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.421Z",
+        "identifier":  "world-of-darkness",
+        "name":  "World of Darkness",
+        "translations":  [
+                             1545,
+                             1546
+                         ],
+        "settings":  [
+                         1223,
+                         1224,
+                         1225,
+                         1226
+                     ]
+    },
+    {
+        "id":  "3e183dec-44eb-4a7b-b90a-9923da9b7a30",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.655Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.670Z",
+        "identifier":  "nights-black-agents",
+        "name":  "Night\u0027s Black Agents",
+        "translations":  [
+                             1549,
+                             1550
+                         ],
+        "settings":  [
+                         1228
+                     ]
+    },
+    {
+        "id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.729Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.811Z",
+        "identifier":  "outer-dark",
+        "name":  "Outer Dark",
+        "translations":  [
+                             1551,
+                             1552
+                         ],
+        "settings":  [
+                         1229
+                     ]
+    },
+    {
+        "id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.808Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.927Z",
+        "identifier":  "cthulhu-mythos",
+        "name":  "The Cthulhu Mythos",
+        "translations":  [
+                             1553,
+                             1554
+                         ],
+        "settings":  [
+                         1230,
+                         1231,
+                         1232,
+                         1233,
+                         1234,
+                         1235,
+                         1236,
+                         1237,
+                         1238,
+                         1239,
+                         1240,
+                         1241,
+                         1242
+                     ]
+    },
+    {
+        "id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:01.932Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:08.700Z",
+        "identifier":  "pathfinder",
+        "name":  "Pathfinder",
+        "translations":  [
+                             1337,
+                             1338
+                         ],
+        "settings":  [
+                         1065,
+                         1066,
+                         1067,
+                         1068,
+                         1069,
+                         1070,
+                         1071,
+                         1072
+                     ]
+    },
+    {
+        "id":  "a63d5a04-56dd-462e-a04c-7ba50f12020d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.172Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.119Z",
+        "identifier":  "hitos",
+        "name":  "Hitos",
+        "translations":  [
+                             1341,
+                             1342
+                         ],
+        "settings":  [
+                         1081
+                     ]
+    },
+    {
+        "id":  "4a7e04f3-290c-4fee-9fd5-6bd3c7eeabfa",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:02.808Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:09.792Z",
+        "identifier":  "ryuutama",
+        "name":  "Ryuutama",
+        "translations":  [
+                             1351,
+                             1352
+                         ],
+        "settings":  [
+                         1097
+                     ]
+    },
+    {
+        "id":  "6193e392-ac9f-4ad7-a8a1-df870c8672f8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.171Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:10.240Z",
+        "identifier":  "perils-and-princesses",
+        "name":  "Perils \u0026 Princesses",
+        "translations":  [
+                             1359,
+                             1360
+                         ],
+        "settings":  [
+                         1103
+                     ]
+    },
+    {
+        "id":  "20110ae5-a016-4850-bb4c-f5a4ba769bee",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:03.735Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.148Z",
+        "identifier":  "mork-borg",
+        "name":  "Mörk Borg",
+        "translations":  [
+                             1373,
+                             1374
+                         ],
+        "settings":  [
+                         1110
+                     ]
+    },
+    {
+        "id":  "a9fbc613-4893-47d5-8aad-cff49420ca7f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.133Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:11.751Z",
+        "identifier":  "luna-roja",
+        "name":  "Luna Roja",
+        "translations":  [
+                             1383,
+                             1384
+                         ],
+        "settings":  [
+                         1115
+                     ]
+    },
+    {
+        "id":  "cb87de6d-a78c-48f8-bd16-23cb319ffd19",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:04.620Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.426Z",
+        "identifier":  "zombicide",
+        "name":  "Zombicide",
+        "translations":  [
+                             1393,
+                             1394
+                         ],
+        "settings":  [
+                         1127
+                     ]
+    },
+    {
+        "id":  "8c21acb2-9c3e-4eb2-9595-2ba3201b8fe6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.051Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:12.989Z",
+        "identifier":  "pendragon",
+        "name":  "Pendragon",
+        "translations":  [
+                             1403,
+                             1404
+                         ],
+        "settings":  [
+                         1132
+                     ]
+    },
+    {
+        "id":  "22eb008e-73b1-4b46-89b8-1023329c3adf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.431Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:13.466Z",
+        "identifier":  "dracula-vs-hitler",
+        "name":  "Dracula vs Hitler",
+        "translations":  [
+                             1411,
+                             1412
+                         ],
+        "settings":  [
+                         1136
+                     ]
+    },
+    {
+        "id":  "da9da762-1e6f-422b-b49d-4db676a5ca00",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:05.965Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.179Z",
+        "identifier":  "dungeon-crawl-classics",
+        "name":  "Dungeon Crawl Classics",
+        "translations":  [
+                             1423,
+                             1424
+                         ],
+        "settings":  [
+                         1143
+                     ]
+    },
+    {
+        "id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.511Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:14.992Z",
+        "identifier":  "7th-sea",
+        "name":  "7th Sea",
+        "translations":  [
+                             1437,
+                             1438
+                         ],
+        "settings":  [
+                         1155
+                     ]
+    },
+    {
+        "id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:06.947Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.522Z",
+        "identifier":  "cyberpunk",
+        "name":  "Cyberpunk",
+        "translations":  [
+                             1447,
+                             1448
+                         ],
+        "settings":  [
+                         1160,
+                         1161,
+                         1162,
+                         1163
+                     ]
+    },
+    {
+        "id":  "5c7ec17e-a968-4a4b-aaf5-678b7d9ebd1c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.286Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:15.977Z",
+        "identifier":  "mutant-year-zero",
+        "name":  "Mutant: Year Zero",
+        "translations":  [
+                             1455,
+                             1456
+                         ],
+        "settings":  [
+                         1167
+                     ]
+    },
+    {
+        "id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:07.889Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:16.765Z",
+        "identifier":  "daggerheart",
+        "name":  "Daggerheart",
+        "translations":  [
+                             1469,
+                             1470
+                         ],
+        "settings":  [
+                         1174,
+                         1175,
+                         1176,
+                         1177,
+                         1178,
+                         1179,
+                         1180
+                     ]
+    },
+    {
+        "id":  "7c41f54c-c2ac-44b4-a8f5-6e465e90a97f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.118Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.036Z",
+        "identifier":  "scurry",
+        "name":  "Scurry",
+        "translations":  [
+                             1473,
+                             1474
+                         ],
+        "settings":  [
+                         1182
+                     ]
+    },
+    {
+        "id":  "b96b6a26-5dcb-4a64-80a6-fbbfffec3ca9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.350Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.282Z",
+        "identifier":  "robotta",
+        "name":  "Robotta",
+        "translations":  [
+                             1477,
+                             1478
+                         ],
+        "settings":  [
+                         1184
+                     ]
+    },
+    {
+        "id":  "eadea0bd-f205-4c69-90f3-c636531b7eee",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.432Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.538Z",
+        "identifier":  "hardboiled",
+        "name":  "Hardboiled",
+        "translations":  [
+                             1479,
+                             1480
+                         ],
+        "settings":  [
+                         1185
+                     ]
+    },
+    {
+        "id":  "1be26ca4-9581-4f97-b153-d09cf9f0fa27",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.531Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.718Z",
+        "identifier":  "musu-musu-musume",
+        "name":  "Musu-Musu-Musume?!",
+        "translations":  [
+                             1481,
+                             1482
+                         ],
+        "settings":  [
+                         1186
+                     ]
+    },
+    {
+        "id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.628Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.832Z",
+        "identifier":  "campeones",
+        "name":  "Campeones",
+        "translations":  [
+                             1483,
+                             1484
+                         ],
+        "settings":  [
+                         1187,
+                         1188
+                     ]
+    },
+    {
+        "id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:14.778Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "paranoia",
+        "name":  "Paranoia",
+        "translations":  [
+                             1433,
+                             1434
+                         ],
+        "settings":  [
+                         1148
+                     ]
+    },
+    {
+        "id":  "0711689b-dd66-49a9-b3bf-216aec1d608b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:08.235Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:17.158Z",
+        "identifier":  "misery-and-misfortune",
+        "name":  "Misery and Misfortune",
+        "translations":  [
+                             1475,
+                             1476
+                         ],
+        "settings":  [
+                         1183
+                     ]
+    },
+    {
+        "id":  "1b37af7c-9b43-494c-91ad-dc0f287d0f34",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:15:11.579Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:51:21.563Z",
+        "identifier":  "swords-of-the-serpentine",
+        "name":  "Swords of the Serpentine",
+        "translations":  [
+                             1547,
+                             1548
+                         ],
+        "settings":  [
+                         1227
+                     ]
+    }
+]

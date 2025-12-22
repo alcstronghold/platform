@@ -1,0 +1,3919 @@
+﻿[
+    {
+        "id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:02.756Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.452Z",
+        "identifier":  "ustalav",
+        "name":  "Ustalav (Immortal Principalities)",
+        "translations":  [
+                             693,
+                             694
+                         ],
+        "genres":  [
+                       1662,
+                       1663,
+                       1664,
+                       1665,
+                       1666,
+                       1667,
+                       1668
+                   ]
+    },
+    {
+        "id":  "6a724e86-8365-497e-a378-9bcd28e13f5b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:02.889Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.628Z",
+        "identifier":  "numeria",
+        "name":  "Numeria (Land of Fallen Stars)",
+        "translations":  [
+                             695,
+                             696
+                         ],
+        "genres":  [
+                       1669,
+                       1670,
+                       1671,
+                       1672
+                   ]
+    },
+    {
+        "id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:02.989Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.780Z",
+        "identifier":  "osirion",
+        "name":  "Osirion (Land of Pharaohs)",
+        "translations":  [
+                             697,
+                             698
+                         ],
+        "genres":  [
+                       1673,
+                       1674,
+                       1675,
+                       1676
+                   ]
+    },
+    {
+        "id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.209Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.082Z",
+        "identifier":  "worldwound",
+        "name":  "The Worldwound",
+        "translations":  [
+                             701,
+                             702
+                         ],
+        "genres":  [
+                       1682,
+                       1683,
+                       1684,
+                       1685
+                   ]
+    },
+    {
+        "id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.307Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.214Z",
+        "identifier":  "darklands",
+        "name":  "The Darklands",
+        "translations":  [
+                             703,
+                             704
+                         ],
+        "genres":  [
+                       1686,
+                       1687,
+                       1688,
+                       1689
+                   ]
+    },
+    {
+        "id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.412Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.352Z",
+        "identifier":  "alkenstar-mana-wastes",
+        "name":  "Alkenstar \u0026 Mana Wastes",
+        "translations":  [
+                             705,
+                             706
+                         ],
+        "genres":  [
+                       1690,
+                       1691,
+                       1692,
+                       1693
+                   ]
+    },
+    {
+        "id":  "e1c548cb-32fe-4071-ae87-8d48a0511330",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.522Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.475Z",
+        "identifier":  "pact-worlds-system",
+        "name":  "The Pact Worlds",
+        "translations":  [
+                             707,
+                             708
+                         ],
+        "genres":  [
+                       1694,
+                       1695,
+                       1696,
+                       1697
+                   ]
+    },
+    {
+        "id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.632Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.599Z",
+        "identifier":  "absalom-station",
+        "name":  "Absalom Station",
+        "translations":  [
+                             709,
+                             710
+                         ],
+        "genres":  [
+                       1698,
+                       1699,
+                       1700,
+                       1701,
+                       1702,
+                       1703
+                   ]
+    },
+    {
+        "id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.869Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.886Z",
+        "identifier":  "eox",
+        "name":  "Eox",
+        "translations":  [
+                             713,
+                             714
+                         ],
+        "genres":  [
+                       1709,
+                       1710,
+                       1711,
+                       1712,
+                       1713
+                   ]
+    },
+    {
+        "id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.990Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.103Z",
+        "identifier":  "the-diaspora",
+        "name":  "The Diaspora",
+        "translations":  [
+                             715,
+                             716
+                         ],
+        "genres":  [
+                       1714,
+                       1715,
+                       1716,
+                       1717
+                   ]
+    },
+    {
+        "id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.097Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.284Z",
+        "identifier":  "the-vast",
+        "name":  "The Vast",
+        "translations":  [
+                             717,
+                             718
+                         ],
+        "genres":  [
+                       1718,
+                       1719,
+                       1720,
+                       1721
+                   ]
+    },
+    {
+        "id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.209Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.413Z",
+        "identifier":  "aucturn",
+        "name":  "Aucturn",
+        "translations":  [
+                             719,
+                             720
+                         ],
+        "genres":  [
+                       1722,
+                       1723,
+                       1724,
+                       1725
+                   ]
+    },
+    {
+        "id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.420Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.659Z",
+        "identifier":  "horror-movie-setting",
+        "name":  "Horror Movie Archetypes",
+        "translations":  [
+                             723,
+                             724
+                         ],
+        "genres":  [
+                       1729,
+                       1730,
+                       1731
+                   ]
+    },
+    {
+        "id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.524Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.777Z",
+        "identifier":  "star-wars-galactic-civil-war",
+        "name":  "Galactic Civil War",
+        "translations":  [
+                             725,
+                             726
+                         ],
+        "genres":  [
+                       1732,
+                       1733,
+                       1734,
+                       1735
+                   ]
+    },
+    {
+        "id":  "31316e97-b372-4c65-a2f5-776daa451181",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.802Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.906Z",
+        "identifier":  "star-wars-clone-wars",
+        "name":  "Clone Wars Era",
+        "translations":  [
+                             727,
+                             728
+                         ],
+        "genres":  [
+                       1736,
+                       1737,
+                       1738,
+                       1739
+                   ]
+    },
+    {
+        "id":  "fabfaa01-e732-4ef7-811c-89462171714b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.012Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.188Z",
+        "identifier":  "star-wars-old-republic",
+        "name":  "The Old Republic Era",
+        "translations":  [
+                             731,
+                             732
+                         ],
+        "genres":  [
+                       1745,
+                       1746,
+                       1747,
+                       1748
+                   ]
+    },
+    {
+        "id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.129Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.315Z",
+        "identifier":  "forgotten-realms",
+        "name":  "Forgotten Realms",
+        "translations":  [
+                             733,
+                             734
+                         ],
+        "genres":  [
+                       1749,
+                       1750,
+                       1751
+                   ]
+    },
+    {
+        "id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.222Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.433Z",
+        "identifier":  "ravenloft",
+        "name":  "Ravenloft",
+        "translations":  [
+                             735,
+                             736
+                         ],
+        "genres":  [
+                       1752,
+                       1753,
+                       1754,
+                       1755,
+                       1756
+                   ]
+    },
+    {
+        "id":  "7a569346-dfec-4bc1-954e-eecbe621ed60",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.335Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.565Z",
+        "identifier":  "eberron",
+        "name":  "Eberron",
+        "translations":  [
+                             737,
+                             738
+                         ],
+        "genres":  [
+                       1757,
+                       1758,
+                       1759,
+                       1760,
+                       1761
+                   ]
+    },
+    {
+        "id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.448Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.700Z",
+        "identifier":  "dark-sun",
+        "name":  "Dark Sun",
+        "translations":  [
+                             739,
+                             740
+                         ],
+        "genres":  [
+                       1762,
+                       1763,
+                       1764,
+                       1765
+                   ]
+    },
+    {
+        "id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.663Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.934Z",
+        "identifier":  "greyhawk",
+        "name":  "Greyhawk",
+        "translations":  [
+                             743,
+                             744
+                         ],
+        "genres":  [
+                       1769,
+                       1770,
+                       1771
+                   ]
+    },
+    {
+        "id":  "cfbb8a99-227d-41a2-b927-1571a36c5472",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.752Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.051Z",
+        "identifier":  "planescape",
+        "name":  "Planescape",
+        "translations":  [
+                             745,
+                             746
+                         ],
+        "genres":  [
+                       1772,
+                       1773,
+                       1774
+                   ]
+    },
+    {
+        "id":  "6f270c4a-64ee-496e-975c-7476dcefaa97",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.842Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.169Z",
+        "identifier":  "spelljammer",
+        "name":  "Spelljammer",
+        "translations":  [
+                             747,
+                             748
+                         ],
+        "genres":  [
+                       1775,
+                       1776,
+                       1777
+                   ]
+    },
+    {
+        "id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.032Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.406Z",
+        "identifier":  "ablaneda-setting",
+        "name":  "The County of Ablaneda",
+        "translations":  [
+                             751,
+                             752
+                         ],
+        "genres":  [
+                       1783,
+                       1784,
+                       1785,
+                       1786,
+                       1787
+                   ]
+    },
+    {
+        "id":  "7d7cb667-764e-4b6a-a786-890c58e1876e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.134Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.532Z",
+        "identifier":  "ryuutama-setting",
+        "name":  "The World of Ryuutama",
+        "translations":  [
+                             753,
+                             754
+                         ],
+        "genres":  [
+                       1788,
+                       1789,
+                       1790,
+                       1791,
+                       1792
+                   ]
+    },
+    {
+        "id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.258Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.663Z",
+        "identifier":  "amazing-tales-setting",
+        "name":  "Amazing Tales Worlds",
+        "translations":  [
+                             755,
+                             756
+                         ],
+        "genres":  [
+                       1793,
+                       1794,
+                       1795,
+                       1796,
+                       1797,
+                       1798
+                   ]
+    },
+    {
+        "id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.369Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.806Z",
+        "identifier":  "untitled-goose-gang-setting",
+        "name":  "Untitled Goose Gang Universe",
+        "translations":  [
+                             757,
+                             758
+                         ],
+        "genres":  [
+                       1799,
+                       1800,
+                       1801,
+                       1802
+                   ]
+    },
+    {
+        "id":  "3be5b535-de67-4c14-bb4b-897987a2a208",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.468Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.947Z",
+        "identifier":  "middle-earth-third-age",
+        "name":  "Third Age",
+        "translations":  [
+                             759,
+                             760
+                         ],
+        "genres":  [
+                       1803,
+                       1804,
+                       1805,
+                       1806
+                   ]
+    },
+    {
+        "id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.659Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.222Z",
+        "identifier":  "middle-earth-wilderland",
+        "name":  "Wilderland (Rhovanion)",
+        "translations":  [
+                             763,
+                             764
+                         ],
+        "genres":  [
+                       1812,
+                       1813,
+                       1814,
+                       1815
+                   ]
+    },
+    {
+        "id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.753Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.354Z",
+        "identifier":  "perils-and-princesses-setting",
+        "name":  "The World of Perils \u0026 Princesses",
+        "translations":  [
+                             765,
+                             766
+                         ],
+        "genres":  [
+                       1816,
+                       1817,
+                       1818,
+                       1819
+                   ]
+    },
+    {
+        "id":  "90d1e39f-9385-4849-866c-7d124314e9f0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.847Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.479Z",
+        "identifier":  "runecairn-nine-realms",
+        "name":  "The Nine Realms (Runecairn)",
+        "translations":  [
+                             767,
+                             768
+                         ],
+        "genres":  [
+                       1820,
+                       1821,
+                       1822,
+                       1823,
+                       1824
+                   ]
+    },
+    {
+        "id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.058Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.802Z",
+        "identifier":  "rokugan-emerald-empire",
+        "name":  "Rokugan (The Emerald Empire)",
+        "translations":  [
+                             771,
+                             772
+                         ],
+        "genres":  [
+                       1829,
+                       1830,
+                       1831,
+                       1832,
+                       1833,
+                       1834
+                   ]
+    },
+    {
+        "id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.188Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.942Z",
+        "identifier":  "root-woodland",
+        "name":  "The Woodland",
+        "translations":  [
+                             773,
+                             774
+                         ],
+        "genres":  [
+                       1835,
+                       1836,
+                       1837,
+                       1838,
+                       1839
+                   ]
+    },
+    {
+        "id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.405Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.275Z",
+        "identifier":  "cy-borg-setting",
+        "name":  "The City of Cy",
+        "translations":  [
+                             777,
+                             778
+                         ],
+        "genres":  [
+                       1845,
+                       1846,
+                       1847,
+                       1848,
+                       1849
+                   ]
+    },
+    {
+        "id":  "64580cf4-bcfd-4642-b335-22272c8dec57",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.508Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.428Z",
+        "identifier":  "mork-borg-dying-world",
+        "name":  "The Dying World",
+        "translations":  [
+                             779,
+                             780
+                         ],
+        "genres":  [
+                       1850,
+                       1851,
+                       1852,
+                       1853,
+                       1854
+                   ]
+    },
+    {
+        "id":  "e40d49e9-b125-4ad2-8760-bf4da854263e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.632Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.574Z",
+        "identifier":  "broken-compass-1999",
+        "name":  "1999",
+        "translations":  [
+                             781,
+                             782
+                         ],
+        "genres":  [
+                       1855,
+                       1856,
+                       1857,
+                       1858
+                   ]
+    },
+    {
+        "id":  "96ed6da8-e745-4fef-8576-d39be00fc82e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.741Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.721Z",
+        "identifier":  "ishtar-empire-akkad",
+        "name":  "The Empire of Akkad",
+        "translations":  [
+                             783,
+                             784
+                         ],
+        "genres":  [
+                       1859,
+                       1860,
+                       1861,
+                       1862,
+                       1863
+                   ]
+    },
+    {
+        "id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.944Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.994Z",
+        "identifier":  "yggdrasill-setting",
+        "name":  "Scandia",
+        "translations":  [
+                             787,
+                             788
+                         ],
+        "genres":  [
+                       1868,
+                       1869,
+                       1870
+                   ]
+    },
+    {
+        "id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.043Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:22.151Z",
+        "identifier":  "luna-roja-kaldu",
+        "name":  "Kâldu",
+        "translations":  [
+                             789,
+                             790
+                         ],
+        "genres":  [
+                       1871,
+                       1872,
+                       1873,
+                       1874
+                   ]
+    },
+    {
+        "id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.139Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:22.284Z",
+        "identifier":  "w40k-macharian-sector",
+        "name":  "Macharian Sector (M42)",
+        "translations":  [
+                             791,
+                             792
+                         ],
+        "genres":  [
+                       1875,
+                       1876,
+                       1877,
+                       1878
+                   ]
+    },
+    {
+        "id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.230Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:22.593Z",
+        "identifier":  "w40k-calixis-sector",
+        "name":  "Calixis Sector (M41)",
+        "translations":  [
+                             793,
+                             794
+                         ],
+        "genres":  [
+                       1879,
+                       1880,
+                       1881,
+                       1882
+                   ]
+    },
+    {
+        "id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.319Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:22.749Z",
+        "identifier":  "w40k-askellon-sector",
+        "name":  "Askellon Sector (M41)",
+        "translations":  [
+                             795,
+                             796
+                         ],
+        "genres":  [
+                       1883,
+                       1884,
+                       1885,
+                       1886
+                   ]
+    },
+    {
+        "id":  "d3f529cc-fc66-4610-9b70-7c848a2af913",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.509Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.030Z",
+        "identifier":  "w40k-jericho-reach",
+        "name":  "Jericho Reach (M41)",
+        "translations":  [
+                             799,
+                             800
+                         ],
+        "genres":  [
+                       1891,
+                       1892,
+                       1893,
+                       1894
+                   ]
+    },
+    {
+        "id":  "0d54edd7-343a-42f6-b68c-437e0bfea511",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.608Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.179Z",
+        "identifier":  "w40k-screaming-vortex",
+        "name":  "Screaming Vortex (M41)",
+        "translations":  [
+                             801,
+                             802
+                         ],
+        "genres":  [
+                       1895,
+                       1896,
+                       1897
+                   ]
+    },
+    {
+        "id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.697Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.309Z",
+        "identifier":  "warhammer-fantasy-old-world",
+        "name":  "The Old World",
+        "translations":  [
+                             803,
+                             804
+                         ],
+        "genres":  [
+                       1898,
+                       1899,
+                       1900,
+                       1901
+                   ]
+    },
+    {
+        "id":  "12be183f-1c6f-4d9d-a538-31288865dce2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.790Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.429Z",
+        "identifier":  "the-weird-west",
+        "name":  "The Weird West",
+        "translations":  [
+                             805,
+                             806
+                         ],
+        "genres":  [
+                       1902,
+                       1903,
+                       1904,
+                       1905
+                   ]
+    },
+    {
+        "id":  "029f8a23-b875-457c-8cdb-c7456fdda09f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.885Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.554Z",
+        "identifier":  "the-wasted-west",
+        "name":  "The Wasted West",
+        "translations":  [
+                             807,
+                             808
+                         ],
+        "genres":  [
+                       1906,
+                       1907,
+                       1908,
+                       1909
+                   ]
+    },
+    {
+        "id":  "212d7d5d-da09-4199-9933-856a616d01ae",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.096Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.812Z",
+        "identifier":  "zombicide-modern",
+        "name":  "The Modern World of Zombicide",
+        "translations":  [
+                             811,
+                             812
+                         ],
+        "genres":  [
+                       1914,
+                       1915,
+                       1916,
+                       1917
+                   ]
+    },
+    {
+        "id":  "368d2f0b-395a-4365-96a8-3e40b669cb61",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:02.612Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.294Z",
+        "identifier":  "golarion-inner-sea",
+        "name":  "The Inner Sea",
+        "translations":  [
+                             691,
+                             692
+                         ],
+        "genres":  [
+                       1657,
+                       1658,
+                       1659,
+                       1660,
+                       1661
+                   ]
+    },
+    {
+        "id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.379Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.192Z",
+        "identifier":  "seapunk-unleashed-setting",
+        "name":  "The Sea of Seapunk Unleashed",
+        "translations":  [
+                             817,
+                             818
+                         ],
+        "genres":  [
+                       1925,
+                       1926,
+                       1927,
+                       1928
+                   ]
+    },
+    {
+        "id":  "f5221d91-0571-4d18-9b9f-cda991962805",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.485Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.320Z",
+        "identifier":  "fiasco-setting",
+        "name":  "The Playsets of Fiasco",
+        "translations":  [
+                             819,
+                             820
+                         ],
+        "genres":  [
+                       1929,
+                       1930,
+                       1931
+                   ]
+    },
+    {
+        "id":  "537c7f1a-a607-4c56-a828-33a189af95ee",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.566Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.439Z",
+        "identifier":  "pendragon-britain",
+        "name":  "The Britain of Pendragon",
+        "translations":  [
+                             821,
+                             822
+                         ],
+        "genres":  [
+                       1932,
+                       1933,
+                       1934,
+                       1935,
+                       1936
+                   ]
+    },
+    {
+        "id":  "bf696cba-ab43-48b4-846a-d82d971b3227",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.779Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.697Z",
+        "identifier":  "bloodheist-setting",
+        "name":  "The City of Bloodheist",
+        "translations":  [
+                             825,
+                             826
+                         ],
+        "genres":  [
+                       1941,
+                       1942,
+                       1943,
+                       1944
+                   ]
+    },
+    {
+        "id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.872Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.823Z",
+        "identifier":  "ink-setting",
+        "name":  "The Ink",
+        "translations":  [
+                             827,
+                             828
+                         ],
+        "genres":  [
+                       1945,
+                       1946,
+                       1947,
+                       1948
+                   ]
+    },
+    {
+        "id":  "74a82c0c-421e-49a7-aae0-273289caead3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.085Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.072Z",
+        "identifier":  "caucho-y-cromo-setting",
+        "name":  "The World of Caucho y Cromo",
+        "translations":  [
+                             831,
+                             832
+                         ],
+        "genres":  [
+                       1953,
+                       1954,
+                       1955,
+                       1956
+                   ]
+    },
+    {
+        "id":  "986c12b4-e276-4283-a24b-e02af4eaa643",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.184Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.215Z",
+        "identifier":  "witchcraft-setting",
+        "name":  "The World of WitchCraft",
+        "translations":  [
+                             833,
+                             834
+                         ],
+        "genres":  [
+                       1957,
+                       1958,
+                       1959,
+                       1960,
+                       1961
+                   ]
+    },
+    {
+        "id":  "8dc98f28-b788-48dd-b055-38b29c80bda1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.403Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.495Z",
+        "identifier":  "maho-shojo-setting",
+        "name":  "The World of Mahō Shōjo",
+        "translations":  [
+                             837,
+                             838
+                         ],
+        "genres":  [
+                       1966,
+                       1967,
+                       1968,
+                       1969,
+                       1970
+                   ]
+    },
+    {
+        "id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.499Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.625Z",
+        "identifier":  "glorantha",
+        "name":  "Glorantha",
+        "translations":  [
+                             839,
+                             840
+                         ],
+        "genres":  [
+                       1971,
+                       1972,
+                       1973,
+                       1974,
+                       1975
+                   ]
+    },
+    {
+        "id":  "18d88a9f-9edd-4fcb-80da-848276245dda",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.596Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.762Z",
+        "identifier":  "dungeon-world-setting",
+        "name":  "The World of Dungeon World",
+        "translations":  [
+                             841,
+                             842
+                         ],
+        "genres":  [
+                       1976,
+                       1977,
+                       1978,
+                       1979
+                   ]
+    },
+    {
+        "id":  "c15bcd6d-121a-4648-a705-079efec391c8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.699Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.904Z",
+        "identifier":  "dungeon-crawl-classics-setting",
+        "name":  "The World of Dungeon Crawl Classics",
+        "translations":  [
+                             843,
+                             844
+                         ],
+        "genres":  [
+                       1980,
+                       1981,
+                       1982,
+                       1983,
+                       1984
+                   ]
+    },
+    {
+        "id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.905Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.240Z",
+        "identifier":  "mythic-europe",
+        "name":  "Mythic Europe",
+        "translations":  [
+                             847,
+                             848
+                         ],
+        "genres":  [
+                       1991,
+                       1992,
+                       1993,
+                       1994,
+                       1995
+                   ]
+    },
+    {
+        "id":  "373a9df3-76de-4cde-8265-0549085a6617",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.011Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.387Z",
+        "identifier":  "dresden-files-setting",
+        "name":  "The World of The Dresden Files",
+        "translations":  [
+                             849,
+                             850
+                         ],
+        "genres":  [
+                       1996,
+                       1997,
+                       1998,
+                       1999,
+                       2000
+                   ]
+    },
+    {
+        "id":  "f3e769a3-f172-4e57-879f-de474198858f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.271Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.534Z",
+        "identifier":  "alpha-complex",
+        "name":  "Alpha Complex",
+        "translations":  [
+                             851,
+                             852
+                         ],
+        "genres":  [
+                       2001,
+                       2002,
+                       2003,
+                       2004,
+                       2005
+                   ]
+    },
+    {
+        "id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.371Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.684Z",
+        "identifier":  "star-trek-enterprise",
+        "name":  "The Enterprise Era",
+        "translations":  [
+                             853,
+                             854
+                         ],
+        "genres":  [
+                       2006,
+                       2007,
+                       2008,
+                       2009,
+                       2010
+                   ]
+    },
+    {
+        "id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.482Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.820Z",
+        "identifier":  "star-trek-tos",
+        "name":  "The Original Series Era",
+        "translations":  [
+                             855,
+                             856
+                         ],
+        "genres":  [
+                       2011,
+                       2012,
+                       2013,
+                       2014,
+                       2015,
+                       2016
+                   ]
+    },
+    {
+        "id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.575Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.975Z",
+        "identifier":  "star-trek-tng",
+        "name":  "The Next Generation Era",
+        "translations":  [
+                             857,
+                             858
+                         ],
+        "genres":  [
+                       2017,
+                       2018,
+                       2019,
+                       2020,
+                       2021,
+                       2022
+                   ]
+    },
+    {
+        "id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.772Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:27.330Z",
+        "identifier":  "star-trek-picard",
+        "name":  "The Picard Era",
+        "translations":  [
+                             861,
+                             862
+                         ],
+        "genres":  [
+                       2030,
+                       2031,
+                       2032,
+                       2033,
+                       2034
+                   ]
+    },
+    {
+        "id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.876Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:27.498Z",
+        "identifier":  "star-trek-discovery-32c",
+        "name":  "The Discovery Era (32nd Century)",
+        "translations":  [
+                             863,
+                             864
+                         ],
+        "genres":  [
+                       2035,
+                       2036,
+                       2037,
+                       2038,
+                       2039
+                   ]
+    },
+    {
+        "id":  "afe56109-1629-4448-ae75-fea8a49cdbcf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.973Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:27.802Z",
+        "identifier":  "theah",
+        "name":  "Théah",
+        "translations":  [
+                             865,
+                             866
+                         ],
+        "genres":  [
+                       2040,
+                       2041,
+                       2042,
+                       2043,
+                       2044,
+                       2045
+                   ]
+    },
+    {
+        "id":  "34911480-2316-43a4-ad07-8dcef1ac9190",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.106Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:27.966Z",
+        "identifier":  "kult-illusion",
+        "name":  "The Illusion",
+        "translations":  [
+                             867,
+                             868
+                         ],
+        "genres":  [
+                       2046,
+                       2047,
+                       2048,
+                       2049,
+                       2050,
+                       2051,
+                       2052
+                   ]
+    },
+    {
+        "id":  "cefac227-9ca2-420a-9634-b2dfca21f652",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.223Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:28.192Z",
+        "identifier":  "aquelarre-medieval-iberia",
+        "name":  "The Medieval Iberia of Aquelarre",
+        "translations":  [
+                             869,
+                             870
+                         ],
+        "genres":  [
+                       2053,
+                       2054,
+                       2055,
+                       2056,
+                       2057,
+                       2058
+                   ]
+    },
+    {
+        "id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.445Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:28.553Z",
+        "identifier":  "sixth-world",
+        "name":  "The Sixth World",
+        "translations":  [
+                             873,
+                             874
+                         ],
+        "genres":  [
+                       2064,
+                       2065,
+                       2066,
+                       2067,
+                       2068,
+                       2069
+                   ]
+    },
+    {
+        "id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.546Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:28.726Z",
+        "identifier":  "night-city",
+        "name":  "Night City",
+        "translations":  [
+                             875,
+                             876
+                         ],
+        "genres":  [
+                       2070,
+                       2071,
+                       2072,
+                       2073,
+                       2074,
+                       2075
+                   ]
+    },
+    {
+        "id":  "540c535d-1155-48ae-9137-bba4e9789bb5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.647Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:28.885Z",
+        "identifier":  "night-city-2027",
+        "name":  "Night City (2027)",
+        "translations":  [
+                             877,
+                             878
+                         ],
+        "genres":  [
+                       2076,
+                       2077,
+                       2078,
+                       2079,
+                       2080
+                   ]
+    },
+    {
+        "id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.760Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.073Z",
+        "identifier":  "night-city-203x",
+        "name":  "Night City (203X)",
+        "translations":  [
+                             879,
+                             880
+                         ],
+        "genres":  [
+                       2081,
+                       2082,
+                       2083,
+                       2084,
+                       2085,
+                       2086,
+                       2087
+                   ]
+    },
+    {
+        "id":  "64486d01-670c-4bce-80c7-a92e2fc8007a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.884Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.246Z",
+        "identifier":  "night-city-2077",
+        "name":  "Night City (2077)",
+        "translations":  [
+                             881,
+                             882
+                         ],
+        "genres":  [
+                       2088,
+                       2089,
+                       2090,
+                       2091,
+                       2092,
+                       2093,
+                       2094
+                   ]
+    },
+    {
+        "id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.001Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.396Z",
+        "identifier":  "kids-on-bikes-setting",
+        "name":  "The World of Kids on Bikes",
+        "translations":  [
+                             883,
+                             884
+                         ],
+        "genres":  [
+                       2095,
+                       2096,
+                       2097,
+                       2098,
+                       2099,
+                       2100
+                   ]
+    },
+    {
+        "id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.175Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.539Z",
+        "identifier":  "alien-universe",
+        "name":  "The Alien Universe",
+        "translations":  [
+                             885,
+                             886
+                         ],
+        "genres":  [
+                       2101,
+                       2102,
+                       2103,
+                       2104,
+                       2105
+                   ]
+    },
+    {
+        "id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.299Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.691Z",
+        "identifier":  "the-zone",
+        "name":  "The Zone",
+        "translations":  [
+                             887,
+                             888
+                         ],
+        "genres":  [
+                       2106,
+                       2107,
+                       2108,
+                       2109,
+                       2110
+                   ]
+    },
+    {
+        "id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.535Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.001Z",
+        "identifier":  "the-forbidden-lands",
+        "name":  "The Forbidden Lands",
+        "translations":  [
+                             891,
+                             892
+                         ],
+        "genres":  [
+                       2117,
+                       2118,
+                       2119,
+                       2120,
+                       2121
+                   ]
+    },
+    {
+        "id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.658Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.169Z",
+        "identifier":  "walking-dead-universe",
+        "name":  "The Walking Dead Universe",
+        "translations":  [
+                             893,
+                             894
+                         ],
+        "genres":  [
+                       2122,
+                       2123,
+                       2124,
+                       2125,
+                       2126
+                   ]
+    },
+    {
+        "id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.772Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.328Z",
+        "identifier":  "the-loop",
+        "name":  "The Loop (The 80s That Never Were)",
+        "translations":  [
+                             895,
+                             896
+                         ],
+        "genres":  [
+                       2127,
+                       2128,
+                       2129,
+                       2130,
+                       2131
+                   ]
+    },
+    {
+        "id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.997Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.610Z",
+        "identifier":  "age-of-umbra",
+        "name":  "The Age of Umbra",
+        "translations":  [
+                             899,
+                             900
+                         ],
+        "genres":  [
+                       2137,
+                       2138,
+                       2139,
+                       2140,
+                       2141
+                   ]
+    },
+    {
+        "id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.106Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.740Z",
+        "identifier":  "beast-feast",
+        "name":  "Beast Feast",
+        "translations":  [
+                             901,
+                             902
+                         ],
+        "genres":  [
+                       2142,
+                       2143,
+                       2144,
+                       2145
+                   ]
+    },
+    {
+        "id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.235Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.866Z",
+        "identifier":  "colossus-drylands",
+        "name":  "Colossus of the Drylands",
+        "translations":  [
+                             903,
+                             904
+                         ],
+        "genres":  [
+                       2146,
+                       2147,
+                       2148,
+                       2149
+                   ]
+    },
+    {
+        "id":  "2aa74945-a588-4769-baba-719504b0afde",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.362Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.992Z",
+        "identifier":  "five-banners",
+        "name":  "Five Banners Burning",
+        "translations":  [
+                             905,
+                             906
+                         ],
+        "genres":  [
+                       2150,
+                       2151,
+                       2152,
+                       2153
+                   ]
+    },
+    {
+        "id":  "4474848c-04bf-4c38-9915-f30b32437dd4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.458Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.140Z",
+        "identifier":  "motherboard",
+        "name":  "Motherboard",
+        "translations":  [
+                             907,
+                             908
+                         ],
+        "genres":  [
+                       2154,
+                       2155,
+                       2156,
+                       2157
+                   ]
+    },
+    {
+        "id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.549Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.277Z",
+        "identifier":  "witherwild",
+        "name":  "The Witherwild",
+        "translations":  [
+                             909,
+                             910
+                         ],
+        "genres":  [
+                       2158,
+                       2159,
+                       2160
+                   ]
+    },
+    {
+        "id":  "7264e635-4312-40db-8f3e-bbb8982b05bf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.736Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.524Z",
+        "identifier":  "scurry-setting",
+        "name":  "The World of Scurry",
+        "translations":  [
+                             913,
+                             914
+                         ],
+        "genres":  [
+                       2165,
+                       2166,
+                       2167,
+                       2168,
+                       2169
+                   ]
+    },
+    {
+        "id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.838Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.664Z",
+        "identifier":  "misery-and-misfortune-setting",
+        "name":  "The world of Misery and Misfortune",
+        "translations":  [
+                             915,
+                             916
+                         ],
+        "genres":  [
+                       2170,
+                       2171,
+                       2172,
+                       2173,
+                       2174,
+                       2175
+                   ]
+    },
+    {
+        "id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.956Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.804Z",
+        "identifier":  "robotta-setting",
+        "name":  "The World of Robotta",
+        "translations":  [
+                             917,
+                             918
+                         ],
+        "genres":  [
+                       2176,
+                       2177,
+                       2178,
+                       2179,
+                       2180
+                   ]
+    },
+    {
+        "id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.076Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.949Z",
+        "identifier":  "hardboiled-setting",
+        "name":  "The World of Hardboiled",
+        "translations":  [
+                             919,
+                             920
+                         ],
+        "genres":  [
+                       2181,
+                       2182,
+                       2183,
+                       2184
+                   ]
+    },
+    {
+        "id":  "948d8f89-2a84-42c6-b912-9f9a2492028b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.291Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:32.204Z",
+        "identifier":  "abora-islands",
+        "name":  "The Islands of Ábora",
+        "translations":  [
+                             923,
+                             924
+                         ],
+        "genres":  [
+                       2190,
+                       2191,
+                       2192,
+                       2193,
+                       2194
+                   ]
+    },
+    {
+        "id":  "1d68b670-ad76-4162-bc4e-976d13437128",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.415Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:32.341Z",
+        "identifier":  "verne-setting",
+        "name":  "The Worlds of Verne",
+        "translations":  [
+                             925,
+                             926
+                         ],
+        "genres":  [
+                       2195,
+                       2196,
+                       2197,
+                       2198,
+                       2199
+                   ]
+    },
+    {
+        "id":  "6398b052-a325-41ce-90fa-597ce7b47899",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.525Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:32.475Z",
+        "identifier":  "inocentes-setting",
+        "name":  "The World of Inocentes",
+        "translations":  [
+                             927,
+                             928
+                         ],
+        "genres":  [
+                       2200,
+                       2201,
+                       2202,
+                       2203,
+                       2204
+                   ]
+    },
+    {
+        "id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.639Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:32.608Z",
+        "identifier":  "the-broken-lands",
+        "name":  "The Broken Lands",
+        "translations":  [
+                             929,
+                             930
+                         ],
+        "genres":  [
+                       2205,
+                       2206,
+                       2207,
+                       2208,
+                       2209
+                   ]
+    },
+    {
+        "id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.296Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.081Z",
+        "identifier":  "the-flux-setting",
+        "name":  "The World of The Flux",
+        "translations":  [
+                             815,
+                             816
+                         ],
+        "genres":  [
+                       1923,
+                       1924
+                   ]
+    },
+    {
+        "id":  "680f31d9-a169-4ba2-8831-8018b481f930",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.089Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.315Z",
+        "identifier":  "liminal-setting",
+        "name":  "The Liminal World",
+        "translations":  [
+                             937,
+                             938
+                         ],
+        "genres":  [
+                       2226,
+                       2227,
+                       2228,
+                       2229,
+                       2230
+                   ]
+    },
+    {
+        "id":  "4b150115-3c5a-4252-b81e-9c281a307132",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.190Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.454Z",
+        "identifier":  "broken-tales-setting",
+        "name":  "The World of Broken Tales",
+        "translations":  [
+                             939,
+                             940
+                         ],
+        "genres":  [
+                       2231,
+                       2232,
+                       2233,
+                       2234
+                   ]
+    },
+    {
+        "id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.285Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.587Z",
+        "identifier":  "viking-death-squad-setting",
+        "name":  "The Universe of Viking Death Squad",
+        "translations":  [
+                             941,
+                             942
+                         ],
+        "genres":  [
+                       2235,
+                       2236,
+                       2237,
+                       2238,
+                       2239,
+                       2240
+                   ]
+    },
+    {
+        "id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.400Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.738Z",
+        "identifier":  "trophy-forest",
+        "name":  "The World of Trophy",
+        "translations":  [
+                             943,
+                             944
+                         ],
+        "genres":  [
+                       2241,
+                       2242,
+                       2243,
+                       2244,
+                       2245,
+                       2246
+                   ]
+    },
+    {
+        "id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.629Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.015Z",
+        "identifier":  "new-europa",
+        "name":  "New Europa",
+        "translations":  [
+                             947,
+                             948
+                         ],
+        "genres":  [
+                       2252,
+                       2253,
+                       2254,
+                       2255,
+                       2256,
+                       2257
+                   ]
+    },
+    {
+        "id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.751Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.164Z",
+        "identifier":  "yuuyake-koyake-japan",
+        "name":  "The Peaceful Japanese Countryside",
+        "translations":  [
+                             949,
+                             950
+                         ],
+        "genres":  [
+                       2258,
+                       2259,
+                       2260,
+                       2261,
+                       2262,
+                       2263
+                   ]
+    },
+    {
+        "id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.858Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.305Z",
+        "identifier":  "8-tesoros-setting",
+        "name":  "The Caribbean of 8 Tesoros",
+        "translations":  [
+                             951,
+                             952
+                         ],
+        "genres":  [
+                       2264,
+                       2265,
+                       2266,
+                       2267,
+                       2268
+                   ]
+    },
+    {
+        "id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.954Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.444Z",
+        "identifier":  "dyss-mitica",
+        "name":  "Dyss Mítica",
+        "translations":  [
+                             953,
+                             954
+                         ],
+        "genres":  [
+                       2269,
+                       2270,
+                       2271
+                   ]
+    },
+    {
+        "id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.264Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.808Z",
+        "identifier":  "blacksad-america",
+        "name":  "Blacksad\u0027s America",
+        "translations":  [
+                             959,
+                             960
+                         ],
+        "genres":  [
+                       2280,
+                       2281,
+                       2282,
+                       2283,
+                       2284,
+                       2285
+                   ]
+    },
+    {
+        "id":  "c989da1f-b98f-4fcc-a7c0-9b93d895eefd",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.148Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T19:56:34.007Z",
+        "identifier":  "mausritter-world",
+        "name":  "The World of Mausritter",
+        "translations":  [
+                             613,
+                             614
+                         ],
+        "genres":  [
+                       1440,
+                       1441,
+                       1442,
+                       1443,
+                       1444
+                   ]
+    },
+    {
+        "id":  "9ec6ccb0-62db-4c70-80a5-87096c135879",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.383Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.971Z",
+        "identifier":  "fanhunter-setting",
+        "name":  "The Epic Decadent World of Fanhunter",
+        "translations":  [
+                             961,
+                             962
+                         ],
+        "genres":  [
+                       2286,
+                       2287,
+                       2288,
+                       2289,
+                       2290,
+                       2291
+                   ]
+    },
+    {
+        "id":  "9f515f12-4e7c-402c-83a7-94a776908670",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.512Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.111Z",
+        "identifier":  "monsterhearts-setting",
+        "name":  "The High School of Monsterhearts",
+        "translations":  [
+                             963,
+                             964
+                         ],
+        "genres":  [
+                       2292,
+                       2293,
+                       2294,
+                       2295,
+                       2296
+                   ]
+    },
+    {
+        "id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.902Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.374Z",
+        "identifier":  "the-four-nations-aang-era",
+        "name":  "The Four Nations: Aang\u0027s Era",
+        "translations":  [
+                             967,
+                             968
+                         ],
+        "genres":  [
+                       2302,
+                       2303,
+                       2304,
+                       2305,
+                       2306,
+                       2307
+                   ]
+    },
+    {
+        "id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.139Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.649Z",
+        "identifier":  "honey-heist-setting",
+        "name":  "The World of Honey Heist",
+        "translations":  [
+                             971,
+                             972
+                         ],
+        "genres":  [
+                       2315,
+                       2316,
+                       2317,
+                       2318
+                   ]
+    },
+    {
+        "id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.346Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.869Z",
+        "identifier":  "clepsidra-timeline",
+        "name":  "The Clepsidra Timeline",
+        "translations":  [
+                             975,
+                             976
+                         ],
+        "genres":  [
+                       2323,
+                       2324,
+                       2325,
+                       2326,
+                       2327
+                   ]
+    },
+    {
+        "id":  "6fd59e02-f1c2-4edf-b355-2ab0ca0b51d0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.244Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T19:56:35.286Z",
+        "identifier":  "hero-kids-fantasy-setting",
+        "name":  "The Fantasy World of Hero Kids",
+        "translations":  [
+                             629,
+                             630
+                         ],
+        "genres":  [
+                       1484,
+                       1485,
+                       1486,
+                       1487
+                   ]
+    },
+    {
+        "id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.447Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.032Z",
+        "identifier":  "dune-imperium",
+        "name":  "The Imperium of Dune",
+        "translations":  [
+                             977,
+                             978
+                         ],
+        "genres":  [
+                       2328,
+                       2329,
+                       2330,
+                       2331,
+                       2332,
+                       2333
+                   ]
+    },
+    {
+        "id":  "985f6f63-3d35-404f-800d-54b8399c7ae7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.556Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.192Z",
+        "identifier":  "troubleshooters-setting",
+        "name":  "The World of The Troubleshooters",
+        "translations":  [
+                             979,
+                             980
+                         ],
+        "genres":  [
+                       2334,
+                       2335,
+                       2336,
+                       2337,
+                       2338,
+                       2339
+                   ]
+    },
+    {
+        "id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.662Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.358Z",
+        "identifier":  "the-cosmere",
+        "name":  "The Cosmere",
+        "translations":  [
+                             981,
+                             982
+                         ],
+        "genres":  [
+                       2340,
+                       2341,
+                       2342,
+                       2343,
+                       2344
+                   ]
+    },
+    {
+        "id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.771Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.499Z",
+        "identifier":  "brindlewood-bay-town",
+        "name":  "Brindlewood Bay",
+        "translations":  [
+                             983,
+                             984
+                         ],
+        "genres":  [
+                       2345,
+                       2346,
+                       2347,
+                       2348,
+                       2349,
+                       2350
+                   ]
+    },
+    {
+        "id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.909Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.642Z",
+        "identifier":  "misty-valley",
+        "name":  "The Misty Valley",
+        "translations":  [
+                             985,
+                             986
+                         ],
+        "genres":  [
+                       2351,
+                       2352,
+                       2353,
+                       2354,
+                       2355
+                   ]
+    },
+    {
+        "id":  "32f38a1d-92e8-4622-9504-8381df339ced",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.178Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:36.899Z",
+        "identifier":  "world-of-darkness-classic",
+        "name":  "The Modern World of Darkness (Classic)",
+        "translations":  [
+                             989,
+                             990
+                         ],
+        "genres":  [
+                       2364,
+                       2365,
+                       2366,
+                       2367,
+                       2368,
+                       2369,
+                       2370
+                   ]
+    },
+    {
+        "id":  "53f08b10-5d8b-4054-a778-80f286e412d1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.026Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T19:56:36.362Z",
+        "identifier":  "chronicles-of-darkness",
+        "name":  "Chronicles of Darkness",
+        "translations":  [
+                             643,
+                             644
+                         ],
+        "genres":  [
+                       1521,
+                       1522,
+                       1523,
+                       1524,
+                       1525,
+                       1526,
+                       1527,
+                       1528
+                   ]
+    },
+    {
+        "id":  "8b85e714-af98-4440-be6e-ec4e75a11095",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.323Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.057Z",
+        "identifier":  "world-of-darkness-modern",
+        "name":  "The World of Darkness Modern",
+        "translations":  [
+                             991,
+                             992
+                         ],
+        "genres":  [
+                       2371,
+                       2372,
+                       2373,
+                       2374,
+                       2375,
+                       2376,
+                       2377
+                   ]
+    },
+    {
+        "id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.593Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.370Z",
+        "identifier":  "world-of-darkness-sorcerers-crusade",
+        "name":  "The Sorcerer\u0027s Crusade of World of Darkness",
+        "translations":  [
+                             995,
+                             996
+                         ],
+        "genres":  [
+                       2386,
+                       2387,
+                       2388,
+                       2389,
+                       2390,
+                       2391,
+                       2392
+                   ]
+    },
+    {
+        "id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.713Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.693Z",
+        "identifier":  "world-of-darkness-wild-west",
+        "name":  "The Wild West of World of Darkness",
+        "translations":  [
+                             997,
+                             998
+                         ],
+        "genres":  [
+                       2393,
+                       2394,
+                       2395,
+                       2396,
+                       2397
+                   ]
+    },
+    {
+        "id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.815Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.832Z",
+        "identifier":  "serpentine-city",
+        "name":  "The City of Serpentine",
+        "translations":  [
+                             999,
+                             1000
+                         ],
+        "genres":  [
+                       2398,
+                       2399,
+                       2400,
+                       2401,
+                       2402,
+                       2403,
+                       2404
+                   ]
+    },
+    {
+        "id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.916Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.996Z",
+        "identifier":  "nights-black-agents-setting",
+        "name":  "The World of Night\u0027s Black Agents",
+        "translations":  [
+                             1001,
+                             1002
+                         ],
+        "genres":  [
+                       2405,
+                       2406,
+                       2407,
+                       2408,
+                       2409,
+                       2410,
+                       2411
+                   ]
+    },
+    {
+        "id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.043Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.167Z",
+        "identifier":  "outer-dark-setting",
+        "name":  "The World of Outer Dark",
+        "translations":  [
+                             1003,
+                             1004
+                         ],
+        "genres":  [
+                       2412,
+                       2413,
+                       2414,
+                       2415,
+                       2416,
+                       2417
+                   ]
+    },
+    {
+        "id":  "b28849d2-d5bd-425c-80d2-af2461f23697",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.264Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.468Z",
+        "identifier":  "cthulhu-dark-ages",
+        "name":  "Cthulhu: Dark Ages Era",
+        "translations":  [
+                             1007,
+                             1008
+                         ],
+        "genres":  [
+                       2424,
+                       2425,
+                       2426,
+                       2427,
+                       2428
+                   ]
+    },
+    {
+        "id":  "334b13cb-6126-45ea-8fdb-66728e329304",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.380Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.594Z",
+        "identifier":  "cthulhu-gaslight",
+        "name":  "Cthulhu: Gaslight Era",
+        "translations":  [
+                             1009,
+                             1010
+                         ],
+        "genres":  [
+                       2429,
+                       2430,
+                       2431,
+                       2432,
+                       2433
+                   ]
+    },
+    {
+        "id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.475Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.722Z",
+        "identifier":  "cthulhu-regency",
+        "name":  "Cthulhu: Regency Era",
+        "translations":  [
+                             1011,
+                             1012
+                         ],
+        "genres":  [
+                       2434,
+                       2435,
+                       2436,
+                       2437
+                   ]
+    },
+    {
+        "id":  "448c621f-5c3d-44d3-8eb6-440276a632ca",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.567Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.840Z",
+        "identifier":  "cthulhu-classic-1920s",
+        "name":  "Cthulhu: Classic Era (1920s-1930s)",
+        "translations":  [
+                             1013,
+                             1014
+                         ],
+        "genres":  [
+                       2438,
+                       2439,
+                       2440,
+                       2441,
+                       2442
+                   ]
+    },
+    {
+        "id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.663Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.972Z",
+        "identifier":  "cthulhu-pulp-1930s",
+        "name":  "Cthulhu: Pulp Era (1930s)",
+        "translations":  [
+                             1015,
+                             1016
+                         ],
+        "genres":  [
+                       2443,
+                       2444,
+                       2445,
+                       2446,
+                       2447
+                   ]
+    },
+    {
+        "id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.911Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.271Z",
+        "identifier":  "delta-green-cold-war",
+        "name":  "Delta Green: Cold War (The Fall of DG)",
+        "translations":  [
+                             1019,
+                             1020
+                         ],
+        "genres":  [
+                       2454,
+                       2455,
+                       2456,
+                       2457,
+                       2458,
+                       2459
+                   ]
+    },
+    {
+        "id":  "714db336-3350-4df2-abfa-73dbd2f26182",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.109Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.409Z",
+        "identifier":  "delta-green-modern",
+        "name":  "Delta Green: Modern Era",
+        "translations":  [
+                             1021,
+                             1022
+                         ],
+        "genres":  [
+                       2460,
+                       2461,
+                       2462,
+                       2463,
+                       2464,
+                       2465
+                   ]
+    },
+    {
+        "id":  "880fd1f2-e602-4611-abf0-7d274722a536",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.240Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.548Z",
+        "identifier":  "cthulhu-modern",
+        "name":  "Cthulhu Modern",
+        "translations":  [
+                             1023,
+                             1024
+                         ],
+        "genres":  [
+                       2466,
+                       2467,
+                       2468,
+                       2469
+                   ]
+    },
+    {
+        "id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.381Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.676Z",
+        "identifier":  "el-sueno-de-cthulhu-setting",
+        "name":  "The World of El sueño de Cthulhu",
+        "translations":  [
+                             1025,
+                             1026
+                         ],
+        "genres":  [
+                       2470,
+                       2471,
+                       2472,
+                       2473,
+                       2474
+                   ]
+    },
+    {
+        "id":  "2d0cf01d-c9ce-4923-9477-43a05b276141",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.624Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.915Z",
+        "identifier":  "call-of-catthulhu-setting",
+        "name":  "The World of Call of Catthulhu",
+        "translations":  [
+                             1029,
+                             1030
+                         ],
+        "genres":  [
+                       2480,
+                       2481,
+                       2482,
+                       2483,
+                       2484
+                   ]
+    },
+    {
+        "id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.728Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:40.056Z",
+        "identifier":  "cultos-innombrables-setting",
+        "name":  "Cultos Innombrables Setting",
+        "translations":  [
+                             1031,
+                             1032
+                         ],
+        "genres":  [
+                       2485,
+                       2486,
+                       2487,
+                       2488,
+                       2489,
+                       2490
+                   ]
+    },
+    {
+        "id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:02.492Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.173Z",
+        "identifier":  "universal",
+        "name":  "Universal / Generic",
+        "translations":  [
+                             689,
+                             690
+                         ],
+        "genres":  [
+                       1656
+                   ]
+    },
+    {
+        "id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.096Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:15.922Z",
+        "identifier":  "tian-xia",
+        "name":  "Tian Xia (The Dragon Empires)",
+        "translations":  [
+                             699,
+                             700
+                         ],
+        "genres":  [
+                       1677,
+                       1678,
+                       1679,
+                       1680,
+                       1681
+                   ]
+    },
+    {
+        "id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:03.757Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:16.744Z",
+        "identifier":  "akiton",
+        "name":  "Akiton",
+        "translations":  [
+                             711,
+                             712
+                         ],
+        "genres":  [
+                       1704,
+                       1705,
+                       1706,
+                       1707,
+                       1708
+                   ]
+    },
+    {
+        "id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.313Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:17.540Z",
+        "identifier":  "verces",
+        "name":  "Verces",
+        "translations":  [
+                             721,
+                             722
+                         ],
+        "genres":  [
+                       1726,
+                       1727,
+                       1728
+                   ]
+    },
+    {
+        "id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:04.900Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.037Z",
+        "identifier":  "star-wars-the-outer-rim",
+        "name":  "The Outer Rim",
+        "translations":  [
+                             729,
+                             730
+                         ],
+        "genres":  [
+                       1740,
+                       1741,
+                       1742,
+                       1743,
+                       1744
+                   ]
+    },
+    {
+        "id":  "a12d555f-7985-4af1-9a9a-75346fb2be97",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.553Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:18.818Z",
+        "identifier":  "dragonlance",
+        "name":  "Dragonlance",
+        "translations":  [
+                             741,
+                             742
+                         ],
+        "genres":  [
+                       1766,
+                       1767,
+                       1768
+                   ]
+    },
+    {
+        "id":  "a30f9738-6c12-44c3-8334-5f84bea7faba",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.976Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.158Z",
+        "identifier":  "blood-and-honor-feudal-japan",
+        "name":  "The Feudal Japan of Blood \u0026 Honor",
+        "translations":  [
+                             935,
+                             936
+                         ],
+        "genres":  [
+                       2220,
+                       2221,
+                       2222,
+                       2223,
+                       2224,
+                       2225
+                   ]
+    },
+    {
+        "id":  "3c0560e6-64c8-42f0-9abe-f08bd173901d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.167Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T19:56:31.159Z",
+        "identifier":  "musu-musu-musume-world",
+        "name":  "The World of Musu-Musu-Musume?!",
+        "translations":  [
+                             577,
+                             578
+                         ],
+        "genres":  [
+                       1350,
+                       1351,
+                       1352,
+                       1353,
+                       1354
+                   ]
+    },
+    {
+        "id":  "718fe85b-8f08-4a21-ad16-58020a58c76f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:21.496Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T19:56:39.632Z",
+        "identifier":  "the-yellow-king-parallel-world",
+        "name":  "The Yellow King Parallel Worlds",
+        "translations":  [
+                             683,
+                             684
+                         ],
+        "genres":  [
+                       1640,
+                       1641,
+                       1642,
+                       1643,
+                       1644
+                   ]
+    },
+    {
+        "id":  "54faae83-820e-473a-b068-2e6ae140a4de",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:05.932Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:19.282Z",
+        "identifier":  "el-resurgir-del-dragon",
+        "name":  "El Resurgir del Dragón",
+        "translations":  [
+                             749,
+                             750
+                         ],
+        "genres":  [
+                       1778,
+                       1779,
+                       1780,
+                       1781,
+                       1782
+                   ]
+    },
+    {
+        "id":  "91ec5d86-26be-4e82-a658-3854760eadf9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.551Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.089Z",
+        "identifier":  "middle-earth-eriador",
+        "name":  "Eriador (Ruins of the North)",
+        "translations":  [
+                             761,
+                             762
+                         ],
+        "genres":  [
+                       1807,
+                       1808,
+                       1809,
+                       1810,
+                       1811
+                   ]
+    },
+    {
+        "id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:06.955Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:20.639Z",
+        "identifier":  "dinowest-setting",
+        "name":  "The Prehistoric West",
+        "translations":  [
+                             769,
+                             770
+                         ],
+        "genres":  [
+                       1825,
+                       1826,
+                       1827,
+                       1828
+                   ]
+    },
+    {
+        "id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.305Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.104Z",
+        "identifier":  "scheherazade-setting",
+        "name":  "The World of 1001 Nights",
+        "translations":  [
+                             775,
+                             776
+                         ],
+        "genres":  [
+                       1840,
+                       1841,
+                       1842,
+                       1843,
+                       1844
+                   ]
+    },
+    {
+        "id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:07.845Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:21.860Z",
+        "identifier":  "ragnarok-setting",
+        "name":  "The World of Ragnarok",
+        "translations":  [
+                             785,
+                             786
+                         ],
+        "genres":  [
+                       1864,
+                       1865,
+                       1866,
+                       1867
+                   ]
+    },
+    {
+        "id":  "981e6555-529b-4ede-9562-df4f5ed21ef1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.407Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:22.894Z",
+        "identifier":  "w40k-gilead-system",
+        "name":  "Gilead System (M42)",
+        "translations":  [
+                             797,
+                             798
+                         ],
+        "genres":  [
+                       1887,
+                       1888,
+                       1889,
+                       1890
+                   ]
+    },
+    {
+        "id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:08.990Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.678Z",
+        "identifier":  "faraway-system",
+        "name":  "Faraway System",
+        "translations":  [
+                             809,
+                             810
+                         ],
+        "genres":  [
+                       1910,
+                       1911,
+                       1912,
+                       1913
+                   ]
+    },
+    {
+        "id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.197Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:23.941Z",
+        "identifier":  "cuervos-de-asgard-setting",
+        "name":  "The World of Cuervos de Asgard Motor Club",
+        "translations":  [
+                             813,
+                             814
+                         ],
+        "genres":  [
+                       1918,
+                       1919,
+                       1920,
+                       1921,
+                       1922
+                   ]
+    },
+    {
+        "id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.680Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.574Z",
+        "identifier":  "apocalypse-world-setting",
+        "name":  "The World of Apocalypse World",
+        "translations":  [
+                             823,
+                             824
+                         ],
+        "genres":  [
+                       1937,
+                       1938,
+                       1939,
+                       1940
+                   ]
+    },
+    {
+        "id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:09.975Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:24.942Z",
+        "identifier":  "dracula-vs-hitler-setting",
+        "name":  "The Hollywood of Dracula vs Hitler",
+        "translations":  [
+                             829,
+                             830
+                         ],
+        "genres":  [
+                       1949,
+                       1950,
+                       1951,
+                       1952
+                   ]
+    },
+    {
+        "id":  "987505fc-1437-4465-adf0-84441193a68d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.309Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:25.363Z",
+        "identifier":  "cukicraft-setting",
+        "name":  "The World of CukiCraft",
+        "translations":  [
+                             835,
+                             836
+                         ],
+        "genres":  [
+                       1962,
+                       1963,
+                       1964,
+                       1965
+                   ]
+    },
+    {
+        "id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:10.803Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:26.073Z",
+        "identifier":  "old-school-essentials-setting",
+        "name":  "The World of Old-School Essentials",
+        "translations":  [
+                             845,
+                             846
+                         ],
+        "genres":  [
+                       1985,
+                       1986,
+                       1987,
+                       1988,
+                       1989,
+                       1990
+                   ]
+    },
+    {
+        "id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:11.671Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:27.159Z",
+        "identifier":  "star-trek-discovery-23c",
+        "name":  "The Discovery Era (23rd Century)",
+        "translations":  [
+                             859,
+                             860
+                         ],
+        "genres":  [
+                       2023,
+                       2024,
+                       2025,
+                       2026,
+                       2027,
+                       2028,
+                       2029
+                   ]
+    },
+    {
+        "id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:12.333Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:28.389Z",
+        "identifier":  "the-dee-sanction-elizabethan-england",
+        "name":  "The Elizabethan England of The Dee Sanction",
+        "translations":  [
+                             871,
+                             872
+                         ],
+        "genres":  [
+                       2059,
+                       2060,
+                       2061,
+                       2062,
+                       2063
+                   ]
+    },
+    {
+        "id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.401Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:29.845Z",
+        "identifier":  "mythic-north",
+        "name":  "The Mythic North",
+        "translations":  [
+                             889,
+                             890
+                         ],
+        "genres":  [
+                       2111,
+                       2112,
+                       2113,
+                       2114,
+                       2115,
+                       2116
+                   ]
+    },
+    {
+        "id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:13.878Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:30.476Z",
+        "identifier":  "blade-runner-los-angeles",
+        "name":  "Los Angeles 2037",
+        "translations":  [
+                             897,
+                             898
+                         ],
+        "genres":  [
+                       2132,
+                       2133,
+                       2134,
+                       2135,
+                       2136
+                   ]
+    },
+    {
+        "id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:14.639Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:31.393Z",
+        "identifier":  "love-and-magic",
+        "name":  "With Love and Magic",
+        "translations":  [
+                             911,
+                             912
+                         ],
+        "genres":  [
+                       2161,
+                       2162,
+                       2163,
+                       2164
+                   ]
+    },
+    {
+        "id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:32.099Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "musu-musu-musume-setting",
+        "name":  "The World of Musu-Musu-Musume?!",
+        "translations":  [
+                             921,
+                             922
+                         ],
+        "genres":  [
+                       2185,
+                       2186,
+                       2187,
+                       2188,
+                       2189
+                   ]
+    },
+    {
+        "id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.757Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:32.867Z",
+        "identifier":  "chi-war",
+        "name":  "The Chi War",
+        "translations":  [
+                             931,
+                             932
+                         ],
+        "genres":  [
+                       2210,
+                       2211,
+                       2212,
+                       2213,
+                       2214
+                   ]
+    },
+    {
+        "id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:15.876Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.016Z",
+        "identifier":  "reflejo-setting",
+        "name":  "The World of Reflejo",
+        "translations":  [
+                             933,
+                             934
+                         ],
+        "genres":  [
+                       2215,
+                       2216,
+                       2217,
+                       2218,
+                       2219
+                   ]
+    },
+    {
+        "id":  "5e210815-b1fd-4b69-815b-a5d0748826ba",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:16.526Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:33.880Z",
+        "identifier":  "shinobigami-setting",
+        "name":  "The World of Shinobigami",
+        "translations":  [
+                             945,
+                             946
+                         ],
+        "genres":  [
+                       2247,
+                       2248,
+                       2249,
+                       2250,
+                       2251
+                   ]
+    },
+    {
+        "id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.054Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:34.568Z",
+        "identifier":  "dyss-mitica-magissa",
+        "name":  "Dyss Mítica: Magissa",
+        "translations":  [
+                             955,
+                             956
+                         ],
+        "genres":  [
+                       2272,
+                       2273,
+                       2274
+                   ]
+    },
+    {
+        "id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:34.689Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mausritter-setting",
+        "name":  "The World of Mausritter",
+        "translations":  [
+                             957,
+                             958
+                         ],
+        "genres":  [
+                       2275,
+                       2276,
+                       2277,
+                       2278,
+                       2279
+                   ]
+    },
+    {
+        "id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:17.783Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.243Z",
+        "identifier":  "the-four-nations-ancient-era",
+        "name":  "The Four Nations: The Ancient Era",
+        "translations":  [
+                             965,
+                             966
+                         ],
+        "genres":  [
+                       2297,
+                       2298,
+                       2299,
+                       2300,
+                       2301
+                   ]
+    },
+    {
+        "id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:18.026Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:35.510Z",
+        "identifier":  "the-four-nations-korra-era",
+        "name":  "The Four Nations: Korra\u0027s Era",
+        "translations":  [
+                             969,
+                             970
+                         ],
+        "genres":  [
+                       2308,
+                       2309,
+                       2310,
+                       2311,
+                       2312,
+                       2313,
+                       2314
+                   ]
+    },
+    {
+        "id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:35.776Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hero-kids-setting",
+        "name":  "The Fantasy World of Hero Kids",
+        "translations":  [
+                             973,
+                             974
+                         ],
+        "genres":  [
+                       2319,
+                       2320,
+                       2321,
+                       2322
+                   ]
+    },
+    {
+        "id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:36.785Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "chronicles-of-darkness-modern",
+        "name":  "Chronicles of Darkness (Modern)",
+        "translations":  [
+                             987,
+                             988
+                         ],
+        "genres":  [
+                       2356,
+                       2357,
+                       2358,
+                       2359,
+                       2360,
+                       2361,
+                       2362,
+                       2363
+                   ]
+    },
+    {
+        "id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:19.455Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:37.202Z",
+        "identifier":  "world-of-darkness-dark-ages",
+        "name":  "The Dark Ages of World of Darkness",
+        "translations":  [
+                             993,
+                             994
+                         ],
+        "genres":  [
+                       2378,
+                       2379,
+                       2380,
+                       2381,
+                       2382,
+                       2383,
+                       2384,
+                       2385
+                   ]
+    },
+    {
+        "id":  "e796460a-a060-4fde-b8c5-1dca93fa0d04",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.161Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:38.321Z",
+        "identifier":  "cthulhu-mythos",
+        "name":  "The Cthulhu Mythos (Generic)",
+        "translations":  [
+                             1005,
+                             1006
+                         ],
+        "genres":  [
+                       2418,
+                       2419,
+                       2420,
+                       2421,
+                       2422,
+                       2423
+                   ]
+    },
+    {
+        "id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T18:14:20.764Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T20:41:39.128Z",
+        "identifier":  "achtung-cthulhu-wwii",
+        "name":  "Achtung! Cthulhu (WWII)",
+        "translations":  [
+                             1017,
+                             1018
+                         ],
+        "genres":  [
+                       2448,
+                       2449,
+                       2450,
+                       2451,
+                       2452,
+                       2453
+                   ]
+    },
+    {
+        "id":  "b85904a5-57af-49fc-9155-237e9c8d4611",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:39.806Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "the-yellow-king-setting",
+        "name":  "The Yellow King Parallel Worlds",
+        "translations":  [
+                             1027,
+                             1028
+                         ],
+        "genres":  [
+                       2475,
+                       2476,
+                       2477,
+                       2478,
+                       2479
+                   ]
+    },
+    {
+        "id":  "36197fa4-54b5-41a3-8b67-238ff193b623",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:40.207Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "chronicles-of-darkness-ancient-rome",
+        "name":  "Requiem for Rome",
+        "translations":  [
+                             1033,
+                             1034
+                         ],
+        "genres":  [
+                       2491,
+                       2492,
+                       2493,
+                       2494,
+                       2495,
+                       2496,
+                       2497
+                   ]
+    },
+    {
+        "id":  "8030ee66-e502-4562-9176-ba2a0c3df621",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T20:41:40.316Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "the-fairelands",
+        "name":  "The Fairelands (Candela Obscura)",
+        "translations":  [
+                             1035,
+                             1036
+                         ],
+        "genres":  [
+                       2498,
+                       2499,
+                       2500,
+                       2501,
+                       2502
+                   ]
+    }
+]

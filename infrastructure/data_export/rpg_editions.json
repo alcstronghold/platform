@@ -1,0 +1,3474 @@
+﻿[
+    {
+        "id":  "daedd5cc-be61-4b69-bed5-969ce90913e2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.953Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.101Z",
+        "identifier":  "star-wars-wotc-original-edition",
+        "name":  "Star Wars: Roleplaying Game (WotC)",
+        "rpg_family_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "697af096-3d0e-45a9-8cee-ead0a4d19c7a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.018Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.164Z",
+        "identifier":  "star-wars-age-of-rebellion",
+        "name":  "Star Wars: Age of Rebellion",
+        "rpg_family_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "rpg_system_id":  "e31fd74e-b7ff-4bb7-a89f-6899283d5622",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "15e4465f-b032-4f8c-889d-b9edfef741f8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.089Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.237Z",
+        "identifier":  "dungeons-and-dragons-original-edition",
+        "name":  "Dungeons \u0026 Dragons (Original Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "ed0a2f98-5303-4084-8693-0a9223f0f48c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3cebfe49-0dab-4fe0-9ec5-89dc005215d1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.281Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.422Z",
+        "identifier":  "dungeons-and-dragons-3rd-edition",
+        "name":  "Dungeons \u0026 Dragons (3rd Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "6b865257-a1e9-481d-87bf-1512a5741d33",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.343Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.482Z",
+        "identifier":  "dungeons-and-dragons-3-5-edition",
+        "name":  "Dungeons \u0026 Dragons (3.5 Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "635900d8-563b-4561-9d75-0bd98770d912",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.404Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.545Z",
+        "identifier":  "dungeons-and-dragons-4th-edition",
+        "name":  "Dungeons \u0026 Dragons (4th Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "d349d82e-ba44-4301-99f5-4dedc4a182f8",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "9647deb8-7af6-4e72-a8fa-f4d1f571cf39",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.466Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.609Z",
+        "identifier":  "dungeons-and-dragons-5th-edition",
+        "name":  "Dungeons \u0026 Dragons (5th Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "fd83376a-b0e3-426d-8e37-1af446ae4490",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c723ca09-ad7b-44ec-944d-051ae9746d27",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.525Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.670Z",
+        "identifier":  "ablaneda",
+        "name":  "Ablaneda",
+        "rpg_family_id":  "bc5adf19-d41f-4741-b6a3-3a82613d815a",
+        "rpg_system_id":  "ab878638-4586-4ee5-b7bc-c3557dbb60b1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a815a76f-d77e-424d-9851-7a608fbe2496",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.587Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.736Z",
+        "identifier":  "ryuutama",
+        "name":  "Ryuutama",
+        "rpg_family_id":  "4a7e04f3-290c-4fee-9fd5-6bd3c7eeabfa",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b47122b0-961c-4fb0-833e-cc795c8b1103",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.646Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.797Z",
+        "identifier":  "amazing-tales",
+        "name":  "Amazing Tales",
+        "rpg_family_id":  "43692bfb-ff14-4430-a1b4-274b603bf210",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a82d7179-33d6-4b66-a4c3-0a85e3270565",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.714Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.863Z",
+        "identifier":  "untitled-goose-gang",
+        "name":  "Untitled Goose Gang",
+        "rpg_family_id":  "336ea897-ceb8-490e-b1a5-73547ae250b8",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fb6d6615-d231-412e-8911-f9110f42950f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.844Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.992Z",
+        "identifier":  "middle-earth-role-playing-2nd-edition",
+        "name":  "Middle-earth Role Playing (2nd Edition)",
+        "rpg_family_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "rpg_system_id":  "93de8bed-4764-4e72-a12d-eaff01f9680c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4201ae5b-6184-4489-ac1e-5421c0c76e76",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.907Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.061Z",
+        "identifier":  "lord-of-the-rings-roleplaying-game",
+        "name":  "The Lord of the Rings Roleplaying Game (Coda / Decipher)",
+        "rpg_family_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "rpg_system_id":  "b275d8a7-9eab-4f6f-abad-e93e3efc9990",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "55a025dc-da3a-43c5-9ffb-d8867dc6dd38",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.969Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.131Z",
+        "identifier":  "the-one-ring-1st-edition",
+        "name":  "The One Ring (1st Edition)",
+        "rpg_family_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "rpg_system_id":  "5d363477-0cce-4d10-b0d9-8b25cc44eaff",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fe2c6152-5195-4518-bedc-07468409708b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.031Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.195Z",
+        "identifier":  "the-one-ring-2nd-edition",
+        "name":  "The One Ring (2nd Edition)",
+        "rpg_family_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "rpg_system_id":  "5d363477-0cce-4d10-b0d9-8b25cc44eaff",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c89df1f7-c4be-4ec1-a4ff-e37e0d4102cb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.101Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.265Z",
+        "identifier":  "perils-and-princesses",
+        "name":  "Perils \u0026 Princesses",
+        "rpg_family_id":  "6193e392-ac9f-4ad7-a8a1-df870c8672f8",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "498a1917-8b9c-420b-91fb-4dd8c521bfd8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.162Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.334Z",
+        "identifier":  "runecairn",
+        "name":  "Runecairn",
+        "rpg_family_id":  "d1347d6f-5bf4-4856-a6a5-06a0c019b214",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2c166e66-2971-420c-94f3-295549ac6a24",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.249Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.394Z",
+        "identifier":  "dinowest",
+        "name":  "Dinowest",
+        "rpg_family_id":  "186c8cb6-8bd9-4d3d-9c2b-9cb4bbd39531",
+        "rpg_system_id":  "e684ba7b-d042-4121-a7e7-dcc0fb32bf2e",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "39068cca-b648-4d82-bd51-5e8f452ac314",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.380Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.538Z",
+        "identifier":  "legend-of-the-five-rings-2nd-edition",
+        "name":  "Legend of the Five Rings (2nd Edition)",
+        "rpg_family_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "46e3ca87-e01a-4216-aa97-e5586de31a10",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.448Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.600Z",
+        "identifier":  "legend-of-the-five-rings-3rd-edition",
+        "name":  "Legend of the Five Rings (3rd Edition)",
+        "rpg_family_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f738c3e9-6d22-40e2-b589-539f55964b39",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.599Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.669Z",
+        "identifier":  "legend-of-the-five-rings-4th-edition",
+        "name":  "Legend of the Five Rings (4th Edition)",
+        "rpg_family_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "922a2934-e383-4bdc-a834-ac465f29e9be",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.673Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.733Z",
+        "identifier":  "legend-of-the-five-rings-5th-edition",
+        "name":  "Legend of the Five Rings (5th Edition)",
+        "rpg_family_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "rpg_system_id":  "e31fd74e-b7ff-4bb7-a89f-6899283d5622",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e5005b8b-006a-43f6-9840-bb080f96cbf7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.739Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.801Z",
+        "identifier":  "root-the-roleplaying-game",
+        "name":  "Root: The Roleplaying Game",
+        "rpg_family_id":  "e817a51d-7e96-4cc4-bc25-30cbd0298756",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8e40dc7e-bc71-40f2-82fb-1a42a194a420",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.802Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.864Z",
+        "identifier":  "scheherazade-the-one-thousand-and-one-nights-rpg",
+        "name":  "Scheherazade: The One Thousand and One Nights RPG",
+        "rpg_family_id":  "0caf3e36-b974-490a-b1dd-4a6312238f5b",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "41563332-cc6c-41df-a961-d379b4dab1cf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.872Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.927Z",
+        "identifier":  "cy-borg",
+        "name":  "CY_BORG",
+        "rpg_family_id":  "8a540ea6-52f3-49af-94e8-6fff752a73c0",
+        "rpg_system_id":  "3ed98870-a370-4ca2-9f55-298ab74a9ca6",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "bad9c0d3-6f55-4a8f-a111-8588e46619ed",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.940Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.997Z",
+        "identifier":  "mork-borg",
+        "name":  "Mörk Borg",
+        "rpg_family_id":  "20110ae5-a016-4850-bb4c-f5a4ba769bee",
+        "rpg_system_id":  "3ed98870-a370-4ca2-9f55-298ab74a9ca6",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "86a7b3b4-6fbe-469e-ace3-a149fac5c30e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.008Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.073Z",
+        "identifier":  "broken-compass",
+        "name":  "Broken Compass",
+        "rpg_family_id":  "086d2de9-cf5b-4d49-b6f7-72ca94bfa633",
+        "rpg_system_id":  "cf9678dc-5a22-45f1-9ebd-dffcb61450f5",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "39a419c0-f6c7-4dff-9123-26fa53617028",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.138Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.216Z",
+        "identifier":  "ragnarok-primera-edicion",
+        "name":  "Ragnarok (1st Edition)",
+        "rpg_family_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "26a98a88-5b84-4b7e-be54-b9736907703a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.194Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.282Z",
+        "identifier":  "ragnarok-segunda-edicion",
+        "name":  "Ragnarok (2nd Edition)",
+        "rpg_family_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3bf3baad-39f4-48b3-9c24-ca47f9b11898",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.254Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.396Z",
+        "identifier":  "ragnarok-tercera-edicion",
+        "name":  "Ragnarok (3rd Edition)",
+        "rpg_family_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4841bed7-424f-446e-9fb8-84923c35efa2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.313Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.535Z",
+        "identifier":  "yggdrasill",
+        "name":  "Yggdrasill",
+        "rpg_family_id":  "c10add26-3089-48ec-bcea-e656abf8e7af",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0f32dd9e-3edd-4370-9968-4f0760d63b32",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.375Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.629Z",
+        "identifier":  "luna-roja",
+        "name":  "Luna Roja",
+        "rpg_family_id":  "a9fbc613-4893-47d5-8aad-cff49420ca7f",
+        "rpg_system_id":  "8d082137-f2b2-4327-8802-23e1b4517ab0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2980df54-6f8a-4383-a198-104c1f5ef8b1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.437Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.694Z",
+        "identifier":  "wrath-and-glory",
+        "name":  "Wrath \u0026 Glory",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0ce76f17-c394-4494-af91-951031a89ae1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.549Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.824Z",
+        "identifier":  "warhammer-fantasy-roleplay-1st-edition",
+        "name":  "Warhammer Fantasy Roleplay (1st Edition)",
+        "rpg_family_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "6ec818c6-3be2-4438-a6eb-380f35df8d6e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.607Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.889Z",
+        "identifier":  "warhammer-fantasy-roleplay-2nd-edition",
+        "name":  "Warhammer Fantasy Roleplay (2nd Edition)",
+        "rpg_family_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4a6eb3b5-0178-4f55-8e40-3f42d37d68c2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.421Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.326Z",
+        "identifier":  "tales-from-the-loop",
+        "name":  "Tales from the Loop",
+        "rpg_family_id":  "f85cfaf5-901a-46f1-afc8-fb611c8b312b",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "dd7ef79b-f17a-43ae-8c4c-6ff65b4b7c23",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.836Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:36.946Z",
+        "identifier":  "hitos",
+        "name":  "Hitos",
+        "rpg_family_id":  "a63d5a04-56dd-462e-a04c-7ba50f12020d",
+        "rpg_system_id":  "674de993-ec80-46d2-b4e9-061b835f38a0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8f89c7ab-3165-46ef-92aa-4d846ee0328c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.891Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.016Z",
+        "identifier":  "horror-movie-world",
+        "name":  "Horror Movie World",
+        "rpg_family_id":  "77c18eab-b29b-426e-ab44-35db8a65eab4",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "29536666-f04c-4fbb-94ef-0a3f80faaf39",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.483Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.397Z",
+        "identifier":  "blade-runner-the-roleplaying-game",
+        "name":  "Blade Runner: The Roleplaying Game",
+        "rpg_family_id":  "c9e77770-b16e-4da0-bcd5-fe51549c2af0",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c020cf81-130a-44db-a540-d4ebc2b71d41",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.119Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.414Z",
+        "identifier":  "savage-worlds-deluxe-edition",
+        "name":  "Savage Worlds Deluxe Edition",
+        "rpg_family_id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "rpg_system_id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f02f22d1-7e3a-4dc1-a2e4-e56501cb3f39",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.188Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.478Z",
+        "identifier":  "deadlands-the-weird-west",
+        "name":  "Deadlands: The Weird West",
+        "rpg_family_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "rpg_system_id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a3562f7b-67d6-498e-b3b2-c63c8a2ac5b3",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.253Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.542Z",
+        "identifier":  "deadlands-lost-colony",
+        "name":  "Deadlands: Lost Colony",
+        "rpg_family_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "rpg_system_id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4d3de144-be4d-4ac7-9b55-5a134baa5404",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.334Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.610Z",
+        "identifier":  "deadlands-hell-on-earth",
+        "name":  "Deadlands: Hell on Earth",
+        "rpg_family_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "rpg_system_id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "861be208-8648-4a8b-86cb-92524d737d3b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.215Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.358Z",
+        "identifier":  "advanced-dungeons-and-dragons-2nd-edition",
+        "name":  "Advanced Dungeons \u0026 Dragons (2nd Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "ed0a2f98-5303-4084-8693-0a9223f0f48c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e6f9a00f-e852-4224-a5c8-37600c881986",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.775Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.926Z",
+        "identifier":  "middle-earth-role-playing-1st-edition",
+        "name":  "Middle-earth Role Playing (1st Edition)",
+        "rpg_family_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "rpg_system_id":  "93de8bed-4764-4e72-a12d-eaff01f9680c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8447269f-4460-4d0a-9001-afe04dc6696c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:28.312Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:38.466Z",
+        "identifier":  "legend-of-the-five-rings-1st-edition",
+        "name":  "Legend of the Five Rings (1st Edition)",
+        "rpg_family_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "6ea2fc70-44bf-4423-a1c6-ec209b90e6e4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.077Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.144Z",
+        "identifier":  "la-puerta-de-ishtar",
+        "name":  "La Puerta de Ishtar",
+        "rpg_family_id":  "9be53c0c-25ba-4850-91fc-ff4f8e287efa",
+        "rpg_system_id":  "cfefc2f4-4ce4-46e8-90bd-3127cdf092f0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "109bcb08-5b62-4c5b-8fed-e4bd0fcca89a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.495Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.759Z",
+        "identifier":  "deathwatch",
+        "name":  "Deathwatch",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "78298923-866a-4318-ae29-c043ea3bd582",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.667Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:39.959Z",
+        "identifier":  "warhammer-fantasy-roleplay-3rd-edition",
+        "name":  "Warhammer Fantasy Roleplay (3rd Edition)",
+        "rpg_family_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2ea8d90e-d266-4af5-9dc3-be06d989ca0b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.728Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.023Z",
+        "identifier":  "warhammer-fantasy-roleplay-4th-edition",
+        "name":  "Warhammer Fantasy Roleplay (4th Edition)",
+        "rpg_family_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a1fea40a-7d2d-4a4f-8f6b-d7101b647abf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.793Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.090Z",
+        "identifier":  "imperium-maledictum",
+        "name":  "Imperium Maledictum",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3a7642a2-47b5-47c3-ab0c-40057dceb4ff",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.862Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.151Z",
+        "identifier":  "black-crusade",
+        "name":  "Black Crusade",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c10211d1-396c-4f64-bbea-da5516d57113",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.924Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.212Z",
+        "identifier":  "dark-heresy-1st-edition",
+        "name":  "Dark Heresy (1st Edition)",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a02c4e47-3863-441b-8d28-e5baaf622c4e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:29.988Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.280Z",
+        "identifier":  "dark-heresy-2nd-edition",
+        "name":  "Dark Heresy (2nd Edition)",
+        "rpg_family_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "rpg_system_id":  "d0853c05-63c8-4f7f-95ac-75403adc33a1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "406e02b2-d235-4c2d-bef9-ed5105f3b292",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.048Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.351Z",
+        "identifier":  "savage-worlds-adventure-edition",
+        "name":  "Savage Worlds Adventure Edition (SWADE)",
+        "rpg_family_id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "rpg_system_id":  "e3038049-a2e2-471e-a4eb-843037e6bd52",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "643f402d-5d43-4f10-9b12-18a9742e23fe",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.395Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.669Z",
+        "identifier":  "bloodheist",
+        "name":  "Bloodheist",
+        "rpg_family_id":  "d51c4f2c-53f8-4701-9022-99d7f8d9baaa",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "1e009ea5-750c-4a78-8d31-d2f1838a2145",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.449Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.733Z",
+        "identifier":  "ink",
+        "name":  "Ink",
+        "rpg_family_id":  "5c105f76-29e1-415d-9ec5-7d247077dbbb",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "21d3f2b7-a40e-44cb-895a-21596f34e243",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.512Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.796Z",
+        "identifier":  "dracula-vs-hitler",
+        "name":  "Dracula vs Hitler",
+        "rpg_family_id":  "22eb008e-73b1-4b46-89b8-1023329c3adf",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3c89cd55-f190-4fbf-b7ec-195e76a772e2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.570Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.858Z",
+        "identifier":  "caucho-y-cromo",
+        "name":  "Caucho y Cromo",
+        "rpg_family_id":  "0176199c-18c1-4843-8906-16179e2fe2ee",
+        "rpg_system_id":  "e684ba7b-d042-4121-a7e7-dcc0fb32bf2e",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "bc3d7a36-7b4b-40cc-a333-3473719758a7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:30.631Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.927Z",
+        "identifier":  "zombicide-chronicles",
+        "name":  "Zombicide: Chronicles",
+        "rpg_family_id":  "cb87de6d-a78c-48f8-bd16-23cb319ffd19",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "586df7b8-a368-473d-acd9-05f9f9de93db",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:55.963Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:40.986Z",
+        "identifier":  "cuervos-de-asgard-motor-club",
+        "name":  "Cuervos de Asgard Motor Club",
+        "rpg_family_id":  "3e76b63c-801b-41d8-8e20-c2803459a6cb",
+        "rpg_system_id":  "22ace1f2-2686-443b-84fe-2f7067b97085",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "53775459-c074-49f5-9698-f1ea4329bb20",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.032Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.047Z",
+        "identifier":  "the-flux",
+        "name":  "The Flux",
+        "rpg_family_id":  "53aaf0d1-de7e-4274-88fa-a189edd5d1ed",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c750ce40-4a05-4af5-9cf4-8638370be81b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.096Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.112Z",
+        "identifier":  "seapunk-unleashed",
+        "name":  "Seapunk Unleashed",
+        "rpg_family_id":  "41c9d28d-a5c0-4bc8-a99a-3d450a382e8f",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0293b8fd-50e0-4b2c-bc4c-f2a9c29ee5ec",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.156Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.177Z",
+        "identifier":  "fiasco-classic",
+        "name":  "Fiasco Classic",
+        "rpg_family_id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8dae8fb2-2d06-409f-8dfe-bb8eccc4c1df",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.273Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.302Z",
+        "identifier":  "pendragon-1st-6th-editions",
+        "name":  "Pendragon",
+        "rpg_family_id":  "8c21acb2-9c3e-4eb2-9595-2ba3201b8fe6",
+        "rpg_system_id":  "2aabf489-eda2-4717-a4e0-16f2809e06fb",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8195fa65-7399-42cf-866c-609af3c1e67f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.335Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.364Z",
+        "identifier":  "apocalypse-world",
+        "name":  "Apocalypse World",
+        "rpg_family_id":  "7db6883d-7526-4506-86d9-31adbbb4f0c5",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4cc878eb-d1bf-42da-843f-f4a47a36df59",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.400Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.427Z",
+        "identifier":  "witchcraft",
+        "name":  "WitchCraft",
+        "rpg_family_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "rpg_system_id":  "c42070a2-73f6-46ff-8708-21f221f25d4d",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "12ee4571-ecad-4cd6-b659-866753e915b5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.476Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.502Z",
+        "identifier":  "cukicraft",
+        "name":  "CukiCraft",
+        "rpg_family_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "rpg_system_id":  "c42070a2-73f6-46ff-8708-21f221f25d4d",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "87d18c6d-7af2-40c0-b880-731bfb12e7ec",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.595Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.622Z",
+        "identifier":  "runequest-roleplaying-in-glorantha",
+        "name":  "RuneQuest: Roleplaying in Glorantha",
+        "rpg_family_id":  "feec719a-77a5-4b69-b915-649a559eb309",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d201982d-3dba-4d47-b758-2d1faf6e0ed9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.658Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.687Z",
+        "identifier":  "dungeon-world",
+        "name":  "Dungeon World",
+        "rpg_family_id":  "b0436176-6e9a-4b9f-a4e6-f0d22c2fa0a8",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0609f027-6809-4f85-9487-c75bbf6269cb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.718Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.744Z",
+        "identifier":  "dungeon-crawl-classics",
+        "name":  "Dungeon Crawl Classics Role Playing Game",
+        "rpg_family_id":  "da9da762-1e6f-422b-b49d-4db676a5ca00",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "5cfa41b9-7644-4901-b51b-6d009c542887",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.834Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.869Z",
+        "identifier":  "ars-magica-1st-edition",
+        "name":  "Ars Magica (1st Edition)",
+        "rpg_family_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c7ec80c0-b847-41aa-bc7f-d6b9f3afaf68",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.896Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.931Z",
+        "identifier":  "ars-magica-2nd-edition",
+        "name":  "Ars Magica (2nd Edition)",
+        "rpg_family_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b099e1ba-da35-467d-a489-d486cf3f491f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.955Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.992Z",
+        "identifier":  "ars-magica-3rd-edition",
+        "name":  "Ars Magica (3rd Edition)",
+        "rpg_family_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fe41920b-0b94-4825-affd-3a87c7adcb09",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:57.022Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.052Z",
+        "identifier":  "ars-magica-4th-edition",
+        "name":  "Ars Magica (4th Edition)",
+        "rpg_family_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2989f69c-055d-42d5-bd43-fd76f02dd192",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:57.084Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.117Z",
+        "identifier":  "ars-magica-5th-edition",
+        "name":  "Ars Magica (5th Edition)",
+        "rpg_family_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "66eb9407-87c1-4514-947d-f9763eb8876e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:57.143Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.174Z",
+        "identifier":  "the-dresden-files-roleplaying-game",
+        "name":  "The Dresden Files Roleplaying Game",
+        "rpg_family_id":  "724dee89-b375-4050-9bef-736ae0fb14ac",
+        "rpg_system_id":  "18ab6c86-335d-41e1-a506-0d0f18fe5f89",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e916e4dd-68a4-4d18-9fa8-5c7ff3c1abf7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.776Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:36.879Z",
+        "identifier":  "starfinder-1st-edition",
+        "name":  "Starfinder Roleplaying Game (1st Edition)",
+        "rpg_family_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "73a0154a-ffd3-4fe0-b141-4fb36f9dd3fe",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:57.259Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.293Z",
+        "identifier":  "fate-accelerated",
+        "name":  "Fate Accelerated",
+        "rpg_family_id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "rpg_system_id":  "641ccab9-d4d6-4624-ab88-dc82ffc92aae",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "792a6f10-9f65-4e9b-962a-7ed9bbd8637e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:32.729Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.351Z",
+        "identifier":  "paranoia-1st-edition",
+        "name":  "Paranoia (1st Edition)",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "51a24933-e750-4550-b19e-fba6fe27136f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.217Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.240Z",
+        "identifier":  "fiasco",
+        "name":  "Fiasco",
+        "rpg_family_id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0cbc55b6-ae5b-43dc-8394-7390c9b466ba",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.536Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.559Z",
+        "identifier":  "maho-shojo",
+        "name":  "Mahō Shōjo",
+        "rpg_family_id":  "9878ae4a-0e77-4db8-b68b-41cae662685b",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0adce446-3822-4f81-ae1f-83f1980c2a0a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:57.202Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.231Z",
+        "identifier":  "fate-core",
+        "name":  "Fate Core",
+        "rpg_family_id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "rpg_system_id":  "641ccab9-d4d6-4624-ab88-dc82ffc92aae",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "12f89b2c-d00f-401b-b78d-4792a8f8242e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:32.790Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.414Z",
+        "identifier":  "paranoia-2nd-edition",
+        "name":  "Paranoia (2nd Edition)",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "84b1bb2e-b63e-41c3-b0f3-14a67d05b62c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:32.845Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.477Z",
+        "identifier":  "paranoia-5th-edition",
+        "name":  "Paranoia (5th Edition)",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8259a5e8-613c-4830-bd26-aeb68d200e1f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:32.907Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.551Z",
+        "identifier":  "paranoia-mongoose-edition",
+        "name":  "Paranoia (Mongoose Edition)",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2d8e6ce3-d602-42e2-a215-1d1a12e52bcb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:32.979Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.623Z",
+        "identifier":  "paranoia-rebooted",
+        "name":  "Paranoia (Rebooted)",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "92a44735-a65d-4645-a9d8-1ab3f4e1e23d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.047Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.692Z",
+        "identifier":  "paranoia-25th-anniversary",
+        "name":  "Paranoia 25th Anniversary",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "1b248d49-e835-48fa-99c9-573cf6d744a8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.110Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.763Z",
+        "identifier":  "paranoia-perfect-edition",
+        "name":  "Paranoia Perfect Edition",
+        "rpg_family_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "85d67b0d-4877-4fe7-9617-67191a9051b4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.173Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.830Z",
+        "identifier":  "star-trek-adventures-1st-edition",
+        "name":  "Star Trek Adventures (1st Edition)",
+        "rpg_family_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "rpg_system_id":  "605839bd-37c7-4176-b654-22a912d92d04",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "6571cb07-c482-4425-bce6-4575faf9d2fc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.296Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.957Z",
+        "identifier":  "7th-sea-1st-edition",
+        "name":  "7th Sea First Edition",
+        "rpg_family_id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "6a34e443-c2fd-4964-81fa-7ac9065281c8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.351Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.030Z",
+        "identifier":  "7th-sea-2nd-edition",
+        "name":  "7th Sea Second Edition",
+        "rpg_family_id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "rpg_system_id":  "4e930138-720a-44eb-8d7f-10b56d9966e3",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "85ba8535-ffb8-4244-9d4a-e24811fac487",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.418Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.106Z",
+        "identifier":  "kult-1st-edition",
+        "name":  "Kult (1st Edition)",
+        "rpg_family_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "rpg_system_id":  "96fac33d-e574-4162-bd17-58ad7184e9be",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "72ea4749-3c8d-4efd-b2b1-4fa14a34aff8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.473Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.169Z",
+        "identifier":  "kult-2nd-edition",
+        "name":  "Kult (2nd Edition)",
+        "rpg_family_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "rpg_system_id":  "96fac33d-e574-4162-bd17-58ad7184e9be",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "ce29f5da-11c3-4e04-9391-0e87fd6c614b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.542Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.244Z",
+        "identifier":  "kult-3rd-edition",
+        "name":  "Kult (3rd Edition)",
+        "rpg_family_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "rpg_system_id":  "96fac33d-e574-4162-bd17-58ad7184e9be",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fd916d59-ddbd-4e4e-af18-77a212107ef5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.605Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.315Z",
+        "identifier":  "kult-divinity-lost-4th-edition",
+        "name":  "Kult: Divinity Lost (4th Edition)",
+        "rpg_family_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "29462a58-6856-420b-9585-55b327c827ad",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.665Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.386Z",
+        "identifier":  "aquelarre-1st-edition",
+        "name":  "Aquelarre",
+        "rpg_family_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3b077452-3ff1-4be0-9a0b-f2f38245253e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.723Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.471Z",
+        "identifier":  "aquelarre-2nd-edition",
+        "name":  "Aquelarre (2nd Edition)",
+        "rpg_family_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b65bd4cd-9637-466d-9359-a992f3bee8c0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.840Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.634Z",
+        "identifier":  "the-dee-sanction",
+        "name":  "The Dee Sanction",
+        "rpg_family_id":  "519f5f04-8426-465a-9d2e-59ccf37c7ce8",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "49cdb9c3-fadd-4d9c-b6f9-6f77cc798d21",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.907Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.701Z",
+        "identifier":  "shadowrun-1st-edition",
+        "name":  "Shadowrun (1st Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e7ad86d2-a20f-4d6a-97d0-1fa802667577",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.968Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.767Z",
+        "identifier":  "shadowrun-2nd-edition",
+        "name":  "Shadowrun (2nd Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8f065f06-179d-40ee-9d85-056000b6818d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.029Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.832Z",
+        "identifier":  "shadowrun-3rd-edition",
+        "name":  "Shadowrun (3rd Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "317fdfc8-69d7-4586-84ce-e38f27b07072",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.093Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.905Z",
+        "identifier":  "shadowrun-4th-edition",
+        "name":  "Shadowrun (4th Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "784a98be-0be2-48ff-ba94-9f953cfc0a4a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.152Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.980Z",
+        "identifier":  "shadowrun-5th-edition",
+        "name":  "Shadowrun (5th Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "cbb71fb3-5041-45c9-b571-3802e6a81c94",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.270Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.106Z",
+        "identifier":  "shadowrun-anarchy-2nd-edition",
+        "name":  "Shadowrun: Anarchy (2nd Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  "629cfe01-967c-436d-82dd-efc9a44fc23c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "9fe2570a-72ff-41e9-9ae8-d4664047f0df",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.328Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.173Z",
+        "identifier":  "shadowrun-sixth-world-6th-edition",
+        "name":  "Shadowrun: Sixth World (6th Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b85492f2-0a2b-45dc-8936-6e1481d54d47",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.402Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.239Z",
+        "identifier":  "cybergeneration-1st-and-2nd-editions",
+        "name":  "Cybergeneration (1st \u0026 2nd Editions)",
+        "rpg_family_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "rpg_system_id":  "80d1d7eb-a049-40c3-9816-aab5bf5b1c41",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "bc07a84f-5e01-4503-8364-0a062a253477",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.461Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.314Z",
+        "identifier":  "cyberpunk-2013",
+        "name":  "Cyberpunk 2013",
+        "rpg_family_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "rpg_system_id":  "80d1d7eb-a049-40c3-9816-aab5bf5b1c41",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a49569f9-8da8-4d2e-9e79-9ce34b79b0ec",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.527Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.385Z",
+        "identifier":  "cyberpunk-2020",
+        "name":  "Cyberpunk 2020",
+        "rpg_family_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "rpg_system_id":  "80d1d7eb-a049-40c3-9816-aab5bf5b1c41",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "ecd0cd00-abf6-4ca1-8a4e-ce2f3828fb4d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.587Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.454Z",
+        "identifier":  "cyberpunk-red",
+        "name":  "Cyberpunk RED",
+        "rpg_family_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "rpg_system_id":  "80d1d7eb-a049-40c3-9816-aab5bf5b1c41",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "684a68cf-6bce-4764-8a87-0737b7997cfc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.651Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.525Z",
+        "identifier":  "cyberpunk-v30",
+        "name":  "Cyberpunk V3.0",
+        "rpg_family_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "rpg_system_id":  "fe8cf379-22eb-484c-ad80-74b092796c74",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "124e34ff-a851-4f48-9f9f-bfedb261f7f9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.770Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.675Z",
+        "identifier":  "gurps-3rd-edition",
+        "name":  "GURPS (3rd Edition)",
+        "rpg_family_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "rpg_system_id":  "d17a0d63-8115-46da-acbf-20bd574ca686",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2683b200-a38f-4bbe-b48c-e7cbad1f92d4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.840Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.743Z",
+        "identifier":  "gurps-4th-edition",
+        "name":  "GURPS (4th Edition)",
+        "rpg_family_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "rpg_system_id":  "d17a0d63-8115-46da-acbf-20bd574ca686",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "58a3a930-66ea-42e2-a48d-1dd2a7a15991",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.920Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.817Z",
+        "identifier":  "kids-on-bikes-1st-edition",
+        "name":  "Kids on Bikes (1st Edition)",
+        "rpg_family_id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "rpg_system_id":  "4725945b-e35e-4601-beb6-bc968fc7ad02",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f7b205cd-dc86-4e0a-92e4-1c660ad29fd4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.005Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.885Z",
+        "identifier":  "kids-on-bikes-2nd-edition",
+        "name":  "Kids on Bikes (2nd Edition)",
+        "rpg_family_id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "rpg_system_id":  "4725945b-e35e-4601-beb6-bc968fc7ad02",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3bb4c39c-f3c1-47cc-9ff8-b92888de252b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.095Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.960Z",
+        "identifier":  "alien-the-roleplaying-game",
+        "name":  "Alien: The Roleplaying Game",
+        "rpg_family_id":  "252a730d-eb9f-47b0-bd47-01e237d80390",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b42a3123-6cba-4851-a31c-0d5ced4ca243",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.151Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.037Z",
+        "identifier":  "mutant-year-zero",
+        "name":  "Mutant: Year Zero",
+        "rpg_family_id":  "5c7ec17e-a968-4a4b-aaf5-678b7d9ebd1c",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d49831f7-0a8f-4bb5-aea6-3e7d5eb8cdfa",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.223Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.114Z",
+        "identifier":  "vaesen",
+        "name":  "Vaesen",
+        "rpg_family_id":  "a72e349f-ad3c-437b-a70d-e4e9fb283ca4",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4470e619-db92-40f7-beac-28ad22a34473",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.361Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.257Z",
+        "identifier":  "the-walking-dead-universe",
+        "name":  "The Walking Dead Universe",
+        "rpg_family_id":  "7dbb513a-ef32-41d8-8d6a-679e41f1ef09",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fd38eca5-ac5f-4d7f-bdd1-eba4f5bcc3ba",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.657Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:36.742Z",
+        "identifier":  "pathfinder-1st-edition",
+        "name":  "Pathfinder Roleplaying Game (1st Edition)",
+        "rpg_family_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b81c8213-69f1-4814-867a-5346e30f7e70",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:26.721Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:36.820Z",
+        "identifier":  "pathfinder-2nd-edition",
+        "name":  "Pathfinder Roleplaying Game (2nd Edition)",
+        "rpg_family_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "rpg_system_id":  "f4b5b4e8-5ed5-4c30-aad1-029be2f45ea5",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "de7890af-e2ee-403c-91ae-22a43e41f98b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:43:27.148Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:37.296Z",
+        "identifier":  "advanced-dungeons-and-dragons-1st-edition",
+        "name":  "Advanced Dungeons \u0026 Dragons (1st Edition)",
+        "rpg_family_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "rpg_system_id":  "ed0a2f98-5303-4084-8693-0a9223f0f48c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c57b20ea-c44d-4cae-a67c-2e3e377a41c5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:47:56.777Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:41.810Z",
+        "identifier":  "old-school-essentials",
+        "name":  "Old-School Essentials Retro Adventure Game",
+        "rpg_family_id":  "8827fb6f-47f1-44ff-84fa-73d9f32d50e6",
+        "rpg_system_id":  "0b4f0d65-b0a8-43c8-ae7c-69124026a77d",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "513d23d5-2577-4ac1-8425-ccc0d8185b6a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.236Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:42.896Z",
+        "identifier":  "star-trek-adventures-2nd-edition",
+        "name":  "Star Trek Adventures (2nd Edition)",
+        "rpg_family_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "rpg_system_id":  "605839bd-37c7-4176-b654-22a912d92d04",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "61289def-86c3-4701-97e8-75d2d82a074a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:33.781Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:43.559Z",
+        "identifier":  "aquelarre-3rd-edition",
+        "name":  "Aquelarre (3rd Edition)",
+        "rpg_family_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "31429061-f7f0-49d8-8738-4930595c0411",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.211Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.043Z",
+        "identifier":  "shadowrun-anarchy-1st-edition",
+        "name":  "Shadowrun: Anarchy (1st Edition)",
+        "rpg_family_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "rpg_system_id":  "629cfe01-967c-436d-82dd-efc9a44fc23c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c2414848-6391-4799-afda-7a03cffc1caf",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:34.709Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:44.596Z",
+        "identifier":  "gurps-1st-and-2nd-editions",
+        "name":  "GURPS (1st \u0026 2nd Editions)",
+        "rpg_family_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "rpg_system_id":  "d17a0d63-8115-46da-acbf-20bd574ca686",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "93c434c9-af45-47bd-ac61-3df4c0917eb1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.304Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.177Z",
+        "identifier":  "forbidden-lands",
+        "name":  "Forbidden Lands",
+        "rpg_family_id":  "6118d5e6-3722-4f30-91a9-642edb170329",
+        "rpg_system_id":  "bffee5e3-f19a-460b-960b-6cce7046a6ef",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a0f328ff-0d99-4652-91b7-f96f0a86f93a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.539Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.460Z",
+        "identifier":  "genesys",
+        "name":  "Genesys",
+        "rpg_family_id":  "55b9ed93-299e-4153-ac23-18eaf23cd63c",
+        "rpg_system_id":  "e31fd74e-b7ff-4bb7-a89f-6899283d5622",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4f6cc832-c312-498b-aa61-18cf79e4e5a7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:51:35.606Z",
+        "user_updated":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_updated":  "2025-12-17T21:52:45.534Z",
+        "identifier":  "scurry",
+        "name":  "Scurry",
+        "rpg_family_id":  "7c41f54c-c2ac-44b4-a8f5-6e465e90a97f",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "91e4fcde-067e-4e5e-a38a-c2376a152c63",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.602Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "misery-and-misfortune",
+        "name":  "Misèries i Malaurances",
+        "rpg_family_id":  "0711689b-dd66-49a9-b3bf-216aec1d608b",
+        "rpg_system_id":  "0b4f0d65-b0a8-43c8-ae7c-69124026a77d",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "bb02f2e8-4874-40ee-8a97-0a7e7a8baf70",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.664Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "robotta",
+        "name":  "Robotta - Humanidad Perdida",
+        "rpg_family_id":  "b96b6a26-5dcb-4a64-80a6-fbbfffec3ca9",
+        "rpg_system_id":  "cfefc2f4-4ce4-46e8-90bd-3127cdf092f0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "350e08d7-56ea-4ef5-9d6c-2a1d8e547f4e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.724Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hardboiled",
+        "name":  "Hardboiled",
+        "rpg_family_id":  "eadea0bd-f205-4c69-90f3-c636531b7eee",
+        "rpg_system_id":  "6652c51f-a804-4284-a891-c821afb6f1e4",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d30ee649-fe73-4c6c-a2e2-41f7c5416687",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.784Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "musu-musu-musume",
+        "name":  "Musu-Musu-Musume?!",
+        "rpg_family_id":  "1be26ca4-9581-4f97-b153-d09cf9f0fa27",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c18e6ae4-f5f4-43f8-892a-a246705518aa",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.846Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "campeones-de-abora",
+        "name":  "Campeones de Ábora",
+        "rpg_family_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "rpg_system_id":  "fab4dae3-caaa-4486-962f-1b3b6a19cbe8",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f900390f-72a6-4939-93f8-e81ab36a040c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.914Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "campeones-de-verne",
+        "name":  "Campeones de Verne",
+        "rpg_family_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "rpg_system_id":  "fab4dae3-caaa-4486-962f-1b3b6a19cbe8",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "68daf757-3cb1-4784-9fa2-40f3b5756bca",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:45.975Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "inocentes",
+        "name":  "Inocentes",
+        "rpg_family_id":  "6ee263fd-e9ae-4edf-b1c8-84f2adbfbc55",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "72a7d82b-fe81-449f-8ed5-ae5504c57f61",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.044Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "tierras-quebradas-aventuras-entre-la-ley-y-el-caos",
+        "name":  "Tierras Quebradas: Aventuras entre la Ley y el Caos",
+        "rpg_family_id":  "6f383bc2-c8ea-4fa6-b0e9-66ddb9b0a5f5",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "85f703c2-bb22-4fb4-9c2b-88d9eca3e610",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.108Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "wushu-open",
+        "name":  "Wushu Open",
+        "rpg_family_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "rpg_system_id":  "8a6fe5b1-951e-43a5-8f10-0d9d3350cd45",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3baf3dcc-fae8-4e40-84f2-b711e41b3634",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.170Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "wushu-open-reloaded",
+        "name":  "Wushu Open Reloaded",
+        "rpg_family_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "rpg_system_id":  "8a6fe5b1-951e-43a5-8f10-0d9d3350cd45",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "20823dbe-7a9d-4550-86b3-11b27bdf55be",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.227Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "wushu-black-belt-edition",
+        "name":  "Wushu Black Belt Edition",
+        "rpg_family_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "rpg_system_id":  "8a6fe5b1-951e-43a5-8f10-0d9d3350cd45",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "25a21128-0bfc-46a9-8852-d8bbb66bbdf4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.285Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "budo-hard-style-wushu",
+        "name":  "Budo: Hard Style Wushu",
+        "rpg_family_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "rpg_system_id":  "8a6fe5b1-951e-43a5-8f10-0d9d3350cd45",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "df5ccdf6-c6a2-4cc1-ac54-d0ab4eb0db33",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.344Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "feng-shui-1st-edition",
+        "name":  "Feng Shui (1st Edition)",
+        "rpg_family_id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3925dd67-bec9-423a-ab62-b62545f5f699",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.411Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "feng-shui-2nd-edition",
+        "name":  "Feng Shui (2nd Edition)",
+        "rpg_family_id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "fffdef26-c20a-402a-ad97-c6b1463cc465",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.471Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "reflejo",
+        "name":  "Reflejo",
+        "rpg_family_id":  "4cc7786c-19e6-4455-a58a-7b2bb651a1fd",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "59dd33e2-6931-4e0e-8567-498a611553e5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.540Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "fragmentos",
+        "name":  "Fragmentos",
+        "rpg_family_id":  "285de6ac-d5c8-48aa-bec9-cd3150e31a32",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "11b5049c-1b37-41ee-8a85-5e5f6ce8378e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.605Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "blood-and-honor",
+        "name":  "Blood \u0026 Honor",
+        "rpg_family_id":  "a594b4fa-e492-490b-a0a3-c0d9b0f6bdd3",
+        "rpg_system_id":  "449cdf4f-5b4e-4968-9946-930a43922890",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c4feb461-c681-4af8-811a-1427d6a714bd",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.668Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "liminal",
+        "name":  "Liminal",
+        "rpg_family_id":  "75a51dcb-a795-4587-bf71-d0535f101135",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "80d9d2d6-b7b5-48d1-b88c-2da350d462bc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.729Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "broken-tales",
+        "name":  "Broken Tales",
+        "rpg_family_id":  "b3466ee7-9d69-438d-a7e8-2883264c1bdb",
+        "rpg_system_id":  "c0775e1e-6fbb-4ab7-9d93-3b1c2f9c2508",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "ce60135d-1cd3-41ca-b9fd-3a6803f86499",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.796Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "viking-death-squad",
+        "name":  "Viking Death Squad",
+        "rpg_family_id":  "849876aa-ce43-46f9-ab1c-7dbc0c411011",
+        "rpg_system_id":  "7e241946-9324-49ba-97bb-d15ef6ae5f40",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f28c5494-6c27-4327-823a-cb3b98367e98",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.865Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "trophy-gold",
+        "name":  "Trophy Gold",
+        "rpg_family_id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "rpg_system_id":  "e386afd0-6124-4901-8bf2-65d48cb01720",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "688d3bfe-fc5a-4bfc-b233-7753d28031c4",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.930Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "trophy-dark",
+        "name":  "Trophy Dark",
+        "rpg_family_id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "rpg_system_id":  "e386afd0-6124-4901-8bf2-65d48cb01720",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e18243bb-479e-4d37-b37d-eb6fe7a4d52d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:46.992Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "shinobigami",
+        "name":  "Shinobigami",
+        "rpg_family_id":  "6d790f58-41cb-43de-92b8-ab796dbbc2cf",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "dcd3ee3c-c543-4f11-8a15-77bec1783c9f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.055Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "castle-falkenstein",
+        "name":  "Castle Falkenstein",
+        "rpg_family_id":  "e256c1e9-e8b7-461f-a19a-e527d1902243",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "1b251ad8-04d0-4521-83dd-2c58b8043f25",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.116Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "yuuyake-koyake",
+        "name":  "Golden Sky Stories: Heart-Warming Role-Playing",
+        "rpg_family_id":  "3a8898bf-788b-40ac-bc44-89bf03f37481",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e095ef3d-8a82-49b6-b063-bae70ba74efc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.169Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "8-tesoros",
+        "name":  "8 Tesoros",
+        "rpg_family_id":  "2dfff4c6-6608-4c7c-aa33-e1c37a51e01e",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "9ec52880-fe4f-45f9-9c68-7dc54196c064",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.226Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "magissa-juego-de-rol-para-ninos",
+        "name":  "Magissa. Juego de Rol para niños",
+        "rpg_family_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "33c3837b-1967-4ba1-91bf-de8143030527",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.307Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "dyss-mitica-juego-de-rol",
+        "name":  "Dyss Mítica Juego de Rol",
+        "rpg_family_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f76a87de-7da1-4b6b-b828-3b900988fb48",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.445Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mausritter-sword-and-whiskers-role-playing",
+        "name":  "Mausritter: Sword-and-Whiskers Role Playing",
+        "rpg_family_id":  "6e3172d1-ef06-41ef-a917-e28d696fa5ef",
+        "rpg_system_id":  "ed0a2f98-5303-4084-8693-0a9223f0f48c",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d1dec5bd-ec91-4dd5-9444-dc7690ec2df8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.528Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "blacksad",
+        "name":  "Blacksad: Juego de Rol",
+        "rpg_family_id":  "f321b101-6dae-4c2a-ad3f-02ba13e5d656",
+        "rpg_system_id":  "674de993-ec80-46d2-b4e9-061b835f38a0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a48cd19c-fd5c-426a-8b39-c55a9931726f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.584Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "fanhunter",
+        "name":  "Fanhunter: El juego de rol epicodecadente",
+        "rpg_family_id":  "7db008ac-0320-45b4-8f4c-4d52d7bc0e57",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c7d6f6d1-a323-4887-b1be-d8941372ad25",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.641Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "monsterhearts-1st-and-2nd-editions",
+        "name":  "Monsterhearts (1st \u0026 2nd Editions)",
+        "rpg_family_id":  "8751adb3-cbc4-4d67-bb26-f5065c5910c7",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f79dce97-df1e-4883-95cf-8c54c3eb1aa9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.708Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "avatar-legends-the-roleplaying-game",
+        "name":  "Avatar Legends: The Roleplaying Game",
+        "rpg_family_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "9338ffbf-faa7-4a79-a085-c445edf8033c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.772Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hero-kids",
+        "name":  "Hero Kids",
+        "rpg_family_id":  "d6cef9ab-08b0-4ee4-a53d-5748217ca357",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "82fa184f-0d5d-40c7-9d27-c1e80bb77041",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.834Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "contratiempos",
+        "name":  "Contratiempos",
+        "rpg_family_id":  "674555a5-8ece-4ad9-9b9b-68fc7740a85b",
+        "rpg_system_id":  "b820d9bf-e1db-4f9c-9e84-ace41761fb90",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "5bcd9f93-6dc3-418c-88eb-84d044646dc7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.888Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "dune-adventures-in-the-imperium",
+        "name":  "Dune: Adventures in the Imperium",
+        "rpg_family_id":  "31f62d11-d682-42ed-8686-c3ae02581940",
+        "rpg_system_id":  "605839bd-37c7-4176-b654-22a912d92d04",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "ac66cfbe-733d-4312-b92b-163bcd40df4b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.662Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "the-yellow-king",
+        "name":  "The Yellow King",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "0edae0d0-63c4-452f-8130-dcfec5a2f3d1",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "5a110b6f-42bd-4c1d-bc62-8fba3b59deeb",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.940Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "cosmere-roleplaying-game",
+        "name":  "Cosmere Roleplaying Game",
+        "rpg_family_id":  "0db3de87-56ad-4632-a555-416d87dc0ce7",
+        "rpg_system_id":  "ae01149c-8ae7-4c7e-b07a-fff771e84ba0",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "25b9b686-1254-4ad2-ae4f-34be922b159a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:47.996Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "brindlewood-bay",
+        "name":  "Brindlewood Bay",
+        "rpg_family_id":  "d6f2188b-7e57-40d2-acd0-9d0f674b1ebf",
+        "rpg_system_id":  "e9a6b1c2-eb5e-469c-bbf2-26a6f6955cae",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "bf3b9dfc-a54d-488c-8713-a454dd778f09",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.057Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "dragonbane",
+        "name":  "Dragonbane",
+        "rpg_family_id":  "bd6dc38b-849e-48eb-8272-34a3df11979d",
+        "rpg_system_id":  "2aabf489-eda2-4717-a4e0-16f2809e06fb",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f80b0e11-8dde-4f01-865c-cbfc7b6f2cb2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.122Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "changeling-the-lost-1st-edition",
+        "name":  "Changeling: The Lost (1st Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "03a77177-a20b-4fb5-ace5-29aa62acaad2",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.185Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "changeling-the-lost-2nd-edition",
+        "name":  "Changeling: The Lost (2nd Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "61dd1f3d-07c5-4d02-a334-43e77db80c5b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.242Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "vampire-the-requiem-1st-edition",
+        "name":  "Vampire: The Requiem (1st Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8f35d373-a0a0-4c5b-8a85-f8bacd505139",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.303Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "vampire-the-requiem-2nd-edition",
+        "name":  "Vampire: The Requiem (2nd Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8696a0bb-99bf-464b-a20f-921a534e5014",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.361Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "werewolf-the-forsaken-1st-edition",
+        "name":  "Werewolf: The Forsaken (1st Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d803280c-65bd-4706-a1ff-ee9cc4b0df28",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.419Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "werewolf-the-forsaken-2nd-edition",
+        "name":  "Werewolf: The Forsaken (2nd Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "dead308e-9fa3-401d-88c4-2c1bc29b8ace",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.479Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "beast-the-primordial",
+        "name":  "Beast: The Primordial",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a479f9e6-f6cd-41c8-9ade-6c86fa8c033b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.539Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "demon-the-descent",
+        "name":  "Demon: The Descent",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8431e83d-f144-43a8-906b-c6ee184bd91c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.599Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "deviant-the-renegades",
+        "name":  "Deviant: The Renegades",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0ce5e686-c06b-4a86-b67a-9d82c84b55d8",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.670Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "geist-the-sin-eaters-1st-edition",
+        "name":  "Geist: The Sin-Eaters (1st Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "74335669-f188-4cfd-8026-7052ad150dce",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.732Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "geist-the-sin-eaters-2nd-edition",
+        "name":  "Geist: The Sin-Eaters (2nd Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f349029b-accd-422e-a941-309722196f3c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.794Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hunter-the-vigil-1st-edition",
+        "name":  "Hunter: The Vigil (1st Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "63db3fd6-88b0-42af-ae3b-36a2aaabf792",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.852Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hunter-the-vigil-2nd-edition",
+        "name":  "Hunter: The Vigil (2nd Edition)",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "ed5ba9d7-2e65-420b-a043-3954ca3345b6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.924Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mage-the-awakening",
+        "name":  "Mage: The Awakening",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "120e2ef2-5bdd-4de0-974e-ba1a59c5f042",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:48.984Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mummy-the-curse",
+        "name":  "Mummy: The Curse",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "13e2a662-08f9-49a2-b541-6859d2029c6d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.058Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "promethean-the-created",
+        "name":  "Promethean: The Created",
+        "rpg_family_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "rpg_system_id":  "e6877842-65d1-41de-8432-be0e6e127847",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "8d12cfd7-dd4b-4142-9e00-96d8e9eb32ac",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.122Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "changeling-the-dreaming",
+        "name":  "Changeling: The Dreaming",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a3b79b2e-837b-4548-9043-74fe6ab1d3ad",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.185Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "vampire-the-dark-ages",
+        "name":  "Vampire: The Dark Ages",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a003b6df-9486-4dc4-9e91-acc3093b460e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.244Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "vampire-the-masquerade",
+        "name":  "Vampire: The Masquerade",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "68854efc-20ad-4677-8429-cc40c5bf920c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.300Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "vampire-the-masquerade-5th-edition",
+        "name":  "Vampire: The Masquerade (5th Edition)",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "69cde4e0-1e6c-40a0-8cd7-cc8755a03316",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.355Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "demon-the-fallen",
+        "name":  "Demon: The Fallen",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a897772c-f11f-436c-b6c2-15afcc3768b0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.415Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hunter-the-reckoning",
+        "name":  "Hunter: The Reckoning",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d73bfd02-572e-458d-90a9-8a2d018e187c",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.478Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "hunter-the-reckoning-5th-edition",
+        "name":  "Hunter: The Reckoning (5th Edition)",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "5e55f5fb-194d-4130-97c5-b18973f86c78",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.538Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mage-the-ascension",
+        "name":  "Mage: The Ascension",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "925b3a5c-dd49-4305-b9ec-02572d84a1d0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.595Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mage-the-sorcerers-crusade",
+        "name":  "Mage: The Sorcerers Crusade",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "1c5ecc60-b02a-4fe8-8519-0e17a032a85e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.650Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "mummy-the-resurrection",
+        "name":  "Mummy: The Resurrection",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "4407d10f-5f61-412d-b258-baf1f6db8495",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.714Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "werewolf-the-apocalypse",
+        "name":  "Werewolf: The Apocalypse",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "7bd849cf-9d16-41b7-9be0-483a0ab8c3cc",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.777Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "werewolf-the-wild-west",
+        "name":  "Werewolf: The Wild West",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e18dc064-3290-4dfa-be28-7200393f28b1",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.842Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "werewolf-the-apocalypse-5th-edition",
+        "name":  "Werewolf: The Apocalypse (5th Edition)",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3583f8db-d6de-400d-9640-19529fd1459f",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.900Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "wraith-the-oblivion",
+        "name":  "Wraith: The Oblivion",
+        "rpg_family_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "rpg_system_id":  "573d808f-58d4-4d41-ad8d-140adc162fb9",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "e84d4883-76d3-4de2-bbe5-56d2ac211e22",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:49.959Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "swords-of-the-serpentine",
+        "name":  "Swords of the Serpentine",
+        "rpg_family_id":  "1b37af7c-9b43-494c-91ad-dc0f287d0f34",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "a070c903-9062-4aba-8716-334e9819d26e",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.017Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "nights-black-agents",
+        "name":  "Night\u0027s Black Agents",
+        "rpg_family_id":  "3e183dec-44eb-4a7b-b90a-9923da9b7a30",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d57777d6-0da8-465a-a6eb-f051d4a72154",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.075Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "the-esoterrorists",
+        "name":  "The Esoterrorists",
+        "rpg_family_id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "94fb0bb6-5a35-44e7-86e0-f108be025e9d",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.130Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "fear-itself",
+        "name":  "Fear Itself",
+        "rpg_family_id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "86a2ba0b-baac-4ef3-93cd-21cd09f236c6",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.184Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "call-of-cthulhu-1st-edition",
+        "name":  "Call of Cthulhu (1st Edition)",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "0d8fa246-b61f-451e-a667-5843bdae729b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.243Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "call-of-cthulhu-2nd-6th-editions",
+        "name":  "Call of Cthulhu (2nd - 6th Editions)",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "d77def70-3207-4bb2-a7a1-57cbf91728a9",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.301Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "call-of-cthulhu-7th-edition",
+        "name":  "Call of Cthulhu (7th Edition)",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "2d2d77f5-e4e3-45fe-a3d3-b3dc9f57a356",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.369Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "call-of-cthulhu-d20",
+        "name":  "Call of Cthulhu Roleplaying Game (d20)",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "0468da5f-32a5-4ea9-b613-766cd2139b44",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c06520f4-48f6-4b6d-9c04-67b60a15717b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.432Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "achtung-cthulhu",
+        "name":  "Achtung! Cthulhu",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "605839bd-37c7-4176-b654-22a912d92d04",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "f990e895-1222-40d5-8071-4d916a352770",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.491Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "delta-green",
+        "name":  "Delta Green: The Role-Playing Game",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "3f703edb-1788-41da-b030-a9c0970d5c47",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.546Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "the-fall-of-delta-green",
+        "name":  "The Fall of Delta Green",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "021e9363-6561-42cb-bfbb-dd3653b9725b",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.603Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "trail-of-cthulhu",
+        "name":  "Trail of Cthulhu",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "d28b5e05-9bba-482b-93cb-e5fed1695cd7",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "1d584150-d3b9-4b19-8f7e-c10771907542",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.731Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "el-sueno-de-cthulhu",
+        "name":  "El sueño de Cthulhu",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "687d75f3-6db0-4e11-8b8e-3558a2476829",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "71d74576-750b-410e-ad1e-e3f6556fe5e0",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.787Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "rats-in-the-walls",
+        "name":  "Rats in the Walls",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "7dece33e-12ae-48bf-a8db-323ce0169bce",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "b2293a0a-689e-4790-9b77-8e87d47b03f7",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.847Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "arkham-horror-the-roleplaying-game",
+        "name":  "Arkham Horror: The Roleplaying Game",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "6fc76888-c043-43f3-aa4d-8716494824da",
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "73bf2e0d-b971-4042-b05c-f0cb110c284a",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.905Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "call-of-catthulhu",
+        "name":  "Call of Catthulhu",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  null,
+        "translations":  [
+
+                         ]
+    },
+    {
+        "id":  "c722c6ac-0d0a-4c32-b0f6-3bbcaedf2ff5",
+        "status":  "published",
+        "sort":  null,
+        "user_created":  "e927c60f-4576-4f94-a5da-b2b3b491aacf",
+        "date_created":  "2025-12-17T21:52:50.965Z",
+        "user_updated":  null,
+        "date_updated":  null,
+        "identifier":  "cultos-innombrables",
+        "name":  "Cultos Innombrables",
+        "rpg_family_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "rpg_system_id":  "674de993-ec80-46d2-b4e9-061b835f38a0",
+        "translations":  [
+
+                         ]
+    }
+]

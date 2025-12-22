@@ -1,0 +1,6218 @@
+﻿[
+    {
+        "id":  1,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Universal / Genérico"
+    },
+    {
+        "id":  2,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Universal / Genèric"
+    },
+    {
+        "id":  3,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  4,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  5,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ustalav (Principados Inmortales)"
+    },
+    {
+        "id":  6,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ustalav (Principats Immortals)"
+    },
+    {
+        "id":  7,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Numeria (Tierra de las Estrellas Caídas)"
+    },
+    {
+        "id":  8,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Numèria (Terra de les Estrelles Caigudes)"
+    },
+    {
+        "id":  9,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Osirion (Tierra de Faraones)"
+    },
+    {
+        "id":  10,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Osirion (Terra de Faraons)"
+    },
+    {
+        "id":  11,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tian Xia (Imperios Dragón)"
+    },
+    {
+        "id":  12,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Tian Xia (Imperis Drac)"
+    },
+    {
+        "id":  13,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Herida del Mundo"
+    },
+    {
+        "id":  14,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ferida del Món"
+    },
+    {
+        "id":  15,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tierras Oscuras"
+    },
+    {
+        "id":  16,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Terres Fosques"
+    },
+    {
+        "id":  17,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Alkenstar y Desiertos de Maná"
+    },
+    {
+        "id":  18,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Alkenstar i Deserts de Manà"
+    },
+    {
+        "id":  19,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos del Pacto"
+    },
+    {
+        "id":  20,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons del Pacte"
+    },
+    {
+        "id":  21,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Estación Absalom"
+    },
+    {
+        "id":  22,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Estació Absalom"
+    },
+    {
+        "id":  23,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  24,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  25,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  26,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  27,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Diáspora"
+    },
+    {
+        "id":  28,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Diàspora"
+    },
+    {
+        "id":  29,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Inmensidad"
+    },
+    {
+        "id":  30,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Immensitat"
+    },
+    {
+        "id":  31,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  32,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  33,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  34,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  35,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Arquetipos de Película de Terror"
+    },
+    {
+        "id":  36,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Arquetipus de Pel·lícula de Terror"
+    },
+    {
+        "id":  37,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Guerra Civil Galáctica"
+    },
+    {
+        "id":  38,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Guerra Civil Galàctica"
+    },
+    {
+        "id":  39,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de las Guerras Clon"
+    },
+    {
+        "id":  40,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de les Guerres Clon"
+    },
+    {
+        "id":  41,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Borde Exterior"
+    },
+    {
+        "id":  42,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Vora Exterior"
+    },
+    {
+        "id":  43,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Antigua República"
+    },
+    {
+        "id":  44,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de l\u0027Antiga República"
+    },
+    {
+        "id":  45,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Reinos Olvidados"
+    },
+    {
+        "id":  46,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Regnes Oblidats"
+    },
+    {
+        "id":  47,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  48,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  49,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  50,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  51,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  52,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  53,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  54,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  55,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  56,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  57,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  58,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  59,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  60,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  61,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Resurgir del Dragón"
+    },
+    {
+        "id":  62,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Ressorgir del Drac"
+    },
+    {
+        "id":  63,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Condado de Ablaneda"
+    },
+    {
+        "id":  64,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Comtat de Ablaneda"
+    },
+    {
+        "id":  65,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ryuutama"
+    },
+    {
+        "id":  66,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ryuutama"
+    },
+    {
+        "id":  67,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Mundos de los Guardianes"
+    },
+    {
+        "id":  68,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Mons dels Guardians"
+    },
+    {
+        "id":  69,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Universo de Untitled Goose Gang"
+    },
+    {
+        "id":  70,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Univers de Untitled Goose Gang"
+    },
+    {
+        "id":  71,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tercera Edad"
+    },
+    {
+        "id":  72,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Tercera Edat"
+    },
+    {
+        "id":  73,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eriador (Ruinas del Norte)"
+    },
+    {
+        "id":  74,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eriador (Ruïnes del Nord)"
+    },
+    {
+        "id":  75,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tierras Ásperas (Rhovanion)"
+    },
+    {
+        "id":  76,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Terres Aspres (Rhovanion)"
+    },
+    {
+        "id":  77,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Perils \u0026 Princesses"
+    },
+    {
+        "id":  78,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Perils \u0026 Princesses"
+    },
+    {
+        "id":  79,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Nueve Reinos (Runecairn)"
+    },
+    {
+        "id":  80,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Nou Regnes (Runecairn)"
+    },
+    {
+        "id":  81,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Prehistórico"
+    },
+    {
+        "id":  82,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Prehistòric"
+    },
+    {
+        "id":  83,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Rokugan (El Imperio Esmeralda)"
+    },
+    {
+        "id":  84,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Rokugan (L\u0027Imperi Maragda)"
+    },
+    {
+        "id":  85,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Bosque"
+    },
+    {
+        "id":  86,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Bosc"
+    },
+    {
+        "id":  87,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de las Mil y Una Noches"
+    },
+    {
+        "id":  88,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de les Mil i Una Nits"
+    },
+    {
+        "id":  89,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Cy"
+    },
+    {
+        "id":  90,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Cy"
+    },
+    {
+        "id":  91,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moribundo"
+    },
+    {
+        "id":  92,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Moribund"
+    },
+    {
+        "id":  93,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  94,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  95,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Akkad"
+    },
+    {
+        "id":  96,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi d\u0027Akkad"
+    },
+    {
+        "id":  97,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ragnarok"
+    },
+    {
+        "id":  98,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ragnarok"
+    },
+    {
+        "id":  99,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Escandia"
+    },
+    {
+        "id":  100,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Escàndia"
+    },
+    {
+        "id":  101,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  102,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  103,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Machariano (M42)"
+    },
+    {
+        "id":  104,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Macharià (M42)"
+    },
+    {
+        "id":  105,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  106,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  107,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  108,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  109,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  110,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  111,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Alcance de Jericó (M41)"
+    },
+    {
+        "id":  112,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Abast de Jericó (M41)"
+    },
+    {
+        "id":  113,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Vórtice de los Gritos (M41)"
+    },
+    {
+        "id":  114,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Vòrtex dels Crits (M41)"
+    },
+    {
+        "id":  115,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Viejo Mundo"
+    },
+    {
+        "id":  116,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Vell Món"
+    },
+    {
+        "id":  117,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Extraño Oeste"
+    },
+    {
+        "id":  118,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Estrany"
+    },
+    {
+        "id":  119,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Perdido"
+    },
+    {
+        "id":  120,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Perdut"
+    },
+    {
+        "id":  121,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sistema Lejano"
+    },
+    {
+        "id":  122,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Llunyà"
+    },
+    {
+        "id":  123,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moderno de Zombicide"
+    },
+    {
+        "id":  124,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Modern de Zombicide"
+    },
+    {
+        "id":  125,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  126,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  127,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Flux"
+    },
+    {
+        "id":  128,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Flux"
+    },
+    {
+        "id":  129,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  130,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  131,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Escenarios de Fiasco"
+    },
+    {
+        "id":  132,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Escenaris de Fiasco"
+    },
+    {
+        "id":  133,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Gran Bretaña de Pendragón"
+    },
+    {
+        "id":  134,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Gran Bretanya de Pendragón"
+    },
+    {
+        "id":  135,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Apocalypse World"
+    },
+    {
+        "id":  136,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Apocalypse World"
+    },
+    {
+        "id":  137,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Botín de Sangre"
+    },
+    {
+        "id":  138,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Botí de Sang"
+    },
+    {
+        "id":  139,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  140,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  141,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Hollywood de Drácula vs Hitler"
+    },
+    {
+        "id":  142,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Hollywood de Dràcula vs Hitler"
+    },
+    {
+        "id":  143,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Caucho y Cromo"
+    },
+    {
+        "id":  144,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cautxú i Crom"
+    },
+    {
+        "id":  145,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de WitchCraft"
+    },
+    {
+        "id":  146,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de WitchCraft"
+    },
+    {
+        "id":  147,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de CukiCraft"
+    },
+    {
+        "id":  148,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de CukiCraft"
+    },
+    {
+        "id":  149,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mahō Shōjo"
+    },
+    {
+        "id":  150,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mahō Shōjo"
+    },
+    {
+        "id":  151,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  152,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  153,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Dungeon World"
+    },
+    {
+        "id":  154,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Dungeon World"
+    },
+    {
+        "id":  155,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  156,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  157,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Old-School Essentials"
+    },
+    {
+        "id":  158,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Old-School Essentials"
+    },
+    {
+        "id":  159,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  160,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  161,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Dresden Files"
+    },
+    {
+        "id":  162,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Dresden Files"
+    },
+    {
+        "id":  163,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Complejo Alfa"
+    },
+    {
+        "id":  164,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Complex Alfa"
+    },
+    {
+        "id":  165,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  166,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  167,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Serie Original"
+    },
+    {
+        "id":  168,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Sèrie Original"
+    },
+    {
+        "id":  169,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Nueva Generación"
+    },
+    {
+        "id":  170,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Nova Generació"
+    },
+    {
+        "id":  171,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXIII)"
+    },
+    {
+        "id":  172,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXIII)"
+    },
+    {
+        "id":  173,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  174,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  175,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXXII)"
+    },
+    {
+        "id":  176,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXXII)"
+    },
+    {
+        "id":  177,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  178,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  179,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ilusión"
+    },
+    {
+        "id":  180,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Il·lusió"
+    },
+    {
+        "id":  181,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La España Medieval de Aquelarre"
+    },
+    {
+        "id":  182,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Espanya Medieval d\u0027Aquelarre"
+    },
+    {
+        "id":  183,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Inglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  184,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Anglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  185,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Sexto Mundo"
+    },
+    {
+        "id":  186,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Sisè Món"
+    },
+    {
+        "id":  187,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  188,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  189,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  190,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  191,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  192,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  193,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  194,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  195,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Kids on Bikes"
+    },
+    {
+        "id":  196,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Kids on Bikes"
+    },
+    {
+        "id":  197,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo Alien"
+    },
+    {
+        "id":  198,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers Alien"
+    },
+    {
+        "id":  199,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  200,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  201,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Norte Mítico"
+    },
+    {
+        "id":  202,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Nord Mític"
+    },
+    {
+        "id":  203,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Prohibidas"
+    },
+    {
+        "id":  204,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Prohibides"
+    },
+    {
+        "id":  205,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo The Walking Dead"
+    },
+    {
+        "id":  206,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers The Walking Dead"
+    },
+    {
+        "id":  207,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Bucle (Los 80 que nunca fueron)"
+    },
+    {
+        "id":  208,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Bucle (Els 80 que mai van ser)"
+    },
+    {
+        "id":  209,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Ángeles 2037"
+    },
+    {
+        "id":  210,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Los Angeles 2037"
+    },
+    {
+        "id":  211,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Era de la Umbra"
+    },
+    {
+        "id":  212,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Era de la Umbra"
+    },
+    {
+        "id":  213,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Festín de Bestias"
+    },
+    {
+        "id":  214,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Festí de Bèsties"
+    },
+    {
+        "id":  215,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Coloso de las Tierras Secas"
+    },
+    {
+        "id":  216,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Colós de les Terres Seques"
+    },
+    {
+        "id":  217,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cinco Estandartes Ardiendo"
+    },
+    {
+        "id":  218,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cinc Estandards Cremant"
+    },
+    {
+        "id":  219,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  220,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  221,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  222,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  223,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Con Amor y Magia"
+    },
+    {
+        "id":  224,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Amb Amor i Màgia"
+    },
+    {
+        "id":  225,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Scurry"
+    },
+    {
+        "id":  226,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Scurry"
+    },
+    {
+        "id":  227,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Miserias y Desgracias"
+    },
+    {
+        "id":  228,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Misèries i Malaurances"
+    },
+    {
+        "id":  229,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Robotta"
+    },
+    {
+        "id":  230,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Robotta"
+    },
+    {
+        "id":  231,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Hardboiled"
+    },
+    {
+        "id":  232,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Hardboiled"
+    },
+    {
+        "id":  233,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  234,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  235,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Islas de Ábora"
+    },
+    {
+        "id":  236,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Illes d\u0027Ábora"
+    },
+    {
+        "id":  237,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos de Verne"
+    },
+    {
+        "id":  238,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons de Verne"
+    },
+    {
+        "id":  239,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Inocentes"
+    },
+    {
+        "id":  240,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Inocentes"
+    },
+    {
+        "id":  241,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Quebradas"
+    },
+    {
+        "id":  242,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Trencades"
+    },
+    {
+        "id":  243,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  244,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  245,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Reflejo"
+    },
+    {
+        "id":  246,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Reflejo"
+    },
+    {
+        "id":  247,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Japón Feudal de Sangre y Honor"
+    },
+    {
+        "id":  248,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Japó Feudal de Sang i Honor"
+    },
+    {
+        "id":  249,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Liminal"
+    },
+    {
+        "id":  250,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Liminal"
+    },
+    {
+        "id":  251,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuentos Rotos"
+    },
+    {
+        "id":  252,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Contes Trencats"
+    },
+    {
+        "id":  253,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo de Viking Death Squad"
+    },
+    {
+        "id":  254,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers de Viking Death Squad"
+    },
+    {
+        "id":  255,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Trophy"
+    },
+    {
+        "id":  256,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Trophy"
+    },
+    {
+        "id":  257,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Shinobigami"
+    },
+    {
+        "id":  258,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Shinobigami"
+    },
+    {
+        "id":  259,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Nueva Europa"
+    },
+    {
+        "id":  260,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Nova Europa"
+    },
+    {
+        "id":  261,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Campo Japonés de Yuuyake Koyake"
+    },
+    {
+        "id":  262,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Camp Japonès de Yuuyake Koyake"
+    },
+    {
+        "id":  263,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Caribe de 8 Tesoros"
+    },
+    {
+        "id":  264,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Carib de 8 Tresors"
+    },
+    {
+        "id":  265,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  266,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  267,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  268,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  269,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mausritter"
+    },
+    {
+        "id":  270,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mausritter"
+    },
+    {
+        "id":  271,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La América de Blacksad"
+    },
+    {
+        "id":  272,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Amèrica de Blacksad"
+    },
+    {
+        "id":  273,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Epicodecadente de Fanhunter"
+    },
+    {
+        "id":  274,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Epicadecadent de Fanhunter"
+    },
+    {
+        "id":  275,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Instituto de Monsterhearts"
+    },
+    {
+        "id":  276,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Institut de Monsterhearts"
+    },
+    {
+        "id":  277,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era Antigua"
+    },
+    {
+        "id":  278,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions:Era Antiga"
+    },
+    {
+        "id":  279,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Aang"
+    },
+    {
+        "id":  280,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era d\u0027Aang"
+    },
+    {
+        "id":  281,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Korra"
+    },
+    {
+        "id":  282,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era de Korra"
+    },
+    {
+        "id":  283,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Honey Heist"
+    },
+    {
+        "id":  284,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Honey Heist"
+    },
+    {
+        "id":  285,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Fantasía de Hero Kids"
+    },
+    {
+        "id":  286,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Fantasia de Hero Kids"
+    },
+    {
+        "id":  287,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Línea Temporal de la Clepsidra"
+    },
+    {
+        "id":  288,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Línia Temporal de la Clepsidra"
+    },
+    {
+        "id":  289,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Dune"
+    },
+    {
+        "id":  290,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi de Dune"
+    },
+    {
+        "id":  291,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Troubleshooters"
+    },
+    {
+        "id":  292,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Troubleshooters"
+    },
+    {
+        "id":  293,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  294,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  295,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Bahía de Brindlewood"
+    },
+    {
+        "id":  296,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Badia de Brindlewood"
+    },
+    {
+        "id":  297,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Valle Brumoso"
+    },
+    {
+        "id":  298,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Vall Boirosa"
+    },
+    {
+        "id":  299,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Crónicas de Tinieblas"
+    },
+    {
+        "id":  300,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cròniques de Tenebres"
+    },
+    {
+        "id":  301,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas (Clásico)"
+    },
+    {
+        "id":  302,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres (Clàssic)"
+    },
+    {
+        "id":  303,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas Moderno"
+    },
+    {
+        "id":  304,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres Modern"
+    },
+    {
+        "id":  305,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Edades Oscuras del Mundo de Tinieblas"
+    },
+    {
+        "id":  306,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Edats Fosques del Món de Tenebres"
+    },
+    {
+        "id":  307,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Cruzada de los Hechiceros del Mundo de Tinieblas"
+    },
+    {
+        "id":  308,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Croada dels Bruixots del Món de Tenebres"
+    },
+    {
+        "id":  309,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Salvaje Oeste del Mundo de Tinieblas"
+    },
+    {
+        "id":  310,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Salvatge del Món de Tenebres"
+    },
+    {
+        "id":  311,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad del Serpentino"
+    },
+    {
+        "id":  312,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat del Serpentí"
+    },
+    {
+        "id":  313,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Agentes de la Noche"
+    },
+    {
+        "id":  314,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Agents de la Nit"
+    },
+    {
+        "id":  315,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Outer Dark"
+    },
+    {
+        "id":  316,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Outer Dark"
+    },
+    {
+        "id":  317,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mitos de Cthulhu (Genérico)"
+    },
+    {
+        "id":  318,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mites de Cthulhu (Genèric)"
+    },
+    {
+        "id":  319,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de la Edad Oscura"
+    },
+    {
+        "id":  320,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de l\u0027Edat Fosca"
+    },
+    {
+        "id":  321,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  322,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  323,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de Regencia"
+    },
+    {
+        "id":  324,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de Regència"
+    },
+    {
+        "id":  325,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Clásica (Años 20-30)"
+    },
+    {
+        "id":  326,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Clàssica (Anys 20-30)"
+    },
+    {
+        "id":  327,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Pulp (Años 30)"
+    },
+    {
+        "id":  328,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Pulp (Anys 30)"
+    },
+    {
+        "id":  329,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Achtung! Cthulhu (WWII)"
+    },
+    {
+        "id":  330,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Achtung! Cthulhu (GMII)"
+    },
+    {
+        "id":  331,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Guerra Fría (La Caída de DG)"
+    },
+    {
+        "id":  332,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Guerra Freda (La Caiguda de DG)"
+    },
+    {
+        "id":  333,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  334,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  335,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu Moderno"
+    },
+    {
+        "id":  336,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu Modern"
+    },
+    {
+        "id":  337,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de El sueño de Cthulhu"
+    },
+    {
+        "id":  338,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027El somni de Cthulhu"
+    },
+    {
+        "id":  339,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos Paralelos de El Rey de Amarillo"
+    },
+    {
+        "id":  340,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons Paral·lels d\u0027El Rei Groc"
+    },
+    {
+        "id":  341,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Call of Catthulhu"
+    },
+    {
+        "id":  342,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Call of Catthulhu"
+    },
+    {
+        "id":  343,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ambientación Cultos Innombrables"
+    },
+    {
+        "id":  344,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ambientació Cultes Innomenables"
+    },
+    {
+        "id":  345,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Universal / Genérico"
+    },
+    {
+        "id":  346,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Universal / Genèric"
+    },
+    {
+        "id":  347,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  348,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  349,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ustalav (Principados Inmortales)"
+    },
+    {
+        "id":  350,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ustalav (Principats Immortals)"
+    },
+    {
+        "id":  351,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Numeria (Tierra de las Estrellas Caídas)"
+    },
+    {
+        "id":  352,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Numèria (Terra de les Estrelles Caigudes)"
+    },
+    {
+        "id":  353,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Osirion (Tierra de Faraones)"
+    },
+    {
+        "id":  354,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Osirion (Terra de Faraons)"
+    },
+    {
+        "id":  355,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tian Xia (Imperios Dragón)"
+    },
+    {
+        "id":  356,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Tian Xia (Imperis Drac)"
+    },
+    {
+        "id":  357,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Herida del Mundo"
+    },
+    {
+        "id":  358,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ferida del Món"
+    },
+    {
+        "id":  359,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tierras Oscuras"
+    },
+    {
+        "id":  360,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Terres Fosques"
+    },
+    {
+        "id":  361,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Alkenstar y Desiertos de Maná"
+    },
+    {
+        "id":  362,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Alkenstar i Deserts de Manà"
+    },
+    {
+        "id":  363,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos del Pacto"
+    },
+    {
+        "id":  364,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons del Pacte"
+    },
+    {
+        "id":  365,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Estación Absalom"
+    },
+    {
+        "id":  366,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Estació Absalom"
+    },
+    {
+        "id":  367,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  368,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  369,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  370,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  371,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Diáspora"
+    },
+    {
+        "id":  372,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Diàspora"
+    },
+    {
+        "id":  373,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Inmensidad"
+    },
+    {
+        "id":  374,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Immensitat"
+    },
+    {
+        "id":  375,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  376,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  377,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  378,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  379,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Arquetipos de Película de Terror"
+    },
+    {
+        "id":  380,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Arquetipus de Pel·lícula de Terror"
+    },
+    {
+        "id":  381,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Guerra Civil Galáctica"
+    },
+    {
+        "id":  382,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Guerra Civil Galàctica"
+    },
+    {
+        "id":  383,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de las Guerras Clon"
+    },
+    {
+        "id":  384,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de les Guerres Clon"
+    },
+    {
+        "id":  385,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Borde Exterior"
+    },
+    {
+        "id":  386,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Vora Exterior"
+    },
+    {
+        "id":  387,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Antigua República"
+    },
+    {
+        "id":  388,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de l\u0027Antiga República"
+    },
+    {
+        "id":  389,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Reinos Olvidados"
+    },
+    {
+        "id":  390,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Regnes Oblidats"
+    },
+    {
+        "id":  391,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  392,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  393,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  394,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  395,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  396,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  397,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  398,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  399,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  400,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  401,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  402,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  403,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  404,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  405,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Resurgir del Dragón"
+    },
+    {
+        "id":  406,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Ressorgir del Drac"
+    },
+    {
+        "id":  407,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Condado de Ablaneda"
+    },
+    {
+        "id":  408,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Comtat de Ablaneda"
+    },
+    {
+        "id":  409,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ryuutama"
+    },
+    {
+        "id":  410,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ryuutama"
+    },
+    {
+        "id":  411,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Mundos de los Guardianes"
+    },
+    {
+        "id":  412,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Mons dels Guardians"
+    },
+    {
+        "id":  413,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Universo de Untitled Goose Gang"
+    },
+    {
+        "id":  414,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Univers de Untitled Goose Gang"
+    },
+    {
+        "id":  415,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tercera Edad"
+    },
+    {
+        "id":  416,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Tercera Edat"
+    },
+    {
+        "id":  417,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Eriador (Ruinas del Norte)"
+    },
+    {
+        "id":  418,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Eriador (Ruïnes del Nord)"
+    },
+    {
+        "id":  419,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Tierras Ásperas (Rhovanion)"
+    },
+    {
+        "id":  420,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Terres Aspres (Rhovanion)"
+    },
+    {
+        "id":  421,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Perils \u0026 Princesses"
+    },
+    {
+        "id":  422,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Perils \u0026 Princesses"
+    },
+    {
+        "id":  423,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Nueve Reinos (Runecairn)"
+    },
+    {
+        "id":  424,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Nou Regnes (Runecairn)"
+    },
+    {
+        "id":  425,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Prehistórico"
+    },
+    {
+        "id":  426,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Prehistòric"
+    },
+    {
+        "id":  427,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Rokugan (El Imperio Esmeralda)"
+    },
+    {
+        "id":  428,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Rokugan (L\u0027Imperi Maragda)"
+    },
+    {
+        "id":  429,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Bosque"
+    },
+    {
+        "id":  430,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Bosc"
+    },
+    {
+        "id":  431,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de las Mil y Una Noches"
+    },
+    {
+        "id":  432,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de les Mil i Una Nits"
+    },
+    {
+        "id":  433,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Cy"
+    },
+    {
+        "id":  434,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Cy"
+    },
+    {
+        "id":  435,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moribundo"
+    },
+    {
+        "id":  436,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Moribund"
+    },
+    {
+        "id":  437,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  438,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  439,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Akkad"
+    },
+    {
+        "id":  440,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi d\u0027Akkad"
+    },
+    {
+        "id":  441,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ragnarok"
+    },
+    {
+        "id":  442,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ragnarok"
+    },
+    {
+        "id":  443,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Escandia"
+    },
+    {
+        "id":  444,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Escàndia"
+    },
+    {
+        "id":  445,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  446,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  447,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Machariano (M42)"
+    },
+    {
+        "id":  448,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Macharià (M42)"
+    },
+    {
+        "id":  449,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  450,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  451,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  452,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  453,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  454,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  455,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Alcance de Jericó (M41)"
+    },
+    {
+        "id":  456,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Abast de Jericó (M41)"
+    },
+    {
+        "id":  457,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Vórtice de los Gritos (M41)"
+    },
+    {
+        "id":  458,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Vòrtex dels Crits (M41)"
+    },
+    {
+        "id":  459,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Viejo Mundo"
+    },
+    {
+        "id":  460,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Vell Món"
+    },
+    {
+        "id":  461,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Extraño Oeste"
+    },
+    {
+        "id":  462,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Estrany"
+    },
+    {
+        "id":  463,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Perdido"
+    },
+    {
+        "id":  464,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Perdut"
+    },
+    {
+        "id":  465,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Sistema Lejano"
+    },
+    {
+        "id":  466,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Llunyà"
+    },
+    {
+        "id":  467,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moderno de Zombicide"
+    },
+    {
+        "id":  468,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Modern de Zombicide"
+    },
+    {
+        "id":  469,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  470,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  471,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Flux"
+    },
+    {
+        "id":  472,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Flux"
+    },
+    {
+        "id":  473,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  474,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  475,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Escenarios de Fiasco"
+    },
+    {
+        "id":  476,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Escenaris de Fiasco"
+    },
+    {
+        "id":  477,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Gran Bretaña de Pendragón"
+    },
+    {
+        "id":  478,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Gran Bretanya de Pendragón"
+    },
+    {
+        "id":  479,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Apocalypse World"
+    },
+    {
+        "id":  480,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Apocalypse World"
+    },
+    {
+        "id":  481,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Botín de Sangre"
+    },
+    {
+        "id":  482,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Botí de Sang"
+    },
+    {
+        "id":  483,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  484,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  485,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Hollywood de Drácula vs Hitler"
+    },
+    {
+        "id":  486,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Hollywood de Dràcula vs Hitler"
+    },
+    {
+        "id":  487,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Caucho y Cromo"
+    },
+    {
+        "id":  488,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cautxú i Crom"
+    },
+    {
+        "id":  489,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de WitchCraft"
+    },
+    {
+        "id":  490,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de WitchCraft"
+    },
+    {
+        "id":  491,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de CukiCraft"
+    },
+    {
+        "id":  492,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de CukiCraft"
+    },
+    {
+        "id":  493,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mahō Shōjo"
+    },
+    {
+        "id":  494,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mahō Shōjo"
+    },
+    {
+        "id":  495,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  496,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  497,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Dungeon World"
+    },
+    {
+        "id":  498,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Dungeon World"
+    },
+    {
+        "id":  499,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  500,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  501,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Old-School Essentials"
+    },
+    {
+        "id":  502,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Old-School Essentials"
+    },
+    {
+        "id":  503,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  504,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  505,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Dresden Files"
+    },
+    {
+        "id":  506,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Dresden Files"
+    },
+    {
+        "id":  507,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Complejo Alfa"
+    },
+    {
+        "id":  508,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Complex Alfa"
+    },
+    {
+        "id":  509,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  510,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  511,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Serie Original"
+    },
+    {
+        "id":  512,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Sèrie Original"
+    },
+    {
+        "id":  513,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era de la Nueva Generación"
+    },
+    {
+        "id":  514,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Nova Generació"
+    },
+    {
+        "id":  515,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXIII)"
+    },
+    {
+        "id":  516,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXIII)"
+    },
+    {
+        "id":  517,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  518,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  519,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXXII)"
+    },
+    {
+        "id":  520,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXXII)"
+    },
+    {
+        "id":  521,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  522,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  523,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ilusión"
+    },
+    {
+        "id":  524,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Il·lusió"
+    },
+    {
+        "id":  525,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La España Medieval de Aquelarre"
+    },
+    {
+        "id":  526,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Espanya Medieval d\u0027Aquelarre"
+    },
+    {
+        "id":  527,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Inglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  528,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Anglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  529,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Sexto Mundo"
+    },
+    {
+        "id":  530,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Sisè Món"
+    },
+    {
+        "id":  531,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  532,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  533,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  534,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  535,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  536,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  537,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  538,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  539,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Kids on Bikes"
+    },
+    {
+        "id":  540,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Kids on Bikes"
+    },
+    {
+        "id":  541,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo Alien"
+    },
+    {
+        "id":  542,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers Alien"
+    },
+    {
+        "id":  543,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  544,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  545,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Norte Mítico"
+    },
+    {
+        "id":  546,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Nord Mític"
+    },
+    {
+        "id":  547,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Prohibidas"
+    },
+    {
+        "id":  548,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Prohibides"
+    },
+    {
+        "id":  549,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo The Walking Dead"
+    },
+    {
+        "id":  550,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers The Walking Dead"
+    },
+    {
+        "id":  551,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Bucle (Los 80 que nunca fueron)"
+    },
+    {
+        "id":  552,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Bucle (Els 80 que mai van ser)"
+    },
+    {
+        "id":  553,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Ángeles 2037"
+    },
+    {
+        "id":  554,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Los Angeles 2037"
+    },
+    {
+        "id":  555,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Era de la Umbra"
+    },
+    {
+        "id":  556,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Era de la Umbra"
+    },
+    {
+        "id":  557,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Festín de Bestias"
+    },
+    {
+        "id":  558,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Festí de Bèsties"
+    },
+    {
+        "id":  559,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Coloso de las Tierras Secas"
+    },
+    {
+        "id":  560,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Colós de les Terres Seques"
+    },
+    {
+        "id":  561,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cinco Estandartes Ardiendo"
+    },
+    {
+        "id":  562,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cinc Estandards Cremant"
+    },
+    {
+        "id":  563,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  564,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  565,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  566,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  567,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Con Amor y Magia"
+    },
+    {
+        "id":  568,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Amb Amor i Màgia"
+    },
+    {
+        "id":  569,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Scurry"
+    },
+    {
+        "id":  570,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Scurry"
+    },
+    {
+        "id":  571,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Miserias y Desgracias"
+    },
+    {
+        "id":  572,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Misèries i Malaurances"
+    },
+    {
+        "id":  573,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Robotta"
+    },
+    {
+        "id":  574,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Robotta"
+    },
+    {
+        "id":  575,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Hardboiled"
+    },
+    {
+        "id":  576,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Hardboiled"
+    },
+    {
+        "id":  577,
+        "settings_id":  "3c0560e6-64c8-42f0-9abe-f08bd173901d",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  578,
+        "settings_id":  "3c0560e6-64c8-42f0-9abe-f08bd173901d",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  579,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Islas de Ábora"
+    },
+    {
+        "id":  580,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Illes d\u0027Ábora"
+    },
+    {
+        "id":  581,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos de Verne"
+    },
+    {
+        "id":  582,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons de Verne"
+    },
+    {
+        "id":  583,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Inocentes"
+    },
+    {
+        "id":  584,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Inocentes"
+    },
+    {
+        "id":  585,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Quebradas"
+    },
+    {
+        "id":  586,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Trencades"
+    },
+    {
+        "id":  587,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  588,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  589,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Reflejo"
+    },
+    {
+        "id":  590,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Reflejo"
+    },
+    {
+        "id":  591,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Japón Feudal de Sangre y Honor"
+    },
+    {
+        "id":  592,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Japó Feudal de Sang i Honor"
+    },
+    {
+        "id":  593,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Liminal"
+    },
+    {
+        "id":  594,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Liminal"
+    },
+    {
+        "id":  595,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuentos Rotos"
+    },
+    {
+        "id":  596,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Contes Trencats"
+    },
+    {
+        "id":  597,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Universo de Viking Death Squad"
+    },
+    {
+        "id":  598,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers de Viking Death Squad"
+    },
+    {
+        "id":  599,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Trophy"
+    },
+    {
+        "id":  600,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Trophy"
+    },
+    {
+        "id":  601,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Shinobigami"
+    },
+    {
+        "id":  602,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Shinobigami"
+    },
+    {
+        "id":  603,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Nueva Europa"
+    },
+    {
+        "id":  604,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Nova Europa"
+    },
+    {
+        "id":  605,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Campo Japonés de Yuuyake Koyake"
+    },
+    {
+        "id":  606,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Camp Japonès de Yuuyake Koyake"
+    },
+    {
+        "id":  607,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Caribe de 8 Tesoros"
+    },
+    {
+        "id":  608,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Carib de 8 Tresors"
+    },
+    {
+        "id":  609,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  610,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  611,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  612,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  613,
+        "settings_id":  "c989da1f-b98f-4fcc-a7c0-9b93d895eefd",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mausritter"
+    },
+    {
+        "id":  614,
+        "settings_id":  "c989da1f-b98f-4fcc-a7c0-9b93d895eefd",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mausritter"
+    },
+    {
+        "id":  615,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La América de Blacksad"
+    },
+    {
+        "id":  616,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Amèrica de Blacksad"
+    },
+    {
+        "id":  617,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Epicodecadente de Fanhunter"
+    },
+    {
+        "id":  618,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món Epicadecadent de Fanhunter"
+    },
+    {
+        "id":  619,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Instituto de Monsterhearts"
+    },
+    {
+        "id":  620,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Institut de Monsterhearts"
+    },
+    {
+        "id":  621,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era Antigua"
+    },
+    {
+        "id":  622,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions:Era Antiga"
+    },
+    {
+        "id":  623,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Aang"
+    },
+    {
+        "id":  624,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era d\u0027Aang"
+    },
+    {
+        "id":  625,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Korra"
+    },
+    {
+        "id":  626,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era de Korra"
+    },
+    {
+        "id":  627,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Honey Heist"
+    },
+    {
+        "id":  628,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Honey Heist"
+    },
+    {
+        "id":  629,
+        "settings_id":  "6fd59e02-f1c2-4edf-b355-2ab0ca0b51d0",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Fantasía de Hero Kids"
+    },
+    {
+        "id":  630,
+        "settings_id":  "6fd59e02-f1c2-4edf-b355-2ab0ca0b51d0",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Fantasia de Hero Kids"
+    },
+    {
+        "id":  631,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Línea Temporal de la Clepsidra"
+    },
+    {
+        "id":  632,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Línia Temporal de la Clepsidra"
+    },
+    {
+        "id":  633,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Dune"
+    },
+    {
+        "id":  634,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi de Dune"
+    },
+    {
+        "id":  635,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Troubleshooters"
+    },
+    {
+        "id":  636,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Troubleshooters"
+    },
+    {
+        "id":  637,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  638,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  639,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Bahía de Brindlewood"
+    },
+    {
+        "id":  640,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Badia de Brindlewood"
+    },
+    {
+        "id":  641,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Valle Brumoso"
+    },
+    {
+        "id":  642,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Vall Boirosa"
+    },
+    {
+        "id":  643,
+        "settings_id":  "53f08b10-5d8b-4054-a778-80f286e412d1",
+        "languages_code":  "es-ES",
+        "name":  "Crónicas de Tinieblas"
+    },
+    {
+        "id":  644,
+        "settings_id":  "53f08b10-5d8b-4054-a778-80f286e412d1",
+        "languages_code":  "ca-ES",
+        "name":  "Cròniques de Tenebres"
+    },
+    {
+        "id":  645,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas (Clásico)"
+    },
+    {
+        "id":  646,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres (Clàssic)"
+    },
+    {
+        "id":  647,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas Moderno"
+    },
+    {
+        "id":  648,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres Modern"
+    },
+    {
+        "id":  649,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Las Edades Oscuras del Mundo de Tinieblas"
+    },
+    {
+        "id":  650,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Les Edats Fosques del Món de Tenebres"
+    },
+    {
+        "id":  651,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Cruzada de los Hechiceros del Mundo de Tinieblas"
+    },
+    {
+        "id":  652,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Croada dels Bruixots del Món de Tenebres"
+    },
+    {
+        "id":  653,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Salvaje Oeste del Mundo de Tinieblas"
+    },
+    {
+        "id":  654,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Salvatge del Món de Tenebres"
+    },
+    {
+        "id":  655,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad del Serpentino"
+    },
+    {
+        "id":  656,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat del Serpentí"
+    },
+    {
+        "id":  657,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Agentes de la Noche"
+    },
+    {
+        "id":  658,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Agents de la Nit"
+    },
+    {
+        "id":  659,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Outer Dark"
+    },
+    {
+        "id":  660,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Outer Dark"
+    },
+    {
+        "id":  661,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Los Mitos de Cthulhu (Genérico)"
+    },
+    {
+        "id":  662,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Els Mites de Cthulhu (Genèric)"
+    },
+    {
+        "id":  663,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de la Edad Oscura"
+    },
+    {
+        "id":  664,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de l\u0027Edat Fosca"
+    },
+    {
+        "id":  665,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  666,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  667,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de Regencia"
+    },
+    {
+        "id":  668,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de Regència"
+    },
+    {
+        "id":  669,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Clásica (Años 20-30)"
+    },
+    {
+        "id":  670,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Clàssica (Anys 20-30)"
+    },
+    {
+        "id":  671,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Pulp (Años 30)"
+    },
+    {
+        "id":  672,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Pulp (Anys 30)"
+    },
+    {
+        "id":  673,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Achtung! Cthulhu (WWII)"
+    },
+    {
+        "id":  674,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Achtung! Cthulhu (GMII)"
+    },
+    {
+        "id":  675,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Guerra Fría (La Caída de DG)"
+    },
+    {
+        "id":  676,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Guerra Freda (La Caiguda de DG)"
+    },
+    {
+        "id":  677,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  678,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  679,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu Moderno"
+    },
+    {
+        "id":  680,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu Modern"
+    },
+    {
+        "id":  681,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de El sueño de Cthulhu"
+    },
+    {
+        "id":  682,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027El somni de Cthulhu"
+    },
+    {
+        "id":  683,
+        "settings_id":  "718fe85b-8f08-4a21-ad16-58020a58c76f",
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos Paralelos de El Rey de Amarillo"
+    },
+    {
+        "id":  684,
+        "settings_id":  "718fe85b-8f08-4a21-ad16-58020a58c76f",
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons Paral·lels d\u0027El Rei Groc"
+    },
+    {
+        "id":  685,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Call of Catthulhu"
+    },
+    {
+        "id":  686,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Call of Catthulhu"
+    },
+    {
+        "id":  687,
+        "settings_id":  null,
+        "languages_code":  "es-ES",
+        "name":  "Ambientación Cultos Innombrables"
+    },
+    {
+        "id":  688,
+        "settings_id":  null,
+        "languages_code":  "ca-ES",
+        "name":  "Ambientació Cultes Innomenables"
+    },
+    {
+        "id":  689,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061",
+        "languages_code":  "es-ES",
+        "name":  "Universal / Genérico"
+    },
+    {
+        "id":  690,
+        "settings_id":  "a5ac668a-b6f4-4540-ba3e-1bda79289061",
+        "languages_code":  "ca-ES",
+        "name":  "Universal / Genèric"
+    },
+    {
+        "id":  691,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61",
+        "languages_code":  "es-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  692,
+        "settings_id":  "368d2f0b-395a-4365-96a8-3e40b669cb61",
+        "languages_code":  "ca-ES",
+        "name":  "El Mar Interior"
+    },
+    {
+        "id":  693,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14",
+        "languages_code":  "es-ES",
+        "name":  "Ustalav (Principados Inmortales)"
+    },
+    {
+        "id":  694,
+        "settings_id":  "cb32b250-7868-460e-a6dd-94ebbf4c5d14",
+        "languages_code":  "ca-ES",
+        "name":  "Ustalav (Principats Immortals)"
+    },
+    {
+        "id":  695,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b",
+        "languages_code":  "es-ES",
+        "name":  "Numeria (Tierra de las Estrellas Caídas)"
+    },
+    {
+        "id":  696,
+        "settings_id":  "6a724e86-8365-497e-a378-9bcd28e13f5b",
+        "languages_code":  "ca-ES",
+        "name":  "Numèria (Terra de les Estrelles Caigudes)"
+    },
+    {
+        "id":  697,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb",
+        "languages_code":  "es-ES",
+        "name":  "Osirion (Tierra de Faraones)"
+    },
+    {
+        "id":  698,
+        "settings_id":  "c47a4aec-4de3-4c17-aab5-b3847a4781fb",
+        "languages_code":  "ca-ES",
+        "name":  "Osirion (Terra de Faraons)"
+    },
+    {
+        "id":  699,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0",
+        "languages_code":  "es-ES",
+        "name":  "Tian Xia (Imperios Dragón)"
+    },
+    {
+        "id":  700,
+        "settings_id":  "65f518ae-80bb-44db-8167-a73ea1aed4e0",
+        "languages_code":  "ca-ES",
+        "name":  "Tian Xia (Imperis Drac)"
+    },
+    {
+        "id":  701,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e",
+        "languages_code":  "es-ES",
+        "name":  "La Herida del Mundo"
+    },
+    {
+        "id":  702,
+        "settings_id":  "bac4c146-adef-478b-85e7-9a421a0bcb6e",
+        "languages_code":  "ca-ES",
+        "name":  "La Ferida del Món"
+    },
+    {
+        "id":  703,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7",
+        "languages_code":  "es-ES",
+        "name":  "Tierras Oscuras"
+    },
+    {
+        "id":  704,
+        "settings_id":  "01fb68bf-9caa-43ea-a2b2-ba0672fc66f7",
+        "languages_code":  "ca-ES",
+        "name":  "Terres Fosques"
+    },
+    {
+        "id":  705,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180",
+        "languages_code":  "es-ES",
+        "name":  "Alkenstar y Desiertos de Maná"
+    },
+    {
+        "id":  706,
+        "settings_id":  "49acf0bc-d9a9-44de-a22c-c36c894a8180",
+        "languages_code":  "ca-ES",
+        "name":  "Alkenstar i Deserts de Manà"
+    },
+    {
+        "id":  707,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330",
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos del Pacto"
+    },
+    {
+        "id":  708,
+        "settings_id":  "e1c548cb-32fe-4071-ae87-8d48a0511330",
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons del Pacte"
+    },
+    {
+        "id":  709,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009",
+        "languages_code":  "es-ES",
+        "name":  "Estación Absalom"
+    },
+    {
+        "id":  710,
+        "settings_id":  "2bd2fa13-cd87-456e-b621-001d9cf4d009",
+        "languages_code":  "ca-ES",
+        "name":  "Estació Absalom"
+    },
+    {
+        "id":  711,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae",
+        "languages_code":  "es-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  712,
+        "settings_id":  "be9f7378-5241-4dde-a06f-6b5ed74358ae",
+        "languages_code":  "ca-ES",
+        "name":  "Akiton"
+    },
+    {
+        "id":  713,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40",
+        "languages_code":  "es-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  714,
+        "settings_id":  "4643471c-05ff-4cc3-b6bc-ffc90ce7ef40",
+        "languages_code":  "ca-ES",
+        "name":  "Eox"
+    },
+    {
+        "id":  715,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617",
+        "languages_code":  "es-ES",
+        "name":  "La Diáspora"
+    },
+    {
+        "id":  716,
+        "settings_id":  "b0694f6c-c9e6-41a2-9323-5a39ffa3b617",
+        "languages_code":  "ca-ES",
+        "name":  "La Diàspora"
+    },
+    {
+        "id":  717,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5",
+        "languages_code":  "es-ES",
+        "name":  "La Inmensidad"
+    },
+    {
+        "id":  718,
+        "settings_id":  "06224fad-b599-4486-a9f7-0a34f9cf22d5",
+        "languages_code":  "ca-ES",
+        "name":  "La Immensitat"
+    },
+    {
+        "id":  719,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607",
+        "languages_code":  "es-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  720,
+        "settings_id":  "6b6682e4-147d-46d6-a337-a18a2e7dd607",
+        "languages_code":  "ca-ES",
+        "name":  "Aucturn"
+    },
+    {
+        "id":  721,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e",
+        "languages_code":  "es-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  722,
+        "settings_id":  "75a7738a-5b89-42d1-a2bb-c4145226b09e",
+        "languages_code":  "ca-ES",
+        "name":  "Verces"
+    },
+    {
+        "id":  723,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44",
+        "languages_code":  "es-ES",
+        "name":  "Arquetipos de Película de Terror"
+    },
+    {
+        "id":  724,
+        "settings_id":  "0b20ccf7-48d3-4ca2-8aad-0f6177398b44",
+        "languages_code":  "ca-ES",
+        "name":  "Arquetipus de Pel·lícula de Terror"
+    },
+    {
+        "id":  725,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f",
+        "languages_code":  "es-ES",
+        "name":  "Guerra Civil Galáctica"
+    },
+    {
+        "id":  726,
+        "settings_id":  "92e50ec1-73b8-41c8-9d32-4bdf16427a7f",
+        "languages_code":  "ca-ES",
+        "name":  "Guerra Civil Galàctica"
+    },
+    {
+        "id":  727,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181",
+        "languages_code":  "es-ES",
+        "name":  "Era de las Guerras Clon"
+    },
+    {
+        "id":  728,
+        "settings_id":  "31316e97-b372-4c65-a2f5-776daa451181",
+        "languages_code":  "ca-ES",
+        "name":  "Era de les Guerres Clon"
+    },
+    {
+        "id":  729,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017",
+        "languages_code":  "es-ES",
+        "name":  "Borde Exterior"
+    },
+    {
+        "id":  730,
+        "settings_id":  "17981a61-9222-44e3-ad7e-c2a4cc4fd017",
+        "languages_code":  "ca-ES",
+        "name":  "Vora Exterior"
+    },
+    {
+        "id":  731,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b",
+        "languages_code":  "es-ES",
+        "name":  "Era de la Antigua República"
+    },
+    {
+        "id":  732,
+        "settings_id":  "fabfaa01-e732-4ef7-811c-89462171714b",
+        "languages_code":  "ca-ES",
+        "name":  "Era de l\u0027Antiga República"
+    },
+    {
+        "id":  733,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4",
+        "languages_code":  "es-ES",
+        "name":  "Reinos Olvidados"
+    },
+    {
+        "id":  734,
+        "settings_id":  "9950c6d2-ae0c-47ad-9649-3740aeb9c8d4",
+        "languages_code":  "ca-ES",
+        "name":  "Regnes Oblidats"
+    },
+    {
+        "id":  735,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb",
+        "languages_code":  "es-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  736,
+        "settings_id":  "a8df6d77-ad84-4c29-8dad-a56a184ae0bb",
+        "languages_code":  "ca-ES",
+        "name":  "Ravenloft"
+    },
+    {
+        "id":  737,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60",
+        "languages_code":  "es-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  738,
+        "settings_id":  "7a569346-dfec-4bc1-954e-eecbe621ed60",
+        "languages_code":  "ca-ES",
+        "name":  "Eberron"
+    },
+    {
+        "id":  739,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c",
+        "languages_code":  "es-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  740,
+        "settings_id":  "40b3bb8c-74a3-42eb-bd5b-2a0cc434796c",
+        "languages_code":  "ca-ES",
+        "name":  "Dark Sun"
+    },
+    {
+        "id":  741,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97",
+        "languages_code":  "es-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  742,
+        "settings_id":  "a12d555f-7985-4af1-9a9a-75346fb2be97",
+        "languages_code":  "ca-ES",
+        "name":  "Dragonlance"
+    },
+    {
+        "id":  743,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f",
+        "languages_code":  "es-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  744,
+        "settings_id":  "9658e5e7-2f7e-4fb9-bf7c-8bc4bc0d2f4f",
+        "languages_code":  "ca-ES",
+        "name":  "Greyhawk"
+    },
+    {
+        "id":  745,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472",
+        "languages_code":  "es-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  746,
+        "settings_id":  "cfbb8a99-227d-41a2-b927-1571a36c5472",
+        "languages_code":  "ca-ES",
+        "name":  "Planescape"
+    },
+    {
+        "id":  747,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97",
+        "languages_code":  "es-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  748,
+        "settings_id":  "6f270c4a-64ee-496e-975c-7476dcefaa97",
+        "languages_code":  "ca-ES",
+        "name":  "Spelljammer"
+    },
+    {
+        "id":  749,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de",
+        "languages_code":  "es-ES",
+        "name":  "El Resurgir del Dragón"
+    },
+    {
+        "id":  750,
+        "settings_id":  "54faae83-820e-473a-b068-2e6ae140a4de",
+        "languages_code":  "ca-ES",
+        "name":  "El Ressorgir del Drac"
+    },
+    {
+        "id":  751,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f",
+        "languages_code":  "es-ES",
+        "name":  "El Condado de Ablaneda"
+    },
+    {
+        "id":  752,
+        "settings_id":  "a26c8c6f-d976-40f0-bfd7-4ff3b222564f",
+        "languages_code":  "ca-ES",
+        "name":  "El Comtat de Ablaneda"
+    },
+    {
+        "id":  753,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ryuutama"
+    },
+    {
+        "id":  754,
+        "settings_id":  "7d7cb667-764e-4b6a-a786-890c58e1876e",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ryuutama"
+    },
+    {
+        "id":  755,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0",
+        "languages_code":  "es-ES",
+        "name":  "Mundos de los Guardianes"
+    },
+    {
+        "id":  756,
+        "settings_id":  "ed3df9ea-7886-4eb9-8edc-f933a72580c0",
+        "languages_code":  "ca-ES",
+        "name":  "Mons dels Guardians"
+    },
+    {
+        "id":  757,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490",
+        "languages_code":  "es-ES",
+        "name":  "Universo de Untitled Goose Gang"
+    },
+    {
+        "id":  758,
+        "settings_id":  "dcb9e5be-9ab4-41e1-9c01-da55059b6490",
+        "languages_code":  "ca-ES",
+        "name":  "Univers de Untitled Goose Gang"
+    },
+    {
+        "id":  759,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208",
+        "languages_code":  "es-ES",
+        "name":  "Tercera Edad"
+    },
+    {
+        "id":  760,
+        "settings_id":  "3be5b535-de67-4c14-bb4b-897987a2a208",
+        "languages_code":  "ca-ES",
+        "name":  "Tercera Edat"
+    },
+    {
+        "id":  761,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9",
+        "languages_code":  "es-ES",
+        "name":  "Eriador (Ruinas del Norte)"
+    },
+    {
+        "id":  762,
+        "settings_id":  "91ec5d86-26be-4e82-a658-3854760eadf9",
+        "languages_code":  "ca-ES",
+        "name":  "Eriador (Ruïnes del Nord)"
+    },
+    {
+        "id":  763,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909",
+        "languages_code":  "es-ES",
+        "name":  "Tierras Ásperas (Rhovanion)"
+    },
+    {
+        "id":  764,
+        "settings_id":  "f60a2a8f-ff53-4fe9-9d64-ce42d4c33909",
+        "languages_code":  "ca-ES",
+        "name":  "Terres Aspres (Rhovanion)"
+    },
+    {
+        "id":  765,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Perils \u0026 Princesses"
+    },
+    {
+        "id":  766,
+        "settings_id":  "9e7852ff-8047-435c-9c45-ceb5a505eb2c",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Perils \u0026 Princesses"
+    },
+    {
+        "id":  767,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0",
+        "languages_code":  "es-ES",
+        "name":  "Los Nueve Reinos (Runecairn)"
+    },
+    {
+        "id":  768,
+        "settings_id":  "90d1e39f-9385-4849-866c-7d124314e9f0",
+        "languages_code":  "ca-ES",
+        "name":  "Els Nou Regnes (Runecairn)"
+    },
+    {
+        "id":  769,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f",
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Prehistórico"
+    },
+    {
+        "id":  770,
+        "settings_id":  "4527d4eb-ab97-4f14-8815-8c3da1da404f",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Prehistòric"
+    },
+    {
+        "id":  771,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f",
+        "languages_code":  "es-ES",
+        "name":  "Rokugan (El Imperio Esmeralda)"
+    },
+    {
+        "id":  772,
+        "settings_id":  "2ca1c148-7a62-4c42-93df-96383ab6ef0f",
+        "languages_code":  "ca-ES",
+        "name":  "Rokugan (L\u0027Imperi Maragda)"
+    },
+    {
+        "id":  773,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3",
+        "languages_code":  "es-ES",
+        "name":  "El Bosque"
+    },
+    {
+        "id":  774,
+        "settings_id":  "ee4e9d0b-6c9a-48eb-9d35-71a95a6462c3",
+        "languages_code":  "ca-ES",
+        "name":  "El Bosc"
+    },
+    {
+        "id":  775,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de las Mil y Una Noches"
+    },
+    {
+        "id":  776,
+        "settings_id":  "502e14d3-f21f-4f20-9ae5-074f0b4d3fd9",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de les Mil i Una Nits"
+    },
+    {
+        "id":  777,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac",
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Cy"
+    },
+    {
+        "id":  778,
+        "settings_id":  "91b5ae9d-5609-40e5-a7be-97f3de5801ac",
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Cy"
+    },
+    {
+        "id":  779,
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moribundo"
+    },
+    {
+        "id":  780,
+        "settings_id":  "64580cf4-bcfd-4642-b335-22272c8dec57",
+        "languages_code":  "ca-ES",
+        "name":  "El Món Moribund"
+    },
+    {
+        "id":  781,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e",
+        "languages_code":  "es-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  782,
+        "settings_id":  "e40d49e9-b125-4ad2-8760-bf4da854263e",
+        "languages_code":  "ca-ES",
+        "name":  "1999"
+    },
+    {
+        "id":  783,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e",
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Akkad"
+    },
+    {
+        "id":  784,
+        "settings_id":  "96ed6da8-e745-4fef-8576-d39be00fc82e",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi d\u0027Akkad"
+    },
+    {
+        "id":  785,
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Ragnarok"
+    },
+    {
+        "id":  786,
+        "settings_id":  "4a52ff2e-e8f5-406f-bdb4-56fada4ce574",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Ragnarok"
+    },
+    {
+        "id":  787,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52",
+        "languages_code":  "es-ES",
+        "name":  "Escandia"
+    },
+    {
+        "id":  788,
+        "settings_id":  "5db51fed-fbdc-440a-b59e-7c17d3313b52",
+        "languages_code":  "ca-ES",
+        "name":  "Escàndia"
+    },
+    {
+        "id":  789,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c",
+        "languages_code":  "es-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  790,
+        "settings_id":  "b8740f20-ea34-4621-bdc2-8985a7467e3c",
+        "languages_code":  "ca-ES",
+        "name":  "Kâldu"
+    },
+    {
+        "id":  791,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a",
+        "languages_code":  "es-ES",
+        "name":  "Sector Machariano (M42)"
+    },
+    {
+        "id":  792,
+        "settings_id":  "36a737dd-c140-4d3d-aff4-380d2fbb665a",
+        "languages_code":  "ca-ES",
+        "name":  "Sector Macharià (M42)"
+    },
+    {
+        "id":  793,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7",
+        "languages_code":  "es-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  794,
+        "settings_id":  "5cd9f3bf-6bcd-45be-92bc-bae9b32831f7",
+        "languages_code":  "ca-ES",
+        "name":  "Sector Calixis (M41)"
+    },
+    {
+        "id":  795,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8",
+        "languages_code":  "es-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  796,
+        "settings_id":  "167f2378-b486-421c-a0ab-5e383cfd4ac8",
+        "languages_code":  "ca-ES",
+        "name":  "Sector Askellon (M41)"
+    },
+    {
+        "id":  797,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1",
+        "languages_code":  "es-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  798,
+        "settings_id":  "981e6555-529b-4ede-9562-df4f5ed21ef1",
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Gilead (M42)"
+    },
+    {
+        "id":  799,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913",
+        "languages_code":  "es-ES",
+        "name":  "El Alcance de Jericó (M41)"
+    },
+    {
+        "id":  800,
+        "settings_id":  "d3f529cc-fc66-4610-9b70-7c848a2af913",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Abast de Jericó (M41)"
+    },
+    {
+        "id":  801,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511",
+        "languages_code":  "es-ES",
+        "name":  "Vórtice de los Gritos (M41)"
+    },
+    {
+        "id":  802,
+        "settings_id":  "0d54edd7-343a-42f6-b68c-437e0bfea511",
+        "languages_code":  "ca-ES",
+        "name":  "Vòrtex dels Crits (M41)"
+    },
+    {
+        "id":  803,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1",
+        "languages_code":  "es-ES",
+        "name":  "El Viejo Mundo"
+    },
+    {
+        "id":  804,
+        "settings_id":  "6a97c442-ea81-44f3-a23b-b63cf3451ad1",
+        "languages_code":  "ca-ES",
+        "name":  "El Vell Món"
+    },
+    {
+        "id":  805,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2",
+        "languages_code":  "es-ES",
+        "name":  "El Extraño Oeste"
+    },
+    {
+        "id":  806,
+        "settings_id":  "12be183f-1c6f-4d9d-a538-31288865dce2",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Estrany"
+    },
+    {
+        "id":  807,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f",
+        "languages_code":  "es-ES",
+        "name":  "El Oeste Perdido"
+    },
+    {
+        "id":  808,
+        "settings_id":  "029f8a23-b875-457c-8cdb-c7456fdda09f",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Perdut"
+    },
+    {
+        "id":  809,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce",
+        "languages_code":  "es-ES",
+        "name":  "Sistema Lejano"
+    },
+    {
+        "id":  810,
+        "settings_id":  "08b39919-49cd-442d-ad51-a8bc0749c6ce",
+        "languages_code":  "ca-ES",
+        "name":  "Sistema Llunyà"
+    },
+    {
+        "id":  811,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Moderno de Zombicide"
+    },
+    {
+        "id":  812,
+        "settings_id":  "212d7d5d-da09-4199-9933-856a616d01ae",
+        "languages_code":  "ca-ES",
+        "name":  "El Món Modern de Zombicide"
+    },
+    {
+        "id":  813,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  814,
+        "settings_id":  "a47ff16c-eaa6-4b2d-a764-047136d119a3",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cuervos de Asgard Motor Club"
+    },
+    {
+        "id":  815,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Flux"
+    },
+    {
+        "id":  816,
+        "settings_id":  "ffec877b-f85d-41b3-be4d-33bbe2d87665",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Flux"
+    },
+    {
+        "id":  817,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a",
+        "languages_code":  "es-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  818,
+        "settings_id":  "01e753e5-f3ae-4b46-be9f-06ea9b47aa0a",
+        "languages_code":  "ca-ES",
+        "name":  "El mar de Seapunk Unleashed"
+    },
+    {
+        "id":  819,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805",
+        "languages_code":  "es-ES",
+        "name":  "Los Escenarios de Fiasco"
+    },
+    {
+        "id":  820,
+        "settings_id":  "f5221d91-0571-4d18-9b9f-cda991962805",
+        "languages_code":  "ca-ES",
+        "name":  "Els Escenaris de Fiasco"
+    },
+    {
+        "id":  821,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee",
+        "languages_code":  "es-ES",
+        "name":  "La Gran Bretaña de Pendragón"
+    },
+    {
+        "id":  822,
+        "settings_id":  "537c7f1a-a607-4c56-a828-33a189af95ee",
+        "languages_code":  "ca-ES",
+        "name":  "La Gran Bretanya de Pendragón"
+    },
+    {
+        "id":  823,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Apocalypse World"
+    },
+    {
+        "id":  824,
+        "settings_id":  "91515dc9-9495-4ef4-b793-bad6cfe095fb",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Apocalypse World"
+    },
+    {
+        "id":  825,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227",
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad de Botín de Sangre"
+    },
+    {
+        "id":  826,
+        "settings_id":  "bf696cba-ab43-48b4-846a-d82d971b3227",
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat de Botí de Sang"
+    },
+    {
+        "id":  827,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811",
+        "languages_code":  "es-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  828,
+        "settings_id":  "49c103b4-1ae5-4e5b-95b1-97880fd9f811",
+        "languages_code":  "ca-ES",
+        "name":  "La Tinta"
+    },
+    {
+        "id":  829,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265",
+        "languages_code":  "es-ES",
+        "name":  "El Hollywood de Drácula vs Hitler"
+    },
+    {
+        "id":  830,
+        "settings_id":  "3cd6dadb-2d97-499a-9ced-cafcdcb1a265",
+        "languages_code":  "ca-ES",
+        "name":  "El Hollywood de Dràcula vs Hitler"
+    },
+    {
+        "id":  831,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Caucho y Cromo"
+    },
+    {
+        "id":  832,
+        "settings_id":  "74a82c0c-421e-49a7-aae0-273289caead3",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Cautxú i Crom"
+    },
+    {
+        "id":  833,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de WitchCraft"
+    },
+    {
+        "id":  834,
+        "settings_id":  "986c12b4-e276-4283-a24b-e02af4eaa643",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de WitchCraft"
+    },
+    {
+        "id":  835,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de CukiCraft"
+    },
+    {
+        "id":  836,
+        "settings_id":  "987505fc-1437-4465-adf0-84441193a68d",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de CukiCraft"
+    },
+    {
+        "id":  837,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mahō Shōjo"
+    },
+    {
+        "id":  838,
+        "settings_id":  "8dc98f28-b788-48dd-b055-38b29c80bda1",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mahō Shōjo"
+    },
+    {
+        "id":  839,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1",
+        "languages_code":  "es-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  840,
+        "settings_id":  "231a9a80-16e8-4cdc-93c1-7bfa98b580a1",
+        "languages_code":  "ca-ES",
+        "name":  "Glorantha"
+    },
+    {
+        "id":  841,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Dungeon World"
+    },
+    {
+        "id":  842,
+        "settings_id":  "18d88a9f-9edd-4fcb-80da-848276245dda",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Dungeon World"
+    },
+    {
+        "id":  843,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  844,
+        "settings_id":  "c15bcd6d-121a-4648-a705-079efec391c8",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Clásicos del Mazmorreo"
+    },
+    {
+        "id":  845,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Old-School Essentials"
+    },
+    {
+        "id":  846,
+        "settings_id":  "ed37be1e-6a31-41b3-99ad-5e626236cdb0",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Old-School Essentials"
+    },
+    {
+        "id":  847,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b",
+        "languages_code":  "es-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  848,
+        "settings_id":  "5bc48f57-bfc4-46c9-a42d-5bc6386bb21b",
+        "languages_code":  "ca-ES",
+        "name":  "Europa Mítica"
+    },
+    {
+        "id":  849,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Dresden Files"
+    },
+    {
+        "id":  850,
+        "settings_id":  "373a9df3-76de-4cde-8265-0549085a6617",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Dresden Files"
+    },
+    {
+        "id":  851,
+        "settings_id":  "f3e769a3-f172-4e57-879f-de474198858f",
+        "languages_code":  "es-ES",
+        "name":  "Complejo Alfa"
+    },
+    {
+        "id":  852,
+        "settings_id":  "f3e769a3-f172-4e57-879f-de474198858f",
+        "languages_code":  "ca-ES",
+        "name":  "Complex Alfa"
+    },
+    {
+        "id":  853,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c",
+        "languages_code":  "es-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  854,
+        "settings_id":  "4b3cf04b-083d-4f7b-8e85-60b5c1a8fe0c",
+        "languages_code":  "ca-ES",
+        "name":  "Era Enterprise"
+    },
+    {
+        "id":  855,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78",
+        "languages_code":  "es-ES",
+        "name":  "Era de la Serie Original"
+    },
+    {
+        "id":  856,
+        "settings_id":  "a3cfc441-d9f1-45b1-abc2-158218e12c78",
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Sèrie Original"
+    },
+    {
+        "id":  857,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2",
+        "languages_code":  "es-ES",
+        "name":  "Era de la Nueva Generación"
+    },
+    {
+        "id":  858,
+        "settings_id":  "f8a55cb6-2908-4623-9079-6df4088cd3c2",
+        "languages_code":  "ca-ES",
+        "name":  "Era de la Nova Generació"
+    },
+    {
+        "id":  859,
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e",
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXIII)"
+    },
+    {
+        "id":  860,
+        "settings_id":  "dc1ac10f-9b5d-4f49-8600-716f5e7ef83e",
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXIII)"
+    },
+    {
+        "id":  861,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99",
+        "languages_code":  "es-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  862,
+        "settings_id":  "3cc0ce24-9470-40a9-8f4c-77cfcee19a99",
+        "languages_code":  "ca-ES",
+        "name":  "Era Picard"
+    },
+    {
+        "id":  863,
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316",
+        "languages_code":  "es-ES",
+        "name":  "Era Discovery (Siglo XXXII)"
+    },
+    {
+        "id":  864,
+        "settings_id":  "d1ca3bb8-d3a9-4219-8aa3-71f713d8f316",
+        "languages_code":  "ca-ES",
+        "name":  "Era Discovery (Segle XXXII)"
+    },
+    {
+        "id":  865,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf",
+        "languages_code":  "es-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  866,
+        "settings_id":  "afe56109-1629-4448-ae75-fea8a49cdbcf",
+        "languages_code":  "ca-ES",
+        "name":  "Théah"
+    },
+    {
+        "id":  867,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190",
+        "languages_code":  "es-ES",
+        "name":  "La Ilusión"
+    },
+    {
+        "id":  868,
+        "settings_id":  "34911480-2316-43a4-ad07-8dcef1ac9190",
+        "languages_code":  "ca-ES",
+        "name":  "La Il·lusió"
+    },
+    {
+        "id":  869,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652",
+        "languages_code":  "es-ES",
+        "name":  "La España Medieval de Aquelarre"
+    },
+    {
+        "id":  870,
+        "settings_id":  "cefac227-9ca2-420a-9634-b2dfca21f652",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Espanya Medieval d\u0027Aquelarre"
+    },
+    {
+        "id":  871,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9",
+        "languages_code":  "es-ES",
+        "name":  "La Inglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  872,
+        "settings_id":  "2907050a-6c27-4108-aa3b-25345bbbfdb9",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Anglaterra Isabelina de The Dee Sanction"
+    },
+    {
+        "id":  873,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89",
+        "languages_code":  "es-ES",
+        "name":  "El Sexto Mundo"
+    },
+    {
+        "id":  874,
+        "settings_id":  "36c100ef-dcfa-4eb3-877c-181e3cb78f89",
+        "languages_code":  "ca-ES",
+        "name":  "El Sisè Món"
+    },
+    {
+        "id":  875,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50",
+        "languages_code":  "es-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  876,
+        "settings_id":  "8339e00a-d9f4-4532-9bec-86a6425fdb50",
+        "languages_code":  "ca-ES",
+        "name":  "Night City"
+    },
+    {
+        "id":  877,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5",
+        "languages_code":  "es-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  878,
+        "settings_id":  "540c535d-1155-48ae-9137-bba4e9789bb5",
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2027)"
+    },
+    {
+        "id":  879,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426",
+        "languages_code":  "es-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  880,
+        "settings_id":  "31ebd0f8-bc5b-400b-b6e2-1164343fd426",
+        "languages_code":  "ca-ES",
+        "name":  "Night City (203X)"
+    },
+    {
+        "id":  881,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a",
+        "languages_code":  "es-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  882,
+        "settings_id":  "64486d01-670c-4bce-80c7-a92e2fc8007a",
+        "languages_code":  "ca-ES",
+        "name":  "Night City (2077)"
+    },
+    {
+        "id":  883,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Kids on Bikes"
+    },
+    {
+        "id":  884,
+        "settings_id":  "d7c92db6-3391-41c3-9443-23acb95fb7b7",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Kids on Bikes"
+    },
+    {
+        "id":  885,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7",
+        "languages_code":  "es-ES",
+        "name":  "El Universo Alien"
+    },
+    {
+        "id":  886,
+        "settings_id":  "ba185e13-b7c1-45c1-94a8-6a0a5586abe7",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers Alien"
+    },
+    {
+        "id":  887,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a",
+        "languages_code":  "es-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  888,
+        "settings_id":  "2aa6eb80-f5d1-4689-a0b6-cbd41ffda69a",
+        "languages_code":  "ca-ES",
+        "name":  "La Zona"
+    },
+    {
+        "id":  889,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd",
+        "languages_code":  "es-ES",
+        "name":  "El Norte Mítico"
+    },
+    {
+        "id":  890,
+        "settings_id":  "73bd2105-4a0f-4980-8a8d-8b3f52d0ffdd",
+        "languages_code":  "ca-ES",
+        "name":  "El Nord Mític"
+    },
+    {
+        "id":  891,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56",
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Prohibidas"
+    },
+    {
+        "id":  892,
+        "settings_id":  "45b8bce8-fbb0-472f-92ca-4e98bd0b3b56",
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Prohibides"
+    },
+    {
+        "id":  893,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0",
+        "languages_code":  "es-ES",
+        "name":  "El Universo The Walking Dead"
+    },
+    {
+        "id":  894,
+        "settings_id":  "e62c7393-96cb-4987-bd30-2cdbdc35bba0",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers The Walking Dead"
+    },
+    {
+        "id":  895,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b",
+        "languages_code":  "es-ES",
+        "name":  "El Bucle (Los 80 que nunca fueron)"
+    },
+    {
+        "id":  896,
+        "settings_id":  "352ce5f0-bb0c-4294-bfed-fd7c79e0281b",
+        "languages_code":  "ca-ES",
+        "name":  "El Bucle (Els 80 que mai van ser)"
+    },
+    {
+        "id":  897,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843",
+        "languages_code":  "es-ES",
+        "name":  "Los Ángeles 2037"
+    },
+    {
+        "id":  898,
+        "settings_id":  "62fb2a8b-45a9-4697-8d31-e071bc2d5843",
+        "languages_code":  "ca-ES",
+        "name":  "Los Angeles 2037"
+    },
+    {
+        "id":  899,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6",
+        "languages_code":  "es-ES",
+        "name":  "La Era de la Umbra"
+    },
+    {
+        "id":  900,
+        "settings_id":  "a286ff4c-4950-4f40-921f-f9f1a8a80ad6",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Era de la Umbra"
+    },
+    {
+        "id":  901,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e",
+        "languages_code":  "es-ES",
+        "name":  "Festín de Bestias"
+    },
+    {
+        "id":  902,
+        "settings_id":  "71cc584f-71ad-41a3-9ab6-005b02f0c88e",
+        "languages_code":  "ca-ES",
+        "name":  "Festí de Bèsties"
+    },
+    {
+        "id":  903,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6",
+        "languages_code":  "es-ES",
+        "name":  "El Coloso de las Tierras Secas"
+    },
+    {
+        "id":  904,
+        "settings_id":  "eb9bf267-89b7-4b1c-bc13-861dc633dca6",
+        "languages_code":  "ca-ES",
+        "name":  "El Colós de les Terres Seques"
+    },
+    {
+        "id":  905,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde",
+        "languages_code":  "es-ES",
+        "name":  "Cinco Estandartes Ardiendo"
+    },
+    {
+        "id":  906,
+        "settings_id":  "2aa74945-a588-4769-baba-719504b0afde",
+        "languages_code":  "ca-ES",
+        "name":  "Cinc Estandards Cremant"
+    },
+    {
+        "id":  907,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4",
+        "languages_code":  "es-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  908,
+        "settings_id":  "4474848c-04bf-4c38-9915-f30b32437dd4",
+        "languages_code":  "ca-ES",
+        "name":  "Motherboard"
+    },
+    {
+        "id":  909,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314",
+        "languages_code":  "es-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  910,
+        "settings_id":  "200ab9dd-b21b-49c0-88cb-4a80f5137314",
+        "languages_code":  "ca-ES",
+        "name":  "El Witherwild"
+    },
+    {
+        "id":  911,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a",
+        "languages_code":  "es-ES",
+        "name":  "Con Amor y Magia"
+    },
+    {
+        "id":  912,
+        "settings_id":  "e27f1be4-51f8-4997-9ca4-5bc8692c094a",
+        "languages_code":  "ca-ES",
+        "name":  "Amb Amor i Màgia"
+    },
+    {
+        "id":  913,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Scurry"
+    },
+    {
+        "id":  914,
+        "settings_id":  "7264e635-4312-40db-8f3e-bbb8982b05bf",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Scurry"
+    },
+    {
+        "id":  915,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Miserias y Desgracias"
+    },
+    {
+        "id":  916,
+        "settings_id":  "3f3a7750-3069-4dd8-bce0-43ec85be4922",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Misèries i Malaurances"
+    },
+    {
+        "id":  917,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Robotta"
+    },
+    {
+        "id":  918,
+        "settings_id":  "c965913b-8e8d-4306-aa0e-8757df0a2a4b",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Robotta"
+    },
+    {
+        "id":  919,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Hardboiled"
+    },
+    {
+        "id":  920,
+        "settings_id":  "34072d3c-6ae7-4f03-87f3-71e9f7bae562",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Hardboiled"
+    },
+    {
+        "id":  921,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  922,
+        "settings_id":  "345f6f5c-1191-4f15-9ac6-d6b18c765353",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Musu-Musu-Musume?!"
+    },
+    {
+        "id":  923,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b",
+        "languages_code":  "es-ES",
+        "name":  "Las Islas de Ábora"
+    },
+    {
+        "id":  924,
+        "settings_id":  "948d8f89-2a84-42c6-b912-9f9a2492028b",
+        "languages_code":  "ca-ES",
+        "name":  "Les Illes d\u0027Ábora"
+    },
+    {
+        "id":  925,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128",
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos de Verne"
+    },
+    {
+        "id":  926,
+        "settings_id":  "1d68b670-ad76-4162-bc4e-976d13437128",
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons de Verne"
+    },
+    {
+        "id":  927,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Inocentes"
+    },
+    {
+        "id":  928,
+        "settings_id":  "6398b052-a325-41ce-90fa-597ce7b47899",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Inocentes"
+    },
+    {
+        "id":  929,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465",
+        "languages_code":  "es-ES",
+        "name":  "Las Tierras Quebradas"
+    },
+    {
+        "id":  930,
+        "settings_id":  "9d7f83e0-b616-4594-9a0b-88b5caa48465",
+        "languages_code":  "ca-ES",
+        "name":  "Les Terres Trencades"
+    },
+    {
+        "id":  931,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9",
+        "languages_code":  "es-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  932,
+        "settings_id":  "de3d28a5-00d9-4904-b35d-c2c4ae4784b9",
+        "languages_code":  "ca-ES",
+        "name":  "La Guerra del Chi"
+    },
+    {
+        "id":  933,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Reflejo"
+    },
+    {
+        "id":  934,
+        "settings_id":  "a99ff1aa-83b4-400f-9c80-267e7c01fc89",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Reflejo"
+    },
+    {
+        "id":  935,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba",
+        "languages_code":  "es-ES",
+        "name":  "El Japón Feudal de Sangre y Honor"
+    },
+    {
+        "id":  936,
+        "settings_id":  "a30f9738-6c12-44c3-8334-5f84bea7faba",
+        "languages_code":  "ca-ES",
+        "name":  "El Japó Feudal de Sang i Honor"
+    },
+    {
+        "id":  937,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Liminal"
+    },
+    {
+        "id":  938,
+        "settings_id":  "680f31d9-a169-4ba2-8831-8018b481f930",
+        "languages_code":  "ca-ES",
+        "name":  "El Món Liminal"
+    },
+    {
+        "id":  939,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Cuentos Rotos"
+    },
+    {
+        "id":  940,
+        "settings_id":  "4b150115-3c5a-4252-b81e-9c281a307132",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Contes Trencats"
+    },
+    {
+        "id":  941,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b",
+        "languages_code":  "es-ES",
+        "name":  "El Universo de Viking Death Squad"
+    },
+    {
+        "id":  942,
+        "settings_id":  "2e97a895-3704-41ff-8aca-8dbf9b68212b",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Univers de Viking Death Squad"
+    },
+    {
+        "id":  943,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Trophy"
+    },
+    {
+        "id":  944,
+        "settings_id":  "7eb9ac00-42cd-45e8-bc0b-07f9a3b9169c",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Trophy"
+    },
+    {
+        "id":  945,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Shinobigami"
+    },
+    {
+        "id":  946,
+        "settings_id":  "5e210815-b1fd-4b69-815b-a5d0748826ba",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Shinobigami"
+    },
+    {
+        "id":  947,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855",
+        "languages_code":  "es-ES",
+        "name":  "Nueva Europa"
+    },
+    {
+        "id":  948,
+        "settings_id":  "44bd9a2a-5e05-41a7-83bd-cf2ae7b85855",
+        "languages_code":  "ca-ES",
+        "name":  "Nova Europa"
+    },
+    {
+        "id":  949,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d",
+        "languages_code":  "es-ES",
+        "name":  "El Campo Japonés de Yuuyake Koyake"
+    },
+    {
+        "id":  950,
+        "settings_id":  "888d4f43-b3ad-4ea9-a6ec-50783c1bac8d",
+        "languages_code":  "ca-ES",
+        "name":  "El Camp Japonès de Yuuyake Koyake"
+    },
+    {
+        "id":  951,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9",
+        "languages_code":  "es-ES",
+        "name":  "El Caribe de 8 Tesoros"
+    },
+    {
+        "id":  952,
+        "settings_id":  "37b8d10d-a482-4510-a5e6-54634f9e9ee9",
+        "languages_code":  "ca-ES",
+        "name":  "El Carib de 8 Tresors"
+    },
+    {
+        "id":  953,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334",
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  954,
+        "settings_id":  "7fa727aa-9d3a-4117-92ba-207f8c5c0334",
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica"
+    },
+    {
+        "id":  955,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a",
+        "languages_code":  "es-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  956,
+        "settings_id":  "4168ee5a-7804-4594-9afd-5f993ac71f5a",
+        "languages_code":  "ca-ES",
+        "name":  "Dyss Mítica: Magissa"
+    },
+    {
+        "id":  957,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Mausritter"
+    },
+    {
+        "id":  958,
+        "settings_id":  "a7d8048b-4869-42b5-aa2e-8e1a07c56138",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Mausritter"
+    },
+    {
+        "id":  959,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c",
+        "languages_code":  "es-ES",
+        "name":  "La América de Blacksad"
+    },
+    {
+        "id":  960,
+        "settings_id":  "c8bc6756-95f9-43f1-9c2a-a80a7edfe98c",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Amèrica de Blacksad"
+    },
+    {
+        "id":  961,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo Epicodecadente de Fanhunter"
+    },
+    {
+        "id":  962,
+        "settings_id":  "9ec6ccb0-62db-4c70-80a5-87096c135879",
+        "languages_code":  "ca-ES",
+        "name":  "El Món Epicadecadent de Fanhunter"
+    },
+    {
+        "id":  963,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670",
+        "languages_code":  "es-ES",
+        "name":  "El Instituto de Monsterhearts"
+    },
+    {
+        "id":  964,
+        "settings_id":  "9f515f12-4e7c-402c-83a7-94a776908670",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Institut de Monsterhearts"
+    },
+    {
+        "id":  965,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3",
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era Antigua"
+    },
+    {
+        "id":  966,
+        "settings_id":  "2e39323a-7abf-4958-a226-1b21e5c72fa3",
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions:Era Antiga"
+    },
+    {
+        "id":  967,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48",
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Aang"
+    },
+    {
+        "id":  968,
+        "settings_id":  "d9386fbc-10cf-4d28-b0d0-9e7a9ce3ee48",
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era d\u0027Aang"
+    },
+    {
+        "id":  969,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9",
+        "languages_code":  "es-ES",
+        "name":  "Las Cuatro Naciones: Era de Korra"
+    },
+    {
+        "id":  970,
+        "settings_id":  "9bd68e50-cc04-4b52-a88a-45db32c7fef9",
+        "languages_code":  "ca-ES",
+        "name":  "Les Quatre Nacions: Era de Korra"
+    },
+    {
+        "id":  971,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Honey Heist"
+    },
+    {
+        "id":  972,
+        "settings_id":  "9f4b3786-f0e9-453f-b1c7-59f15dc169c4",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Honey Heist"
+    },
+    {
+        "id":  973,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Fantasía de Hero Kids"
+    },
+    {
+        "id":  974,
+        "settings_id":  "e3e1a869-77ba-491e-bfc1-f563650f8e2a",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Fantasia de Hero Kids"
+    },
+    {
+        "id":  975,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224",
+        "languages_code":  "es-ES",
+        "name":  "La Línea Temporal de la Clepsidra"
+    },
+    {
+        "id":  976,
+        "settings_id":  "31ea5ab5-ebd3-4d24-9961-38f0d6461224",
+        "languages_code":  "ca-ES",
+        "name":  "La Línia Temporal de la Clepsidra"
+    },
+    {
+        "id":  977,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94",
+        "languages_code":  "es-ES",
+        "name":  "El Imperio de Dune"
+    },
+    {
+        "id":  978,
+        "settings_id":  "34310e39-2f40-4501-9bf1-cc7b899f8b94",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Imperi de Dune"
+    },
+    {
+        "id":  979,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de The Troubleshooters"
+    },
+    {
+        "id":  980,
+        "settings_id":  "985f6f63-3d35-404f-800d-54b8399c7ae7",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de The Troubleshooters"
+    },
+    {
+        "id":  981,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61",
+        "languages_code":  "es-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  982,
+        "settings_id":  "5970b31b-11ea-44ce-8a27-3680d2f39e61",
+        "languages_code":  "ca-ES",
+        "name":  "El Cosmere"
+    },
+    {
+        "id":  983,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c",
+        "languages_code":  "es-ES",
+        "name":  "Bahía de Brindlewood"
+    },
+    {
+        "id":  984,
+        "settings_id":  "5ac9f3c5-7379-4922-8ee6-da25393c944c",
+        "languages_code":  "ca-ES",
+        "name":  "Badia de Brindlewood"
+    },
+    {
+        "id":  985,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44",
+        "languages_code":  "es-ES",
+        "name":  "El Valle Brumoso"
+    },
+    {
+        "id":  986,
+        "settings_id":  "7bbc9713-8ba3-45af-918a-3934af8e0f44",
+        "languages_code":  "ca-ES",
+        "name":  "La Vall Boirosa"
+    },
+    {
+        "id":  987,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e",
+        "languages_code":  "es-ES",
+        "name":  "Crónicas de Tinieblas (Moderno)"
+    },
+    {
+        "id":  988,
+        "settings_id":  "27d9e2d1-67c6-41fe-b7eb-b8478bfa603e",
+        "languages_code":  "ca-ES",
+        "name":  "Cròniques de Tenebres (Modern)"
+    },
+    {
+        "id":  989,
+        "settings_id":  "32f38a1d-92e8-4622-9504-8381df339ced",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas (Clásico)"
+    },
+    {
+        "id":  990,
+        "settings_id":  "32f38a1d-92e8-4622-9504-8381df339ced",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres (Clàssic)"
+    },
+    {
+        "id":  991,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Tinieblas Moderno"
+    },
+    {
+        "id":  992,
+        "settings_id":  "8b85e714-af98-4440-be6e-ec4e75a11095",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Tenebres Modern"
+    },
+    {
+        "id":  993,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411",
+        "languages_code":  "es-ES",
+        "name":  "Las Edades Oscuras del Mundo de Tinieblas"
+    },
+    {
+        "id":  994,
+        "settings_id":  "737a98bc-6c07-4c1e-ae3b-dc10e07e0411",
+        "languages_code":  "ca-ES",
+        "name":  "Les Edats Fosques del Món de Tenebres"
+    },
+    {
+        "id":  995,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d",
+        "languages_code":  "es-ES",
+        "name":  "La Cruzada de los Hechiceros del Mundo de Tinieblas"
+    },
+    {
+        "id":  996,
+        "settings_id":  "6ee0c623-5bfc-4ab3-999c-c9202960c59d",
+        "languages_code":  "ca-ES",
+        "name":  "La Croada dels Bruixots del Món de Tenebres"
+    },
+    {
+        "id":  997,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb",
+        "languages_code":  "es-ES",
+        "name":  "El Salvaje Oeste del Mundo de Tinieblas"
+    },
+    {
+        "id":  998,
+        "settings_id":  "e790c301-9742-43cd-ac55-dceef0f0ebcb",
+        "languages_code":  "ca-ES",
+        "name":  "L\u0027Oest Salvatge del Món de Tenebres"
+    },
+    {
+        "id":  999,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c",
+        "languages_code":  "es-ES",
+        "name":  "La Ciudad del Serpentino"
+    },
+    {
+        "id":  1000,
+        "settings_id":  "36ae3460-0bee-4d0d-9108-7201d5c0960c",
+        "languages_code":  "ca-ES",
+        "name":  "La Ciutat del Serpentí"
+    },
+    {
+        "id":  1001,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Agentes de la Noche"
+    },
+    {
+        "id":  1002,
+        "settings_id":  "1c9e6e51-515c-487d-a7b4-1a2a73853dfc",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Agents de la Nit"
+    },
+    {
+        "id":  1003,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Outer Dark"
+    },
+    {
+        "id":  1004,
+        "settings_id":  "13e223cc-9471-481a-8a78-e0fe15c6eae8",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027Outer Dark"
+    },
+    {
+        "id":  1005,
+        "settings_id":  "e796460a-a060-4fde-b8c5-1dca93fa0d04",
+        "languages_code":  "es-ES",
+        "name":  "Los Mitos de Cthulhu (Genérico)"
+    },
+    {
+        "id":  1006,
+        "settings_id":  "e796460a-a060-4fde-b8c5-1dca93fa0d04",
+        "languages_code":  "ca-ES",
+        "name":  "Els Mites de Cthulhu (Genèric)"
+    },
+    {
+        "id":  1007,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de la Edad Oscura"
+    },
+    {
+        "id":  1008,
+        "settings_id":  "b28849d2-d5bd-425c-80d2-af2461f23697",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de l\u0027Edat Fosca"
+    },
+    {
+        "id":  1009,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  1010,
+        "settings_id":  "334b13cb-6126-45ea-8fdb-66728e329304",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Gaslight"
+    },
+    {
+        "id":  1011,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era de Regencia"
+    },
+    {
+        "id":  1012,
+        "settings_id":  "09bbef95-2a85-41e8-a9ec-71bb4cb6f8b0",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era de Regència"
+    },
+    {
+        "id":  1013,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Clásica (Años 20-30)"
+    },
+    {
+        "id":  1014,
+        "settings_id":  "448c621f-5c3d-44d3-8eb6-440276a632ca",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Clàssica (Anys 20-30)"
+    },
+    {
+        "id":  1015,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu: Era Pulp (Años 30)"
+    },
+    {
+        "id":  1016,
+        "settings_id":  "de45bb44-db4b-4cf1-8bb3-6b7de50301f0",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu: Era Pulp (Anys 30)"
+    },
+    {
+        "id":  1017,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0",
+        "languages_code":  "es-ES",
+        "name":  "Achtung! Cthulhu (WWII)"
+    },
+    {
+        "id":  1018,
+        "settings_id":  "2a71f634-a8bf-4d1c-afc4-ab6b151b8fa0",
+        "languages_code":  "ca-ES",
+        "name":  "Achtung! Cthulhu (GMII)"
+    },
+    {
+        "id":  1019,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085",
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Guerra Fría (La Caída de DG)"
+    },
+    {
+        "id":  1020,
+        "settings_id":  "5d3c6f78-fcd9-4439-8ec5-8f363e019085",
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Guerra Freda (La Caiguda de DG)"
+    },
+    {
+        "id":  1021,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182",
+        "languages_code":  "es-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  1022,
+        "settings_id":  "714db336-3350-4df2-abfa-73dbd2f26182",
+        "languages_code":  "ca-ES",
+        "name":  "Delta Green: Era Moderna"
+    },
+    {
+        "id":  1023,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536",
+        "languages_code":  "es-ES",
+        "name":  "Cthulhu Moderno"
+    },
+    {
+        "id":  1024,
+        "settings_id":  "880fd1f2-e602-4611-abf0-7d274722a536",
+        "languages_code":  "ca-ES",
+        "name":  "Cthulhu Modern"
+    },
+    {
+        "id":  1025,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de El sueño de Cthulhu"
+    },
+    {
+        "id":  1026,
+        "settings_id":  "b33014f0-e26f-4b36-bcdb-bfa735a97a4f",
+        "languages_code":  "ca-ES",
+        "name":  "El Món d\u0027El somni de Cthulhu"
+    },
+    {
+        "id":  1027,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611",
+        "languages_code":  "es-ES",
+        "name":  "Los Mundos Paralelos de El Rey de Amarillo"
+    },
+    {
+        "id":  1028,
+        "settings_id":  "b85904a5-57af-49fc-9155-237e9c8d4611",
+        "languages_code":  "ca-ES",
+        "name":  "Els Mons Paral·lels d\u0027El Rei Groc"
+    },
+    {
+        "id":  1029,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141",
+        "languages_code":  "es-ES",
+        "name":  "El Mundo de Call of Catthulhu"
+    },
+    {
+        "id":  1030,
+        "settings_id":  "2d0cf01d-c9ce-4923-9477-43a05b276141",
+        "languages_code":  "ca-ES",
+        "name":  "El Món de Call of Catthulhu"
+    },
+    {
+        "id":  1031,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0",
+        "languages_code":  "es-ES",
+        "name":  "Ambientación Cultos Innombrables"
+    },
+    {
+        "id":  1032,
+        "settings_id":  "6afd5fd1-f8b7-4db4-9e9d-1bd4e09547f0",
+        "languages_code":  "ca-ES",
+        "name":  "Ambientació Cultes Innomenables"
+    },
+    {
+        "id":  1033,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623",
+        "languages_code":  "es-ES",
+        "name":  "Réquiem por Roma"
+    },
+    {
+        "id":  1034,
+        "settings_id":  "36197fa4-54b5-41a3-8b67-238ff193b623",
+        "languages_code":  "ca-ES",
+        "name":  "Rèquiem per Roma"
+    },
+    {
+        "id":  1035,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621",
+        "languages_code":  "es-ES",
+        "name":  "Las Fairelands (Candela Obscura)"
+    },
+    {
+        "id":  1036,
+        "settings_id":  "8030ee66-e502-4562-9176-ba2a0c3df621",
+        "languages_code":  "ca-ES",
+        "name":  "Les Fairelands (Candela Obscura)"
+    }
+]

@@ -1,0 +1,7572 @@
+﻿[
+    {
+        "id":  1,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  2,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  3,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  4,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  5,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  6,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  7,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  8,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  9,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  10,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  11,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  12,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  13,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  14,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  15,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  16,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  17,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  18,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  19,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  20,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  21,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  22,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  23,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  24,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  25,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  26,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  27,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  28,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  29,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  30,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  31,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  32,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  33,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  34,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  35,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  36,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  37,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  38,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  39,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  40,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  41,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  42,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  43,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  44,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  45,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  46,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  47,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  48,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  49,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  50,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  51,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  52,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  53,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  54,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  55,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  56,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  57,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  58,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  59,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  60,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  61,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  62,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  63,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  64,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  65,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  66,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  67,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  68,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  69,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  70,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  71,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  72,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  73,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  74,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  75,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  76,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  77,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  78,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  79,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  80,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  81,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  82,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  83,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  84,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  85,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  86,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  87,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  88,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  89,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  90,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  91,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  92,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  93,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  94,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  95,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  96,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  97,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  98,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  99,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  100,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  101,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  102,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  103,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  104,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  105,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  106,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  107,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  108,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  109,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  110,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  111,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  112,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  113,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  114,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  115,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  116,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  117,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  118,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  119,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  120,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  121,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  122,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  123,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  124,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  125,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  126,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  127,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  128,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  129,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  130,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  131,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  132,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  133,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  134,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  135,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  136,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  137,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  138,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  139,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  140,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  141,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  142,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  143,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  144,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  145,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  146,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  147,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  148,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  149,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  150,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  151,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  152,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  153,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  154,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  155,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  156,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  157,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  158,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  159,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  160,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  161,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  162,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  163,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  164,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  165,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  166,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  167,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  168,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  169,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  170,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  171,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  172,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  173,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  174,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  175,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  176,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  177,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  178,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  179,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  180,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  181,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  182,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  183,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  184,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  185,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  186,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  187,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  188,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  189,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  190,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  191,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  192,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  193,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  194,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  195,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  196,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  197,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  198,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  199,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  200,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  201,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  202,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  203,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  204,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  205,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  206,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  207,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  208,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  209,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  210,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  211,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  212,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  213,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  214,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  215,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  216,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  217,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  218,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  219,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  220,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  221,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  222,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  223,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  224,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  225,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  226,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  227,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  228,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  229,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  230,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  231,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  232,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  233,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  234,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  235,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  236,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  237,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  238,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  239,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  240,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  241,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  242,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  243,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  244,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  245,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  246,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  247,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  248,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  249,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  250,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  251,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  252,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  253,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  254,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  255,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  256,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  257,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  258,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  259,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  260,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  261,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  262,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  263,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  264,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  265,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  266,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  267,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  268,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  269,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  270,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  271,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  272,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  273,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  274,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  275,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  276,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  277,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  278,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  279,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  280,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  281,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  282,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  283,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  284,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  285,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  286,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  287,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  288,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  289,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  290,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  291,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  292,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  293,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  294,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  295,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  296,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  297,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  298,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  299,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  300,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  301,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  302,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  303,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  304,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  305,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  306,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  307,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  308,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  309,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  310,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  311,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  312,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  313,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  314,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  315,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  316,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  317,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  318,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  319,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  320,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  321,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  322,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  323,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  324,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  325,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  326,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  327,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  328,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  329,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  330,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  331,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  332,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  333,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  334,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  335,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  336,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  337,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  338,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  339,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  340,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  341,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  342,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  343,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  344,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  345,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  346,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  347,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  348,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  349,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  350,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  351,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  352,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  353,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  354,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  355,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  356,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  357,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  358,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  359,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  360,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  361,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  362,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  363,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  364,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  365,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  366,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  367,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  368,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  369,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  370,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  371,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  372,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  373,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  374,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  375,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  376,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  377,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  378,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  379,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  380,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  381,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  382,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  383,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  384,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  385,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  386,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  387,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  388,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  389,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  390,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  391,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  392,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  393,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  394,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  395,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  396,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  397,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  398,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  399,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  400,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  401,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  402,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  403,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  404,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  405,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  406,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  407,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  408,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  409,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  410,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  411,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  412,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  413,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  414,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  415,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  416,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  417,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  418,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  419,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  420,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  421,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  422,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  423,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  424,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  425,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  426,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  427,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  428,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  429,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  430,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  431,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  432,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  433,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  434,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  435,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  436,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  437,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  438,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  439,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  440,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  441,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  442,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  443,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  444,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  445,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  446,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  447,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  448,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  449,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  450,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  451,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  452,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  453,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  454,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  455,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  456,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  457,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  458,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  459,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  460,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  461,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  462,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  463,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  464,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  465,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  466,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  467,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  468,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  469,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  470,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  471,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  472,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  473,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  474,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  475,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  476,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  477,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  478,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  479,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  480,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  481,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  482,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  483,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  484,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  485,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  486,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  487,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  488,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  489,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  490,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  491,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  492,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  493,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  494,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  495,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  496,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  497,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  498,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  499,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  500,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  501,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  502,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  503,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  504,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  505,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  506,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  507,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  508,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  509,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  510,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  511,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  512,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  513,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  514,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  515,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  516,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  517,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  518,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  519,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  520,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  521,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  522,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  523,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  524,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  525,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  526,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  527,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  528,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  529,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  530,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  531,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  532,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  533,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  534,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  535,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  536,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  537,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  538,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  539,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  540,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  541,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  542,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  543,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  544,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  545,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  546,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  547,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  548,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  549,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  550,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  551,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  552,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  553,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  554,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  555,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  556,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  557,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  558,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  559,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  560,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  561,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  562,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  563,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  564,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  565,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  566,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  567,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  568,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  569,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  570,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  571,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  572,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  573,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  574,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  575,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  576,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  577,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  578,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  579,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  580,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  581,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  582,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  583,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  584,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  585,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  586,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  587,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  588,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  589,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  590,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  591,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  592,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  593,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  594,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  595,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  596,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  597,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  598,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  599,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  600,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  601,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  602,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  603,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  604,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  605,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  606,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  607,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  608,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  609,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  610,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  611,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  612,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  613,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  614,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  615,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  616,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  617,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  618,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  619,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  620,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  621,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  622,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  623,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  624,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  625,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  626,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  627,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  628,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  629,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  630,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  631,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  632,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  633,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  634,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  635,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  636,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  637,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  638,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  639,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  640,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  641,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  642,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  643,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  644,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  645,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  646,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  647,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  648,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  649,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  650,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  651,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  652,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  653,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  654,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  655,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  656,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  657,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  658,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  659,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  660,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  661,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  662,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  663,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  664,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  665,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  666,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  667,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  668,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  669,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  670,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  671,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  672,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  673,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  674,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  675,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  676,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  677,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  678,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  679,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  680,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  681,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  682,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  683,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  684,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  685,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  686,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  687,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  688,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  689,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  690,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  691,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  692,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  693,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  694,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  695,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  696,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  697,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  698,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  699,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  700,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  701,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  702,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  703,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  704,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  705,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  706,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  707,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  708,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  709,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  710,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  711,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  712,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  713,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  714,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  715,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  716,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  717,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  718,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  719,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  720,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  721,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  722,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  723,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  724,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  725,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  726,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  727,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  728,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  729,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  730,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  731,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  732,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  733,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  734,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  735,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  736,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  737,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  738,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  739,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  740,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  741,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  742,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  743,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  744,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  745,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  746,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  747,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  748,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  749,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  750,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  751,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  752,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  753,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  754,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  755,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  756,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  757,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  758,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  759,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  760,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  761,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  762,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  763,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  764,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  765,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  766,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  767,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  768,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  769,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  770,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  771,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  772,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  773,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  774,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  775,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  776,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  777,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  778,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  779,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  780,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  781,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  782,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  783,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  784,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  785,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  786,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  787,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  788,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  789,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  790,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  791,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  792,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  793,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  794,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  795,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  796,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  797,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  798,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  799,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  800,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  801,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  802,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  803,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  804,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  805,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  806,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  807,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  808,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  809,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  810,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  811,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  812,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  813,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  814,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  815,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  816,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  817,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  818,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  819,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  820,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  821,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  822,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  823,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  824,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  825,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  826,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  827,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  828,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  829,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  830,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  831,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  832,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  833,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  834,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  835,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  836,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  837,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  838,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  839,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  840,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  841,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  842,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  843,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  844,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  845,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  846,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  847,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  848,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  849,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  850,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  851,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  852,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  853,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  854,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  855,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  856,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  857,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  858,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  859,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  860,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  861,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  862,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  863,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  864,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  890,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  891,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  892,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  893,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  894,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  895,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  896,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  897,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  898,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  899,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  900,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  901,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  902,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  903,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  904,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  905,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  906,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  907,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  908,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  909,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  910,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  911,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  912,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  913,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  914,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  915,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  916,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  917,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  918,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  919,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  920,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  921,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  922,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  923,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  924,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  925,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  926,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  927,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  928,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  929,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  930,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  931,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  932,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  933,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  934,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  935,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  936,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  937,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  938,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  939,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  940,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  941,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  942,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  943,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  944,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  945,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  946,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  947,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  948,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  949,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  950,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  951,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  952,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  953,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  954,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  955,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  956,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  957,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  958,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  959,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  960,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  961,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  962,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  963,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  964,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  965,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  966,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  967,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  968,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  969,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  970,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  971,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  972,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  973,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  974,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  975,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  976,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  977,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  978,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  979,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  980,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  981,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  982,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  983,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  984,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  985,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  986,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  987,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  988,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  989,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  990,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  991,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  992,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  993,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  994,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  995,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  996,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  997,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  998,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  999,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1000,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1001,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1002,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1003,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1004,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1005,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1006,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1007,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1008,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1009,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1010,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1011,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1012,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1013,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1014,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1015,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1016,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1017,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1018,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1019,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1020,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1021,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1022,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1023,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1024,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1025,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1026,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1027,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1028,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1029,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1030,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1031,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1032,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1033,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1034,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1035,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1036,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1037,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1038,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1039,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1040,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1041,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1042,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1043,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1044,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1045,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1046,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1047,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1048,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1049,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1050,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1051,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1052,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1053,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1054,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1055,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1056,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1057,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1058,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1059,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1060,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1061,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1062,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1063,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1064,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1065,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1066,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1067,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1068,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1069,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1070,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1071,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1072,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1073,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1074,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1075,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1076,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1077,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1078,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1079,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1080,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1081,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1082,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1083,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1084,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1085,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1086,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1087,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1088,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1089,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1090,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1091,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1092,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1093,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1094,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1095,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1096,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1097,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1098,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1099,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1100,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1101,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1102,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1103,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1104,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1105,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1121,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1122,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1123,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1124,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1125,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1126,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1127,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1128,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1129,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1130,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1131,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1132,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1133,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1134,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1135,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1136,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1137,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1138,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1139,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1140,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1141,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1142,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1143,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1144,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1145,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1146,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1147,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1148,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1149,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1150,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1151,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1152,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1153,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1154,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1155,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1156,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1157,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1158,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1159,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1160,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1161,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1162,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1163,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1164,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1165,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1166,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1167,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1168,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1169,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1170,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1171,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1172,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1173,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1174,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1175,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1176,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1177,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1178,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1179,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1180,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1181,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1182,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1183,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1184,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1185,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1186,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1187,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1188,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1189,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1190,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1191,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1192,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1193,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1194,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1195,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1196,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1197,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1198,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1199,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1200,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1201,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1202,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1203,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1204,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1205,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1206,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1207,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1208,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1209,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1210,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1211,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1212,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1213,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1214,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1215,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1216,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1217,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1218,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1219,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1220,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1221,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1222,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1223,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1224,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1225,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1226,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1227,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1228,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1229,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1230,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1231,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1232,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1233,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1234,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1235,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1236,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1237,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1238,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1239,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1240,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1241,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1242,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1243,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1244,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1245,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1246,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1247,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1248,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1249,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1250,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1251,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1252,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1253,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1254,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1255,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1256,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1257,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1258,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1259,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1260,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1261,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1262,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1263,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1264,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1265,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1266,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1267,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1268,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1269,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1270,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1271,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1272,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1273,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1274,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1275,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1276,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1277,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1278,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1279,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1280,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1281,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1282,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1283,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1284,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1285,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1286,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1287,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1288,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1289,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1290,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1291,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1292,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1293,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1294,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1295,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1296,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1297,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1298,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1299,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1300,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1301,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1302,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1303,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1304,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1305,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1306,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1307,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1308,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1309,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1310,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1311,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1312,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1313,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1314,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1315,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1316,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1317,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1318,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1319,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1320,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1321,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1322,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1323,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1324,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1325,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1326,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1327,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1328,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1329,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1330,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1331,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1332,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1333,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1334,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1335,
+        "rpg_families_id":  null,
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1336,
+        "rpg_families_id":  null,
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1337,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1338,
+        "rpg_families_id":  "2eede33d-ea41-48d6-bb3f-fdaf8db7bdad",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1339,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1340,
+        "rpg_families_id":  "21aa6665-3abc-4db1-9310-0ed498041f8e",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1341,
+        "rpg_families_id":  "a63d5a04-56dd-462e-a04c-7ba50f12020d",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1342,
+        "rpg_families_id":  "a63d5a04-56dd-462e-a04c-7ba50f12020d",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1343,
+        "rpg_families_id":  "77c18eab-b29b-426e-ab44-35db8a65eab4",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1344,
+        "rpg_families_id":  "77c18eab-b29b-426e-ab44-35db8a65eab4",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1345,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1346,
+        "rpg_families_id":  "97fb863f-52ef-4498-b941-838fb8d26723",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1347,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1348,
+        "rpg_families_id":  "2dee17c4-e142-48fd-bbd3-6325be2dbc7f",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1349,
+        "rpg_families_id":  "bc5adf19-d41f-4741-b6a3-3a82613d815a",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1350,
+        "rpg_families_id":  "bc5adf19-d41f-4741-b6a3-3a82613d815a",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1351,
+        "rpg_families_id":  "4a7e04f3-290c-4fee-9fd5-6bd3c7eeabfa",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1352,
+        "rpg_families_id":  "4a7e04f3-290c-4fee-9fd5-6bd3c7eeabfa",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1353,
+        "rpg_families_id":  "43692bfb-ff14-4430-a1b4-274b603bf210",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1354,
+        "rpg_families_id":  "43692bfb-ff14-4430-a1b4-274b603bf210",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1355,
+        "rpg_families_id":  "336ea897-ceb8-490e-b1a5-73547ae250b8",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1356,
+        "rpg_families_id":  "336ea897-ceb8-490e-b1a5-73547ae250b8",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1357,
+        "rpg_families_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1358,
+        "rpg_families_id":  "9c626dcf-3611-420a-b026-32746aa1ce2c",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1359,
+        "rpg_families_id":  "6193e392-ac9f-4ad7-a8a1-df870c8672f8",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1360,
+        "rpg_families_id":  "6193e392-ac9f-4ad7-a8a1-df870c8672f8",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1361,
+        "rpg_families_id":  "d1347d6f-5bf4-4856-a6a5-06a0c019b214",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1362,
+        "rpg_families_id":  "d1347d6f-5bf4-4856-a6a5-06a0c019b214",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1363,
+        "rpg_families_id":  "186c8cb6-8bd9-4d3d-9c2b-9cb4bbd39531",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1364,
+        "rpg_families_id":  "186c8cb6-8bd9-4d3d-9c2b-9cb4bbd39531",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1365,
+        "rpg_families_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1366,
+        "rpg_families_id":  "85024c00-a974-4952-b6da-a4b11ca178ff",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1367,
+        "rpg_families_id":  "e817a51d-7e96-4cc4-bc25-30cbd0298756",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1368,
+        "rpg_families_id":  "e817a51d-7e96-4cc4-bc25-30cbd0298756",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1369,
+        "rpg_families_id":  "0caf3e36-b974-490a-b1dd-4a6312238f5b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1370,
+        "rpg_families_id":  "0caf3e36-b974-490a-b1dd-4a6312238f5b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1371,
+        "rpg_families_id":  "8a540ea6-52f3-49af-94e8-6fff752a73c0",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1372,
+        "rpg_families_id":  "8a540ea6-52f3-49af-94e8-6fff752a73c0",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1373,
+        "rpg_families_id":  "20110ae5-a016-4850-bb4c-f5a4ba769bee",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1374,
+        "rpg_families_id":  "20110ae5-a016-4850-bb4c-f5a4ba769bee",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1375,
+        "rpg_families_id":  "086d2de9-cf5b-4d49-b6f7-72ca94bfa633",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1376,
+        "rpg_families_id":  "086d2de9-cf5b-4d49-b6f7-72ca94bfa633",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1377,
+        "rpg_families_id":  "9be53c0c-25ba-4850-91fc-ff4f8e287efa",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1378,
+        "rpg_families_id":  "9be53c0c-25ba-4850-91fc-ff4f8e287efa",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1379,
+        "rpg_families_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1380,
+        "rpg_families_id":  "541a8625-4345-4e07-a008-f44ec4ce0abc",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1381,
+        "rpg_families_id":  "c10add26-3089-48ec-bcea-e656abf8e7af",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1382,
+        "rpg_families_id":  "c10add26-3089-48ec-bcea-e656abf8e7af",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1383,
+        "rpg_families_id":  "a9fbc613-4893-47d5-8aad-cff49420ca7f",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1384,
+        "rpg_families_id":  "a9fbc613-4893-47d5-8aad-cff49420ca7f",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1385,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1386,
+        "rpg_families_id":  "490a3fad-208b-4b93-8f0d-ae54fe7d4956",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1387,
+        "rpg_families_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1388,
+        "rpg_families_id":  "cee5f1f3-f0b8-47fd-ae31-4034e785058b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1389,
+        "rpg_families_id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1390,
+        "rpg_families_id":  "9337846a-de68-495e-8276-f5bc419d3be2",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1391,
+        "rpg_families_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1392,
+        "rpg_families_id":  "a34266fe-8b53-4969-89b3-0a75f5025df5",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1393,
+        "rpg_families_id":  "cb87de6d-a78c-48f8-bd16-23cb319ffd19",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1394,
+        "rpg_families_id":  "cb87de6d-a78c-48f8-bd16-23cb319ffd19",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1395,
+        "rpg_families_id":  "3e76b63c-801b-41d8-8e20-c2803459a6cb",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1396,
+        "rpg_families_id":  "3e76b63c-801b-41d8-8e20-c2803459a6cb",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1397,
+        "rpg_families_id":  "53aaf0d1-de7e-4274-88fa-a189edd5d1ed",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1398,
+        "rpg_families_id":  "53aaf0d1-de7e-4274-88fa-a189edd5d1ed",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1399,
+        "rpg_families_id":  "41c9d28d-a5c0-4bc8-a99a-3d450a382e8f",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1400,
+        "rpg_families_id":  "41c9d28d-a5c0-4bc8-a99a-3d450a382e8f",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1401,
+        "rpg_families_id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1402,
+        "rpg_families_id":  "fbf4b121-c043-4d16-8629-e91326e18a8b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1403,
+        "rpg_families_id":  "8c21acb2-9c3e-4eb2-9595-2ba3201b8fe6",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1404,
+        "rpg_families_id":  "8c21acb2-9c3e-4eb2-9595-2ba3201b8fe6",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1405,
+        "rpg_families_id":  "7db6883d-7526-4506-86d9-31adbbb4f0c5",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1406,
+        "rpg_families_id":  "7db6883d-7526-4506-86d9-31adbbb4f0c5",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1407,
+        "rpg_families_id":  "d51c4f2c-53f8-4701-9022-99d7f8d9baaa",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1408,
+        "rpg_families_id":  "d51c4f2c-53f8-4701-9022-99d7f8d9baaa",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1409,
+        "rpg_families_id":  "5c105f76-29e1-415d-9ec5-7d247077dbbb",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1410,
+        "rpg_families_id":  "5c105f76-29e1-415d-9ec5-7d247077dbbb",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1411,
+        "rpg_families_id":  "22eb008e-73b1-4b46-89b8-1023329c3adf",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1412,
+        "rpg_families_id":  "22eb008e-73b1-4b46-89b8-1023329c3adf",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1413,
+        "rpg_families_id":  "0176199c-18c1-4843-8906-16179e2fe2ee",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1414,
+        "rpg_families_id":  "0176199c-18c1-4843-8906-16179e2fe2ee",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1415,
+        "rpg_families_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1416,
+        "rpg_families_id":  "81045311-b2e4-4052-93b4-2afad3a63933",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1417,
+        "rpg_families_id":  "9878ae4a-0e77-4db8-b68b-41cae662685b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1418,
+        "rpg_families_id":  "9878ae4a-0e77-4db8-b68b-41cae662685b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1419,
+        "rpg_families_id":  "feec719a-77a5-4b69-b915-649a559eb309",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1420,
+        "rpg_families_id":  "feec719a-77a5-4b69-b915-649a559eb309",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1421,
+        "rpg_families_id":  "b0436176-6e9a-4b9f-a4e6-f0d22c2fa0a8",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1422,
+        "rpg_families_id":  "b0436176-6e9a-4b9f-a4e6-f0d22c2fa0a8",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1423,
+        "rpg_families_id":  "da9da762-1e6f-422b-b49d-4db676a5ca00",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1424,
+        "rpg_families_id":  "da9da762-1e6f-422b-b49d-4db676a5ca00",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1425,
+        "rpg_families_id":  "8827fb6f-47f1-44ff-84fa-73d9f32d50e6",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1426,
+        "rpg_families_id":  "8827fb6f-47f1-44ff-84fa-73d9f32d50e6",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1427,
+        "rpg_families_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1428,
+        "rpg_families_id":  "71982725-0681-43c2-918f-34b5a259c30a",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1429,
+        "rpg_families_id":  "724dee89-b375-4050-9bef-736ae0fb14ac",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1430,
+        "rpg_families_id":  "724dee89-b375-4050-9bef-736ae0fb14ac",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1431,
+        "rpg_families_id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1432,
+        "rpg_families_id":  "9da48bba-96c1-4bb5-94c3-0ed4db4258ce",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1433,
+        "rpg_families_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1434,
+        "rpg_families_id":  "4d33a44c-bd80-4292-9344-fcb66a357225",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1435,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1436,
+        "rpg_families_id":  "587af8e6-b634-4ab2-b807-11e72f70a4b4",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1437,
+        "rpg_families_id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1438,
+        "rpg_families_id":  "8507dc21-bf02-4ac6-a22e-a14c08da7052",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1439,
+        "rpg_families_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1440,
+        "rpg_families_id":  "c0340dd8-124e-4448-b16d-1cbab15c1a9e",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1441,
+        "rpg_families_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1442,
+        "rpg_families_id":  "5ab5613a-b499-49d8-b02a-04d7c0f64b64",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1443,
+        "rpg_families_id":  "519f5f04-8426-465a-9d2e-59ccf37c7ce8",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1444,
+        "rpg_families_id":  "519f5f04-8426-465a-9d2e-59ccf37c7ce8",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1445,
+        "rpg_families_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1446,
+        "rpg_families_id":  "fb0dfaf4-3038-4d4d-9c81-c50785879f1c",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1447,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1448,
+        "rpg_families_id":  "9bd691c4-9c9f-488f-b910-8403127f5dee",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1449,
+        "rpg_families_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1450,
+        "rpg_families_id":  "80ce569b-5b4f-4603-88f2-1d86e6ce8911",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1451,
+        "rpg_families_id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1452,
+        "rpg_families_id":  "75d54db1-8b89-4e51-9ef6-2186f0146a14",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1453,
+        "rpg_families_id":  "252a730d-eb9f-47b0-bd47-01e237d80390",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1454,
+        "rpg_families_id":  "252a730d-eb9f-47b0-bd47-01e237d80390",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1455,
+        "rpg_families_id":  "5c7ec17e-a968-4a4b-aaf5-678b7d9ebd1c",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1456,
+        "rpg_families_id":  "5c7ec17e-a968-4a4b-aaf5-678b7d9ebd1c",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1457,
+        "rpg_families_id":  "a72e349f-ad3c-437b-a70d-e4e9fb283ca4",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1458,
+        "rpg_families_id":  "a72e349f-ad3c-437b-a70d-e4e9fb283ca4",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1459,
+        "rpg_families_id":  "6118d5e6-3722-4f30-91a9-642edb170329",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1460,
+        "rpg_families_id":  "6118d5e6-3722-4f30-91a9-642edb170329",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1461,
+        "rpg_families_id":  "7dbb513a-ef32-41d8-8d6a-679e41f1ef09",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1462,
+        "rpg_families_id":  "7dbb513a-ef32-41d8-8d6a-679e41f1ef09",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1463,
+        "rpg_families_id":  "f85cfaf5-901a-46f1-afc8-fb611c8b312b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1464,
+        "rpg_families_id":  "f85cfaf5-901a-46f1-afc8-fb611c8b312b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1465,
+        "rpg_families_id":  "c9e77770-b16e-4da0-bcd5-fe51549c2af0",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1466,
+        "rpg_families_id":  "c9e77770-b16e-4da0-bcd5-fe51549c2af0",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1467,
+        "rpg_families_id":  "55b9ed93-299e-4153-ac23-18eaf23cd63c",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1468,
+        "rpg_families_id":  "55b9ed93-299e-4153-ac23-18eaf23cd63c",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1469,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1470,
+        "rpg_families_id":  "662c707c-98ef-420f-afd9-f7f08841dc36",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1471,
+        "rpg_families_id":  "befd33b8-79b6-4dca-83af-1d62499b0f2d",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1472,
+        "rpg_families_id":  "befd33b8-79b6-4dca-83af-1d62499b0f2d",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1473,
+        "rpg_families_id":  "7c41f54c-c2ac-44b4-a8f5-6e465e90a97f",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1474,
+        "rpg_families_id":  "7c41f54c-c2ac-44b4-a8f5-6e465e90a97f",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1475,
+        "rpg_families_id":  "0711689b-dd66-49a9-b3bf-216aec1d608b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1476,
+        "rpg_families_id":  "0711689b-dd66-49a9-b3bf-216aec1d608b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1477,
+        "rpg_families_id":  "b96b6a26-5dcb-4a64-80a6-fbbfffec3ca9",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1478,
+        "rpg_families_id":  "b96b6a26-5dcb-4a64-80a6-fbbfffec3ca9",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1479,
+        "rpg_families_id":  "eadea0bd-f205-4c69-90f3-c636531b7eee",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1480,
+        "rpg_families_id":  "eadea0bd-f205-4c69-90f3-c636531b7eee",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1481,
+        "rpg_families_id":  "1be26ca4-9581-4f97-b153-d09cf9f0fa27",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1482,
+        "rpg_families_id":  "1be26ca4-9581-4f97-b153-d09cf9f0fa27",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1483,
+        "rpg_families_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1484,
+        "rpg_families_id":  "07f93482-9604-4947-8f14-335d82a7eafb",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1485,
+        "rpg_families_id":  "6ee263fd-e9ae-4edf-b1c8-84f2adbfbc55",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1486,
+        "rpg_families_id":  "6ee263fd-e9ae-4edf-b1c8-84f2adbfbc55",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1487,
+        "rpg_families_id":  "6f383bc2-c8ea-4fa6-b0e9-66ddb9b0a5f5",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1488,
+        "rpg_families_id":  "6f383bc2-c8ea-4fa6-b0e9-66ddb9b0a5f5",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1489,
+        "rpg_families_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1490,
+        "rpg_families_id":  "967e88b1-8828-46ea-ab55-c2e8d2e73e80",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1491,
+        "rpg_families_id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1492,
+        "rpg_families_id":  "34e3a3cb-b305-40e4-b202-fdf9c6fa9891",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1493,
+        "rpg_families_id":  "4cc7786c-19e6-4455-a58a-7b2bb651a1fd",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1494,
+        "rpg_families_id":  "4cc7786c-19e6-4455-a58a-7b2bb651a1fd",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1495,
+        "rpg_families_id":  "285de6ac-d5c8-48aa-bec9-cd3150e31a32",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1496,
+        "rpg_families_id":  "285de6ac-d5c8-48aa-bec9-cd3150e31a32",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1497,
+        "rpg_families_id":  "a594b4fa-e492-490b-a0a3-c0d9b0f6bdd3",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1498,
+        "rpg_families_id":  "a594b4fa-e492-490b-a0a3-c0d9b0f6bdd3",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1499,
+        "rpg_families_id":  "75a51dcb-a795-4587-bf71-d0535f101135",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1500,
+        "rpg_families_id":  "75a51dcb-a795-4587-bf71-d0535f101135",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1501,
+        "rpg_families_id":  "b3466ee7-9d69-438d-a7e8-2883264c1bdb",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1502,
+        "rpg_families_id":  "b3466ee7-9d69-438d-a7e8-2883264c1bdb",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1503,
+        "rpg_families_id":  "849876aa-ce43-46f9-ab1c-7dbc0c411011",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1504,
+        "rpg_families_id":  "849876aa-ce43-46f9-ab1c-7dbc0c411011",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1505,
+        "rpg_families_id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1506,
+        "rpg_families_id":  "42830d1e-4219-4f95-bf58-4c901055aa6d",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1507,
+        "rpg_families_id":  "6d790f58-41cb-43de-92b8-ab796dbbc2cf",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1508,
+        "rpg_families_id":  "6d790f58-41cb-43de-92b8-ab796dbbc2cf",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1509,
+        "rpg_families_id":  "e256c1e9-e8b7-461f-a19a-e527d1902243",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1510,
+        "rpg_families_id":  "e256c1e9-e8b7-461f-a19a-e527d1902243",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1511,
+        "rpg_families_id":  "3a8898bf-788b-40ac-bc44-89bf03f37481",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1512,
+        "rpg_families_id":  "3a8898bf-788b-40ac-bc44-89bf03f37481",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1513,
+        "rpg_families_id":  "2dfff4c6-6608-4c7c-aa33-e1c37a51e01e",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1514,
+        "rpg_families_id":  "2dfff4c6-6608-4c7c-aa33-e1c37a51e01e",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1515,
+        "rpg_families_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1516,
+        "rpg_families_id":  "e0ed10a7-2163-4bc7-ab52-0223e12bf61f",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1517,
+        "rpg_families_id":  "6e3172d1-ef06-41ef-a917-e28d696fa5ef",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1518,
+        "rpg_families_id":  "6e3172d1-ef06-41ef-a917-e28d696fa5ef",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1519,
+        "rpg_families_id":  "f321b101-6dae-4c2a-ad3f-02ba13e5d656",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1520,
+        "rpg_families_id":  "f321b101-6dae-4c2a-ad3f-02ba13e5d656",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1521,
+        "rpg_families_id":  "7db008ac-0320-45b4-8f4c-4d52d7bc0e57",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1522,
+        "rpg_families_id":  "7db008ac-0320-45b4-8f4c-4d52d7bc0e57",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1523,
+        "rpg_families_id":  "8751adb3-cbc4-4d67-bb26-f5065c5910c7",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1524,
+        "rpg_families_id":  "8751adb3-cbc4-4d67-bb26-f5065c5910c7",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1525,
+        "rpg_families_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1526,
+        "rpg_families_id":  "d4877d71-ee7c-4594-9bf5-2fbea330603b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1527,
+        "rpg_families_id":  "c226b502-bfd7-4ad6-b86f-850ded56bf37",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1528,
+        "rpg_families_id":  "c226b502-bfd7-4ad6-b86f-850ded56bf37",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1529,
+        "rpg_families_id":  "d6cef9ab-08b0-4ee4-a53d-5748217ca357",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1530,
+        "rpg_families_id":  "d6cef9ab-08b0-4ee4-a53d-5748217ca357",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1531,
+        "rpg_families_id":  "674555a5-8ece-4ad9-9b9b-68fc7740a85b",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1532,
+        "rpg_families_id":  "674555a5-8ece-4ad9-9b9b-68fc7740a85b",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1533,
+        "rpg_families_id":  "31f62d11-d682-42ed-8686-c3ae02581940",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1534,
+        "rpg_families_id":  "31f62d11-d682-42ed-8686-c3ae02581940",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1535,
+        "rpg_families_id":  "3aede0ce-ab2e-48fc-a624-b1f59cf5b2ae",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1536,
+        "rpg_families_id":  "3aede0ce-ab2e-48fc-a624-b1f59cf5b2ae",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1537,
+        "rpg_families_id":  "0db3de87-56ad-4632-a555-416d87dc0ce7",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1538,
+        "rpg_families_id":  "0db3de87-56ad-4632-a555-416d87dc0ce7",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1539,
+        "rpg_families_id":  "d6f2188b-7e57-40d2-acd0-9d0f674b1ebf",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1540,
+        "rpg_families_id":  "d6f2188b-7e57-40d2-acd0-9d0f674b1ebf",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1541,
+        "rpg_families_id":  "bd6dc38b-849e-48eb-8272-34a3df11979d",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1542,
+        "rpg_families_id":  "bd6dc38b-849e-48eb-8272-34a3df11979d",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1543,
+        "rpg_families_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1544,
+        "rpg_families_id":  "ac10e5eb-b486-4492-ad94-1645644d4f14",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1545,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1546,
+        "rpg_families_id":  "7720fe0c-5f16-4fd3-9f3a-729341e19ad8",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1547,
+        "rpg_families_id":  "1b37af7c-9b43-494c-91ad-dc0f287d0f34",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1548,
+        "rpg_families_id":  "1b37af7c-9b43-494c-91ad-dc0f287d0f34",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1549,
+        "rpg_families_id":  "3e183dec-44eb-4a7b-b90a-9923da9b7a30",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1550,
+        "rpg_families_id":  "3e183dec-44eb-4a7b-b90a-9923da9b7a30",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1551,
+        "rpg_families_id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1552,
+        "rpg_families_id":  "1b09a8d4-54f4-4c25-9fbc-6bd7fd7a473c",
+        "languages_code":  "ca-ES"
+    },
+    {
+        "id":  1553,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "languages_code":  "es-ES"
+    },
+    {
+        "id":  1554,
+        "rpg_families_id":  "7207a4e6-51e9-4c4b-a2c1-947858f05e36",
+        "languages_code":  "ca-ES"
+    }
+]
