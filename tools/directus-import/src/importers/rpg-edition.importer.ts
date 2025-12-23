@@ -19,13 +19,12 @@ interface RelatedEntity {
  * RPG Edition importer with FK relationships to rpg_families and rpg_systems.
  */
 export class RpgEditionImporter {
-  private config: ImporterConfig;
+  private readonly config: ImporterConfig;
   private result: ImportResult;
-  private familyMap: Map<string, string> = new Map(); // identifier -> uuid
-  private systemMap: Map<string, string> = new Map(); // identifier -> uuid
+  private readonly familyMap: Map<string, string> = new Map(); // identifier -> uuid
+  private readonly systemMap: Map<string, string> = new Map(); // identifier -> uuid
 
   readonly collectionName = 'rpg_editions';
-  readonly identifierField = 'identifier';
   private readonly languageCodes = ['es-ES', 'ca-ES'] as const;
 
   constructor(config: ImporterConfig) {

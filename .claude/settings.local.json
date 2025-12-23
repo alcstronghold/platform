@@ -19,7 +19,8 @@
       "Bash(dotenvx run:*)",
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun -e \"\nimport { createDirectus, rest, staticToken, readMe } from ''@directus/sdk'';\n\nconst client = createDirectus\\(''https://backend.alcstronghold.local''\\)\n  .with\\(staticToken\\(''u19Jn5cVeoK0ixONSE41AA-v81BV5KqX''\\)\\)\n  .with\\(rest\\(\\)\\);\n\nconst me = await client.request\\(readMe\\(\\)\\);\nconsole.log\\(''User:'', me.email\\);\n\")",
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun run:*)",
-      "Bash(bun run:*)"
+      "Bash(bun run:*)",
+      "Bash(bun:*)"
     ]
   },
   "enabledMcpjsonServers": [

@@ -5,7 +5,6 @@ export type {
   PublisherPayload,
   RpgEditionPayload,
   RpgFamilyPayload,
-  RpgGamePayload,
   RpgSystemPayload,
   SettingPayload,
 } from './collections';

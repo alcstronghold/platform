@@ -19,12 +19,11 @@ interface SettingEntity {
  * RPG Family importer with M2M relationship to settings.
  */
 export class RpgFamilyImporter {
-  private config: ImporterConfig;
+  private readonly config: ImporterConfig;
   private result: ImportResult;
-  private settingMap: Map<string, string> = new Map(); // identifier -> uuid
+  private readonly settingMap: Map<string, string> = new Map(); // identifier -> uuid
 
   readonly collectionName = 'rpg_families';
-  readonly identifierField = 'identifier';
   private readonly languageCodes = ['es-ES', 'ca-ES'] as const;
 
   constructor(config: ImporterConfig) {
@@ -152,7 +151,8 @@ export class RpgFamilyImporter {
       identifier,
       name,
       status: 'published',
-      translations: this.languageCodes.map((code) => ({
+      translations: this.languageCodes
+        .map((code) => ({
         languages_code: code,
         name: translations[code] || '',
       })),
