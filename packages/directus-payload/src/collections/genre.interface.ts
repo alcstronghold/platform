@@ -1,4 +1,4 @@
-import type { LanguageCodes } from '@alcstronghold/directus-schema';
+import { LanguageCodes } from '@alcstronghold/directus-schema';
 
 export interface GenrePayload {
   identifier: string;

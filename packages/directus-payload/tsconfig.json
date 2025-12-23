@@ -1,16 +1,10 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../.moon/cache/types/packages/directus-payload",
+    "outDir": "./dist",
     "rootDir": "./src",
-    "noEmit": false
+    "noEmit": false,
+    "declaration": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "references": [
-    {
-      "path": "../directus-schema"
-    }
-  ]
+  "include": ["src/**/*"]
 }
