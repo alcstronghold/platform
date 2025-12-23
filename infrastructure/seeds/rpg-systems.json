@@ -507,16 +507,8 @@
     "identifier": "sistema-heroico",
     "bgg_id": null,
     "translations": {
-      "es-ES": "Sistema heroico",
-      "ca-ES": "Sistema heroico"
-    }
-  },
-  {
-    "identifier": "sistema-heroico",
-    "bgg_id": null,
-    "translations": {
-      "es-ES": "Sistema heroico",
-      "ca-ES": "Sistema heroico"
+      "es-ES": "Sistema heróico",
+      "ca-ES": "Sistema heróic"
     }
   },
   {

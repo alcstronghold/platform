@@ -8,6 +8,13 @@
   "scripts": {
     "build": "tsc -b",
     "dev": "bun run src/index.ts",
+    "import": "dotenvx run -- bun run src/index.ts import",
+    "export": "dotenvx run -- bun run src/index.ts export",
+    "schema:export": "dotenvx run -- bun run src/index.ts schema-export",
+    "schema:import": "dotenvx run -- bun run src/index.ts schema-import",
+    "schema:clear": "dotenvx run -- bun run src/index.ts schema-clear",
+    "env:encrypt": "dotenvx encrypt -ek DIRECTUS_URL -ek NODE_TLS_REJECT_UNAUTHORIZED",
+    "env:decrypt": "dotenvx decrypt",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

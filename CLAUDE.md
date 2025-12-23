@@ -215,6 +215,82 @@ JSON files for seeding Directus are stored in `infrastructure/seeds/`:
 - `rpg-families.json`, `rpg-systems.json`, `rpg-editions.json`
 - `settings.json`
 
+## Directus Import CLI
+
+CLI tool for importing/exporting data between JSON files and Directus.
+
+### Usage
+
+```bash
+cd tools/directus-import
+
+# Import all collections (respects dependency order)
+bun run import
+
+# Import specific collections
+bun run import -- --collections languages genres publishers
+
+# Import with verbose output
+bun run import -- --verbose
+```
+
+### Import Order (by dependency)
+
+1. `languages` - Base collection (code as PK)
+2. `genres` - Self-referential (parent_id), multi-pass import
+3. `publishers` - Simple with translations
+4. `settings` - M2M with genres
+5. `rpg_families` - M2M with settings
+6. `rpg_systems` - Simple with translations + bgg_id
+7. `rpg_editions` - FK to rpg_families and rpg_systems
+
+### Environment Variables
+
+Uses dotenvx for encrypted environment variables:
+
+```bash
+# .env (encrypted values)
+DIRECTUS_URL="https://backend.alcstronghold.local"
+DIRECTUS_TOKEN="encrypted:..."
+NODE_TLS_REJECT_UNAUTHORIZED="0"  # Dev only (mkcert)
+```
+
+```bash
+# Encrypt/decrypt .env
+bun run env:encrypt
+bun run env:decrypt
+```
+
+### Features
+
+- **Upsert pattern** - Creates new items, updates existing (by identifier)
+- **Multi-pass import** - Handles hierarchical data (genres with parent_id)
+- **M2M relationships** - Resolves identifiers to UUIDs (settings↔genres, families↔settings)
+- **FK relationships** - Resolves foreign keys (editions→families, editions→systems)
+- **Retry with backoff** - Automatic retry on connection errors
+- **Colored output** - Visual feedback for created/updated/failed items
+
+### Schema Management
+
+Commands for managing Directus schema (structure, not data):
+
+```bash
+# Export schema to JSON
+bun run schema:export
+# Output: infrastructure/schema/directus-schema.json
+
+# Import schema from JSON (with diff detection)
+bun run schema:import
+bun run schema:import -- --dry-run    # Preview changes
+bun run schema:import -- --force      # Bypass version checks
+
+# Clear all custom collections (DESTRUCTIVE!)
+bun run schema:clear -- --dry-run     # Preview what will be deleted
+bun run schema:clear -- --force       # Actually delete
+```
+
+Schema files are stored in `infrastructure/schema/`
+
 ## Version Management
 
 ```bash

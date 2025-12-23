@@ -5,8 +5,8 @@ services:
   # Traefik - Reverse Proxy
   # =============================================================================
   traefik:
-    image: traefik:v3.6
-    container_name: alc-traefik
+    image: traefik:3
+    container_name: alc-stronghold-traefik
     restart: unless-stopped
     command:
       - --api.insecure=true
@@ -19,22 +19,22 @@ services:
       - --entrypoints.web.http.redirections.entrypoint.scheme=https
       - --entrypoints.websecure.address=:443
     ports:
-      - 80:80
-      - 443:443
-      - 8080:8080
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./certs:/certs:ro
       - ./traefik:/config:ro
     networks:
-      - alc-network
+      - alc-stronghold-network
 
   # =============================================================================
   # PostgreSQL Database
   # =============================================================================
   database:
     image: postgres:17
-    container_name: alc-database
+    container_name: alc-stronghold-database
     restart: unless-stopped
     volumes:
       - ./volumes/database:/var/lib/postgresql/data
@@ -50,14 +50,14 @@ services:
       start_interval: 5s
       start_period: 30s
     networks:
-      - alc-network
+      - alc-stronghold-network
 
   # =============================================================================
   # Redis Cache
   # =============================================================================
   cache:
     image: redis:7
-    container_name: alc-cache
+    container_name: alc-stronghold-cache
     restart: unless-stopped
     volumes:
       - ./volumes/redis:/data
@@ -69,14 +69,14 @@ services:
       start_interval: 5s
       start_period: 30s
     networks:
-      - alc-network
+      - alc-stronghold-network
 
   # =============================================================================
   # Directus CMS
   # =============================================================================
   directus:
     image: directus/directus:11
-    container_name: alc-directus
+    container_name: alc-stronghold-directus
     restart: unless-stopped
     volumes:
       - ./volumes/uploads:/directus/uploads
@@ -104,7 +104,7 @@ services:
       CACHE_STORE: redis
       REDIS: redis://cache:6379
 
-      # Admin user (only used on first run)
+      # Admin user (only used on the first run)
       ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@alcstronghold.com}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
 
@@ -124,8 +124,8 @@ services:
       - traefik.http.routers.directus.tls=true
       - traefik.http.services.directus.loadbalancer.server.port=8055
     networks:
-      - alc-network
+      - alc-stronghold-network
 
 networks:
-  alc-network:
+  alc-stronghold-network:
     driver: bridge
