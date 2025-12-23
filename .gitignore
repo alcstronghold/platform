@@ -57,10 +57,15 @@ e2e/test-output/
 # =============================================================================
 # Environment & Secrets
 # =============================================================================
-.env
-.env.*
-!.env.example
+# dotenvx: .env.keys contains private keys - NEVER commit
+.env.keys
+
+# Local unencrypted env files
 *.local
+!.env.example
+
+# Legacy (before dotenvx encryption)
+# .env
 
 # =============================================================================
 # IDE & Editors

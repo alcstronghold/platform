@@ -1,0 +1,2589 @@
+[
+  {
+    "identifier": "8-tesoros-setting",
+    "name": "The Caribbean of 8 Tesoros",
+    "translations": {
+      "es-ES": "El Caribe de 8 Tesoros",
+      "ca-ES": "El Carib de 8 Tresors"
+    },
+    "genres": [
+      "swashbuckling",
+      "historical",
+      "action-adventure",
+      "mystery",
+      "family"
+    ]
+  },
+  {
+    "identifier": "ablaneda-setting",
+    "name": "The County of Ablaneda",
+    "translations": {
+      "es-ES": "El Condado de Ablaneda",
+      "ca-ES": "El Comtat de Ablaneda"
+    },
+    "genres": [
+      "folk-horror",
+      "post-apocalyptic",
+      "low-fantasy",
+      "survival",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "abora-islands",
+    "name": "The Islands of Ábora",
+    "translations": {
+      "es-ES": "Las Islas de Ábora",
+      "ca-ES": "Les Illes d'Ábora"
+    },
+    "genres": [
+      "mythology",
+      "historical",
+      "fantasy",
+      "action-adventure",
+      "low-fantasy"
+    ]
+  },
+  {
+    "identifier": "absalom-station",
+    "name": "Absalom Station",
+    "translations": {
+      "es-ES": "Estación Absalom",
+      "ca-ES": "Estació Absalom"
+    },
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "politics-government",
+      "noir",
+      "social",
+      "mystery"
+    ]
+  },
+  {
+    "identifier": "achtung-cthulhu-wwii",
+    "name": "Achtung! Cthulhu (WWII)",
+    "translations": {
+      "es-ES": "Achtung! Cthulhu (WWII)",
+      "ca-ES": "Achtung! Cthulhu (GMII)"
+    },
+    "genres": [
+      "cosmic-horror",
+      "war",
+      "action-adventure",
+      "pulp",
+      "historical",
+      "military"
+    ]
+  },
+  {
+    "identifier": "age-of-umbra",
+    "name": "The Age of Umbra",
+    "translations": {
+      "es-ES": "La Era de la Umbra",
+      "ca-ES": "L'Era de la Umbra"
+    },
+    "genres": [
+      "grimdark",
+      "dark-fantasy",
+      "survival",
+      "action-adventure",
+      "gothic-horror"
+    ]
+  },
+  {
+    "identifier": "akiton",
+    "name": "Akiton",
+    "translations": {
+      "es-ES": "Akiton",
+      "ca-ES": "Akiton"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "pulp",
+      "weird-west",
+      "survival",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "alien-universe",
+    "name": "The Alien Universe",
+    "translations": {
+      "es-ES": "El Universo Alien",
+      "ca-ES": "L'Univers Alien"
+    },
+    "genres": [
+      "sci-fi",
+      "horror",
+      "space-opera",
+      "survival",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "alkenstar-mana-wastes",
+    "name": "Alkenstar & Mana Wastes",
+    "translations": {
+      "es-ES": "Alkenstar y Desiertos de Maná",
+      "ca-ES": "Alkenstar i Deserts de Manà"
+    },
+    "genres": [
+      "steampunk",
+      "weird-west",
+      "post-apocalyptic",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "alpha-complex",
+    "name": "Alpha Complex",
+    "translations": {
+      "es-ES": "Complejo Alfa",
+      "ca-ES": "Complex Alfa"
+    },
+    "genres": [
+      "dystopian",
+      "black-comedy",
+      "satirical",
+      "sci-fi",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "amazing-tales-setting",
+    "name": "Amazing Tales Worlds",
+    "translations": {
+      "es-ES": "Mundos de los Guardianes",
+      "ca-ES": "Mons dels Guardians"
+    },
+    "genres": [
+      "family",
+      "fairy-tale",
+      "fantasy",
+      "sci-fi",
+      "swashbuckling",
+      "animal-anthropomorphic"
+    ]
+  },
+  {
+    "identifier": "apocalypse-world-setting",
+    "name": "The World of Apocalypse World",
+    "translations": {
+      "es-ES": "El Mundo de Apocalypse World",
+      "ca-ES": "El Món d'Apocalypse World"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "survival",
+      "adult-mature",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "aquelarre-medieval-iberia",
+    "name": "The Medieval Iberia of Aquelarre",
+    "translations": {
+      "es-ES": "La España Medieval de Aquelarre",
+      "ca-ES": "L'Espanya Medieval d'Aquelarre"
+    },
+    "genres": [
+      "historical",
+      "medieval",
+      "occult",
+      "horror",
+      "low-fantasy",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "aucturn",
+    "name": "Aucturn",
+    "translations": {
+      "es-ES": "Aucturn",
+      "ca-ES": "Aucturn"
+    },
+    "genres": [
+      "cosmic-horror",
+      "occult",
+      "psychological-horror",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "identifier": "beast-feast",
+    "name": "Beast Feast",
+    "translations": {
+      "es-ES": "Festín de Bestias",
+      "ca-ES": "Festí de Bèsties"
+    },
+    "genres": [
+      "dungeon-crawler",
+      "comedy",
+      "survival",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "blacksad-america",
+    "name": "Blacksad's America",
+    "translations": {
+      "es-ES": "La América de Blacksad",
+      "ca-ES": "L'Amèrica de Blacksad"
+    },
+    "genres": [
+      "noir",
+      "investigation",
+      "crime",
+      "drama",
+      "historical",
+      "animal"
+    ]
+  },
+  {
+    "identifier": "blade-runner-los-angeles",
+    "name": "Los Angeles 2037",
+    "translations": {
+      "es-ES": "Los Ángeles 2037",
+      "ca-ES": "Los Angeles 2037"
+    },
+    "genres": [
+      "cyberpunk",
+      "noir",
+      "investigation",
+      "sci-fi",
+      "dystopian"
+    ]
+  },
+  {
+    "identifier": "blood-and-honor-feudal-japan",
+    "name": "The Feudal Japan of Blood & Honor",
+    "translations": {
+      "es-ES": "El Japón Feudal de Sangre y Honor",
+      "ca-ES": "El Japó Feudal de Sang i Honor"
+    },
+    "genres": [
+      "historical",
+      "martial-arts",
+      "politics-government",
+      "drama",
+      "social",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "bloodheist-setting",
+    "name": "The City of Bloodheist",
+    "translations": {
+      "es-ES": "La Ciudad de Botín de Sangre",
+      "ca-ES": "La Ciutat de Botí de Sang"
+    },
+    "genres": [
+      "heist",
+      "vampire",
+      "urban-fantasy",
+      "gothic-horror"
+    ]
+  },
+  {
+    "identifier": "brindlewood-bay-town",
+    "name": "Brindlewood Bay",
+    "translations": {
+      "es-ES": "Bahía de Brindlewood",
+      "ca-ES": "Badia de Brindlewood"
+    },
+    "genres": [
+      "mystery",
+      "investigation",
+      "cosmic-horror",
+      "conspiracy",
+      "noir",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "broken-compass-1999",
+    "name": "1999",
+    "translations": {
+      "es-ES": "1999",
+      "ca-ES": "1999"
+    },
+    "genres": [
+      "action-adventure",
+      "pulp",
+      "journey-exploration",
+      "heist"
+    ]
+  },
+  {
+    "identifier": "broken-tales-setting",
+    "name": "The World of Broken Tales",
+    "translations": {
+      "es-ES": "El Mundo de Cuentos Rotos",
+      "ca-ES": "El Món de Contes Trencats"
+    },
+    "genres": [
+      "dark-fantasy",
+      "fairy-tale",
+      "gothic-horror",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "call-of-catthulhu-setting",
+    "name": "The World of Call of Catthulhu",
+    "translations": {
+      "es-ES": "El Mundo de Call of Catthulhu",
+      "ca-ES": "El Món de Call of Catthulhu"
+    },
+    "genres": [
+      "comedy",
+      "animal",
+      "cosmic-horror",
+      "satirical",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "caucho-y-cromo-setting",
+    "name": "The World of Caucho y Cromo",
+    "translations": {
+      "es-ES": "El Mundo de Caucho y Cromo",
+      "ca-ES": "El Món de Cautxú i Crom"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "road-movie",
+      "action-adventure",
+      "dieselpunk"
+    ]
+  },
+  {
+    "identifier": "chi-war",
+    "name": "The Chi War",
+    "translations": {
+      "es-ES": "La Guerra del Chi",
+      "ca-ES": "La Guerra del Chi"
+    },
+    "genres": [
+      "martial-arts",
+      "action-adventure",
+      "time-dimension-travel",
+      "wuxia",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "chronicles-of-darkness-ancient-rome",
+    "name": "Requiem for Rome",
+    "translations": {
+      "es-ES": "Réquiem por Roma",
+      "ca-ES": "Rèquiem per Roma"
+    },
+    "genres": [
+      "historical",
+      "ancient",
+      "horror",
+      "politics-government",
+      "supernatural-horror",
+      "drama",
+      "mystery"
+    ]
+  },
+  {
+    "identifier": "chronicles-of-darkness-modern",
+    "name": "Chronicles of Darkness (Modern)",
+    "translations": {
+      "es-ES": "Crónicas de Tinieblas (Moderno)",
+      "ca-ES": "Cròniques de Tenebres (Modern)"
+    },
+    "genres": [
+      "urban-fantasy",
+      "horror",
+      "supernatural-horror",
+      "magic",
+      "dark-fantasy",
+      "mystery",
+      "drama",
+      "politics-government"
+    ]
+  },
+  {
+    "identifier": "clepsidra-timeline",
+    "name": "The Clepsidra Timeline",
+    "translations": {
+      "es-ES": "La Línea Temporal de la Clepsidra",
+      "ca-ES": "La Línia Temporal de la Clepsidra"
+    },
+    "genres": [
+      "time-dimension-travel",
+      "historical",
+      "family",
+      "action-adventure",
+      "educational"
+    ]
+  },
+  {
+    "identifier": "colossus-drylands",
+    "name": "Colossus of the Drylands",
+    "translations": {
+      "es-ES": "El Coloso de las Tierras Secas",
+      "ca-ES": "El Colós de les Terres Seques"
+    },
+    "genres": [
+      "weird-west",
+      "post-apocalyptic",
+      "action-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "cthulhu-classic-1920s",
+    "name": "Cthulhu: Classic Era (1920s-1930s)",
+    "translations": {
+      "es-ES": "Cthulhu: Era Clásica (Años 20-30)",
+      "ca-ES": "Cthulhu: Era Clàssica (Anys 20-30)"
+    },
+    "genres": [
+      "cosmic-horror",
+      "investigation",
+      "noir",
+      "historical",
+      "pulp"
+    ]
+  },
+  {
+    "identifier": "cthulhu-dark-ages",
+    "name": "Cthulhu: Dark Ages Era",
+    "translations": {
+      "es-ES": "Cthulhu: Era de la Edad Oscura",
+      "ca-ES": "Cthulhu: Era de l'Edat Fosca"
+    },
+    "genres": [
+      "cosmic-horror",
+      "investigation",
+      "medieval",
+      "dark-fantasy",
+      "historical"
+    ]
+  },
+  {
+    "identifier": "cthulhu-gaslight",
+    "name": "Cthulhu: Gaslight Era",
+    "translations": {
+      "es-ES": "Cthulhu: Era Gaslight",
+      "ca-ES": "Cthulhu: Era Gaslight"
+    },
+    "genres": [
+      "cosmic-horror",
+      "investigation",
+      "victorian-era",
+      "gothic-horror",
+      "historical"
+    ]
+  },
+  {
+    "identifier": "cthulhu-modern",
+    "name": "Cthulhu Modern",
+    "translations": {
+      "es-ES": "Cthulhu Moderno",
+      "ca-ES": "Cthulhu Modern"
+    },
+    "genres": [
+      "cosmic-horror",
+      "urban-fantasy",
+      "investigation",
+      "thriller"
+    ]
+  },
+  {
+    "identifier": "cthulhu-mythos",
+    "name": "The Cthulhu Mythos (Generic)",
+    "translations": {
+      "es-ES": "Los Mitos de Cthulhu (Genérico)",
+      "ca-ES": "Els Mites de Cthulhu (Genèric)"
+    },
+    "genres": [
+      "cosmic-horror",
+      "mystery",
+      "investigation",
+      "horror",
+      "occult",
+      "pulp"
+    ]
+  },
+  {
+    "identifier": "cthulhu-pulp-1930s",
+    "name": "Cthulhu: Pulp Era (1930s)",
+    "translations": {
+      "es-ES": "Cthulhu: Era Pulp (Años 30)",
+      "ca-ES": "Cthulhu: Era Pulp (Anys 30)"
+    },
+    "genres": [
+      "cosmic-horror",
+      "pulp",
+      "action-adventure",
+      "thriller",
+      "historical"
+    ]
+  },
+  {
+    "identifier": "cthulhu-regency",
+    "name": "Cthulhu: Regency Era",
+    "translations": {
+      "es-ES": "Cthulhu: Era de Regencia",
+      "ca-ES": "Cthulhu: Era de Regència"
+    },
+    "genres": [
+      "cosmic-horror",
+      "investigation",
+      "historical",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "cuervos-de-asgard-setting",
+    "name": "The World of Cuervos de Asgard Motor Club",
+    "translations": {
+      "es-ES": "El Mundo de Cuervos de Asgard Motor Club",
+      "ca-ES": "El Món de Cuervos de Asgard Motor Club"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "norse-myth",
+      "survival",
+      "action-adventure",
+      "road-movie"
+    ]
+  },
+  {
+    "identifier": "cukicraft-setting",
+    "name": "The World of CukiCraft",
+    "translations": {
+      "es-ES": "El Mundo de CukiCraft",
+      "ca-ES": "El Món de CukiCraft"
+    },
+    "genres": [
+      "urban-fantasy",
+      "magic",
+      "young-adult",
+      "investigation"
+    ]
+  },
+  {
+    "identifier": "cultos-innombrables-setting",
+    "name": "Cultos Innombrables Setting",
+    "translations": {
+      "es-ES": "Ambientación Cultos Innombrables",
+      "ca-ES": "Ambientació Cultes Innomenables"
+    },
+    "genres": [
+      "urban-fantasy",
+      "occult",
+      "noir",
+      "horror",
+      "investigation",
+      "social"
+    ]
+  },
+  {
+    "identifier": "cy-borg-setting",
+    "name": "The City of Cy",
+    "translations": {
+      "es-ES": "La Ciudad de Cy",
+      "ca-ES": "La Ciutat de Cy"
+    },
+    "genres": [
+      "cyberpunk",
+      "dystopian",
+      "body-horror",
+      "sci-fi",
+      "crime"
+    ]
+  },
+  {
+    "identifier": "darklands",
+    "name": "The Darklands",
+    "translations": {
+      "es-ES": "Tierras Oscuras",
+      "ca-ES": "Terres Fosques"
+    },
+    "genres": [
+      "dungeon-crawler",
+      "survival",
+      "dark-fantasy",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "dark-sun",
+    "name": "Dark Sun",
+    "translations": {
+      "es-ES": "Dark Sun",
+      "ca-ES": "Dark Sun"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "survival",
+      "psionics",
+      "low-fantasy"
+    ]
+  },
+  {
+    "identifier": "delta-green-cold-war",
+    "name": "Delta Green: Cold War (The Fall of DG)",
+    "translations": {
+      "es-ES": "Delta Green: Guerra Fría (La Caída de DG)",
+      "ca-ES": "Delta Green: Guerra Freda (La Caiguda de DG)"
+    },
+    "genres": [
+      "cosmic-horror",
+      "conspiracy",
+      "espionage",
+      "war",
+      "historical",
+      "thriller"
+    ]
+  },
+  {
+    "identifier": "delta-green-modern",
+    "name": "Delta Green: Modern Era",
+    "translations": {
+      "es-ES": "Delta Green: Era Moderna",
+      "ca-ES": "Delta Green: Era Moderna"
+    },
+    "genres": [
+      "cosmic-horror",
+      "conspiracy",
+      "investigation",
+      "thriller",
+      "military",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "dinowest-setting",
+    "name": "The Prehistoric West",
+    "translations": {
+      "es-ES": "El Oeste Prehistórico",
+      "ca-ES": "L'Oest Prehistòric"
+    },
+    "genres": [
+      "weird-west",
+      "american-west",
+      "prehistoric",
+      "pulp"
+    ]
+  },
+  {
+    "identifier": "dracula-vs-hitler-setting",
+    "name": "The Hollywood of Dracula vs Hitler",
+    "translations": {
+      "es-ES": "El Hollywood de Drácula vs Hitler",
+      "ca-ES": "El Hollywood de Dràcula vs Hitler"
+    },
+    "genres": [
+      "pulp",
+      "comedy",
+      "supernatural-horror",
+      "gothic-horror"
+    ]
+  },
+  {
+    "identifier": "dragonlance",
+    "name": "Dragonlance",
+    "translations": {
+      "es-ES": "Dragonlance",
+      "ca-ES": "Dragonlance"
+    },
+    "genres": [
+      "epic-fantasy",
+      "war",
+      "high-fantasy"
+    ]
+  },
+  {
+    "identifier": "dresden-files-setting",
+    "name": "The World of The Dresden Files",
+    "translations": {
+      "es-ES": "El Mundo de The Dresden Files",
+      "ca-ES": "El Món de The Dresden Files"
+    },
+    "genres": [
+      "urban-fantasy",
+      "investigation",
+      "magic",
+      "noir",
+      "supernatural-horror"
+    ]
+  },
+  {
+    "identifier": "dune-imperium",
+    "name": "The Imperium of Dune",
+    "translations": {
+      "es-ES": "El Imperio de Dune",
+      "ca-ES": "L'Imperi de Dune"
+    },
+    "genres": [
+      "sci-fi",
+      "space-opera",
+      "politics-government",
+      "conspiracy",
+      "war",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "dungeon-crawl-classics-setting",
+    "name": "The World of Dungeon Crawl Classics",
+    "translations": {
+      "es-ES": "El Mundo de Clásicos del Mazmorreo",
+      "ca-ES": "El Món de Clásicos del Mazmorreo"
+    },
+    "genres": [
+      "dungeon-crawler",
+      "sword-and-sorcery",
+      "fantasy",
+      "grimdark",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "dungeon-world-setting",
+    "name": "The World of Dungeon World",
+    "translations": {
+      "es-ES": "El Mundo de Dungeon World",
+      "ca-ES": "El Món de Dungeon World"
+    },
+    "genres": [
+      "fantasy",
+      "dungeon-crawler",
+      "action-adventure",
+      "high-fantasy"
+    ]
+  },
+  {
+    "identifier": "dyss-mitica",
+    "name": "Dyss Mítica",
+    "translations": {
+      "es-ES": "Dyss Mítica",
+      "ca-ES": "Dyss Mítica"
+    },
+    "genres": [
+      "journey-exploration",
+      "fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "dyss-mitica-magissa",
+    "name": "Dyss Mítica: Magissa",
+    "translations": {
+      "es-ES": "Dyss Mítica: Magissa",
+      "ca-ES": "Dyss Mítica: Magissa"
+    },
+    "genres": [
+      "family",
+      "fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "eberron",
+    "name": "Eberron",
+    "translations": {
+      "es-ES": "Eberron",
+      "ca-ES": "Eberron"
+    },
+    "genres": [
+      "steampunk",
+      "noir",
+      "pulp",
+      "fantasy",
+      "investigation"
+    ]
+  },
+  {
+    "identifier": "el-resurgir-del-dragon",
+    "name": "El Resurgir del Dragón",
+    "translations": {
+      "es-ES": "El Resurgir del Dragón",
+      "ca-ES": "El Ressorgir del Drac"
+    },
+    "genres": [
+      "high-fantasy",
+      "fantasy",
+      "mythology",
+      "action-adventure",
+      "dungeon-crawler"
+    ]
+  },
+  {
+    "identifier": "el-sueno-de-cthulhu-setting",
+    "name": "The World of El sueño de Cthulhu",
+    "translations": {
+      "es-ES": "El Mundo de El sueño de Cthulhu",
+      "ca-ES": "El Món d'El somni de Cthulhu"
+    },
+    "genres": [
+      "cosmic-horror",
+      "time-dimension-travel",
+      "fantasy",
+      "surrealism",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "eox",
+    "name": "Eox",
+    "translations": {
+      "es-ES": "Eox",
+      "ca-ES": "Eox"
+    },
+    "genres": [
+      "gothic-horror",
+      "supernatural-horror",
+      "zombie",
+      "politics-government",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "identifier": "fanhunter-setting",
+    "name": "The Epic Decadent World of Fanhunter",
+    "translations": {
+      "es-ES": "El Mundo Epicodecadente de Fanhunter",
+      "ca-ES": "El Món Epicadecadent de Fanhunter"
+    },
+    "genres": [
+      "satirical",
+      "comedy",
+      "dystopian",
+      "post-apocalyptic",
+      "action-adventure",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "faraway-system",
+    "name": "Faraway System",
+    "translations": {
+      "es-ES": "Sistema Lejano",
+      "ca-ES": "Sistema Llunyà"
+    },
+    "genres": [
+      "space-opera",
+      "weird-west",
+      "sci-fi",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "fiasco-setting",
+    "name": "The Playsets of Fiasco",
+    "translations": {
+      "es-ES": "Los Escenarios de Fiasco",
+      "ca-ES": "Els Escenaris de Fiasco"
+    },
+    "genres": [
+      "black-comedy",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "five-banners",
+    "name": "Five Banners Burning",
+    "translations": {
+      "es-ES": "Cinco Estandartes Ardiendo",
+      "ca-ES": "Cinc Estandards Cremant"
+    },
+    "genres": [
+      "politics-government",
+      "war",
+      "epic-fantasy",
+      "social"
+    ]
+  },
+  {
+    "identifier": "forgotten-realms",
+    "name": "Forgotten Realms",
+    "translations": {
+      "es-ES": "Reinos Olvidados",
+      "ca-ES": "Regnes Oblidats"
+    },
+    "genres": [
+      "high-fantasy",
+      "epic-fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "glorantha",
+    "name": "Glorantha",
+    "translations": {
+      "es-ES": "Glorantha",
+      "ca-ES": "Glorantha"
+    },
+    "genres": [
+      "fantasy",
+      "mythology",
+      "ancient",
+      "magic",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "golarion-inner-sea",
+    "name": "The Inner Sea",
+    "translations": {
+      "es-ES": "El Mar Interior",
+      "ca-ES": "El Mar Interior"
+    },
+    "genres": [
+      "high-fantasy",
+      "action-adventure",
+      "dungeon-crawler",
+      "journey-exploration",
+      "epic-fantasy"
+    ]
+  },
+  {
+    "identifier": "greyhawk",
+    "name": "Greyhawk",
+    "translations": {
+      "es-ES": "Greyhawk",
+      "ca-ES": "Greyhawk"
+    },
+    "genres": [
+      "sword-and-sorcery",
+      "dungeon-crawler",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "hardboiled-setting",
+    "name": "The World of Hardboiled",
+    "translations": {
+      "es-ES": "El Mundo de Hardboiled",
+      "ca-ES": "El Món de Hardboiled"
+    },
+    "genres": [
+      "noir",
+      "investigation",
+      "crime",
+      "pulp"
+    ]
+  },
+  {
+    "identifier": "hero-kids-setting",
+    "name": "The Fantasy World of Hero Kids",
+    "translations": {
+      "es-ES": "El Mundo de Fantasía de Hero Kids",
+      "ca-ES": "El Món de Fantasia de Hero Kids"
+    },
+    "genres": [
+      "family",
+      "fantasy",
+      "action-adventure",
+      "dungeon-crawler"
+    ]
+  },
+  {
+    "identifier": "honey-heist-setting",
+    "name": "The World of Honey Heist",
+    "translations": {
+      "es-ES": "El Mundo de Honey Heist",
+      "ca-ES": "El Món de Honey Heist"
+    },
+    "genres": [
+      "comedy",
+      "heist",
+      "animal",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "horror-movie-setting",
+    "name": "Horror Movie Archetypes",
+    "translations": {
+      "es-ES": "Arquetipos de Película de Terror",
+      "ca-ES": "Arquetipus de Pel·lícula de Terror"
+    },
+    "genres": [
+      "horror",
+      "supernatural-horror",
+      "satirical"
+    ]
+  },
+  {
+    "identifier": "ink-setting",
+    "name": "The Ink",
+    "translations": {
+      "es-ES": "La Tinta",
+      "ca-ES": "La Tinta"
+    },
+    "genres": [
+      "dungeon-crawler",
+      "survival",
+      "fantasy",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "inocentes-setting",
+    "name": "The World of Inocentes",
+    "translations": {
+      "es-ES": "El Mundo de Inocentes",
+      "ca-ES": "El Món d'Inocentes"
+    },
+    "genres": [
+      "young-adult",
+      "horror",
+      "urban-fantasy",
+      "psychological-horror",
+      "social"
+    ]
+  },
+  {
+    "identifier": "ishtar-empire-akkad",
+    "name": "The Empire of Akkad",
+    "translations": {
+      "es-ES": "El Imperio de Akkad",
+      "ca-ES": "L'Imperi d'Akkad"
+    },
+    "genres": [
+      "mesopotamian-myth",
+      "sword-and-sorcery",
+      "ancient",
+      "social",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "kids-on-bikes-setting",
+    "name": "The World of Kids on Bikes",
+    "translations": {
+      "es-ES": "El Mundo de Kids on Bikes",
+      "ca-ES": "El Món de Kids on Bikes"
+    },
+    "genres": [
+      "mystery",
+      "investigation",
+      "young-adult",
+      "supernatural-horror",
+      "slice-of-life",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "kult-illusion",
+    "name": "The Illusion",
+    "translations": {
+      "es-ES": "La Ilusión",
+      "ca-ES": "La Il·lusió"
+    },
+    "genres": [
+      "horror",
+      "urban-fantasy",
+      "occult",
+      "dark-fantasy",
+      "adult-mature",
+      "body-horror",
+      "psychological-horror"
+    ]
+  },
+  {
+    "identifier": "liminal-setting",
+    "name": "The Liminal World",
+    "translations": {
+      "es-ES": "El Mundo Liminal",
+      "ca-ES": "El Món Liminal"
+    },
+    "genres": [
+      "urban-fantasy",
+      "investigation",
+      "supernatural-horror",
+      "magic",
+      "noir"
+    ]
+  },
+  {
+    "identifier": "love-and-magic",
+    "name": "With Love and Magic",
+    "translations": {
+      "es-ES": "Con Amor y Magia",
+      "ca-ES": "Amb Amor i Màgia"
+    },
+    "genres": [
+      "romance",
+      "social",
+      "fantasy",
+      "high-fantasy"
+    ]
+  },
+  {
+    "identifier": "luna-roja-kaldu",
+    "name": "Kâldu",
+    "translations": {
+      "es-ES": "Kâldu",
+      "ca-ES": "Kâldu"
+    },
+    "genres": [
+      "dark-fantasy",
+      "fairy-tale",
+      "heist",
+      "supernatural-horror"
+    ]
+  },
+  {
+    "identifier": "maho-shojo-setting",
+    "name": "The World of Mahō Shōjo",
+    "translations": {
+      "es-ES": "El Mundo de Mahō Shōjo",
+      "ca-ES": "El Món de Mahō Shōjo"
+    },
+    "genres": [
+      "maho-shojo",
+      "anime",
+      "urban-fantasy",
+      "social",
+      "young-adult"
+    ]
+  },
+  {
+    "identifier": "mausritter-setting",
+    "name": "The World of Mausritter",
+    "translations": {
+      "es-ES": "El Mundo de Mausritter",
+      "ca-ES": "El Món de Mausritter"
+    },
+    "genres": [
+      "family",
+      "fantasy",
+      "action-adventure",
+      "animal",
+      "survival"
+    ]
+  },
+  {
+    "identifier": "middle-earth-eriador",
+    "name": "Eriador (Ruins of the North)",
+    "translations": {
+      "es-ES": "Eriador (Ruinas del Norte)",
+      "ca-ES": "Eriador (Ruïnes del Nord)"
+    },
+    "genres": [
+      "low-fantasy",
+      "mystery",
+      "investigation",
+      "folk-horror",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "middle-earth-third-age",
+    "name": "Third Age",
+    "translations": {
+      "es-ES": "Tercera Edad",
+      "ca-ES": "Tercera Edat"
+    },
+    "genres": [
+      "high-fantasy",
+      "epic-fantasy",
+      "action-adventure",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "middle-earth-wilderland",
+    "name": "Wilderland (Rhovanion)",
+    "translations": {
+      "es-ES": "Tierras Ásperas (Rhovanion)",
+      "ca-ES": "Terres Aspres (Rhovanion)"
+    },
+    "genres": [
+      "fairy-tale",
+      "action-adventure",
+      "journey-exploration",
+      "high-fantasy"
+    ]
+  },
+  {
+    "identifier": "misery-and-misfortune-setting",
+    "name": "The world of Misery and Misfortune",
+    "translations": {
+      "es-ES": "El Mundo de Miserias y Desgracias",
+      "ca-ES": "El Món de Misèries i Malaurances"
+    },
+    "genres": [
+      "medieval",
+      "satirical",
+      "slice-of-life",
+      "black-comedy",
+      "historical",
+      "low-fantasy"
+    ]
+  },
+  {
+    "identifier": "misty-valley",
+    "name": "The Misty Valley",
+    "translations": {
+      "es-ES": "El Valle Brumoso",
+      "ca-ES": "La Vall Boirosa"
+    },
+    "genres": [
+      "high-fantasy",
+      "fantasy",
+      "action-adventure",
+      "dungeon-crawler",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "monsterhearts-setting",
+    "name": "The High School of Monsterhearts",
+    "translations": {
+      "es-ES": "El Instituto de Monsterhearts",
+      "ca-ES": "L'Institut de Monsterhearts"
+    },
+    "genres": [
+      "urban-fantasy",
+      "drama",
+      "young-adult",
+      "horror",
+      "social"
+    ]
+  },
+  {
+    "identifier": "mork-borg-dying-world",
+    "name": "The Dying World",
+    "translations": {
+      "es-ES": "El Mundo Moribundo",
+      "ca-ES": "El Món Moribund"
+    },
+    "genres": [
+      "dark-fantasy",
+      "grimdark",
+      "post-apocalyptic",
+      "dungeon-crawler",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "motherboard",
+    "name": "Motherboard",
+    "translations": {
+      "es-ES": "Motherboard",
+      "ca-ES": "Motherboard"
+    },
+    "genres": [
+      "science-fantasy",
+      "sci-fi",
+      "post-apocalyptic",
+      "magic"
+    ]
+  },
+  {
+    "identifier": "musu-musu-musume-setting",
+    "name": "The World of Musu-Musu-Musume?!",
+    "translations": {
+      "es-ES": "El Mundo de Musu-Musu-Musume?!",
+      "ca-ES": "El Món de Musu-Musu-Musume?!"
+    },
+    "genres": [
+      "anime",
+      "comedy",
+      "romance",
+      "fantasy",
+      "slice-of-life"
+    ]
+  },
+  {
+    "identifier": "mythic-europe",
+    "name": "Mythic Europe",
+    "translations": {
+      "es-ES": "Europa Mítica",
+      "ca-ES": "Europa Mítica"
+    },
+    "genres": [
+      "fantasy",
+      "historical",
+      "medieval",
+      "magic",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "mythic-north",
+    "name": "The Mythic North",
+    "translations": {
+      "es-ES": "El Norte Mítico",
+      "ca-ES": "El Nord Mític"
+    },
+    "genres": [
+      "folk-horror",
+      "mystery",
+      "investigation",
+      "historical",
+      "victorian-era",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "new-europa",
+    "name": "New Europa",
+    "translations": {
+      "es-ES": "Nueva Europa",
+      "ca-ES": "Nova Europa"
+    },
+    "genres": [
+      "steampunk",
+      "historical",
+      "high-fantasy",
+      "social",
+      "action-adventure",
+      "romance"
+    ]
+  },
+  {
+    "identifier": "night-city",
+    "name": "Night City",
+    "translations": {
+      "es-ES": "Night City",
+      "ca-ES": "Night City"
+    },
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "dystopian",
+      "action-adventure",
+      "transhumanism",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "night-city-2027",
+    "name": "Night City (2027)",
+    "translations": {
+      "es-ES": "Night City (2027)",
+      "ca-ES": "Night City (2027)"
+    },
+    "genres": [
+      "cyberpunk",
+      "biopunk",
+      "young-adult",
+      "sci-fi",
+      "revolution"
+    ]
+  },
+  {
+    "identifier": "night-city-203x",
+    "name": "Night City (203X)",
+    "translations": {
+      "es-ES": "Night City (203X)",
+      "ca-ES": "Night City (203X)"
+    },
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "dystopian",
+      "action-adventure",
+      "transhumanism",
+      "post-apocalyptic",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "night-city-2077",
+    "name": "Night City (2077)",
+    "translations": {
+      "es-ES": "Night City (2077)",
+      "ca-ES": "Night City (2077)"
+    },
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "dystopian",
+      "action-adventure",
+      "transhumanism",
+      "post-apocalyptic",
+      "conspiracy"
+    ]
+  },
+  {
+    "identifier": "nights-black-agents-setting",
+    "name": "The World of Night's Black Agents",
+    "translations": {
+      "es-ES": "El Mundo de Agentes de la Noche",
+      "ca-ES": "El Món d'Agents de la Nit"
+    },
+    "genres": [
+      "espionage",
+      "conspiracy",
+      "supernatural-horror",
+      "vampire",
+      "action-adventure",
+      "thriller",
+      "investigation"
+    ]
+  },
+  {
+    "identifier": "numeria",
+    "name": "Numeria (Land of Fallen Stars)",
+    "translations": {
+      "es-ES": "Numeria (Tierra de las Estrellas Caídas)",
+      "ca-ES": "Numèria (Terra de les Estrelles Caigudes)"
+    },
+    "genres": [
+      "science-fantasy",
+      "sword-and-sorcery",
+      "post-apocalyptic",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "old-school-essentials-setting",
+    "name": "The World of Old-School Essentials",
+    "translations": {
+      "es-ES": "El Mundo de Old-School Essentials",
+      "ca-ES": "El Món d'Old-School Essentials"
+    },
+    "genres": [
+      "fantasy",
+      "dungeon-crawler",
+      "journey-exploration",
+      "sword-and-sorcery",
+      "high-fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "osirion",
+    "name": "Osirion (Land of Pharaohs)",
+    "translations": {
+      "es-ES": "Osirion (Tierra de Faraones)",
+      "ca-ES": "Osirion (Terra de Faraons)"
+    },
+    "genres": [
+      "egyptian-myth",
+      "pulp",
+      "journey-exploration",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "outer-dark-setting",
+    "name": "The World of Outer Dark",
+    "translations": {
+      "es-ES": "El Mundo de Outer Dark",
+      "ca-ES": "El Món d'Outer Dark"
+    },
+    "genres": [
+      "horror",
+      "supernatural-horror",
+      "cosmic-horror",
+      "investigation",
+      "urban-fantasy",
+      "mystery"
+    ]
+  },
+  {
+    "identifier": "pact-worlds-system",
+    "name": "The Pact Worlds",
+    "translations": {
+      "es-ES": "Los Mundos del Pacto",
+      "ca-ES": "Els Mons del Pacte"
+    },
+    "genres": [
+      "science-fantasy",
+      "space-opera",
+      "action-adventure",
+      "high-fantasy"
+    ]
+  },
+  {
+    "identifier": "pendragon-britain",
+    "name": "The Britain of Pendragon",
+    "translations": {
+      "es-ES": "La Gran Bretaña de Pendragón",
+      "ca-ES": "La Gran Bretanya de Pendragón"
+    },
+    "genres": [
+      "arthurian",
+      "historical",
+      "medieval",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "identifier": "perils-and-princesses-setting",
+    "name": "The World of Perils & Princesses",
+    "translations": {
+      "es-ES": "El Mundo de Perils & Princesses",
+      "ca-ES": "El Món de Perils & Princesses"
+    },
+    "genres": [
+      "fairy-tale",
+      "fantasy",
+      "action-adventure",
+      "young-adult"
+    ]
+  },
+  {
+    "identifier": "planescape",
+    "name": "Planescape",
+    "translations": {
+      "es-ES": "Planescape",
+      "ca-ES": "Planescape"
+    },
+    "genres": [
+      "fantasy",
+      "surrealism",
+      "time-dimension-travel"
+    ]
+  },
+  {
+    "identifier": "ragnarok-setting",
+    "name": "The World of Ragnarok",
+    "translations": {
+      "es-ES": "El Mundo de Ragnarok",
+      "ca-ES": "El Món de Ragnarok"
+    },
+    "genres": [
+      "supernatural-horror",
+      "investigation",
+      "urban-fantasy",
+      "survival"
+    ]
+  },
+  {
+    "identifier": "ravenloft",
+    "name": "Ravenloft",
+    "translations": {
+      "es-ES": "Ravenloft",
+      "ca-ES": "Ravenloft"
+    },
+    "genres": [
+      "gothic-horror",
+      "dark-fantasy",
+      "supernatural-horror",
+      "vampire",
+      "werewolf"
+    ]
+  },
+  {
+    "identifier": "reflejo-setting",
+    "name": "The World of Reflejo",
+    "translations": {
+      "es-ES": "El Mundo de Reflejo",
+      "ca-ES": "El Món de Reflejo"
+    },
+    "genres": [
+      "cyberpunk",
+      "noir",
+      "dystopian",
+      "psychological-horror",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "robotta-setting",
+    "name": "The World of Robotta",
+    "translations": {
+      "es-ES": "El Mundo de Robotta",
+      "ca-ES": "El Món de Robotta"
+    },
+    "genres": [
+      "sci-fi",
+      "post-apocalyptic",
+      "drama",
+      "survival",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "rokugan-emerald-empire",
+    "name": "Rokugan (The Emerald Empire)",
+    "translations": {
+      "es-ES": "Rokugan (El Imperio Esmeralda)",
+      "ca-ES": "Rokugan (L'Imperi Maragda)"
+    },
+    "genres": [
+      "wuxia",
+      "japanese-myth",
+      "politics-government",
+      "high-fantasy",
+      "martial-arts",
+      "supernatural-horror"
+    ]
+  },
+  {
+    "identifier": "root-woodland",
+    "name": "The Woodland",
+    "translations": {
+      "es-ES": "El Bosque",
+      "ca-ES": "El Bosc"
+    },
+    "genres": [
+      "animal-anthropomorphic",
+      "war",
+      "politics-government",
+      "low-fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "runecairn-nine-realms",
+    "name": "The Nine Realms (Runecairn)",
+    "translations": {
+      "es-ES": "Los Nueve Reinos (Runecairn)",
+      "ca-ES": "Els Nou Regnes (Runecairn)"
+    },
+    "genres": [
+      "norse-myth",
+      "dark-fantasy",
+      "dungeon-crawler",
+      "post-apocalyptic",
+      "survival"
+    ]
+  },
+  {
+    "identifier": "ryuutama-setting",
+    "name": "The World of Ryuutama",
+    "translations": {
+      "es-ES": "El Mundo de Ryuutama",
+      "ca-ES": "El Món de Ryuutama"
+    },
+    "genres": [
+      "fantasy",
+      "journey-exploration",
+      "slice-of-life",
+      "anime",
+      "family"
+    ]
+  },
+  {
+    "identifier": "scheherazade-setting",
+    "name": "The World of 1001 Nights",
+    "translations": {
+      "es-ES": "El Mundo de las Mil y Una Noches",
+      "ca-ES": "El Món de les Mil i Una Nits"
+    },
+    "genres": [
+      "arabian-nights",
+      "fantasy",
+      "mythology",
+      "romance",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "scurry-setting",
+    "name": "The World of Scurry",
+    "translations": {
+      "es-ES": "El Mundo de Scurry",
+      "ca-ES": "El Món de Scurry"
+    },
+    "genres": [
+      "animal",
+      "post-apocalyptic",
+      "survival",
+      "action-adventure",
+      "heist"
+    ]
+  },
+  {
+    "identifier": "seapunk-unleashed-setting",
+    "name": "The Sea of Seapunk Unleashed",
+    "translations": {
+      "es-ES": "El mar de Seapunk Unleashed",
+      "ca-ES": "El mar de Seapunk Unleashed"
+    },
+    "genres": [
+      "swashbuckling",
+      "anime",
+      "action-adventure",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "serpentine-city",
+    "name": "The City of Serpentine",
+    "translations": {
+      "es-ES": "La Ciudad del Serpentino",
+      "ca-ES": "La Ciutat del Serpentí"
+    },
+    "genres": [
+      "sword-and-sorcery",
+      "fantasy",
+      "dark-fantasy",
+      "low-fantasy",
+      "action-adventure",
+      "investigation",
+      "politics-government"
+    ]
+  },
+  {
+    "identifier": "shinobigami-setting",
+    "name": "The World of Shinobigami",
+    "translations": {
+      "es-ES": "El Mundo de Shinobigami",
+      "ca-ES": "El Món de Shinobigami"
+    },
+    "genres": [
+      "martial-arts",
+      "anime",
+      "conspiracy",
+      "urban-fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "sixth-world",
+    "name": "The Sixth World",
+    "translations": {
+      "es-ES": "El Sexto Mundo",
+      "ca-ES": "El Sisè Món"
+    },
+    "genres": [
+      "cyberpunk",
+      "urban-fantasy",
+      "science-fantasy",
+      "heist",
+      "dystopian",
+      "magic"
+    ]
+  },
+  {
+    "identifier": "spelljammer",
+    "name": "Spelljammer",
+    "translations": {
+      "es-ES": "Spelljammer",
+      "ca-ES": "Spelljammer"
+    },
+    "genres": [
+      "space-opera",
+      "swashbuckling",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "star-trek-discovery-23c",
+    "name": "The Discovery Era (23rd Century)",
+    "translations": {
+      "es-ES": "Era Discovery (Siglo XXIII)",
+      "ca-ES": "Era Discovery (Segle XXIII)"
+    },
+    "genres": [
+      "war",
+      "multiverse",
+      "space-opera",
+      "action-adventure",
+      "sci-fi",
+      "hard-sci-fi",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "star-trek-discovery-32c",
+    "name": "The Discovery Era (32nd Century)",
+    "translations": {
+      "es-ES": "Era Discovery (Siglo XXXII)",
+      "ca-ES": "Era Discovery (Segle XXXII)"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "sci-fi",
+      "journey-exploration",
+      "dystopian",
+      "hard-sci-fi"
+    ]
+  },
+  {
+    "identifier": "star-trek-enterprise",
+    "name": "The Enterprise Era",
+    "translations": {
+      "es-ES": "Era Enterprise",
+      "ca-ES": "Era Enterprise"
+    },
+    "genres": [
+      "journey-exploration",
+      "sci-fi",
+      "action-adventure",
+      "hard-sci-fi",
+      "space-opera"
+    ]
+  },
+  {
+    "identifier": "star-trek-picard",
+    "name": "The Picard Era",
+    "translations": {
+      "es-ES": "Era Picard",
+      "ca-ES": "Era Picard"
+    },
+    "genres": [
+      "conspiracy",
+      "politics-government",
+      "noir",
+      "sci-fi",
+      "hard-sci-fi"
+    ]
+  },
+  {
+    "identifier": "star-trek-tng",
+    "name": "The Next Generation Era",
+    "translations": {
+      "es-ES": "Era de la Nueva Generación",
+      "ca-ES": "Era de la Nova Generació"
+    },
+    "genres": [
+      "space-opera",
+      "politics-government",
+      "social",
+      "sci-fi",
+      "hard-sci-fi",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "star-trek-tos",
+    "name": "The Original Series Era",
+    "translations": {
+      "es-ES": "Era de la Serie Original",
+      "ca-ES": "Era de la Sèrie Original"
+    },
+    "genres": [
+      "space-opera",
+      "pulp",
+      "action-adventure",
+      "sci-fi",
+      "hard-sci-fi",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "star-wars-clone-wars",
+    "name": "Clone Wars Era",
+    "translations": {
+      "es-ES": "Era de las Guerras Clon",
+      "ca-ES": "Era de les Guerres Clon"
+    },
+    "genres": [
+      "space-opera",
+      "war",
+      "politics-government",
+      "science-fantasy"
+    ]
+  },
+  {
+    "identifier": "star-wars-galactic-civil-war",
+    "name": "Galactic Civil War",
+    "translations": {
+      "es-ES": "Guerra Civil Galáctica",
+      "ca-ES": "Guerra Civil Galàctica"
+    },
+    "genres": [
+      "space-opera",
+      "science-fantasy",
+      "war",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "star-wars-old-republic",
+    "name": "The Old Republic Era",
+    "translations": {
+      "es-ES": "Era de la Antigua República",
+      "ca-ES": "Era de l'Antiga República"
+    },
+    "genres": [
+      "space-opera",
+      "science-fantasy",
+      "epic-fantasy",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "star-wars-the-outer-rim",
+    "name": "The Outer Rim",
+    "translations": {
+      "es-ES": "Borde Exterior",
+      "ca-ES": "Vora Exterior"
+    },
+    "genres": [
+      "space-opera",
+      "crime",
+      "heist",
+      "pulp",
+      "noir"
+    ]
+  },
+  {
+    "identifier": "theah",
+    "name": "Théah",
+    "translations": {
+      "es-ES": "Théah",
+      "ca-ES": "Théah"
+    },
+    "genres": [
+      "swashbuckling",
+      "fantasy",
+      "magic",
+      "politics-government",
+      "romance",
+      "journey-exploration"
+    ]
+  },
+  {
+    "identifier": "the-broken-lands",
+    "name": "The Broken Lands",
+    "translations": {
+      "es-ES": "Las Tierras Quebradas",
+      "ca-ES": "Les Terres Trencades"
+    },
+    "genres": [
+      "fantasy",
+      "sword-and-sorcery",
+      "dark-fantasy",
+      "mythology",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "the-cosmere",
+    "name": "The Cosmere",
+    "translations": {
+      "es-ES": "El Cosmere",
+      "ca-ES": "El Cosmere"
+    },
+    "genres": [
+      "high-fantasy",
+      "mythology",
+      "action-adventure",
+      "intrigue",
+      "magic"
+    ]
+  },
+  {
+    "identifier": "the-dee-sanction-elizabethan-england",
+    "name": "The Elizabethan England of The Dee Sanction",
+    "translations": {
+      "es-ES": "La Inglaterra Isabelina de The Dee Sanction",
+      "ca-ES": "L'Anglaterra Isabelina de The Dee Sanction"
+    },
+    "genres": [
+      "historical",
+      "folk-horror",
+      "investigation",
+      "occult",
+      "low-fantasy"
+    ]
+  },
+  {
+    "identifier": "the-diaspora",
+    "name": "The Diaspora",
+    "translations": {
+      "es-ES": "La Diáspora",
+      "ca-ES": "La Diàspora"
+    },
+    "genres": [
+      "swashbuckling",
+      "heist",
+      "hard-sci-fi",
+      "crime"
+    ]
+  },
+  {
+    "identifier": "the-fairelands",
+    "name": "The Fairelands (Candela Obscura)",
+    "translations": {
+      "es-ES": "Las Fairelands (Candela Obscura)",
+      "ca-ES": "Les Fairelands (Candela Obscura)"
+    },
+    "genres": [
+      "gothic-horror",
+      "investigation",
+      "supernatural-horror",
+      "fantasy",
+      "mystery"
+    ]
+  },
+  {
+    "identifier": "the-flux-setting",
+    "name": "The World of The Flux",
+    "translations": {
+      "es-ES": "El Mundo de The Flux",
+      "ca-ES": "El Món de The Flux"
+    },
+    "genres": [
+      "multiverse",
+      "experimental"
+    ]
+  },
+  {
+    "identifier": "the-forbidden-lands",
+    "name": "The Forbidden Lands",
+    "translations": {
+      "es-ES": "Las Tierras Prohibidas",
+      "ca-ES": "Les Terres Prohibides"
+    },
+    "genres": [
+      "fantasy",
+      "survival",
+      "journey-exploration",
+      "low-fantasy",
+      "sword-and-sorcery"
+    ]
+  },
+  {
+    "identifier": "the-four-nations-aang-era",
+    "name": "The Four Nations: Aang's Era",
+    "translations": {
+      "es-ES": "Las Cuatro Naciones: Era de Aang",
+      "ca-ES": "Les Quatre Nacions: Era d'Aang"
+    },
+    "genres": [
+      "fantasy",
+      "martial-arts",
+      "mythology",
+      "politics-government",
+      "action-adventure",
+      "young-adult"
+    ]
+  },
+  {
+    "identifier": "the-four-nations-ancient-era",
+    "name": "The Four Nations: The Ancient Era",
+    "translations": {
+      "es-ES": "Las Cuatro Naciones: Era Antigua",
+      "ca-ES": "Les Quatre Nacions:Era Antiga"
+    },
+    "genres": [
+      "fantasy",
+      "martial-arts",
+      "mythology",
+      "war",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "the-four-nations-korra-era",
+    "name": "The Four Nations: Korra's Era",
+    "translations": {
+      "es-ES": "Las Cuatro Naciones: Era de Korra",
+      "ca-ES": "Les Quatre Nacions: Era de Korra"
+    },
+    "genres": [
+      "urban-fantasy",
+      "sci-fi",
+      "steampunk",
+      "martial-arts",
+      "politics-government",
+      "noir",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "the-loop",
+    "name": "The Loop (The 80s That Never Were)",
+    "translations": {
+      "es-ES": "El Bucle (Los 80 que nunca fueron)",
+      "ca-ES": "El Bucle (Els 80 que mai van ser)"
+    },
+    "genres": [
+      "sci-fi",
+      "alternate-history",
+      "young-adult",
+      "mystery",
+      "slice-of-life"
+    ]
+  },
+  {
+    "identifier": "the-vast",
+    "name": "The Vast",
+    "translations": {
+      "es-ES": "La Inmensidad",
+      "ca-ES": "La Immensitat"
+    },
+    "genres": [
+      "journey-exploration",
+      "cosmic-horror",
+      "mystery",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "the-wasted-west",
+    "name": "The Wasted West",
+    "translations": {
+      "es-ES": "El Oeste Perdido",
+      "ca-ES": "L'Oest Perdut"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "horror",
+      "weird-west",
+      "science-fantasy"
+    ]
+  },
+  {
+    "identifier": "the-weird-west",
+    "name": "The Weird West",
+    "translations": {
+      "es-ES": "El Extraño Oeste",
+      "ca-ES": "L'Oest Estrany"
+    },
+    "genres": [
+      "weird-west",
+      "american-west",
+      "horror",
+      "steampunk"
+    ]
+  },
+  {
+    "identifier": "the-yellow-king-setting",
+    "name": "The Yellow King Parallel Worlds",
+    "translations": {
+      "es-ES": "Los Mundos Paralelos de El Rey de Amarillo",
+      "ca-ES": "Els Mons Paral·lels d'El Rei Groc"
+    },
+    "genres": [
+      "cosmic-horror",
+      "psychological-horror",
+      "surrealism",
+      "time-dimension-travel",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "the-zone",
+    "name": "The Zone",
+    "translations": {
+      "es-ES": "La Zona",
+      "ca-ES": "La Zona"
+    },
+    "genres": [
+      "post-apocalyptic",
+      "survival",
+      "sci-fi",
+      "journey-exploration",
+      "weird-west"
+    ]
+  },
+  {
+    "identifier": "tian-xia",
+    "name": "Tian Xia (The Dragon Empires)",
+    "translations": {
+      "es-ES": "Tian Xia (Imperios Dragón)",
+      "ca-ES": "Tian Xia (Imperis Drac)"
+    },
+    "genres": [
+      "wuxia",
+      "martial-arts",
+      "japanese-myth",
+      "chinese-myth",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "trophy-forest",
+    "name": "The World of Trophy",
+    "translations": {
+      "es-ES": "El Mundo de Trophy",
+      "ca-ES": "El Món de Trophy"
+    },
+    "genres": [
+      "horror",
+      "high-fantasy",
+      "dark-fantasy",
+      "grimdark",
+      "survival",
+      "dungeon-crawler"
+    ]
+  },
+  {
+    "identifier": "troubleshooters-setting",
+    "name": "The World of The Troubleshooters",
+    "translations": {
+      "es-ES": "El Mundo de The Troubleshooters",
+      "ca-ES": "El Món de The Troubleshooters"
+    },
+    "genres": [
+      "pulp",
+      "action-adventure",
+      "investigation",
+      "historical",
+      "conspiracy",
+      "young-adult"
+    ]
+  },
+  {
+    "identifier": "universal",
+    "name": "Universal / Generic",
+    "translations": {
+      "es-ES": "Universal / Genérico",
+      "ca-ES": "Universal / Genèric"
+    },
+    "genres": [
+      "generic-universal"
+    ]
+  },
+  {
+    "identifier": "untitled-goose-gang-setting",
+    "name": "Untitled Goose Gang Universe",
+    "translations": {
+      "es-ES": "Universo de Untitled Goose Gang",
+      "ca-ES": "Univers de Untitled Goose Gang"
+    },
+    "genres": [
+      "comedy",
+      "animal",
+      "slice-of-life",
+      "crime"
+    ]
+  },
+  {
+    "identifier": "ustalav",
+    "name": "Ustalav (Immortal Principalities)",
+    "translations": {
+      "es-ES": "Ustalav (Principados Inmortales)",
+      "ca-ES": "Ustalav (Principats Immortals)"
+    },
+    "genres": [
+      "gothic-horror",
+      "mystery",
+      "investigation",
+      "dark-fantasy",
+      "supernatural-horror",
+      "vampire",
+      "werewolf"
+    ]
+  },
+  {
+    "identifier": "verces",
+    "name": "Verces",
+    "translations": {
+      "es-ES": "Verces",
+      "ca-ES": "Verces"
+    },
+    "genres": [
+      "cyberpunk",
+      "social",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "verne-setting",
+    "name": "The Worlds of Verne",
+    "translations": {
+      "es-ES": "Los Mundos de Verne",
+      "ca-ES": "Els Mons de Verne"
+    },
+    "genres": [
+      "steampunk",
+      "sci-fi",
+      "journey-exploration",
+      "pulp",
+      "science-fantasy"
+    ]
+  },
+  {
+    "identifier": "viking-death-squad-setting",
+    "name": "The Universe of Viking Death Squad",
+    "translations": {
+      "es-ES": "El Universo de Viking Death Squad",
+      "ca-ES": "L'Univers de Viking Death Squad"
+    },
+    "genres": [
+      "sci-fi",
+      "pulp",
+      "action-adventure",
+      "comedy",
+      "mythology",
+      "science-fantasy"
+    ]
+  },
+  {
+    "identifier": "w40k-askellon-sector",
+    "name": "Askellon Sector (M41)",
+    "translations": {
+      "es-ES": "Sector Askellon (M41)",
+      "ca-ES": "Sector Askellon (M41)"
+    },
+    "genres": [
+      "grimdark",
+      "investigation",
+      "occult",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "w40k-calixis-sector",
+    "name": "Calixis Sector (M41)",
+    "translations": {
+      "es-ES": "Sector Calixis (M41)",
+      "ca-ES": "Sector Calixis (M41)"
+    },
+    "genres": [
+      "grimdark",
+      "investigation",
+      "horror",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "w40k-gilead-system",
+    "name": "Gilead System (M42)",
+    "translations": {
+      "es-ES": "Sistema Gilead (M42)",
+      "ca-ES": "Sistema Gilead (M42)"
+    },
+    "genres": [
+      "grimdark",
+      "action-adventure",
+      "sci-fi",
+      "space-opera"
+    ]
+  },
+  {
+    "identifier": "w40k-jericho-reach",
+    "name": "Jericho Reach (M41)",
+    "translations": {
+      "es-ES": "El Alcance de Jericó (M41)",
+      "ca-ES": "L'Abast de Jericó (M41)"
+    },
+    "genres": [
+      "war",
+      "military",
+      "grimdark",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "w40k-macharian-sector",
+    "name": "Macharian Sector (M42)",
+    "translations": {
+      "es-ES": "Sector Machariano (M42)",
+      "ca-ES": "Sector Macharià (M42)"
+    },
+    "genres": [
+      "grimdark",
+      "investigation",
+      "politics-government",
+      "sci-fi"
+    ]
+  },
+  {
+    "identifier": "w40k-screaming-vortex",
+    "name": "Screaming Vortex (M41)",
+    "translations": {
+      "es-ES": "Vórtice de los Gritos (M41)",
+      "ca-ES": "Vòrtex dels Crits (M41)"
+    },
+    "genres": [
+      "grimdark",
+      "science-fantasy",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "walking-dead-universe",
+    "name": "The Walking Dead Universe",
+    "translations": {
+      "es-ES": "El Universo The Walking Dead",
+      "ca-ES": "L'Univers The Walking Dead"
+    },
+    "genres": [
+      "zombie",
+      "post-apocalyptic",
+      "survival",
+      "drama",
+      "horror"
+    ]
+  },
+  {
+    "identifier": "warhammer-fantasy-old-world",
+    "name": "The Old World",
+    "translations": {
+      "es-ES": "El Viejo Mundo",
+      "ca-ES": "El Vell Món"
+    },
+    "genres": [
+      "grimdark",
+      "low-fantasy",
+      "horror",
+      "investigation"
+    ]
+  },
+  {
+    "identifier": "witchcraft-setting",
+    "name": "The World of WitchCraft",
+    "translations": {
+      "es-ES": "El Mundo de WitchCraft",
+      "ca-ES": "El Món de WitchCraft"
+    },
+    "genres": [
+      "urban-fantasy",
+      "occult",
+      "magic",
+      "supernatural-horror",
+      "adult-mature"
+    ]
+  },
+  {
+    "identifier": "witherwild",
+    "name": "The Witherwild",
+    "translations": {
+      "es-ES": "El Witherwild",
+      "ca-ES": "El Witherwild"
+    },
+    "genres": [
+      "fantasy",
+      "journey-exploration",
+      "mythology"
+    ]
+  },
+  {
+    "identifier": "world-of-darkness-classic",
+    "name": "The Modern World of Darkness (Classic)",
+    "translations": {
+      "es-ES": "El Mundo de Tinieblas (Clásico)",
+      "ca-ES": "El Món de Tenebres (Clàssic)"
+    },
+    "genres": [
+      "urban-fantasy",
+      "supernatural-horror",
+      "mystery",
+      "drama",
+      "politics-government",
+      "occult",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "identifier": "world-of-darkness-dark-ages",
+    "name": "The Dark Ages of World of Darkness",
+    "translations": {
+      "es-ES": "Las Edades Oscuras del Mundo de Tinieblas",
+      "ca-ES": "Les Edats Fosques del Món de Tenebres"
+    },
+    "genres": [
+      "medieval",
+      "gothic-horror",
+      "mystery",
+      "drama",
+      "supernatural-horror",
+      "dark-fantasy",
+      "occult",
+      "politics-government"
+    ]
+  },
+  {
+    "identifier": "world-of-darkness-modern",
+    "name": "The World of Darkness Modern",
+    "translations": {
+      "es-ES": "El Mundo de Tinieblas Moderno",
+      "ca-ES": "El Món de Tenebres Modern"
+    },
+    "genres": [
+      "urban-fantasy",
+      "supernatural-horror",
+      "mystery",
+      "drama",
+      "politics-government",
+      "occult",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "identifier": "world-of-darkness-sorcerers-crusade",
+    "name": "The Sorcerer's Crusade of World of Darkness",
+    "translations": {
+      "es-ES": "La Cruzada de los Hechiceros del Mundo de Tinieblas",
+      "ca-ES": "La Croada dels Bruixots del Món de Tenebres"
+    },
+    "genres": [
+      "historical",
+      "magic",
+      "politics-government",
+      "drama",
+      "occult",
+      "dark-fantasy",
+      "renaissance"
+    ]
+  },
+  {
+    "identifier": "world-of-darkness-wild-west",
+    "name": "The Wild West of World of Darkness",
+    "translations": {
+      "es-ES": "El Salvaje Oeste del Mundo de Tinieblas",
+      "ca-ES": "L'Oest Salvatge del Món de Tenebres"
+    },
+    "genres": [
+      "weird-west",
+      "american-west",
+      "supernatural-horror",
+      "drama",
+      "action-adventure"
+    ]
+  },
+  {
+    "identifier": "worldwound",
+    "name": "The Worldwound",
+    "translations": {
+      "es-ES": "La Herida del Mundo",
+      "ca-ES": "La Ferida del Món"
+    },
+    "genres": [
+      "war",
+      "dark-fantasy",
+      "epic-fantasy",
+      "survival"
+    ]
+  },
+  {
+    "identifier": "yggdrasill-setting",
+    "name": "Scandia",
+    "translations": {
+      "es-ES": "Escandia",
+      "ca-ES": "Escàndia"
+    },
+    "genres": [
+      "viking",
+      "norse-myth",
+      "fantasy"
+    ]
+  },
+  {
+    "identifier": "yuuyake-koyake-japan",
+    "name": "The Peaceful Japanese Countryside",
+    "translations": {
+      "es-ES": "El Campo Japonés de Yuuyake Koyake",
+      "ca-ES": "El Camp Japonès de Yuuyake Koyake"
+    },
+    "genres": [
+      "anime",
+      "fantasy",
+      "mythology",
+      "slice-of-life",
+      "social",
+      "drama"
+    ]
+  },
+  {
+    "identifier": "zombicide-modern",
+    "name": "The Modern World of Zombicide",
+    "translations": {
+      "es-ES": "El Mundo Moderno de Zombicide",
+      "ca-ES": "El Món Modern de Zombicide"
+    },
+    "genres": [
+      "zombie",
+      "post-apocalyptic",
+      "survival",
+      "action-adventure"
+    ]
+  }
+]

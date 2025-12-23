@@ -1,6 +1,7 @@
-﻿[
+[
   {
     "identifier": "2d20-system",
+    "name": "2d20 System",
     "bgg_id": 34087,
     "translations": {
       "es-ES": "2d20 System",
@@ -9,6 +10,7 @@
   },
   {
     "identifier": "adventure-game-engine",
+    "name": "AGE (Adventure Game Engine)",
     "bgg_id": 12882,
     "translations": {
       "es-ES": "AGE (Adventure Game Engine)",
@@ -17,6 +19,7 @@
   },
   {
     "identifier": "brp-system-d100",
+    "name": "Basic Roleplaying",
     "bgg_id": 603,
     "translations": {
       "es-ES": "Basic Roleplaying",
@@ -25,6 +28,7 @@
   },
   {
     "identifier": "carved-from-brindlewood",
+    "name": "Carved from Brindlewood",
     "bgg_id": 106921,
     "translations": {
       "es-ES": "Carved from Brindlewood",
@@ -33,6 +37,7 @@
   },
   {
     "identifier": "chronicle-system",
+    "name": "Chronicle System",
     "bgg_id": 22610,
     "translations": {
       "es-ES": "Chronicle System",
@@ -41,6 +46,7 @@
   },
   {
     "identifier": "cortex-classic",
+    "name": "Cortex Classic",
     "bgg_id": 2044,
     "translations": {
       "es-ES": "Cortex Classic",
@@ -49,6 +55,7 @@
   },
   {
     "identifier": "cortex-plus",
+    "name": "Cortex Plus",
     "bgg_id": 12891,
     "translations": {
       "es-ES": "Cortex Plus",
@@ -57,6 +64,7 @@
   },
   {
     "identifier": "osr-system",
+    "name": "OSR System",
     "bgg_id": null,
     "translations": {
       "es-ES": "OSR System",
@@ -65,6 +73,7 @@
   },
   {
     "identifier": "d-and-d-4e-game-system",
+    "name": "D&D 4e Game System",
     "bgg_id": 2304,
     "translations": {
       "es-ES": "D&D 4e Game System",
@@ -73,6 +82,7 @@
   },
   {
     "identifier": "d-and-d-5e-game-system",
+    "name": "D&D 5e Game System",
     "bgg_id": "69967",
     "translations": {
       "es-ES": "D&D 5e Game System",
@@ -81,6 +91,7 @@
   },
   {
     "identifier": "d20-modern-system",
+    "name": "d20 Modern System",
     "bgg_id": 2885,
     "translations": {
       "es-ES": "d20 Modern System",
@@ -89,6 +100,7 @@
   },
   {
     "identifier": "d20-system",
+    "name": "d20 System",
     "bgg_id": 467,
     "translations": {
       "es-ES": "d20 System",
@@ -97,6 +109,7 @@
   },
   {
     "identifier": "essence20",
+    "name": "Essence20",
     "bgg_id": 72494,
     "translations": {
       "es-ES": "Essence20",
@@ -105,6 +118,7 @@
   },
   {
     "identifier": "fate-3",
+    "name": "Fate 3.0",
     "bgg_id": 577,
     "translations": {
       "es-ES": "Fate 3.0",
@@ -113,6 +127,7 @@
   },
   {
     "identifier": "fate-core",
+    "name": "Fate Core",
     "bgg_id": 26506,
     "translations": {
       "es-ES": "Fate Core",
@@ -121,6 +136,7 @@
   },
   {
     "identifier": "forged-in-the-dark",
+    "name": "Forged in the Dark (FitD)",
     "bgg_id": 48735,
     "translations": {
       "es-ES": "Forged in the Dark (FitD)",
@@ -129,6 +145,7 @@
   },
   {
     "identifier": "gumshoe",
+    "name": "Gumshoe",
     "bgg_id": 1264,
     "translations": {
       "es-ES": "Gumshoe",
@@ -137,6 +154,7 @@
   },
   {
     "identifier": "quickshock-gumshoe",
+    "name": "Quickshock Gumshoe",
     "bgg_id": null,
     "translations": {
       "es-ES": "Quickshock Gumshoe",
@@ -145,6 +163,7 @@
   },
   {
     "identifier": "gurps-system",
+    "name": "GURPS",
     "bgg_id": 484,
     "translations": {
       "es-ES": "GURPS",
@@ -153,6 +172,7 @@
   },
   {
     "identifier": "hero-system",
+    "name": "Hero System (1ª-3ª Edición)",
     "bgg_id": 992,
     "translations": {
       "es-ES": "Hero System (1ª-3ª Edición)",
@@ -161,6 +181,7 @@
   },
   {
     "identifier": "hero-system-4",
+    "name": "Hero System 4ª Edición",
     "bgg_id": 991,
     "translations": {
       "es-ES": "Hero System 4ª Edición",
@@ -169,6 +190,7 @@
   },
   {
     "identifier": "hero-system-5",
+    "name": "Hero System 5ª Edición",
     "bgg_id": 497,
     "translations": {
       "es-ES": "Hero System 5ª Edición",
@@ -177,6 +199,7 @@
   },
   {
     "identifier": "hero-system-6",
+    "name": "Hero System 6ª Edición",
     "bgg_id": 2653,
     "translations": {
       "es-ES": "Hero System 6ª Edición",
@@ -185,6 +208,7 @@
   },
   {
     "identifier": "icon-system",
+    "name": "ICON System",
     "bgg_id": 990,
     "translations": {
       "es-ES": "ICON System",
@@ -193,6 +217,7 @@
   },
   {
     "identifier": "interlock",
+    "name": "Interlock System",
     "bgg_id": 998,
     "translations": {
       "es-ES": "Interlock System",
@@ -201,6 +226,7 @@
   },
   {
     "identifier": "fuzion",
+    "name": "Fuzion",
     "bgg_id": 478,
     "translations": {
       "es-ES": "Fuzion",
@@ -209,6 +235,7 @@
   },
   {
     "identifier": "brp-system-d20",
+    "name": "BRP d20",
     "bgg_id": null,
     "translations": {
       "es-ES": "BRP d20",
@@ -217,6 +244,7 @@
   },
   {
     "identifier": "lord-of-the-rings-adventure-game",
+    "name": "Lord of the Rings Adventure Game System",
     "bgg_id": 2781,
     "translations": {
       "es-ES": "Lord of the Rings Adventure Game System",
@@ -225,6 +253,7 @@
   },
   {
     "identifier": "narrative-dice-system",
+    "name": "Narrative Dice System (FFG)",
     "bgg_id": 26027,
     "translations": {
       "es-ES": "Narrative Dice System (FFG)",
@@ -233,6 +262,7 @@
   },
   {
     "identifier": "palladium-megaversal",
+    "name": "Palladium Megaversal",
     "bgg_id": 733,
     "translations": {
       "es-ES": "Palladium Megaversal",
@@ -241,6 +271,7 @@
   },
   {
     "identifier": "pathfinder-system",
+    "name": "Pathfinder System",
     "bgg_id": 2789,
     "translations": {
       "es-ES": "Pathfinder System",
@@ -249,6 +280,7 @@
   },
   {
     "identifier": "powered-by-the-apocalypse",
+    "name": "Powered by the Apocalypse (PbtA)",
     "bgg_id": 17185,
     "translations": {
       "es-ES": "Powered by the Apocalypse (PbtA)",
@@ -257,6 +289,7 @@
   },
   {
     "identifier": "rolemaster-game-system",
+    "name": "Rolemaster Game System",
     "bgg_id": 1575,
     "translations": {
       "es-ES": "Rolemaster Game System",
@@ -265,6 +298,7 @@
   },
   {
     "identifier": "savage-worlds",
+    "name": "Savage Worlds",
     "bgg_id": 517,
     "translations": {
       "es-ES": "Savage Worlds",
@@ -273,6 +307,7 @@
   },
   {
     "identifier": "siege-engine",
+    "name": "Siege Engine",
     "bgg_id": 510,
     "translations": {
       "es-ES": "Siege Engine",
@@ -281,6 +316,7 @@
   },
   {
     "identifier": "sombra-system",
+    "name": "Sombra System",
     "bgg_id": 3078,
     "translations": {
       "es-ES": "Sombra System",
@@ -289,6 +325,7 @@
   },
   {
     "identifier": "storyteller-system",
+    "name": "Storyteller System",
     "bgg_id": 480,
     "translations": {
       "es-ES": "Storyteller System",
@@ -297,6 +334,7 @@
   },
   {
     "identifier": "storytelling-system",
+    "name": "Storytelling System",
     "bgg_id": 479,
     "translations": {
       "es-ES": "Storytelling System",
@@ -305,6 +343,7 @@
   },
   {
     "identifier": "unisystem",
+    "name": "UniSystem",
     "bgg_id": 627,
     "translations": {
       "es-ES": "UniSystem",
@@ -313,6 +352,7 @@
   },
   {
     "identifier": "vortex-system",
+    "name": "Vortex System",
     "bgg_id": 22874,
     "translations": {
       "es-ES": "Vortex System",
@@ -321,6 +361,7 @@
   },
   {
     "identifier": "warhammer-system",
+    "name": "Warhammer System",
     "bgg_id": 1989,
     "translations": {
       "es-ES": "Warhammer System",
@@ -329,6 +370,7 @@
   },
   {
     "identifier": "year-zero-engine",
+    "name": "Year Zero Engine",
     "bgg_id": 43636,
     "translations": {
       "es-ES": "Year Zero Engine",
@@ -337,6 +379,7 @@
   },
   {
     "identifier": "y-system",
+    "name": "Y System",
     "bgg_id": 75843,
     "translations": {
       "es-ES": "Y System",
@@ -345,6 +388,7 @@
   },
   {
     "identifier": "roleina",
+    "name": "Roleína",
     "bgg_id": null,
     "translations": {
       "es-ES": "Roleína",
@@ -353,6 +397,7 @@
   },
   {
     "identifier": "favored-by-fortune",
+    "name": "Favored by Fortune",
     "bgg_id": 75932,
     "translations": {
       "es-ES": "Favored by Fortune",
@@ -361,6 +406,7 @@
   },
   {
     "identifier": "motor-de-emociones",
+    "name": "Motor de emociones",
     "bgg_id": null,
     "translations": {
       "es-ES": "Motor de emociones",
@@ -369,6 +415,7 @@
   },
   {
     "identifier": "bx-dnd",
+    "name": "Basic & Expert D&D",
     "bgg_id": null,
     "translations": {
       "es-ES": "Basic & Expert D&D",
@@ -377,6 +424,7 @@
   },
   {
     "identifier": "coda-system",
+    "name": "Sistema CODA",
     "bgg_id": 476,
     "translations": {
       "es-ES": "Sistema CODA",
@@ -385,6 +433,7 @@
   },
   {
     "identifier": "roll-and-keep",
+    "name": "Roll & Keep",
     "bgg_id": null,
     "translations": {
       "es-ES": "Roll & Keep",
@@ -393,6 +442,7 @@
   },
   {
     "identifier": "kult-system",
+    "name": "Kult System",
     "bgg_id": null,
     "translations": {
       "es-ES": "Kult System",
@@ -401,6 +451,7 @@
   },
   {
     "identifier": "cue-system",
+    "name": "Cue System",
     "bgg_id": 25150,
     "translations": {
       "es-ES": "Cue System",
@@ -409,6 +460,7 @@
   },
   {
     "identifier": "illuminated-worlds",
+    "name": "Illuminated Worlds",
     "bgg_id": null,
     "translations": {
       "es-ES": "Illuminated Worlds",
@@ -417,6 +469,7 @@
   },
   {
     "identifier": "imperium-system",
+    "name": "Imperium Gaming Engine",
     "bgg_id": null,
     "translations": {
       "es-ES": "Imperium Gaming Engine",
@@ -425,6 +478,7 @@
   },
   {
     "identifier": "dps-system",
+    "name": "Dynamic Pool System",
     "bgg_id": null,
     "translations": {
       "es-ES": "Dynamic Pool System",
@@ -433,6 +487,7 @@
   },
   {
     "identifier": "hitos",
+    "name": "Hitos",
     "bgg_id": null,
     "translations": {
       "es-ES": "Hitos",
@@ -441,6 +496,7 @@
   },
   {
     "identifier": "the-one-ring-system",
+    "name": "Sistema El Anillo Único",
     "bgg_id": null,
     "translations": {
       "es-ES": "Sistema El Anillo Único",
@@ -449,6 +505,7 @@
   },
   {
     "identifier": "honey-heist",
+    "name": "Honey Heist",
     "bgg_id": 68128,
     "translations": {
       "es-ES": "Honey Heist",
@@ -457,6 +514,7 @@
   },
   {
     "identifier": "kids-on-bikes",
+    "name": "Kids on Bikes",
     "bgg_id": 57741,
     "translations": {
       "es-ES": "Kids on Bikes",
@@ -465,6 +523,7 @@
   },
   {
     "identifier": "mark-of-the-odd",
+    "name": "Mark of the Odd",
     "bgg_id": 68041,
     "translations": {
       "es-ES": "Mark of the Odd",
@@ -473,6 +532,7 @@
   },
   {
     "identifier": "wushu-system",
+    "name": "Wushu",
     "bgg_id": 2513,
     "translations": {
       "es-ES": "Wushu",
@@ -481,6 +541,7 @@
   },
   {
     "identifier": "rooted-in-trophy",
+    "name": "Rooted in Trophy",
     "bgg_id": 60475,
     "translations": {
       "es-ES": "Rooted in Trophy",
@@ -489,6 +550,7 @@
   },
   {
     "identifier": "monad-echo",
+    "name": "MONAD Echo",
     "bgg_id": 70620,
     "translations": {
       "es-ES": "MONAD Echo",
@@ -497,6 +559,7 @@
   },
   {
     "identifier": "houses-of-the-blooded",
+    "name": "Houses of the Blooded",
     "bgg_id": 5671,
     "translations": {
       "es-ES": "Houses of the Blooded",
@@ -505,22 +568,16 @@
   },
   {
     "identifier": "sistema-heroico",
+    "name": "Sistema heróico",
     "bgg_id": null,
     "translations": {
-      "es-ES": "Sistema heroico",
-      "ca-ES": "Sistema heroico"
-    }
-  },
-  {
-    "identifier": "sistema-heroico",
-    "bgg_id": null,
-    "translations": {
-      "es-ES": "Sistema heroico",
-      "ca-ES": "Sistema heroico"
+      "es-ES": "Sistema heróico",
+      "ca-ES": "Sistema heróic"
     }
   },
   {
     "identifier": "2d6-xd6",
+    "name": "2d6 (Xd6)",
     "bgg_id": 68444,
     "translations": {
       "es-ES": "2d6 (Xd6)",
@@ -529,6 +586,7 @@
   },
   {
     "identifier": "the-maltese-falcon-system",
+    "name": "The Maltese Falcon System",
     "bgg_id": null,
     "translations": {
       "es-ES": "The Maltese Falcon System",
@@ -537,6 +595,7 @@
   },
   {
     "identifier": "mork-borg-system",
+    "name": "Mörk Borg System",
     "bgg_id": null,
     "translations": {
       "es-ES": "Mörk Borg System",
@@ -545,6 +604,8 @@
   },
   {
     "identifier": "icrpg-system",
+    "name": "Index Card RPG System",
+    "bgg_id": null,
     "translations": {
       "es-ES": "Index Card RPG System",
       "ca-ES": "Index Card RPG System"

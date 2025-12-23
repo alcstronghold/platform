@@ -19,9 +19,34 @@ tasks:
       - src/**/*
 
   import:
-    command: bun run src/index.ts import
+    command: bun x dotenvx run -- bun run src/index.ts import
     local: true
 
   export:
-    command: bun run src/index.ts export
+    command: bun x dotenvx run -- bun run src/index.ts export
     local: true
+
+  schema-export:
+    command: bun x dotenvx run -- bun run src/index.ts schema-export
+    local: true
+
+  schema-import:
+    command: bun x dotenvx run -- bun run src/index.ts schema-import
+    local: true
+
+  schema-clear:
+    command: bun x dotenvx run -- bun run src/index.ts schema-clear
+    local: true
+
+  env-encrypt:
+    command: bun x dotenvx encrypt -ek DIRECTUS_URL -ek NODE_TLS_REJECT_UNAUTHORIZED
+    local: true
+    inputs:
+      - .env
+
+  env-decrypt:
+    command: bun x dotenvx decrypt
+    local: true
+    inputs:
+      - .env
+      - .env.keys

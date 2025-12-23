@@ -1,0 +1,386 @@
+[
+  {
+    "identifier": "arc-dream-publishing",
+    "name": "Arc Dream Publishing",
+    "website": "https://arcdream.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 9761
+  },
+  {
+    "identifier": "atlas-games",
+    "name": "Atlas Games",
+    "website": "https://www.atlas-games.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 78
+  },
+  {
+    "identifier": "by-odins-beard-rpg",
+    "name": "By Odin's Beard RPG",
+    "website": "https://byodinsbeardrpg.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 44240
+  },
+  {
+    "identifier": "chaosium",
+    "name": "Chaosium",
+    "website": "https://www.chaosium.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 23
+  },
+  {
+    "identifier": "cmon-global-limited",
+    "name": "CMON Global Limited",
+    "website": "https://www.cmon.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 21608
+  },
+  {
+    "identifier": "cubicle-7-entertainment",
+    "name": "Necrotic Gnome",
+    "website": "https://cubicle7games.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 9762
+  },
+  {
+    "identifier": "cursed-ink",
+    "name": "Cursed Ink",
+    "website": "https://www.cursedink.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 51845
+  },
+  {
+    "identifier": "devir",
+    "name": "Devir",
+    "website": "https://devir.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 2366
+  },
+  {
+    "identifier": "edge-studio",
+    "name": "EDGE Studio",
+    "website": "https://edge-studio.net",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 47280
+  },
+  {
+    "identifier": "el-refugio-de-ryhope",
+    "name": "El refugio de Ryhope",
+    "website": "https://www.elrefugioeditorial.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 56589
+  },
+  {
+    "identifier": "evil-hat-productions",
+    "name": "Evil Hat Productions",
+    "website": "https://evilhat.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 9656
+  },
+  {
+    "identifier": "fantasy-flight-games",
+    "name": "Fantasy Flight Games",
+    "website": "https://www.fantasyflightgames.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 17
+  },
+  {
+    "identifier": "free-league-publishing",
+    "name": "Free League Publishing",
+    "website": "https://www.freeleaguepublishing.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 22864
+  },
+  {
+    "identifier": "goodman-games",
+    "name": "Goodman Games",
+    "website": "https://goodman-games.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 3196
+  },
+  {
+    "identifier": "graculus-droog",
+    "name": "Graculus Droog",
+    "website": "https://graculusdroog.itch.io",
+    "logo_url": null,
+    "business_status": "defunct",
+    "bgg_id": 49157
+  },
+  {
+    "identifier": "grapas-and-mapas",
+    "name": "Grapas & Mapas",
+    "website": "https://grapasymapas.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 51752
+  },
+  {
+    "identifier": "guillotine-games",
+    "name": "Guillotine Games",
+    "website": "https://www.zombicide.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 49157
+  },
+  {
+    "identifier": "holocubierta-ediciones",
+    "name": "Holocubierta Ediciones",
+    "website": "https://neo.holocubierta.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 22332
+  },
+  {
+    "identifier": "ht-publishers",
+    "name": "HT Publishers",
+    "website": "https://htpublishers.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 29972
+  },
+  {
+    "identifier": "joc-internacional",
+    "name": "Joc Internacional",
+    "website": "",
+    "logo_url": null,
+    "business_status": "defunct",
+    "bgg_id": 3458
+  },
+  {
+    "identifier": "john-wick-presents",
+    "name": "John Wick Presents",
+    "website": "https://www.johnwickpresents.com",
+    "logo_url": null,
+    "business_status": "defunct",
+    "bgg_id": 16043
+  },
+  {
+    "identifier": "la-factoria",
+    "name": "La Factoría de Ideas",
+    "website": "https://www.lafactoriadeideas.es",
+    "logo_url": null,
+    "business_status": "defunct",
+    "bgg_id": 4834
+  },
+  {
+    "identifier": "le-7eme-cercle",
+    "name": "Le 7ème Cercle",
+    "website": "https://www.7emecercle.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 9806
+  },
+  {
+    "identifier": "ludotecnia",
+    "name": "Ludotecnia",
+    "website": null,
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 10147
+  },
+  {
+    "identifier": "lumpley-games",
+    "name": "Lumpley Games",
+    "website": "https://lumpley.games",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 5827
+  },
+  {
+    "identifier": "magpie-games",
+    "name": "Magpie Games",
+    "website": "https://magpiegames.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 18467
+  },
+  {
+    "identifier": "maqui-edicions",
+    "name": "Maqui Edicions",
+    "website": "https://maqui-ed.com/bloc",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 11324
+  },
+  {
+    "identifier": "modiphius-entertainment",
+    "name": "Modiphius Entertainment",
+    "website": "https://modiphius.net",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 22226
+  },
+  {
+    "identifier": "necrotic-gnome",
+    "name": "Necrotic Gnome",
+    "website": "https://necroticgnome.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 27126
+  },
+  {
+    "identifier": "nosolorol",
+    "name": "Nosolorol Ediciones",
+    "website": "https://www.nosolorol.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 7306
+  },
+  {
+    "identifier": "onyx-path-publishing",
+    "name": "Onyx Path Publishing",
+    "website": "https://theonyxpath.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 23335
+  },
+  {
+    "identifier": "other-selves",
+    "name": "Other Selves",
+    "website": "https://www.otherselves.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 28967
+  },
+  {
+    "identifier": "outremer-ediciones",
+    "name": "Outremer Ediciones",
+    "website": "https://outremer.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 51239
+  },
+  {
+    "identifier": "outrider-creative",
+    "name": "Outrider Creative",
+    "website": "https://outrider-creative.itch.io",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 55776
+  },
+  {
+    "identifier": "paizo-publishing",
+    "name": "Paizo Publishing",
+    "website": "https://paizo.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 4238
+  },
+  {
+    "identifier": "pinnacle-entertainment-group",
+    "name": "Pinnacle Entertainment Group",
+    "website": "https://peginc.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 644
+  },
+  {
+    "identifier": "red-librarian",
+    "name": "Red Librarian",
+    "website": "https://red-librarian.ru",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 56875
+  },
+  {
+    "identifier": "r-talsorian-games-inc",
+    "name": "R. Talsorian Games, Inc.",
+    "website": "https://rtalsoriangames.wordpress.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 4708
+  },
+  {
+    "identifier": "sage-kobold-productions",
+    "name": "Sage Kobold Productions",
+    "website": "https://www.dungeon-world.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 17131
+  },
+  {
+    "identifier": "self-published",
+    "name": "Self Published",
+    "website": null,
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 4
+  },
+  {
+    "identifier": "shadowlands-ediciones",
+    "name": "Shadowlands",
+    "website": "https://shadowlands.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 46675
+  },
+  {
+    "identifier": "space-orange-42",
+    "name": "Space Orange 42",
+    "website": null,
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 29710
+  },
+  {
+    "identifier": "sugaar-editorial",
+    "name": "Sugaar Editorial",
+    "website": "https://sugaareditorial.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 47431
+  },
+  {
+    "identifier": "the-hills-press",
+    "name": "The Hills Press",
+    "website": "https://www.thehillspress.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 40092
+  },
+  {
+    "identifier": "two-little-mice",
+    "name": "Two Little Mice",
+    "website": "https://twolittlemice.net",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 45605
+  },
+  {
+    "identifier": "unleashed-games",
+    "name": "Unleashed Games",
+    "website": "https://www.unleashedgames.es",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 54975
+  },
+  {
+    "identifier": "walhalla-ediciones",
+    "name": "Walhalla Ediciones",
+    "website": "https://walhallaediciones.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 51723
+  },
+  {
+    "identifier": "wizards-of-the-coast",
+    "name": "Wizards of the Coast",
+    "website": "https://wizards.com",
+    "logo_url": null,
+    "business_status": "active",
+    "bgg_id": 13
+  }
+]
