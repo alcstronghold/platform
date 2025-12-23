@@ -291,6 +291,26 @@ bun run schema:clear -- --force       # Actually delete
 
 Schema files are stored in `infrastructure/schema/`
 
+### Backup & Restore
+
+Full backup/restore of schema and data as timestamped archives:
+
+```bash
+# Create backup (schema + all collection data)
+bun run backup
+# Output: infrastructure/backups/snapshot-yyyy-MM-dd--HH-mm.tar.gz
+
+# Restore from backup
+bun run restore <path-to-archive.tar.gz>
+
+# Restore options
+bun run restore -- --skip-schema <archive>  # Only restore data
+bun run restore -- --skip-data <archive>    # Only restore schema
+bun run restore -- --force <archive>        # Bypass version checks
+```
+
+Backup archives are stored in `infrastructure/backups/`
+
 ## Version Management
 
 ```bash

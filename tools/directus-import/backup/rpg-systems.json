@@ -1,0 +1,597 @@
+[
+  {
+    "identifier": "2d20-system",
+    "name": null,
+    "translations": {
+      "es-ES": "2d20 System",
+      "ca-ES": "2d20 System"
+    },
+    "bgg_id": 34087
+  },
+  {
+    "identifier": "2d6-xd6",
+    "name": null,
+    "translations": {
+      "es-ES": "2d6 (Xd6)",
+      "ca-ES": "2d6 (Xd6)"
+    },
+    "bgg_id": 68444
+  },
+  {
+    "identifier": "adventure-game-engine",
+    "name": null,
+    "translations": {
+      "es-ES": "AGE (Adventure Game Engine)",
+      "ca-ES": "AGE (Adventure Game Engine)"
+    },
+    "bgg_id": 12882
+  },
+  {
+    "identifier": "brp-system-d100",
+    "name": null,
+    "translations": {
+      "es-ES": "Basic Roleplaying",
+      "ca-ES": "Basic Roleplaying"
+    },
+    "bgg_id": 603
+  },
+  {
+    "identifier": "brp-system-d20",
+    "name": null,
+    "translations": {
+      "es-ES": "BRP d20",
+      "ca-ES": "BRP d20"
+    }
+  },
+  {
+    "identifier": "bx-dnd",
+    "name": null,
+    "translations": {
+      "es-ES": "Basic & Expert D&D",
+      "ca-ES": "Basic & Expert D&D"
+    }
+  },
+  {
+    "identifier": "carved-from-brindlewood",
+    "name": null,
+    "translations": {
+      "es-ES": "Carved from Brindlewood",
+      "ca-ES": "Carved from Brindlewood"
+    },
+    "bgg_id": 106921
+  },
+  {
+    "identifier": "chronicle-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Chronicle System",
+      "ca-ES": "Chronicle System"
+    },
+    "bgg_id": 22610
+  },
+  {
+    "identifier": "coda-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Sistema CODA",
+      "ca-ES": "Sistema CODA"
+    },
+    "bgg_id": 476
+  },
+  {
+    "identifier": "cortex-classic",
+    "name": null,
+    "translations": {
+      "es-ES": "Cortex Classic",
+      "ca-ES": "Cortex Classic"
+    },
+    "bgg_id": 2044
+  },
+  {
+    "identifier": "cortex-plus",
+    "name": null,
+    "translations": {
+      "es-ES": "Cortex Plus",
+      "ca-ES": "Cortex Plus"
+    },
+    "bgg_id": 12891
+  },
+  {
+    "identifier": "cue-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Cue System",
+      "ca-ES": "Cue System"
+    },
+    "bgg_id": 25150
+  },
+  {
+    "identifier": "d20-modern-system",
+    "name": null,
+    "translations": {
+      "es-ES": "d20 Modern System",
+      "ca-ES": "d20 Modern System"
+    },
+    "bgg_id": 2885
+  },
+  {
+    "identifier": "d20-system",
+    "name": null,
+    "translations": {
+      "es-ES": "d20 System",
+      "ca-ES": "d20 System"
+    },
+    "bgg_id": 467
+  },
+  {
+    "identifier": "d-and-d-4e-game-system",
+    "name": null,
+    "translations": {
+      "es-ES": "D&D 4e Game System",
+      "ca-ES": "D&D 4e Game System"
+    },
+    "bgg_id": 2304
+  },
+  {
+    "identifier": "d-and-d-5e-game-system",
+    "name": null,
+    "translations": {
+      "es-ES": "D&D 5e Game System",
+      "ca-ES": "D&D 5e Game System"
+    },
+    "bgg_id": 69967
+  },
+  {
+    "identifier": "dps-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Dynamic Pool System",
+      "ca-ES": "Dynamic Pool System"
+    }
+  },
+  {
+    "identifier": "essence20",
+    "name": null,
+    "translations": {
+      "es-ES": "Essence20",
+      "ca-ES": "Essence20"
+    },
+    "bgg_id": 72494
+  },
+  {
+    "identifier": "fate-3",
+    "name": null,
+    "translations": {
+      "es-ES": "Fate 3.0",
+      "ca-ES": "Fate 3.0"
+    },
+    "bgg_id": 577
+  },
+  {
+    "identifier": "fate-core",
+    "name": null,
+    "translations": {
+      "es-ES": "Fate Core",
+      "ca-ES": "Fate Core"
+    },
+    "bgg_id": 26506
+  },
+  {
+    "identifier": "favored-by-fortune",
+    "name": null,
+    "translations": {
+      "es-ES": "Favored by Fortune",
+      "ca-ES": "Favored by Fortune"
+    },
+    "bgg_id": 75932
+  },
+  {
+    "identifier": "forged-in-the-dark",
+    "name": null,
+    "translations": {
+      "es-ES": "Forged in the Dark (FitD)",
+      "ca-ES": "Forged in the Dark (FitD)"
+    },
+    "bgg_id": 48735
+  },
+  {
+    "identifier": "fuzion",
+    "name": null,
+    "translations": {
+      "es-ES": "Fuzion",
+      "ca-ES": "Fuzion"
+    },
+    "bgg_id": 478
+  },
+  {
+    "identifier": "gumshoe",
+    "name": null,
+    "translations": {
+      "es-ES": "Gumshoe",
+      "ca-ES": "Gumshoe"
+    },
+    "bgg_id": 1264
+  },
+  {
+    "identifier": "gurps-system",
+    "name": null,
+    "translations": {
+      "es-ES": "GURPS",
+      "ca-ES": "GURPS"
+    },
+    "bgg_id": 484
+  },
+  {
+    "identifier": "hero-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Hero System (1ª-3ª Edición)",
+      "ca-ES": "Hero System (1ª-3ª Edició)"
+    },
+    "bgg_id": 992
+  },
+  {
+    "identifier": "hero-system-4",
+    "name": null,
+    "translations": {
+      "es-ES": "Hero System 4ª Edición",
+      "ca-ES": "Hero System 4ª Edició"
+    },
+    "bgg_id": 991
+  },
+  {
+    "identifier": "hero-system-5",
+    "name": null,
+    "translations": {
+      "es-ES": "Hero System 5ª Edición",
+      "ca-ES": "Hero System 5ª Edició"
+    },
+    "bgg_id": 497
+  },
+  {
+    "identifier": "hero-system-6",
+    "name": null,
+    "translations": {
+      "es-ES": "Hero System 6ª Edición",
+      "ca-ES": "Hero System 6ª Edició"
+    },
+    "bgg_id": 2653
+  },
+  {
+    "identifier": "hitos",
+    "name": null,
+    "translations": {
+      "es-ES": "Hitos",
+      "ca-ES": "Hitos"
+    }
+  },
+  {
+    "identifier": "honey-heist",
+    "name": null,
+    "translations": {
+      "es-ES": "Honey Heist",
+      "ca-ES": "Honey Heist"
+    },
+    "bgg_id": 68128
+  },
+  {
+    "identifier": "houses-of-the-blooded",
+    "name": null,
+    "translations": {
+      "es-ES": "Houses of the Blooded",
+      "ca-ES": "Houses of the Blooded"
+    },
+    "bgg_id": 5671
+  },
+  {
+    "identifier": "icon-system",
+    "name": null,
+    "translations": {
+      "es-ES": "ICON System",
+      "ca-ES": "ICON System"
+    },
+    "bgg_id": 990
+  },
+  {
+    "identifier": "icrpg-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Index Card RPG System",
+      "ca-ES": "Index Card RPG System"
+    }
+  },
+  {
+    "identifier": "illuminated-worlds",
+    "name": null,
+    "translations": {
+      "es-ES": "Illuminated Worlds",
+      "ca-ES": "Illuminated Worlds"
+    }
+  },
+  {
+    "identifier": "imperium-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Imperium Gaming Engine",
+      "ca-ES": "Imperium Gaming Engine"
+    }
+  },
+  {
+    "identifier": "interlock",
+    "name": null,
+    "translations": {
+      "es-ES": "Interlock System",
+      "ca-ES": "Interlock System"
+    },
+    "bgg_id": 998
+  },
+  {
+    "identifier": "kids-on-bikes",
+    "name": null,
+    "translations": {
+      "es-ES": "Kids on Bikes",
+      "ca-ES": "Kids on Bikes"
+    },
+    "bgg_id": 57741
+  },
+  {
+    "identifier": "kult-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Kult System",
+      "ca-ES": "Kult System"
+    }
+  },
+  {
+    "identifier": "lord-of-the-rings-adventure-game",
+    "name": null,
+    "translations": {
+      "es-ES": "Lord of the Rings Adventure Game System",
+      "ca-ES": "Lord of the Rings Adventure Game System"
+    },
+    "bgg_id": 2781
+  },
+  {
+    "identifier": "mark-of-the-odd",
+    "name": null,
+    "translations": {
+      "es-ES": "Mark of the Odd",
+      "ca-ES": "Mark of the Odd"
+    },
+    "bgg_id": 68041
+  },
+  {
+    "identifier": "monad-echo",
+    "name": null,
+    "translations": {
+      "es-ES": "MONAD Echo",
+      "ca-ES": "MONAD Echo"
+    },
+    "bgg_id": 70620
+  },
+  {
+    "identifier": "mork-borg-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Mörk Borg System",
+      "ca-ES": "Mörk Borg System"
+    }
+  },
+  {
+    "identifier": "motor-de-emociones",
+    "name": null,
+    "translations": {
+      "es-ES": "Motor de emociones",
+      "ca-ES": "Motor d'emocions"
+    }
+  },
+  {
+    "identifier": "narrative-dice-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Narrative Dice System (FFG)",
+      "ca-ES": "Narrative Dice System (FFG)"
+    },
+    "bgg_id": 26027
+  },
+  {
+    "identifier": "osr-system",
+    "name": null,
+    "translations": {
+      "es-ES": "OSR System",
+      "ca-ES": "OSR System"
+    }
+  },
+  {
+    "identifier": "palladium-megaversal",
+    "name": null,
+    "translations": {
+      "es-ES": "Palladium Megaversal",
+      "ca-ES": "Palladium Megaversal"
+    },
+    "bgg_id": 733
+  },
+  {
+    "identifier": "pathfinder-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Pathfinder System",
+      "ca-ES": "Pathfinder System"
+    },
+    "bgg_id": 2789
+  },
+  {
+    "identifier": "powered-by-the-apocalypse",
+    "name": null,
+    "translations": {
+      "es-ES": "Powered by the Apocalypse (PbtA)",
+      "ca-ES": "Powered by the Apocalypse (PbtA)"
+    },
+    "bgg_id": 17185
+  },
+  {
+    "identifier": "quickshock-gumshoe",
+    "name": null,
+    "translations": {
+      "es-ES": "Quickshock Gumshoe",
+      "ca-ES": "Quickshock Gumshoe"
+    }
+  },
+  {
+    "identifier": "roleina",
+    "name": null,
+    "translations": {
+      "es-ES": "Roleína",
+      "ca-ES": "Roleína"
+    }
+  },
+  {
+    "identifier": "rolemaster-game-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Rolemaster Game System",
+      "ca-ES": "Rolemaster Game System"
+    },
+    "bgg_id": 1575
+  },
+  {
+    "identifier": "roll-and-keep",
+    "name": null,
+    "translations": {
+      "es-ES": "Roll & Keep",
+      "ca-ES": "Roll & Keep"
+    }
+  },
+  {
+    "identifier": "rooted-in-trophy",
+    "name": null,
+    "translations": {
+      "es-ES": "Rooted in Trophy",
+      "ca-ES": "Rooted in Trophy"
+    },
+    "bgg_id": 60475
+  },
+  {
+    "identifier": "savage-worlds",
+    "name": null,
+    "translations": {
+      "es-ES": "Savage Worlds",
+      "ca-ES": "Savage Worlds"
+    },
+    "bgg_id": 517
+  },
+  {
+    "identifier": "siege-engine",
+    "name": null,
+    "translations": {
+      "es-ES": "Siege Engine",
+      "ca-ES": "Siege Engine"
+    },
+    "bgg_id": 510
+  },
+  {
+    "identifier": "sistema-heroico",
+    "name": null,
+    "translations": {
+      "es-ES": "Sistema heróico",
+      "ca-ES": "Sistema heróic"
+    }
+  },
+  {
+    "identifier": "sombra-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Sombra System",
+      "ca-ES": "Sombra System"
+    },
+    "bgg_id": 3078
+  },
+  {
+    "identifier": "storyteller-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Storyteller System",
+      "ca-ES": "Storyteller System"
+    },
+    "bgg_id": 480
+  },
+  {
+    "identifier": "storytelling-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Storytelling System",
+      "ca-ES": "Storytelling System"
+    },
+    "bgg_id": 479
+  },
+  {
+    "identifier": "the-maltese-falcon-system",
+    "name": null,
+    "translations": {
+      "es-ES": "The Maltese Falcon System",
+      "ca-ES": "The Maltese Falcon System"
+    }
+  },
+  {
+    "identifier": "the-one-ring-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Sistema El Anillo Único",
+      "ca-ES": "Sistema L'Anell Únic"
+    }
+  },
+  {
+    "identifier": "unisystem",
+    "name": null,
+    "translations": {
+      "es-ES": "UniSystem",
+      "ca-ES": "UniSystem"
+    },
+    "bgg_id": 627
+  },
+  {
+    "identifier": "vortex-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Vortex System",
+      "ca-ES": "Vortex System"
+    },
+    "bgg_id": 22874
+  },
+  {
+    "identifier": "warhammer-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Warhammer System",
+      "ca-ES": "Warhammer System"
+    },
+    "bgg_id": 1989
+  },
+  {
+    "identifier": "wushu-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Wushu",
+      "ca-ES": "Wushu"
+    },
+    "bgg_id": 2513
+  },
+  {
+    "identifier": "year-zero-engine",
+    "name": null,
+    "translations": {
+      "es-ES": "Year Zero Engine",
+      "ca-ES": "Year Zero Engine"
+    },
+    "bgg_id": 43636
+  },
+  {
+    "identifier": "y-system",
+    "name": null,
+    "translations": {
+      "es-ES": "Y System",
+      "ca-ES": "Y System"
+    },
+    "bgg_id": 75843
+  }
+]

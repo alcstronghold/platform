@@ -579,7 +579,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 6,
+        "sort": 7,
         "special": null,
         "translations": null,
         "validation": null,
@@ -623,7 +623,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 7,
+        "sort": 8,
         "special": null,
         "translations": null,
         "validation": null,
@@ -669,7 +669,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 8,
+        "sort": 9,
         "special": [
           "user-created"
         ],
@@ -717,7 +717,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 9,
+        "sort": 10,
         "special": [
           "date-created"
         ],
@@ -765,7 +765,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 10,
+        "sort": 11,
         "special": [
           "user-updated"
         ],
@@ -813,7 +813,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 11,
+        "sort": 12,
         "special": [
           "date-updated"
         ],
@@ -915,7 +915,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 4,
+        "sort": 5,
         "special": [
           "translations"
         ],
@@ -996,7 +996,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 5,
+        "sort": 6,
         "special": [
           "m2m"
         ],
@@ -1004,6 +1004,52 @@
         "validation": null,
         "validation_message": null,
         "width": "full"
+      }
+    },
+    {
+      "collection": "genres",
+      "field": "name",
+      "type": "string",
+      "meta": {
+        "collection": "genres",
+        "conditions": null,
+        "display": "raw",
+        "display_options": null,
+        "field": "name",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": {
+          "trim": true
+        },
+        "readonly": false,
+        "required": true,
+        "searchable": true,
+        "sort": 4,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "name",
+        "table": "genres",
+        "data_type": "character varying",
+        "default_value": null,
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": false,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
       }
     },
     {
@@ -2111,7 +2157,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 7,
+        "sort": 8,
         "special": null,
         "translations": null,
         "validation": null,
@@ -2155,7 +2201,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 8,
+        "sort": 9,
         "special": null,
         "translations": null,
         "validation": null,
@@ -2201,7 +2247,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 9,
+        "sort": 10,
         "special": [
           "user-created"
         ],
@@ -2249,7 +2295,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 10,
+        "sort": 11,
         "special": [
           "date-created"
         ],
@@ -2297,7 +2343,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 11,
+        "sort": 12,
         "special": [
           "user-updated"
         ],
@@ -2345,7 +2391,7 @@
         "readonly": true,
         "required": false,
         "searchable": true,
-        "sort": 12,
+        "sort": 13,
         "special": [
           "date-updated"
         ],
@@ -2603,6 +2649,54 @@
       }
     },
     {
+      "collection": "rpg_editions",
+      "field": "bgg_id",
+      "type": "bigInteger",
+      "meta": {
+        "collection": "rpg_editions",
+        "conditions": null,
+        "display": "formatted-value",
+        "display_options": {
+          "font": "monospace",
+          "icon": "link",
+          "prefix": "https://rpggeek.com/rpg/"
+        },
+        "field": "bgg_id",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 7,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "bgg_id",
+        "table": "rpg_editions",
+        "data_type": "bigint",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": 64,
+        "numeric_scale": 0,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
       "collection": "rpg_editions_translations",
       "field": "id",
       "type": "integer",
@@ -2732,6 +2826,52 @@
         "has_auto_increment": false,
         "foreign_key_table": "languages",
         "foreign_key_column": "code"
+      }
+    },
+    {
+      "collection": "rpg_editions_translations",
+      "field": "name",
+      "type": "string",
+      "meta": {
+        "collection": "rpg_editions_translations",
+        "conditions": null,
+        "display": "raw",
+        "display_options": null,
+        "field": "name",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": {
+          "trim": true
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 4,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "name",
+        "table": "rpg_editions_translations",
+        "data_type": "character varying",
+        "default_value": null,
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
       }
     },
     {
@@ -3528,6 +3668,52 @@
       }
     },
     {
+      "collection": "rpg_families_translations",
+      "field": "name",
+      "type": "string",
+      "meta": {
+        "collection": "rpg_families_translations",
+        "conditions": null,
+        "display": "raw",
+        "display_options": null,
+        "field": "name",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": {
+          "trim": true
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 4,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "name",
+        "table": "rpg_families_translations",
+        "data_type": "character varying",
+        "default_value": null,
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
       "collection": "rpg_systems",
       "field": "id",
       "type": "uuid",
@@ -3966,7 +4152,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 3,
+        "sort": 4,
         "special": [
           "translations"
         ],
@@ -3974,50 +4160,6 @@
         "validation": null,
         "validation_message": null,
         "width": "full"
-      }
-    },
-    {
-      "collection": "rpg_systems",
-      "field": "bbg_id",
-      "type": "integer",
-      "meta": {
-        "collection": "rpg_systems",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "bbg_id",
-        "group": null,
-        "hidden": false,
-        "interface": "input",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 5,
-        "special": null,
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      },
-      "schema": {
-        "name": "bbg_id",
-        "table": "rpg_systems",
-        "data_type": "integer",
-        "default_value": null,
-        "max_length": null,
-        "numeric_precision": 32,
-        "numeric_scale": 0,
-        "is_nullable": true,
-        "is_unique": false,
-        "is_indexed": false,
-        "is_primary_key": false,
-        "is_generated": false,
-        "generation_expression": null,
-        "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
       }
     },
     {
@@ -4038,7 +4180,7 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 12,
+        "sort": 5,
         "special": null,
         "translations": null,
         "validation": null,
@@ -4053,6 +4195,52 @@
         "max_length": null,
         "numeric_precision": 32,
         "numeric_scale": 0,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "rpg_systems",
+      "field": "name",
+      "type": "string",
+      "meta": {
+        "collection": "rpg_systems",
+        "conditions": null,
+        "display": "raw",
+        "display_options": null,
+        "field": "name",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": {
+          "trim": true
+        },
+        "readonly": false,
+        "required": true,
+        "searchable": true,
+        "sort": 3,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "name",
+        "table": "rpg_systems",
+        "data_type": "character varying",
+        "default_value": null,
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
         "is_nullable": true,
         "is_unique": false,
         "is_indexed": false,

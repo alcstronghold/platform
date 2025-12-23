@@ -2,8 +2,10 @@ import { resolve } from 'node:path';
 
 import { Command } from 'commander';
 
+import { backupCommand } from './commands/backup';
 import { exportCommand } from './commands/export';
 import { importCommand } from './commands/import';
+import { restoreCommand } from './commands/restore';
 import { schemaClearCommand } from './commands/schema-clear';
 import { schemaExportCommand } from './commands/schema-export';
 import { schemaImportCommand } from './commands/schema-import';
@@ -15,6 +17,7 @@ const program = new Command();
 const PROJECT_ROOT = resolve(import.meta.dirname, '../../..');
 const DEFAULT_SEEDS_DIR = resolve(PROJECT_ROOT, 'infrastructure/seeds');
 const DEFAULT_SCHEMA_PATH = resolve(PROJECT_ROOT, 'infrastructure/schema/directus-schema.json');
+const DEFAULT_BACKUP_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups');
 
 /**
  * Get Directus config from CLI options or environment variables
@@ -133,6 +136,44 @@ program
     await schemaClearCommand(config, {
       force: options.force,
       dryRun: options.dryRun,
+    });
+  });
+
+// Backup command
+program
+  .command('backup')
+  .description('Create a timestamped backup archive (schema + data)')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('-o, --output-dir <dir>', 'Output directory for backup', DEFAULT_BACKUP_DIR)
+  .action(async (options) => {
+    const config = getDirectusConfig(options);
+    await backupCommand(config, {
+      outputDir: options.outputDir,
+    });
+  });
+
+// Restore command
+program
+  .command('restore')
+  .description('Restore from a backup archive (.tar.gz)')
+  .argument('<archive>', 'Path to the backup archive')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('-f, --force', 'Force schema import (bypass version checks)')
+  .option('--skip-schema', 'Skip schema restore')
+  .option('--skip-data', 'Skip data restore')
+  .action(async (archive, options) => {
+    const config = getDirectusConfig(options);
+    await restoreCommand(config, {
+      archivePath: archive,
+      force: options.force,
+      skipSchema: options.skipSchema,
+      skipData: options.skipData,
     });
   });
 

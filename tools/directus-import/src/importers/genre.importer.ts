@@ -150,7 +150,7 @@ export class GenreImporter {
    * Upsert a single genre
    */
   private async upsertGenre(payload: GenrePayload): Promise<boolean> {
-    const { identifier, translations, parent } = payload;
+    const { identifier, name, translations, parent } = payload;
     const parentId = parent != null ? this.genreMap.get(parent) : undefined;
 
     try {
@@ -158,7 +158,7 @@ export class GenreImporter {
       const existing = await this.findExistingGenre(identifier);
 
       if (existing) {
-        const request = this.createUpdateRequest(identifier, parentId, translations, existing.translations);
+        const request = this.createUpdateRequest(identifier, name, parentId, translations, existing.translations);
         await withRetry(
           () =>
             this.config.client.request(
@@ -169,7 +169,7 @@ export class GenreImporter {
         this.result.updated++;
         log.item('updated', identifier);
       } else {
-        const request = this.createRequest(identifier, parentId, translations);
+        const request = this.createRequest(identifier, name, parentId, translations);
         const created = await withRetry(
           () =>
             this.config.client.request(createItem('genres' as never, request as never)),
@@ -214,11 +214,13 @@ export class GenreImporter {
    */
   private createRequest(
     identifier: string,
+    name: string,
     parentId: string | undefined,
     translations: Record<string, string>
   ): Record<string, unknown> {
     return {
       identifier,
+      name,
       parent_id: parentId ?? null,
       status: 'published',
       translations: this.languageCodes.map((code) => ({
@@ -233,6 +235,7 @@ export class GenreImporter {
    */
   private createUpdateRequest(
     identifier: string,
+    name: string,
     parentId: string | undefined,
     translations: Record<string, string>,
     existingTranslations?: Array<{ id: number; languages_code: string }>
@@ -243,6 +246,7 @@ export class GenreImporter {
 
     return {
       identifier,
+      name,
       parent_id: parentId ?? null,
       status: 'published',
       translations: this.languageCodes

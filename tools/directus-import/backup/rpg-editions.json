@@ -1,0 +1,2377 @@
+[
+  {
+    "identifier": "7th-sea-1st-edition",
+    "name": "7th Sea First Edition",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "7th-sea",
+    "translations": {
+      "es-ES": "7º Mar Primera Edición",
+      "ca-ES": "7è Mar Primera Edició"
+    },
+    "bgg_id": "199"
+  },
+  {
+    "identifier": "7th-sea-2nd-edition",
+    "name": "7th Sea Second Edition",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "7th-sea",
+    "translations": {
+      "es-ES": "7º Mar Segunda Edición",
+      "ca-ES": "7è Mar Segona Edició"
+    },
+    "bgg_id": "33967"
+  },
+  {
+    "identifier": "8-tesoros",
+    "name": "8 Tesoros",
+    "rpg_system_id": null,
+    "rpg_family_id": "8-tesoros",
+    "translations": {
+      "es-ES": "8 Tesoros",
+      "ca-ES": "8 Tresors"
+    }
+  },
+  {
+    "identifier": "ablaneda",
+    "name": "Ablaneda",
+    "rpg_system_id": "2d6-xd6",
+    "rpg_family_id": "ablaneda",
+    "translations": {
+      "es-ES": "Ablaneda",
+      "ca-ES": "Ablaneda"
+    },
+    "bgg_id": "26647"
+  },
+  {
+    "identifier": "achtung-cthulhu",
+    "name": "Achtung! Cthulhu",
+    "rpg_system_id": "2d20-system",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Achtung! Cthulhu",
+      "ca-ES": "Achtung! Cthulhu"
+    },
+    "bgg_id": "347771"
+  },
+  {
+    "identifier": "advanced-dungeons-and-dragons-1st-edition",
+    "name": "Advanced Dungeons & Dragons (1st Edition)",
+    "rpg_system_id": "osr-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Advanced Dungeons & Dragons (1ª Edición)",
+      "ca-ES": "Advanced Dungeons & Dragons (1ª Edició)"
+    },
+    "bgg_id": "191"
+  },
+  {
+    "identifier": "advanced-dungeons-and-dragons-2nd-edition",
+    "name": "Advanced Dungeons & Dragons (2nd Edition)",
+    "rpg_system_id": "osr-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Advanced Dungeons & Dragons (2ª Edición)",
+      "ca-ES": "Advanced Dungeons & Dragons (2ª Edició)"
+    },
+    "bgg_id": "244"
+  },
+  {
+    "identifier": "alien-the-roleplaying-game",
+    "name": "Alien: The Roleplaying Game",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "alien",
+    "translations": {
+      "es-ES": "Alien: El Juego de Rol",
+      "ca-ES": "Alien: El Joc de Rol"
+    },
+    "bgg_id": "293736"
+  },
+  {
+    "identifier": "amazing-tales",
+    "name": "Amazing Tales",
+    "rpg_system_id": null,
+    "rpg_family_id": "amazing-tales",
+    "translations": {
+      "es-ES": "Los Guardianes de las Palabras",
+      "ca-ES": "Els Guardians de les Paraules"
+    },
+    "bgg_id": "48534"
+  },
+  {
+    "identifier": "apocalypse-world",
+    "name": "Apocalypse World",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "apocalypse-world",
+    "translations": {
+      "es-ES": "Apocalypse World",
+      "ca-ES": "Apocalypse World"
+    },
+    "bgg_id": "5891"
+  },
+  {
+    "identifier": "aquelarre-1st-edition",
+    "name": "Aquelarre",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "aquelarre",
+    "translations": {
+      "es-ES": "Aquelarre (1ª Edición)",
+      "ca-ES": "Aquelarre (1ª Edició)"
+    },
+    "bgg_id": "2487"
+  },
+  {
+    "identifier": "aquelarre-2nd-edition",
+    "name": "Aquelarre (2nd Edition)",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "aquelarre",
+    "translations": {
+      "es-ES": "Aquelarre (2ª Edición)",
+      "ca-ES": "Aquelarre (2ª Edició)"
+    },
+    "bgg_id": "2566"
+  },
+  {
+    "identifier": "aquelarre-3rd-edition",
+    "name": "Aquelarre (3rd Edition)",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "aquelarre",
+    "translations": {
+      "es-ES": "Aquelarre (3ª Edición)",
+      "ca-ES": "Aquelarre (3ª Edició)"
+    },
+    "bgg_id": "10076"
+  },
+  {
+    "identifier": "arkham-horror-the-roleplaying-game",
+    "name": "Arkham Horror: The Roleplaying Game",
+    "rpg_system_id": "dps-system",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Arkham Horror: El Juego de Rol",
+      "ca-ES": "Arkham Horror: El Joc de Rol"
+    },
+    "bgg_id": "105599"
+  },
+  {
+    "identifier": "ars-magica-1st-edition",
+    "name": "Ars Magica (1st Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ars-magica",
+    "translations": {
+      "es-ES": "Ars Magica (1ª Edición)",
+      "ca-ES": "Ars Magica (1ª Edició)"
+    },
+    "bgg_id": "1030"
+  },
+  {
+    "identifier": "ars-magica-2nd-edition",
+    "name": "Ars Magica (2nd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ars-magica",
+    "translations": {
+      "es-ES": "Ars Magica (2ª Edición)",
+      "ca-ES": "Ars Magica (2ª Edició)"
+    },
+    "bgg_id": "323"
+  },
+  {
+    "identifier": "ars-magica-3rd-edition",
+    "name": "Ars Magica (3rd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ars-magica",
+    "translations": {
+      "es-ES": "Ars Magica (3ª Edición)",
+      "ca-ES": "Ars Magica (3ª Edició)"
+    },
+    "bgg_id": "1031"
+  },
+  {
+    "identifier": "ars-magica-4th-edition",
+    "name": "Ars Magica (4th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ars-magica",
+    "translations": {
+      "es-ES": "Ars Magica (4ª Edición)",
+      "ca-ES": "Ars Magica (4ª Edició)"
+    },
+    "bgg_id": "1043"
+  },
+  {
+    "identifier": "ars-magica-5th-edition",
+    "name": "Ars Magica (5th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ars-magica",
+    "translations": {
+      "es-ES": "Ars Magica (5ª Edición)",
+      "ca-ES": "Ars Magica (5ª Edició)"
+    },
+    "bgg_id": "1044"
+  },
+  {
+    "identifier": "avatar-legends-the-roleplaying-game",
+    "name": "Avatar Legends: The Roleplaying Game",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "avatar",
+    "translations": {
+      "es-ES": "Avatar Legends: El Juego de Rol",
+      "ca-ES": "Avatar Legends: El Joc de Rol"
+    },
+    "bgg_id": "71365"
+  },
+  {
+    "identifier": "beast-the-primordial",
+    "name": "Beast: The Primordial",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Beast: El Primordial",
+      "ca-ES": "Beast: El Primordial"
+    },
+    "bgg_id": "28781"
+  },
+  {
+    "identifier": "black-crusade",
+    "name": "Black Crusade",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Black Crusade",
+      "ca-ES": "Black Crusade"
+    },
+    "bgg_id": "9799"
+  },
+  {
+    "identifier": "blacksad",
+    "name": "Blacksad: Juego de Rol",
+    "rpg_system_id": "hitos",
+    "rpg_family_id": "blacksad",
+    "translations": {
+      "es-ES": "Blacksad: Juego de Rol",
+      "ca-ES": "Blacksad: Joc de Rol"
+    },
+    "bgg_id": "40929"
+  },
+  {
+    "identifier": "blade-runner-the-roleplaying-game",
+    "name": "Blade Runner: The Roleplaying Game",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "blade-runner",
+    "translations": {
+      "es-ES": "Blade Runner: El Juego de Rol",
+      "ca-ES": "Blade Runner: El Joc de Rol"
+    },
+    "bgg_id": "72483"
+  },
+  {
+    "identifier": "blood-and-honor",
+    "name": "Blood & Honor",
+    "rpg_system_id": "houses-of-the-blooded",
+    "rpg_family_id": "blood-and-honor",
+    "translations": {
+      "es-ES": "Sangre y Honor",
+      "ca-ES": "Sang i Honor"
+    },
+    "bgg_id": "5665"
+  },
+  {
+    "identifier": "bloodheist",
+    "name": "Bloodheist",
+    "rpg_system_id": null,
+    "rpg_family_id": "bloodheist",
+    "translations": {
+      "es-ES": "Botín de Sangre",
+      "ca-ES": "Botí de Sang"
+    }
+  },
+  {
+    "identifier": "brindlewood-bay",
+    "name": "Brindlewood Bay",
+    "rpg_system_id": "carved-from-brindlewood",
+    "rpg_family_id": "brindlewood-bay",
+    "translations": {
+      "es-ES": "Brindlewood Bay",
+      "ca-ES": "Brindlewood Bay"
+    },
+    "bgg_id": "79109"
+  },
+  {
+    "identifier": "broken-compass",
+    "name": "Broken Compass",
+    "rpg_system_id": "favored-by-fortune",
+    "rpg_family_id": "broken-compass",
+    "translations": {
+      "es-ES": "Broken Compass",
+      "ca-ES": "Broken Compass"
+    },
+    "bgg_id": "68793"
+  },
+  {
+    "identifier": "broken-tales",
+    "name": "Broken Tales",
+    "rpg_system_id": "monad-echo",
+    "rpg_family_id": "broken-tales",
+    "translations": {
+      "es-ES": "Broken Tales",
+      "ca-ES": "Broken Tales"
+    },
+    "bgg_id": "70540"
+  },
+  {
+    "identifier": "budo-hard-style-wushu",
+    "name": "Budo: Hard Style Wushu",
+    "rpg_system_id": "wushu-system",
+    "rpg_family_id": "wushu",
+    "translations": {
+      "es-ES": "Budo: Hard Style Wushu",
+      "ca-ES": "Budo: Hard Style Wushu"
+    },
+    "bgg_id": "2514"
+  },
+  {
+    "identifier": "call-of-catthulhu",
+    "name": "Call of Catthulhu",
+    "rpg_system_id": null,
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Cats of Catthulu",
+      "ca-ES": "Cats of Catthulu"
+    },
+    "bgg_id": "23600"
+  },
+  {
+    "identifier": "call-of-cthulhu-1st-edition",
+    "name": "Call of Cthulhu (1st Edition)",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "La Llamada de Cthulhu (1ª Edición)",
+      "ca-ES": "La Crida de Cthulhu (1ª Edició)"
+    },
+    "bgg_id": "347"
+  },
+  {
+    "identifier": "call-of-cthulhu-2nd-6th-editions",
+    "name": "Call of Cthulhu (2nd - 6th Editions)",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "La Llamada de Cthulhu (2ª - 6º Ediciones)",
+      "ca-ES": "La Crida de Cthulhu (2ª - 6º Edicions)"
+    },
+    "bgg_id": "310"
+  },
+  {
+    "identifier": "call-of-cthulhu-7th-edition",
+    "name": "Call of Cthulhu (7th Edition)",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "La Llamada de Cthulhu (7ª Edición)",
+      "ca-ES": "La Crida de Cthulhu (7ª Edició)"
+    },
+    "bgg_id": "23113"
+  },
+  {
+    "identifier": "call-of-cthulhu-d20",
+    "name": "Call of Cthulhu Roleplaying Game (d20)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "La Llamada de Cthulhu El Juego de Rol (d20)",
+      "ca-ES": "La Crida de Cthulhu El Joc de Rol (d20)"
+    },
+    "bgg_id": "909"
+  },
+  {
+    "identifier": "campeones-de-abora",
+    "name": "Campeones de Ábora",
+    "rpg_system_id": "sistema-heroico",
+    "rpg_family_id": "campeones",
+    "translations": {
+      "es-ES": "Campeones de Ábora",
+      "ca-ES": "Campeones de Ábora"
+    }
+  },
+  {
+    "identifier": "campeones-de-verne",
+    "name": "Campeones de Verne",
+    "rpg_system_id": "sistema-heroico",
+    "rpg_family_id": "campeones",
+    "translations": {
+      "es-ES": "Campeones de Verne",
+      "ca-ES": "Campeones de Verne"
+    },
+    "bgg_id": "42418"
+  },
+  {
+    "identifier": "castle-falkenstein",
+    "name": "Castle Falkenstein",
+    "rpg_system_id": null,
+    "rpg_family_id": "castle-falkenstein",
+    "translations": {
+      "es-ES": "Castillo de Falkenstein",
+      "ca-ES": "Castell de Falkenstein"
+    },
+    "bgg_id": "806"
+  },
+  {
+    "identifier": "caucho-y-cromo",
+    "name": "Caucho y Cromo",
+    "rpg_system_id": "roleina",
+    "rpg_family_id": "caucho-y-cromo",
+    "translations": {
+      "es-ES": "Caucho y Cromo",
+      "ca-ES": "Cautxú i Crom"
+    }
+  },
+  {
+    "identifier": "changeling-the-dreaming",
+    "name": "Changeling: The Dreaming",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Changeling: El Ensueño",
+      "ca-ES": "Changeling: L'Ensomiament"
+    },
+    "bgg_id": "426"
+  },
+  {
+    "identifier": "changeling-the-lost-1st-edition",
+    "name": "Changeling: The Lost (1st Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Changeling: Los Perdidos (1ª Edición)",
+      "ca-ES": "Changeling: Els Perduts (1ª Edició)"
+    },
+    "bgg_id": "3211"
+  },
+  {
+    "identifier": "changeling-the-lost-2nd-edition",
+    "name": "Changeling: The Lost (2nd Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Changeling: Los Perdidos (2ª Edición)",
+      "ca-ES": "Changeling: Els Perduts (2ª Edició)"
+    },
+    "bgg_id": "41477"
+  },
+  {
+    "identifier": "contratiempos",
+    "name": "Contratiempos",
+    "rpg_system_id": "sombra-system",
+    "rpg_family_id": "contratiempos",
+    "translations": {
+      "es-ES": "Contratiempos",
+      "ca-ES": "Contratemps"
+    }
+  },
+  {
+    "identifier": "cosmere-roleplaying-game",
+    "name": "Cosmere Roleplaying Game",
+    "rpg_system_id": "imperium-system",
+    "rpg_family_id": "cosmere",
+    "translations": {
+      "es-ES": "Cosmere El Juego de Rol",
+      "ca-ES": "Cosmere El Joc de Rol"
+    },
+    "bgg_id": "105324"
+  },
+  {
+    "identifier": "cuervos-de-asgard-motor-club",
+    "name": "Cuervos de Asgard Motor Club",
+    "rpg_system_id": "y-system",
+    "rpg_family_id": "cuervos-de-asgard-motor-club",
+    "translations": {
+      "es-ES": "Cuervos de Asgard Motor Club",
+      "ca-ES": "Cuervos de Asgard Motor Club"
+    },
+    "bgg_id": "111650"
+  },
+  {
+    "identifier": "cukicraft",
+    "name": "CukiCraft",
+    "rpg_system_id": "unisystem",
+    "rpg_family_id": "witchcraft",
+    "translations": {
+      "es-ES": "CukiCraft",
+      "ca-ES": "CukiCraft"
+    }
+  },
+  {
+    "identifier": "cultos-innombrables",
+    "name": "Cultos Innombrables",
+    "rpg_system_id": "hitos",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Cultos Innombrables",
+      "ca-ES": "Cultes Innomenables"
+    },
+    "bgg_id": "27017"
+  },
+  {
+    "identifier": "cybergeneration-1st-and-2nd-editions",
+    "name": "Cybergeneration (1st & 2nd Editions)",
+    "rpg_system_id": "interlock",
+    "rpg_family_id": "cyberpunk",
+    "translations": {
+      "es-ES": "Cybergeneration (1ª y 2ª Ediciones)",
+      "ca-ES": "Cybergeneration (1ª i 2ª Edicions)"
+    },
+    "bgg_id": "1337"
+  },
+  {
+    "identifier": "cyberpunk-2013",
+    "name": "Cyberpunk 2013",
+    "rpg_system_id": "interlock",
+    "rpg_family_id": "cyberpunk",
+    "translations": {
+      "es-ES": "Cyberpunk 2013",
+      "ca-ES": "Cyberpunk 2013"
+    },
+    "bgg_id": "336"
+  },
+  {
+    "identifier": "cyberpunk-2020",
+    "name": "Cyberpunk 2020",
+    "rpg_system_id": "interlock",
+    "rpg_family_id": "cyberpunk",
+    "translations": {
+      "es-ES": "Cyberpunk 2020",
+      "ca-ES": "Cyberpunk 2020"
+    },
+    "bgg_id": "337"
+  },
+  {
+    "identifier": "cyberpunk-red",
+    "name": "Cyberpunk RED",
+    "rpg_system_id": "interlock",
+    "rpg_family_id": "cyberpunk",
+    "translations": {
+      "es-ES": "Cyberpunk RED",
+      "ca-ES": "Cyberpunk RED"
+    },
+    "bgg_id": "57038"
+  },
+  {
+    "identifier": "cyberpunk-v30",
+    "name": "Cyberpunk V3.0",
+    "rpg_system_id": "fuzion",
+    "rpg_family_id": "cyberpunk",
+    "translations": {
+      "es-ES": "Cyberpunk V3.0",
+      "ca-ES": "Cyberpunk V3.0"
+    },
+    "bgg_id": "1430"
+  },
+  {
+    "identifier": "cy-borg",
+    "name": "CY_BORG",
+    "rpg_system_id": "mork-borg-system",
+    "rpg_family_id": "cy-borg",
+    "translations": {
+      "es-ES": "CY_BORG",
+      "ca-ES": "CY_BORG"
+    },
+    "bgg_id": "75812"
+  },
+  {
+    "identifier": "dark-heresy-1st-edition",
+    "name": "Dark Heresy (1st Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Dark Heresy (1ª Edición)",
+      "ca-ES": "Dark Heresy (1ª Edició)"
+    },
+    "bgg_id": "545"
+  },
+  {
+    "identifier": "dark-heresy-2nd-edition",
+    "name": "Dark Heresy (2nd Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Dark Heresy (2ª Edición)",
+      "ca-ES": "Dark Heresy (2ª Edició)"
+    },
+    "bgg_id": "22954"
+  },
+  {
+    "identifier": "deadlands-hell-on-earth",
+    "name": "Deadlands: Hell on Earth",
+    "rpg_system_id": "savage-worlds",
+    "rpg_family_id": "deadlands",
+    "translations": {
+      "es-ES": "Deadlands: El Infierno en la Tierra",
+      "ca-ES": "Deadlands: L'Infern a la Terra"
+    },
+    "bgg_id": "1313"
+  },
+  {
+    "identifier": "deadlands-lost-colony",
+    "name": "Deadlands: Lost Colony",
+    "rpg_system_id": "savage-worlds",
+    "rpg_family_id": "deadlands",
+    "translations": {
+      "es-ES": "Deadlands: Lost Colony (Colonia Perdida)",
+      "ca-ES": "Deadlands: Lost Colony (Colònia Perduda)"
+    },
+    "bgg_id": "3869"
+  },
+  {
+    "identifier": "deadlands-the-weird-west",
+    "name": "Deadlands: The Weird West",
+    "rpg_system_id": "savage-worlds",
+    "rpg_family_id": "deadlands",
+    "translations": {
+      "es-ES": "Deadlands: El Extraño Oeste",
+      "ca-ES": "Deadlands: L'Oest Estrany"
+    },
+    "bgg_id": "78185"
+  },
+  {
+    "identifier": "deathwatch",
+    "name": "Deathwatch",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Deathwatch (Guardianes de la Muerte)",
+      "ca-ES": "Deathwatch (Guardians de la Mort)"
+    },
+    "bgg_id": "72623"
+  },
+  {
+    "identifier": "delta-green",
+    "name": "Delta Green: The Role-Playing Game",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Delta Green: El Juego de Rol",
+      "ca-ES": "Delta Green: El Joc de Rol"
+    },
+    "bgg_id": "27917"
+  },
+  {
+    "identifier": "demon-the-descent",
+    "name": "Demon: The Descent",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Demon: El Descenso",
+      "ca-ES": "Demon: El Descens"
+    },
+    "bgg_id": "23233"
+  },
+  {
+    "identifier": "demon-the-fallen",
+    "name": "Demon: The Fallen",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Demonio: La Caída",
+      "ca-ES": "Dimoni: La Caiguda"
+    },
+    "bgg_id": "439"
+  },
+  {
+    "identifier": "deviant-the-renegades",
+    "name": "Deviant: The Renegades",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Deviant: Los Renegados",
+      "ca-ES": "Deviant: Els Renegats"
+    },
+    "bgg_id": "68027"
+  },
+  {
+    "identifier": "dinowest",
+    "name": "Dinowest",
+    "rpg_system_id": "roleina",
+    "rpg_family_id": "dinowest",
+    "translations": {
+      "es-ES": "Dinowest",
+      "ca-ES": "Dinowest"
+    }
+  },
+  {
+    "identifier": "dracula-vs-hitler",
+    "name": "Dracula vs Hitler",
+    "rpg_system_id": null,
+    "rpg_family_id": "dracula-vs-hitler",
+    "translations": {
+      "es-ES": "Drácula vs Hitler",
+      "ca-ES": "Dràcula vs Hitler"
+    }
+  },
+  {
+    "identifier": "dragonbane",
+    "name": "Dragonbane",
+    "rpg_system_id": "brp-system-d20",
+    "rpg_family_id": "dragonbane",
+    "translations": {
+      "es-ES": "Dragonbane",
+      "ca-ES": "Dragonbane"
+    },
+    "bgg_id": "100516"
+  },
+  {
+    "identifier": "dune-adventures-in-the-imperium",
+    "name": "Dune: Adventures in the Imperium",
+    "rpg_system_id": "2d20-system",
+    "rpg_family_id": "dune",
+    "translations": {
+      "es-ES": "Dune: Aventuras en el Imperio",
+      "ca-ES": "Dune: Aventures a l'Imperi"
+    },
+    "bgg_id": "69872"
+  },
+  {
+    "identifier": "dungeon-crawl-classics",
+    "name": "Dungeon Crawl Classics Role Playing Game",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "dungeon-crawl-classics",
+    "translations": {
+      "es-ES": "Clásicos del Mazmorreo Juego de Rol",
+      "ca-ES": "Clásicos del Mazmorreo Joc de Rol"
+    },
+    "bgg_id": "10737"
+  },
+  {
+    "identifier": "dungeons-and-dragons-3-5-edition",
+    "name": "Dungeons & Dragons (3.5 Edition)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Dungeons & Dragons (3.5 Edición)",
+      "ca-ES": "Dungeons & Dragons (3.5 Edició)"
+    },
+    "bgg_id": "243"
+  },
+  {
+    "identifier": "dungeons-and-dragons-3rd-edition",
+    "name": "Dungeons & Dragons (3rd Edition)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Dungeons & Dragons (3ª Edición)",
+      "ca-ES": "Dungeons & Dragons (3ª Edició)"
+    },
+    "bgg_id": "221"
+  },
+  {
+    "identifier": "dungeons-and-dragons-4th-edition",
+    "name": "Dungeons & Dragons (4th Edition)",
+    "rpg_system_id": "d-and-d-4e-game-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Dungeons & Dragons (4ª Edición)",
+      "ca-ES": "Dungeons & Dragons (4ª Edició)"
+    },
+    "bgg_id": "190"
+  },
+  {
+    "identifier": "dungeons-and-dragons-5th-edition",
+    "name": "Dungeons & Dragons (5th Edition)",
+    "rpg_system_id": "d-and-d-5e-game-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Dungeons & Dragons (5ª Edición)",
+      "ca-ES": "Dungeons & Dragons (5ª Edició)"
+    },
+    "bgg_id": "17181"
+  },
+  {
+    "identifier": "dungeons-and-dragons-original-edition",
+    "name": "Dungeons & Dragons (Original Edition)",
+    "rpg_system_id": "osr-system",
+    "rpg_family_id": "dungeons-and-dragons",
+    "translations": {
+      "es-ES": "Dungeons & Dragons (Edición Original)",
+      "ca-ES": "Dungeons & Dragons (Edició Original)"
+    },
+    "bgg_id": "390"
+  },
+  {
+    "identifier": "dungeon-world",
+    "name": "Dungeon World",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "dungeon-world",
+    "translations": {
+      "es-ES": "Dungeon World",
+      "ca-ES": "Dungeon World"
+    },
+    "bgg_id": "11105"
+  },
+  {
+    "identifier": "dyss-mitica-juego-de-rol",
+    "name": "Dyss Mítica Juego de Rol",
+    "rpg_system_id": null,
+    "rpg_family_id": "dyss-mitica",
+    "translations": {
+      "es-ES": "Dyss Mítica Juego de Rol",
+      "ca-ES": "Dyss Mítica Joc de Rol"
+    },
+    "bgg_id": "37578"
+  },
+  {
+    "identifier": "el-sueno-de-cthulhu",
+    "name": "El sueño de Cthulhu",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "El sueño de Cthulhu",
+      "ca-ES": "El somni de Cthulhu"
+    }
+  },
+  {
+    "identifier": "fanhunter",
+    "name": "Fanhunter: El juego de rol epicodecadente",
+    "rpg_system_id": null,
+    "rpg_family_id": "fanhunter",
+    "translations": {
+      "es-ES": "Fanhunter: El juego de rol epicodecadente",
+      "ca-ES": "Fanhunter: El joc de rol epicadecadent"
+    },
+    "bgg_id": "1551"
+  },
+  {
+    "identifier": "fate-accelerated",
+    "name": "Fate Accelerated",
+    "rpg_system_id": "fate-core",
+    "rpg_family_id": "fate",
+    "translations": {
+      "es-ES": "Fate Acelerado",
+      "ca-ES": "Fate Acelerat"
+    },
+    "bgg_id": "203"
+  },
+  {
+    "identifier": "fate-core",
+    "name": "Fate Core",
+    "rpg_system_id": "fate-core",
+    "rpg_family_id": "fate",
+    "translations": {
+      "es-ES": "Fate Básico",
+      "ca-ES": "Fate Bàsic"
+    },
+    "bgg_id": "203"
+  },
+  {
+    "identifier": "fear-itself",
+    "name": "Fear Itself",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "outer-dark",
+    "translations": {
+      "es-ES": "Fear Itself",
+      "ca-ES": "Fear Itself"
+    },
+    "bgg_id": "453"
+  },
+  {
+    "identifier": "feng-shui-1st-edition",
+    "name": "Feng Shui (1st Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "feng-shui",
+    "translations": {
+      "es-ES": "Feng Shui (1ª Edición)",
+      "ca-ES": "Feng Shui (1ª Edició)"
+    },
+    "bgg_id": "664"
+  },
+  {
+    "identifier": "feng-shui-2nd-edition",
+    "name": "Feng Shui (2nd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "feng-shui",
+    "translations": {
+      "es-ES": "Feng Shui (2ª Edición)",
+      "ca-ES": "Feng Shui (2ª Edició)"
+    },
+    "bgg_id": "27265"
+  },
+  {
+    "identifier": "fiasco",
+    "name": "Fiasco",
+    "rpg_system_id": null,
+    "rpg_family_id": "fiasco",
+    "translations": {
+      "es-ES": "Fiasco",
+      "ca-ES": "Fiasco"
+    },
+    "bgg_id": "57144"
+  },
+  {
+    "identifier": "fiasco-classic",
+    "name": "Fiasco Classic",
+    "rpg_system_id": null,
+    "rpg_family_id": "fiasco",
+    "translations": {
+      "es-ES": "Fiasco Clásico",
+      "ca-ES": "Fiasco Clàssic"
+    },
+    "bgg_id": "4279"
+  },
+  {
+    "identifier": "forbidden-lands",
+    "name": "Forbidden Lands",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "forbidden-lands",
+    "translations": {
+      "es-ES": "Forbidden Lands",
+      "ca-ES": "Forbidden Lands"
+    },
+    "bgg_id": "43641"
+  },
+  {
+    "identifier": "fragmentos",
+    "name": "Fragmentos",
+    "rpg_system_id": null,
+    "rpg_family_id": "fragmentos",
+    "translations": {
+      "es-ES": "Fragmentos",
+      "ca-ES": "Fragments"
+    },
+    "bgg_id": "25626"
+  },
+  {
+    "identifier": "geist-the-sin-eaters-1st-edition",
+    "name": "Geist: The Sin-Eaters (1st Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Geist: Los Come-pecados (1ª Edición)",
+      "ca-ES": "Geist: Els Menja-pecats (1ª Edició)"
+    },
+    "bgg_id": "3215"
+  },
+  {
+    "identifier": "geist-the-sin-eaters-2nd-edition",
+    "name": "Geist: The Sin-Eaters (2nd Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Geist: Los Come-pecados (2ª Edición)",
+      "ca-ES": "Geist: Els Menja-pecats (2ª Edició)"
+    },
+    "bgg_id": "60099"
+  },
+  {
+    "identifier": "genesys",
+    "name": "Genesys",
+    "rpg_system_id": "narrative-dice-system",
+    "rpg_family_id": "genesys",
+    "translations": {
+      "es-ES": "Genesys",
+      "ca-ES": "Genesys"
+    },
+    "bgg_id": "42342"
+  },
+  {
+    "identifier": "gurps-1st-and-2nd-editions",
+    "name": "GURPS (1st & 2nd Editions)",
+    "rpg_system_id": "gurps-system",
+    "rpg_family_id": "gurps",
+    "translations": {
+      "es-ES": "GURPS (1ª y 2ª Ediciones)",
+      "ca-ES": "GURPS (1ª i 2ª Edicions)"
+    },
+    "bgg_id": "891"
+  },
+  {
+    "identifier": "gurps-3rd-edition",
+    "name": "GURPS (3rd Edition)",
+    "rpg_system_id": "gurps-system",
+    "rpg_family_id": "gurps",
+    "translations": {
+      "es-ES": "GURPS (3ª Edición)",
+      "ca-ES": "GURPS (3ª Edició)"
+    },
+    "bgg_id": "201"
+  },
+  {
+    "identifier": "gurps-4th-edition",
+    "name": "GURPS (4th Edition)",
+    "rpg_system_id": "gurps-system",
+    "rpg_family_id": "gurps",
+    "translations": {
+      "es-ES": "GURPS (4ª Edición)",
+      "ca-ES": "GURPS (4ª Edició)"
+    },
+    "bgg_id": "332"
+  },
+  {
+    "identifier": "hardboiled",
+    "name": "Hardboiled",
+    "rpg_system_id": "the-maltese-falcon-system",
+    "rpg_family_id": "hardboiled",
+    "translations": {
+      "es-ES": "Hardboiled",
+      "ca-ES": "Hardboiled"
+    },
+    "bgg_id": "43531"
+  },
+  {
+    "identifier": "hero-kids",
+    "name": "Hero Kids",
+    "rpg_system_id": null,
+    "rpg_family_id": "hero-kids",
+    "translations": {
+      "es-ES": "Hero Kids",
+      "ca-ES": "Hero Kids"
+    },
+    "bgg_id": "20547"
+  },
+  {
+    "identifier": "hitos",
+    "name": "Hitos",
+    "rpg_system_id": "hitos",
+    "rpg_family_id": "hitos",
+    "translations": {
+      "es-ES": "Hitos",
+      "ca-ES": "Hitos"
+    },
+    "bgg_id": "27070"
+  },
+  {
+    "identifier": "horror-movie-world",
+    "name": "Horror Movie World",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "horror-movie-world",
+    "translations": {
+      "es-ES": "Horror Movie World",
+      "ca-ES": "Horror Movie World"
+    },
+    "bgg_id": "80409"
+  },
+  {
+    "identifier": "hunter-the-reckoning",
+    "name": "Hunter: The Reckoning",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Cazador: La Venganza",
+      "ca-ES": "Caçador: La Venjança"
+    },
+    "bgg_id": "427"
+  },
+  {
+    "identifier": "hunter-the-reckoning-5th-edition",
+    "name": "Hunter: The Reckoning (5th Edition)",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Cazador: La venganza (5ª Edición)",
+      "ca-ES": "Caçador: La Venjança (5ª Edició)"
+    },
+    "bgg_id": "77084"
+  },
+  {
+    "identifier": "hunter-the-vigil-1st-edition",
+    "name": "Hunter: The Vigil (1st Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Hunter: La Vigilia (1ª Edición)",
+      "ca-ES": "Hunter: La Vigília (1ª Edició)"
+    },
+    "bgg_id": "3204"
+  },
+  {
+    "identifier": "hunter-the-vigil-2nd-edition",
+    "name": "Hunter: The Vigil (2nd Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Hunter: La Vigilia (2ª Edición)",
+      "ca-ES": "Hunter: La Vigília (2ª Edició)"
+    },
+    "bgg_id": "76984"
+  },
+  {
+    "identifier": "imperium-maledictum",
+    "name": "Imperium Maledictum",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Imperium Maledictum",
+      "ca-ES": "Imperium Maledictum"
+    },
+    "bgg_id": "79258"
+  },
+  {
+    "identifier": "ink",
+    "name": "Ink",
+    "rpg_system_id": null,
+    "rpg_family_id": "ink",
+    "translations": {
+      "es-ES": "Tinta",
+      "ca-ES": "Tinta"
+    },
+    "bgg_id": "101226"
+  },
+  {
+    "identifier": "inocentes",
+    "name": "Inocentes",
+    "rpg_system_id": null,
+    "rpg_family_id": "inocentes",
+    "translations": {
+      "es-ES": "Inocentes",
+      "ca-ES": "Inocentes"
+    },
+    "bgg_id": "11600"
+  },
+  {
+    "identifier": "kids-on-bikes-1st-edition",
+    "name": "Kids on Bikes (1st Edition)",
+    "rpg_system_id": "kids-on-bikes",
+    "rpg_family_id": "kids-on-bikes",
+    "translations": {
+      "es-ES": "Kids on Bikes (1ª Edición)",
+      "ca-ES": "Kids on Bikes (1ª Edició)"
+    },
+    "bgg_id": "44855"
+  },
+  {
+    "identifier": "kids-on-bikes-2nd-edition",
+    "name": "Kids on Bikes (2nd Edition)",
+    "rpg_system_id": "kids-on-bikes",
+    "rpg_family_id": "kids-on-bikes",
+    "translations": {
+      "es-ES": "Kids on Bikes (2ª Edición)",
+      "ca-ES": "Kids on Bikes (2ª Edició)"
+    },
+    "bgg_id": "98627"
+  },
+  {
+    "identifier": "kult-1st-edition",
+    "name": "Kult (1st Edition)",
+    "rpg_system_id": "kult-system",
+    "rpg_family_id": "kult",
+    "translations": {
+      "es-ES": "Kult (1ª Edición)",
+      "ca-ES": "Kult (1ª Edició)"
+    },
+    "bgg_id": "971"
+  },
+  {
+    "identifier": "kult-2nd-edition",
+    "name": "Kult (2nd Edition)",
+    "rpg_system_id": "kult-system",
+    "rpg_family_id": "kult",
+    "translations": {
+      "es-ES": "Kult (2ª Edición)",
+      "ca-ES": "Kult (2ª Edició)"
+    },
+    "bgg_id": "983"
+  },
+  {
+    "identifier": "kult-3rd-edition",
+    "name": "Kult (3rd Edition)",
+    "rpg_system_id": "kult-system",
+    "rpg_family_id": "kult",
+    "translations": {
+      "es-ES": "Kult (3ª Edición)",
+      "ca-ES": "Kult (3ª Edició)"
+    },
+    "bgg_id": "973"
+  },
+  {
+    "identifier": "kult-divinity-lost-4th-edition",
+    "name": "Kult: Divinity Lost (4th Edition)",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "kult",
+    "translations": {
+      "es-ES": "Kult: Divinidad Perdida (4ª Edición)",
+      "ca-ES": "Kult: Divinitat Perduda (4ª Edició)"
+    },
+    "bgg_id": "28634"
+  },
+  {
+    "identifier": "la-puerta-de-ishtar",
+    "name": "La Puerta de Ishtar",
+    "rpg_system_id": "motor-de-emociones",
+    "rpg_family_id": "la-puerta-de-ishtar",
+    "translations": {
+      "es-ES": "La Puerta de Ishtar",
+      "ca-ES": "La Porta d'Ishtar"
+    },
+    "bgg_id": "20474"
+  },
+  {
+    "identifier": "legend-of-the-five-rings-1st-edition",
+    "name": "Legend of the Five Rings (1st Edition)",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "legend-of-the-five-rings",
+    "translations": {
+      "es-ES": "La Leyenda de los Cinco Anillos (1ª Edición)",
+      "ca-ES": "La Llegenda dels Cinc Anells (1ª Edició)"
+    },
+    "bgg_id": "963"
+  },
+  {
+    "identifier": "legend-of-the-five-rings-2nd-edition",
+    "name": "Legend of the Five Rings (2nd Edition)",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "legend-of-the-five-rings",
+    "translations": {
+      "es-ES": "La Leyenda de los Cinco Anillos (2ª Edición)",
+      "ca-ES": "La Llegenda dels Cinc Anells (2ª Edició)"
+    },
+    "bgg_id": "2486"
+  },
+  {
+    "identifier": "legend-of-the-five-rings-3rd-edition",
+    "name": "Legend of the Five Rings (3rd Edition)",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "legend-of-the-five-rings",
+    "translations": {
+      "es-ES": "La Leyenda de los Cinco Anillos (3ª Edición)",
+      "ca-ES": "La Llegenda dels Cinc Anells (3ª Edició)"
+    },
+    "bgg_id": "2435"
+  },
+  {
+    "identifier": "legend-of-the-five-rings-4th-edition",
+    "name": "Legend of the Five Rings (4th Edition)",
+    "rpg_system_id": "roll-and-keep",
+    "rpg_family_id": "legend-of-the-five-rings",
+    "translations": {
+      "es-ES": "La Leyenda de los Cinco Anillos (4ª Edición)",
+      "ca-ES": "La Llegenda dels Cinc Anells (4ª Edició)"
+    },
+    "bgg_id": "4996"
+  },
+  {
+    "identifier": "legend-of-the-five-rings-5th-edition",
+    "name": "Legend of the Five Rings (5th Edition)",
+    "rpg_system_id": "narrative-dice-system",
+    "rpg_family_id": "legend-of-the-five-rings",
+    "translations": {
+      "es-ES": "La Leyenda de los Cinco Anillos (5ª Edición)",
+      "ca-ES": "La Llegenda dels Cinc Anells (5ª Edició)"
+    },
+    "bgg_id": "44076"
+  },
+  {
+    "identifier": "liminal",
+    "name": "Liminal",
+    "rpg_system_id": null,
+    "rpg_family_id": "liminal",
+    "translations": {
+      "es-ES": "Liminal",
+      "ca-ES": "Liminal"
+    },
+    "bgg_id": "55047"
+  },
+  {
+    "identifier": "lord-of-the-rings-roleplaying-game",
+    "name": "The Lord of the Rings Roleplaying Game (Coda / Decipher)",
+    "rpg_system_id": "coda-system",
+    "rpg_family_id": "middle-earth",
+    "translations": {
+      "es-ES": "El Señor de los Anillos: El Juego de Rol (Coda / Decipher)",
+      "ca-ES": "El Senyor dels Anells: El Joc de Rol (Coda / Decipher)"
+    },
+    "bgg_id": "318"
+  },
+  {
+    "identifier": "luna-roja",
+    "name": "Luna Roja",
+    "rpg_system_id": "forged-in-the-dark",
+    "rpg_family_id": "luna-roja",
+    "translations": {
+      "es-ES": "Luna Roja",
+      "ca-ES": "Lluna Roja"
+    },
+    "bgg_id": "106797"
+  },
+  {
+    "identifier": "mage-the-ascension",
+    "name": "Mage: The Ascension",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Mago: La Ascensión",
+      "ca-ES": "Mag: L'Ascensió"
+    },
+    "bgg_id": "424"
+  },
+  {
+    "identifier": "mage-the-awakening",
+    "name": "Mage: The Awakening",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Mago: El Despertar",
+      "ca-ES": "Mag: El Despertar"
+    },
+    "bgg_id": "3205"
+  },
+  {
+    "identifier": "mage-the-sorcerers-crusade",
+    "name": "Mage: The Sorcerers Crusade",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Mago: La Cruzada",
+      "ca-ES": "Mag: La Croada"
+    },
+    "bgg_id": "759"
+  },
+  {
+    "identifier": "magissa-juego-de-rol-para-ninos",
+    "name": "Magissa. Juego de Rol para niños",
+    "rpg_system_id": null,
+    "rpg_family_id": "dyss-mitica",
+    "translations": {
+      "es-ES": "Magissa. Juego de Rol para niños",
+      "ca-ES": "Magissa. Joc de Rol per a nens"
+    },
+    "bgg_id": "37226"
+  },
+  {
+    "identifier": "maho-shojo",
+    "name": "Mahō Shōjo",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "maho-shojo",
+    "translations": {
+      "es-ES": "Mahō Shōjo",
+      "ca-ES": "Mahō Shōjo"
+    },
+    "bgg_id": "76020"
+  },
+  {
+    "identifier": "mausritter-sword-and-whiskers-role-playing",
+    "name": "Mausritter: Sword-and-Whiskers Role Playing",
+    "rpg_system_id": "osr-system",
+    "rpg_family_id": "mausritter",
+    "translations": {
+      "es-ES": "Mausritter: Juego de rol de Espadas y Bigotes",
+      "ca-ES": "Mausritter: Joc de rol d'Espases i Bigotis"
+    },
+    "bgg_id": "61196"
+  },
+  {
+    "identifier": "middle-earth-role-playing-1st-edition",
+    "name": "Middle-earth Role Playing (1st Edition)",
+    "rpg_system_id": "rolemaster-game-system",
+    "rpg_family_id": "middle-earth",
+    "translations": {
+      "es-ES": "El Señor de los Anillos: El Juego de Rol (MERP 1ª Edición)",
+      "ca-ES": "El Senyor dels Anells: El Joc de Rol (MERP 1ª Edició)"
+    },
+    "bgg_id": "284"
+  },
+  {
+    "identifier": "middle-earth-role-playing-2nd-edition",
+    "name": "Middle-earth Role Playing (2nd Edition)",
+    "rpg_system_id": "rolemaster-game-system",
+    "rpg_family_id": "middle-earth",
+    "translations": {
+      "es-ES": "El Señor de los Anillos: El Juego de Rol (MERP 2ª Edición)",
+      "ca-ES": "El Senyor dels Anells: El Joc de Rol (MERP 2ª Edició)"
+    },
+    "bgg_id": "284"
+  },
+  {
+    "identifier": "misery-and-misfortune",
+    "name": "Misèries i Malaurances",
+    "rpg_system_id": "bx-dnd",
+    "rpg_family_id": "misery-and-misfortune",
+    "translations": {
+      "es-ES": "Miserias y Desgracias",
+      "ca-ES": "Misèries i Malaurances"
+    }
+  },
+  {
+    "identifier": "monsterhearts-1st-and-2nd-editions",
+    "name": "Monsterhearts (1st & 2nd Editions)",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "monsterhearts",
+    "translations": {
+      "es-ES": "Monsterhearts (1ª & 2ª Edición)",
+      "ca-ES": "Monsterhearts (1ª & 2ª Edició)"
+    },
+    "bgg_id": "17173"
+  },
+  {
+    "identifier": "mork-borg",
+    "name": "Mörk Borg",
+    "rpg_system_id": "mork-borg-system",
+    "rpg_family_id": "mork-borg",
+    "translations": {
+      "es-ES": "Mörk Borg",
+      "ca-ES": "Mörk Borg"
+    },
+    "bgg_id": "56344"
+  },
+  {
+    "identifier": "mummy-the-curse",
+    "name": "Mummy: The Curse",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Mummy: La Maldición",
+      "ca-ES": "Mummy: La Maladicció"
+    },
+    "bgg_id": "21304"
+  },
+  {
+    "identifier": "mummy-the-resurrection",
+    "name": "Mummy: The Resurrection",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Momia: La Resurrección",
+      "ca-ES": "Mòmia: La Resurrecció"
+    },
+    "bgg_id": "57938"
+  },
+  {
+    "identifier": "musu-musu-musume",
+    "name": "Musu-Musu-Musume?!",
+    "rpg_system_id": null,
+    "rpg_family_id": "musu-musu-musume",
+    "translations": {
+      "es-ES": "Musu-Musu-Musume?!",
+      "ca-ES": "Musu-Musu-Musume?!"
+    },
+    "bgg_id": "37435"
+  },
+  {
+    "identifier": "mutant-year-zero",
+    "name": "Mutant: Year Zero",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "mutant-year-zero",
+    "translations": {
+      "es-ES": "Mutant: Year Zero",
+      "ca-ES": "Mutant: Year Zero"
+    },
+    "bgg_id": "24631"
+  },
+  {
+    "identifier": "nights-black-agents",
+    "name": "Night's Black Agents",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "nights-black-agents",
+    "translations": {
+      "es-ES": "Agentes de la Noche",
+      "ca-ES": "Agents de la Nit"
+    },
+    "bgg_id": "11202"
+  },
+  {
+    "identifier": "old-school-essentials",
+    "name": "Old-School Essentials Retro Adventure Game",
+    "rpg_system_id": "bx-dnd",
+    "rpg_family_id": "old-school-essentials",
+    "translations": {
+      "es-ES": "Old-School Essentials Juego de Aventuras Retro",
+      "ca-ES": "Old-School Essentials Joc d'Aventures Retro"
+    },
+    "bgg_id": "58009"
+  },
+  {
+    "identifier": "paranoia-1st-edition",
+    "name": "Paranoia (1st Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia (1ª Edición)",
+      "ca-ES": "Paranoia (1ª Edició)"
+    },
+    "bgg_id": "374"
+  },
+  {
+    "identifier": "paranoia-25th-anniversary",
+    "name": "Paranoia 25th Anniversary",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia 25 Aniversario",
+      "ca-ES": "Paranoia 25è Aniversari"
+    },
+    "bgg_id": "1852"
+  },
+  {
+    "identifier": "paranoia-2nd-edition",
+    "name": "Paranoia (2nd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia (2ª Edición)",
+      "ca-ES": "Paranoia (2ª Edició)"
+    },
+    "bgg_id": "375"
+  },
+  {
+    "identifier": "paranoia-5th-edition",
+    "name": "Paranoia (5th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia (5ª Edición)",
+      "ca-ES": "Paranoia (5ª Edició)"
+    },
+    "bgg_id": "2105"
+  },
+  {
+    "identifier": "paranoia-mongoose-edition",
+    "name": "Paranoia (Mongoose Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia (Edición Mongoose)",
+      "ca-ES": "Paranoia (Edició Mongoose)"
+    },
+    "bgg_id": "1851"
+  },
+  {
+    "identifier": "paranoia-perfect-edition",
+    "name": "Paranoia Perfect Edition",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia Edición Perfecta",
+      "ca-ES": "Paranoia Edició Perfecta"
+    },
+    "bgg_id": "78688"
+  },
+  {
+    "identifier": "paranoia-rebooted",
+    "name": "Paranoia (Rebooted)",
+    "rpg_system_id": null,
+    "rpg_family_id": "paranoia",
+    "translations": {
+      "es-ES": "Paranoia (Rebooted)",
+      "ca-ES": "Paranoia (Rebooted)"
+    },
+    "bgg_id": "1852"
+  },
+  {
+    "identifier": "pathfinder-1st-edition",
+    "name": "Pathfinder Roleplaying Game (1st Edition)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "pathfinder",
+    "translations": {
+      "es-ES": "Pathfinder Juego de Rol (1ª Edición)",
+      "ca-ES": "Pathfinder Joc de Rol (1ª Edició)"
+    },
+    "bgg_id": "1627"
+  },
+  {
+    "identifier": "pathfinder-2nd-edition",
+    "name": "Pathfinder Roleplaying Game (2nd Edition)",
+    "rpg_system_id": "pathfinder-system",
+    "rpg_family_id": "pathfinder",
+    "translations": {
+      "es-ES": "Pathfinder Juego de Rol (2ª Edición)",
+      "ca-ES": "Pathfinder Joc de Rol (2ª Edició)"
+    },
+    "bgg_id": "56388"
+  },
+  {
+    "identifier": "pendragon-1st-6th-editions",
+    "name": "Pendragon",
+    "rpg_system_id": "brp-system-d20",
+    "rpg_family_id": "pendragon",
+    "translations": {
+      "es-ES": "Pendragón",
+      "ca-ES": "Pendragón"
+    },
+    "bgg_id": "317"
+  },
+  {
+    "identifier": "perils-and-princesses",
+    "name": "Perils & Princesses",
+    "rpg_system_id": null,
+    "rpg_family_id": "perils-and-princesses",
+    "translations": {
+      "es-ES": "Perils & Princesses",
+      "ca-ES": "Perils & Princesses"
+    },
+    "bgg_id": "101287"
+  },
+  {
+    "identifier": "promethean-the-created",
+    "name": "Promethean: The Created",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Promethean: Los Creados",
+      "ca-ES": "Promethean: Els Creats"
+    },
+    "bgg_id": "3214"
+  },
+  {
+    "identifier": "ragnarok-primera-edicion",
+    "name": "Ragnarok (1st Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ragnarok",
+    "translations": {
+      "es-ES": "Ragnarok (1ª Edición)",
+      "ca-ES": "Ragnarok (1ª Edició)"
+    },
+    "bgg_id": "2124"
+  },
+  {
+    "identifier": "ragnarok-segunda-edicion",
+    "name": "Ragnarok (2nd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ragnarok",
+    "translations": {
+      "es-ES": "Ragnarok (2ª Edición)",
+      "ca-ES": "Ragnarok (2ª Edició)"
+    },
+    "bgg_id": "2124"
+  },
+  {
+    "identifier": "ragnarok-tercera-edicion",
+    "name": "Ragnarok (3rd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "ragnarok",
+    "translations": {
+      "es-ES": "Ragnarok (3ª Edición)",
+      "ca-ES": "Ragnarok (3ª Edició)"
+    },
+    "bgg_id": "2124"
+  },
+  {
+    "identifier": "rats-in-the-walls",
+    "name": "Rats in the Walls",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "Ratas en las Paredes",
+      "ca-ES": "Rates a les Parets"
+    },
+    "bgg_id": "47301"
+  },
+  {
+    "identifier": "reflejo",
+    "name": "Reflejo",
+    "rpg_system_id": null,
+    "rpg_family_id": "reflejo",
+    "translations": {
+      "es-ES": "Reflejo",
+      "ca-ES": "Reflejo"
+    }
+  },
+  {
+    "identifier": "robotta",
+    "name": "Robotta - Humanidad Perdida",
+    "rpg_system_id": "motor-de-emociones",
+    "rpg_family_id": "robotta",
+    "translations": {
+      "es-ES": "Robotta - Humanidad Perdida",
+      "ca-ES": "Robotta - Humanitat Perduda"
+    },
+    "bgg_id": "76084"
+  },
+  {
+    "identifier": "root-the-roleplaying-game",
+    "name": "Root: The Roleplaying Game",
+    "rpg_system_id": "powered-by-the-apocalypse",
+    "rpg_family_id": "root",
+    "translations": {
+      "es-ES": "Root: El Juego de Rol",
+      "ca-ES": "Root: El Joc de Rol"
+    },
+    "bgg_id": "57447"
+  },
+  {
+    "identifier": "runecairn",
+    "name": "Runecairn",
+    "rpg_system_id": null,
+    "rpg_family_id": "runecairn",
+    "translations": {
+      "es-ES": "Runecairn",
+      "ca-ES": "Runecairn"
+    }
+  },
+  {
+    "identifier": "runequest-roleplaying-in-glorantha",
+    "name": "RuneQuest: Roleplaying in Glorantha",
+    "rpg_system_id": "brp-system-d100",
+    "rpg_family_id": "runequest",
+    "translations": {
+      "es-ES": "RuneQuest: Aventuras en Glorantha",
+      "ca-ES": "RuneQuest: Aventures a Glorantha"
+    },
+    "bgg_id": "42185"
+  },
+  {
+    "identifier": "ryuutama",
+    "name": "Ryuutama",
+    "rpg_system_id": null,
+    "rpg_family_id": "ryuutama",
+    "translations": {
+      "es-ES": "Ryuutama: Juego de Rol de Fantasía Natural",
+      "ca-ES": "Ryuutama: Joc de Rol de Fantasia Natural"
+    },
+    "bgg_id": "24136"
+  },
+  {
+    "identifier": "savage-worlds-adventure-edition",
+    "name": "Savage Worlds Adventure Edition (SWADE)",
+    "rpg_system_id": "savage-worlds",
+    "rpg_family_id": "savage-worlds",
+    "translations": {
+      "es-ES": "Savage Worlds Edición Aventura",
+      "ca-ES": "Savage Worlds Edició Aventura"
+    },
+    "bgg_id": "78185"
+  },
+  {
+    "identifier": "savage-worlds-deluxe-edition",
+    "name": "Savage Worlds Deluxe Edition",
+    "rpg_system_id": "savage-worlds",
+    "rpg_family_id": "savage-worlds",
+    "translations": {
+      "es-ES": "Savage Worlds Edición Deluxe",
+      "ca-ES": "Savage Worlds Edició Deluxe"
+    },
+    "bgg_id": "286"
+  },
+  {
+    "identifier": "scheherazade-the-one-thousand-and-one-nights-rpg",
+    "name": "Scheherazade: The One Thousand and One Nights RPG",
+    "rpg_system_id": null,
+    "rpg_family_id": "scheherazade",
+    "translations": {
+      "es-ES": "Scheherezade: El juego de rol de las Mil y Una Noches",
+      "ca-ES": "Scheherezade: El joc de rol de les Mil i Una Nits"
+    },
+    "bgg_id": "59683"
+  },
+  {
+    "identifier": "scurry",
+    "name": "Scurry",
+    "rpg_system_id": null,
+    "rpg_family_id": "scurry",
+    "translations": {
+      "es-ES": "¡A la carrera!",
+      "ca-ES": "¡A la carrera!"
+    },
+    "bgg_id": "77353"
+  },
+  {
+    "identifier": "seapunk-unleashed",
+    "name": "Seapunk Unleashed",
+    "rpg_system_id": null,
+    "rpg_family_id": "seapunk-unleashed",
+    "translations": {
+      "es-ES": "Seapunk Unleashed",
+      "ca-ES": "Seapunk Unleashed"
+    },
+    "bgg_id": "99139"
+  },
+  {
+    "identifier": "shadowrun-1st-edition",
+    "name": "Shadowrun (1st Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun (1ª Edición)",
+      "ca-ES": "Shadowrun (1ª Edició)"
+    },
+    "bgg_id": "917"
+  },
+  {
+    "identifier": "shadowrun-2nd-edition",
+    "name": "Shadowrun (2nd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun (2ª Edición)",
+      "ca-ES": "Shadowrun (2ª Edició)"
+    },
+    "bgg_id": "417"
+  },
+  {
+    "identifier": "shadowrun-3rd-edition",
+    "name": "Shadowrun (3rd Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun (3ª Edición)",
+      "ca-ES": "Shadowrun (3ª Edició)"
+    },
+    "bgg_id": "916"
+  },
+  {
+    "identifier": "shadowrun-4th-edition",
+    "name": "Shadowrun (4th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun (4ª Edición)",
+      "ca-ES": "Shadowrun (4ª Edició)"
+    },
+    "bgg_id": "312"
+  },
+  {
+    "identifier": "shadowrun-5th-edition",
+    "name": "Shadowrun (5th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun (5ª Edición)",
+      "ca-ES": "Shadowrun (5ª Edició)"
+    },
+    "bgg_id": "21069"
+  },
+  {
+    "identifier": "shadowrun-anarchy-1st-edition",
+    "name": "Shadowrun: Anarchy (1st Edition)",
+    "rpg_system_id": "cue-system",
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun: Anarchy (1ª Edición)",
+      "ca-ES": "Shadowrun: Anarchy (1ª Edició)"
+    },
+    "bgg_id": "37889"
+  },
+  {
+    "identifier": "shadowrun-anarchy-2nd-edition",
+    "name": "Shadowrun: Anarchy (2nd Edition)",
+    "rpg_system_id": "cue-system",
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun: Anarchy (2ª Edición)",
+      "ca-ES": "Shadowrun: Anarchy (2ª Edició)"
+    },
+    "bgg_id": "112921"
+  },
+  {
+    "identifier": "shadowrun-sixth-world-6th-edition",
+    "name": "Shadowrun: Sixth World (6th Edition)",
+    "rpg_system_id": null,
+    "rpg_family_id": "shadowrun",
+    "translations": {
+      "es-ES": "Shadowrun: El Sexto Mundo (6ª Edición)",
+      "ca-ES": "Shadowrun: El Sisè Món (6ª Edició)"
+    },
+    "bgg_id": "56248"
+  },
+  {
+    "identifier": "shinobigami",
+    "name": "Shinobigami",
+    "rpg_system_id": null,
+    "rpg_family_id": "shinobigami",
+    "translations": {
+      "es-ES": "Shinobigami",
+      "ca-ES": "Shinobigami"
+    },
+    "bgg_id": "28863"
+  },
+  {
+    "identifier": "starfinder-1st-edition",
+    "name": "Starfinder Roleplaying Game (1st Edition)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "starfinder",
+    "translations": {
+      "es-ES": "Starfinder El Juego de Rol (1ª Edición)",
+      "ca-ES": "Starfinder El Joc de Rol (1ª Edició)"
+    },
+    "bgg_id": "41351"
+  },
+  {
+    "identifier": "star-trek-adventures-1st-edition",
+    "name": "Star Trek Adventures (1st Edition)",
+    "rpg_system_id": "2d20-system",
+    "rpg_family_id": "star-trek",
+    "translations": {
+      "es-ES": "Star Trek Adventures (1ª Edición)",
+      "ca-ES": "Star Trek Adventures (1ª Edició)"
+    },
+    "bgg_id": "37049"
+  },
+  {
+    "identifier": "star-trek-adventures-2nd-edition",
+    "name": "Star Trek Adventures (2nd Edition)",
+    "rpg_system_id": "2d20-system",
+    "rpg_family_id": "star-trek",
+    "translations": {
+      "es-ES": "Star Trek Adventures (2ª Edición)",
+      "ca-ES": "Star Trek Adventures (2ª Edició)"
+    },
+    "bgg_id": "103521"
+  },
+  {
+    "identifier": "star-wars-age-of-rebellion",
+    "name": "Star Wars: Age of Rebellion",
+    "rpg_system_id": "narrative-dice-system",
+    "rpg_family_id": "star-wars",
+    "translations": {
+      "es-ES": "Star Wars: La Era de la Rebelión",
+      "ca-ES": "Star Wars: L'Era de la Rebel·lió"
+    },
+    "bgg_id": "23396"
+  },
+  {
+    "identifier": "star-wars-wotc-original-edition",
+    "name": "Star Wars: Roleplaying Game (WotC)",
+    "rpg_system_id": "d20-system",
+    "rpg_family_id": "star-wars",
+    "translations": {
+      "es-ES": "Star Wars: El Juego de Rol (WotC)",
+      "ca-ES": "Star Wars: El Joc de Rol (WotC)"
+    },
+    "bgg_id": "937"
+  },
+  {
+    "identifier": "swords-of-the-serpentine",
+    "name": "Swords of the Serpentine",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "swords-of-the-serpentine",
+    "translations": {
+      "es-ES": "Espadas del Serpentino",
+      "ca-ES": "Espases del Serpentí"
+    },
+    "bgg_id": "63336"
+  },
+  {
+    "identifier": "tales-from-the-loop",
+    "name": "Tales from the Loop",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "tales-from-the-loop",
+    "translations": {
+      "es-ES": "Historias del Bucle",
+      "ca-ES": "Històries del Bucle"
+    },
+    "bgg_id": "40891"
+  },
+  {
+    "identifier": "the-dee-sanction",
+    "name": "The Dee Sanction",
+    "rpg_system_id": null,
+    "rpg_family_id": "the-dee-sanction",
+    "translations": {
+      "es-ES": "The Dee Sanction",
+      "ca-ES": "The Dee Sanction"
+    },
+    "bgg_id": "69538"
+  },
+  {
+    "identifier": "the-dresden-files-roleplaying-game",
+    "name": "The Dresden Files Roleplaying Game",
+    "rpg_system_id": "fate-3",
+    "rpg_family_id": "the-dresden-files",
+    "translations": {
+      "es-ES": "The Dresden Files Juego de Rol",
+      "ca-ES": "The Dresden Files Joc de Rol"
+    },
+    "bgg_id": "3717"
+  },
+  {
+    "identifier": "the-esoterrorists",
+    "name": "The Esoterrorists",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "outer-dark",
+    "translations": {
+      "es-ES": "Los Esoterroristas",
+      "ca-ES": "Els Esoterroristes"
+    },
+    "bgg_id": "450"
+  },
+  {
+    "identifier": "the-fall-of-delta-green",
+    "name": "The Fall of Delta Green",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "La Caída De Delta Green",
+      "ca-ES": "La Caiguda De Delta Green"
+    },
+    "bgg_id": "49003"
+  },
+  {
+    "identifier": "the-flux",
+    "name": "The Flux",
+    "rpg_system_id": null,
+    "rpg_family_id": "the-flux",
+    "translations": {
+      "es-ES": "The Flux",
+      "ca-ES": "The Flux"
+    },
+    "bgg_id": "9516"
+  },
+  {
+    "identifier": "the-one-ring-1st-edition",
+    "name": "The One Ring (1st Edition)",
+    "rpg_system_id": "the-one-ring-system",
+    "rpg_family_id": "middle-earth",
+    "translations": {
+      "es-ES": "El Anillo Único (1ª Edición)",
+      "ca-ES": "L'Anell Únic (1ª Edició)"
+    },
+    "bgg_id": "4395"
+  },
+  {
+    "identifier": "the-one-ring-2nd-edition",
+    "name": "The One Ring (2nd Edition)",
+    "rpg_system_id": "the-one-ring-system",
+    "rpg_family_id": "middle-earth",
+    "translations": {
+      "es-ES": "El Anillo Único (2ª Edición)",
+      "ca-ES": "L'Anell Únic (2ª Edició)"
+    },
+    "bgg_id": "72513"
+  },
+  {
+    "identifier": "the-walking-dead-universe",
+    "name": "The Walking Dead Universe",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "the-walking-dead",
+    "translations": {
+      "es-ES": "The Walking Dead Universe",
+      "ca-ES": "The Walking Dead Universe"
+    },
+    "bgg_id": "80230"
+  },
+  {
+    "identifier": "the-yellow-king",
+    "name": "The Yellow King",
+    "rpg_system_id": "quickshock-gumshoe",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "El Rey de Amarillo",
+      "ca-ES": "El Rei Groc"
+    },
+    "bgg_id": "42722"
+  },
+  {
+    "identifier": "tierras-quebradas-aventuras-entre-la-ley-y-el-caos",
+    "name": "Tierras Quebradas: Aventuras entre la Ley y el Caos",
+    "rpg_system_id": null,
+    "rpg_family_id": "tierras-quebradas",
+    "translations": {
+      "es-ES": "Tierras Quebradas: Aventuras entre la Ley y el Caos",
+      "ca-ES": "Terres Trencades: Aventures entre la Llei i el Caos"
+    },
+    "bgg_id": "73119"
+  },
+  {
+    "identifier": "trail-of-cthulhu",
+    "name": "Trail of Cthulhu",
+    "rpg_system_id": "gumshoe",
+    "rpg_family_id": "cthulhu-mythos",
+    "translations": {
+      "es-ES": "El Rastro de Cthulhu",
+      "ca-ES": "El Rastre de Cthulhu"
+    },
+    "bgg_id": "452"
+  },
+  {
+    "identifier": "trophy-dark",
+    "name": "Trophy Dark",
+    "rpg_system_id": "rooted-in-trophy",
+    "rpg_family_id": "trophy",
+    "translations": {
+      "es-ES": "Trophy Dark",
+      "ca-ES": "Trophy Dark"
+    },
+    "bgg_id": "57481"
+  },
+  {
+    "identifier": "trophy-gold",
+    "name": "Trophy Gold",
+    "rpg_system_id": "rooted-in-trophy",
+    "rpg_family_id": "trophy",
+    "translations": {
+      "es-ES": "Trophy Gold",
+      "ca-ES": "Trophy Gold"
+    },
+    "bgg_id": "59711"
+  },
+  {
+    "identifier": "untitled-goose-gang",
+    "name": "Untitled Goose Gang",
+    "rpg_system_id": null,
+    "rpg_family_id": "untitled-goose-gang",
+    "translations": {
+      "es-ES": "Untitled Goose Gang (La Banda de los Gansos)",
+      "ca-ES": "Untitled Goose Gang (La Banda de les Oques)"
+    },
+    "bgg_id": "109257"
+  },
+  {
+    "identifier": "vaesen",
+    "name": "Vaesen",
+    "rpg_system_id": "year-zero-engine",
+    "rpg_family_id": "vaesen",
+    "translations": {
+      "es-ES": "Vaesen",
+      "ca-ES": "Vaesen"
+    },
+    "bgg_id": "59583"
+  },
+  {
+    "identifier": "vampire-the-dark-ages",
+    "name": "Vampire: The Dark Ages",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Vampiro: Edad Oscura",
+      "ca-ES": "Vampire: Edat Fosca"
+    },
+    "bgg_id": "386"
+  },
+  {
+    "identifier": "vampire-the-masquerade",
+    "name": "Vampire: The Masquerade",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Vampiro: La Mascarada",
+      "ca-ES": "Vampire: La Mascarada"
+    },
+    "bgg_id": "421"
+  },
+  {
+    "identifier": "vampire-the-masquerade-5th-edition",
+    "name": "Vampire: The Masquerade (5th Edition)",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Vampiro: La Mascarada (5ª Edición)",
+      "ca-ES": "Vampire: La Mascarada (5ª Edició)"
+    },
+    "bgg_id": "48533"
+  },
+  {
+    "identifier": "vampire-the-requiem-1st-edition",
+    "name": "Vampire: The Requiem (1st Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Vampiro: El Requiem (1ª Edición)",
+      "ca-ES": "Vampire: El Rèquiem (1ª Edició)"
+    },
+    "bgg_id": "3206"
+  },
+  {
+    "identifier": "vampire-the-requiem-2nd-edition",
+    "name": "Vampire: The Requiem (2nd Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Vampiro: El Requiem (2ª Edición)",
+      "ca-ES": "Vampire: El Rèquiem (2ª Edició)"
+    },
+    "bgg_id": "41478"
+  },
+  {
+    "identifier": "viking-death-squad",
+    "name": "Viking Death Squad",
+    "rpg_system_id": "icrpg-system",
+    "rpg_family_id": "viking-death-squad",
+    "translations": {
+      "es-ES": "Viking Death Squad",
+      "ca-ES": "Viking Death Squad"
+    },
+    "bgg_id": "72545"
+  },
+  {
+    "identifier": "warhammer-fantasy-roleplay-1st-edition",
+    "name": "Warhammer Fantasy Roleplay (1st Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-fantasy",
+    "translations": {
+      "es-ES": "Warhammer Fantasy El Juego de Rol (1ª Edición)",
+      "ca-ES": "Warhammer Fantasy El Joc de Rol (1ª Edició)"
+    },
+    "bgg_id": "275"
+  },
+  {
+    "identifier": "warhammer-fantasy-roleplay-2nd-edition",
+    "name": "Warhammer Fantasy Roleplay (2nd Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-fantasy",
+    "translations": {
+      "es-ES": "Warhammer Fantasy El Juego de Rol (2ª Edición)",
+      "ca-ES": "Warhammer Fantasy El Joc de Rol (2ª Edició)"
+    },
+    "bgg_id": "276"
+  },
+  {
+    "identifier": "warhammer-fantasy-roleplay-3rd-edition",
+    "name": "Warhammer Fantasy Roleplay (3rd Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-fantasy",
+    "translations": {
+      "es-ES": "Warhammer Fantasy El Juego de Rol (3ª Edición)",
+      "ca-ES": "Warhammer Fantasy El Joc de Rol (3ª Edició)"
+    },
+    "bgg_id": "2775"
+  },
+  {
+    "identifier": "warhammer-fantasy-roleplay-4th-edition",
+    "name": "Warhammer Fantasy Roleplay (4th Edition)",
+    "rpg_system_id": "warhammer-system",
+    "rpg_family_id": "warhammer-fantasy",
+    "translations": {
+      "es-ES": "Warhammer Fantasy El Juego de Rol (4ª Edición)",
+      "ca-ES": "Warhammer Fantasy El Joc de Rol (4ª Edició)"
+    },
+    "bgg_id": "45637"
+  },
+  {
+    "identifier": "werewolf-the-apocalypse",
+    "name": "Werewolf: The Apocalypse",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Hombre Lobo: El Apocalipsis",
+      "ca-ES": "Home Llop: L'Apocalipsi"
+    },
+    "bgg_id": "370"
+  },
+  {
+    "identifier": "werewolf-the-apocalypse-5th-edition",
+    "name": "Werewolf: The Apocalypse (5th Edition)",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Hombre Lobo: El Apocalipsis (5ª Edición)",
+      "ca-ES": "Home Llop: L'Apocalipsi (5ª Edició)"
+    },
+    "bgg_id": "81547"
+  },
+  {
+    "identifier": "werewolf-the-forsaken-1st-edition",
+    "name": "Werewolf: The Forsaken (1st Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Werewolf: Los Desamparados (1ª Edición)",
+      "ca-ES": "Werewolf: Els Desamparats (1ª Edició)"
+    },
+    "bgg_id": "3207"
+  },
+  {
+    "identifier": "werewolf-the-forsaken-2nd-edition",
+    "name": "Werewolf: The Forsaken (2nd Edition)",
+    "rpg_system_id": "storytelling-system",
+    "rpg_family_id": "chronicles-of-darkness",
+    "translations": {
+      "es-ES": "Werewolf: Los Desamparados (2ª Edición)",
+      "ca-ES": "Werewolf: Els Desamparats (2ª Edició)"
+    },
+    "bgg_id": "55685"
+  },
+  {
+    "identifier": "werewolf-the-wild-west",
+    "name": "Werewolf: The Wild West",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Werewolf: The Wild West",
+      "ca-ES": "Werewolf: The Wild West"
+    },
+    "bgg_id": "474"
+  },
+  {
+    "identifier": "witchcraft",
+    "name": "WitchCraft",
+    "rpg_system_id": "unisystem",
+    "rpg_family_id": "witchcraft",
+    "translations": {
+      "es-ES": "WitchCraft",
+      "ca-ES": "WitchCraft"
+    },
+    "bgg_id": "1153"
+  },
+  {
+    "identifier": "wraith-the-oblivion",
+    "name": "Wraith: The Oblivion",
+    "rpg_system_id": "storyteller-system",
+    "rpg_family_id": "world-of-darkness",
+    "translations": {
+      "es-ES": "Wraith: El Olvido",
+      "ca-ES": "Wraith: L'Oblidament"
+    },
+    "bgg_id": "425"
+  },
+  {
+    "identifier": "wrath-and-glory",
+    "name": "Wrath & Glory",
+    "rpg_system_id": null,
+    "rpg_family_id": "warhammer-40000",
+    "translations": {
+      "es-ES": "Wrath & Glory (Warhammer 40,000)",
+      "ca-ES": "Wrath & Glory (Warhammer 40,000)"
+    },
+    "bgg_id": "43522"
+  },
+  {
+    "identifier": "wushu-black-belt-edition",
+    "name": "Wushu Black Belt Edition",
+    "rpg_system_id": "wushu-system",
+    "rpg_family_id": "wushu",
+    "translations": {
+      "es-ES": "Wushu Black Belt Edition",
+      "ca-ES": "Wushu Black Belt Edition"
+    },
+    "bgg_id": "40987"
+  },
+  {
+    "identifier": "wushu-open",
+    "name": "Wushu Open",
+    "rpg_system_id": "wushu-system",
+    "rpg_family_id": "wushu",
+    "translations": {
+      "es-ES": "Wushu Open",
+      "ca-ES": "Wushu Open"
+    },
+    "bgg_id": "2534"
+  },
+  {
+    "identifier": "wushu-open-reloaded",
+    "name": "Wushu Open Reloaded",
+    "rpg_system_id": "wushu-system",
+    "rpg_family_id": "wushu",
+    "translations": {
+      "es-ES": "Wushu Open Reloaded",
+      "ca-ES": "Wushu Open Reloaded"
+    },
+    "bgg_id": "22497"
+  },
+  {
+    "identifier": "yggdrasill",
+    "name": "Yggdrasill",
+    "rpg_system_id": null,
+    "rpg_family_id": "yggdrasill",
+    "translations": {
+      "es-ES": "Yggdrasill",
+      "ca-ES": "Yggdrasill"
+    },
+    "bgg_id": "7918"
+  },
+  {
+    "identifier": "yuuyake-koyake",
+    "name": "Golden Sky Stories: Heart-Warming Role-Playing",
+    "rpg_system_id": null,
+    "rpg_family_id": "yuuyake-koyake",
+    "translations": {
+      "es-ES": "Historias del Cielo Dorado: Juego de Rol Reconfortante",
+      "ca-ES": "Històries del Cel Daurat: Joc de Rol Reconfortant"
+    },
+    "bgg_id": "2428"
+  },
+  {
+    "identifier": "zombicide-chronicles",
+    "name": "Zombicide: Chronicles",
+    "rpg_system_id": null,
+    "rpg_family_id": "zombicide",
+    "translations": {
+      "es-ES": "Zombicide: Chronicles",
+      "ca-ES": "Zombicide: Chronicles"
+    },
+    "bgg_id": "70455"
+  }
+]

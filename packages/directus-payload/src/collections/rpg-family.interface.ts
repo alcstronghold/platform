@@ -4,5 +4,5 @@ export interface RpgFamilyPayload {
   identifier: string;
   name: string;
   translations: Record<LanguageCodes, string>;
-  settings: string[]; // Array of setting identifiers
+  settings: Array<string>; // Array of setting identifiers
 }

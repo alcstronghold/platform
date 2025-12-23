@@ -57,7 +57,14 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
   - [x] schema-export - Exportar schema a JSON
   - [x] schema-import - Importar schema con diff detection
   - [x] schema-clear - Borrar colecciones custom
+- [x] **Backup & Restore CLI** - Archivos tar.gz con schema + datos:
+  - [x] backup - Crear snapshot-yyyy-MM-dd--HH-mm.tar.gz
+  - [x] restore - Restaurar desde archivo (--skip-schema, --skip-data, --force)
+- [x] **Data exporters** - Exportar datos a JSON con formato Payload:
+  - [x] LanguageExporter, GenreExporter, PublisherExporter
+  - [x] SettingExporter (M2M genres), RpgFamilyExporter (M2M settings)
+  - [x] RpgSystemExporter, RpgEditionExporter (FK resolution)
 
 ---
 
-_Última actualización: 2024-12-23_
+_Última actualización: 2025-12-23_
