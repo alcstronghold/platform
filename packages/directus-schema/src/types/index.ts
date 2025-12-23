@@ -1,0 +1,1 @@
+export type { LanguageCodes } from './language-code.type';

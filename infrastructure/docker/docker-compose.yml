@@ -1,0 +1,131 @@
+name: alc-stronghold
+
+services:
+  # =============================================================================
+  # Traefik - Reverse Proxy
+  # =============================================================================
+  traefik:
+    image: traefik:v3.6
+    container_name: alc-traefik
+    restart: unless-stopped
+    command:
+      - --api.insecure=true
+      - --providers.docker=true
+      - --providers.docker.exposedbydefault=false
+      - --providers.file.directory=/config
+      - --providers.file.watch=true
+      - --entrypoints.web.address=:80
+      - --entrypoints.web.http.redirections.entrypoint.to=websecure
+      - --entrypoints.web.http.redirections.entrypoint.scheme=https
+      - --entrypoints.websecure.address=:443
+    ports:
+      - 80:80
+      - 443:443
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./certs:/certs:ro
+      - ./traefik:/config:ro
+    networks:
+      - alc-network
+
+  # =============================================================================
+  # PostgreSQL Database
+  # =============================================================================
+  database:
+    image: postgres:17
+    container_name: alc-database
+    restart: unless-stopped
+    volumes:
+      - ./volumes/database:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: ${DB_USER:-directus}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-directus}
+      POSTGRES_DB: ${DB_DATABASE:-directus}
+    healthcheck:
+      test: ['CMD', 'pg_isready', '--host=localhost', '--username=${DB_USER:-directus}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_interval: 5s
+      start_period: 30s
+    networks:
+      - alc-network
+
+  # =============================================================================
+  # Redis Cache
+  # =============================================================================
+  cache:
+    image: redis:7
+    container_name: alc-cache
+    restart: unless-stopped
+    volumes:
+      - ./volumes/redis:/data
+    healthcheck:
+      test: ['CMD-SHELL', "[ $$(redis-cli ping) = 'PONG' ]"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_interval: 5s
+      start_period: 30s
+    networks:
+      - alc-network
+
+  # =============================================================================
+  # Directus CMS
+  # =============================================================================
+  directus:
+    image: directus/directus:11
+    container_name: alc-directus
+    restart: unless-stopped
+    volumes:
+      - ./volumes/uploads:/directus/uploads
+      - ./volumes/extensions:/directus/extensions
+    depends_on:
+      database:
+        condition: service_healthy
+      cache:
+        condition: service_healthy
+    environment:
+      # Security
+      SECRET: ${DIRECTUS_SECRET:?DIRECTUS_SECRET is required}
+
+      # Database
+      DB_CLIENT: pg
+      DB_HOST: database
+      DB_PORT: 5432
+      DB_DATABASE: ${DB_DATABASE:-directus}
+      DB_USER: ${DB_USER:-directus}
+      DB_PASSWORD: ${DB_PASSWORD:-directus}
+
+      # Cache
+      CACHE_ENABLED: 'true'
+      CACHE_AUTO_PURGE: 'true'
+      CACHE_STORE: redis
+      REDIS: redis://cache:6379
+
+      # Admin user (only used on first run)
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@alcstronghold.com}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
+
+      # Public URL
+      PUBLIC_URL: ${PUBLIC_URL:-https://backend.alcstronghold.local}
+
+      # Development settings
+      EXTENSIONS_AUTO_RELOAD: ${EXTENSIONS_AUTO_RELOAD:-true}
+
+      # CORS (for frontend development)
+      CORS_ENABLED: 'true'
+      CORS_ORIGIN: 'true'
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.directus.rule=Host(`backend.alcstronghold.local`)
+      - traefik.http.routers.directus.entrypoints=websecure
+      - traefik.http.routers.directus.tls=true
+      - traefik.http.services.directus.loadbalancer.server.port=8055
+    networks:
+      - alc-network
+
+networks:
+  alc-network:
+    driver: bridge

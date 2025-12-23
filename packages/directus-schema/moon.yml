@@ -1,0 +1,15 @@
+language: typescript
+type: library
+
+tasks:
+  build:
+    command: bun run build
+    inputs:
+      - src/**/*
+    outputs:
+      - dist/**/*
+
+  typecheck:
+    command: bun run typecheck
+    inputs:
+      - src/**/*

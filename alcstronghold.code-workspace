@@ -1,0 +1,61 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".",
+    },
+    {
+      "name": "apps",
+      "path": "apps",
+    },
+    {
+      "name": "packages",
+      "path": "packages",
+    },
+    {
+      "name": "tools",
+      "path": "tools",
+    },
+    {
+      "name": "infrastructure",
+      "path": "infrastructure",
+    },
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/.moon/cache": true,
+      "**/.angular": true,
+      "**/.astro": true,
+    },
+    "yaml.schemas": {
+      ".moon/cache/schemas/workspace.json": ".moon/workspace.yml",
+      ".moon/cache/schemas/toolchain.json": ".moon/toolchain.yml",
+      ".moon/cache/schemas/project.json": "**/moon.yml",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "moonrepo.moon-console",
+      "prettier.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "angular.ng-template",
+      "astro-build.astro-vscode",
+      "bradlc.vscode-tailwindcss",
+      "editorconfig.editorconfig",
+      "redhat.vscode-yaml",
+      "ms-azuretools.vscode-docker",
+    ],
+  },
+}

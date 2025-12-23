@@ -1,0 +1,38 @@
+# Local Git configuration for the repository
+# To use: git config --local include.path ../.gitconfig
+
+[diff "typescript"]
+  xfuncname = "^[ \t]*(export[ \t]+)?(async[ \t]+)?(function|class|interface|type|enum|const|let|var)[ \t]+([A-Za-z_$][A-Za-z0-9_$]*)"
+
+[diff "javascript"]
+  xfuncname = "^[ \t]*(export[ \t]+)?(async[ \t]+)?(function|class|const|let|var)[ \t]+([A-Za-z_$][A-Za-z0-9_$]*)"
+
+[diff "json"]
+  xfuncname = "^[ \t]*\"[^\"]+\"[ \t]*:"
+
+[diff "css"]
+  xfuncname = "^[ \t]*([.#@][A-Za-z_-][A-Za-z0-9_-]*|[a-z]+)"
+
+[diff "scss"]
+  xfuncname = "^[ \t]*([.#@$&][A-Za-z_-][A-Za-z0-9_-]*|[a-z]+|@mixin|@function)"
+
+[diff "html"]
+  xfuncname = "^[ \t]*<([a-zA-Z][a-zA-Z0-9]*)"
+
+[diff "astro"]
+  xfuncname = "^[ \t]*(---|<[a-zA-Z][a-zA-Z0-9]*|export[ \t]+)"
+
+[diff "vue"]
+  xfuncname = "^[ \t]*(<template|<script|<style|export[ \t]+default)"
+
+[diff "svelte"]
+  xfuncname = "^[ \t]*(<script|<style|export[ \t]+)"
+
+[diff "yaml"]
+  xfuncname = "^[a-zA-Z_][a-zA-Z0-9_]*:"
+
+[diff "toml"]
+  xfuncname = "^\\[[a-zA-Z0-9._-]+\\]"
+
+[diff "markdown"]
+  xfuncname = "^#{1,6}[ \t]+"

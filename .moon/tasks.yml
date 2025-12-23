@@ -1,0 +1,51 @@
+# https://moonrepo.dev/docs/config/tasks
+# Global tasks inherited by all projects
+$schema: './cache/schemas/tasks.json'
+
+tasks:
+  lint:
+    command: 'bunx eslint --cache .'
+    inputs:
+      - 'src/**/*.ts'
+      - 'src/**/*.tsx'
+      - '/.eslintrc.*'
+      - '/eslint.config.*'
+    options:
+      runFromWorkspaceRoot: true
+      cache: true
+      persistent: false
+
+  lint-fix:
+    command: 'bunx eslint --cache --fix .'
+    inputs:
+      - 'src/**/*.ts'
+      - 'src/**/*.tsx'
+      - '/.eslintrc.*'
+      - '/eslint.config.*'
+    options:
+      runFromWorkspaceRoot: true
+      cache: false
+
+  format  :
+    command: 'bunx prettier --write .'
+    inputs:
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.md'
+      - '/.prettierrc'
+    options:
+      runFromWorkspaceRoot: true
+      cache: false
+
+  format-check:
+    command: 'bunx prettier --check .'
+    inputs:
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - '**/*.md'
+      - '/.prettierrc'
+    options:
+      runFromWorkspaceRoot: true
+      cache: true

@@ -1,0 +1,18 @@
+{
+  "context": {
+    "fileName": "CLAUDE.md"
+  },
+  "mcpServers": {
+    "directus-stronghold": {
+      "httpUrl": "https://backend.alcstronghold.local/mcp",
+      "headers": {
+        "Authorization": "Bearer X2qaf9DZxuPjWQjkww81RnD0SoOwUMby",
+        "Content-Type": "application/json"
+      },
+      "timeout": 5000
+    }
+  },
+  "general": {
+    "previewFeatures": true
+  }
+}

@@ -1,0 +1,26 @@
+# https://moonrepo.dev/docs/config/workspace
+$schema: './cache/schemas/workflow.json'
+
+projects:
+  # Applications (deployable units)
+  - 'apps/*'
+  # Shared libraries (domain, infrastructure, utilities)
+  - 'packages/*'
+  # Development tools and scripts
+  - 'tools/*'
+
+vcs:
+  manager: 'git'
+  defaultBranch: 'main'
+  hooks:
+    pre-commit:
+      - 'moon run :lint --affected'
+      - 'moon run :format --affected'
+
+# Task runner configuration
+runner:
+  inheritColorsForPipedTasks: true
+
+# Caching and optimization
+hasher:
+  optimization: 'performance'

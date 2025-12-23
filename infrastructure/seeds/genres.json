@@ -1,0 +1,869 @@
+[
+  {
+    "identifier": "action-adventure",
+    "translations": {
+      "es-ES": "Acción / Aventura",
+      "ca-ES": "Acció / Aventura"
+    }
+  },
+  {
+    "identifier": "journey-exploration",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Viaje / Exploración",
+      "ca-ES": "Viatge / Exploració"
+    }
+  },
+  {
+    "identifier": "dungeon-crawler",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Exploración de Mazmorras (Dungeon Crawler)",
+      "ca-ES": "Exploració de Masmorres (Dungeon Crawler)"
+    }
+  },
+  {
+    "identifier": "superhero",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Superhéroes",
+      "ca-ES": "Superherois"
+    }
+  },
+  {
+    "identifier": "mafia",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Mafia (Gánsteres)",
+      "ca-ES": "Màfia (Gàngsters)"
+    }
+  },
+  {
+    "identifier": "martial-arts",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Artes Marciales",
+      "ca-ES": "Arts Marcials"
+    }
+  },
+  {
+    "identifier": "swashbuckling",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Capa y Espada / Piratas",
+      "ca-ES": "Capa i Espasa / Pirates"
+    }
+  },
+  {
+    "identifier": "pulp",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Pulp",
+      "ca-ES": "Pulp"
+    }
+  },
+  {
+    "identifier": "survival",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Supervivencia",
+      "ca-ES": "Supervivència"
+    }
+  },
+  {
+    "identifier": "tactical",
+    "parent": "action-adventure",
+    "translations": {
+      "es-ES": "Táctico",
+      "ca-ES": "Tàctic"
+    }
+  },
+  {
+    "identifier": "adult-mature",
+    "translations": {
+      "es-ES": "Adulto / Maduro",
+      "ca-ES": "Adult / Madur"
+    }
+  },
+  {
+    "identifier": "erotic",
+    "parent": "adult-mature",
+    "translations": {
+      "es-ES": "Erótico",
+      "ca-ES": "Eròtic"
+    }
+  },
+  {
+    "identifier": "animal",
+    "translations": {
+      "es-ES": "Animal",
+      "ca-ES": "Animal"
+    }
+  },
+  {
+    "identifier": "animal-anthropomorphic",
+    "parent": "animal",
+    "translations": {
+      "es-ES": "Animal Antropomórfico",
+      "ca-ES": "Animal Antropomòrfic"
+    }
+  },
+  {
+    "identifier": "anime",
+    "translations": {
+      "es-ES": "Anime",
+      "ca-ES": "Anime"
+    }
+  },
+  {
+    "identifier": "isekai",
+    "parent": "anime",
+    "translations": {
+      "es-ES": "Isekai",
+      "ca-ES": "Isekai"
+    }
+  },
+  {
+    "identifier": "maho-shojo",
+    "parent": "anime",
+    "translations": {
+      "es-ES": "Mahō Shōjo",
+      "ca-ES": "Mahō Shōjo"
+    }
+  },
+  {
+    "identifier": "mecha",
+    "parent": "anime",
+    "translations": {
+      "es-ES": "Mecha",
+      "ca-ES": "Mecha"
+    }
+  },
+  {
+    "identifier": "comedy",
+    "translations": {
+      "es-ES": "Comedia",
+      "ca-ES": "Comèdia"
+    }
+  },
+  {
+    "identifier": "black-comedy",
+    "parent": "comedy",
+    "translations": {
+      "es-ES": "Comedia Negra",
+      "ca-ES": "Comèdia Negra"
+    }
+  },
+  {
+    "identifier": "crime",
+    "translations": {
+      "es-ES": "Crimen",
+      "ca-ES": "Crim"
+    }
+  },
+  {
+    "identifier": "conspiracy",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Conspiración",
+      "ca-ES": "Conspiració"
+    }
+  },
+  {
+    "identifier": "criminal-law-enforcement",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Criminal / Fuerzas del Orden",
+      "ca-ES": "Criminal / Forces de l'Ordre"
+    }
+  },
+  {
+    "identifier": "espionage",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Espionaje",
+      "ca-ES": "Espionatge"
+    }
+  },
+  {
+    "identifier": "heist",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Atracos / Golpes",
+      "ca-ES": "Atracaments / Cops"
+    }
+  },
+  {
+    "identifier": "mystery",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Misterio / Detective",
+      "ca-ES": "Misteri / Detectiu"
+    }
+  },
+  {
+    "identifier": "investigation",
+    "parent": "mystery",
+    "translations": {
+      "es-ES": "Investigación",
+      "ca-ES": "Investigació"
+    }
+  },
+  {
+    "identifier": "noir",
+    "parent": "mystery",
+    "translations": {
+      "es-ES": "Noir",
+      "ca-ES": "Noir"
+    }
+  },
+  {
+    "identifier": "thriller",
+    "parent": "crime",
+    "translations": {
+      "es-ES": "Thriller",
+      "ca-ES": "Thriller"
+    }
+  },
+  {
+    "identifier": "drama",
+    "translations": {
+      "es-ES": "Drama",
+      "ca-ES": "Drama"
+    }
+  },
+  {
+    "identifier": "educational",
+    "translations": {
+      "es-ES": "Educativo",
+      "ca-ES": "Educatiu"
+    }
+  },
+  {
+    "identifier": "experimental",
+    "translations": {
+      "es-ES": "Experimental",
+      "ca-ES": "Experimental"
+    }
+  },
+  {
+    "identifier": "fantasy",
+    "translations": {
+      "es-ES": "Fantasía",
+      "ca-ES": "Fantasia"
+    }
+  },
+  {
+    "identifier": "arabian-nights",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Las Mil y Una Noches",
+      "ca-ES": "Les Mil i Una Nits"
+    }
+  },
+  {
+    "identifier": "arthurian",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Artúrico",
+      "ca-ES": "Artúric"
+    }
+  },
+  {
+    "identifier": "dark-fantasy",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Fantasía Oscura",
+      "ca-ES": "Fantasia Fosca"
+    }
+  },
+  {
+    "identifier": "epic-fantasy",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Fantasía Épica",
+      "ca-ES": "Fantasia Èpica"
+    }
+  },
+  {
+    "identifier": "grimdark",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Grimdark",
+      "ca-ES": "Grimdark"
+    }
+  },
+  {
+    "identifier": "high-fantasy",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Alta Fantasía",
+      "ca-ES": "Alta Fantasia"
+    }
+  },
+  {
+    "identifier": "low-fantasy",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Baja Fantasía",
+      "ca-ES": "Baixa Fantasia"
+    }
+  },
+  {
+    "identifier": "sword-and-sorcery",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Espada y Brujería",
+      "ca-ES": "Espasa i Bruixeria"
+    }
+  },
+  {
+    "identifier": "urban-fantasy",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Fantasía Urbana",
+      "ca-ES": "Fantasia Urbana"
+    }
+  },
+  {
+    "identifier": "weird-west",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Weird West (Oeste Extraño)",
+      "ca-ES": "Weird West (Oest Estrany)"
+    }
+  },
+  {
+    "identifier": "wuxia",
+    "parent": "fantasy",
+    "translations": {
+      "es-ES": "Wuxia / Fantasía Asiática",
+      "ca-ES": "Wuxia / Fantasia Asiàtica"
+    }
+  },
+  {
+    "identifier": "gothic",
+    "translations": {
+      "es-ES": "Gótico",
+      "ca-ES": "Gòtic"
+    }
+  },
+  {
+    "identifier": "historical",
+    "translations": {
+      "es-ES": "Histórico",
+      "ca-ES": "Històric"
+    }
+  },
+  {
+    "identifier": "alternate-history",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Historia Alternativa",
+      "ca-ES": "Història Alternativa"
+    }
+  },
+  {
+    "identifier": "american-west",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Viejo Oeste Americano (Western)",
+      "ca-ES": "Vell Oest Americà (Western)"
+    }
+  },
+  {
+    "identifier": "americas",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Américas (general)",
+      "ca-ES": "Amèriques (general)"
+    }
+  },
+  {
+    "identifier": "ancient",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Antiguo",
+      "ca-ES": "Antic"
+    }
+  },
+  {
+    "identifier": "britain-ireland",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Gran Bretaña / Irlanda",
+      "ca-ES": "Gran Bretanya / Irlanda"
+    }
+  },
+  {
+    "identifier": "generic-universal",
+    "translations": {
+      "es-ES": "Genérico / Universal",
+      "ca-ES": "Genèric / Universal"
+    }
+  },
+  {
+    "identifier": "europe",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Europa",
+      "ca-ES": "Europa"
+    }
+  },
+  {
+    "identifier": "medieval",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Medieval",
+      "ca-ES": "Medieval"
+    }
+  },
+  {
+    "identifier": "prehistoric",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Prehistórico",
+      "ca-ES": "Prehistòric"
+    }
+  },
+  {
+    "identifier": "victorian-era",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Era Victoriana",
+      "ca-ES": "Era Victoriana"
+    }
+  },
+  {
+    "identifier": "viking",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Vikingo",
+      "ca-ES": "Viking"
+    }
+  },
+  {
+    "identifier": "renaissance",
+    "parent": "historical",
+    "translations": {
+      "es-ES": "Renacimiento",
+      "ca-ES": "Renaixement"
+    }
+  },
+  {
+    "identifier": "horror",
+    "translations": {
+      "es-ES": "Terror",
+      "ca-ES": "Terror"
+    }
+  },
+  {
+    "identifier": "body-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Corporal",
+      "ca-ES": "Terror Corporal"
+    }
+  },
+  {
+    "identifier": "cosmic-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Cósmico (Mitos de Cthulhu)",
+      "ca-ES": "Terror Còsmic (Mites de Cthulhu)"
+    }
+  },
+  {
+    "identifier": "folk-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Folclórico",
+      "ca-ES": "Terror Folklòric"
+    }
+  },
+  {
+    "identifier": "gothic-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Gótico",
+      "ca-ES": "Terror Gòtic"
+    }
+  },
+  {
+    "identifier": "psychological-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Psicológico",
+      "ca-ES": "Terror Psicològic"
+    }
+  },
+  {
+    "identifier": "supernatural-horror",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Terror Sobrenatural",
+      "ca-ES": "Terror Sobrenatural"
+    }
+  },
+  {
+    "identifier": "vampire",
+    "parent": "supernatural-horror",
+    "translations": {
+      "es-ES": "Vampiros",
+      "ca-ES": "Vampirs"
+    }
+  },
+  {
+    "identifier": "werewolf",
+    "parent": "supernatural-horror",
+    "translations": {
+      "es-ES": "Hombres Lobo",
+      "ca-ES": "Homes Llop"
+    }
+  },
+  {
+    "identifier": "zombie",
+    "parent": "horror",
+    "translations": {
+      "es-ES": "Zombies",
+      "ca-ES": "Zombis"
+    }
+  },
+  {
+    "identifier": "kaiju",
+    "translations": {
+      "es-ES": "Kaiju",
+      "ca-ES": "Kaiju"
+    }
+  },
+  {
+    "identifier": "mythology",
+    "translations": {
+      "es-ES": "Mitología / Folclore",
+      "ca-ES": "Mitologia / Folklore"
+    }
+  },
+  {
+    "identifier": "fairy-tale",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Cuento de Hadas",
+      "ca-ES": "Conte de Fades"
+    }
+  },
+  {
+    "identifier": "norse-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Nórdica",
+      "ca-ES": "Mitologia Nòrdica"
+    }
+  },
+  {
+    "identifier": "greek-roman-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Griega y Romana",
+      "ca-ES": "Mitologia Grega i Romana"
+    }
+  },
+  {
+    "identifier": "egyptian-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Egipcia",
+      "ca-ES": "Mitologia Egípcia"
+    }
+  },
+  {
+    "identifier": "celtic-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Celta",
+      "ca-ES": "Mitologia Celta"
+    }
+  },
+  {
+    "identifier": "japanese-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Japonesa",
+      "ca-ES": "Mitologia Japonesa"
+    }
+  },
+  {
+    "identifier": "chinese-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología China",
+      "ca-ES": "Mitologia Xinesa"
+    }
+  },
+  {
+    "identifier": "mesoamerican-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Mesoamericana",
+      "ca-ES": "Mitologia Mesoamericana"
+    }
+  },
+  {
+    "identifier": "mesopotamian-myth",
+    "parent": "mythology",
+    "translations": {
+      "es-ES": "Mitología Mesopotámica",
+      "ca-ES": "Mitologia Mesopotàmica"
+    }
+  },
+  {
+    "identifier": "occult",
+    "translations": {
+      "es-ES": "Ocultismo",
+      "ca-ES": "Ocultisme"
+    }
+  },
+  {
+    "identifier": "magic",
+    "parent": "occult",
+    "translations": {
+      "es-ES": "Magia",
+      "ca-ES": "Màgia"
+    }
+  },
+  {
+    "identifier": "psionics",
+    "parent": "occult",
+    "translations": {
+      "es-ES": "Psiónica / Mentalismo",
+      "ca-ES": "Psiònica / Mentalisme"
+    }
+  },
+  {
+    "identifier": "symbolism",
+    "parent": "occult",
+    "translations": {
+      "es-ES": "Simbolismo / Tarot",
+      "ca-ES": "Simbolisme / Tarot"
+    }
+  },
+  {
+    "identifier": "queer",
+    "translations": {
+      "es-ES": "Queer",
+      "ca-ES": "Queer"
+    }
+  },
+  {
+    "identifier": "realism",
+    "translations": {
+      "es-ES": "Realismo",
+      "ca-ES": "Realisme"
+    }
+  },
+  {
+    "identifier": "slice-of-life",
+    "parent": "realism",
+    "translations": {
+      "es-ES": "Costumbrismo",
+      "ca-ES": "Costumisme"
+    }
+  },
+  {
+    "identifier": "road-movie",
+    "translations": {
+      "es-ES": "Road Movie",
+      "ca-ES": "Road Movie"
+    }
+  },
+  {
+    "identifier": "satirical",
+    "translations": {
+      "es-ES": "Satírico",
+      "ca-ES": "Satíric"
+    }
+  },
+  {
+    "identifier": "sci-fi",
+    "translations": {
+      "es-ES": "Ciencia Ficción",
+      "ca-ES": "Ciència Ficció"
+    }
+  },
+  {
+    "identifier": "biopunk",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Biopunk",
+      "ca-ES": "Biopunk"
+    }
+  },
+  {
+    "identifier": "cyberpunk",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Cyberpunk",
+      "ca-ES": "Cyberpunk"
+    }
+  },
+  {
+    "identifier": "dieselpunk",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Dieselpunk",
+      "ca-ES": "Dieselpunk"
+    }
+  },
+  {
+    "identifier": "dystopian",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Distopía",
+      "ca-ES": "Distopia"
+    }
+  },
+  {
+    "identifier": "hard-sci-fi",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Ciencia Ficción Dura",
+      "ca-ES": "Ciència Ficció Dura"
+    }
+  },
+  {
+    "identifier": "post-apocalyptic",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Post-apocalíptico",
+      "ca-ES": "Post-apocalíptic"
+    }
+  },
+  {
+    "identifier": "science-fantasy",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Ciencia Fantasía",
+      "ca-ES": "Ciència Fantasia"
+    }
+  },
+  {
+    "identifier": "solarpunk",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Solarpunk",
+      "ca-ES": "Solarpunk"
+    }
+  },
+  {
+    "identifier": "space-opera",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Space Opera",
+      "ca-ES": "Space Opera"
+    }
+  },
+  {
+    "identifier": "steampunk",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Steampunk",
+      "ca-ES": "Steampunk"
+    }
+  },
+  {
+    "identifier": "time-dimension-travel",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Viaje en el Tiempo / Dimensional",
+      "ca-ES": "Viatge en el Temps / Dimensional"
+    }
+  },
+  {
+    "identifier": "transhumanism",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Transhumanismo",
+      "ca-ES": "Transhumanisme"
+    }
+  },
+  {
+    "identifier": "multiverse",
+    "parent": "sci-fi",
+    "translations": {
+      "es-ES": "Multiverso",
+      "ca-ES": "Multivers"
+    }
+  },
+  {
+    "identifier": "social",
+    "translations": {
+      "es-ES": "Social (Relaciones)",
+      "ca-ES": "Social (Relacions)"
+    }
+  },
+  {
+    "identifier": "romance",
+    "parent": "social",
+    "translations": {
+      "es-ES": "Romance",
+      "ca-ES": "Romance"
+    }
+  },
+  {
+    "identifier": "surrealism",
+    "translations": {
+      "es-ES": "Surrealismo",
+      "ca-ES": "Surrealisme"
+    }
+  },
+  {
+    "identifier": "war",
+    "translations": {
+      "es-ES": "Bélico",
+      "ca-ES": "Bèl·lic"
+    }
+  },
+  {
+    "identifier": "military",
+    "parent": "war",
+    "translations": {
+      "es-ES": "Militar",
+      "ca-ES": "Militar"
+    }
+  },
+  {
+    "identifier": "politics-government",
+    "translations": {
+      "es-ES": "Política / Gobierno",
+      "ca-ES": "Política / Governament"
+    }
+  },
+  {
+    "identifier": "revolution",
+    "parent": "politics-government",
+    "translations": {
+      "es-ES": "Revolución",
+      "ca-ES": "Revolució"
+    }
+  },
+  {
+    "identifier": "family",
+    "translations": {
+      "es-ES": "Familiar / Infantil",
+      "ca-ES": "Familiar / Infantil"
+    }
+  },
+  {
+    "identifier": "young-adult",
+    "translations": {
+      "es-ES": "Juvenil / Young Adult",
+      "ca-ES": "Juvenil / Young Adult"
+    }
+  },
+  {
+    "identifier": "intrigue",
+    "translations": {
+      "es-ES": "Intriga",
+      "ca-ES": "Intriga"
+    }
+  }
+]
