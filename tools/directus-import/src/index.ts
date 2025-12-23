@@ -1,7 +1,9 @@
-import { Command } from 'commander';
 import { resolve } from 'node:path';
-import { importCommand } from './commands/import';
+
+import { Command } from 'commander';
+
 import { exportCommand } from './commands/export';
+import { importCommand } from './commands/import';
 
 const program = new Command();
 

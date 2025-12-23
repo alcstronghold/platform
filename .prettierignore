@@ -1,8 +1,20 @@
+# TypeScript/JavaScript - handled by ESLint
 *.ts
 *.tsx
 *.js
+*.jsx
 *.cjs
 *.mjs
-*.jsx
-node_modules/**/*
-dist/**/*
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Moon cache
+.moon/cache/
+
+# Other
+coverage/

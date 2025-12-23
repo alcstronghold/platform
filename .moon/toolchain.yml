@@ -8,4 +8,4 @@ bun:
 # TypeScript configuration
 typescript:
   routeOutDirToCache: false
-  syncProjectReferences: false
+  syncProjectReferences: true

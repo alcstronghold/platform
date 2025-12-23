@@ -1,6 +1,7 @@
-import { Glob } from 'bun';
 import { resolve } from 'node:path';
 import * as readline from 'node:readline';
+
+import { Glob } from 'bun';
 
 const ROOT = resolve(import.meta.dirname ?? __dirname, '..');
 
@@ -113,7 +114,7 @@ if (arg && /^\d+\.\d+\.\d+/.test(arg)) {
   console.log(`    1) 🩹 patch  → ${major}.${minor}.${patch + 1}`);
   console.log(`    2) ✨ minor  → ${major}.${minor + 1}.0`);
   console.log(`    3) 🚀 major  → ${major + 1}.0.0`);
-  console.log(`    4) 🎨 custom\n`);
+  console.log('    4) 🎨 custom\n');
 
   const choice = await prompt('  👉 Choice [1-4]: ');
 
@@ -143,4 +144,4 @@ if (!newVersion || !/^\d+\.\d+\.\d+(-[\w.]+)?$/.test(newVersion)) {
 
 console.log(`\n  🔄 ${currentVersion} → ${newVersion}\n`);
 await updateVersion(files, newVersion);
-console.log(`\n  ✅ Done! (◕‿◕)\n`);
+console.log('\n  ✅ Done! (◕‿◕)\n');

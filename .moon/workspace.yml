@@ -15,6 +15,7 @@ vcs:
   hooks:
     pre-commit:
       - 'moon run :lint --affected'
+      - 'moon run :format --affected'
 
 # Task runner configuration
 runner:

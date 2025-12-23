@@ -1,11 +1,11 @@
 // Re-export all payload interfaces
 export type {
-  LanguagePayload,
   GenrePayload,
+  LanguagePayload,
   PublisherPayload,
-  SettingPayload,
-  RpgFamilyPayload,
-  RpgSystemPayload,
   RpgEditionPayload,
+  RpgFamilyPayload,
   RpgGamePayload,
+  RpgSystemPayload,
+  SettingPayload,
 } from './collections';

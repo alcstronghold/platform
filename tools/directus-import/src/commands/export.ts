@@ -1,9 +1,11 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+import { mkdir,writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+
 import { readItems } from '@directus/sdk';
+
+import { COLLECTION_FILES } from '../services/collections';
 import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
-import { COLLECTION_FILES } from '../services/collections';
 
 export interface ExportOptions {
   seedsDir: string;
@@ -33,7 +35,7 @@ export async function exportCommand(config: DirectusConfig, options: ExportOptio
       const data = await client.request(readItems(collection, { limit: -1 }));
 
       if (!Array.isArray(data) || data.length === 0) {
-        console.log(`  - No data found`);
+        console.log('  - No data found');
         continue;
       }
 

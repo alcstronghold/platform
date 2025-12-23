@@ -1863,7 +1863,10 @@
   {
     "identifier": "changeling-the-lost-1st-edition",
     "name": "Changeling: The Lost (1st Edition)",
-    "translations": { "es-ES": "Changeling: Los Perdidos (1ª Edición)", "ca-ES": "Changeling: Els Perduts (1ª Edició)" },
+    "translations": {
+      "es-ES": "Changeling: Los Perdidos (1ª Edición)",
+      "ca-ES": "Changeling: Els Perduts (1ª Edició)"
+    },
     "rpg_system_id": "storytelling-system",
     "rpg_family_id": "chronicles-of-darkness",
     "bgg_id": 3211
@@ -1871,7 +1874,10 @@
   {
     "identifier": "changeling-the-lost-2nd-edition",
     "name": "Changeling: The Lost (2nd Edition)",
-    "translations": { "es-ES": "Changeling: Los Perdidos (2ª Edición)", "ca-ES": "Changeling: Els Perduts (2ª Edició)" },
+    "translations": {
+      "es-ES": "Changeling: Los Perdidos (2ª Edición)",
+      "ca-ES": "Changeling: Els Perduts (2ª Edició)"
+    },
     "rpg_system_id": "storytelling-system",
     "rpg_family_id": "chronicles-of-darkness",
     "bgg_id": 41477
@@ -1895,7 +1901,10 @@
   {
     "identifier": "werewolf-the-forsaken-1st-edition",
     "name": "Werewolf: The Forsaken (1st Edition)",
-    "translations": { "es-ES": "Werewolf: Los Desamparados (1ª Edición)", "ca-ES": "Werewolf: Els Desamparats (1ª Edició)" },
+    "translations": {
+      "es-ES": "Werewolf: Los Desamparados (1ª Edición)",
+      "ca-ES": "Werewolf: Els Desamparats (1ª Edició)"
+    },
     "rpg_system_id": "storytelling-system",
     "rpg_family_id": "chronicles-of-darkness",
     "bgg_id": 3207
@@ -1903,7 +1912,10 @@
   {
     "identifier": "werewolf-the-forsaken-2nd-edition",
     "name": "Werewolf: The Forsaken (2nd Edition)",
-    "translations": { "es-ES": "Werewolf: Los Desamparados (2ª Edición)", "ca-ES": "Werewolf: Els Desamparats (2ª Edició)" },
+    "translations": {
+      "es-ES": "Werewolf: Los Desamparados (2ª Edición)",
+      "ca-ES": "Werewolf: Els Desamparats (2ª Edició)"
+    },
     "rpg_system_id": "storytelling-system",
     "rpg_family_id": "chronicles-of-darkness",
     "bgg_id": 55685
