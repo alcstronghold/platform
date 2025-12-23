@@ -7,5 +7,5 @@ bun:
 
 # TypeScript configuration
 typescript:
-  routeOutDirToCache: true
-  syncProjectReferences: true
+  routeOutDirToCache: false
+  syncProjectReferences: false

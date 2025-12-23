@@ -1,0 +1,27 @@
+language: typescript
+type: tool
+
+dependsOn:
+  - directus-schema
+  - directus-payload
+
+tasks:
+  build:
+    command: bun run build
+    inputs:
+      - src/**/*
+    outputs:
+      - dist/**/*
+
+  typecheck:
+    command: bun run typecheck
+    inputs:
+      - src/**/*
+
+  import:
+    command: bun run src/index.ts import
+    local: true
+
+  export:
+    command: bun run src/index.ts export
+    local: true
