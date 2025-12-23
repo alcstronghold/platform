@@ -1,0 +1,23 @@
+{
+  "name": "@alcstronghold/directus-import",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "directus-import": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target node",
+    "dev": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@alcstronghold/directus-schema": "workspace:*",
+    "@alcstronghold/directus-payload": "workspace:*",
+    "@directus/sdk": "^18.0.3",
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.7.2"
+  }
+}

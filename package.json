@@ -1,0 +1,22 @@
+{
+  "name": "@alcstronghold/platform",
+  "version": "0.0.2",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "check": "moon check --all",
+    "build": "moon run :build",
+    "lint": "moon run :lint",
+    "test": "moon run :test",
+    "version:set": "bumpp"
+  },
+  "devDependencies": {
+    "bumpp": "^10.3.2",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
