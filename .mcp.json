@@ -4,9 +4,10 @@
       "type": "http",
       "url": "https://backend.alcstronghold.local/mcp",
       "headers": {
-        "Authorization": "Bearer X2qaf9DZxuPjWQjkww81RnD0SoOwUMby",
+        "Authorization": "Bearer VHouF2uZkhJMULAqhWcaL6Asbhv1hg0x",
         "Content-Type": "application/json"
       }
     }
   }
 }
+bun run src/index.ts import -c publishers

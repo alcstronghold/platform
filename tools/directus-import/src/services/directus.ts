@@ -11,11 +11,14 @@ export interface DirectusConfig {
  * Create a Directus client with authentication
  */
 export async function createClient(config: DirectusConfig) {
-  const client = createDirectus(config.url).with(rest());
-
   if (config.token) {
-    return client.with(staticToken(config.token));
+    // Order matters: staticToken before rest
+    return createDirectus(config.url)
+      .with(staticToken(config.token))
+      .with(rest());
   }
+
+  const client = createDirectus(config.url).with(rest());
 
   if (config.email && config.password) {
     const authClient = client.with(authentication());
