@@ -24,7 +24,15 @@
       "es-ES": "Ustalav (Principados Inmortales)",
       "ca-ES": "Ustalav (Principats Immortals)"
     },
-    "genres": ["gothic-horror", "mystery", "investigation", "dark-fantasy", "supernatural-horror", "vampire", "werewolf"]
+    "genres": [
+      "gothic-horror",
+      "mystery",
+      "investigation",
+      "dark-fantasy",
+      "supernatural-horror",
+      "vampire",
+      "werewolf"
+    ]
   },
   {
     "identifier": "numeria",
@@ -708,7 +716,14 @@
       "es-ES": "El Mundo de Old-School Essentials",
       "ca-ES": "El Món d'Old-School Essentials"
     },
-    "genres": ["fantasy", "dungeon-crawler", "journey-exploration", "sword-and-sorcery", "high-fantasy", "action-adventure"]
+    "genres": [
+      "fantasy",
+      "dungeon-crawler",
+      "journey-exploration",
+      "sword-and-sorcery",
+      "high-fantasy",
+      "action-adventure"
+    ]
   },
   {
     "identifier": "mythic-europe",
@@ -807,7 +822,15 @@
       "es-ES": "La Ilusión",
       "ca-ES": "La Il·lusió"
     },
-    "genres": ["horror", "urban-fantasy", "occult", "dark-fantasy", "adult-mature", "body-horror", "psychological-horror"]
+    "genres": [
+      "horror",
+      "urban-fantasy",
+      "occult",
+      "dark-fantasy",
+      "adult-mature",
+      "body-horror",
+      "psychological-horror"
+    ]
   },
   {
     "identifier": "aquelarre-medieval-iberia",
@@ -861,7 +884,15 @@
       "es-ES": "Night City (203X)",
       "ca-ES": "Night City (203X)"
     },
-    "genres": ["cyberpunk", "sci-fi", "dystopian", "action-adventure", "transhumanism", "post-apocalyptic", "conspiracy"]
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "dystopian",
+      "action-adventure",
+      "transhumanism",
+      "post-apocalyptic",
+      "conspiracy"
+    ]
   },
   {
     "identifier": "night-city-2077",
@@ -870,7 +901,15 @@
       "es-ES": "Night City (2077)",
       "ca-ES": "Night City (2077)"
     },
-    "genres": ["cyberpunk", "sci-fi", "dystopian", "action-adventure", "transhumanism", "post-apocalyptic", "conspiracy"]
+    "genres": [
+      "cyberpunk",
+      "sci-fi",
+      "dystopian",
+      "action-adventure",
+      "transhumanism",
+      "post-apocalyptic",
+      "conspiracy"
+    ]
   },
   {
     "identifier": "kids-on-bikes-setting",
@@ -1266,7 +1305,15 @@
       "es-ES": "Las Cuatro Naciones: Era de Korra",
       "ca-ES": "Les Quatre Nacions: Era de Korra"
     },
-    "genres": ["urban-fantasy", "sci-fi", "steampunk", "martial-arts", "politics-government", "noir", "action-adventure"]
+    "genres": [
+      "urban-fantasy",
+      "sci-fi",
+      "steampunk",
+      "martial-arts",
+      "politics-government",
+      "noir",
+      "action-adventure"
+    ]
   },
   {
     "identifier": "honey-heist-setting",
@@ -1347,7 +1394,16 @@
       "es-ES": "Crónicas de Tinieblas (Moderno)",
       "ca-ES": "Cròniques de Tenebres (Modern)"
     },
-    "genres": ["urban-fantasy", "horror", "supernatural-horror", "magic", "dark-fantasy", "mystery", "drama", "politics-government"]
+    "genres": [
+      "urban-fantasy",
+      "horror",
+      "supernatural-horror",
+      "magic",
+      "dark-fantasy",
+      "mystery",
+      "drama",
+      "politics-government"
+    ]
   },
   {
     "identifier": "world-of-darkness-classic",
@@ -1356,7 +1412,15 @@
       "es-ES": "El Mundo de Tinieblas (Clásico)",
       "ca-ES": "El Món de Tenebres (Clàssic)"
     },
-    "genres": ["urban-fantasy", "supernatural-horror", "mystery", "drama", "politics-government", "occult", "dark-fantasy"]
+    "genres": [
+      "urban-fantasy",
+      "supernatural-horror",
+      "mystery",
+      "drama",
+      "politics-government",
+      "occult",
+      "dark-fantasy"
+    ]
   },
   {
     "identifier": "world-of-darkness-modern",
@@ -1365,7 +1429,15 @@
       "es-ES": "El Mundo de Tinieblas Moderno",
       "ca-ES": "El Món de Tenebres Modern"
     },
-    "genres": ["urban-fantasy", "supernatural-horror", "mystery", "drama", "politics-government", "occult", "dark-fantasy"]
+    "genres": [
+      "urban-fantasy",
+      "supernatural-horror",
+      "mystery",
+      "drama",
+      "politics-government",
+      "occult",
+      "dark-fantasy"
+    ]
   },
   {
     "identifier": "world-of-darkness-dark-ages",
@@ -1374,7 +1446,16 @@
       "es-ES": "Las Edades Oscuras del Mundo de Tinieblas",
       "ca-ES": "Les Edats Fosques del Món de Tenebres"
     },
-    "genres": ["medieval", "gothic-horror", "mystery", "drama", "supernatural-horror", "dark-fantasy", "occult", "politics-government"]
+    "genres": [
+      "medieval",
+      "gothic-horror",
+      "mystery",
+      "drama",
+      "supernatural-horror",
+      "dark-fantasy",
+      "occult",
+      "politics-government"
+    ]
   },
   {
     "identifier": "world-of-darkness-sorcerers-crusade",
@@ -1401,7 +1482,15 @@
       "es-ES": "La Ciudad del Serpentino",
       "ca-ES": "La Ciutat del Serpentí"
     },
-    "genres": ["sword-and-sorcery", "fantasy", "dark-fantasy", "low-fantasy", "action-adventure", "investigation", "politics-government"]
+    "genres": [
+      "sword-and-sorcery",
+      "fantasy",
+      "dark-fantasy",
+      "low-fantasy",
+      "action-adventure",
+      "investigation",
+      "politics-government"
+    ]
   },
   {
     "identifier": "nights-black-agents-setting",
@@ -1410,7 +1499,15 @@
       "es-ES": "El Mundo de Agentes de la Noche",
       "ca-ES": "El Món d'Agents de la Nit"
     },
-    "genres": ["espionage", "conspiracy", "supernatural-horror", "vampire", "action-adventure", "thriller", "investigation"]
+    "genres": [
+      "espionage",
+      "conspiracy",
+      "supernatural-horror",
+      "vampire",
+      "action-adventure",
+      "thriller",
+      "investigation"
+    ]
   },
   {
     "identifier": "outer-dark-setting",

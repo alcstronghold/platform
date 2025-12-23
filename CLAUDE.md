@@ -84,10 +84,10 @@ docker compose restart directus
 
 ### Services & URLs
 
-| Service | URL | Description |
-|---------|-----|-------------|
-| Directus Admin | https://backend.alcstronghold.local | Headless CMS dashboard |
-| Traefik Dashboard | http://localhost:8080 | Reverse proxy management |
+| Service           | URL                                 | Description              |
+| ----------------- | ----------------------------------- | ------------------------ |
+| Directus Admin    | https://backend.alcstronghold.local | Headless CMS dashboard   |
+| Traefik Dashboard | http://localhost:8080               | Reverse proxy management |
 
 ### Docker Stack
 
@@ -114,25 +114,159 @@ platform/
 │   ├── web/                 # Astro + Angular islands (main website)
 │   └── mobile/              # Mobile app (TBD)
 ├── packages/                # Shared libraries
+│   ├── directus-schema/     # TypeScript types for Directus collections
+│   ├── directus-payload/    # Payload interfaces for JSON import/export
 │   ├── domain/              # Business entities and use cases
 │   ├── infrastructure/      # External services adapters (Directus SDK)
 │   └── ui/                  # Shared UI components
 ├── tools/                   # Development utilities
-│   └── directus-import/     # JSON import scripts for Directus
+│   └── directus-import/     # CLI for importing/exporting Directus data
 ├── infrastructure/          # Infrastructure configuration
-│   └── docker/              # Docker compose for local dev
+│   ├── docker/              # Docker compose for local dev
+│   └── seeds/               # JSON seed data for Directus collections
+├── scripts/                 # Workspace-level scripts
+│   └── version.ts           # Version bumping script
 ├── .moon/                   # Moonrepo configuration
 │   ├── workspace.yml        # Workspace settings
 │   └── toolchain.yml        # Bun/TypeScript config
 └── .prototools              # Proto version pinning
 ```
 
+## TypeScript Project References
+
+The monorepo uses TypeScript project references for proper type checking and incremental builds.
+
+### Configuration
+
+```
+tsconfig.json (root)
+├── references → all projects
+│
+├── packages/directus-schema/tsconfig.json
+│   └── composite: true (no dependencies)
+│
+├── packages/directus-payload/tsconfig.json
+│   ├── composite: true
+│   └── references → directus-schema
+│
+└── tools/directus-import/tsconfig.json
+    ├── composite: true
+    └── references → directus-schema, directus-payload
+```
+
+### Moon Toolchain Settings
+
+```yaml
+# .moon/toolchain.yml
+typescript:
+  routeOutDirToCache: false # Each project uses its own ./dist
+  syncProjectReferences: true # Moon auto-syncs references based on dependencies
+```
+
+### Build Output
+
+Each project generates in its `./dist` folder:
+
+- `*.js` - Compiled JavaScript
+- `*.d.ts` - Type declarations
+- `*.d.ts.map` - Source maps for "Go to Definition"
+- `*.tsbuildinfo` - Incremental build cache
+
+### Package Exports
+
+During development, packages export source TypeScript directly:
+
+```json
+{
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  }
+}
+```
+
+## Directus Data Packages
+
+### @alcstronghold/directus-schema
+
+TypeScript types that mirror Directus collections:
+
+- `LanguageCodes` - Supported language codes (`es-ES`, `ca-ES`)
+- `Genre`, `Publisher`, `RpgFamily`, `RpgSystem`, `RpgEdition`, `Setting`
+- Base types: `Status`, `TextDirection`, `BaseEntity`, `TranslatableEntity`
+
+### @alcstronghold/directus-payload
+
+Payload interfaces for JSON import/export files:
+
+- `GenrePayload`, `PublisherPayload`, `SettingPayload`
+- `RpgFamilyPayload`, `RpgSystemPayload`, `RpgEditionPayload`
+- Uses `Record<LanguageCodes, string>` for translations
+
+### Seed Data Location
+
+JSON files for seeding Directus are stored in `infrastructure/seeds/`:
+
+- `languages.json`, `genres.json`, `publishers.json`
+- `rpg-families.json`, `rpg-systems.json`, `rpg-editions.json`
+- `settings.json`
+
+## Version Management
+
+```bash
+bun run version        # Interactive version selector
+bun run version:patch  # Bump patch (0.0.1 → 0.0.2)
+bun run version:minor  # Bump minor (0.0.1 → 0.1.0)
+bun run version:major  # Bump major (0.0.1 → 1.0.0)
+```
+
+Updates all `package.json` files in the monorepo. No git operations (managed separately with git-flow).
+
 ## Project Configuration
 
 Each project in `apps/`, `packages/`, or `tools/` should have:
+
 - `moon.yml` - Moon task definitions
 - `package.json` - Dependencies and scripts
 - `tsconfig.json` - TypeScript configuration (extends root)
+
+## Linting & Formatting
+
+### ESLint (TypeScript/JavaScript)
+
+ESLint handles all TS/JS linting with strict rules:
+
+```bash
+bun run lint        # Check for issues
+bun run lint:fix    # Auto-fix issues
+```
+
+Key rules:
+
+- Single quotes enforced
+- Automatic import sorting (`simple-import-sort`)
+- Semicolons required
+- `no-console` warning (disabled for `scripts/` and `tools/`)
+- TypeScript strict rules enabled
+
+Configuration: `eslint.config.js` (ESLint 9 flat config)
+
+### Prettier (JSON, YAML, Markdown, HTML, CSS)
+
+Prettier formats non-TS/JS files only:
+
+```bash
+bun run format        # Format files
+bun run format:check  # Check formatting
+```
+
+TS/JS files are ignored by Prettier (`.prettierignore`) - ESLint handles those.
+
+Configuration: `.prettierrc`
 
 ## Conventions
 

@@ -1,9 +1,11 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+
 import { createItems } from '@directus/sdk';
+
+import { COLLECTION_FILES } from '../services/collections';
 import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
-import { COLLECTION_FILES } from '../services/collections';
 
 export interface ImportOptions {
   seedsDir: string;
@@ -41,7 +43,7 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
       // This will depend on the specific collection structure
       await client.request(createItems(collection, data));
 
-      console.log(`  ✓ Imported successfully`);
+      console.log('  ✓ Imported successfully');
     } catch (error) {
       console.error(`  ✗ Error importing ${collection}:`, error);
     }

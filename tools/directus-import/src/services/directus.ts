@@ -1,4 +1,4 @@
-import { createDirectus, rest, authentication, staticToken } from '@directus/sdk';
+import { authentication, createDirectus, rest, staticToken } from '@directus/sdk';
 
 export interface DirectusConfig {
   url: string;

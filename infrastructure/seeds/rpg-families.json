@@ -6,7 +6,16 @@
       "es-ES": "Pathfinder",
       "ca-ES": "Pathfinder"
     },
-    "settings": ["golarion-inner-sea", "ustalav", "numeria", "osirion", "tian-xia", "worldwound", "darklands", "alkenstar-mana-wastes"]
+    "settings": [
+      "golarion-inner-sea",
+      "ustalav",
+      "numeria",
+      "osirion",
+      "tian-xia",
+      "worldwound",
+      "darklands",
+      "alkenstar-mana-wastes"
+    ]
   },
   {
     "identifier": "starfinder",
@@ -15,7 +24,16 @@
       "es-ES": "Starfinder",
       "ca-ES": "Starfinder"
     },
-    "settings": ["pact-worlds-system", "absalom-station", "akiton", "eox", "the-diaspora", "the-vast", "aucturn", "verces"]
+    "settings": [
+      "pact-worlds-system",
+      "absalom-station",
+      "akiton",
+      "eox",
+      "the-diaspora",
+      "the-vast",
+      "aucturn",
+      "verces"
+    ]
   },
   {
     "identifier": "hitos",
@@ -42,7 +60,12 @@
       "es-ES": "Star Wars",
       "ca-ES": "Star Wars"
     },
-    "settings": ["star-wars-galactic-civil-war", "star-wars-clone-wars", "star-wars-the-outer-rim", "star-wars-old-republic"]
+    "settings": [
+      "star-wars-galactic-civil-war",
+      "star-wars-clone-wars",
+      "star-wars-the-outer-rim",
+      "star-wars-old-republic"
+    ]
   },
   {
     "identifier": "dungeons-and-dragons",
@@ -51,7 +74,17 @@
       "es-ES": "Dungeons & Dragons (Mazmorras y Dragones)",
       "ca-ES": "Dungeons & Dragons (Masmorres i Dracs)"
     },
-    "settings": ["forgotten-realms", "ravenloft", "eberron", "dark-sun", "dragonlance", "greyhawk", "planescape", "spelljammer", "el-resurgir-del-dragon"]
+    "settings": [
+      "forgotten-realms",
+      "ravenloft",
+      "eberron",
+      "dark-sun",
+      "dragonlance",
+      "greyhawk",
+      "planescape",
+      "spelljammer",
+      "el-resurgir-del-dragon"
+    ]
   },
   {
     "identifier": "ablaneda",
@@ -223,7 +256,14 @@
       "es-ES": "Warhammer 40,000",
       "ca-ES": "Warhammer 40,000"
     },
-    "settings": ["w40k-macharian-sector", "w40k-calixis-sector", "w40k-askellon-sector", "w40k-gilead-system", "w40k-jericho-reach", "w40k-screaming-vortex"]
+    "settings": [
+      "w40k-macharian-sector",
+      "w40k-calixis-sector",
+      "w40k-askellon-sector",
+      "w40k-gilead-system",
+      "w40k-jericho-reach",
+      "w40k-screaming-vortex"
+    ]
   },
   {
     "identifier": "warhammer-fantasy",
@@ -448,7 +488,14 @@
       "es-ES": "Star Trek",
       "ca-ES": "Star Trek"
     },
-    "settings": ["star-trek-enterprise", "star-trek-tos", "star-trek-tng", "star-trek-discovery-23c", "star-trek-picard", "star-trek-discovery-32c"]
+    "settings": [
+      "star-trek-enterprise",
+      "star-trek-tos",
+      "star-trek-tng",
+      "star-trek-discovery-23c",
+      "star-trek-picard",
+      "star-trek-discovery-32c"
+    ]
   },
   {
     "identifier": "7th-sea",
@@ -601,7 +648,15 @@
       "es-ES": "Daggerheart",
       "ca-ES": "Daggerheart"
     },
-    "settings": ["age-of-umbra", "beast-feast", "colossus-drylands", "five-banners", "motherboard", "witherwild", "love-and-magic"]
+    "settings": [
+      "age-of-umbra",
+      "beast-feast",
+      "colossus-drylands",
+      "five-banners",
+      "motherboard",
+      "witherwild",
+      "love-and-magic"
+    ]
   },
   {
     "identifier": "candela-obscura",
@@ -943,7 +998,12 @@
       "es-ES": "Mundo de Tinieblas",
       "ca-ES": "Món de Tenebres"
     },
-    "settings": ["world-of-darkness-modern", "world-of-darkness-dark-ages", "world-of-darkness-sorcerers-crusade", "world-of-darkness-wild-west"]
+    "settings": [
+      "world-of-darkness-modern",
+      "world-of-darkness-dark-ages",
+      "world-of-darkness-sorcerers-crusade",
+      "world-of-darkness-wild-west"
+    ]
   },
   {
     "identifier": "swords-of-the-serpentine",

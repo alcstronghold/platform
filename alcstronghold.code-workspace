@@ -2,31 +2,31 @@
   "folders": [
     {
       "name": "root",
-      "path": "."
+      "path": ".",
     },
     {
       "name": "apps",
-      "path": "apps"
+      "path": "apps",
     },
     {
       "name": "packages",
-      "path": "packages"
+      "path": "packages",
     },
     {
       "name": "tools",
-      "path": "tools"
+      "path": "tools",
     },
     {
       "name": "infrastructure",
-      "path": "infrastructure"
-    }
+      "path": "infrastructure",
+    },
   ],
   "settings": {
     "typescript.tsdk": "node_modules/typescript/lib",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
     },
     "files.eol": "\n",
     "files.insertFinalNewline": true,
@@ -37,13 +37,13 @@
       "**/build": true,
       "**/.moon/cache": true,
       "**/.angular": true,
-      "**/.astro": true
+      "**/.astro": true,
     },
     "yaml.schemas": {
       ".moon/cache/schemas/workspace.json": ".moon/workspace.yml",
       ".moon/cache/schemas/toolchain.json": ".moon/toolchain.yml",
-      ".moon/cache/schemas/project.json": "**/moon.yml"
-    }
+      ".moon/cache/schemas/project.json": "**/moon.yml",
+    },
   },
   "extensions": {
     "recommendations": [
@@ -55,7 +55,7 @@
       "bradlc.vscode-tailwindcss",
       "editorconfig.editorconfig",
       "redhat.vscode-yaml",
-      "ms-azuretools.vscode-docker"
-    ]
-  }
+      "ms-azuretools.vscode-docker",
+    ],
+  },
 }
