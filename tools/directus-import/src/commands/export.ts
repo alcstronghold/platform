@@ -1,7 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-import type { ExporterConfig } from '../exporters';
 import {
   GenreExporter,
   LanguageExporter,
@@ -12,14 +11,11 @@ import {
   SettingExporter,
 } from '../exporters';
 import { COLLECTION_FILES } from '../services/collections';
-import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
+import type { DirectusConfig, ExporterConfig, ExportOptions } from '../types';
 import { log } from '../utils';
 
-export interface ExportOptions {
-  seedsDir: string;
-  collections?: string[];
-}
+export type { ExportOptions };
 
 type ExporterClass = new (config: ExporterConfig) => {
   collectionName: string;

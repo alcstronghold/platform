@@ -10,4 +10,3 @@
     }
   }
 }
-bun run src/index.ts import -c publishers

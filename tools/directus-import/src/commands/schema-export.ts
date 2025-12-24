@@ -3,13 +3,11 @@ import { dirname } from 'node:path';
 
 import { schemaSnapshot } from '@directus/sdk';
 
-import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
+import type { DirectusConfig, SchemaExportOptions } from '../types';
 import { log } from '../utils';
 
-export interface SchemaExportOptions {
-  outputPath: string;
-}
+export type { SchemaExportOptions };
 
 /**
  * Export Directus schema (collections, fields, relations) to a JSON file.

@@ -16,8 +16,9 @@ const program = new Command();
 // Resolve relative to the project root (3 levels up from src/index.ts)
 const PROJECT_ROOT = resolve(import.meta.dirname, '../../..');
 const DEFAULT_SEEDS_DIR = resolve(PROJECT_ROOT, 'infrastructure/seeds');
+const DEFAULT_EXPORT_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups');
 const DEFAULT_SCHEMA_PATH = resolve(PROJECT_ROOT, 'infrastructure/schema/directus-schema.json');
-const DEFAULT_BACKUP_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups');
+const DEFAULT_BACKUP_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups/snapshots');
 
 /**
  * Get Directus config from CLI options or environment variables
@@ -77,12 +78,12 @@ program
   .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
   .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
   .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
-  .option('-d, --seeds-dir <dir>', 'Seeds directory', DEFAULT_SEEDS_DIR)
+  .option('-o, --output-dir <dir>', 'Output directory for exported JSON', DEFAULT_EXPORT_DIR)
   .option('-c, --collections <collections...>', 'Specific collections to export')
   .action(async (options) => {
     const config = getDirectusConfig(options);
     await exportCommand(config, {
-      seedsDir: options.seedsDir,
+      seedsDir: options.outputDir,
       collections: options.collections,
     });
   });

@@ -491,9 +491,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -670,9 +668,7 @@
         "required": false,
         "searchable": true,
         "sort": 9,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -718,9 +714,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -766,9 +760,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -814,9 +806,7 @@
         "required": false,
         "searchable": true,
         "sort": 12,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -916,64 +906,11 @@
         "required": false,
         "searchable": true,
         "sort": 5,
-        "special": [
-          "translations"
-        ],
+        "special": ["translations"],
         "translations": null,
         "validation": null,
         "validation_message": null,
         "width": "full"
-      }
-    },
-    {
-      "collection": "genres",
-      "field": "parent_id",
-      "type": "uuid",
-      "meta": {
-        "collection": "genres",
-        "conditions": null,
-        "display": "related-values",
-        "display_options": {
-          "template": "{{identifier}}"
-        },
-        "field": "parent_id",
-        "group": null,
-        "hidden": false,
-        "interface": "select-dropdown-m2o",
-        "note": null,
-        "options": {
-          "enableCreate": false,
-          "template": "{{identifier}}"
-        },
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 3,
-        "special": [
-          "m2o"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "half"
-      },
-      "schema": {
-        "name": "parent_id",
-        "table": "genres",
-        "data_type": "uuid",
-        "default_value": null,
-        "max_length": null,
-        "numeric_precision": null,
-        "numeric_scale": null,
-        "is_nullable": true,
-        "is_unique": false,
-        "is_indexed": false,
-        "is_primary_key": false,
-        "is_generated": false,
-        "generation_expression": null,
-        "has_auto_increment": false,
-        "foreign_key_table": "genres",
-        "foreign_key_column": "id"
       }
     },
     {
@@ -997,9 +934,7 @@
         "required": false,
         "searchable": true,
         "sort": 6,
-        "special": [
-          "m2m"
-        ],
+        "special": ["m2m"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -1050,6 +985,53 @@
         "has_auto_increment": false,
         "foreign_key_table": null,
         "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "genres",
+      "field": "parent_id",
+      "type": "uuid",
+      "meta": {
+        "collection": "genres",
+        "conditions": null,
+        "display": "related-values",
+        "display_options": null,
+        "field": "parent_id",
+        "group": null,
+        "hidden": false,
+        "interface": "select-dropdown-m2o",
+        "note": null,
+        "options": {
+          "enableCreate": false,
+          "template": "{{name}}"
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 3,
+        "special": ["m2o"],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "parent_id",
+        "table": "genres",
+        "data_type": "uuid",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": "genres",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -1404,9 +1386,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -1583,9 +1563,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -1631,9 +1609,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -1679,9 +1655,7 @@
         "required": false,
         "searchable": true,
         "sort": 12,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -1727,9 +1701,7 @@
         "required": false,
         "searchable": true,
         "sort": 13,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2069,9 +2041,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2248,9 +2218,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2296,9 +2264,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2344,9 +2310,7 @@
         "required": false,
         "searchable": true,
         "sort": 12,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2392,9 +2356,7 @@
         "required": false,
         "searchable": true,
         "sort": 13,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2541,9 +2503,7 @@
         "required": false,
         "searchable": true,
         "sort": 4,
-        "special": [
-          "translations"
-        ],
+        "special": ["translations"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2572,9 +2532,7 @@
         "required": true,
         "searchable": true,
         "sort": 6,
-        "special": [
-          "m2o"
-        ],
+        "special": ["m2o"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2621,9 +2579,7 @@
         "required": false,
         "searchable": true,
         "sort": 5,
-        "special": [
-          "m2o"
-        ],
+        "special": ["m2o"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -2893,9 +2849,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3072,9 +3026,7 @@
         "required": false,
         "searchable": true,
         "sort": 8,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3120,9 +3072,7 @@
         "required": false,
         "searchable": true,
         "sort": 9,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3168,9 +3118,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3216,9 +3164,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3364,9 +3310,7 @@
         "required": false,
         "searchable": true,
         "sort": 4,
-        "special": [
-          "translations"
-        ],
+        "special": ["translations"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3394,9 +3338,7 @@
         "required": false,
         "searchable": true,
         "sort": 5,
-        "special": [
-          "m2m"
-        ],
+        "special": ["m2m"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3732,9 +3674,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3911,9 +3851,7 @@
         "required": false,
         "searchable": true,
         "sort": 8,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -3959,9 +3897,7 @@
         "required": false,
         "searchable": true,
         "sort": 9,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4007,9 +3943,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4055,9 +3989,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4153,9 +4085,7 @@
         "required": false,
         "searchable": true,
         "sort": 4,
-        "special": [
-          "translations"
-        ],
+        "special": ["translations"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4449,9 +4379,7 @@
         "required": false,
         "searchable": true,
         "sort": 1,
-        "special": [
-          "uuid"
-        ],
+        "special": ["uuid"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4628,9 +4556,7 @@
         "required": false,
         "searchable": true,
         "sort": 8,
-        "special": [
-          "user-created"
-        ],
+        "special": ["user-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4676,9 +4602,7 @@
         "required": false,
         "searchable": true,
         "sort": 9,
-        "special": [
-          "date-created"
-        ],
+        "special": ["date-created"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4724,9 +4648,7 @@
         "required": false,
         "searchable": true,
         "sort": 10,
-        "special": [
-          "user-updated"
-        ],
+        "special": ["user-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4772,9 +4694,7 @@
         "required": false,
         "searchable": true,
         "sort": 11,
-        "special": [
-          "date-updated"
-        ],
+        "special": ["date-updated"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4921,9 +4841,7 @@
         "required": false,
         "searchable": true,
         "sort": 4,
-        "special": [
-          "translations"
-        ],
+        "special": ["translations"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -4951,9 +4869,7 @@
         "required": false,
         "searchable": true,
         "sort": 5,
-        "special": [
-          "m2m"
-        ],
+        "special": ["m2m"],
         "translations": null,
         "validation": null,
         "validation_message": null,
@@ -5358,7 +5274,7 @@
         "foreign_key_column": "id",
         "constraint_name": "genres_parent_id_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
+        "on_delete": "SET NULL"
       }
     },
     {

@@ -23,8 +23,5 @@
       "Bash(bun:*)"
     ]
   },
-  "enabledMcpjsonServers": [
-    "angular-cli",
-    "directus-stronghold"
-  ]
+  "enabledMcpjsonServers": ["angular-cli", "directus-stronghold"]
 }

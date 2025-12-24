@@ -1,25 +1,16 @@
 import type { SettingPayload } from '@alcstronghold/directus-payload';
+import type { LanguageCodes } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type {
+  ExporterConfig,
+  ExportResult,
+  GenreRelation,
+  SettingEntity,
+  SettingTranslation,
+} from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult, LanguageCodes } from './base.exporter';
 import { LANGUAGE_CODES } from './base.exporter';
-
-interface SettingTranslation {
-  languages_code: string;
-  name: string;
-}
-
-interface GenreRelation {
-  genres_id: string | { id: string; identifier: string };
-}
-
-interface SettingEntity {
-  identifier: string;
-  name: string;
-  translations: SettingTranslation[];
-  genres: GenreRelation[];
-}
 
 export class SettingExporter {
   private readonly config: ExporterConfig;

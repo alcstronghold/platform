@@ -4,12 +4,7 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## En Progreso
 
-- [ ] **Completar directus-schema types** - Añadir tipos para todas las colecciones:
-  - [ ] RpgFamily, RpgFamilyTranslation
-  - [ ] RpgSystem, RpgSystemTranslation
-  - [ ] RpgEdition, RpgEditionTranslation
-  - [ ] Setting, SettingTranslation
-  - [ ] Junction tables (settings_genres, rpg_families_settings)
+(ninguna tarea en progreso)
 
 ## Pendiente - Alta Prioridad
 
@@ -32,6 +27,11 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## Completado
 
+- [x] **directus-schema types** - Tipos TypeScript para todas las colecciones:
+  - [x] RpgFamily, RpgFamilyTranslation, RpgFamiliesSettings
+  - [x] RpgSystem, RpgSystemTranslation
+  - [x] RpgEdition, RpgEditionTranslation
+  - [x] Setting, SettingTranslation, SettingsGenres
 - [x] Configurar monorepo (Moonrepo + Proto + Bun)
 - [x] Docker Compose (Traefik + PostgreSQL + Redis + Directus)
 - [x] HTTPS local con mkcert
@@ -64,7 +64,17 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
   - [x] LanguageExporter, GenreExporter, PublisherExporter
   - [x] SettingExporter (M2M genres), RpgFamilyExporter (M2M settings)
   - [x] RpgSystemExporter, RpgEditionExporter (FK resolution)
+- [x] **Reorganización types/ en directus-import** - Estructura nested:
+  - [x] types/config/ - DirectusConfig, ImporterConfig, ExporterConfig
+  - [x] types/commands/ - Opciones de todos los comandos CLI
+  - [x] types/schema/ - CollectionInfo, RelationInfo, DeletionPriority
+  - [x] types/importers/ - ImportResult
+  - [x] types/exporters/ - ExportResult + entidades (GenreEntity, etc.)
+  - [x] types/common/ - TarFile
+- [x] **Normalización de tipado** - Convención `prop: T | null` para JSON payloads:
+  - [x] directus-payload: PublisherPayload, GenrePayload, RpgSystemPayload, RpgEditionPayload
+  - [x] Exporters actualizados para incluir siempre campos nullables
 
 ---
 
-_Última actualización: 2025-12-23_
+_Última actualización: 2025-12-24_

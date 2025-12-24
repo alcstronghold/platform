@@ -11,7 +11,6 @@ import type {
   SettingPayload,
 } from '@alcstronghold/directus-payload';
 
-import type { ImporterConfig, ImportResult } from '../importers';
 import {
   GenreImporter,
   LanguageImporter,
@@ -21,9 +20,11 @@ import {
   RpgSystemImporter,
   SettingImporter,
 } from '../importers';
-import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
+import type { DirectusConfig, ImporterConfig, ImportOptions, ImportResult } from '../types';
 import { log } from '../utils';
+
+export type { ImportOptions };
 
 /**
  * Collection configuration for imports
@@ -75,12 +76,6 @@ const COLLECTIONS: Record<string, CollectionConfig> = {
     importer: RpgEditionImporter,
   },
 };
-
-export interface ImportOptions {
-  seedsDir: string;
-  collections?: string[];
-  verbose?: boolean;
-}
 
 /**
  * Load JSON data from a file, handling BOM and validation
