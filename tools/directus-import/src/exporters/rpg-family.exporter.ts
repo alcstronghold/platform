@@ -1,25 +1,16 @@
 import type { RpgFamilyPayload } from '@alcstronghold/directus-payload';
+import type { LanguageCodes } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type {
+  ExporterConfig,
+  ExportResult,
+  RpgFamilyEntity,
+  RpgFamilyTranslation,
+  SettingRelation,
+} from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult, LanguageCodes } from './base.exporter';
 import { LANGUAGE_CODES } from './base.exporter';
-
-interface RpgFamilyTranslation {
-  languages_code: string;
-  name: string;
-}
-
-interface SettingRelation {
-  settings_id: string | { id: string; identifier: string };
-}
-
-interface RpgFamilyEntity {
-  identifier: string;
-  name: string;
-  translations: RpgFamilyTranslation[];
-  settings: SettingRelation[];
-}
 
 export class RpgFamilyExporter {
   private readonly config: ExporterConfig;

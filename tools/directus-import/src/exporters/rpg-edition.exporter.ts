@@ -1,23 +1,15 @@
 import type { RpgEditionPayload } from '@alcstronghold/directus-payload';
+import type { LanguageCodes } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type {
+  ExporterConfig,
+  ExportResult,
+  RpgEditionEntity,
+  RpgEditionTranslation,
+} from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult, LanguageCodes } from './base.exporter';
 import { LANGUAGE_CODES } from './base.exporter';
-
-interface RpgEditionTranslation {
-  languages_code: string;
-  name: string;
-}
-
-interface RpgEditionEntity {
-  identifier: string;
-  name: string;
-  bgg_id: number | null;
-  rpg_system_id: string | null | { id: string; identifier: string };
-  rpg_family_id: string | { id: string; identifier: string };
-  translations: RpgEditionTranslation[];
-}
 
 export class RpgEditionExporter {
   private readonly config: ExporterConfig;
@@ -58,21 +50,14 @@ export class RpgEditionExporter {
         })
       );
 
-      const data: RpgEditionPayload[] = entities.map((entity) => {
-        const payload: RpgEditionPayload = {
-          identifier: entity.identifier,
-          name: entity.name,
-          rpg_system_id: this.resolveIdentifier(entity.rpg_system_id, this.systemIdentifierMap),
-          rpg_family_id: this.resolveIdentifier(entity.rpg_family_id, this.familyIdentifierMap) ?? '',
-          translations: this.buildTranslations(entity.translations),
-        };
-
-        if (entity.bgg_id != null) {
-          payload.bgg_id = entity.bgg_id;
-        }
-
-        return payload;
-      });
+      const data: RpgEditionPayload[] = entities.map((entity) => ({
+        identifier: entity.identifier,
+        name: entity.name,
+        rpg_system_id: this.resolveIdentifier(entity.rpg_system_id, this.systemIdentifierMap),
+        rpg_family_id: this.resolveIdentifier(entity.rpg_family_id, this.familyIdentifierMap) ?? '',
+        translations: this.buildTranslations(entity.translations),
+        bgg_id: entity.bgg_id,
+      }));
 
       result.total = data.length;
       log.success(`Exported ${data.length} rpg_editions`);

@@ -6,9 +6,7 @@
       "es-ES": "7º Mar",
       "ca-ES": "7è Mar"
     },
-    "settings": [
-      "theah"
-    ]
+    "settings": ["theah"]
   },
   {
     "identifier": "8-tesoros",
@@ -17,9 +15,7 @@
       "es-ES": "8 Tesoros",
       "ca-ES": "8 Tresors"
     },
-    "settings": [
-      "8-tesoros-setting"
-    ]
+    "settings": ["8-tesoros-setting"]
   },
   {
     "identifier": "ablaneda",
@@ -28,9 +24,7 @@
       "es-ES": "Ablaneda",
       "ca-ES": "Ablaneda"
     },
-    "settings": [
-      "ablaneda-setting"
-    ]
+    "settings": ["ablaneda-setting"]
   },
   {
     "identifier": "alien",
@@ -39,9 +33,7 @@
       "es-ES": "Alien",
       "ca-ES": "Alien"
     },
-    "settings": [
-      "alien-universe"
-    ]
+    "settings": ["alien-universe"]
   },
   {
     "identifier": "amazing-tales",
@@ -50,9 +42,7 @@
       "es-ES": "Amazing Tales (Los Guardianes de las Palabras)",
       "ca-ES": "Amazing Tales (Els Guardians de les Paraules)"
     },
-    "settings": [
-      "amazing-tales-setting"
-    ]
+    "settings": ["amazing-tales-setting"]
   },
   {
     "identifier": "apocalypse-world",
@@ -61,9 +51,7 @@
       "es-ES": "Apocalypse World",
       "ca-ES": "Apocalypse World"
     },
-    "settings": [
-      "apocalypse-world-setting"
-    ]
+    "settings": ["apocalypse-world-setting"]
   },
   {
     "identifier": "aquelarre",
@@ -72,9 +60,7 @@
       "es-ES": "Aquelarre",
       "ca-ES": "Aquelarre"
     },
-    "settings": [
-      "aquelarre-medieval-iberia"
-    ]
+    "settings": ["aquelarre-medieval-iberia"]
   },
   {
     "identifier": "ars-magica",
@@ -83,9 +69,7 @@
       "es-ES": "Ars Magica",
       "ca-ES": "Ars Magica"
     },
-    "settings": [
-      "mythic-europe"
-    ]
+    "settings": ["mythic-europe"]
   },
   {
     "identifier": "avatar",
@@ -94,11 +78,7 @@
       "es-ES": "Avatar",
       "ca-ES": "Avatar"
     },
-    "settings": [
-      "the-four-nations-ancient-era",
-      "the-four-nations-aang-era",
-      "the-four-nations-korra-era"
-    ]
+    "settings": ["the-four-nations-ancient-era", "the-four-nations-aang-era", "the-four-nations-korra-era"]
   },
   {
     "identifier": "blacksad",
@@ -107,9 +87,7 @@
       "es-ES": "Blacksad",
       "ca-ES": "Blacksad"
     },
-    "settings": [
-      "blacksad-america"
-    ]
+    "settings": ["blacksad-america"]
   },
   {
     "identifier": "blade-runner",
@@ -118,9 +96,7 @@
       "es-ES": "Blade Runner",
       "ca-ES": "Blade Runner"
     },
-    "settings": [
-      "blade-runner-los-angeles"
-    ]
+    "settings": ["blade-runner-los-angeles"]
   },
   {
     "identifier": "blood-and-honor",
@@ -129,9 +105,7 @@
       "es-ES": "Sangre y Honor",
       "ca-ES": "Sang i Honor"
     },
-    "settings": [
-      "blood-and-honor-feudal-japan"
-    ]
+    "settings": ["blood-and-honor-feudal-japan"]
   },
   {
     "identifier": "bloodheist",
@@ -140,9 +114,7 @@
       "es-ES": "Botín de Sangre",
       "ca-ES": "Botí de Sang"
     },
-    "settings": [
-      "bloodheist-setting"
-    ]
+    "settings": ["bloodheist-setting"]
   },
   {
     "identifier": "brindlewood-bay",
@@ -151,9 +123,7 @@
       "es-ES": "Brindlewood Bay",
       "ca-ES": "Brindlewood Bay"
     },
-    "settings": [
-      "brindlewood-bay-town"
-    ]
+    "settings": ["brindlewood-bay-town"]
   },
   {
     "identifier": "broken-compass",
@@ -162,9 +132,7 @@
       "es-ES": "Broken Compass",
       "ca-ES": "Broken Compass"
     },
-    "settings": [
-      "broken-compass-1999"
-    ]
+    "settings": ["broken-compass-1999"]
   },
   {
     "identifier": "broken-tales",
@@ -173,9 +141,7 @@
       "es-ES": "Broken Tales",
       "ca-ES": "Broken Tales"
     },
-    "settings": [
-      "broken-tales-setting"
-    ]
+    "settings": ["broken-tales-setting"]
   },
   {
     "identifier": "campeones",
@@ -184,10 +150,7 @@
       "es-ES": "Campeones",
       "ca-ES": "Campeones"
     },
-    "settings": [
-      "abora-islands",
-      "verne-setting"
-    ]
+    "settings": ["abora-islands", "verne-setting"]
   },
   {
     "identifier": "candela-obscura",
@@ -196,9 +159,7 @@
       "es-ES": "Candela Obscura",
       "ca-ES": "Candela Obscura"
     },
-    "settings": [
-      "the-fairelands"
-    ]
+    "settings": ["the-fairelands"]
   },
   {
     "identifier": "castle-falkenstein",
@@ -207,9 +168,7 @@
       "es-ES": "Castillo de Falkenstein",
       "ca-ES": "Castell de Falkenstein"
     },
-    "settings": [
-      "new-europa"
-    ]
+    "settings": ["new-europa"]
   },
   {
     "identifier": "caucho-y-cromo",
@@ -218,9 +177,7 @@
       "es-ES": "Caucho y Cromo",
       "ca-ES": "Cautxú i Crom"
     },
-    "settings": [
-      "caucho-y-cromo-setting"
-    ]
+    "settings": ["caucho-y-cromo-setting"]
   },
   {
     "identifier": "chronicles-of-darkness",
@@ -229,10 +186,7 @@
       "es-ES": "Crónicas de Tinieblas",
       "ca-ES": "Cròniques de Tenebres"
     },
-    "settings": [
-      "chronicles-of-darkness-modern",
-      "chronicles-of-darkness-ancient-rome"
-    ]
+    "settings": ["chronicles-of-darkness-modern", "chronicles-of-darkness-ancient-rome"]
   },
   {
     "identifier": "contratiempos",
@@ -241,9 +195,7 @@
       "es-ES": "Contratiempos",
       "ca-ES": "Contratemps"
     },
-    "settings": [
-      "clepsidra-timeline"
-    ]
+    "settings": ["clepsidra-timeline"]
   },
   {
     "identifier": "cosmere",
@@ -252,9 +204,7 @@
       "es-ES": "Cosmere",
       "ca-ES": "Cosmere"
     },
-    "settings": [
-      "the-cosmere"
-    ]
+    "settings": ["the-cosmere"]
   },
   {
     "identifier": "cthulhu-mythos",
@@ -286,9 +236,7 @@
       "es-ES": "Cuervos de Asgard Motor Club",
       "ca-ES": "Cuervos de Asgard Motor Club"
     },
-    "settings": [
-      "cuervos-de-asgard-setting"
-    ]
+    "settings": ["cuervos-de-asgard-setting"]
   },
   {
     "identifier": "cyberpunk",
@@ -297,12 +245,7 @@
       "es-ES": "Cyberpunk",
       "ca-ES": "Cyberpunk"
     },
-    "settings": [
-      "night-city",
-      "night-city-2027",
-      "night-city-203x",
-      "night-city-2077"
-    ]
+    "settings": ["night-city", "night-city-2027", "night-city-203x", "night-city-2077"]
   },
   {
     "identifier": "cy-borg",
@@ -311,9 +254,7 @@
       "es-ES": "CY_BORG",
       "ca-ES": "CY_BORG"
     },
-    "settings": [
-      "cy-borg-setting"
-    ]
+    "settings": ["cy-borg-setting"]
   },
   {
     "identifier": "daggerheart",
@@ -339,11 +280,7 @@
       "es-ES": "Deadlands",
       "ca-ES": "Deadlands"
     },
-    "settings": [
-      "the-weird-west",
-      "the-wasted-west",
-      "faraway-system"
-    ]
+    "settings": ["the-weird-west", "the-wasted-west", "faraway-system"]
   },
   {
     "identifier": "dinowest",
@@ -352,9 +289,7 @@
       "es-ES": "Dinowest",
       "ca-ES": "Dinowest"
     },
-    "settings": [
-      "dinowest-setting"
-    ]
+    "settings": ["dinowest-setting"]
   },
   {
     "identifier": "dracula-vs-hitler",
@@ -363,9 +298,7 @@
       "es-ES": "Drácula vs Hitler",
       "ca-ES": "Dràcula vs Hitler"
     },
-    "settings": [
-      "dracula-vs-hitler-setting"
-    ]
+    "settings": ["dracula-vs-hitler-setting"]
   },
   {
     "identifier": "dragonbane",
@@ -374,9 +307,7 @@
       "es-ES": "Dragonbane",
       "ca-ES": "Dragonbane"
     },
-    "settings": [
-      "misty-valley"
-    ]
+    "settings": ["misty-valley"]
   },
   {
     "identifier": "dune",
@@ -385,9 +316,7 @@
       "es-ES": "Dune",
       "ca-ES": "Dune"
     },
-    "settings": [
-      "dune-imperium"
-    ]
+    "settings": ["dune-imperium"]
   },
   {
     "identifier": "dungeon-crawl-classics",
@@ -396,9 +325,7 @@
       "es-ES": "Clásicos del Mazmorreo",
       "ca-ES": "Clásicos del Mazmorreo"
     },
-    "settings": [
-      "dungeon-crawl-classics-setting"
-    ]
+    "settings": ["dungeon-crawl-classics-setting"]
   },
   {
     "identifier": "dungeons-and-dragons",
@@ -426,9 +353,7 @@
       "es-ES": "Dungeon World",
       "ca-ES": "Dungeon World"
     },
-    "settings": [
-      "dungeon-world-setting"
-    ]
+    "settings": ["dungeon-world-setting"]
   },
   {
     "identifier": "dyss-mitica",
@@ -437,10 +362,7 @@
       "es-ES": "Dyss Mítica",
       "ca-ES": "Dyss Mítica"
     },
-    "settings": [
-      "dyss-mitica",
-      "dyss-mitica-magissa"
-    ]
+    "settings": ["dyss-mitica", "dyss-mitica-magissa"]
   },
   {
     "identifier": "fanhunter",
@@ -449,9 +371,7 @@
       "es-ES": "Fanhunter",
       "ca-ES": "Fanhunter"
     },
-    "settings": [
-      "fanhunter-setting"
-    ]
+    "settings": ["fanhunter-setting"]
   },
   {
     "identifier": "fate",
@@ -460,9 +380,7 @@
       "es-ES": "Fate",
       "ca-ES": "Fate"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "feng-shui",
@@ -471,9 +389,7 @@
       "es-ES": "Feng Shui",
       "ca-ES": "Feng Shui"
     },
-    "settings": [
-      "chi-war"
-    ]
+    "settings": ["chi-war"]
   },
   {
     "identifier": "fiasco",
@@ -482,9 +398,7 @@
       "es-ES": "Fiasco",
       "ca-ES": "Fiasco"
     },
-    "settings": [
-      "fiasco-setting"
-    ]
+    "settings": ["fiasco-setting"]
   },
   {
     "identifier": "forbidden-lands",
@@ -493,9 +407,7 @@
       "es-ES": "Forbidden Lands",
       "ca-ES": "Forbidden Lands"
     },
-    "settings": [
-      "the-forbidden-lands"
-    ]
+    "settings": ["the-forbidden-lands"]
   },
   {
     "identifier": "fragmentos",
@@ -504,9 +416,7 @@
       "es-ES": "Fragmentos",
       "ca-ES": "Fragments"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "genesys",
@@ -515,9 +425,7 @@
       "es-ES": "Genesys",
       "ca-ES": "Genesys"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "gurps",
@@ -526,9 +434,7 @@
       "es-ES": "GURPS",
       "ca-ES": "GURPS"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "hardboiled",
@@ -537,9 +443,7 @@
       "es-ES": "Hardboiled",
       "ca-ES": "Hardboiled"
     },
-    "settings": [
-      "hardboiled-setting"
-    ]
+    "settings": ["hardboiled-setting"]
   },
   {
     "identifier": "hero-kids",
@@ -548,9 +452,7 @@
       "es-ES": "Hero Kids",
       "ca-ES": "Hero Kids"
     },
-    "settings": [
-      "hero-kids-setting"
-    ]
+    "settings": ["hero-kids-setting"]
   },
   {
     "identifier": "hitos",
@@ -559,9 +461,7 @@
       "es-ES": "Hitos",
       "ca-ES": "Hitos"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "honey-heist",
@@ -570,9 +470,7 @@
       "es-ES": "Honey Heist",
       "ca-ES": "Honey Heist"
     },
-    "settings": [
-      "honey-heist-setting"
-    ]
+    "settings": ["honey-heist-setting"]
   },
   {
     "identifier": "horror-movie-world",
@@ -581,9 +479,7 @@
       "es-ES": "Horror Movie World",
       "ca-ES": "Horror Movie World"
     },
-    "settings": [
-      "horror-movie-setting"
-    ]
+    "settings": ["horror-movie-setting"]
   },
   {
     "identifier": "ink",
@@ -592,9 +488,7 @@
       "es-ES": "Tinta",
       "ca-ES": "Tinta"
     },
-    "settings": [
-      "ink-setting"
-    ]
+    "settings": ["ink-setting"]
   },
   {
     "identifier": "inocentes",
@@ -603,9 +497,7 @@
       "es-ES": "Inocentes",
       "ca-ES": "Inocentes"
     },
-    "settings": [
-      "inocentes-setting"
-    ]
+    "settings": ["inocentes-setting"]
   },
   {
     "identifier": "kids-on-bikes",
@@ -614,9 +506,7 @@
       "es-ES": "Kids on Bikes",
       "ca-ES": "Kids on Bikes"
     },
-    "settings": [
-      "kids-on-bikes-setting"
-    ]
+    "settings": ["kids-on-bikes-setting"]
   },
   {
     "identifier": "kult",
@@ -625,9 +515,7 @@
       "es-ES": "Kult",
       "ca-ES": "Kult"
     },
-    "settings": [
-      "kult-illusion"
-    ]
+    "settings": ["kult-illusion"]
   },
   {
     "identifier": "la-puerta-de-ishtar",
@@ -636,9 +524,7 @@
       "es-ES": "La Puerta de Ishtar",
       "ca-ES": "La Porta d'Ishtar"
     },
-    "settings": [
-      "ishtar-empire-akkad"
-    ]
+    "settings": ["ishtar-empire-akkad"]
   },
   {
     "identifier": "legend-of-the-five-rings",
@@ -647,9 +533,7 @@
       "es-ES": "La Leyenda de los Cinco Anillos",
       "ca-ES": "La Llegenda dels Cinc Anells"
     },
-    "settings": [
-      "rokugan-emerald-empire"
-    ]
+    "settings": ["rokugan-emerald-empire"]
   },
   {
     "identifier": "liminal",
@@ -658,9 +542,7 @@
       "es-ES": "Liminal",
       "ca-ES": "Liminal"
     },
-    "settings": [
-      "liminal-setting"
-    ]
+    "settings": ["liminal-setting"]
   },
   {
     "identifier": "luna-roja",
@@ -669,9 +551,7 @@
       "es-ES": "Luna Roja",
       "ca-ES": "Lluna Roja"
     },
-    "settings": [
-      "luna-roja-kaldu"
-    ]
+    "settings": ["luna-roja-kaldu"]
   },
   {
     "identifier": "maho-shojo",
@@ -680,9 +560,7 @@
       "es-ES": "Mahō Shōjo",
       "ca-ES": "Mahō Shōjo"
     },
-    "settings": [
-      "maho-shojo-setting"
-    ]
+    "settings": ["maho-shojo-setting"]
   },
   {
     "identifier": "mausritter",
@@ -691,9 +569,7 @@
       "es-ES": "Mausritter",
       "ca-ES": "Mausritter"
     },
-    "settings": [
-      "mausritter-setting"
-    ]
+    "settings": ["mausritter-setting"]
   },
   {
     "identifier": "middle-earth",
@@ -702,11 +578,7 @@
       "es-ES": "La Tierra Media (El Señor de los Anillos)",
       "ca-ES": "La Terra Mitjana (El Senyor dels Anells)"
     },
-    "settings": [
-      "middle-earth-third-age",
-      "middle-earth-eriador",
-      "middle-earth-wilderland"
-    ]
+    "settings": ["middle-earth-third-age", "middle-earth-eriador", "middle-earth-wilderland"]
   },
   {
     "identifier": "misery-and-misfortune",
@@ -715,9 +587,7 @@
       "es-ES": "Miserias y Desgracias",
       "ca-ES": "Misèries i Malaurances"
     },
-    "settings": [
-      "misery-and-misfortune-setting"
-    ]
+    "settings": ["misery-and-misfortune-setting"]
   },
   {
     "identifier": "monsterhearts",
@@ -726,9 +596,7 @@
       "es-ES": "Monsterhearts",
       "ca-ES": "Monsterhearts"
     },
-    "settings": [
-      "monsterhearts-setting"
-    ]
+    "settings": ["monsterhearts-setting"]
   },
   {
     "identifier": "mork-borg",
@@ -737,9 +605,7 @@
       "es-ES": "Mörk Borg",
       "ca-ES": "Mörk Borg"
     },
-    "settings": [
-      "mork-borg-dying-world"
-    ]
+    "settings": ["mork-borg-dying-world"]
   },
   {
     "identifier": "musu-musu-musume",
@@ -748,9 +614,7 @@
       "es-ES": "Musu-Musu-Musume?!",
       "ca-ES": "Musu-Musu-Musume?!"
     },
-    "settings": [
-      "musu-musu-musume-setting"
-    ]
+    "settings": ["musu-musu-musume-setting"]
   },
   {
     "identifier": "mutant-year-zero",
@@ -759,9 +623,7 @@
       "es-ES": "Mutant: Year Zero",
       "ca-ES": "Mutant: Year Zero"
     },
-    "settings": [
-      "the-zone"
-    ]
+    "settings": ["the-zone"]
   },
   {
     "identifier": "nights-black-agents",
@@ -770,9 +632,7 @@
       "es-ES": "Agentes de la Noche",
       "ca-ES": "Agents de la Nit"
     },
-    "settings": [
-      "nights-black-agents-setting"
-    ]
+    "settings": ["nights-black-agents-setting"]
   },
   {
     "identifier": "old-school-essentials",
@@ -781,9 +641,7 @@
       "es-ES": "Old-School Essentials",
       "ca-ES": "Old-School Essentials"
     },
-    "settings": [
-      "old-school-essentials-setting"
-    ]
+    "settings": ["old-school-essentials-setting"]
   },
   {
     "identifier": "outer-dark",
@@ -792,9 +650,7 @@
       "es-ES": "Outer Dark",
       "ca-ES": "Outer Dark"
     },
-    "settings": [
-      "outer-dark-setting"
-    ]
+    "settings": ["outer-dark-setting"]
   },
   {
     "identifier": "paranoia",
@@ -803,9 +659,7 @@
       "es-ES": "Paranoia",
       "ca-ES": "Paranoia"
     },
-    "settings": [
-      "alpha-complex"
-    ]
+    "settings": ["alpha-complex"]
   },
   {
     "identifier": "pathfinder",
@@ -832,9 +686,7 @@
       "es-ES": "Pendragón",
       "ca-ES": "Pendragón"
     },
-    "settings": [
-      "pendragon-britain"
-    ]
+    "settings": ["pendragon-britain"]
   },
   {
     "identifier": "perils-and-princesses",
@@ -843,9 +695,7 @@
       "es-ES": "Perils & Princesses",
       "ca-ES": "Perils & Princesses"
     },
-    "settings": [
-      "perils-and-princesses-setting"
-    ]
+    "settings": ["perils-and-princesses-setting"]
   },
   {
     "identifier": "ragnarok",
@@ -854,9 +704,7 @@
       "es-ES": "Ragnarok",
       "ca-ES": "Ragnarok"
     },
-    "settings": [
-      "ragnarok-setting"
-    ]
+    "settings": ["ragnarok-setting"]
   },
   {
     "identifier": "reflejo",
@@ -865,9 +713,7 @@
       "es-ES": "Reflejo",
       "ca-ES": "Reflejo"
     },
-    "settings": [
-      "reflejo-setting"
-    ]
+    "settings": ["reflejo-setting"]
   },
   {
     "identifier": "robotta",
@@ -876,9 +722,7 @@
       "es-ES": "Robotta",
       "ca-ES": "Robotta"
     },
-    "settings": [
-      "robotta-setting"
-    ]
+    "settings": ["robotta-setting"]
   },
   {
     "identifier": "root",
@@ -887,9 +731,7 @@
       "es-ES": "Root",
       "ca-ES": "Root"
     },
-    "settings": [
-      "root-woodland"
-    ]
+    "settings": ["root-woodland"]
   },
   {
     "identifier": "runecairn",
@@ -898,9 +740,7 @@
       "es-ES": "Runecairn",
       "ca-ES": "Runecairn"
     },
-    "settings": [
-      "runecairn-nine-realms"
-    ]
+    "settings": ["runecairn-nine-realms"]
   },
   {
     "identifier": "runequest",
@@ -909,9 +749,7 @@
       "es-ES": "RuneQuest",
       "ca-ES": "RuneQuest"
     },
-    "settings": [
-      "glorantha"
-    ]
+    "settings": ["glorantha"]
   },
   {
     "identifier": "ryuutama",
@@ -920,9 +758,7 @@
       "es-ES": "Ryuutama",
       "ca-ES": "Ryuutama"
     },
-    "settings": [
-      "ryuutama-setting"
-    ]
+    "settings": ["ryuutama-setting"]
   },
   {
     "identifier": "savage-worlds",
@@ -931,9 +767,7 @@
       "es-ES": "Savage Worlds",
       "ca-ES": "Savage Worlds"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "scheherazade",
@@ -942,9 +776,7 @@
       "es-ES": "Scheherazade (Las Mil y Una Noches)",
       "ca-ES": "Scheherazade (Les Mil i Una Nits)"
     },
-    "settings": [
-      "scheherazade-setting"
-    ]
+    "settings": ["scheherazade-setting"]
   },
   {
     "identifier": "scurry",
@@ -953,9 +785,7 @@
       "es-ES": "¡A la carrera!",
       "ca-ES": "¡A la carrera!"
     },
-    "settings": [
-      "scurry-setting"
-    ]
+    "settings": ["scurry-setting"]
   },
   {
     "identifier": "seapunk-unleashed",
@@ -964,9 +794,7 @@
       "es-ES": "Seapunk Unleashed",
       "ca-ES": "Seapunk Unleashed"
     },
-    "settings": [
-      "seapunk-unleashed-setting"
-    ]
+    "settings": ["seapunk-unleashed-setting"]
   },
   {
     "identifier": "shadowrun",
@@ -975,9 +803,7 @@
       "es-ES": "Shadowrun",
       "ca-ES": "Shadowrun"
     },
-    "settings": [
-      "sixth-world"
-    ]
+    "settings": ["sixth-world"]
   },
   {
     "identifier": "shinobigami",
@@ -986,9 +812,7 @@
       "es-ES": "Shinobigami",
       "ca-ES": "Shinobigami"
     },
-    "settings": [
-      "shinobigami-setting"
-    ]
+    "settings": ["shinobigami-setting"]
   },
   {
     "identifier": "starfinder",
@@ -1045,9 +869,7 @@
       "es-ES": "Espadas del Serpentino",
       "ca-ES": "Espases del Serpentí"
     },
-    "settings": [
-      "serpentine-city"
-    ]
+    "settings": ["serpentine-city"]
   },
   {
     "identifier": "tales-from-the-loop",
@@ -1056,9 +878,7 @@
       "es-ES": "Tales from the Loop",
       "ca-ES": "Tales from the Loop"
     },
-    "settings": [
-      "the-loop"
-    ]
+    "settings": ["the-loop"]
   },
   {
     "identifier": "the-dee-sanction",
@@ -1067,9 +887,7 @@
       "es-ES": "The Dee Sanction",
       "ca-ES": "The Dee Sanction"
     },
-    "settings": [
-      "the-dee-sanction-elizabethan-england"
-    ]
+    "settings": ["the-dee-sanction-elizabethan-england"]
   },
   {
     "identifier": "the-dresden-files",
@@ -1078,9 +896,7 @@
       "es-ES": "The Dresden Files",
       "ca-ES": "The Dresden Files"
     },
-    "settings": [
-      "dresden-files-setting"
-    ]
+    "settings": ["dresden-files-setting"]
   },
   {
     "identifier": "the-flux",
@@ -1089,9 +905,7 @@
       "es-ES": "The Flux",
       "ca-ES": "The Flux"
     },
-    "settings": [
-      "the-flux-setting"
-    ]
+    "settings": ["the-flux-setting"]
   },
   {
     "identifier": "the-troubleshooters",
@@ -1100,9 +914,7 @@
       "es-ES": "The Troubleshooters",
       "ca-ES": "The Troubleshooters"
     },
-    "settings": [
-      "troubleshooters-setting"
-    ]
+    "settings": ["troubleshooters-setting"]
   },
   {
     "identifier": "the-walking-dead",
@@ -1111,9 +923,7 @@
       "es-ES": "The Walking Dead",
       "ca-ES": "The Walking Dead"
     },
-    "settings": [
-      "walking-dead-universe"
-    ]
+    "settings": ["walking-dead-universe"]
   },
   {
     "identifier": "tierras-quebradas",
@@ -1122,9 +932,7 @@
       "es-ES": "Tierras Quebradas",
       "ca-ES": "Terres Trencades"
     },
-    "settings": [
-      "the-broken-lands"
-    ]
+    "settings": ["the-broken-lands"]
   },
   {
     "identifier": "trophy",
@@ -1133,9 +941,7 @@
       "es-ES": "Trophy",
       "ca-ES": "Trophy"
     },
-    "settings": [
-      "trophy-forest"
-    ]
+    "settings": ["trophy-forest"]
   },
   {
     "identifier": "untitled-goose-gang",
@@ -1144,9 +950,7 @@
       "es-ES": "Untitled Goose Gang",
       "ca-ES": "Untitled Goose Gang"
     },
-    "settings": [
-      "untitled-goose-gang-setting"
-    ]
+    "settings": ["untitled-goose-gang-setting"]
   },
   {
     "identifier": "vaesen",
@@ -1155,9 +959,7 @@
       "es-ES": "Vaesen",
       "ca-ES": "Vaesen"
     },
-    "settings": [
-      "mythic-north"
-    ]
+    "settings": ["mythic-north"]
   },
   {
     "identifier": "viking-death-squad",
@@ -1166,9 +968,7 @@
       "es-ES": "Viking Death Squad",
       "ca-ES": "Viking Death Squad"
     },
-    "settings": [
-      "viking-death-squad-setting"
-    ]
+    "settings": ["viking-death-squad-setting"]
   },
   {
     "identifier": "warhammer-40000",
@@ -1193,9 +993,7 @@
       "es-ES": "Warhammer Fantasy",
       "ca-ES": "Warhammer Fantasy"
     },
-    "settings": [
-      "warhammer-fantasy-old-world"
-    ]
+    "settings": ["warhammer-fantasy-old-world"]
   },
   {
     "identifier": "witchcraft",
@@ -1204,10 +1002,7 @@
       "es-ES": "WitchCraft",
       "ca-ES": "WitchCraft"
     },
-    "settings": [
-      "witchcraft-setting",
-      "cukicraft-setting"
-    ]
+    "settings": ["witchcraft-setting", "cukicraft-setting"]
   },
   {
     "identifier": "world-of-darkness",
@@ -1230,9 +1025,7 @@
       "es-ES": "Wushu",
       "ca-ES": "Wushu"
     },
-    "settings": [
-      "universal"
-    ]
+    "settings": ["universal"]
   },
   {
     "identifier": "yggdrasill",
@@ -1241,9 +1034,7 @@
       "es-ES": "Yggdrasill",
       "ca-ES": "Yggdrasill"
     },
-    "settings": [
-      "yggdrasill-setting"
-    ]
+    "settings": ["yggdrasill-setting"]
   },
   {
     "identifier": "yuuyake-koyake",
@@ -1252,9 +1043,7 @@
       "es-ES": "Historias del Cielo Dorado",
       "ca-ES": "Històries del Cel Daurat"
     },
-    "settings": [
-      "yuuyake-koyake-japan"
-    ]
+    "settings": ["yuuyake-koyake-japan"]
   },
   {
     "identifier": "zombicide",
@@ -1263,8 +1052,6 @@
       "es-ES": "Zombicide",
       "ca-ES": "Zombicide"
     },
-    "settings": [
-      "zombicide-modern"
-    ]
+    "settings": ["zombicide-modern"]
   }
 ]

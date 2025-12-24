@@ -1,15 +1,8 @@
 import type { LanguageCodes } from '@alcstronghold/directus-schema';
-import type { RestClient } from '@directus/sdk';
 
-export interface ExporterConfig {
-  client: RestClient<object>;
-}
+import type { ExporterConfig, ExportResult } from '../types';
 
-export interface ExportResult {
-  collection: string;
-  total: number;
-  errors: string[];
-}
+export type { ExporterConfig, ExportResult };
 
 // Re-export LanguageCodes for convenience
 export type { LanguageCodes };

@@ -1,19 +1,16 @@
-import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
-import { createGzip } from 'node:zlib';
 import { createWriteStream } from 'node:fs';
-import { pipeline } from 'node:stream/promises';
+import { mkdir, readdir, readFile, rm } from 'node:fs/promises';
+import { join } from 'node:path';
 import { Readable } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
+import { createGzip } from 'node:zlib';
 
-import type { DirectusConfig } from '../services/directus';
-import { createClient } from '../services/directus';
+import type { BackupOptions, DirectusConfig, TarFile } from '../types';
 import { log } from '../utils';
 import { exportCommand } from './export';
 import { schemaExportCommand } from './schema-export';
 
-export interface BackupOptions {
-  outputDir: string;
-}
+export type { BackupOptions };
 
 /**
  * Create a timestamped backup archive containing schema and data exports.
@@ -92,11 +89,6 @@ async function createTarGz(
     gzip,
     output
   );
-}
-
-interface TarFile {
-  name: string;
-  content: Buffer;
 }
 
 async function collectFiles(dir: string, prefix: string): Promise<TarFile[]> {

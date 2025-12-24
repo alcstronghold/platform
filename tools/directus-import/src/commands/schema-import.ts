@@ -2,30 +2,11 @@ import { readFile } from 'node:fs/promises';
 
 import { schemaApply, schemaDiff } from '@directus/sdk';
 
-import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
+import type { DirectusConfig, SchemaDiffResult, SchemaImportOptions } from '../types';
 import { log } from '../utils';
 
-export interface SchemaImportOptions {
-  inputPath: string;
-  force?: boolean;
-  dryRun?: boolean;
-}
-
-interface DiffChange {
-  collection?: string;
-  field?: string;
-  type?: string;
-}
-
-interface SchemaDiffResult {
-  hash: string;
-  diff: {
-    collections?: DiffChange[];
-    fields?: DiffChange[];
-    relations?: DiffChange[];
-  };
-}
+export type { SchemaImportOptions };
 
 /**
  * Import Directus schema from a JSON file.

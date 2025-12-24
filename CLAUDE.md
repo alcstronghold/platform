@@ -123,7 +123,10 @@ platform/
 │   └── directus-import/     # CLI for importing/exporting Directus data
 ├── infrastructure/          # Infrastructure configuration
 │   ├── docker/              # Docker compose for local dev
-│   └── seeds/               # JSON seed data for Directus collections
+│   ├── seeds/               # JSON seed data for Directus collections
+│   ├── backups/             # Exported JSON data
+│   │   └── snapshots/       # Backup archives (.tar.gz)
+│   └── schema/              # Directus schema JSON
 ├── scripts/                 # Workspace-level scripts
 │   └── version.ts           # Version bumping script
 ├── .moon/                   # Moonrepo configuration
@@ -291,6 +294,19 @@ bun run schema:clear -- --force       # Actually delete
 
 Schema files are stored in `infrastructure/schema/`
 
+### Data Export
+
+Export data from Directus to JSON files:
+
+```bash
+# Export all collections to JSON
+bun run export
+# Output: infrastructure/backups/*.json
+
+# Export specific collections
+bun run export -- -c languages genres publishers
+```
+
 ### Backup & Restore
 
 Full backup/restore of schema and data as timestamped archives:
@@ -298,7 +314,7 @@ Full backup/restore of schema and data as timestamped archives:
 ```bash
 # Create backup (schema + all collection data)
 bun run backup
-# Output: infrastructure/backups/snapshot-yyyy-MM-dd--HH-mm.tar.gz
+# Output: infrastructure/backups/snapshots/snapshot-yyyy-MM-dd--HH-mm.tar.gz
 
 # Restore from backup
 bun run restore <path-to-archive.tar.gz>
@@ -309,7 +325,7 @@ bun run restore -- --skip-data <archive>    # Only restore schema
 bun run restore -- --force <archive>        # Bypass version checks
 ```
 
-Backup archives are stored in `infrastructure/backups/`
+Backup archives are stored in `infrastructure/backups/snapshots/`
 
 ## Version Management
 
@@ -370,3 +386,30 @@ Configuration: `.prettierrc`
 - Follow Angular style guide for Angular code
 - Use Astro conventions for static content
 - Directus collections follow snake_case naming
+
+### TypeScript Typing Conventions
+
+For JSON payloads and API responses:
+
+```typescript
+// CORRECT: Use `| null` for nullable fields (JSON has no undefined)
+interface Payload {
+  required: string;
+  nullable: string | null;
+}
+
+// INCORRECT: Don't mix `?:` with `| null` (redundant)
+interface Payload {
+  field?: string | null; // BAD: ? already implies undefined
+}
+```
+
+For configuration/options objects:
+
+```typescript
+// CORRECT: Use `?:` for optional config (can be omitted)
+interface Options {
+  verbose?: boolean;
+  timeout?: number;
+}
+```

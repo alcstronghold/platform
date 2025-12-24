@@ -1,28 +1,172 @@
-import { deleteCollection, deleteItems, readCollections, readItems } from '@directus/sdk';
+import {
+  deleteCollection,
+  deleteItems,
+  readCollections,
+  readItems,
+  readRelations,
+  updateItems,
+} from '@directus/sdk';
 
-import type { DirectusConfig } from '../services/directus';
 import { createClient } from '../services/directus';
+import type {
+  CollectionInfo,
+  DeleteResult,
+  DirectusConfig,
+  RelationInfo,
+  SchemaClearOptions,
+} from '../types';
+import { DeletionPriority } from '../types';
 import { extractErrorMessage, log } from '../utils';
 
-export interface SchemaClearOptions {
-  dryRun?: boolean;
-  force?: boolean;
+export type { SchemaClearOptions };
+
+type DirectusClient = Awaited<ReturnType<typeof createClient>>;
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Predicates
+// ─────────────────────────────────────────────────────────────────────────────
+
+const isSystemCollection = (col: CollectionInfo): boolean =>
+  !col.collection || col.collection.startsWith('directus_') || col.meta?.system === true;
+
+const isFolderCollection = (col: CollectionInfo): boolean =>
+  col.schema === null;
+
+const isTranslationTable = (name: string): boolean =>
+  name.endsWith('_translations');
+
+const isJunctionTable = (name: string): boolean =>
+  name.includes('_') && !isTranslationTable(name);
+
+const isTableMissing = (error: string): boolean =>
+  error.includes('does not exist') || error.includes('INVALID_COLLECTION');
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────────────────────────
+
+function findSelfReferencingFields(collection: string, relations: RelationInfo[]): string[] {
+  return relations
+    .filter((r) => r.collection === collection && r.related_collection === collection)
+    .map((r) => r.field);
 }
 
-interface CollectionInfo {
-  collection: string;
-  meta?: {
-    system?: boolean;
-  };
+function getDeletionPriority(col: CollectionInfo): DeletionPriority {
+  if (isTranslationTable(col.collection)) return DeletionPriority.Translation;
+  if (isJunctionTable(col.collection)) return DeletionPriority.Junction;
+  if (!isFolderCollection(col)) return DeletionPriority.Table;
+  return DeletionPriority.Folder;
 }
 
-// System collections that should never be deleted
-const SYSTEM_PREFIXES = ['directus_'];
+function sortForDeletion(collections: CollectionInfo[]): CollectionInfo[] {
+  return [...collections].sort((a, b) => getDeletionPriority(a) - getDeletionPriority(b));
+}
 
-/**
- * Clear all custom collections from Directus.
- * This removes all non-system collections (structure only, data is also lost).
- */
+// ─────────────────────────────────────────────────────────────────────────────
+// Data Operations
+// ─────────────────────────────────────────────────────────────────────────────
+
+async function nullifySelfReferences(
+  client: DirectusClient,
+  collection: string,
+  fields: string[]
+): Promise<number> {
+  if (fields.length === 0) return 0;
+
+  try {
+    const items = (await client.request(
+      readItems(collection as never, { limit: -1, fields: ['id', ...fields] as never })
+    )) as { id: string }[];
+
+    if (items.length === 0) return 0;
+
+    const nullPayload = Object.fromEntries(fields.map((f) => [f, null]));
+    await client.request(
+      updateItems(collection as never, items.map((i) => i.id) as never, nullPayload as never)
+    );
+    return items.length;
+  } catch (error) {
+    if (isTableMissing(extractErrorMessage(error))) return -1;
+    throw error;
+  }
+}
+
+async function deleteAllItems(client: DirectusClient, collection: string): Promise<number> {
+  try {
+    const items = (await client.request(
+      readItems(collection as never, { limit: -1, fields: ['id'] as never })
+    )) as { id: string }[];
+
+    if (items.length === 0) return 0;
+
+    await client.request(deleteItems(collection as never, items.map((i) => i.id) as never));
+    return items.length;
+  } catch (error) {
+    if (isTableMissing(extractErrorMessage(error))) return -1;
+    throw error;
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Collection Deletion
+// ─────────────────────────────────────────────────────────────────────────────
+
+async function tryDeleteCollection(
+  client: DirectusClient,
+  col: CollectionInfo,
+  relations: RelationInfo[]
+): Promise<DeleteResult> {
+  try {
+    if (!isFolderCollection(col)) {
+      const selfRefFields = findSelfReferencingFields(col.collection, relations);
+      const nullified = await nullifySelfReferences(client, col.collection, selfRefFields);
+      if (nullified > 0) log.info(`  Nullified ${selfRefFields.join(', ')} in ${nullified} items`);
+
+      const deleted = await deleteAllItems(client, col.collection);
+      if (deleted > 0) log.info(`  Deleted ${deleted} items from ${col.collection}`);
+    }
+
+    await client.request(deleteCollection(col.collection));
+    return { success: true };
+  } catch (error) {
+    return { success: false, error: extractErrorMessage(error) };
+  }
+}
+
+async function deleteCollectionsWithRetry(
+  client: DirectusClient,
+  collections: CollectionInfo[],
+  relations: RelationInfo[],
+  maxPasses: number
+): Promise<{ deleted: number; failed: CollectionInfo[] }> {
+  let deleted = 0;
+  let pending = [...collections];
+
+  for (let pass = 1; pass <= maxPasses && pending.length > 0; pass++) {
+    if (pass > 1) log.info(`Pass ${pass}: retrying ${pending.length} remaining collections...`);
+
+    const stillPending: CollectionInfo[] = [];
+
+    for (const col of pending) {
+      const result = await tryDeleteCollection(client, col, relations);
+      if (result.success) {
+        log.item('created', col.collection);
+        deleted++;
+      } else {
+        stillPending.push(col);
+      }
+    }
+
+    pending = stillPending;
+  }
+
+  return { deleted, failed: pending };
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Main Command
+// ─────────────────────────────────────────────────────────────────────────────
+
 export async function schemaClearCommand(
   config: DirectusConfig,
   options: SchemaClearOptions
@@ -30,141 +174,46 @@ export async function schemaClearCommand(
   const client = await createClient(config);
 
   log.header('SCHEMA CLEAR');
-  if (options.dryRun) {
-    log.warn('DRY RUN - No changes will be applied');
+  if (options.dryRun) log.warn('DRY RUN - No changes will be applied');
+
+  log.info('Fetching collections and relations...');
+  const [allCollections, allRelations] = await Promise.all([
+    client.request(readCollections()) as Promise<CollectionInfo[]>,
+    client.request(readRelations()) as Promise<RelationInfo[]>,
+  ]);
+
+  const customCollections = allCollections.filter((col) => !isSystemCollection(col));
+
+  if (customCollections.length === 0) {
+    log.success('No custom collections found. Schema is already clean.');
+    return;
   }
 
-  try {
-    // Get all collections
-    log.info('Fetching collections...');
-    const collections = await client.request(readCollections()) as CollectionInfo[];
+  log.warn(`Found ${customCollections.length} custom collections to delete:`);
+  customCollections.forEach((col) => {
+    console.log(`  - ${col.collection}${isFolderCollection(col) ? ' (folder)' : ''}`);
+  });
 
-    // Filter out system collections
-    const customCollections = collections.filter((col) => {
-      // Skip if no collection name
-      if (!col.collection) return false;
+  if (!options.force && !options.dryRun) {
+    log.error('This will DELETE all custom collections and their DATA!');
+    log.error('Use --force to confirm, or --dry-run to preview.');
+    return;
+  }
 
-      // Skip system collections (directus_*)
-      if (SYSTEM_PREFIXES.some((prefix) => col.collection.startsWith(prefix))) {
-        return false;
-      }
+  if (options.dryRun) {
+    log.warn('DRY RUN complete. Use --force to actually delete collections.');
+    return;
+  }
 
-      // Skip if marked as system
-      if (col.meta?.system) return false;
+  log.info('Deleting collections...');
+  const sorted = sortForDeletion(customCollections);
+  const { deleted, failed } = await deleteCollectionsWithRetry(client, sorted, allRelations, 5);
 
-      return true;
-    });
-
-    if (customCollections.length === 0) {
-      log.success('No custom collections found. Schema is already clean.');
-      return;
-    }
-
-    log.warn(`Found ${customCollections.length} custom collections to delete:`);
-    for (const col of customCollections) {
-      console.log(`  - ${col.collection}`);
-    }
-
-    // Confirm if not forced
-    if (!options.force && !options.dryRun) {
-      log.error('This will DELETE all custom collections and their DATA!');
-      log.error('Use --force to confirm, or --dry-run to preview.');
-      return;
-    }
-
-    if (options.dryRun) {
-      log.warn('DRY RUN complete. Use --force to actually delete collections.');
-      return;
-    }
-
-    // Sort collections: translations first, then junction tables, then others
-    const sortedCollections = [...customCollections].sort((a, b) => {
-      const aName = a.collection;
-      const bName = b.collection;
-
-      // Translation tables first (they have FK to parent)
-      const aIsTranslation = aName.endsWith('_translations');
-      const bIsTranslation = bName.endsWith('_translations');
-      if (aIsTranslation && !bIsTranslation) return -1;
-      if (!aIsTranslation && bIsTranslation) return 1;
-
-      // Junction tables second (M2M tables have FK to both sides)
-      const aIsJunction = aName.includes('_') && !aIsTranslation;
-      const bIsJunction = bName.includes('_') && !bIsTranslation;
-      if (aIsJunction && !bIsJunction) return -1;
-      if (!aIsJunction && bIsJunction) return 1;
-
-      return 0;
-    });
-
-    log.info('Deleting collections (with retry for dependencies)...');
-
-    let deleted = 0;
-    let pending = sortedCollections.map((c) => c.collection);
-    const maxPasses = 5;
-
-    for (let pass = 1; pass <= maxPasses && pending.length > 0; pass++) {
-      const failed: string[] = [];
-
-      if (pass > 1) {
-        log.info(`Pass ${pass}: retrying ${pending.length} collections...`);
-      }
-
-      for (const collection of pending) {
-        try {
-          await client.request(deleteCollection(collection));
-          log.item('created', collection); // Using 'created' for green checkmark
-          deleted++;
-        } catch (error) {
-          // On failure, try to clear all data first (helps with self-referential FKs)
-          try {
-            // Get all item IDs in the collection
-            const items = await client.request(
-              readItems(collection as never, {
-                limit: -1,
-                fields: ['id'] as never,
-              })
-            ) as { id: string | number }[];
-
-            if (items.length > 0) {
-              const ids = items.map((i) => i.id);
-              await client.request(deleteItems(collection as never, ids as never));
-              log.info(`  Cleared ${items.length} items from ${collection}`);
-            }
-          } catch {
-            // Ignore errors clearing data
-          }
-
-          // Silently collect failures for retry
-          failed.push(collection);
-        }
-      }
-
-      pending = failed;
-
-      // If no progress was made this pass, break
-      if (failed.length === pending.length && pass > 1) {
-        break;
-      }
-    }
-
-    // Log any remaining failures
-    if (pending.length > 0) {
-      log.warn(`Could not delete ${pending.length} collections (may have external dependencies):`);
-      for (const col of pending) {
-        log.item('failed', col);
-      }
-    }
-
-    console.log('');
-    if (pending.length === 0) {
-      log.success(`Schema cleared successfully (${deleted} collections deleted)`);
-    } else {
-      log.warn(`Schema partially cleared (${deleted} deleted, ${pending.length} could not be deleted)`);
-    }
-  } catch (error) {
-    const msg = error instanceof Error ? error.message : String(error);
-    log.error(`Failed to clear schema: ${msg}`);
-    throw error;
+  console.log('');
+  if (failed.length === 0) {
+    log.success(`Schema cleared successfully (${deleted} collections deleted)`);
+  } else {
+    log.warn(`Schema partially cleared (${deleted} deleted, ${failed.length} failed)`);
+    failed.forEach((col) => log.item('failed', col.collection));
   }
 }
