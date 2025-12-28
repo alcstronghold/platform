@@ -8,7 +8,7 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## Pendiente - Alta Prioridad
 
-- [ ] **Añadir tests unitarios** - Configurar Bun test para los paquetes
+(ninguna tarea de alta prioridad)
 
 ## Pendiente - Media Prioridad
 
@@ -74,7 +74,16 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 - [x] **Normalización de tipado** - Convención `prop: T | null` para JSON payloads:
   - [x] directus-payload: PublisherPayload, GenrePayload, RpgSystemPayload, RpgEditionPayload
   - [x] Exporters actualizados para incluir siempre campos nullables
+- [x] **Tests unitarios directus-import** - Bun test con 142 tests:
+  - [x] utils/retry.ts - isRetryableError, withRetry (25 tests)
+  - [x] utils/log.ts - extractErrorMessage (21 tests)
+  - [x] utils/normalize.ts - normalizeBggId, normalizeString, normalizeUrl (34 tests)
+  - [x] utils/translations.ts - buildTranslationRequests, extractTranslationContent (16 tests)
+  - [x] utils/relations.ts - resolución FK/M2M, mapas id↔identifier (26 tests)
+  - [x] importers/genre.utils.ts - multi-pass algorithm, circular deps (20 tests)
+  - [x] Refactorización: lógica pura extraída para testeo sin mocks
+  - [x] Task `test` añadida a moon.yml
 
 ---
 
-_Última actualización: 2025-12-24_
+_Última actualización: 2025-12-28_

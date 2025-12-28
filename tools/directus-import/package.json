@@ -17,7 +17,8 @@
     "restore": "dotenvx run -- bun run src/index.ts restore",
     "env:encrypt": "dotenvx encrypt -ek DIRECTUS_URL -ek NODE_TLS_REJECT_UNAUTHORIZED",
     "env:decrypt": "dotenvx decrypt",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
   },
   "dependencies": {
     "@alcstronghold/directus-schema": "workspace:*",

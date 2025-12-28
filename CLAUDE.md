@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ALC Stronghold Platform - <https://www.alcstronghold.com>
+ALC Stronghold Platform <https://www.alcstronghold.com>
 
 Monorepo for a non-profit youth organization focused on alternative leisure activities (board games, live-action roleplay, tabletop RPGs, collectible card games).
 
@@ -379,6 +379,67 @@ bun run format:check  # Check formatting
 TS/JS files are ignored by Prettier (`.prettierignore`) - ESLint handles those.
 
 Configuration: `.prettierrc`
+
+## Testing
+
+### Bun Test
+
+Tests use Bun's built-in test runner. Currently configured for `directus-import`:
+
+```bash
+cd tools/directus-import
+
+bun test              # Run all tests
+bun test --watch      # Watch mode
+bun test <file>       # Run specific test file
+
+# Via moon
+moon run directus-import:test
+```
+
+### Test Structure
+
+```
+tools/directus-import/src/
+├── utils/
+│   ├── log.ts              # Logging utilities
+│   ├── normalize.ts        # Data normalization (bggId, strings, URLs)
+│   ├── relations.ts        # FK/M2M resolution utilities
+│   ├── retry.ts            # Retry with exponential backoff
+│   ├── translations.ts     # Translation request builders
+│   └── __tests__/
+│       ├── log.test.ts           # extractErrorMessage (21 tests)
+│       ├── normalize.test.ts     # normalizeBggId, etc. (34 tests)
+│       ├── relations.test.ts     # FK/M2M resolution (26 tests)
+│       ├── retry.test.ts         # isRetryableError, withRetry (25 tests)
+│       └── translations.test.ts  # buildTranslationRequests (16 tests)
+└── importers/
+    ├── genre.utils.ts      # Multi-pass import logic (pure functions)
+    └── __tests__/
+        └── genre.utils.test.ts   # Multi-pass, circular deps (20 tests)
+```
+
+**Total: 142 tests**
+
+### Testing Philosophy
+
+- **Test pure functions**: Extract logic from classes to testable pure functions
+- **Test edge cases**: null, undefined, invalid inputs, circular references
+- **Test real scenarios**: Use actual error formats from Directus
+- **Skip trivial tests**: Don't test getters/setters or simple wrappers
+- **No excessive mocking**: Prefer extracting pure logic over mocking dependencies
+
+### Writing Tests
+
+```typescript
+import { describe, expect, it } from 'bun:test';
+
+describe('functionName', () => {
+  it('describes expected behavior', () => {
+    expect(functionName(input)).toBe(expectedOutput);
+  });
+});
+```
 
 ## Conventions
 

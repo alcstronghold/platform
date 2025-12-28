@@ -1,7 +1,7 @@
 import type { RpgSystemPayload } from '@alcstronghold/directus-payload';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import { extractErrorMessage, log, withRetry } from '../utils';
+import { extractErrorMessage, log, normalizeBggId, withRetry } from '../utils';
 import type { ImporterConfig, ImportResult } from './base.importer';
 
 interface RpgSystemEntity {
@@ -75,7 +75,7 @@ export class RpgSystemImporter {
     const existing = existingMap.get(identifier);
 
     // Normalize bgg_id: convert string to number, handle null
-    const normalizedBggId = this.normalizeBggId(bgg_id);
+    const normalizedBggId = normalizeBggId(bgg_id);
 
     try {
       if (existing) {
@@ -105,13 +105,6 @@ export class RpgSystemImporter {
       this.result.errors.push({ identifier, error: errorMsg });
       log.item('failed', identifier, errorMsg);
     }
-  }
-
-  private normalizeBggId(bgg_id: number | string | undefined | null): number | null {
-    if (bgg_id == null) return null;
-    if (typeof bgg_id === 'number') return bgg_id;
-    const parsed = parseInt(bgg_id, 10);
-    return isNaN(parsed) ? null : parsed;
   }
 
   private createRequest(
