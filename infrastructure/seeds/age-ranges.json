@@ -1,0 +1,37 @@
+[
+  {
+    "identifier": "6-9",
+    "translations": {
+      "es-ES": "6-9 años",
+      "ca-ES": "6-9 anys"
+    }
+  },
+  {
+    "identifier": "10-12",
+    "translations": {
+      "es-ES": "10-12 años",
+      "ca-ES": "10-12 anys"
+    }
+  },
+  {
+    "identifier": "+13",
+    "translations": {
+      "es-ES": "+13 años",
+      "ca-ES": "+13 anys"
+    }
+  },
+  {
+    "identifier": "+16",
+    "translations": {
+      "es-ES": "+16 años",
+      "ca-ES": "+16 anys"
+    }
+  },
+  {
+    "identifier": "+18",
+    "translations": {
+      "es-ES": "+18 años",
+      "ca-ES": "+18 anys"
+    }
+  }
+]

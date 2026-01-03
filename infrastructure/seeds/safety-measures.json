@@ -1,0 +1,80 @@
+[
+  {
+    "identifier": "x_card",
+    "translations": {
+      "es-ES": {
+        "name": "Carta X",
+        "description": "Tarjeta para detener inmediatamente una escena incómoda"
+      },
+      "ca-ES": {
+        "name": "Carta X",
+        "description": "Targeta per aturar immediatament una escena incòmoda"
+      }
+    }
+  },
+  {
+    "identifier": "semaphore",
+    "translations": {
+      "es-ES": {
+        "name": "Semáforo",
+        "description": "Sistema de colores para indicar nivel de comodidad"
+      },
+      "ca-ES": {
+        "name": "Semàfor",
+        "description": "Sistema de colors per indicar nivell de comoditat"
+      }
+    }
+  },
+  {
+    "identifier": "luxton",
+    "translations": {
+      "es-ES": {
+        "name": "Técnica Luxton",
+        "description": "Método de debriefing post-partida"
+      },
+      "ca-ES": {
+        "name": "Tècnica Luxton",
+        "description": "Mètode de debriefing post-partida"
+      }
+    }
+  },
+  {
+    "identifier": "open_door",
+    "translations": {
+      "es-ES": {
+        "name": "Puerta abierta",
+        "description": "Libertad para abandonar la partida en cualquier momento"
+      },
+      "ca-ES": {
+        "name": "Porta oberta",
+        "description": "Llibertat per abandonar la partida en qualsevol moment"
+      }
+    }
+  },
+  {
+    "identifier": "lines_veils",
+    "translations": {
+      "es-ES": {
+        "name": "Líneas y velos",
+        "description": "Límites absolutos (líneas) y temas que se tratan con discreción (velos)"
+      },
+      "ca-ES": {
+        "name": "Línies i vels",
+        "description": "Límits absoluts (línies) i temes que es tracten amb discreció (vels)"
+      }
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": {
+        "name": "Otro",
+        "description": "Se especificará en los comentarios"
+      },
+      "ca-ES": {
+        "name": "Altre",
+        "description": "S'especificarà als comentaris"
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "identifier": "visual",
+    "translations": {
+      "es-ES": {
+        "name": "Visual",
+        "description": "Adaptaciones para personas con discapacidad visual"
+      },
+      "ca-ES": {
+        "name": "Visual",
+        "description": "Adaptacions per a persones amb discapacitat visual"
+      }
+    }
+  },
+  {
+    "identifier": "auditory",
+    "translations": {
+      "es-ES": {
+        "name": "Auditivo",
+        "description": "Adaptaciones para personas con discapacidad auditiva"
+      },
+      "ca-ES": {
+        "name": "Auditiu",
+        "description": "Adaptacions per a persones amb discapacitat auditiva"
+      }
+    }
+  },
+  {
+    "identifier": "reading",
+    "translations": {
+      "es-ES": {
+        "name": "Lectura",
+        "description": "Adaptaciones para personas con dificultades de lectura"
+      },
+      "ca-ES": {
+        "name": "Lectura",
+        "description": "Adaptacions per a persones amb dificultats de lectura"
+      }
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": {
+        "name": "Otro",
+        "description": "Otras adaptaciones disponibles"
+      },
+      "ca-ES": {
+        "name": "Altre",
+        "description": "Altres adaptacions disponibles"
+      }
+    }
+  }
+]
