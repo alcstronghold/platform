@@ -20,8 +20,17 @@
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun -e \"\nimport { createDirectus, rest, staticToken, readMe } from ''@directus/sdk'';\n\nconst client = createDirectus\\(''https://backend.alcstronghold.local''\\)\n  .with\\(staticToken\\(''u19Jn5cVeoK0ixONSE41AA-v81BV5KqX''\\)\\)\n  .with\\(rest\\(\\)\\);\n\nconst me = await client.request\\(readMe\\(\\)\\);\nconsole.log\\(''User:'', me.email\\);\n\")",
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun run:*)",
       "Bash(bun run:*)",
-      "Bash(bun:*)"
+      "Bash(bun:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ntest: Add unit tests for directus-import utilities \\(142 tests\\)\n\nAdd comprehensive unit test suite using Bun test runner:\n\n- utils/retry.ts: isRetryableError, withRetry \\(25 tests\\)\n- utils/log.ts: extractErrorMessage \\(21 tests\\)  \n- utils/normalize.ts: normalizeBggId, normalizeString, normalizeUrl \\(34 tests\\)\n- utils/translations.ts: buildTranslationRequests, extractTranslationContent \\(16 tests\\)\n- utils/relations.ts: FK/M2M resolution utilities \\(26 tests\\)\n- importers/genre.utils.ts: multi-pass algorithm, circular deps detection \\(20 tests\\)\n\nRefactoring:\n- Extract pure utility functions for better testability\n- Share normalizeBggId across rpg-edition and rpg-system importers\n- Add moon task ''test'' for directus-import\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun -e \"\nimport { createDirectus, rest, staticToken, readRoles, deleteRole, readPolicies, deletePolicy } from ''@directus/sdk'';\n\nconst client = createDirectus\\(''https://backend.alcstronghold.local''\\)\n  .with\\(staticToken\\(process.env.DIRECTUS_TOKEN\\)\\)\n  .with\\(rest\\(\\)\\);\n\n// Get and delete Master/Moderator roles\nconst roles = await client.request\\(readRoles\\(\\)\\);\nfor \\(const role of roles\\) {\n  if \\(role.name === ''Master'' || role.name === ''Moderator''\\) {\n    console.log\\(''Deleting role:'', role.name, role.id\\);\n    await client.request\\(deleteRole\\(role.id\\)\\);\n  }\n}\n\n// Get and delete related policies\nconst policies = await client.request\\(readPolicies\\(\\)\\);\nfor \\(const policy of policies\\) {\n  if \\(policy.name.includes\\(''Master''\\) || policy.name.includes\\(''Moderator''\\)\\) {\n    console.log\\(''Deleting policy:'', policy.name, policy.id\\);\n    await client.request\\(deletePolicy\\(policy.id\\)\\);\n  }\n}\n\nconsole.log\\(''Cleanup complete''\\);\n\")",
+      "Bash(bunx dotenvx run -- bun:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)"
     ]
   },
-  "enabledMcpjsonServers": ["angular-cli", "directus-stronghold"]
+  "enabledMcpjsonServers": [
+    "angular-cli",
+    "directus-stronghold"
+  ]
 }

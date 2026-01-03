@@ -4,15 +4,39 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## En Progreso
 
-(ninguna tarea en progreso)
+- [ ] **Sistema de Partidas (rpg_sessions)** - MVP para gestión de partidas:
+  - [x] Tipos TypeScript para colecciones auxiliares (11 enums)
+  - [x] Payloads y seeds para colecciones auxiliares
+  - [x] Importadores genéricos (SimpleEnumImporter, DescribedEnumImporter)
+  - [x] Tipos TypeScript para rpg_sessions y user_profiles
+  - [x] Crear colecciones auxiliares en Directus (schema) - 23 collections, 54 items
+  - [x] Crear rpg_sessions y user_profiles en Directus - 10 collections
+  - [x] Activar slugify en todos los campos identifier (18 collections)
+  - [x] **Configurar roles y políticas granulares**:
+    - [x] Comando `roles-setup` creado con definición de roles y policies
+    - [x] 3 roles: Administrator, Collaborator, Member (niveles de acceso)
+    - [x] 7 policies granulares: base:content-reader, user-profiles:self, rpg-sessions:player, rpg-sessions:master, rpg-sessions:moderator, content:moderator, user-profiles:moderator
+    - [x] 277 permisos totales distribuidos en policies
+    - [x] Vinculación role→policy via `directus_access`
+    - [x] Documentación en CLAUDE.md y README.md
+  - [x] Ajustar display/interface de campos:
+    - [x] identifier: display `formatted-value` con monospace + bold
+    - [x] status: display `labels` con `showAsDot: true` y colores
+    - [x] Comando `fields-display` creado (37 campos actualizados)
+  - [ ] packages/domain con entidades y casos de uso
+
+## En Progreso - Frontend Apps
+
+- [ ] **Frontend Apps + Shared UI** (Tailwind + Flowbite v4.1):
+  - [ ] packages/ui - Theme Tailwind compartido
+  - [ ] apps/web - Astro v5 con landing dummy
+  - [ ] apps/dashboard - Angular v21 con auth básico
+  - [ ] Integración Directus - Login, user management
 
 ## Pendiente - Alta Prioridad
 
-(ninguna tarea de alta prioridad)
-
 ## Pendiente - Media Prioridad
 
-- [ ] **apps/web** - Configurar Astro + Angular islands (AnalogJS)
 - [ ] **packages/domain** - Entidades de negocio y casos de uso
 - [ ] **packages/ui** - Componentes UI compartidos
 - [ ] **Documentación API** - Generar docs desde tipos TypeScript
@@ -74,7 +98,7 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 - [x] **Normalización de tipado** - Convención `prop: T | null` para JSON payloads:
   - [x] directus-payload: PublisherPayload, GenrePayload, RpgSystemPayload, RpgEditionPayload
   - [x] Exporters actualizados para incluir siempre campos nullables
-- [x] **Tests unitarios directus-import** - Bun test con 142 tests:
+- [x] **Tests unitarios directus-import** - Bun test con 284 tests:
   - [x] utils/retry.ts - isRetryableError, withRetry (25 tests)
   - [x] utils/log.ts - extractErrorMessage (21 tests)
   - [x] utils/normalize.ts - normalizeBggId, normalizeString, normalizeUrl (34 tests)
@@ -83,7 +107,21 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
   - [x] importers/genre.utils.ts - multi-pass algorithm, circular deps (20 tests)
   - [x] Refactorización: lógica pura extraída para testeo sin mocks
   - [x] Task `test` añadida a moon.yml
+- [x] **Colecciones auxiliares (enums)** - 11 colecciones tipo enum:
+  - [x] directus-schema: tipos e interfaces
+  - [x] directus-payload: interfaces para JSON
+  - [x] Seeds JSON con traducciones es-ES y ca-ES
+  - [x] SimpleEnumImporter y DescribedEnumImporter genéricos
+- [x] **Tipos para rpg_sessions y user_profiles** - Modelos principales:
+  - [x] RpgSession con M2M (genres, accessibility, languages, warnings, safety)
+  - [x] RpgSessionPlayer para inscripciones
+  - [x] UserProfile con datos básicos, eventos e indicadores estadísticos
+- [x] **Schema Directus para rpg_sessions** - 50 collections, 291 fields, 82 relations:
+  - [x] schema-setup: Genera 11 enums + traducciones programáticamente
+  - [x] schema-sessions: Genera user_profiles, rpg_sessions y tablas M2M
+  - [x] Campos audit (user_created, date_created, user_updated, date_updated)
+  - [x] Importación datos auxiliares (54 items en 11 colecciones)
 
 ---
 
-_Última actualización: 2025-12-28_
+_Última actualización: 2025-12-30_

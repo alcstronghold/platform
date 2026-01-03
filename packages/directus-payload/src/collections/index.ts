@@ -1,3 +1,18 @@
+export type {
+  AccessibilityOptionPayload,
+  AgeRangePayload,
+  ContentWarningPayload,
+  DescribedEnumPayload,
+  DiscoverySourcePayload,
+  GenderIdentityPayload,
+  KnowledgeLevelPayload,
+  LgbtiqOptionPayload,
+  MembershipStatusPayload,
+  PronounPayload,
+  SafetyMeasurePayload,
+  SessionLanguagePayload,
+  SimpleEnumPayload,
+} from './auxiliary.interface';
 export type { GenrePayload } from './genre.interface';
 export type { LanguagePayload } from './language.interface';
 export type { PublisherPayload } from './publisher.interface';

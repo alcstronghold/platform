@@ -26,6 +26,9 @@ cd infrastructure/docker && docker compose up -d
 # Import seed data to Directus
 cd tools/directus-import && bun run import
 
+# Setup roles and policies
+cd tools/directus-import && bun run roles:setup
+
 # Create a backup (schema + data)
 cd tools/directus-import && bun run backup
 ```

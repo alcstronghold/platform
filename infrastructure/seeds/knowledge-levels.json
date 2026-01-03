@@ -1,0 +1,54 @@
+[
+  {
+    "identifier": "novice",
+    "translations": {
+      "es-ES": {
+        "name": "Novato",
+        "description": "No ha jugado antes o tiene muy poca experiencia"
+      },
+      "ca-ES": {
+        "name": "Novell",
+        "description": "No ha jugat abans o té molt poca experiència"
+      }
+    }
+  },
+  {
+    "identifier": "familiar",
+    "translations": {
+      "es-ES": {
+        "name": "Familiarizado",
+        "description": "Conoce las mecánicas básicas del juego"
+      },
+      "ca-ES": {
+        "name": "Familiaritzat",
+        "description": "Coneix les mecàniques bàsiques del joc"
+      }
+    }
+  },
+  {
+    "identifier": "immersive",
+    "translations": {
+      "es-ES": {
+        "name": "Inmersivo",
+        "description": "Experiencia avanzada, domina las reglas"
+      },
+      "ca-ES": {
+        "name": "Immersiu",
+        "description": "Experiència avançada, domina les regles"
+      }
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": {
+        "name": "Otro",
+        "description": "Se especificará en los comentarios"
+      },
+      "ca-ES": {
+        "name": "Altre",
+        "description": "S'especificarà als comentaris"
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "identifier": "es",
+    "translations": {
+      "es-ES": "Castellano",
+      "ca-ES": "Castellà"
+    }
+  },
+  {
+    "identifier": "ca",
+    "translations": {
+      "es-ES": "Catalán",
+      "ca-ES": "Català"
+    }
+  },
+  {
+    "identifier": "en",
+    "translations": {
+      "es-ES": "Inglés",
+      "ca-ES": "Anglès"
+    }
+  },
+  {
+    "identifier": "decided_by_group",
+    "translations": {
+      "es-ES": "Lo decide el grupo",
+      "ca-ES": "Ho decideix el grup"
+    }
+  }
+]

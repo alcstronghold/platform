@@ -327,6 +327,55 @@ bun run restore -- --force <archive>        # Bypass version checks
 
 Backup archives are stored in `infrastructure/backups/snapshots/`
 
+### Roles & Policies Setup
+
+Configure Directus roles and granular policies:
+
+```bash
+# Apply roles and policies to Directus
+bun run roles:setup
+
+# Preview changes without applying
+bun run roles:setup -- --dry-run
+```
+
+#### Architecture
+
+The permission system separates **Roles** (application access levels) from **Policies** (granular permissions):
+
+**Roles** define which applications a user can access:
+
+| Role          | Directus Admin | Backend Dashboard | Public API |
+| ------------- | -------------- | ----------------- | ---------- |
+| Administrator | ✓              | ✓                 | ✓          |
+| Collaborator  | ✗              | ✓                 | ✓          |
+| Member        | ✗              | ✗                 | ✓          |
+
+**Policies** define granular permissions per feature:
+
+| Policy                    | Description                               |
+| ------------------------- | ----------------------------------------- |
+| `base:content-reader`     | Read public content (genres, systems...) |
+| `user-profiles:self`      | Manage own user profile                   |
+| `rpg-sessions:player`     | Register as player in sessions            |
+| `rpg-sessions:master`     | Create and manage own RPG sessions        |
+| `rpg-sessions:moderator`  | Moderate all RPG sessions                 |
+| `content:moderator`       | Moderate catalog content                  |
+| `user-profiles:moderator` | Moderate all user profiles                |
+
+**Default Policy Assignments**:
+
+- **Administrator**: Has `admin_access`, no policies needed
+- **Collaborator**: `base:content-reader`
+- **Member**: `base:content-reader`, `user-profiles:self`, `rpg-sessions:player`
+
+Users can have multiple roles (e.g., admin + master). Additional policies can be assigned directly to users:
+
+```bash
+# Assign policy to user via Directus API
+POST /access { "user": "<user_id>", "policy": "<policy_id>" }
+```
+
 ## Version Management
 
 ```bash

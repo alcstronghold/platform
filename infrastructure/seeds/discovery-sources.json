@@ -1,0 +1,58 @@
+[
+  {
+    "identifier": "friends",
+    "translations": {
+      "es-ES": "Amigos/as",
+      "ca-ES": "Amics/gues"
+    }
+  },
+  {
+    "identifier": "other_association",
+    "translations": {
+      "es-ES": "Otra asociación",
+      "ca-ES": "Altra associació"
+    }
+  },
+  {
+    "identifier": "telegram",
+    "translations": {
+      "es-ES": "Telegram",
+      "ca-ES": "Telegram"
+    }
+  },
+  {
+    "identifier": "whatsapp",
+    "translations": {
+      "es-ES": "WhatsApp",
+      "ca-ES": "WhatsApp"
+    }
+  },
+  {
+    "identifier": "instagram",
+    "translations": {
+      "es-ES": "Instagram",
+      "ca-ES": "Instagram"
+    }
+  },
+  {
+    "identifier": "facebook",
+    "translations": {
+      "es-ES": "Facebook",
+      "ca-ES": "Facebook"
+    }
+  },
+  {
+    "identifier": "bluesky",
+    "translations": {
+      "es-ES": "Bluesky",
+      "ca-ES": "Bluesky"
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": "Otro",
+      "ca-ES": "Altre"
+    }
+  }
+]
