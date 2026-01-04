@@ -1,0 +1,30 @@
+[
+  {
+    "identifier": "member",
+    "translations": {
+      "es-ES": "Socio/a",
+      "ca-ES": "Soci/a"
+    }
+  },
+  {
+    "identifier": "needs_renewal",
+    "translations": {
+      "es-ES": "Necesita renovar",
+      "ca-ES": "Necessita renovar"
+    }
+  },
+  {
+    "identifier": "wants_to_join",
+    "translations": {
+      "es-ES": "Quiere hacerse socio/a",
+      "ca-ES": "Vol fer-se soci/a"
+    }
+  },
+  {
+    "identifier": "guest",
+    "translations": {
+      "es-ES": "Invitado/a",
+      "ca-ES": "Convidat/da"
+    }
+  }
+]

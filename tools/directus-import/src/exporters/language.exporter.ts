@@ -1,14 +1,9 @@
 import type { LanguagePayload } from '@alcstronghold/directus-payload';
+import type { Language } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type { ExporterConfig, ExportResult } from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult } from './base.exporter';
-
-interface LanguageEntity {
-  code: string;
-  name: string;
-  direction: 'ltr' | 'rtl';
-}
 
 export class LanguageExporter {
   private readonly config: ExporterConfig;
@@ -28,7 +23,7 @@ export class LanguageExporter {
     };
 
     try {
-      const entities = await this.config.client.request<LanguageEntity[]>(
+      const entities = await this.config.client.request<Language[]>(
         readItems('languages' as never, {
           limit: -1,
           fields: ['code', 'name', 'direction'] as never,

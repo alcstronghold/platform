@@ -26,6 +26,9 @@ cd infrastructure/docker && docker compose up -d
 # Import seed data to Directus
 cd tools/directus-import && bun run import
 
+# Setup roles and policies
+cd tools/directus-import && bun run roles:setup
+
 # Create a backup (schema + data)
 cd tools/directus-import && bun run backup
 ```
@@ -42,7 +45,10 @@ platform/
 │   └── directus-import/     # CLI for Directus data import/export
 ├── infrastructure/
 │   ├── docker/              # Docker Compose (Traefik, PostgreSQL, Redis, Directus)
-│   └── seeds/               # JSON seed data
+│   ├── seeds/               # JSON seed data (for import)
+│   ├── backups/             # Exported JSON data
+│   │   └── snapshots/       # Backup archives (.tar.gz)
+│   └── schema/              # Directus schema JSON
 └── scripts/                 # Workspace scripts
 ```
 

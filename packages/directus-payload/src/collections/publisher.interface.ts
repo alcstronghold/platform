@@ -1,8 +1,8 @@
 export interface PublisherPayload {
   identifier: string;
   name: string;
-  website?: string | null;
-  logo_url?: string | null;
+  website: string | null;
+  logo_url: string | null;
   business_status: string;
-  bgg_id?: number | null;
+  bgg_id: number | null;
 }

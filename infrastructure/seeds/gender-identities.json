@@ -1,0 +1,30 @@
+[
+  {
+    "identifier": "woman",
+    "translations": {
+      "es-ES": "Mujer",
+      "ca-ES": "Dona"
+    }
+  },
+  {
+    "identifier": "man",
+    "translations": {
+      "es-ES": "Hombre",
+      "ca-ES": "Home"
+    }
+  },
+  {
+    "identifier": "non_binary",
+    "translations": {
+      "es-ES": "No binario",
+      "ca-ES": "No binari"
+    }
+  },
+  {
+    "identifier": "not_listed",
+    "translations": {
+      "es-ES": "No listado",
+      "ca-ES": "No llistat"
+    }
+  }
+]

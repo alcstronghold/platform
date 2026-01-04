@@ -18,6 +18,11 @@ tasks:
     inputs:
       - src/**/*
 
+  test:
+    command: bun test
+    inputs:
+      - src/**/*
+
   import:
     command: bun x dotenvx run -- bun run src/index.ts import
     local: true

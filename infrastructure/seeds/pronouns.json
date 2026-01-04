@@ -1,0 +1,30 @@
+[
+  {
+    "identifier": "elli",
+    "translations": {
+      "es-ES": "Elli (él/elle)",
+      "ca-ES": "Elli (ell/elle)"
+    }
+  },
+  {
+    "identifier": "ella",
+    "translations": {
+      "es-ES": "Ella",
+      "ca-ES": "Ella"
+    }
+  },
+  {
+    "identifier": "ell",
+    "translations": {
+      "es-ES": "Elle",
+      "ca-ES": "Elle"
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": "Otro",
+      "ca-ES": "Altre"
+    }
+  }
+]

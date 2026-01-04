@@ -1,0 +1,30 @@
+[
+  {
+    "identifier": "yes",
+    "translations": {
+      "es-ES": "Sí",
+      "ca-ES": "Sí"
+    }
+  },
+  {
+    "identifier": "no",
+    "translations": {
+      "es-ES": "No",
+      "ca-ES": "No"
+    }
+  },
+  {
+    "identifier": "unsure",
+    "translations": {
+      "es-ES": "No estoy seguro/a",
+      "ca-ES": "No estic segur/a"
+    }
+  },
+  {
+    "identifier": "ally",
+    "translations": {
+      "es-ES": "Aliado/a",
+      "ca-ES": "Aliat/da"
+    }
+  }
+]

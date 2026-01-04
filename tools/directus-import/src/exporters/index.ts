@@ -1,5 +1,4 @@
 export type { ExporterConfig, ExportResult } from './base.exporter';
-
 export { GenreExporter } from './genre.exporter';
 export { LanguageExporter } from './language.exporter';
 export { PublisherExporter } from './publisher.exporter';

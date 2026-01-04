@@ -1,0 +1,93 @@
+[
+  {
+    "identifier": "none",
+    "translations": {
+      "es-ES": {
+        "name": "Ninguno",
+        "description": "Sin contenido sensible"
+      },
+      "ca-ES": {
+        "name": "Cap",
+        "description": "Sense contingut sensible"
+      }
+    }
+  },
+  {
+    "identifier": "violence",
+    "translations": {
+      "es-ES": {
+        "name": "Violencia",
+        "description": "Contiene escenas de violencia"
+      },
+      "ca-ES": {
+        "name": "Violència",
+        "description": "Conté escenes de violència"
+      }
+    }
+  },
+  {
+    "identifier": "hospitals",
+    "translations": {
+      "es-ES": {
+        "name": "Hospitales/Médico",
+        "description": "Contiene escenas en hospitales o contextos médicos"
+      },
+      "ca-ES": {
+        "name": "Hospitals/Metge",
+        "description": "Conté escenes en hospitals o contextos mèdics"
+      }
+    }
+  },
+  {
+    "identifier": "mental_health",
+    "translations": {
+      "es-ES": {
+        "name": "Salud mental",
+        "description": "Trata temas de salud mental"
+      },
+      "ca-ES": {
+        "name": "Salut mental",
+        "description": "Tracta temes de salut mental"
+      }
+    }
+  },
+  {
+    "identifier": "discrimination",
+    "translations": {
+      "es-ES": {
+        "name": "Discriminación",
+        "description": "Incluye representación de discriminación"
+      },
+      "ca-ES": {
+        "name": "Discriminació",
+        "description": "Inclou representació de discriminació"
+      }
+    }
+  },
+  {
+    "identifier": "sexual_violence",
+    "translations": {
+      "es-ES": {
+        "name": "Violencia sexual",
+        "description": "Contiene referencias a violencia sexual"
+      },
+      "ca-ES": {
+        "name": "Violència sexual",
+        "description": "Conté referències a violència sexual"
+      }
+    }
+  },
+  {
+    "identifier": "other",
+    "translations": {
+      "es-ES": {
+        "name": "Otro",
+        "description": "Se especificará en los comentarios"
+      },
+      "ca-ES": {
+        "name": "Altre",
+        "description": "S'especificarà als comentaris"
+      }
+    }
+  }
+]

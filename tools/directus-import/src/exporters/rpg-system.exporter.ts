@@ -1,21 +1,15 @@
 import type { RpgSystemPayload } from '@alcstronghold/directus-payload';
+import type { LanguageCodes } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type {
+  ExporterConfig,
+  ExportResult,
+  RpgSystemEntity,
+  RpgSystemTranslation,
+} from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult, LanguageCodes } from './base.exporter';
 import { LANGUAGE_CODES } from './base.exporter';
-
-interface RpgSystemTranslation {
-  languages_code: string;
-  name: string;
-}
-
-interface RpgSystemEntity {
-  identifier: string;
-  name: string;
-  bgg_id: number | null;
-  translations: RpgSystemTranslation[];
-}
 
 export class RpgSystemExporter {
   private readonly config: ExporterConfig;
@@ -49,19 +43,12 @@ export class RpgSystemExporter {
         })
       );
 
-      const data: RpgSystemPayload[] = entities.map((entity) => {
-        const payload: RpgSystemPayload = {
-          identifier: entity.identifier,
-          name: entity.name,
-          translations: this.buildTranslations(entity.translations),
-        };
-
-        if (entity.bgg_id != null) {
-          payload.bgg_id = entity.bgg_id;
-        }
-
-        return payload;
-      });
+      const data: RpgSystemPayload[] = entities.map((entity) => ({
+        identifier: entity.identifier,
+        name: entity.name,
+        bgg_id: entity.bgg_id,
+        translations: this.buildTranslations(entity.translations),
+      }));
 
       result.total = data.length;
       log.success(`Exported ${data.length} rpg_systems`);

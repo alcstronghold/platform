@@ -4,11 +4,15 @@ import { Command } from 'commander';
 
 import { backupCommand } from './commands/backup';
 import { exportCommand } from './commands/export';
+import { fieldsDisplayCommand } from './commands/fields-display';
 import { importCommand } from './commands/import';
 import { restoreCommand } from './commands/restore';
+import { rolesSetupCommand } from './commands/roles-setup';
 import { schemaClearCommand } from './commands/schema-clear';
 import { schemaExportCommand } from './commands/schema-export';
 import { schemaImportCommand } from './commands/schema-import';
+import { schemaSessionsCommand } from './commands/schema-sessions';
+import { schemaSetupCommand } from './commands/schema-setup';
 import { log } from './utils';
 
 const program = new Command();
@@ -16,8 +20,9 @@ const program = new Command();
 // Resolve relative to the project root (3 levels up from src/index.ts)
 const PROJECT_ROOT = resolve(import.meta.dirname, '../../..');
 const DEFAULT_SEEDS_DIR = resolve(PROJECT_ROOT, 'infrastructure/seeds');
+const DEFAULT_EXPORT_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups');
 const DEFAULT_SCHEMA_PATH = resolve(PROJECT_ROOT, 'infrastructure/schema/directus-schema.json');
-const DEFAULT_BACKUP_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups');
+const DEFAULT_BACKUP_DIR = resolve(PROJECT_ROOT, 'infrastructure/backups/snapshots');
 
 /**
  * Get Directus config from CLI options or environment variables
@@ -77,12 +82,12 @@ program
   .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
   .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
   .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
-  .option('-d, --seeds-dir <dir>', 'Seeds directory', DEFAULT_SEEDS_DIR)
+  .option('-o, --output-dir <dir>', 'Output directory for exported JSON', DEFAULT_EXPORT_DIR)
   .option('-c, --collections <collections...>', 'Specific collections to export')
   .action(async (options) => {
     const config = getDirectusConfig(options);
     await exportCommand(config, {
-      seedsDir: options.seedsDir,
+      seedsDir: options.outputDir,
       collections: options.collections,
     });
   });
@@ -135,6 +140,74 @@ program
     const config = getDirectusConfig(options);
     await schemaClearCommand(config, {
       force: options.force,
+      dryRun: options.dryRun,
+    });
+  });
+
+program
+  .command('schema-setup')
+  .description('Add auxiliary collections for rpg_sessions feature')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('-s, --schema <path>', 'Schema file path', DEFAULT_SCHEMA_PATH)
+  .option('-f, --force', 'Force schema apply (bypass version checks)')
+  .option('--dry-run', 'Generate schema file without applying to Directus')
+  .action(async (options) => {
+    const config = getDirectusConfig(options);
+    await schemaSetupCommand(config, {
+      schemaPath: options.schema,
+      force: options.force,
+      dryRun: options.dryRun,
+    });
+  });
+
+program
+  .command('schema-sessions')
+  .description('Add rpg_sessions and user_profiles collections')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('-s, --schema <path>', 'Schema file path', DEFAULT_SCHEMA_PATH)
+  .option('-f, --force', 'Force schema apply (bypass version checks)')
+  .option('--dry-run', 'Generate schema file without applying to Directus')
+  .action(async (options) => {
+    const config = getDirectusConfig(options);
+    await schemaSessionsCommand(config, {
+      schemaPath: options.schema,
+      force: options.force,
+      dryRun: options.dryRun,
+    });
+  });
+
+program
+  .command('roles-setup')
+  .description('Setup Master and Moderator roles with permissions')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('--dry-run', 'Show what would be done without making changes')
+  .action(async (options) => {
+    const config = getDirectusConfig(options);
+    await rolesSetupCommand(config, {
+      dryRun: options.dryRun,
+    });
+  });
+
+program
+  .command('fields-display')
+  .description('Update field display options (identifier monospace, status dot)')
+  .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
+  .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
+  .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')
+  .option('-p, --password <password>', 'Directus admin password (or DIRECTUS_PASSWORD env)')
+  .option('--dry-run', 'Show what would be done without making changes')
+  .action(async (options) => {
+    const config = getDirectusConfig(options);
+    await fieldsDisplayCommand(config, {
       dryRun: options.dryRun,
     });
   });

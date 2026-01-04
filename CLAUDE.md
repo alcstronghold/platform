@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ALC Stronghold Platform - <https://www.alcstronghold.com>
+ALC Stronghold Platform <https://www.alcstronghold.com>
 
 Monorepo for a non-profit youth organization focused on alternative leisure activities (board games, live-action roleplay, tabletop RPGs, collectible card games).
 
@@ -123,7 +123,10 @@ platform/
 │   └── directus-import/     # CLI for importing/exporting Directus data
 ├── infrastructure/          # Infrastructure configuration
 │   ├── docker/              # Docker compose for local dev
-│   └── seeds/               # JSON seed data for Directus collections
+│   ├── seeds/               # JSON seed data for Directus collections
+│   ├── backups/             # Exported JSON data
+│   │   └── snapshots/       # Backup archives (.tar.gz)
+│   └── schema/              # Directus schema JSON
 ├── scripts/                 # Workspace-level scripts
 │   └── version.ts           # Version bumping script
 ├── .moon/                   # Moonrepo configuration
@@ -291,6 +294,19 @@ bun run schema:clear -- --force       # Actually delete
 
 Schema files are stored in `infrastructure/schema/`
 
+### Data Export
+
+Export data from Directus to JSON files:
+
+```bash
+# Export all collections to JSON
+bun run export
+# Output: infrastructure/backups/*.json
+
+# Export specific collections
+bun run export -- -c languages genres publishers
+```
+
 ### Backup & Restore
 
 Full backup/restore of schema and data as timestamped archives:
@@ -298,7 +314,7 @@ Full backup/restore of schema and data as timestamped archives:
 ```bash
 # Create backup (schema + all collection data)
 bun run backup
-# Output: infrastructure/backups/snapshot-yyyy-MM-dd--HH-mm.tar.gz
+# Output: infrastructure/backups/snapshots/snapshot-yyyy-MM-dd--HH-mm.tar.gz
 
 # Restore from backup
 bun run restore <path-to-archive.tar.gz>
@@ -309,7 +325,56 @@ bun run restore -- --skip-data <archive>    # Only restore schema
 bun run restore -- --force <archive>        # Bypass version checks
 ```
 
-Backup archives are stored in `infrastructure/backups/`
+Backup archives are stored in `infrastructure/backups/snapshots/`
+
+### Roles & Policies Setup
+
+Configure Directus roles and granular policies:
+
+```bash
+# Apply roles and policies to Directus
+bun run roles:setup
+
+# Preview changes without applying
+bun run roles:setup -- --dry-run
+```
+
+#### Architecture
+
+The permission system separates **Roles** (application access levels) from **Policies** (granular permissions):
+
+**Roles** define which applications a user can access:
+
+| Role          | Directus Admin | Backend Dashboard | Public API |
+| ------------- | -------------- | ----------------- | ---------- |
+| Administrator | ✓              | ✓                 | ✓          |
+| Collaborator  | ✗              | ✓                 | ✓          |
+| Member        | ✗              | ✗                 | ✓          |
+
+**Policies** define granular permissions per feature:
+
+| Policy                    | Description                               |
+| ------------------------- | ----------------------------------------- |
+| `base:content-reader`     | Read public content (genres, systems...) |
+| `user-profiles:self`      | Manage own user profile                   |
+| `rpg-sessions:player`     | Register as player in sessions            |
+| `rpg-sessions:master`     | Create and manage own RPG sessions        |
+| `rpg-sessions:moderator`  | Moderate all RPG sessions                 |
+| `content:moderator`       | Moderate catalog content                  |
+| `user-profiles:moderator` | Moderate all user profiles                |
+
+**Default Policy Assignments**:
+
+- **Administrator**: Has `admin_access`, no policies needed
+- **Collaborator**: `base:content-reader`
+- **Member**: `base:content-reader`, `user-profiles:self`, `rpg-sessions:player`
+
+Users can have multiple roles (e.g., admin + master). Additional policies can be assigned directly to users:
+
+```bash
+# Assign policy to user via Directus API
+POST /access { "user": "<user_id>", "policy": "<policy_id>" }
+```
 
 ## Version Management
 
@@ -364,9 +429,97 @@ TS/JS files are ignored by Prettier (`.prettierignore`) - ESLint handles those.
 
 Configuration: `.prettierrc`
 
+## Testing
+
+### Bun Test
+
+Tests use Bun's built-in test runner. Currently configured for `directus-import`:
+
+```bash
+cd tools/directus-import
+
+bun test              # Run all tests
+bun test --watch      # Watch mode
+bun test <file>       # Run specific test file
+
+# Via moon
+moon run directus-import:test
+```
+
+### Test Structure
+
+```
+tools/directus-import/src/
+├── utils/
+│   ├── log.ts              # Logging utilities
+│   ├── normalize.ts        # Data normalization (bggId, strings, URLs)
+│   ├── relations.ts        # FK/M2M resolution utilities
+│   ├── retry.ts            # Retry with exponential backoff
+│   ├── translations.ts     # Translation request builders
+│   └── __tests__/
+│       ├── log.test.ts           # extractErrorMessage (21 tests)
+│       ├── normalize.test.ts     # normalizeBggId, etc. (34 tests)
+│       ├── relations.test.ts     # FK/M2M resolution (26 tests)
+│       ├── retry.test.ts         # isRetryableError, withRetry (25 tests)
+│       └── translations.test.ts  # buildTranslationRequests (16 tests)
+└── importers/
+    ├── genre.utils.ts      # Multi-pass import logic (pure functions)
+    └── __tests__/
+        └── genre.utils.test.ts   # Multi-pass, circular deps (20 tests)
+```
+
+**Total: 142 tests**
+
+### Testing Philosophy
+
+- **Test pure functions**: Extract logic from classes to testable pure functions
+- **Test edge cases**: null, undefined, invalid inputs, circular references
+- **Test real scenarios**: Use actual error formats from Directus
+- **Skip trivial tests**: Don't test getters/setters or simple wrappers
+- **No excessive mocking**: Prefer extracting pure logic over mocking dependencies
+
+### Writing Tests
+
+```typescript
+import { describe, expect, it } from 'bun:test';
+
+describe('functionName', () => {
+  it('describes expected behavior', () => {
+    expect(functionName(input)).toBe(expectedOutput);
+  });
+});
+```
+
 ## Conventions
 
 - Code and comments in English
 - Follow Angular style guide for Angular code
 - Use Astro conventions for static content
 - Directus collections follow snake_case naming
+
+### TypeScript Typing Conventions
+
+For JSON payloads and API responses:
+
+```typescript
+// CORRECT: Use `| null` for nullable fields (JSON has no undefined)
+interface Payload {
+  required: string;
+  nullable: string | null;
+}
+
+// INCORRECT: Don't mix `?:` with `| null` (redundant)
+interface Payload {
+  field?: string | null; // BAD: ? already implies undefined
+}
+```
+
+For configuration/options objects:
+
+```typescript
+// CORRECT: Use `?:` for optional config (can be omitted)
+interface Options {
+  verbose?: boolean;
+  timeout?: number;
+}
+```

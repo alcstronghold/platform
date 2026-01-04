@@ -1,22 +1,10 @@
 import type { GenrePayload } from '@alcstronghold/directus-payload';
+import type { LanguageCodes } from '@alcstronghold/directus-schema';
 import { readItems } from '@directus/sdk';
 
+import type { ExporterConfig, ExportResult, GenreEntity, GenreTranslation } from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult, LanguageCodes } from './base.exporter';
 import { LANGUAGE_CODES } from './base.exporter';
-
-interface GenreTranslation {
-  languages_code: string;
-  name: string;
-}
-
-interface GenreEntity {
-  id: string;
-  identifier: string;
-  name: string;
-  parent_id: string | null | { id: string; identifier: string };
-  translations: GenreTranslation[];
-}
 
 export class GenreExporter {
   private readonly config: ExporterConfig;
@@ -50,22 +38,12 @@ export class GenreExporter {
         this.identifierMap.set(entity.id, entity.identifier);
       }
 
-      const data: GenrePayload[] = entities.map((entity) => {
-        const translations = this.buildTranslations(entity.translations);
-        const parentIdentifier = this.resolveParentIdentifier(entity.parent_id);
-
-        const payload: GenrePayload = {
-          identifier: entity.identifier,
-          name: entity.name,
-          translations,
-        };
-
-        if (parentIdentifier) {
-          payload.parent = parentIdentifier;
-        }
-
-        return payload;
-      });
+      const data: GenrePayload[] = entities.map((entity) => ({
+        identifier: entity.identifier,
+        name: entity.name,
+        parent: this.resolveParentIdentifier(entity.parent_id),
+        translations: this.buildTranslations(entity.translations),
+      }));
 
       result.total = data.length;
       log.success(`Exported ${data.length} genres`);
@@ -90,8 +68,8 @@ export class GenreExporter {
     return result;
   }
 
-  private resolveParentIdentifier(parentId: string | null | { id: string; identifier: string }): string | undefined {
-    if (!parentId) return undefined;
+  private resolveParentIdentifier(parentId: string | null | { id: string; identifier: string }): string | null {
+    if (!parentId) return null;
 
     // If it's an object (populated relation), use identifier directly
     if (typeof parentId === 'object') {
@@ -99,6 +77,6 @@ export class GenreExporter {
     }
 
     // Otherwise look up by ID
-    return this.identifierMap.get(parentId);
+    return this.identifierMap.get(parentId) ?? null;
   }
 }

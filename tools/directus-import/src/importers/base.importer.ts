@@ -1,33 +1,9 @@
-import type { DirectusClient, RestClient, StaticTokenClient } from '@directus/sdk';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
+import type { ImporterConfig, ImportResult } from '../types';
 import { extractErrorMessage, log, withRetry } from '../utils';
 
-/**
- * Result of an import operation
- */
-export interface ImportResult {
-  collection: string;
-  total: number;
-  created: number;
-  updated: number;
-  failed: number;
-  errors: Array<{ identifier: string; error: string }>;
-}
-
-/**
- * Configuration for the importer
- */
-export interface ImporterConfig {
-  /** Directus client instance */
-  client: DirectusClient<object> & RestClient<object> & StaticTokenClient<object>;
-  /** Directus URL (for native fetch when SDK has bugs) */
-  url: string;
-  /** Authentication token */
-  token: string;
-  /** Whether to show verbose output */
-  verbose?: boolean;
-}
+export type { ImporterConfig, ImportResult };
 
 /**
  * Base class for collection importers.

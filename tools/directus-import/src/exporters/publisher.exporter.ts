@@ -1,17 +1,8 @@
 import type { PublisherPayload } from '@alcstronghold/directus-payload';
 import { readItems } from '@directus/sdk';
 
+import type { ExporterConfig, ExportResult, PublisherEntity } from '../types';
 import { extractErrorMessage, log } from '../utils';
-import type { ExporterConfig, ExportResult } from './base.exporter';
-
-interface PublisherEntity {
-  identifier: string;
-  name: string;
-  website: string | null;
-  logo_url: string | null;
-  business_status: string;
-  bgg_id: number | null;
-}
 
 export class PublisherExporter {
   private readonly config: ExporterConfig;

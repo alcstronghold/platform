@@ -12,7 +12,7 @@ export interface RetryOptions {
 /**
  * Check if an error is a connection/transient error that should be retried
  */
-function isRetryableError(error: unknown): boolean {
+export function isRetryableError(error: unknown): boolean {
   const message = error instanceof Error ? error.message : String(error);
   const retryablePatterns = [
     'connection',

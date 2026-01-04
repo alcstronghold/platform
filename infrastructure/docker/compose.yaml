@@ -2,34 +2,6 @@ name: alc-stronghold
 
 services:
   # =============================================================================
-  # Traefik - Reverse Proxy
-  # =============================================================================
-  traefik:
-    image: traefik:3
-    container_name: alc-stronghold-traefik
-    restart: unless-stopped
-    command:
-      - --api.insecure=true
-      - --providers.docker=true
-      - --providers.docker.exposedbydefault=false
-      - --providers.file.directory=/config
-      - --providers.file.watch=true
-      - --entrypoints.web.address=:80
-      - --entrypoints.web.http.redirections.entrypoint.to=websecure
-      - --entrypoints.web.http.redirections.entrypoint.scheme=https
-      - --entrypoints.websecure.address=:443
-    ports:
-      - "80:80"
-      - "443:443"
-      - "8080:8080"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./certs:/certs:ro
-      - ./traefik:/config:ro
-    networks:
-      - alc-stronghold-network
-
-  # =============================================================================
   # PostgreSQL Database
   # =============================================================================
   database:
@@ -119,13 +91,17 @@ services:
       CORS_ORIGIN: 'true'
     labels:
       - traefik.enable=true
+      - traefik.docker.network=traefik-public
       - traefik.http.routers.directus.rule=Host(`backend.alcstronghold.local`)
       - traefik.http.routers.directus.entrypoints=websecure
       - traefik.http.routers.directus.tls=true
       - traefik.http.services.directus.loadbalancer.server.port=8055
     networks:
       - alc-stronghold-network
+      - traefik-public
 
 networks:
   alc-stronghold-network:
     driver: bridge
+  traefik-public:
+    external: true
