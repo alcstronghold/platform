@@ -13,7 +13,8 @@ Monorepo for a non-profit youth organization focused on alternative leisure acti
 - **Monorepo**: Moonrepo + Proto
 - **Runtime/Package Manager**: Bun
 - **Backend**: Directus (Headless CMS)
-- **Frontend**: Astro + Angular v21 islands (via AnalogJS)
+- **Frontend**: Astro v5 (public) + Angular v21 (dashboard)
+- **UI**: Tailwind CSS v4 + Flowbite v4
 - **Database**: PostgreSQL + Redis (via Docker)
 
 ## Commands
@@ -111,14 +112,15 @@ docker compose restart directus
 ```
 platform/
 ├── apps/                    # Deployable applications
-│   ├── web/                 # Astro + Angular islands (main website)
+│   ├── web/                 # Astro v5 (public website)
+│   ├── dashboard/           # Angular v21 (admin panel)
 │   └── mobile/              # Mobile app (TBD)
 ├── packages/                # Shared libraries
 │   ├── directus-schema/     # TypeScript types for Directus collections
 │   ├── directus-payload/    # Payload interfaces for JSON import/export
 │   ├── domain/              # Business entities and use cases
 │   ├── infrastructure/      # External services adapters (Directus SDK)
-│   └── ui/                  # Shared UI components
+│   └── ui/                  # Shared Tailwind + Flowbite theme
 ├── tools/                   # Development utilities
 │   └── directus-import/     # CLI for importing/exporting Directus data
 ├── infrastructure/          # Infrastructure configuration
@@ -217,6 +219,56 @@ JSON files for seeding Directus are stored in `infrastructure/seeds/`:
 - `languages.json`, `genres.json`, `publishers.json`
 - `rpg-families.json`, `rpg-systems.json`, `rpg-editions.json`
 - `settings.json`
+
+## Frontend Apps
+
+### @alcstronghold/ui
+
+Shared UI theme package with Tailwind CSS v4 + Flowbite v4:
+
+```
+packages/ui/src/styles/
+├── globals.css    # Main entry: Tailwind + Flowbite theme
+└── fonts.css      # InterDisplay font with OpenType features
+```
+
+Usage in apps:
+
+```css
+/* Import shared theme */
+@import "@alcstronghold/ui/styles/globals.css";
+
+/* Scan app files for Tailwind classes */
+@source "./**/*.html";
+@source "./**/*.ts";
+```
+
+### apps/web (Astro v5)
+
+Public website with static content:
+
+```bash
+moon run web:dev      # Dev server at http://localhost:4321
+moon run web:build    # Production build
+```
+
+- Tailwind via `@tailwindcss/vite` plugin
+- MDX support for content pages
+- Sitemap generation
+
+### apps/dashboard (Angular v21)
+
+Admin panel with user management:
+
+```bash
+moon run dashboard:dev    # Dev server at http://localhost:4200
+moon run dashboard:build  # Production build
+```
+
+- Standalone components with signals
+- Tailwind via `@tailwindcss/postcss`
+- Flowbite components with `initFlowbite()`
+- Vitest for unit testing
 
 ## Directus Import CLI
 
