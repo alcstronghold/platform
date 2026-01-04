@@ -1,6 +1,8 @@
 :root {
   --font-family-regular: 'InterDisplay';
-  --font-features-regular: "calt" 1, "liga" 1, "dlig" 1, "tnum" 1, "zero" 1, "ss01" 1, "ss03" 1, "cv05" 1, "cv06" 1, "cv08" 1, "cv11" 1, "cv12" 1, "cv13" 1;
+  --font-features-regular:
+    'calt' 1, 'liga' 1, 'dlig' 1, 'tnum' 1, 'zero' 1, 'ss01' 1, 'ss03' 1, 'cv05' 1, 'cv06' 1, 'cv08' 1, 'cv11' 1,
+    'cv12' 1, 'cv13' 1;
 }
 
 @layer inter-font {
@@ -17,7 +19,8 @@
     font-style: italic;
     font-weight: 100;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ThinItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ThinItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -25,7 +28,8 @@
     font-style: normal;
     font-weight: 200;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraLight.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraLight.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -33,7 +37,8 @@
     font-style: italic;
     font-weight: 200;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraLightItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraLightItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -49,7 +54,8 @@
     font-style: italic;
     font-weight: 300;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-LightItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-LightItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -81,7 +87,8 @@
     font-style: italic;
     font-weight: 500;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-MediumItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-MediumItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -97,7 +104,8 @@
     font-style: italic;
     font-weight: 600;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-SemiBoldItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-SemiBoldItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -113,7 +121,8 @@
     font-style: italic;
     font-weight: 700;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-BoldItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-BoldItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -129,7 +138,8 @@
     font-style: italic;
     font-weight: 800;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraBoldItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-ExtraBoldItalic.woff2)
+      format('woff2');
   }
 
   @font-face {
@@ -145,6 +155,7 @@
     font-style: italic;
     font-weight: 900;
     font-display: swap;
-    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-BlackItalic.woff2) format('woff2');
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/display/InterDisplay-BlackItalic.woff2)
+      format('woff2');
   }
 }

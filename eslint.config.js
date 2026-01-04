@@ -1,5 +1,7 @@
 // @ts-check
 import js from '@eslint/js';
+import angular from 'angular-eslint';
+import astro from 'eslint-plugin-astro';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import tseslint from 'typescript-eslint';
 
@@ -12,6 +14,8 @@ export default tseslint.config(
       '**/.moon/**',
       '**/coverage/**',
       '**/*.d.ts',
+      '**/.astro/**',
+      '**/.angular/**',
     ],
   },
 
@@ -57,6 +61,40 @@ export default tseslint.config(
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'prefer-const': 'error',
       'no-var': 'error',
+    },
+  },
+
+  // Angular files configuration
+  {
+    files: ['apps/dashboard/**/*.ts'],
+    extends: [...angular.configs.tsRecommended],
+    processor: angular.processInlineTemplates,
+    rules: {
+      '@angular-eslint/directive-selector': [
+        'error',
+        { type: 'attribute', prefix: 'app', style: 'camelCase' },
+      ],
+      '@angular-eslint/component-selector': [
+        'error',
+        { type: 'element', prefix: 'app', style: 'kebab-case' },
+      ],
+    },
+  },
+
+  // Angular HTML templates
+  {
+    files: ['apps/dashboard/**/*.html'],
+    extends: [...angular.configs.templateRecommended, ...angular.configs.templateAccessibility],
+  },
+
+  // Astro files configuration
+  {
+    files: ['apps/web/**/*.astro'],
+    extends: [...astro.configs.recommended],
+    languageOptions: {
+      parserOptions: {
+        parser: tseslint.parser,
+      },
     },
   },
 

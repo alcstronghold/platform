@@ -1,4 +1,4 @@
-import { Component, VERSION, afterNextRender } from '@angular/core';
+import { afterNextRender,Component, VERSION } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
 

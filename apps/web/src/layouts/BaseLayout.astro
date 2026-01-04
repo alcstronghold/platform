@@ -17,7 +17,9 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title} | ALC Stronghold</title>
   </head>
-  <body class="bg-gray-50 dark:bg-gray-900 font-[var(--font-family-regular)]" style="font-feature-settings: var(--font-features-regular);">
+  <body
+    class="bg-gray-50 dark:bg-gray-900 font-[var(--font-family-regular)]"
+    style="font-feature-settings: var(--font-features-regular);">
     <slot />
     <script>
       import 'flowbite';

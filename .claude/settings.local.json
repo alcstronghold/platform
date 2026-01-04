@@ -29,9 +29,6 @@
       "Bash(tree:*)"
     ]
   },
-  "enabledMcpjsonServers": [
-    "angular-cli",
-    "directus-stronghold"
-  ],
+  "enabledMcpjsonServers": ["angular-cli", "directus-stronghold"],
   "enableAllProjectMcpServers": true
 }

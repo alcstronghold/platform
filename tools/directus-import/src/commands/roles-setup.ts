@@ -1,12 +1,12 @@
 import {
-  createRole,
-  createPolicy,
   createPermission,
-  readRoles,
-  readPolicies,
-  readPermissions,
+  createPolicy,
+  createRole,
   deletePermission,
   deletePolicy,
+  readPermissions,
+  readPolicies,
+  readRoles,
 } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
@@ -767,7 +767,7 @@ export async function rolesSetupCommand(
     }
 
     log.summary('Policies created:');
-    for (const [key, policyDef] of Object.entries(POLICIES)) {
+    for (const [_key, policyDef] of Object.entries(POLICIES)) {
       log.item('✓', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
     }
 

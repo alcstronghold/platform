@@ -236,7 +236,7 @@ Usage in apps:
 
 ```css
 /* Import shared theme */
-@import "@alcstronghold/ui/styles/globals.css";
+@import '@alcstronghold/ui/styles/globals.css';
 
 /* Scan app files for Tailwind classes */
 @source "./**/*.html";
@@ -405,15 +405,15 @@ The permission system separates **Roles** (application access levels) from **Pol
 
 **Policies** define granular permissions per feature:
 
-| Policy                    | Description                               |
-| ------------------------- | ----------------------------------------- |
+| Policy                    | Description                              |
+| ------------------------- | ---------------------------------------- |
 | `base:content-reader`     | Read public content (genres, systems...) |
-| `user-profiles:self`      | Manage own user profile                   |
-| `rpg-sessions:player`     | Register as player in sessions            |
-| `rpg-sessions:master`     | Create and manage own RPG sessions        |
-| `rpg-sessions:moderator`  | Moderate all RPG sessions                 |
-| `content:moderator`       | Moderate catalog content                  |
-| `user-profiles:moderator` | Moderate all user profiles                |
+| `user-profiles:self`      | Manage own user profile                  |
+| `rpg-sessions:player`     | Register as player in sessions           |
+| `rpg-sessions:master`     | Create and manage own RPG sessions       |
+| `rpg-sessions:moderator`  | Moderate all RPG sessions                |
+| `content:moderator`       | Moderate catalog content                 |
+| `user-profiles:moderator` | Moderate all user profiles               |
 
 **Default Policy Assignments**:
 
@@ -466,9 +466,15 @@ Key rules:
 - `no-console` warning (disabled for `scripts/` and `tools/`)
 - TypeScript strict rules enabled
 
+Framework-specific configs:
+
+- **Angular** (`apps/dashboard/**/*.ts`): `angular-eslint` with component/directive selectors
+- **Angular templates** (`apps/dashboard/**/*.html`): Accessibility rules enabled
+- **Astro** (`apps/web/**/*.astro`): `eslint-plugin-astro` with TypeScript parser
+
 Configuration: `eslint.config.js` (ESLint 9 flat config)
 
-### Prettier (JSON, YAML, Markdown, HTML, CSS)
+### Prettier (JSON, YAML, Markdown, HTML, CSS, Astro)
 
 Prettier formats non-TS/JS files only:
 
@@ -478,6 +484,10 @@ bun run format:check  # Check formatting
 ```
 
 TS/JS files are ignored by Prettier (`.prettierignore`) - ESLint handles those.
+
+Plugins:
+
+- `prettier-plugin-astro` - Formats `.astro` files
 
 Configuration: `.prettierrc`
 
