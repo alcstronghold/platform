@@ -25,15 +25,9 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
     - [x] Comando `fields-display` creado (37 campos actualizados)
   - [ ] packages/domain con entidades y casos de uso
 
-## En Progreso - Frontend Apps
-
-- [ ] **Frontend Apps + Shared UI** (Tailwind + Flowbite v4.1):
-  - [ ] packages/ui - Theme Tailwind compartido
-  - [ ] apps/web - Astro v5 con landing dummy
-  - [ ] apps/dashboard - Angular v21 con auth básico
-  - [ ] Integración Directus - Login, user management
-
 ## Pendiente - Alta Prioridad
+
+- [ ] **Integración Directus** - Login y user management en apps/dashboard
 
 ## Pendiente - Media Prioridad
 
@@ -51,6 +45,11 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## Completado
 
+- [x] **Frontend Apps + Shared UI** (Tailwind v4 + Flowbite v4):
+  - [x] packages/ui - Theme Tailwind + Flowbite compartido (InterDisplay font)
+  - [x] apps/web - Astro v5 con landing dummy (MDX, Sitemap)
+  - [x] apps/dashboard - Angular v21 con Tailwind + Flowbite
+  - [x] Documentación en CLAUDE.md
 - [x] **directus-schema types** - Tipos TypeScript para todas las colecciones:
   - [x] RpgFamily, RpgFamilyTranslation, RpgFamiliesSettings
   - [x] RpgSystem, RpgSystemTranslation
@@ -124,4 +123,4 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ---
 
-_Última actualización: 2025-12-30_
+_Última actualización: 2026-01-04_
