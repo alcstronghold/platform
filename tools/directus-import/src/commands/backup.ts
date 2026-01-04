@@ -28,7 +28,7 @@ export async function backupCommand(
   log.summary(`Creating snapshot: ${snapshotName}`);
 
   try {
-    // Create temp directory
+    // Create a temp directory
     await mkdir(tempDir, { recursive: true });
 
     // Export schema
@@ -40,7 +40,7 @@ export async function backupCommand(
     await mkdir(dataDir, { recursive: true });
     await exportCommand(config, { seedsDir: dataDir });
 
-    // Create tar.gz archive
+    // Create a tar.gz archive
     log.info('Creating archive...');
     await createTarGz(tempDir, archivePath, snapshotName);
 

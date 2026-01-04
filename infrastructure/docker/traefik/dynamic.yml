@@ -1,4 +1,0 @@
-tls:
-  certificates:
-    - certFile: /certs/_wildcard.alcstronghold.local+3.pem
-      keyFile: /certs/_wildcard.alcstronghold.local+3-key.pem

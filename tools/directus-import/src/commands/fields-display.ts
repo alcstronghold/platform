@@ -33,7 +33,7 @@ const COLLECTIONS_WITH_IDENTIFIER = [
 ];
 
 /**
- * Collections with status fields that need showAsDot display
+ * Collections with status fields that need to showAsDot display
  */
 const COLLECTIONS_WITH_STATUS = [
   'age_ranges',

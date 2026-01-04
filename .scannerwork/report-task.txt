@@ -1,6 +1,0 @@
-projectKey=alc-stronghold-platform
-serverUrl=https://sonarqube.devtools.local
-serverVersion=25.12.0.117093
-dashboardUrl=https://sonarqube.devtools.local/dashboard?id=alc-stronghold-platform
-ceTaskId=2e931cfc-01ca-4e19-8076-83874eef674a
-ceTaskUrl=https://sonarqube.devtools.local/api/ce/task?id=2e931cfc-01ca-4e19-8076-83874eef674a

@@ -130,7 +130,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
             ),
           { context: identifier }
         );
-        // Add to map for subsequent items that might reference this one
+        // Add to the map for subsequent items that might reference this one
         existingMap.set(identifier, created as unknown as TEntity);
         this.result.created++;
         log.item('created', identifier);
@@ -185,7 +185,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
 
 /**
  * Base class for importers that handle translations.
- * Provides helper methods for handling Directus translations pattern.
+ * Provides helper methods for handling a Directus translations pattern.
  */
 export abstract class TranslatableImporter<
   TPayload extends { translations: Record<string, string> },
