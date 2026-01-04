@@ -1,0 +1,8 @@
+language: typescript
+type: library
+
+tasks:
+  typecheck:
+    command: bun run tsc --noEmit
+    inputs:
+      - src/**/*
