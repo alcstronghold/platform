@@ -1,3 +1,5 @@
 @import "@alcstronghold/ui/styles/globals.css";
 
-@source "../../node_modules/flowbite/**/*.js";
+@source "../**/*.astro";
+@source "../**/*.ts";
+@source "../../../../node_modules/flowbite/**/*.js";

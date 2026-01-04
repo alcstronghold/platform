@@ -1,0 +1,23 @@
+language: typescript
+type: application
+
+dependsOn:
+  - ui
+
+tasks:
+  dev:
+    command: bun run start
+    local: true
+
+  build:
+    command: bun run build
+    inputs:
+      - src/**/*
+      - angular.json
+    outputs:
+      - dist/**/*
+
+  test:
+    command: bun run test
+    inputs:
+      - src/**/*
