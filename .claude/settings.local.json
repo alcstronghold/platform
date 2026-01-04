@@ -32,5 +32,6 @@
   "enabledMcpjsonServers": [
     "angular-cli",
     "directus-stronghold"
-  ]
+  ],
+  "enableAllProjectMcpServers": true
 }
