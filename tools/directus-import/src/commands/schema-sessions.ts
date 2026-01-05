@@ -1,10 +1,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-import { schemaApply, schemaDiff } from '@directus/sdk';
-
-import { createClient } from '../services/directus';
-import type { DirectusConfig, SchemaDiffResult } from '../types';
+import type { DirectusConfig } from '../types';
 import { log } from '../utils';
+import { applySchemaChanges, type FieldDef, type RelationDef } from './schema-utils';
 
 export interface SchemaSessionsOptions {
   schemaPath: string;
@@ -13,25 +11,37 @@ export interface SchemaSessionsOptions {
 }
 
 /**
- * Field definition helper
+ * Schema data container for collections, fields, and relations
  */
-interface FieldDef {
-  collection: string;
-  field: string;
-  type: string;
-  meta?: Record<string, unknown>;
-  schema?: Record<string, unknown> | null;
+interface SchemaData {
+  collections: object[];
+  fields: FieldDef[];
+  relations: RelationDef[];
 }
 
 /**
- * Relation definition helper
+ * Merge schema data into target schema and track added collections
  */
-interface RelationDef {
-  collection: string;
-  field: string;
-  related_collection: string | null;
-  meta?: Record<string, unknown>;
-  schema?: Record<string, unknown> | null;
+function mergeSchemaData(
+  schema: SchemaData,
+  data: { collection?: object; collections?: object[]; fields: FieldDef[]; relations: RelationDef[] },
+  addedCollections: string[],
+  logEntries: Array<{ name: string; suffix?: string }>
+): void {
+  if (data.collection) {
+    schema.collections.push(data.collection);
+  }
+  if (data.collections) {
+    schema.collections.push(...data.collections);
+  }
+  schema.fields.push(...data.fields);
+  schema.relations.push(...data.relations);
+
+  for (const entry of logEntries) {
+    const col = entry.name;
+    addedCollections.push(col);
+    log.item('created', entry.suffix ? `${col} ${entry.suffix}` : col);
+  }
 }
 
 /**
@@ -2317,14 +2327,53 @@ function createRpgSessionPlayersCollection(): {
 }
 
 /**
+ * Add user_profiles collection and its junction table to schema
+ */
+function addUserProfilesSchema(schema: SchemaData, addedCollections: string[]): void {
+  const userProfiles = createUserProfilesCollection();
+  mergeSchemaData(schema, userProfiles, addedCollections, [
+    { name: 'user_profiles' },
+  ]);
+
+  const discoverySources = createUserProfilesDiscoverySourcesJunction();
+  mergeSchemaData(schema, discoverySources, addedCollections, [
+    { name: 'user_profiles_discovery_sources', suffix: '(M2M junction)' },
+  ]);
+}
+
+/**
+ * Add rpg_sessions collections and all related junction tables to schema
+ */
+function addRpgSessionsSchema(schema: SchemaData, addedCollections: string[]): void {
+  const rpgSessions = createRpgSessionsCollection();
+  mergeSchemaData(schema, rpgSessions, addedCollections, [
+    { name: 'rpg_sessions' },
+    { name: 'rpg_sessions_translations' },
+  ]);
+
+  const m2mJunctions = createRpgSessionsM2MJunctions();
+  schema.collections.push(...m2mJunctions.collections);
+  schema.fields.push(...m2mJunctions.fields);
+  schema.relations.push(...m2mJunctions.relations);
+  for (const c of m2mJunctions.collections) {
+    const col = c as { collection: string };
+    addedCollections.push(col.collection);
+    log.item('created', `${col.collection} (M2M junction)`);
+  }
+
+  const players = createRpgSessionPlayersCollection();
+  mergeSchemaData(schema, players, addedCollections, [
+    { name: 'rpg_session_players' },
+  ]);
+}
+
+/**
  * Setup main collections for rpg_sessions feature
  */
 export async function schemaSessionsCommand(
   config: DirectusConfig,
   options: SchemaSessionsOptions
 ): Promise<void> {
-  const client = await createClient(config);
-
   log.header('SCHEMA SETUP - RPG Sessions & User Profiles');
   log.summary(`Schema file: ${options.schemaPath}`);
   if (options.dryRun) {
@@ -2341,59 +2390,20 @@ export async function schemaSessionsCommand(
       schema.collections.map((c: { collection: string }) => c.collection)
     );
 
-    // Track what we add
     const addedCollections: string[] = [];
 
-    // 1. User Profiles
-    if (!existingCollections.has('user_profiles')) {
-      const userProfiles = createUserProfilesCollection();
-      schema.collections.push(userProfiles.collection);
-      schema.fields.push(...userProfiles.fields);
-      schema.relations.push(...userProfiles.relations);
-      addedCollections.push('user_profiles');
-      log.item('created', 'user_profiles');
-
-      // Add M2M junction for discovery sources
-      const discoverySources = createUserProfilesDiscoverySourcesJunction();
-      schema.collections.push(discoverySources.collection);
-      schema.fields.push(...discoverySources.fields);
-      schema.relations.push(...discoverySources.relations);
-      addedCollections.push('user_profiles_discovery_sources');
-      log.item('created', 'user_profiles_discovery_sources (M2M junction)');
-    } else {
+    // Add user_profiles if not exists
+    if (existingCollections.has('user_profiles')) {
       log.warn('Skipping user_profiles - already exists');
+    } else {
+      addUserProfilesSchema(schema, addedCollections);
     }
 
-    // 2. RPG Sessions
-    if (!existingCollections.has('rpg_sessions')) {
-      const rpgSessions = createRpgSessionsCollection();
-      schema.collections.push(...rpgSessions.collections);
-      schema.fields.push(...rpgSessions.fields);
-      schema.relations.push(...rpgSessions.relations);
-      addedCollections.push('rpg_sessions', 'rpg_sessions_translations');
-      log.item('created', 'rpg_sessions');
-      log.item('created', 'rpg_sessions_translations');
-
-      // Add M2M junction tables
-      const m2mJunctions = createRpgSessionsM2MJunctions();
-      schema.collections.push(...m2mJunctions.collections);
-      schema.fields.push(...m2mJunctions.fields);
-      schema.relations.push(...m2mJunctions.relations);
-      for (const c of m2mJunctions.collections) {
-        const col = c as { collection: string };
-        addedCollections.push(col.collection);
-        log.item('created', `${col.collection} (M2M junction)`);
-      }
-
-      // Add rpg_session_players
-      const players = createRpgSessionPlayersCollection();
-      schema.collections.push(players.collection);
-      schema.fields.push(...players.fields);
-      schema.relations.push(...players.relations);
-      addedCollections.push('rpg_session_players');
-      log.item('created', 'rpg_session_players');
-    } else {
+    // Add rpg_sessions if not exists
+    if (existingCollections.has('rpg_sessions')) {
       log.warn('Skipping rpg_sessions - already exists');
+    } else {
+      addRpgSessionsSchema(schema, addedCollections);
     }
 
     if (addedCollections.length === 0) {
@@ -2412,29 +2422,14 @@ export async function schemaSessionsCommand(
     }
 
     // Apply the schema
-    log.info('Applying schema changes to Directus...');
-    const diffResult = await client.request(
-      schemaDiff(schema, options.force)
-    ) as SchemaDiffResult;
+    const { applied } = await applySchemaChanges(config, schema, options.force);
 
-    const { diff } = diffResult;
-    const totalChanges =
-      (diff.collections?.length ?? 0) +
-      (diff.fields?.length ?? 0) +
-      (diff.relations?.length ?? 0);
-
-    if (totalChanges === 0) {
-      log.success('Schema is already up to date. No changes needed.');
-      return;
-    }
-
-    log.info(`Applying ${totalChanges} changes...`);
-    await client.request(schemaApply(diffResult));
-
-    log.success('Schema setup completed successfully!');
-    log.summary(`Added ${addedCollections.length} collections:`);
-    for (const name of addedCollections) {
-      log.item('success', name);
+    if (applied) {
+      log.success('Schema setup completed successfully!');
+      log.summary(`Added ${addedCollections.length} collections:`);
+      for (const name of addedCollections) {
+        log.item('success', name);
+      }
     }
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
