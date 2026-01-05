@@ -9,7 +9,7 @@ services:
     container_name: alc-stronghold-database
     restart: unless-stopped
     volumes:
-      - ./volumes/database:/var/lib/postgresql/data
+      - ${COMMON_PATH}\StrongholdPlatform\volumes\database:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: ${DB_USER:-directus}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-directus}
@@ -32,7 +32,7 @@ services:
     container_name: alc-stronghold-cache
     restart: unless-stopped
     volumes:
-      - ./volumes/redis:/data
+      - ${COMMON_PATH}\StrongholdPlatform\volumes\cache:/data
     healthcheck:
       test: ['CMD-SHELL', "[ $$(redis-cli ping) = 'PONG' ]"]
       interval: 10s
@@ -51,8 +51,8 @@ services:
     container_name: alc-stronghold-directus
     restart: unless-stopped
     volumes:
-      - ./volumes/uploads:/directus/uploads
-      - ./volumes/extensions:/directus/extensions
+      - ${COMMON_PATH}\StrongholdPlatform\volumes\uploads:/directus/uploads
+      - ${COMMON_PATH}\StrongholdPlatform\volumes\extensions:/directus/extensions
     depends_on:
       database:
         condition: service_healthy

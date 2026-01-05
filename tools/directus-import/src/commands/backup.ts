@@ -10,7 +10,7 @@ import { log } from '../utils';
 import { exportCommand } from './export';
 import { schemaExportCommand } from './schema-export';
 
-export type { BackupOptions };
+export type { BackupOptions } from '../types';
 
 /**
  * Create a timestamped backup archive containing schema and data exports.
@@ -28,7 +28,7 @@ export async function backupCommand(
   log.summary(`Creating snapshot: ${snapshotName}`);
 
   try {
-    // Create temp directory
+    // Create a temp directory
     await mkdir(tempDir, { recursive: true });
 
     // Export schema
@@ -40,7 +40,7 @@ export async function backupCommand(
     await mkdir(dataDir, { recursive: true });
     await exportCommand(config, { seedsDir: dataDir });
 
-    // Create tar.gz archive
+    // Create a tar.gz archive
     log.info('Creating archive...');
     await createTarGz(tempDir, archivePath, snapshotName);
 
@@ -117,8 +117,7 @@ async function createTarBuffer(files: TarFile[], baseName: string): Promise<Buff
   for (const file of files) {
     const name = `${baseName}/${file.name}`;
     const header = createTarHeader(name, file.content.length);
-    blocks.push(header);
-    blocks.push(file.content);
+    blocks.push(header, file.content);
 
     // Pad to 512-byte boundary
     const padding = 512 - (file.content.length % 512);

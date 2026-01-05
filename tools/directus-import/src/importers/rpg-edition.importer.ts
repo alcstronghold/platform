@@ -1,8 +1,8 @@
 import type { RpgEditionPayload } from '@alcstronghold/directus-payload';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
+import type { ImporterConfig, ImportResult } from '../types';
 import { extractErrorMessage, log, normalizeBggId, withRetry } from '../utils';
-import type { ImporterConfig, ImportResult } from './base.importer';
 
 interface RpgEditionEntity {
   id: string;

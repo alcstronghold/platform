@@ -1,7 +1,7 @@
 /**
  * Relation resolution utilities for Directus imports/exports.
  *
- * Handles converting between UUIDs and identifiers for foreign key
+ * Handles converting between UUIDs and identifiers for the foreign key
  * and many-to-many relationships.
  */
 
@@ -18,7 +18,7 @@ export interface PopulatedRelation {
  *
  * Handles multiple input formats:
  * - null/undefined → null
- * - string (UUID) → lookup in map → identifier or null
+ * - string (UUID) → lookup in the map → identifier or null
  * - object with identifier → extract identifier directly
  *
  * @param reference - The FK reference (UUID string or populated object)
@@ -27,7 +27,7 @@ export interface PopulatedRelation {
  *
  * @example
  * // String UUID reference
- * resolveRelationIdentifier('abc-123', new Map([['abc-123', 'fantasy']]))
+ * resolveRelationIdentifier('abc-123', new Map(['abc-123', 'fantasy']))
  * // Returns: 'fantasy'
  *
  * @example
@@ -88,7 +88,7 @@ export function resolveRelationIdentifiers(
 }
 
 /**
- * Build an ID to identifier map from an array of entities.
+ * Build an ID to identifier the map from an array of entities.
  *
  * @param entities - Array of entities with id and identifier fields
  * @returns Map of UUID → identifier
@@ -106,7 +106,7 @@ export function buildIdToIdentifierMap<T extends { id: string; identifier: strin
 }
 
 /**
- * Build an identifier to ID map from an array of entities.
+ * Build an identifier to the ID map from an array of entities.
  *
  * Used during imports to resolve identifier references to UUIDs.
  *

@@ -78,7 +78,7 @@ export function simulateMultiPassOrder(
     const passIdentifiers = processable.map((g) => g.identifier);
     passes.push(passIdentifiers);
 
-    // Mark as processed for next pass
+    // Mark as processed for the next pass
     for (const id of passIdentifiers) {
       processed.add(id);
     }

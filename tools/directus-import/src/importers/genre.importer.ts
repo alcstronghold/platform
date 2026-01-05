@@ -1,8 +1,15 @@
 import type { GenrePayload } from '@alcstronghold/directus-payload';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import { extractErrorMessage, log, withRetry } from '../utils';
-import type { ImporterConfig, ImportResult } from './base.importer';
+import type { ImporterConfig, ImportResult } from '../types';
+import {
+  buildNewTranslationRequests,
+  buildTranslationRequests,
+  extractErrorMessage,
+  log,
+  printImportResult,
+  withRetry,
+} from '../utils';
 
 /**
  * Genre entity from Directus
@@ -30,19 +37,18 @@ type GenreMap = Map<string, string>;
  *
  * Genres can have parent_id references to other genres, which creates a dependency tree.
  * This importer processes genres in multiple passes:
- * - Pass 1: Genres without parent (root level)
+ * - Pass 1: Genres without a parent (root level)
  * - Pass 2: Genres whose parent was processed in pass 1
  * - Pass N: Genres whose parent was processed in pass N-1
  *
  * This ensures parents exist before their children are imported.
  */
 export class GenreImporter {
-  private config: ImporterConfig;
+  private readonly config: ImporterConfig;
   private result: ImportResult;
-  private genreMap: GenreMap = new Map();
+  private readonly genreMap: GenreMap = new Map();
 
   readonly collectionName = 'genres';
-  readonly identifierField = 'identifier';
   private readonly languageCodes = ['es-ES', 'ca-ES'] as const;
 
   constructor(config: ImporterConfig) {
@@ -63,7 +69,7 @@ export class GenreImporter {
     // Load existing genres to support incremental imports
     await this.loadExistingGenres();
 
-    // Process in passes until all are done or stuck
+    // Process passes until all are done or stuck
     let pending = [...items];
     let passNumber = 1;
     const maxPasses = 20; // Safety limit
@@ -105,7 +111,7 @@ export class GenreImporter {
         readItems('genres' as never, {
           limit: -1,
           fields: ['id', 'identifier'] as never,
-        })
+        }),
       );
 
       for (const genre of existing) {
@@ -151,7 +157,7 @@ export class GenreImporter {
    */
   private async upsertGenre(payload: GenrePayload): Promise<boolean> {
     const { identifier, name, translations, parent } = payload;
-    const parentId = parent != null ? this.genreMap.get(parent) : undefined;
+    const parentId = parent == null ? undefined : this.genreMap.get(parent);
 
     try {
       // Check if already exists
@@ -162,9 +168,9 @@ export class GenreImporter {
         await withRetry(
           () =>
             this.config.client.request(
-              updateItem('genres' as never, existing.id as never, request as never)
+              updateItem('genres' as never, existing.id as never, request as never),
             ),
-          { context: identifier }
+          { context: identifier },
         );
         this.result.updated++;
         log.item('updated', identifier);
@@ -173,9 +179,9 @@ export class GenreImporter {
         const created = await withRetry(
           () =>
             this.config.client.request(createItem('genres' as never, request as never)),
-          { context: identifier }
+          { context: identifier },
         );
-        // Add to map for children in subsequent passes
+        // For children, add to a map during later stages
         this.genreMap.set(identifier, (created as unknown as { id: string }).id);
         this.result.created++;
         log.item('created', identifier);
@@ -201,7 +207,7 @@ export class GenreImporter {
           filter: { identifier: { _eq: identifier } } as never,
           limit: 1,
           fields: ['id', 'identifier', 'translations.id', 'translations.languages_code'] as never,
-        })
+        }),
       );
       return results.length > 0 ? results[0] : null;
     } catch {
@@ -216,17 +222,14 @@ export class GenreImporter {
     identifier: string,
     name: string,
     parentId: string | undefined,
-    translations: Record<string, string>
+    translations: Record<string, string>,
   ): Record<string, unknown> {
     return {
       identifier,
       name,
       parent_id: parentId ?? null,
       status: 'published',
-      translations: this.languageCodes.map((code) => ({
-        languages_code: code,
-        name: translations[code] || '',
-      })),
+      translations: buildNewTranslationRequests(this.languageCodes, translations),
     };
   }
 
@@ -238,27 +241,14 @@ export class GenreImporter {
     name: string,
     parentId: string | undefined,
     translations: Record<string, string>,
-    existingTranslations?: Array<{ id: number; languages_code: string }>
+    existingTranslations?: Array<{ id: number; languages_code: string }>,
   ): Record<string, unknown> {
-    const translationIdMap = new Map(
-      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? []
-    );
-
     return {
       identifier,
       name,
       parent_id: parentId ?? null,
       status: 'published',
-      translations: this.languageCodes
-        .map((code) => {
-          const existingId = translationIdMap.get(code);
-          return {
-            ...(existingId != null ? { id: existingId } : {}),
-            languages_code: code,
-            name: translations[code] || '',
-          };
-        })
-        .filter((t) => t.id != null || !translationIdMap.has(t.languages_code)),
+      translations: buildTranslationRequests(this.languageCodes, translations, existingTranslations ?? []),
     };
   }
 
@@ -284,24 +274,6 @@ export class GenreImporter {
   }
 
   private printResult(): void {
-    const { created, updated, failed, total } = this.result;
-    const success = created + updated;
-    const status = failed === 0 ? '✓' : '⚠';
-
-    console.log('');
-    log.summary(
-      `${status} ${this.collectionName}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`
-    );
-
-    if (this.result.errors.length > 0 && this.result.errors.length <= 5) {
-      this.result.errors.forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    } else if (this.result.errors.length > 5) {
-      log.error(`  First 5 of ${this.result.errors.length} errors:`);
-      this.result.errors.slice(0, 5).forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    }
+    printImportResult(this.result);
   }
 }

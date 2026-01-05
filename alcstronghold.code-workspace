@@ -1,24 +1,8 @@
 {
   "folders": [
     {
-      "name": "root",
+      "name": "Platform",
       "path": ".",
-    },
-    {
-      "name": "apps",
-      "path": "apps",
-    },
-    {
-      "name": "packages",
-      "path": "packages",
-    },
-    {
-      "name": "tools",
-      "path": "tools",
-    },
-    {
-      "name": "infrastructure",
-      "path": "infrastructure",
     },
   ],
   "settings": {

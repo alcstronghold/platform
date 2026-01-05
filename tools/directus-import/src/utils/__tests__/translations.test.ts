@@ -2,7 +2,7 @@
  * Tests para translations.ts - Lógica de traducciones para imports/exports
  *
  * VALOR DE ESTOS TESTS:
- * - Verificar que IDs existentes se preservan (evita duplicados en Directus)
+ * - Verificar que ID existentes se preservan (evita duplicados en Directus)
  * - Verificar que nuevas traducciones se crean correctamente
  * - Documentar el comportamiento esperado del sistema de traducciones
  */

@@ -44,19 +44,18 @@ export const log = {
     console.log(`${colors.cyan}${message}${colors.reset}`);
   },
 
-  item: (status: 'created' | 'updated' | 'failed', identifier: string, details?: string): void => {
-    const icons = {
+  item: (status: 'created' | 'updated' | 'failed' | 'deleted' | 'skipped' | 'success' | 'detail', identifier: string, details?: string): void => {
+    const icons: Record<string, string> = {
       created: `${colors.green}+${colors.reset}`,
       updated: `${colors.blue}~${colors.reset}`,
       failed: `${colors.red}✗${colors.reset}`,
+      deleted: `${colors.red}-${colors.reset}`,
+      skipped: `${colors.dim}=${colors.reset}`,
+      success: `${colors.green}✓${colors.reset}`,
+      detail: `${colors.dim} ${colors.reset}`,
     };
     const msg = details ? `${identifier}: ${details}` : identifier;
     console.log(`  ${icons[status]} ${msg}`);
-  },
-
-  progress: (current: number, total: number, label: string): void => {
-    const percentage = Math.round((current / total) * 100);
-    console.log(`${colors.dim}[${current}/${total}] ${percentage}% - ${label}${colors.reset}`);
   },
 
   pass: (passNumber: number, pending: number): void => {
@@ -91,70 +90,107 @@ function formatErrorDetails(details: unknown): string {
 }
 
 /**
+ * Extract a message from a single error item
+ */
+function getErrorItemMessage(item: unknown): string {
+  if (typeof item !== 'object' || item === null) {
+    return String(item);
+  }
+  const obj = item as Record<string, unknown>;
+  if (typeof obj.message === 'string') {
+    return obj.message;
+  }
+  return JSON.stringify(item);
+}
+
+/**
+ * Join messages from an errors array
+ */
+function joinErrorMessages(errors: unknown[]): string {
+  return errors.map(getErrorItemMessage).join('; ');
+}
+
+/**
+ * Find errors array in an object (direct or nested in "response.data")
+ */
+function findErrorsArray(obj: Record<string, unknown>): unknown[] | null {
+  if (Array.isArray(obj.errors)) {
+    return obj.errors;
+  }
+  const response = obj.response as Record<string, unknown> | undefined;
+  const data = response?.data as Record<string, unknown> | undefined;
+  return Array.isArray(data?.errors) ? data.errors : null;
+}
+
+/**
+ * Safely stringify an object
+ */
+function safeStringify(obj: unknown): string {
+  try {
+    return JSON.stringify(obj);
+  } catch {
+    return '[Object could not be serialized]';
+  }
+}
+
+/**
+ * Import result for printImportResult
+ */
+interface ImportResultForPrint {
+  collection: string;
+  total: number;
+  created: number;
+  updated: number;
+  failed: number;
+  errors: Array<{ identifier: string; error: string }>;
+}
+
+/**
+ * Print import result summary with error details
+ */
+export function printImportResult(result: ImportResultForPrint): void {
+  const { collection, created, updated, failed, total, errors } = result;
+  const success = created + updated;
+  const status = failed === 0 ? '✓' : '⚠';
+
+  console.log('');
+  log.summary(
+    `${status} ${collection}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`,
+  );
+
+  if (errors.length > 0 && errors.length <= 5) {
+    errors.forEach(({ identifier, error }) => {
+      log.error(`  "${identifier}": ${error}`);
+    });
+  } else if (errors.length > 5) {
+    log.error(`  First 5 of ${errors.length} errors:`);
+    errors.slice(0, 5).forEach(({ identifier, error }) => {
+      log.error(`  "${identifier}": ${error}`);
+    });
+  }
+}
+
+/**
  * Extract error message from various error types
  */
 export function extractErrorMessage(error: unknown): string {
   // Handle Error instances
   if (error instanceof Error) {
-    const anyError = error as unknown as Record<string, unknown>;
-
-    // Directus API error with errors array
-    if (anyError.errors && Array.isArray(anyError.errors)) {
-      return anyError.errors
-        .map((e: Record<string, unknown>) => e.message || 'Unknown')
-        .join('; ');
-    }
-
-    return error.message;
+    const errors = findErrorsArray(error as unknown as Record<string, unknown>);
+    return errors ? joinErrorMessages(errors) : error.message;
   }
 
-  // Handle plain objects (Directus sometimes throws non-Error objects)
+  // Handle plain objects
   if (error && typeof error === 'object') {
     const obj = error as Record<string, unknown>;
-
-    // Directus error structure: { errors: [{ message: "..." }] }
-    if (obj.errors && Array.isArray(obj.errors)) {
-      return obj.errors
-        .map((e) => {
-          if (typeof e === 'object' && e !== null) {
-            const errObj = e as Record<string, unknown>;
-            return errObj.message || JSON.stringify(e);
-          }
-          return String(e);
-        })
-        .join('; ');
+    const errors = findErrorsArray(obj);
+    if (errors) {
+      return joinErrorMessages(errors);
     }
-
-    // Single error object with message
-    if (obj.message && typeof obj.message === 'string') {
+    if (typeof obj.message === 'string') {
       return obj.message;
     }
-
-    // Response object with status and data
-    if (obj.response && typeof obj.response === 'object') {
-      const resp = obj.response as Record<string, unknown>;
-      if (resp.data && typeof resp.data === 'object') {
-        const data = resp.data as Record<string, unknown>;
-        if (data.errors && Array.isArray(data.errors)) {
-          return data.errors
-            .map((e) => {
-              if (typeof e === 'object' && e !== null) {
-                const errObj = e as Record<string, unknown>;
-                return errObj.message || JSON.stringify(e);
-              }
-              return String(e);
-            })
-            .join('; ');
-        }
-      }
-    }
-
-    // Fallback: stringify the object
-    try {
-      return JSON.stringify(obj);
-    } catch {
-      return '[Object could not be serialized]';
-    }
+    return safeStringify(obj);
   }
 
   return String(error);

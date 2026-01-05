@@ -39,9 +39,9 @@ export interface UserProfile {
   // Event data (for in-person events)
   // -------------------------------------------------------------------------
 
-  /** Birth date */
+  /** Birthdate */
   birth_date: string | null;
-  /** Whether user is 18+ (calculated from birth_date or self-declared) */
+  /** Whether the user is 18+ (calculated from birth_date or self-declared) */
   is_adult: boolean;
   /** Guardian name (required if !is_adult) */
   guardian_name: string | null;
@@ -62,7 +62,7 @@ export interface UserProfile {
   gender_identity: GenderIdentityCode | null;
   /** LGBTIQ+ community (optional) */
   lgbtiq_community: LgbtiqOptionCode | null;
-  /** How user discovered the organization (M2M) */
+  /** How the user discovered the organization (M2M) */
   discovery_sources: number[] | UserProfilesDiscoverySources[];
 }
 

@@ -1,6 +1,6 @@
 import { createReadStream } from 'node:fs';
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { basename,join } from 'node:path';
+import { basename, join } from 'node:path';
 import { Writable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { createGunzip } from 'node:zlib';
@@ -10,7 +10,69 @@ import { log } from '../utils';
 import { importCommand } from './import';
 import { schemaImportCommand } from './schema-import';
 
-export type { RestoreOptions };
+export type { RestoreOptions } from '../types';
+
+/**
+ * Check if an error is a file not found error
+ */
+function isNotFoundError(error: unknown): boolean {
+  return (error as NodeJS.ErrnoException).code === 'ENOENT';
+}
+
+/**
+ * Restore schema from snapshot
+ */
+async function restoreSchema(
+  config: DirectusConfig,
+  snapshotPath: string,
+  force?: boolean
+): Promise<void> {
+  const schemaPath = join(snapshotPath, 'schema.json');
+  try {
+    await readFile(schemaPath);
+    await schemaImportCommand(config, { inputPath: schemaPath, force });
+  } catch (error) {
+    if (isNotFoundError(error)) {
+      log.warn('No schema.json found in archive, skipping schema restore');
+    } else {
+      throw error;
+    }
+  }
+}
+
+/**
+ * Restore data from snapshot
+ */
+async function restoreData(
+  config: DirectusConfig,
+  snapshotPath: string
+): Promise<void> {
+  const dataDir = join(snapshotPath, 'data');
+  try {
+    await readdir(dataDir);
+    await importCommand(config, { seedsDir: dataDir });
+  } catch (error) {
+    if (isNotFoundError(error)) {
+      log.warn('No data directory found in archive, skipping data restore');
+    } else {
+      throw error;
+    }
+  }
+}
+
+/**
+ * Find the snapshot directory inside the extracted archive
+ */
+async function findSnapshotDir(tempDir: string): Promise<string> {
+  const entries = await readdir(tempDir, { withFileTypes: true });
+  const snapshotDir = entries.find((e) => e.isDirectory());
+
+  if (!snapshotDir) {
+    throw new Error('Invalid archive: no snapshot directory found');
+  }
+
+  return join(tempDir, snapshotDir.name);
+}
 
 /**
  * Restore from a timestamped backup archive.
@@ -26,67 +88,28 @@ export async function restoreCommand(
   log.summary(`Archive: ${options.archivePath}`);
 
   try {
-    // Extract archive
     log.info('Extracting archive...');
     await mkdir(tempDir, { recursive: true });
     await extractTarGz(options.archivePath, tempDir);
 
-    // Find the snapshot directory (should be the only directory inside)
-    const entries = await readdir(tempDir, { withFileTypes: true });
-    const snapshotDir = entries.find((e) => e.isDirectory());
+    const snapshotPath = await findSnapshotDir(tempDir);
 
-    if (!snapshotDir) {
-      throw new Error('Invalid archive: no snapshot directory found');
-    }
-
-    const snapshotPath = join(tempDir, snapshotDir.name);
-
-    // Restore schema
-    if (!options.skipSchema) {
-      const schemaPath = join(snapshotPath, 'schema.json');
-      try {
-        await readFile(schemaPath);
-        await schemaImportCommand(config, {
-          inputPath: schemaPath,
-          force: options.force,
-        });
-      } catch (error) {
-        if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-          log.warn('No schema.json found in archive, skipping schema restore');
-        } else {
-          throw error;
-        }
-      }
-    } else {
+    if (options.skipSchema) {
       log.info('Skipping schema restore (--skip-schema)');
-    }
-
-    // Restore data
-    if (!options.skipData) {
-      const dataDir = join(snapshotPath, 'data');
-      try {
-        await readdir(dataDir);
-        await importCommand(config, {
-          seedsDir: dataDir,
-        });
-      } catch (error) {
-        if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-          log.warn('No data directory found in archive, skipping data restore');
-        } else {
-          throw error;
-        }
-      }
     } else {
-      log.info('Skipping data restore (--skip-data)');
+      await restoreSchema(config, snapshotPath, options.force);
     }
 
-    // Cleanup
-    await rm(tempDir, { recursive: true, force: true });
+    if (options.skipData) {
+      log.info('Skipping data restore (--skip-data)');
+    } else {
+      await restoreData(config, snapshotPath);
+    }
 
+    await rm(tempDir, { recursive: true, force: true });
     console.log('');
     log.success(`Restore completed from: ${archiveName}`);
   } catch (error) {
-    // Cleanup on error
     await rm(tempDir, { recursive: true, force: true }).catch(() => {});
     throw error;
   }
@@ -122,7 +145,7 @@ async function extractTar(tarData: Buffer, outputDir: string): Promise<void> {
     // Read header (512 bytes)
     const header = tarData.subarray(offset, offset + 512);
 
-    // Check for end of archive (all zeros)
+    // Check for the end of the archive (all zeros)
     if (header.every((b) => b === 0)) {
       break;
     }
@@ -147,14 +170,14 @@ async function extractTar(tarData: Buffer, outputDir: string): Promise<void> {
       // Read file content
       const content = tarData.subarray(offset, offset + size);
 
-      // Create file
+      // Create the file
       const filePath = join(outputDir, name);
       const dirPath = join(filePath, '..');
       await mkdir(dirPath, { recursive: true });
       await writeFile(filePath, content);
     }
 
-    // Advance to next header (512-byte aligned)
+    // Advance to the next header (512-byte aligned)
     const blocks = Math.ceil(size / 512);
     offset += blocks * 512;
   }

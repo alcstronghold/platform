@@ -1,6 +1,40 @@
-####################################################################################################################
-# WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
-####################################################################################################################
-version: '1.0'
+#-------------------------------------------------------------------------------#
+#               Qodana analysis is configured by qodana.yaml file               #
+#             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
+#-------------------------------------------------------------------------------#
+
+version: "1.0"
+
+# Specify the inspection profile for code analysis
 profile:
   name: qodana.starter
+
+# Exclude paths from analysis
+exclude:
+  - name: All
+    paths:
+      - inspections
+      - apps/web/.astro
+      - "**/*.tsbuildinfo"
+      - "**/*.pem"
+
+  # Disable noisy inspections
+  - name: SpellCheckingInspection
+    paths:
+      - infrastructure/seeds
+      - infrastructure/backups
+      - infrastructure/schema
+
+  - name: GrazieInspection
+    paths:
+      - infrastructure/seeds
+      - infrastructure/backups
+
+  - name: ES6PreferShortImport
+
+  - name: JSUnusedGlobalSymbols
+    paths:
+      - apps/web/.astro
+
+# Specify Qodana linter for analysis (Applied in CI/CD pipeline)
+linter: jetbrains/qodana-js:2025.3

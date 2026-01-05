@@ -7,7 +7,7 @@ import { createClient } from '../services/directus';
 import type { DirectusConfig, SchemaExportOptions } from '../types';
 import { log } from '../utils';
 
-export type { SchemaExportOptions };
+export type { SchemaExportOptions } from '../types';
 
 /**
  * Export Directus schema (collections, fields, relations) to a JSON file.

@@ -1,12 +1,12 @@
 import {
-  createRole,
-  createPolicy,
   createPermission,
-  readRoles,
-  readPolicies,
-  readPermissions,
+  createPolicy,
+  createRole,
   deletePermission,
   deletePolicy,
+  readPermissions,
+  readPolicies,
+  readRoles,
 } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
@@ -75,7 +75,7 @@ const AUXILIARY_COLLECTIONS = [
   'discovery_sources_translations',
 ];
 
-/** Content collections (catalog data) */
+/** Content collections */
 const CONTENT_COLLECTIONS = [
   'genres',
   'genres_translations',
@@ -109,8 +109,8 @@ const SESSION_M2M_COLLECTIONS = [
 
 /**
  * Roles define ACCESS LEVELS to applications:
- * - Administrator: Full access to Directus Admin + Backend + Public
- * - Collaborator: Access to Backend + Public (no Directus Admin)
+ * - Administrator: Full access to Directus Admin, Backend, and Public
+ * - Collaborator: Access to Backend and Public (no Directus Admin)
  * - Member: Access to Public only (registered users)
  */
 const ROLES: Record<string, RoleDefinition> = {
@@ -298,7 +298,7 @@ const POLICIES: Record<string, PolicyDefinition> = {
         fields: ['*'] as ['*'],
         permissions: { _and: [{ rpg_sessions_id: { status: { _eq: 'published' } } }] },
       })),
-      // Register as player
+      // Register as the player
       {
         collection: 'rpg_session_players',
         action: 'create',
@@ -550,13 +550,15 @@ const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
   administrator: [],
   // Collaborator gets base content reading
   collaborator: ['base:content-reader'],
-  // Member gets base content + self profile + player
+  // Member gets base content, self-profile and player
   member: ['base:content-reader', 'user-profiles:self', 'rpg-sessions:player'],
 };
 
 // =============================================================================
 // COMMAND IMPLEMENTATION
 // =============================================================================
+
+type DirectusClient = Awaited<ReturnType<typeof createClient>>;
 
 /**
  * Link a policy to a role via directus_access
@@ -585,39 +587,62 @@ async function linkPolicyToRole(
 }
 
 /**
+ * Delete all permissions for a policy
+ */
+async function deletePolicyPermissions(
+  client: DirectusClient,
+  policyId: string,
+  policyName: string,
+  permissions: { id: number; policy: string | null }[],
+  dryRun: boolean
+): Promise<void> {
+  const policyPermissions = permissions.filter((p) => p.policy === policyId);
+  if (policyPermissions.length === 0) return;
+
+  if (!dryRun) {
+    for (const perm of policyPermissions) {
+      await client.request(deletePermission(perm.id));
+    }
+  }
+  log.item('deleted', `Deleted ${policyPermissions.length} permissions for ${policyName}`);
+}
+
+/**
+ * Delete a single policy
+ */
+async function deleteSinglePolicy(
+  client: DirectusClient,
+  policyId: string,
+  policyName: string,
+  dryRun: boolean
+): Promise<void> {
+  if (dryRun) {
+    log.item('deleted', `Would delete policy: ${policyName}`);
+  } else {
+    await client.request(deletePolicy(policyId));
+    log.item('deleted', `Deleted policy: ${policyName}`);
+  }
+}
+
+/**
  * Clean up existing policies (roles are kept if they have users)
  */
 async function cleanupPolicies(
-  client: ReturnType<typeof createClient> extends Promise<infer T> ? T : never,
+  client: DirectusClient,
   dryRun: boolean
 ): Promise<void> {
   log.info('Cleaning up existing policies...');
 
   const existingPolicies = await client.request(readPolicies());
-  const existingPermissions = await client.request(readPermissions());
+  const existingPermissions = await client.request(readPermissions()) as { id: number; policy: string | null }[];
 
-  // Delete custom policies (permissions will be recreated)
-  const customPolicyNames = Object.values(POLICIES).map((p) => p.name);
+  const customPolicyNames = new Set(Object.values(POLICIES).map((p) => p.name));
+
   for (const policy of existingPolicies) {
-    if (customPolicyNames.includes(policy.name)) {
-      // First delete permissions for this policy
-      const policyPermissions = existingPermissions.filter((p) => p.policy === policy.id);
-      for (const perm of policyPermissions) {
-        if (!dryRun) {
-          await client.request(deletePermission(perm.id));
-        }
-      }
-      if (policyPermissions.length > 0) {
-        log.item('-', `Deleted ${policyPermissions.length} permissions for ${policy.name}`);
-      }
+    if (!customPolicyNames.has(policy.name)) continue;
 
-      if (dryRun) {
-        log.item('-', `Would delete policy: ${policy.name}`);
-      } else {
-        await client.request(deletePolicy(policy.id));
-        log.item('-', `Deleted policy: ${policy.name}`);
-      }
-    }
+    await deletePolicyPermissions(client, policy.id, policy.name, existingPermissions, dryRun);
+    await deleteSinglePolicy(client, policy.id, policy.name, dryRun);
   }
 }
 
@@ -625,7 +650,7 @@ async function cleanupPolicies(
  * Find existing roles by name
  */
 async function findExistingRoles(
-  client: ReturnType<typeof createClient> extends Promise<infer T> ? T : never
+  client: DirectusClient
 ): Promise<Map<string, string>> {
   const existingRoles = await client.request(readRoles());
   const roleMap = new Map<string, string>();
@@ -641,6 +666,140 @@ async function findExistingRoles(
 }
 
 /**
+ * Create all policies and their permissions
+ */
+async function createAllPolicies(
+  client: DirectusClient,
+  dryRun: boolean
+): Promise<Map<string, string>> {
+  const createdPolicies = new Map<string, string>();
+  log.info('Creating policies...');
+
+  for (const [key, policyDef] of Object.entries(POLICIES)) {
+    if (dryRun) {
+      log.item('created', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
+      createdPolicies.set(key, `[dry-run-${key}]`);
+      continue;
+    }
+
+    const policy = await client.request(
+      createPolicy({
+        name: policyDef.name,
+        icon: policyDef.icon,
+        description: policyDef.description,
+        admin_access: false,
+        app_access: false,
+      })
+    );
+    createdPolicies.set(key, policy.id);
+    log.item('created', `Created policy: ${policyDef.name}`);
+
+    for (const perm of policyDef.permissions) {
+      await client.request(
+        createPermission({
+          policy: policy.id,
+          collection: perm.collection,
+          action: perm.action,
+          fields: perm.fields,
+          permissions: perm.permissions,
+          validation: perm.validation,
+        })
+      );
+    }
+    log.item('detail', `  → ${policyDef.permissions.length} permissions`);
+  }
+
+  return createdPolicies;
+}
+
+/**
+ * Establish all functions and connect permissions
+ */
+async function setupAllRoles(
+  client: DirectusClient,
+  config: DirectusConfig,
+  existingRoles: Map<string, string>,
+  createdPolicies: Map<string, string>,
+  dryRun: boolean
+): Promise<Map<string, string>> {
+  const createdRoles = new Map<string, string>(existingRoles);
+  log.info('Setting up roles...');
+
+  for (const [key, roleDef] of Object.entries(ROLES)) {
+    const existingRoleId = createdRoles.get(key);
+
+    if (existingRoleId) {
+      log.item('skipped', `Using existing role: ${roleDef.name} (${existingRoleId})`);
+    } else if (dryRun) {
+      log.item('created', `Would create role: ${roleDef.name}`);
+      createdRoles.set(key, `[dry-run-${key}]`);
+    } else {
+      const role = await client.request(
+        createRole({
+          name: roleDef.name,
+          icon: roleDef.icon,
+          description: roleDef.description,
+        })
+      );
+      createdRoles.set(key, role.id);
+      log.item('created', `Created role: ${roleDef.name} (${role.id})`);
+    }
+
+    // Link default policies
+    await linkDefaultPolicies(config, key, createdRoles, createdPolicies, dryRun);
+  }
+
+  return createdRoles;
+}
+
+/**
+ * Link default policies to a role
+ */
+async function linkDefaultPolicies(
+  config: DirectusConfig,
+  roleKey: string,
+  createdRoles: Map<string, string>,
+  createdPolicies: Map<string, string>,
+  dryRun: boolean
+): Promise<void> {
+  const roleId = createdRoles.get(roleKey);
+  const defaultPolicies = ROLE_DEFAULT_POLICIES[roleKey] || [];
+
+  for (const policyKey of defaultPolicies) {
+    const policyId = createdPolicies.get(policyKey);
+    if (policyId && roleId && !dryRun) {
+      await linkPolicyToRole(config, roleId, policyId);
+      log.item('detail', `  → Linked: ${POLICIES[policyKey].name}`);
+    }
+  }
+}
+
+/**
+ * Print setup summary
+ */
+function printSummary(): void {
+  log.success('Setup completed!');
+
+  log.summary('Roles created:');
+  for (const [key, roleDef] of Object.entries(ROLES)) {
+    const defaultPolicies = ROLE_DEFAULT_POLICIES[key] || [];
+    const policiesList = defaultPolicies.length > 0
+      ? ` → [${defaultPolicies.join(', ')}]`
+      : ' (admin_access)';
+    log.item('success', `${roleDef.name}${policiesList}`);
+  }
+
+  log.summary('Policies created:');
+  for (const [_key, policyDef] of Object.entries(POLICIES)) {
+    log.item('success', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
+  }
+
+  log.info('');
+  log.info('To assign additional policies to a user, use:');
+  log.info('  POST /access { "user": "<user_id>", "policy": "<policy_id>" }');
+}
+
+/**
  * Setup roles and policies
  */
 export async function rolesSetupCommand(
@@ -648,132 +807,26 @@ export async function rolesSetupCommand(
   options: RolesSetupOptions
 ): Promise<void> {
   const client = await createClient(config);
+  const dryRun = options.dryRun ?? false;
 
   log.header('ROLES & POLICIES SETUP');
-  if (options.dryRun) {
+  if (dryRun) {
     log.warn('DRY RUN - No changes will be made');
   }
 
   try {
-    // Find existing roles (we'll reuse them instead of recreating)
     const existingRoles = await findExistingRoles(client);
     if (existingRoles.size > 0) {
       log.info(`Found ${existingRoles.size} existing role(s) - will reuse them`);
     }
 
-    // Clean up policies if requested or by default
     if (options.clean !== false) {
-      await cleanupPolicies(client, options.dryRun ?? false);
+      await cleanupPolicies(client, dryRun);
     }
 
-    // Track created/existing items
-    const createdRoles: Map<string, string> = new Map(existingRoles);
-    const createdPolicies: Map<string, string> = new Map();
-
-    // -------------------------------------------------------------------------
-    // 1. CREATE POLICIES
-    // -------------------------------------------------------------------------
-    log.info('Creating policies...');
-
-    for (const [key, policyDef] of Object.entries(POLICIES)) {
-      if (options.dryRun) {
-        log.item('+', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
-        createdPolicies.set(key, `[dry-run-${key}]`);
-        continue;
-      }
-
-      // Create policy
-      const policy = await client.request(
-        createPolicy({
-          name: policyDef.name,
-          icon: policyDef.icon,
-          description: policyDef.description,
-          admin_access: false,
-          app_access: false,
-        })
-      );
-      createdPolicies.set(key, policy.id);
-      log.item('+', `Created policy: ${policyDef.name}`);
-
-      // Create permissions for this policy
-      for (const perm of policyDef.permissions) {
-        await client.request(
-          createPermission({
-            policy: policy.id,
-            collection: perm.collection,
-            action: perm.action,
-            fields: perm.fields,
-            permissions: perm.permissions,
-            validation: perm.validation,
-          })
-        );
-      }
-      log.item('  ', `  → ${policyDef.permissions.length} permissions`);
-    }
-
-    // -------------------------------------------------------------------------
-    // 2. CREATE OR REUSE ROLES
-    // -------------------------------------------------------------------------
-    log.info('Setting up roles...');
-
-    for (const [key, roleDef] of Object.entries(ROLES)) {
-      // Check if role already exists
-      const existingRoleId = createdRoles.get(key);
-
-      if (existingRoleId) {
-        log.item('=', `Using existing role: ${roleDef.name} (${existingRoleId})`);
-      } else if (options.dryRun) {
-        log.item('+', `Would create role: ${roleDef.name}`);
-        createdRoles.set(key, `[dry-run-${key}]`);
-      } else {
-        // Create new role
-        const role = await client.request(
-          createRole({
-            name: roleDef.name,
-            icon: roleDef.icon,
-            description: roleDef.description,
-            admin_access: roleDef.admin_access,
-            app_access: roleDef.app_access,
-          })
-        );
-        createdRoles.set(key, role.id);
-        log.item('+', `Created role: ${roleDef.name} (${role.id})`);
-      }
-
-      // Link default policies to role (always, to ensure policies are attached)
-      const roleId = createdRoles.get(key);
-      const defaultPolicies = ROLE_DEFAULT_POLICIES[key] || [];
-      for (const policyKey of defaultPolicies) {
-        const policyId = createdPolicies.get(policyKey);
-        if (policyId && roleId && !options.dryRun) {
-          await linkPolicyToRole(config, roleId, policyId);
-          log.item('  ', `  → Linked: ${POLICIES[policyKey].name}`);
-        }
-      }
-    }
-
-    // -------------------------------------------------------------------------
-    // SUMMARY
-    // -------------------------------------------------------------------------
-    log.success('Setup completed!');
-
-    log.summary('Roles created:');
-    for (const [key, roleDef] of Object.entries(ROLES)) {
-      const defaultPolicies = ROLE_DEFAULT_POLICIES[key] || [];
-      const policiesList = defaultPolicies.length > 0
-        ? ` → [${defaultPolicies.join(', ')}]`
-        : ' (admin_access)';
-      log.item('✓', `${roleDef.name}${policiesList}`);
-    }
-
-    log.summary('Policies created:');
-    for (const [key, policyDef] of Object.entries(POLICIES)) {
-      log.item('✓', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
-    }
-
-    log.info('');
-    log.info('To assign additional policies to a user, use:');
-    log.info('  POST /access { "user": "<user_id>", "policy": "<policy_id>" }');
+    const createdPolicies = await createAllPolicies(client, dryRun);
+    await setupAllRoles(client, config, existingRoles, createdPolicies, dryRun);
+    printSummary();
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
     log.error(`Failed to setup roles: ${msg}`);

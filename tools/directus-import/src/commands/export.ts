@@ -15,7 +15,7 @@ import { createClient } from '../services/directus';
 import type { DirectusConfig, ExporterConfig, ExportOptions } from '../types';
 import { log } from '../utils';
 
-export type { ExportOptions };
+export type { ExportOptions } from '../types';
 
 type ExporterClass = new (config: ExporterConfig) => {
   collectionName: string;

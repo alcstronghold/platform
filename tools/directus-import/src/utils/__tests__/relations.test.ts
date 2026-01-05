@@ -1,11 +1,11 @@
 /**
- * Tests para relations.ts - Resolución de relaciones FK/M2M
- *
- * VALOR DE ESTOS TESTS:
- * - Verificar que UUIDs se resuelven correctamente a identifiers (export)
- * - Verificar que identifiers se resuelven a UUIDs (import)
- * - Manejar casos de Directus con relaciones populadas vs no populadas
- * - Detectar relaciones rotas (IDs que no existen)
+ * Tests para relations.ts - Resolución de claves foráneas y relaciones de muchos a muchos
+
+UTILIDAD DE ESTOS TESTS:
+- Comprobar que los UUID se traducen adecuadamente a identificadores (exportación)
+- Comprobar que los identificadores se traducen a UUID (importación)
+- Gestionar escenarios de Directus con relaciones completas o incompletas
+- Identificar relaciones erróneas (identificadores inexistentes)
  */
 import { describe, expect, it } from 'bun:test';
 
@@ -59,9 +59,9 @@ describe('resolveRelationIdentifier', () => {
   });
 
   // -------------------------------------------------------------------------
-  // Caso 3: Objeto populado (Directus expande la relación)
+  // Caso 3: Objeto expandido (Directus expande la relación)
   // -------------------------------------------------------------------------
-  describe('objeto populado', () => {
+  describe('objeto expandido', () => {
     it('extrae identifier del objeto', () => {
       const populated = { id: 'uuid-1', identifier: 'fantasy' };
       expect(resolveRelationIdentifier(populated, idMap)).toBe('fantasy');

@@ -6,11 +6,11 @@ import { createClient } from '../services/directus';
 import type { DirectusConfig, SchemaDiffResult, SchemaImportOptions } from '../types';
 import { log } from '../utils';
 
-export type { SchemaImportOptions };
+export type { SchemaImportOptions } from '../types';
 
 /**
  * Import Directus schema from a JSON file.
- * Uses diff + apply to only make necessary changes.
+ * Uses diff and apply to only make necessary changes.
  */
 export async function schemaImportCommand(
   config: DirectusConfig,
@@ -25,7 +25,7 @@ export async function schemaImportCommand(
   }
 
   try {
-    // Read snapshot from file
+    // Read the snapshot from the file
     log.info('Reading schema snapshot...');
     const content = await readFile(options.inputPath, 'utf-8');
     const snapshot = JSON.parse(content);
@@ -36,7 +36,7 @@ export async function schemaImportCommand(
       schemaDiff(snapshot, options.force)
     ) as SchemaDiffResult;
 
-    // Count changes in diff object
+    // Count changes in the diff object
     const { diff } = diffResult;
     const collectionsCount = diff.collections?.length ?? 0;
     const fieldsCount = diff.fields?.length ?? 0;

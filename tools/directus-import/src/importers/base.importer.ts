@@ -1,9 +1,9 @@
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import type { ImporterConfig, ImportResult } from '../types';
-import { extractErrorMessage, log, withRetry } from '../utils';
+import { ImporterConfig, ImportResult } from '../types';
+import { extractErrorMessage, log, printImportResult, withRetry } from '../utils';
 
-export type { ImporterConfig, ImportResult };
+export type { ImporterConfig, ImportResult } from '../types';
 
 /**
  * Base class for collection importers.
@@ -33,7 +33,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
    */
   protected abstract toDirectusRequest(
     payload: TPayload,
-    existingEntity?: TEntity
+    existingEntity?: TEntity,
   ): Record<string, unknown>;
 
   /**
@@ -83,7 +83,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         readItems(this.collectionName as never, {
           limit: -1,
           fields: this.getExistingEntityFields() as never,
-        })
+        }),
       );
 
       for (const entity of existing) {
@@ -116,9 +116,9 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         await withRetry(
           () =>
             this.config.client.request(
-              updateItem(this.collectionName as never, existing.id as never, request as never)
+              updateItem(this.collectionName as never, existing.id as never, request as never),
             ),
-          { context: identifier }
+          { context: identifier },
         );
         this.result.updated++;
         log.item('updated', identifier);
@@ -126,11 +126,11 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         const created = await withRetry(
           () =>
             this.config.client.request(
-              createItem(this.collectionName as never, request as never)
+              createItem(this.collectionName as never, request as never),
             ),
-          { context: identifier }
+          { context: identifier },
         );
-        // Add to map for subsequent items that might reference this one
+        // Mark the map for future entries that may refer to it
         existingMap.set(identifier, created as unknown as TEntity);
         this.result.created++;
         log.item('created', identifier);
@@ -161,31 +161,13 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
    * Print the final result summary
    */
   protected printResult(): void {
-    const { created, updated, failed, total } = this.result;
-    const success = created + updated;
-    const status = failed === 0 ? '✓' : '⚠';
-
-    console.log('');
-    log.summary(
-      `${status} ${this.collectionName}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`
-    );
-
-    if (this.result.errors.length > 0 && this.result.errors.length <= 5) {
-      this.result.errors.forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    } else if (this.result.errors.length > 5) {
-      log.error(`  First 5 of ${this.result.errors.length} errors:`);
-      this.result.errors.slice(0, 5).forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    }
+    printImportResult(this.result);
   }
 }
 
 /**
  * Base class for importers that handle translations.
- * Provides helper methods for handling Directus translations pattern.
+ * Provides helper methods for handling a Directus translations pattern.
  */
 export abstract class TranslatableImporter<
   TPayload extends { translations: Record<string, string> },
@@ -200,7 +182,7 @@ export abstract class TranslatableImporter<
    * Create translation objects for a new entity
    */
   protected createTranslations(
-    translations: Record<string, string>
+    translations: Record<string, string>,
   ): Array<{ languages_code: string; name: string }> {
     return this.languageCodes.map((code) => ({
       languages_code: code,
@@ -214,16 +196,16 @@ export abstract class TranslatableImporter<
    */
   protected updateTranslations(
     translations: Record<string, string>,
-    existingTranslations?: Array<{ id?: number; languages_code: string }>
+    existingTranslations?: Array<{ id?: number; languages_code: string }>,
   ): Array<{ id?: number; languages_code: string; name: string }> {
     const idMap = new Map(
-      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? []
+      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? [],
     );
 
     return this.languageCodes.map((code) => {
       const existing = idMap.get(code);
       return {
-        ...(existing != null ? { id: existing } : {}),
+        ...(existing == null ? {} : { id: existing }),
         languages_code: code,
         name: translations[code] || '',
       };

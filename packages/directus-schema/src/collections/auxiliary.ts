@@ -213,7 +213,7 @@ export type LgbtiqOptionCode = 'yes' | 'no' | 'unsure' | 'ally';
 
 /**
  * How users discovered the organization
- * Values: 'friends', 'other_association', 'telegram', 'whatsapp', 'instagram', 'facebook', 'bluesky', 'other'
+ * Values: 'friends', 'other_association', 'telegram', 'WhatsApp', 'instagram', 'facebook', 'bluesky', 'other'
  */
 export interface DiscoverySource extends TranslatableEntity {
   name: string;

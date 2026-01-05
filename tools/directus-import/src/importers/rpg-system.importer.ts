@@ -1,8 +1,15 @@
 import type { RpgSystemPayload } from '@alcstronghold/directus-payload';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import { extractErrorMessage, log, normalizeBggId, withRetry } from '../utils';
-import type { ImporterConfig, ImportResult } from './base.importer';
+import type { ImporterConfig, ImportResult } from '../types';
+import {
+  buildNewTranslationRequests,
+  buildTranslationRequests,
+  extractErrorMessage,
+  log,
+  normalizeBggId,
+  withRetry,
+} from '../utils';
 
 interface RpgSystemEntity {
   id: string;
@@ -11,14 +18,13 @@ interface RpgSystemEntity {
 }
 
 /**
- * RPG System importer - simple collection with translations and bgg_id.
+ * RPG System importer - the simple collection with translations and bgg_id.
  */
 export class RpgSystemImporter {
   private readonly config: ImporterConfig;
   private result: ImportResult;
 
   readonly collectionName = 'rpg_systems';
-  readonly identifierField = 'identifier';
   private readonly languageCodes = ['es-ES', 'ca-ES'] as const;
 
   constructor(config: ImporterConfig) {
@@ -116,10 +122,7 @@ export class RpgSystemImporter {
       identifier,
       status: 'published',
       bgg_id,
-      translations: this.languageCodes.map((code) => ({
-        languages_code: code,
-        name: translations[code] || '',
-      })),
+      translations: buildNewTranslationRequests(this.languageCodes, translations),
     };
   }
 
@@ -129,24 +132,11 @@ export class RpgSystemImporter {
     bgg_id: number | null,
     existingTranslations?: Array<{ id: number; languages_code: string }>
   ): Record<string, unknown> {
-    const translationIdMap = new Map(
-      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? []
-    );
-
     return {
       identifier,
       status: 'published',
       bgg_id,
-      translations: this.languageCodes
-        .map((code) => {
-          const existingId = translationIdMap.get(code);
-          return {
-            ...(existingId != null ? { id: existingId } : {}),
-            languages_code: code,
-            name: translations[code] || '',
-          };
-        })
-        .filter((t) => t.id != null || !translationIdMap.has(t.languages_code)),
+      translations: buildTranslationRequests(this.languageCodes, translations, existingTranslations ?? []),
     };
   }
 

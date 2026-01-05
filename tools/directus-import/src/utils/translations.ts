@@ -67,8 +67,7 @@ export function buildTranslationRequests(
     const existingId = existingIdMap.get(code);
     const name = newTranslations[code] || '';
 
-    // If translation exists, include ID to update it
-    // If it doesn't exist, omit ID to create new one
+    // If translation exists, include ID to update it. If it doesn't exist, omit ID to create the new one
     if (existingId != null) {
       return { id: existingId, languages_code: code, name };
     }

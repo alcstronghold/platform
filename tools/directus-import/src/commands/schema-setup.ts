@@ -1,26 +1,13 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-import { schemaApply, schemaDiff } from '@directus/sdk';
-
-import { createClient } from '../services/directus';
-import type { DirectusConfig, SchemaDiffResult } from '../types';
+import type { DirectusConfig } from '../types';
 import { log } from '../utils';
+import { applySchemaChanges, type FieldDef } from './schema-utils';
 
 export interface SchemaSetupOptions {
   schemaPath: string;
   dryRun?: boolean;
   force?: boolean;
-}
-
-/**
- * Field definition helper
- */
-interface FieldDef {
-  collection: string;
-  field: string;
-  type: string;
-  meta?: Record<string, unknown>;
-  schema?: Record<string, unknown>;
 }
 
 /**
@@ -354,13 +341,13 @@ function createSimpleEnumCollection(
 }
 
 /**
- * Create described enum (with description field in translations)
+ * Create the described enum (with description field in translations)
  */
 function createDescribedEnumCollection(name: string, group: string, sort: number) {
   const result = createSimpleEnumCollection(name, group, sort);
   const translationName = `${name}_translations`;
 
-  // Add description field to translations
+  // Add the description field to translations
   result.translationFields.push({
     collection: translationName,
     field: 'description',
@@ -385,14 +372,12 @@ function createDescribedEnumCollection(name: string, group: string, sort: number
 }
 
 /**
- * Setup schema for rpg_sessions feature
+ * Setup schema for the rpg_sessions feature
  */
 export async function schemaSetupCommand(
   config: DirectusConfig,
   options: SchemaSetupOptions
 ): Promise<void> {
-  const client = await createClient(config);
-
   log.header('SCHEMA SETUP - RPG Sessions');
   log.summary(`Schema file: ${options.schemaPath}`);
   if (options.dryRun) {
@@ -410,7 +395,7 @@ export async function schemaSetupCommand(
       schema.collections.map((c: { collection: string }) => c.collection)
     );
 
-    // Create folder group for auxiliary collections
+    // Create the folder group for auxiliary collections
     if (!existingCollections.has('auxiliary')) {
       schema.collections.push({
         collection: 'auxiliary',
@@ -506,26 +491,11 @@ export async function schemaSetupCommand(
     }
 
     // Apply the schema
-    log.info('Applying schema changes to Directus...');
-    const diffResult = await client.request(
-      schemaDiff(schema, options.force)
-    ) as SchemaDiffResult;
+    const { applied } = await applySchemaChanges(config, schema, options.force);
 
-    const { diff } = diffResult;
-    const totalChanges =
-      (diff.collections?.length ?? 0) +
-      (diff.fields?.length ?? 0) +
-      (diff.relations?.length ?? 0);
-
-    if (totalChanges === 0) {
-      log.success('Schema is already up to date. No changes needed.');
-      return;
+    if (applied) {
+      log.success('Schema setup completed successfully!');
     }
-
-    log.info(`Applying ${totalChanges} changes...`);
-    await client.request(schemaApply(diffResult));
-
-    log.success('Schema setup completed successfully!');
     log.summary('Next steps:');
     log.info('1. Run: bun run import -- -c age_ranges session_languages ...');
     log.info('2. Or use Directus Admin to verify the collections');

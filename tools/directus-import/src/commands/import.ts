@@ -28,7 +28,7 @@ import { createClient } from '../services/directus';
 import type { DirectusConfig, ImporterConfig, ImportOptions, ImportResult } from '../types';
 import { log } from '../utils';
 
-export type { ImportOptions };
+export type { ImportOptions } from '../types';
 
 /**
  * Importer interface for polymorphic handling
@@ -126,7 +126,7 @@ const COLLECTIONS: Record<string, CollectionConfig> = {
     factory: (config) => createSimpleEnumImporter(config, 'discovery_sources'),
   },
 
-  // Auxiliary collections - Described enums (name + description translations)
+  // Auxiliary collections - Described enums (name and description translations)
   knowledge_levels: {
     fileName: 'knowledge-levels.json',
     order: 20,
@@ -163,7 +163,7 @@ async function loadJsonFile<T>(filePath: string): Promise<T[]> {
   const data = JSON.parse(content) as T[];
 
   if (!Array.isArray(data)) {
-    throw new Error('JSON file must contain an array');
+    throw new TypeError('JSON file must contain an array');
   }
 
   return data;
@@ -207,7 +207,7 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
         continue;
       }
 
-      // Create importer instance
+      // Create the importer instance
       const importerConfig: ImporterConfig = {
         client,
         url: config.url,
@@ -215,14 +215,23 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
         verbose: options.verbose,
       };
 
-      // Create importer using either factory or constructor
+      // Create an importer using either factory or constructor
       let importer: Importer;
       if (collectionConfig.factory) {
         importer = collectionConfig.factory(importerConfig);
       } else if (collectionConfig.importer) {
         importer = new collectionConfig.importer(importerConfig);
       } else {
-        throw new Error(`No importer configured for ${collectionName}`);
+        log.error(`No importer configured for ${collectionName}`);
+        results.push({
+          collection: collectionName,
+          total: 0,
+          created: 0,
+          updated: 0,
+          failed: 1,
+          errors: [{ identifier: 'config', error: 'No importer configured' }],
+        });
+        continue;
       }
 
       // Run import

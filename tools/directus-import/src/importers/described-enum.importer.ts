@@ -1,10 +1,10 @@
 import type { DescribedEnumPayload } from '@alcstronghold/directus-payload';
 
-import type { ImporterConfig } from './base.importer';
+import type { ImporterConfig } from '../types';
 import { BaseImporter } from './base.importer';
 
 /**
- * Entity with described translations (name + description)
+ * Entity with described translations (name and description)
  */
 interface DescribedEnumEntity {
   id: string;
@@ -20,7 +20,7 @@ export interface DescribedEnumConfig {
 }
 
 /**
- * Generic importer for enum collections with name + description translations.
+ * Generic importer for enum collections with name and description translations.
  * Works for: knowledge_levels, accessibility_options, content_warnings, safety_measures
  */
 export class DescribedEnumImporter extends BaseImporter<DescribedEnumPayload, DescribedEnumEntity> {
@@ -50,7 +50,7 @@ export class DescribedEnumImporter extends BaseImporter<DescribedEnumPayload, De
       const translationData = payload.translations[code] || { name: '', description: null };
 
       return {
-        ...(existingId != null ? { id: existingId } : {}),
+        ...(existingId == null ? {} : { id: existingId }),
         languages_code: code,
         name: translationData.name,
         description: translationData.description,

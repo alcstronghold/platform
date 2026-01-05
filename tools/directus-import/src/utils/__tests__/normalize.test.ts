@@ -28,7 +28,7 @@ describe('normalizeBggId', () => {
     });
 
     it('maneja números negativos', () => {
-      // BGG IDs no deberían ser negativos, pero la función no valida eso
+      // BGG ID's no deberían ser negativos, pero la función no verifica eso
       expect(normalizeBggId(-1)).toBe(-1);
     });
   });
