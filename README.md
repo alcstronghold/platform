@@ -4,12 +4,18 @@ Monorepo for [ALC Stronghold](https://www.alcstronghold.com), a non-profit youth
 
 ## Tech Stack
 
-- **Monorepo**: Moonrepo + Proto
+- **Monorepo**: Moonrepo and Proto
 - **Runtime/Package Manager**: Bun
 - **Backend**: Directus 11 (Headless CMS)
-- **Frontend**: Astro + Angular v21 islands (via AnalogJS)
-- **Database**: PostgreSQL 17 + Redis 7 (via Docker)
+- **Frontend**: Astro v5 (public) and Angular v21 (dashboard)
+- **UI**: Tailwind CSS v4 and Flowbite v4
+- **Database**: PostgreSQL 17 and Redis 7 (via Docker)
 - **Reverse Proxy**: Traefik v3.6 with mkcert HTTPS
+
+## Development Tools
+
+- **IDE**: WebStorm (with JetBrains MCP integration)
+- **Git Client**: GitKraken (with MCP tools for git operations)
 
 ## Prerequisites
 
@@ -65,7 +71,7 @@ cd tools/directus-import && bun run roles:setup
 ### 3. Useful Commands
 
 ```bash
-# Create a backup (schema + data)
+# Create a backup (schema and data)
 cd tools/directus-import && bun run backup
 
 # Restore from backup
@@ -96,4 +102,4 @@ platform/
 
 ## Documentation
 
-See [CLAUDE.md](./CLAUDE.md) for detailed development documentation.
+See [CLAUDE.md](CLAUDE.md) for detailed development documentation.

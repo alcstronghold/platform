@@ -2,6 +2,38 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## User Settings
+
+- **Code language**: English
+- **Comments language**: Spanish (technical terms in English)
+- **Interaction language**: Spanish
+
+## Development Tools
+
+### IDE: WebStorm
+
+The project uses WebStorm with JetBrains MCP integration for:
+
+- File problems detection (`mcp__jetbrains__get_file_problems`)
+- Code navigation and search
+- Terminal command execution
+- Refactoring operations
+
+### Git Client: GitKraken
+
+GitKraken MCP tools are available for git operations:
+
+- `mcp__gitkraken__git_status` - Working tree status
+- `mcp__gitkraken__git_add_or_commit` - Stage and commit changes
+- `mcp__gitkraken__git_log_or_diff` - View history and changes
+- `mcp__gitkraken__git_branch` - List/create branches
+- `mcp__gitkraken__git_checkout` - Switch branches
+- `mcp__gitkraken__git_push` - Push to remote
+- `mcp__gitkraken__pull_request_*` - PR management (GitHub/GitLab/Azure)
+- `mcp__gitkraken__issues_*` - Issue tracking integration
+
+**Prefer GitKraken MCP tools over bash git commands** for better integration.
+
 ## Project Overview
 
 ALC Stronghold Platform <https://www.alcstronghold.com>
@@ -10,12 +42,12 @@ Monorepo for a non-profit youth organization focused on alternative leisure acti
 
 ## Tech Stack
 
-- **Monorepo**: Moonrepo + Proto
+- **Monorepo**: Moonrepo and Proto
 - **Runtime/Package Manager**: Bun
 - **Backend**: Directus (Headless CMS)
-- **Frontend**: Astro v5 (public) + Angular v21 (dashboard)
-- **UI**: Tailwind CSS v4 + Flowbite v4
-- **Database**: PostgreSQL + Redis (via Docker)
+- **Frontend**: Astro v5 (public) and Angular v21 (dashboard)
+- **UI**: Tailwind CSS v4 and Flowbite v4
+- **Database**: PostgreSQL and Redis (via Docker)
 
 ## Commands
 
@@ -86,16 +118,16 @@ docker compose restart directus
 ### Services & URLs
 
 | Service           | URL                                 | Description              |
-| ----------------- | ----------------------------------- | ------------------------ |
+|-------------------|-------------------------------------|--------------------------|
 | Directus Admin    | https://backend.alcstronghold.local | Headless CMS dashboard   |
 | Traefik Dashboard | http://localhost:8080               | Reverse proxy management |
 
 ### Docker Stack
 
-- **Traefik v3.6** - Reverse proxy with automatic HTTPS (mkcert certificates)
-- **PostgreSQL 17** - Primary database
-- **Redis 7** - Cache layer
-- **Directus 11** - Headless CMS / Backend API
+- **Traefik v3.6**: Reverse proxy with automatic HTTPS (mkcert certificates)
+- **PostgreSQL 17**: Primary database
+- **Redis 7**: Cache layer
+- **Directus 11**: Headless CMS / Backend API
 
 ### Default Credentials (development only)
 
@@ -104,7 +136,7 @@ docker compose restart directus
 ### Troubleshooting
 
 - **Port 80/443 in use**: On Windows, run `net stop http` or reset WinNAT service
-- **Certificate not trusted**: Run `mkcert -install` again as administrator
+- **Certificate is not trusted**: Run `mkcert -install` again as administrator
 - **Docker socket issues**: Ensure Docker Desktop is running and WSL2 integration is enabled
 
 ## Architecture (Clean Architecture)
@@ -120,7 +152,7 @@ platform/
 │   ├── directus-payload/    # Payload interfaces for JSON import/export
 │   ├── domain/              # Business entities and use cases
 │   ├── infrastructure/      # External services adapters (Directus SDK)
-│   └── ui/                  # Shared Tailwind + Flowbite theme
+│   └── ui/                  # Shared Tailwind and Flowbite theme
 ├── tools/                   # Development utilities
 │   └── directus-import/     # CLI for importing/exporting Directus data
 ├── infrastructure/          # Infrastructure configuration
@@ -224,11 +256,11 @@ JSON files for seeding Directus are stored in `infrastructure/seeds/`:
 
 ### @alcstronghold/ui
 
-Shared UI theme package with Tailwind CSS v4 + Flowbite v4:
+Shared UI theme package with Tailwind CSS v4 and Flowbite v4:
 
 ```
 packages/ui/src/styles/
-├── globals.css    # Main entry: Tailwind + Flowbite theme
+├── globals.css    # Main entry: Tailwind and Flowbite theme
 └── fonts.css      # InterDisplay font with OpenType features
 ```
 
@@ -297,7 +329,7 @@ bun run import -- --verbose
 3. `publishers` - Simple with translations
 4. `settings` - M2M with genres
 5. `rpg_families` - M2M with settings
-6. `rpg_systems` - Simple with translations + bgg_id
+6. `rpg_systems` - Simple with translations and bgg_id
 7. `rpg_editions` - FK to rpg_families and rpg_systems
 
 ### Environment Variables
@@ -319,12 +351,12 @@ bun run env:decrypt
 
 ### Features
 
-- **Upsert pattern** - Creates new items, updates existing (by identifier)
-- **Multi-pass import** - Handles hierarchical data (genres with parent_id)
-- **M2M relationships** - Resolves identifiers to UUIDs (settings↔genres, families↔settings)
-- **FK relationships** - Resolves foreign keys (editions→families, editions→systems)
-- **Retry with backoff** - Automatic retry on connection errors
-- **Colored output** - Visual feedback for created/updated/failed items
+- **Upsert pattern**: Creates new items, updates existing (by identifier)
+- **Multi-pass import**: Handles hierarchical data (genres with parent_id)
+- **M2M relationships**: Resolves identifiers to UUIDs (settings↔genres, families↔settings)
+- **FK relationships**: Resolves foreign keys (editions→families, editions→systems)
+- **Retry with backoff**: Automatic retry on connection errors
+- **Colored output**: Visual feedback for created/updated/failed items
 
 ### Schema Management
 
@@ -365,7 +397,7 @@ bun run export -- -c languages genres publishers
 Full backup/restore of schema and data as timestamped archives:
 
 ```bash
-# Create backup (schema + all collection data)
+# Create backup (schema and all collection data)
 bun run backup
 # Output: infrastructure/backups/snapshots/snapshot-yyyy-MM-dd--HH-mm.tar.gz
 
@@ -422,7 +454,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 - **Collaborator**: `base:content-reader`
 - **Member**: `base:content-reader`, `user-profiles:self`, `rpg-sessions:player`
 
-Users can have multiple roles (e.g., admin + master). Additional policies can be assigned directly to users:
+Users can have multiple roles (e.g., admin and master). Additional policies can be assigned directly to users:
 
 ```bash
 # Assign policy to user via Directus API
@@ -555,10 +587,76 @@ describe('functionName', () => {
 
 ## Conventions
 
-- Code and comments in English
+- Code in English, comments in Spanish (technical terms in English)
 - Follow Angular style guide for Angular code
 - Use Astro conventions for static content
 - Directus collections follow snake_case naming
+- Use `moon run` commands instead of direct `bun` or `cd && bun` chains
+
+### Code Smells to Avoid
+
+Reference: [Refactoring Guru - Code Smells](https://refactoring.guru/refactoring/smells)
+
+#### Bloaters
+
+Code that has grown too large to work with effectively:
+
+- **Long Method**: Methods should be short and focused
+- **Large Class**: Classes with too many responsibilities
+- **Primitive Obsession**: Use domain objects instead of primitives
+- **Long Parameter List**: Use parameter objects or builder pattern
+- **Data Clumps**: Group related data into objects
+
+#### Object-Orientation Abusers
+
+Incorrect application of OOP principles:
+
+- **Alternative Classes with Different Interfaces**: Unify interfaces
+- **Refused Bequest**: Don't inherit if you don't use parent behavior
+- **Switch Statements**: Replace with polymorphism
+- **Temporary Field**: Fields should always be meaningful
+
+#### Change Preventers
+
+Code that makes changes expensive:
+
+- **Divergent Change**: One class changed for multiple reasons
+- **Parallel Inheritance Hierarchies**: Adding subclass requires adding another
+- **Shotgun Surgery**: One change requires many small changes
+
+#### Dispensables
+
+Unnecessary code that adds complexity:
+
+- **Comments**: Code should be self-documenting
+- **Duplicate Code**: Extract to shared utilities
+- **Data Class**: Classes should have behavior, not just data
+- **Dead Code**: Remove unused code
+- **Lazy Class**: Classes must justify their existence
+- **Speculative Generality**: Don't design for hypothetical futures
+
+#### Couplers
+
+Excessive coupling between classes:
+
+- **Feature Envy**: Methods using other class's data extensively
+- **Inappropriate Intimacy**: Classes knowing too much about each other
+- **Incomplete Library Class**: Extend libraries properly
+- **Message Chains**: Long chains of method calls
+- **Middle Man**: Delegates without adding value
+
+#### Project-Specific
+
+- **Negated conditions in ternaries**: Extract to named boolean variables
+
+```typescript
+// BAD: Negated condition
+existingId != null ? { id: existingId } : {}
+
+// GOOD: Named boolean variable
+const hasExistingId = existingId != null;
+hasExistingId ? { id: existingId } : {}
+```
 
 ### TypeScript Typing Conventions
 
