@@ -50,7 +50,7 @@ export class DescribedEnumImporter extends BaseImporter<DescribedEnumPayload, De
       const translationData = payload.translations[code] || { name: '', description: null };
 
       return {
-        ...(existingId != null ? { id: existingId } : {}),
+        ...(existingId == null ? {} : { id: existingId }),
         languages_code: code,
         name: translationData.name,
         description: translationData.description,

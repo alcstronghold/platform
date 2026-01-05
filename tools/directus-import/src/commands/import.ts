@@ -25,10 +25,10 @@ import {
   SettingImporter,
 } from '../importers';
 import { createClient } from '../services/directus';
-import type { DirectusConfig, ImporterConfig, ImportOptions, ImportResult } from '../types';
+import type { DirectusConfig, ImporterConfig, ImportResult } from '../types';
 import { log } from '../utils';
 
-export type { ImportOptions };
+export type { ImportOptions } from '../types';
 
 /**
  * Importer interface for polymorphic handling

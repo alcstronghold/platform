@@ -9,7 +9,7 @@ import { LANGUAGE_CODES } from './base.exporter';
 export class GenreExporter {
   private readonly config: ExporterConfig;
   readonly collectionName = 'genres';
-  private identifierMap: Map<string, string> = new Map(); // id -> identifier
+  private readonly identifierMap: Map<string, string> = new Map(); // id -> identifier
 
   constructor(config: ExporterConfig) {
     this.config = config;

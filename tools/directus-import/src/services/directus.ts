@@ -1,8 +1,7 @@
 import { authentication, createDirectus, rest, staticToken } from '@directus/sdk';
 
 import type { DirectusConfig } from '../types';
-
-export type { DirectusConfig };
+export type { DirectusConfig } from '../types';
 
 /**
  * Create a Directus client with authentication

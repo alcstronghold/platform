@@ -3,10 +3,10 @@ import { readFile } from 'node:fs/promises';
 import { schemaApply, schemaDiff } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
-import type { DirectusConfig, SchemaDiffResult, SchemaImportOptions } from '../types';
+import type { DirectusConfig, SchemaDiffResult } from '../types';
 import { log } from '../utils';
 
-export type { SchemaImportOptions };
+export type { SchemaImportOptions } from '../types';
 
 /**
  * Import Directus schema from a JSON file.

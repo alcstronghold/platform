@@ -1,16 +1,16 @@
 import { createReadStream } from 'node:fs';
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { basename,join } from 'node:path';
+import { basename, join } from 'node:path';
 import { Writable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { createGunzip } from 'node:zlib';
 
-import type { DirectusConfig, RestoreOptions } from '../types';
+import type { DirectusConfig } from '../types';
 import { log } from '../utils';
 import { importCommand } from './import';
 import { schemaImportCommand } from './schema-import';
 
-export type { RestoreOptions };
+export type { RestoreOptions } from '../types';
 
 /**
  * Restore from a timestamped backup archive.

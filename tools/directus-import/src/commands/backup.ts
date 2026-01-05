@@ -10,7 +10,7 @@ import { log } from '../utils';
 import { exportCommand } from './export';
 import { schemaExportCommand } from './schema-export';
 
-export type { BackupOptions };
+export type { BackupOptions } from '../types';
 
 /**
  * Create a timestamped backup archive containing schema and data exports.
@@ -117,8 +117,7 @@ async function createTarBuffer(files: TarFile[], baseName: string): Promise<Buff
   for (const file of files) {
     const name = `${baseName}/${file.name}`;
     const header = createTarHeader(name, file.content.length);
-    blocks.push(header);
-    blocks.push(file.content);
+    blocks.push(header, file.content);
 
     // Pad to 512-byte boundary
     const padding = 512 - (file.content.length % 512);

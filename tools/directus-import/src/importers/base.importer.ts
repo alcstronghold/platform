@@ -1,9 +1,9 @@
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import type { ImporterConfig, ImportResult } from '../types';
+import { ImporterConfig } from '../types';
 import { extractErrorMessage, log, withRetry } from '../utils';
 
-export type { ImporterConfig, ImportResult };
+export type { ImporterConfig, ImportResult } from '../types';
 
 /**
  * Base class for collection importers.
@@ -223,7 +223,7 @@ export abstract class TranslatableImporter<
     return this.languageCodes.map((code) => {
       const existing = idMap.get(code);
       return {
-        ...(existing != null ? { id: existing } : {}),
+        ...(existing == null ? {} : { id: existing }),
         languages_code: code,
         name: translations[code] || '',
       };

@@ -8,17 +8,11 @@ import {
 } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
-import type {
-  CollectionInfo,
-  DeleteResult,
-  DirectusConfig,
-  RelationInfo,
-  SchemaClearOptions,
-} from '../types';
+import type { CollectionInfo, DeleteResult, DirectusConfig, RelationInfo } from '../types';
 import { DeletionPriority } from '../types';
 import { extractErrorMessage, log } from '../utils';
 
-export type { SchemaClearOptions };
+export type { SchemaClearOptions } from '../types';
 
 type DirectusClient = Awaited<ReturnType<typeof createClient>>;
 
