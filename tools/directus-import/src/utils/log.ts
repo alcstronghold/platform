@@ -91,70 +91,70 @@ function formatErrorDetails(details: unknown): string {
 }
 
 /**
+ * Extract a message from a single error item
+ */
+function getErrorItemMessage(item: unknown): string {
+  if (typeof item !== 'object' || item === null) {
+    return String(item);
+  }
+  const obj = item as Record<string, unknown>;
+  if (typeof obj.message === 'string') {
+    return obj.message;
+  }
+  return JSON.stringify(item);
+}
+
+/**
+ * Join messages from an errors array
+ */
+function joinErrorMessages(errors: unknown[]): string {
+  return errors.map(getErrorItemMessage).join('; ');
+}
+
+/**
+ * Find errors array in an object (direct or nested in "response.data")
+ */
+function findErrorsArray(obj: Record<string, unknown>): unknown[] | null {
+  if (Array.isArray(obj.errors)) {
+    return obj.errors;
+  }
+  const response = obj.response as Record<string, unknown> | undefined;
+  const data = response?.data as Record<string, unknown> | undefined;
+  return Array.isArray(data?.errors) ? data.errors : null;
+}
+
+/**
+ * Safely stringify an object
+ */
+function safeStringify(obj: unknown): string {
+  try {
+    return JSON.stringify(obj);
+  } catch {
+    return '[Object could not be serialized]';
+  }
+}
+
+/**
  * Extract error message from various error types
  */
 export function extractErrorMessage(error: unknown): string {
   // Handle Error instances
   if (error instanceof Error) {
-    const anyError = error as unknown as Record<string, unknown>;
-
-    // Directus API error with errors array
-    if (anyError.errors && Array.isArray(anyError.errors)) {
-      return anyError.errors
-        .map((e: Record<string, unknown>) => e.message || 'Unknown')
-        .join('; ');
-    }
-
-    return error.message;
+    const errors = findErrorsArray(error as unknown as Record<string, unknown>);
+    return errors ? joinErrorMessages(errors) : error.message;
   }
 
-  // Handle plain objects (Directus sometimes throws non-Error objects)
+  // Handle plain objects
   if (error && typeof error === 'object') {
     const obj = error as Record<string, unknown>;
-
-    // Directus error structure: { errors: [{ message: "..." }] }
-    if (obj.errors && Array.isArray(obj.errors)) {
-      return obj.errors
-        .map((e) => {
-          if (typeof e === 'object' && e !== null) {
-            const errObj = e as Record<string, unknown>;
-            return errObj.message || JSON.stringify(e);
-          }
-          return String(e);
-        })
-        .join('; ');
+    const errors = findErrorsArray(obj);
+    if (errors) {
+      return joinErrorMessages(errors);
     }
-
-    // Single error object with message
-    if (obj.message && typeof obj.message === 'string') {
+    if (typeof obj.message === 'string') {
       return obj.message;
     }
-
-    // Response object with status and data
-    if (obj.response && typeof obj.response === 'object') {
-      const resp = obj.response as Record<string, unknown>;
-      if (resp.data && typeof resp.data === 'object') {
-        const data = resp.data as Record<string, unknown>;
-        if (data.errors && Array.isArray(data.errors)) {
-          return data.errors
-            .map((e) => {
-              if (typeof e === 'object' && e !== null) {
-                const errObj = e as Record<string, unknown>;
-                return errObj.message || JSON.stringify(e);
-              }
-              return String(e);
-            })
-            .join('; ');
-        }
-      }
-    }
-
-    // Fallback: stringify the object
-    try {
-      return JSON.stringify(obj);
-    } catch {
-      return '[Object could not be serialized]';
-    }
+    return safeStringify(obj);
   }
 
   return String(error);

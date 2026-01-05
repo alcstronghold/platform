@@ -46,11 +46,11 @@ describe('extractErrorMessage', () => {
     it('maneja error sin message en el array', () => {
       const error = new Error('API Error');
       (error as unknown as Record<string, unknown>).errors = [
-        { code: 'INVALID' }, // Sin message
+        { code: 'INVALID' }, // Sin message → se serializa
         { message: 'Valid error' },
       ];
 
-      expect(extractErrorMessage(error)).toBe('Unknown; Valid error');
+      expect(extractErrorMessage(error)).toBe('{"code":"INVALID"}; Valid error');
     });
 
     it('maneja array vacío de errors', () => {
