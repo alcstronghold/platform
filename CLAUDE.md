@@ -10,9 +10,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Formatting Preferences
 
-- **Lists**: Use "y" for last item: `pepito, peres, delfo y manola`
-- **Bold labels**: Use colon after: `**Tema**: descripción`
-- **Avoid**: `' + '` concatenation, `** tema ** - desc` (spaces inside bold, hyphen separator)
+- **Lists**: Use natural conjunctions instead of symbols
+  - Spanish: `item1, item2 y item3` (not `item1 + item2 + item3`)
+  - English: `item1, item2 and item3`
+  - Alternatives: `item1, item2 or item3` (not `item1 - item2 - item3`)
+- **Bold labels**: Use colon: `**Tema**: descripción` (not `**tema** - descripción`)
+- **Avoid**: Spaces inside bold markers (`** text **`)
 
 ## Development Tools
 
