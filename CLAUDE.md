@@ -8,6 +8,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Comments language**: Spanish (technical terms in English)
 - **Interaction language**: Spanish
 
+### Formatting Preferences
+
+- **Lists**: Use "y" for last item: `pepito, peres, delfo y manola`
+- **Bold labels**: Use colon after: `**Tema**: descripción`
+- **Avoid**: `' + '` concatenation, `** tema ** - desc` (spaces inside bold, hyphen separator)
+
 ## Development Tools
 
 ### IDE: WebStorm
