@@ -236,7 +236,7 @@ Usage in apps:
 
 ```css
 /* Import shared theme */
-@import '@alcstronghold/ui/styles/globals.css';
+@import "@alcstronghold/ui/styles/globals.css";
 
 /* Scan app files for Tailwind classes */
 @source "./**/*.html";
@@ -399,7 +399,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Roles** define which applications a user can access:
 
 | Role          | Directus Admin | Backend Dashboard | Public API |
-| ------------- | -------------- | ----------------- | ---------- |
+|---------------|----------------|-------------------|------------|
 | Administrator | ✓              | ✓                 | ✓          |
 | Collaborator  | ✗              | ✓                 | ✓          |
 | Member        | ✗              | ✗                 | ✓          |
@@ -407,7 +407,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Policies** define granular permissions per feature:
 
 | Policy                    | Description                              |
-| ------------------------- | ---------------------------------------- |
+|---------------------------|------------------------------------------|
 | `base:content-reader`     | Read public content (genres, systems...) |
 | `user-profiles:self`      | Manage own user profile                  |
 | `rpg-sessions:player`     | Register as player in sessions           |

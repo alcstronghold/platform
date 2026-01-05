@@ -215,7 +215,7 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
         verbose: options.verbose,
       };
 
-      // Create importer using either factory or constructor
+      // Create an importer using either factory or constructor
       let importer: Importer;
       if (collectionConfig.factory) {
         importer = collectionConfig.factory(importerConfig);

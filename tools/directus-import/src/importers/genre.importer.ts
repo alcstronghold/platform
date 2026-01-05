@@ -1,8 +1,15 @@
 import type { GenrePayload } from '@alcstronghold/directus-payload';
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import { extractErrorMessage, log, printImportResult, withRetry } from '../utils';
-import type { ImporterConfig, ImportResult } from './base.importer';
+import type { ImporterConfig, ImportResult } from '../types';
+import {
+  buildNewTranslationRequests,
+  buildTranslationRequests,
+  extractErrorMessage,
+  log,
+  printImportResult,
+  withRetry,
+} from '../utils';
 
 /**
  * Genre entity from Directus
@@ -42,7 +49,6 @@ export class GenreImporter {
   private readonly genreMap: GenreMap = new Map();
 
   readonly collectionName = 'genres';
-  readonly identifierField = 'identifier';
   private readonly languageCodes = ['es-ES', 'ca-ES'] as const;
 
   constructor(config: ImporterConfig) {
@@ -63,7 +69,7 @@ export class GenreImporter {
     // Load existing genres to support incremental imports
     await this.loadExistingGenres();
 
-    // Process in passes until all are done or stuck
+    // Process passes until all are done or stuck
     let pending = [...items];
     let passNumber = 1;
     const maxPasses = 20; // Safety limit
@@ -175,7 +181,7 @@ export class GenreImporter {
             this.config.client.request(createItem('genres' as never, request as never)),
           { context: identifier },
         );
-        // Add to map for children in subsequent passes
+        // For children, add to a map during later stages
         this.genreMap.set(identifier, (created as unknown as { id: string }).id);
         this.result.created++;
         log.item('created', identifier);
@@ -223,10 +229,7 @@ export class GenreImporter {
       name,
       parent_id: parentId ?? null,
       status: 'published',
-      translations: this.languageCodes.map((code) => ({
-        languages_code: code,
-        name: translations[code] || '',
-      })),
+      translations: buildNewTranslationRequests(this.languageCodes, translations),
     };
   }
 
@@ -240,25 +243,12 @@ export class GenreImporter {
     translations: Record<string, string>,
     existingTranslations?: Array<{ id: number; languages_code: string }>,
   ): Record<string, unknown> {
-    const translationIdMap = new Map(
-      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? [],
-    );
-
     return {
       identifier,
       name,
       parent_id: parentId ?? null,
       status: 'published',
-      translations: this.languageCodes
-        .map((code) => {
-          const existingId = translationIdMap.get(code);
-          return {
-            ...(existingId == null ? {} : { id: existingId }),
-            languages_code: code,
-            name: translations[code] || '',
-          };
-        })
-        .filter((t) => t.id != null || !translationIdMap.has(t.languages_code)),
+      translations: buildTranslationRequests(this.languageCodes, translations, existingTranslations ?? []),
     };
   }
 
