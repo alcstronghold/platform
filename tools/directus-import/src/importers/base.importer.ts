@@ -130,7 +130,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
             ),
           { context: identifier },
         );
-        // Add to the map for subsequent items that might reference this one
+        // Mark the map for future entries that may refer to it
         existingMap.set(identifier, created as unknown as TEntity);
         this.result.created++;
         log.item('created', identifier);

@@ -341,13 +341,13 @@ function createSimpleEnumCollection(
 }
 
 /**
- * Create described enum (with description field in translations)
+ * Create the described enum (with description field in translations)
  */
 function createDescribedEnumCollection(name: string, group: string, sort: number) {
   const result = createSimpleEnumCollection(name, group, sort);
   const translationName = `${name}_translations`;
 
-  // Add description field to translations
+  // Add the description field to translations
   result.translationFields.push({
     collection: translationName,
     field: 'description',
@@ -372,7 +372,7 @@ function createDescribedEnumCollection(name: string, group: string, sort: number
 }
 
 /**
- * Setup schema for rpg_sessions feature
+ * Setup schema for the rpg_sessions feature
  */
 export async function schemaSetupCommand(
   config: DirectusConfig,
@@ -395,7 +395,7 @@ export async function schemaSetupCommand(
       schema.collections.map((c: { collection: string }) => c.collection)
     );
 
-    // Create folder group for auxiliary collections
+    // Create the folder group for auxiliary collections
     if (!existingCollections.has('auxiliary')) {
       schema.collections.push({
         collection: 'auxiliary',

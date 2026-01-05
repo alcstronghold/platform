@@ -1,6 +1,6 @@
 import type { PublisherPayload } from '@alcstronghold/directus-payload';
 
-import type { ImporterConfig } from './base.importer';
+import type { ImporterConfig } from '../types';
 import { BaseImporter } from './base.importer';
 
 /**

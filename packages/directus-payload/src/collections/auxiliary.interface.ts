@@ -30,7 +30,7 @@ export type GenderIdentityPayload = SimpleEnumPayload;
 export type LgbtiqOptionPayload = SimpleEnumPayload;
 export type DiscoverySourcePayload = SimpleEnumPayload;
 
-// Described enums (name + description)
+// Described enums (name and description)
 export type KnowledgeLevelPayload = DescribedEnumPayload;
 export type AccessibilityOptionPayload = DescribedEnumPayload;
 export type ContentWarningPayload = DescribedEnumPayload;

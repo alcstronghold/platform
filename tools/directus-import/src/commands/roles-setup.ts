@@ -109,8 +109,8 @@ const SESSION_M2M_COLLECTIONS = [
 
 /**
  * Roles define ACCESS LEVELS to applications:
- * - Administrator: Full access to Directus Admin + Backend + Public
- * - Collaborator: Access to Backend + Public (no Directus Admin)
+ * - Administrator: Full access to Directus Admin, Backend, and Public
+ * - Collaborator: Access to Backend and Public (no Directus Admin)
  * - Member: Access to Public only (registered users)
  */
 const ROLES: Record<string, RoleDefinition> = {
@@ -298,7 +298,7 @@ const POLICIES: Record<string, PolicyDefinition> = {
         fields: ['*'] as ['*'],
         permissions: { _and: [{ rpg_sessions_id: { status: { _eq: 'published' } } }] },
       })),
-      // Register as player
+      // Register as the player
       {
         collection: 'rpg_session_players',
         action: 'create',
@@ -550,7 +550,7 @@ const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
   administrator: [],
   // Collaborator gets base content reading
   collaborator: ['base:content-reader'],
-  // Member gets base content + self profile + player
+  // Member gets base content, self-profile and player
   member: ['base:content-reader', 'user-profiles:self', 'rpg-sessions:player'],
 };
 
@@ -713,7 +713,7 @@ async function createAllPolicies(
 }
 
 /**
- * Setup all roles and link policies
+ * Establish all functions and connect permissions
  */
 async function setupAllRoles(
   client: DirectusClient,

@@ -1,6 +1,7 @@
+// noinspection JSUnusedGlobalSymbols
 /**
  * @alcstronghold/ui
- * Shared UI theme with Tailwind CSS + Flowbite
+ * Shared UI theme with Tailwind CSS and Flowbite
  *
  * Usage in apps:
  * @import "@alcstronghold/ui/styles/globals.css";

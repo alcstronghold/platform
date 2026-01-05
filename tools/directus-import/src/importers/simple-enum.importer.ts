@@ -1,6 +1,6 @@
 import type { SimpleEnumPayload } from '@alcstronghold/directus-payload';
 
-import type { ImporterConfig } from './base.importer';
+import type { ImporterConfig } from '../types';
 import { TranslatableImporter } from './base.importer';
 
 /**

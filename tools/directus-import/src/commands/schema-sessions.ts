@@ -20,7 +20,7 @@ interface SchemaData {
 }
 
 /**
- * Merge schema data into target schema and track added collections
+ * Merge schema data into the target schema and track added collections
  */
 function mergeSchemaData(
   schema: SchemaData,
@@ -193,7 +193,7 @@ function createAuditFields(collection: string, startSort: number): {
 }
 
 /**
- * Create user_profiles collection (1:1 with directus_users)
+ * Create the user_profiles collection (1:1 with directus_users)
  */
 function createUserProfilesCollection(): {
   collection: object;
@@ -2327,7 +2327,7 @@ function createRpgSessionPlayersCollection(): {
 }
 
 /**
- * Add user_profiles collection and its junction table to schema
+ * Add the user_profiles collection and its junction table to the schema
  */
 function addUserProfilesSchema(schema: SchemaData, addedCollections: string[]): void {
   const userProfiles = createUserProfilesCollection();
@@ -2368,7 +2368,7 @@ function addRpgSessionsSchema(schema: SchemaData, addedCollections: string[]): v
 }
 
 /**
- * Setup main collections for rpg_sessions feature
+ * Establish primary data groups for the rpg_sessions functionality.
  */
 export async function schemaSessionsCommand(
   config: DirectusConfig,

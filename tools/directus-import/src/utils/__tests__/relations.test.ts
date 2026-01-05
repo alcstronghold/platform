@@ -59,9 +59,9 @@ describe('resolveRelationIdentifier', () => {
   });
 
   // -------------------------------------------------------------------------
-  // Caso 3: Objeto populado (Directus expande la relación)
+  // Caso 3: Objeto expandido (Directus expande la relación)
   // -------------------------------------------------------------------------
-  describe('objeto populado', () => {
+  describe('objeto expandido', () => {
     it('extrae identifier del objeto', () => {
       const populated = { id: 'uuid-1', identifier: 'fantasy' };
       expect(resolveRelationIdentifier(populated, idMap)).toBe('fantasy');

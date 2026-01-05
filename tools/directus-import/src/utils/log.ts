@@ -58,11 +58,6 @@ export const log = {
     console.log(`  ${icons[status]} ${msg}`);
   },
 
-  progress: (current: number, total: number, label: string): void => {
-    const percentage = Math.round((current / total) * 100);
-    console.log(`${colors.dim}[${current}/${total}] ${percentage}% - ${label}${colors.reset}`);
-  },
-
   pass: (passNumber: number, pending: number): void => {
     console.log(`\n${colors.yellow}▸ Pass ${passNumber}${colors.reset} (${pending} items pending)`);
   },

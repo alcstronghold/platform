@@ -62,7 +62,7 @@ export interface UserProfile {
   gender_identity: GenderIdentityCode | null;
   /** LGBTIQ+ community (optional) */
   lgbtiq_community: LgbtiqOptionCode | null;
-  /** How user discovered the organization (M2M) */
+  /** How the user discovered the organization (M2M) */
   discovery_sources: number[] | UserProfilesDiscoverySources[];
 }
 

@@ -88,7 +88,7 @@ export function resolveRelationIdentifiers(
 }
 
 /**
- * Build an ID to identifier map from an array of entities.
+ * Build an ID to identifier the map from an array of entities.
  *
  * @param entities - Array of entities with id and identifier fields
  * @returns Map of UUID → identifier

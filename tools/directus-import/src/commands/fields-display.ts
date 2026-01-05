@@ -18,7 +18,7 @@ interface FieldUpdateConfig {
 }
 
 /**
- * Update fields across multiple collections with the same meta configuration
+ * Update fields across multiple collections with the same meta-configuration
  */
 async function updateFieldsWithMeta(
   client: DirectusClient,
@@ -121,7 +121,7 @@ const IDENTIFIER_META = {
 };
 
 /**
- * Meta configuration for status fields (publish/draft/archived)
+ * Meta-configuration for status fields (publish/draft/archived)
  */
 const STATUS_META = {
   display: 'labels',
@@ -136,7 +136,7 @@ const STATUS_META = {
 };
 
 /**
- * Meta configuration for registration status fields
+ * Higher-level configuration for registration confirmation fields
  */
 const REGISTRATION_STATUS_META = {
   display: 'labels',

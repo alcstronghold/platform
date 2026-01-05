@@ -215,7 +215,7 @@ program
 // Backup command
 program
   .command('backup')
-  .description('Create a timestamped backup archive (schema + data)')
+  .description('Create a timestamped backup archive (schema and data)')
   .option('-u, --url <url>', 'Directus URL (or DIRECTUS_URL env)')
   .option('-t, --token <token>', 'Directus static token (or DIRECTUS_TOKEN env)')
   .option('-e, --email <email>', 'Directus admin email (or DIRECTUS_EMAIL env)')

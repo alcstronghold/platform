@@ -145,7 +145,7 @@ async function extractTar(tarData: Buffer, outputDir: string): Promise<void> {
     // Read header (512 bytes)
     const header = tarData.subarray(offset, offset + 512);
 
-    // Check for end of archive (all zeros)
+    // Check for the end of the archive (all zeros)
     if (header.every((b) => b === 0)) {
       break;
     }
@@ -170,14 +170,14 @@ async function extractTar(tarData: Buffer, outputDir: string): Promise<void> {
       // Read file content
       const content = tarData.subarray(offset, offset + size);
 
-      // Create file
+      // Create the file
       const filePath = join(outputDir, name);
       const dirPath = join(filePath, '..');
       await mkdir(dirPath, { recursive: true });
       await writeFile(filePath, content);
     }
 
-    // Advance to next header (512-byte aligned)
+    // Advance to the next header (512-byte aligned)
     const blocks = Math.ceil(size / 512);
     offset += blocks * 512;
   }

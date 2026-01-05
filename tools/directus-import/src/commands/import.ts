@@ -126,7 +126,7 @@ const COLLECTIONS: Record<string, CollectionConfig> = {
     factory: (config) => createSimpleEnumImporter(config, 'discovery_sources'),
   },
 
-  // Auxiliary collections - Described enums (name + description translations)
+  // Auxiliary collections - Described enums (name and description translations)
   knowledge_levels: {
     fileName: 'knowledge-levels.json',
     order: 20,
@@ -207,7 +207,7 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
         continue;
       }
 
-      // Create importer instance
+      // Create the importer instance
       const importerConfig: ImporterConfig = {
         client,
         url: config.url,
@@ -222,7 +222,16 @@ export async function importCommand(config: DirectusConfig, options: ImportOptio
       } else if (collectionConfig.importer) {
         importer = new collectionConfig.importer(importerConfig);
       } else {
-        throw new Error(`No importer configured for ${collectionName}`);
+        log.error(`No importer configured for ${collectionName}`);
+        results.push({
+          collection: collectionName,
+          total: 0,
+          created: 0,
+          updated: 0,
+          failed: 1,
+          errors: [{ identifier: 'config', error: 'No importer configured' }],
+        });
+        continue;
       }
 
       // Run import
