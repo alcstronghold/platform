@@ -8,7 +8,7 @@ import {
 } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
-import type { CollectionInfo, DeleteResult, DirectusConfig, RelationInfo } from '../types';
+import type { CollectionInfo, DeleteResult, DirectusConfig, RelationInfo, SchemaClearOptions } from '../types';
 import { DeletionPriority } from '../types';
 import { extractErrorMessage, log } from '../utils';
 

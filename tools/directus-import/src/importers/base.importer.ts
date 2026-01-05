@@ -1,6 +1,6 @@
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
-import { ImporterConfig } from '../types';
+import { ImporterConfig, ImportResult } from '../types';
 import { extractErrorMessage, log, withRetry } from '../utils';
 
 export type { ImporterConfig, ImportResult } from '../types';
@@ -33,7 +33,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
    */
   protected abstract toDirectusRequest(
     payload: TPayload,
-    existingEntity?: TEntity
+    existingEntity?: TEntity,
   ): Record<string, unknown>;
 
   /**
@@ -83,7 +83,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         readItems(this.collectionName as never, {
           limit: -1,
           fields: this.getExistingEntityFields() as never,
-        })
+        }),
       );
 
       for (const entity of existing) {
@@ -116,9 +116,9 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         await withRetry(
           () =>
             this.config.client.request(
-              updateItem(this.collectionName as never, existing.id as never, request as never)
+              updateItem(this.collectionName as never, existing.id as never, request as never),
             ),
-          { context: identifier }
+          { context: identifier },
         );
         this.result.updated++;
         log.item('updated', identifier);
@@ -126,9 +126,9 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
         const created = await withRetry(
           () =>
             this.config.client.request(
-              createItem(this.collectionName as never, request as never)
+              createItem(this.collectionName as never, request as never),
             ),
-          { context: identifier }
+          { context: identifier },
         );
         // Add to the map for subsequent items that might reference this one
         existingMap.set(identifier, created as unknown as TEntity);
@@ -167,7 +167,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
 
     console.log('');
     log.summary(
-      `${status} ${this.collectionName}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`
+      `${status} ${this.collectionName}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`,
     );
 
     if (this.result.errors.length > 0 && this.result.errors.length <= 5) {
@@ -200,7 +200,7 @@ export abstract class TranslatableImporter<
    * Create translation objects for a new entity
    */
   protected createTranslations(
-    translations: Record<string, string>
+    translations: Record<string, string>,
   ): Array<{ languages_code: string; name: string }> {
     return this.languageCodes.map((code) => ({
       languages_code: code,
@@ -214,10 +214,10 @@ export abstract class TranslatableImporter<
    */
   protected updateTranslations(
     translations: Record<string, string>,
-    existingTranslations?: Array<{ id?: number; languages_code: string }>
+    existingTranslations?: Array<{ id?: number; languages_code: string }>,
   ): Array<{ id?: number; languages_code: string; name: string }> {
     const idMap = new Map(
-      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? []
+      existingTranslations?.map((t) => [t.languages_code, t.id]) ?? [],
     );
 
     return this.languageCodes.map((code) => {

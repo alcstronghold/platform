@@ -153,10 +153,12 @@ const REGISTRATION_STATUS_META = {
 /**
  * Build field map from Directus fields
  */
-function buildFieldMap(fields: { collection: string; field: string }[]): Map<string, boolean> {
+function buildFieldMap(fields: { collection: string | null; field: string }[]): Map<string, boolean> {
   const map = new Map<string, boolean>();
   for (const field of fields) {
-    map.set(`${field.collection}.${field.field}`, true);
+    if (field.collection) {
+      map.set(`${field.collection}.${field.field}`, true);
+    }
   }
   return map;
 }
@@ -177,7 +179,7 @@ export async function fieldsDisplayCommand(
   }
 
   try {
-    const allFields = await client.request(readFields());
+    const allFields = await client.request(readFields()) as { collection: string | null; field: string }[];
     const fieldMap = buildFieldMap(allFields);
 
     const fieldConfigs: FieldUpdateConfig[] = [

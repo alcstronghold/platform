@@ -608,14 +608,14 @@ async function cleanupPolicies(
         }
       }
       if (policyPermissions.length > 0) {
-        log.item('-', `Deleted ${policyPermissions.length} permissions for ${policy.name}`);
+        log.item('deleted', `Deleted ${policyPermissions.length} permissions for ${policy.name}`);
       }
 
       if (dryRun) {
-        log.item('-', `Would delete policy: ${policy.name}`);
+        log.item('deleted', `Would delete policy: ${policy.name}`);
       } else {
         await client.request(deletePolicy(policy.id));
-        log.item('-', `Deleted policy: ${policy.name}`);
+        log.item('deleted', `Deleted policy: ${policy.name}`);
       }
     }
   }
@@ -654,7 +654,7 @@ async function createAllPolicies(
 
   for (const [key, policyDef] of Object.entries(POLICIES)) {
     if (dryRun) {
-      log.item('+', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
+      log.item('created', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
       createdPolicies.set(key, `[dry-run-${key}]`);
       continue;
     }
@@ -669,7 +669,7 @@ async function createAllPolicies(
       })
     );
     createdPolicies.set(key, policy.id);
-    log.item('+', `Created policy: ${policyDef.name}`);
+    log.item('created', `Created policy: ${policyDef.name}`);
 
     for (const perm of policyDef.permissions) {
       await client.request(
@@ -683,7 +683,7 @@ async function createAllPolicies(
         })
       );
     }
-    log.item('  ', `  → ${policyDef.permissions.length} permissions`);
+    log.item('detail', `  → ${policyDef.permissions.length} permissions`);
   }
 
   return createdPolicies;
@@ -706,9 +706,9 @@ async function setupAllRoles(
     const existingRoleId = createdRoles.get(key);
 
     if (existingRoleId) {
-      log.item('=', `Using existing role: ${roleDef.name} (${existingRoleId})`);
+      log.item('skipped', `Using existing role: ${roleDef.name} (${existingRoleId})`);
     } else if (dryRun) {
-      log.item('+', `Would create role: ${roleDef.name}`);
+      log.item('created', `Would create role: ${roleDef.name}`);
       createdRoles.set(key, `[dry-run-${key}]`);
     } else {
       const role = await client.request(
@@ -716,12 +716,10 @@ async function setupAllRoles(
           name: roleDef.name,
           icon: roleDef.icon,
           description: roleDef.description,
-          admin_access: roleDef.admin_access,
-          app_access: roleDef.app_access,
         })
       );
       createdRoles.set(key, role.id);
-      log.item('+', `Created role: ${roleDef.name} (${role.id})`);
+      log.item('created', `Created role: ${roleDef.name} (${role.id})`);
     }
 
     // Link default policies
@@ -748,7 +746,7 @@ async function linkDefaultPolicies(
     const policyId = createdPolicies.get(policyKey);
     if (policyId && roleId && !dryRun) {
       await linkPolicyToRole(config, roleId, policyId);
-      log.item('  ', `  → Linked: ${POLICIES[policyKey].name}`);
+      log.item('detail', `  → Linked: ${POLICIES[policyKey].name}`);
     }
   }
 }
@@ -765,12 +763,12 @@ function printSummary(): void {
     const policiesList = defaultPolicies.length > 0
       ? ` → [${defaultPolicies.join(', ')}]`
       : ' (admin_access)';
-    log.item('✓', `${roleDef.name}${policiesList}`);
+    log.item('success', `${roleDef.name}${policiesList}`);
   }
 
   log.summary('Policies created:');
   for (const [_key, policyDef] of Object.entries(POLICIES)) {
-    log.item('✓', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
+    log.item('success', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
   }
 
   log.info('');

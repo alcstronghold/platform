@@ -44,11 +44,15 @@ export const log = {
     console.log(`${colors.cyan}${message}${colors.reset}`);
   },
 
-  item: (status: 'created' | 'updated' | 'failed', identifier: string, details?: string): void => {
-    const icons = {
+  item: (status: 'created' | 'updated' | 'failed' | 'deleted' | 'skipped' | 'success' | 'detail', identifier: string, details?: string): void => {
+    const icons: Record<string, string> = {
       created: `${colors.green}+${colors.reset}`,
       updated: `${colors.blue}~${colors.reset}`,
       failed: `${colors.red}✗${colors.reset}`,
+      deleted: `${colors.red}-${colors.reset}`,
+      skipped: `${colors.dim}=${colors.reset}`,
+      success: `${colors.green}✓${colors.reset}`,
+      detail: `${colors.dim} ${colors.reset}`,
     };
     const msg = details ? `${identifier}: ${details}` : identifier;
     console.log(`  ${icons[status]} ${msg}`);

@@ -12,7 +12,7 @@ import {
 } from '../exporters';
 import { COLLECTION_FILES } from '../services/collections';
 import { createClient } from '../services/directus';
-import type { DirectusConfig, ExporterConfig } from '../types';
+import type { DirectusConfig, ExporterConfig, ExportOptions } from '../types';
 import { log } from '../utils';
 
 export type { ExportOptions } from '../types';

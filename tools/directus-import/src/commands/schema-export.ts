@@ -4,7 +4,7 @@ import { dirname } from 'node:path';
 import { schemaSnapshot } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
-import type { DirectusConfig } from '../types';
+import type { DirectusConfig, SchemaExportOptions } from '../types';
 import { log } from '../utils';
 
 export type { SchemaExportOptions } from '../types';

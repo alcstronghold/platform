@@ -5,7 +5,7 @@ import { Writable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { createGunzip } from 'node:zlib';
 
-import type { DirectusConfig } from '../types';
+import type { DirectusConfig, RestoreOptions } from '../types';
 import { log } from '../utils';
 import { importCommand } from './import';
 import { schemaImportCommand } from './schema-import';

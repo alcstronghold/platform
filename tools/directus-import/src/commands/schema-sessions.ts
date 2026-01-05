@@ -2434,7 +2434,7 @@ export async function schemaSessionsCommand(
     log.success('Schema setup completed successfully!');
     log.summary(`Added ${addedCollections.length} collections:`);
     for (const name of addedCollections) {
-      log.item('✓', name);
+      log.item('success', name);
     }
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
