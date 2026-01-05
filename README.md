@@ -7,7 +7,7 @@ Monorepo for [ALC Stronghold](https://www.alcstronghold.com), a non-profit youth
 - **Monorepo**: Moonrepo and Proto
 - **Runtime/Package Manager**: Bun
 - **Backend**: Directus 11 (Headless CMS)
-- **Frontend**: Astro v5 (public) and Angular v21 (dashboard)
+- **Frontend**: Astro v5 (public) and Angular v21 (dashboard, islands planned via AnalogJS)
 - **UI**: Tailwind CSS v4 and Flowbite v4
 - **Database**: PostgreSQL 17 and Redis 7 (via Docker)
 - **Reverse Proxy**: Traefik v3.6 with mkcert HTTPS
