@@ -1,4 +1,4 @@
-export { extractErrorMessage, log } from './log';
+export { extractErrorMessage, log, printImportResult } from './log';
 export { normalizeBggId, normalizeString, normalizeUrl } from './normalize';
 export type { PopulatedRelation } from './relations';
 export {

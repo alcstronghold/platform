@@ -75,7 +75,7 @@ const AUXILIARY_COLLECTIONS = [
   'discovery_sources_translations',
 ];
 
-/** Content collections (catalog data) */
+/** Content collections */
 const CONTENT_COLLECTIONS = [
   'genres',
   'genres_translations',
@@ -558,6 +558,8 @@ const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
 // COMMAND IMPLEMENTATION
 // =============================================================================
 
+type DirectusClient = Awaited<ReturnType<typeof createClient>>;
+
 /**
  * Link a policy to a role via directus_access
  */
@@ -585,39 +587,62 @@ async function linkPolicyToRole(
 }
 
 /**
+ * Delete all permissions for a policy
+ */
+async function deletePolicyPermissions(
+  client: DirectusClient,
+  policyId: string,
+  policyName: string,
+  permissions: { id: number; policy: string | null }[],
+  dryRun: boolean
+): Promise<void> {
+  const policyPermissions = permissions.filter((p) => p.policy === policyId);
+  if (policyPermissions.length === 0) return;
+
+  if (!dryRun) {
+    for (const perm of policyPermissions) {
+      await client.request(deletePermission(perm.id));
+    }
+  }
+  log.item('deleted', `Deleted ${policyPermissions.length} permissions for ${policyName}`);
+}
+
+/**
+ * Delete a single policy
+ */
+async function deleteSinglePolicy(
+  client: DirectusClient,
+  policyId: string,
+  policyName: string,
+  dryRun: boolean
+): Promise<void> {
+  if (dryRun) {
+    log.item('deleted', `Would delete policy: ${policyName}`);
+  } else {
+    await client.request(deletePolicy(policyId));
+    log.item('deleted', `Deleted policy: ${policyName}`);
+  }
+}
+
+/**
  * Clean up existing policies (roles are kept if they have users)
  */
 async function cleanupPolicies(
-  client: ReturnType<typeof createClient> extends Promise<infer T> ? T : never,
+  client: DirectusClient,
   dryRun: boolean
 ): Promise<void> {
   log.info('Cleaning up existing policies...');
 
   const existingPolicies = await client.request(readPolicies());
-  const existingPermissions = await client.request(readPermissions());
+  const existingPermissions = await client.request(readPermissions()) as { id: number; policy: string | null }[];
 
-  // Delete custom policies (permissions will be recreated)
-  const customPolicyNames = Object.values(POLICIES).map((p) => p.name);
+  const customPolicyNames = new Set(Object.values(POLICIES).map((p) => p.name));
+
   for (const policy of existingPolicies) {
-    if (customPolicyNames.includes(policy.name)) {
-      // First delete permissions for this policy
-      const policyPermissions = existingPermissions.filter((p) => p.policy === policy.id);
-      for (const perm of policyPermissions) {
-        if (!dryRun) {
-          await client.request(deletePermission(perm.id));
-        }
-      }
-      if (policyPermissions.length > 0) {
-        log.item('deleted', `Deleted ${policyPermissions.length} permissions for ${policy.name}`);
-      }
+    if (!customPolicyNames.has(policy.name)) continue;
 
-      if (dryRun) {
-        log.item('deleted', `Would delete policy: ${policy.name}`);
-      } else {
-        await client.request(deletePolicy(policy.id));
-        log.item('deleted', `Deleted policy: ${policy.name}`);
-      }
-    }
+    await deletePolicyPermissions(client, policy.id, policy.name, existingPermissions, dryRun);
+    await deleteSinglePolicy(client, policy.id, policy.name, dryRun);
   }
 }
 
@@ -625,7 +650,7 @@ async function cleanupPolicies(
  * Find existing roles by name
  */
 async function findExistingRoles(
-  client: ReturnType<typeof createClient> extends Promise<infer T> ? T : never
+  client: DirectusClient
 ): Promise<Map<string, string>> {
   const existingRoles = await client.request(readRoles());
   const roleMap = new Map<string, string>();
@@ -639,8 +664,6 @@ async function findExistingRoles(
 
   return roleMap;
 }
-
-type DirectusClient = Awaited<ReturnType<typeof createClient>>;
 
 /**
  * Create all policies and their permissions

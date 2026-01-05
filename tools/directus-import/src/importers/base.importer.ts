@@ -1,7 +1,7 @@
 import { createItem, readItems, updateItem } from '@directus/sdk';
 
 import { ImporterConfig, ImportResult } from '../types';
-import { extractErrorMessage, log, withRetry } from '../utils';
+import { extractErrorMessage, log, printImportResult, withRetry } from '../utils';
 
 export type { ImporterConfig, ImportResult } from '../types';
 
@@ -161,25 +161,7 @@ export abstract class BaseImporter<TPayload, TEntity extends { id: string }> {
    * Print the final result summary
    */
   protected printResult(): void {
-    const { created, updated, failed, total } = this.result;
-    const success = created + updated;
-    const status = failed === 0 ? '✓' : '⚠';
-
-    console.log('');
-    log.summary(
-      `${status} ${this.collectionName}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`,
-    );
-
-    if (this.result.errors.length > 0 && this.result.errors.length <= 5) {
-      this.result.errors.forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    } else if (this.result.errors.length > 5) {
-      log.error(`  First 5 of ${this.result.errors.length} errors:`);
-      this.result.errors.slice(0, 5).forEach(({ identifier, error }) => {
-        log.error(`  "${identifier}": ${error}`);
-      });
-    }
+    printImportResult(this.result);
   }
 }
 

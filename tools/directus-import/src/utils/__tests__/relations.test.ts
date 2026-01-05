@@ -1,11 +1,11 @@
 /**
- * Tests para relations.ts - Resolución de relaciones FK/M2M
- *
- * VALOR DE ESTOS TESTS:
- * - Verificar que UUIDs se resuelven correctamente a identifiers (export)
- * - Verificar que identifiers se resuelven a UUIDs (import)
- * - Manejar casos de Directus con relaciones populadas vs no populadas
- * - Detectar relaciones rotas (IDs que no existen)
+ * Tests para relations.ts - Resolución de claves foráneas y relaciones de muchos a muchos
+
+UTILIDAD DE ESTOS TESTS:
+- Comprobar que los UUID se traducen adecuadamente a identificadores (exportación)
+- Comprobar que los identificadores se traducen a UUID (importación)
+- Gestionar escenarios de Directus con relaciones completas o incompletas
+- Identificar relaciones erróneas (identificadores inexistentes)
  */
 import { describe, expect, it } from 'bun:test';
 

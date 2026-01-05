@@ -39,9 +39,9 @@ export interface UserProfile {
   // Event data (for in-person events)
   // -------------------------------------------------------------------------
 
-  /** Birth date */
+  /** Birthdate */
   birth_date: string | null;
-  /** Whether user is 18+ (calculated from birth_date or self-declared) */
+  /** Whether the user is 18+ (calculated from birth_date or self-declared) */
   is_adult: boolean;
   /** Guardian name (required if !is_adult) */
   guardian_name: string | null;

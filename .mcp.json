@@ -4,8 +4,19 @@
       "type": "http",
       "url": "https://backend.alcstronghold.local/mcp",
       "headers": {
-        "Authorization": "Bearer VHouF2uZkhJMULAqhWcaL6Asbhv1hg0x",
+        "Authorization": "Bearer 39qSmoXG5MsfGYX3G9jPsQ2YnsEhU026",
         "Content-Type": "application/json"
+      }
+    },
+    "jetbrains": {
+      "command": "D:\\JetBrains\\Programs\\WebStorm\\jbr\\bin\\java",
+      "args": [
+        "-classpath",
+        "D:\\JetBrains\\Programs\\WebStorm\\plugins\\mcpserver\\lib\\mcpserver-frontend.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\util-8.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.ktor.client.cio.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.ktor.client.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.ktor.network.tls.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.ktor.io.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.ktor.utils.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.kotlinx.io.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.kotlinx.serialization.core.jar;D:\\JetBrains\\Programs\\WebStorm\\lib\\module-intellij.libraries.kotlinx.serialization.json.jar",
+        "com.intellij.mcpserver.stdio.McpStdioRunnerKt"
+      ],
+      "env": {
+        "IJ_MCP_SERVER_PORT": "64342"
       }
     }
   }

@@ -33,5 +33,9 @@
   },
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "sonarlint.connectedMode.project": {
+    "connectionId": "SonarQube Local",
+    "projectKey": "alc-stronghold-platform"
   }
 }

@@ -163,7 +163,7 @@ async function loadJsonFile<T>(filePath: string): Promise<T[]> {
   const data = JSON.parse(content) as T[];
 
   if (!Array.isArray(data)) {
-    throw new Error('JSON file must contain an array');
+    throw new TypeError('JSON file must contain an array');
   }
 
   return data;

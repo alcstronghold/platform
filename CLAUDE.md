@@ -269,6 +269,7 @@ moon run dashboard:build  # Production build
 - Tailwind via `@tailwindcss/postcss`
 - Flowbite components with `initFlowbite()`
 - Vitest for unit testing
+- **Known warning**: "Empty sub-selector" from esbuild/critters CSS optimizer (Flowbite-related, safe to ignore)
 
 ## Directus Import CLI
 

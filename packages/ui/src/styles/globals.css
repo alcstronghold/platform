@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import 'tailwindcss';
+/*noinspection CssUnknownTarget*/
 @import 'flowbite/src/themes/default';
 @import './fonts.css';
 

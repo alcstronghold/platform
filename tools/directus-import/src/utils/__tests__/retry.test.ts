@@ -6,7 +6,7 @@
  * - Verificar que errores de lógica NO se reintentan (falla inmediatamente)
  * - Documentar qué errores son considerados "retryables"
  */
-import { afterEach,beforeEach, describe, expect, it, mock, spyOn } from 'bun:test';
+import { afterEach, beforeEach, describe, expect, it, mock, spyOn } from 'bun:test';
 
 import * as logModule from '../log';
 import { isRetryableError, withRetry } from '../retry';
@@ -128,8 +128,28 @@ describe('isRetryableError', () => {
 // withRetry() - Ejecuta función con reintentos automáticos
 // ============================================================================
 
+// Helper: crea función que falla N veces y luego tiene éxito
+function createFailingThenSuccessFn(failCount: number, errorMsg: string, successValue: string) {
+  let attempts = 0;
+  return mock(() => {
+    attempts++;
+    if (attempts <= failCount) {
+      return Promise.reject(new Error(errorMsg));
+    }
+    return Promise.resolve(successValue);
+  });
+}
+
+// Helper: ejecuta withRetry esperando que falle
+async function expectWithRetryToFail(fn: () => Promise<unknown>, options: { retries?: number; delayMs: number }) {
+  try {
+    await withRetry(fn, options);
+  } catch {
+    // Esperado
+  }
+}
+
 describe('withRetry', () => {
-  // Silenciamos log.warn para no ensuciar la salida de tests
   let warnSpy: ReturnType<typeof spyOn>;
 
   beforeEach(() => {
@@ -140,149 +160,76 @@ describe('withRetry', () => {
     warnSpy.mockRestore();
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 1: Éxito - la función no falla
-  // -------------------------------------------------------------------------
-  describe('cuando la función tiene éxito', () => {
-    it('devuelve el resultado sin reintentos', async () => {
-      const fn = mock(() => Promise.resolve('success'));
+  it('devuelve el resultado sin reintentos cuando tiene éxito', async () => {
+    const fn = mock(() => Promise.resolve('success'));
+    const result = await withRetry(fn, { retries: 3, delayMs: 1 });
 
-      const result = await withRetry(fn, { retries: 3, delayMs: 1 });
-
-      expect(result).toBe('success');
-      expect(fn).toHaveBeenCalledTimes(1); // Solo 1 llamada, sin reintentos
-    });
+    expect(result).toBe('success');
+    expect(fn).toHaveBeenCalledTimes(1);
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 2: Fallo transitorio seguido de éxito
-  // VALOR: Verifica que realmente reintenta y eventualmente tiene éxito
-  // -------------------------------------------------------------------------
-  describe('cuando falla con error retryable y luego tiene éxito', () => {
-    it('reintenta hasta que tiene éxito', async () => {
-      let attempts = 0;
-      const fn = mock(() => {
-        attempts++;
-        if (attempts < 3) {
-          return Promise.reject(new Error('connection refused'));
-        }
-        return Promise.resolve('success after retries');
-      });
+  it('reintenta hasta que tiene éxito con error retryable', async () => {
+    const fn = createFailingThenSuccessFn(2, 'connection refused', 'success after retries');
+    const result = await withRetry(fn, { retries: 5, delayMs: 1 });
 
-      const result = await withRetry(fn, { retries: 5, delayMs: 1 });
-
-      expect(result).toBe('success after retries');
-      expect(fn).toHaveBeenCalledTimes(3); // Falló 2 veces, éxito en la 3ra
-    });
-
-    it('muestra warning en cada reintento', async () => {
-      let attempts = 0;
-      const fn = mock(() => {
-        attempts++;
-        if (attempts < 2) {
-          return Promise.reject(new Error('connection reset'));
-        }
-        return Promise.resolve('ok');
-      });
-
-      await withRetry(fn, { retries: 3, delayMs: 1, context: 'TestOp' });
-
-      // Verificamos que log.warn fue llamado con el contexto
-      expect(warnSpy).toHaveBeenCalledTimes(1);
-      expect(warnSpy.mock.calls[0][0]).toContain('[TestOp]');
-      expect(warnSpy.mock.calls[0][0]).toContain('Attempt 1/3');
-    });
+    expect(result).toBe('success after retries');
+    expect(fn).toHaveBeenCalledTimes(3);
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 3: Fallo permanente - agota todos los reintentos
-  // VALOR: Verifica que no reintenta infinitamente
-  // -------------------------------------------------------------------------
-  describe('cuando falla todos los reintentos', () => {
-    it('lanza el error después de agotar reintentos', async () => {
-      const fn = mock(() => Promise.reject(new Error('connection timeout')));
+  it('muestra warning en cada reintento con contexto', async () => {
+    const fn = createFailingThenSuccessFn(1, 'connection reset', 'ok');
+    await withRetry(fn, { retries: 3, delayMs: 1, context: 'TestOp' });
 
-      await expect(
-        withRetry(fn, { retries: 3, delayMs: 1 })
-      ).rejects.toThrow('connection timeout');
-
-      expect(fn).toHaveBeenCalledTimes(3); // Exactamente 3 intentos
-    });
+    expect(warnSpy).toHaveBeenCalledTimes(1);
+    expect(warnSpy.mock.calls[0][0]).toContain('[TestOp]');
+    expect(warnSpy.mock.calls[0][0]).toContain('Attempt 1/3');
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 4: Error NO retryable - falla inmediatamente
-  // VALOR: Evita perder tiempo reintentando errores que nunca funcionarán
-  // -------------------------------------------------------------------------
-  describe('cuando el error NO es retryable', () => {
-    it('falla inmediatamente sin reintentar', async () => {
-      const fn = mock(() => Promise.reject(new Error('Unauthorized: bad token')));
+  it('lanza el error después de agotar reintentos', async () => {
+    const fn = mock(() => Promise.reject(new Error('connection timeout')));
 
-      await expect(
-        withRetry(fn, { retries: 5, delayMs: 1 })
-      ).rejects.toThrow('Unauthorized: bad token');
-
-      expect(fn).toHaveBeenCalledTimes(1); // Solo 1 intento, NO reintentó
-    });
-
-    it('no muestra warnings (no hay reintentos)', async () => {
-      const fn = mock(() => Promise.reject(new Error('Invalid syntax')));
-
-      try {
-        await withRetry(fn, { retries: 3, delayMs: 1 });
-      } catch {
-        // Esperado
-      }
-
-      expect(warnSpy).not.toHaveBeenCalled();
-    });
+    await expect(withRetry(fn, { retries: 3, delayMs: 1 })).rejects.toThrow('connection timeout');
+    expect(fn).toHaveBeenCalledTimes(3);
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 5: Configuración por defecto
-  // VALOR: Documenta los valores por defecto
-  // -------------------------------------------------------------------------
-  describe('configuración por defecto', () => {
-    it('usa 3 reintentos por defecto', async () => {
-      const fn = mock(() => Promise.reject(new Error('connection error')));
+  it('falla inmediatamente sin reintentar con error NO retryable', async () => {
+    const fn = mock(() => Promise.reject(new Error('Unauthorized: bad token')));
 
-      try {
-        await withRetry(fn, { delayMs: 1 }); // Sin especificar retries
-      } catch {
-        // Esperado
-      }
-
-      expect(fn).toHaveBeenCalledTimes(3); // Default: 3
-    });
+    await expect(withRetry(fn, { retries: 5, delayMs: 1 })).rejects.toThrow('Unauthorized: bad token');
+    expect(fn).toHaveBeenCalledTimes(1);
   });
 
-  // -------------------------------------------------------------------------
-  // CASO 6: Backoff exponencial
-  // VALOR: Verifica que los delays aumentan (1x, 2x, 3x...)
-  // -------------------------------------------------------------------------
-  describe('backoff exponencial', () => {
-    it('incrementa el delay con cada intento', async () => {
-      const delays: number[] = [];
-      const originalSetTimeout = globalThis.setTimeout;
+  it('no muestra warnings cuando el error no es retryable', async () => {
+    const fn = mock(() => Promise.reject(new Error('Invalid syntax')));
+    await expectWithRetryToFail(fn, { retries: 3, delayMs: 1 });
 
-      // Interceptamos setTimeout para capturar los delays
-      globalThis.setTimeout = ((fn: () => void, ms: number) => {
-        delays.push(ms);
-        return originalSetTimeout(fn, 1); // Ejecutamos rápido para el test
-      }) as typeof setTimeout;
+    expect(warnSpy).not.toHaveBeenCalled();
+  });
 
-      const fnThatFails = mock(() => Promise.reject(new Error('timeout')));
+  it('usa 3 reintentos por defecto', async () => {
+    const fn = mock(() => Promise.reject(new Error('connection error')));
+    await expectWithRetryToFail(fn, { delayMs: 1 });
 
-      try {
-        await withRetry(fnThatFails, { retries: 4, delayMs: 100 });
-      } catch {
-        // Esperado
-      } finally {
-        globalThis.setTimeout = originalSetTimeout;
-      }
+    expect(fn).toHaveBeenCalledTimes(3);
+  });
 
-      // Backoff: 100*1, 100*2, 100*3 (el 4to intento es el último, no hay delay después)
-      expect(delays).toEqual([100, 200, 300]);
-    });
+  it('incrementa el delay con backoff exponencial', async () => {
+    const delays: number[] = [];
+    const originalSetTimeout = globalThis.setTimeout;
+
+    globalThis.setTimeout = ((fn: () => void, ms: number) => {
+      delays.push(ms);
+      return originalSetTimeout(fn, 1);
+    }) as typeof setTimeout;
+
+    const fnThatFails = mock(() => Promise.reject(new Error('timeout')));
+
+    try {
+      await expectWithRetryToFail(fnThatFails, { retries: 4, delayMs: 100 });
+    } finally {
+      globalThis.setTimeout = originalSetTimeout;
+    }
+
+    expect(delays).toEqual([100, 200, 300]);
   });
 });

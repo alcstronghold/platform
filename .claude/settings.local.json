@@ -26,9 +26,16 @@
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 bun -e \"\nimport { createDirectus, rest, staticToken, readRoles, deleteRole, readPolicies, deletePolicy } from ''@directus/sdk'';\n\nconst client = createDirectus\\(''https://backend.alcstronghold.local''\\)\n  .with\\(staticToken\\(process.env.DIRECTUS_TOKEN\\)\\)\n  .with\\(rest\\(\\)\\);\n\n// Get and delete Master/Moderator roles\nconst roles = await client.request\\(readRoles\\(\\)\\);\nfor \\(const role of roles\\) {\n  if \\(role.name === ''Master'' || role.name === ''Moderator''\\) {\n    console.log\\(''Deleting role:'', role.name, role.id\\);\n    await client.request\\(deleteRole\\(role.id\\)\\);\n  }\n}\n\n// Get and delete related policies\nconst policies = await client.request\\(readPolicies\\(\\)\\);\nfor \\(const policy of policies\\) {\n  if \\(policy.name.includes\\(''Master''\\) || policy.name.includes\\(''Moderator''\\)\\) {\n    console.log\\(''Deleting policy:'', policy.name, policy.id\\);\n    await client.request\\(deletePolicy\\(policy.id\\)\\);\n  }\n}\n\nconsole.log\\(''Cleanup complete''\\);\n\")",
       "Bash(bunx dotenvx run -- bun:*)",
       "Bash(ls:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "mcp__ide__getDiagnostics",
+      "mcp__gitkraken__git_status",
+      "mcp__gitkraken__git_add_or_commit",
+      "mcp__gitkraken__git_log_or_diff"
     ]
   },
-  "enabledMcpjsonServers": ["angular-cli", "directus-stronghold"],
-  "enableAllProjectMcpServers": true
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "angular-cli",
+    "directus-stronghold"
+  ]
 }

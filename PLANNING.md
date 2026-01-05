@@ -4,6 +4,8 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## En Progreso
 
+- [ ] **SonarQube / Inspections** - Pendiente revisar issues restantes
+- [ ] **Proto bunx plugin** - `moon run :lint` falla en directus-schema y directus-import (bunx no configurado en `.prototools`)
 - [ ] **Sistema de Partidas (rpg_sessions)** - MVP para gestión de partidas:
   - [x] Tipos TypeScript para colecciones auxiliares (11 enums)
   - [x] Payloads y seeds para colecciones auxiliares
@@ -14,8 +16,8 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
   - [x] Activar slugify en todos los campos identifier (18 collections)
   - [x] **Configurar roles y políticas granulares**:
     - [x] Comando `roles-setup` creado con definición de roles y policies
-    - [x] 3 roles: Administrator, Collaborator, Member (niveles de acceso)
-    - [x] 7 policies granulares: base:content-reader, user-profiles:self, rpg-sessions:player, rpg-sessions:master, rpg-sessions:moderator, content:moderator, user-profiles:moderator
+    - [x] tres roles: Administrator, Collaborator, Member (niveles de acceso)
+    - [x] siete policies granulares: base:content-reader, user-profiles:self, rpg-sessions:player, rpg-sessions:master, rpg-sessions:moderator, content:moderator, user-profiles:moderator
     - [x] 277 permisos totales distribuidos en policies
     - [x] Vinculación role→policy via `directus_access`
     - [x] Documentación en CLAUDE.md y README.md
@@ -45,10 +47,18 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## Completado
 
+- [x] **Code Quality Refactoring** - Reducción de complejidad cognitiva:
+  - [x] extractErrorMessage (41→10)
+  - [x] rolesSetupCommand (28→~12) - helpers extraídos
+  - [x] fieldsDisplayCommand (23→~8) - helpers + constantes extraídas
+  - [x] Re-export syntax: `export type { X } from './module'` (13 archivos)
+  - [x] Fix build errors: `log.item` extended status types, readFields cast
+  - [x] Astro sitemap: añadido `site` URL
+  - [x] Angular CSS warnings: conocido (esbuild/critters + Flowbite), ignorable
 - [x] **Frontend Apps + Shared UI** (Tailwind v4 + Flowbite v4):
   - [x] packages/ui - Theme Tailwind + Flowbite compartido (InterDisplay font)
   - [x] apps/web - Astro v5 con landing dummy (MDX, Sitemap)
-  - [x] apps/dashboard - Angular v21 con Tailwind + Flowbite
+  - [x] apps/dashboard - Angular v21 con Tailwind y Flowbite
   - [x] Documentación en CLAUDE.md
 - [x] **directus-schema types** - Tipos TypeScript para todas las colecciones:
   - [x] RpgFamily, RpgFamilyTranslation, RpgFamiliesSettings
@@ -123,4 +133,4 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ---
 
-_Última actualización: 2026-01-04_
+_Última actualización: 2026-01-05_

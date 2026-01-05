@@ -139,6 +139,43 @@ function safeStringify(obj: unknown): string {
 }
 
 /**
+ * Import result for printImportResult
+ */
+interface ImportResultForPrint {
+  collection: string;
+  total: number;
+  created: number;
+  updated: number;
+  failed: number;
+  errors: Array<{ identifier: string; error: string }>;
+}
+
+/**
+ * Print import result summary with error details
+ */
+export function printImportResult(result: ImportResultForPrint): void {
+  const { collection, created, updated, failed, total, errors } = result;
+  const success = created + updated;
+  const status = failed === 0 ? '✓' : '⚠';
+
+  console.log('');
+  log.summary(
+    `${status} ${collection}: ${success}/${total} successful (${created} created, ${updated} updated, ${failed} failed)`,
+  );
+
+  if (errors.length > 0 && errors.length <= 5) {
+    errors.forEach(({ identifier, error }) => {
+      log.error(`  "${identifier}": ${error}`);
+    });
+  } else if (errors.length > 5) {
+    log.error(`  First 5 of ${errors.length} errors:`);
+    errors.slice(0, 5).forEach(({ identifier, error }) => {
+      log.error(`  "${identifier}": ${error}`);
+    });
+  }
+}
+
+/**
  * Extract error message from various error types
  */
 export function extractErrorMessage(error: unknown): string {
