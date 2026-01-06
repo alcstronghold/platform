@@ -1,6 +1,6 @@
 {
   "name": "@alcstronghold/directus-import",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "type": "module",
   "bin": {
     "directus-import": "./dist/index.js"
