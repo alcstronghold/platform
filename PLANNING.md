@@ -47,6 +47,13 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ## Completado
 
+- [x] **Angular Islands en Astro**: Integración @analogjs/astro-angular:
+  - [x] Configuración astro.config.mjs con integración Angular
+  - [x] tsconfig.app.json para Angular compiler
+  - [x] angular.json para Angular Language Service
+  - [x] CounterComponent de ejemplo con signals
+  - [x] Directivas de hidratación (client:visible, client:load, client:idle)
+  - [x] Documentación en CLAUDE.md
 - [x] **Code Quality Refactoring**: Reducción de complejidad cognitiva:
   - [x] extractErrorMessage (41→10)
   - [x] rolesSetupCommand (28→~12) - helpers extraídos
@@ -133,4 +140,4 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 ---
 
-_Última actualización: 2026-01-05_
+_Última actualización: 2026-01-06_
