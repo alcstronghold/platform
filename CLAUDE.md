@@ -296,6 +296,61 @@ moon run web:build    # Production build
 - Tailwind via `@tailwindcss/vite` plugin
 - MDX support for content pages
 - Sitemap generation
+- Angular Islands via `@analogjs/astro-angular`
+
+#### Angular Islands
+
+Interactive Angular components embedded in Astro pages using partial hydration.
+
+**Configuration files**:
+
+- `astro.config.mjs`: Integration `angular()` from `@analogjs/astro-angular`
+- `tsconfig.app.json`: Angular compiler options (per AnalogJS docs)
+- `angular.json`: Minimal config for Angular Language Service in IDE
+
+**Creating components**:
+
+```typescript
+// src/components/counter.component.ts
+import { Component, signal } from '@angular/core';
+
+@Component({
+  selector: 'app-counter',
+  templateUrl: './counter.component.html',
+})
+export class CounterComponent {
+  readonly count = signal(0);
+
+  increment() {
+    this.count.update((c) => c + 1);
+  }
+}
+```
+
+**Using in Astro pages**:
+
+```astro
+---
+import { CounterComponent } from '../components/counter.component';
+---
+
+<CounterComponent client:visible />
+```
+
+**Hydration directives**:
+
+| Directive        | Description                              |
+|------------------|------------------------------------------|
+| `client:load`    | Hydrate immediately on page load         |
+| `client:visible` | Hydrate when visible (recommended)       |
+| `client:idle`    | Hydrate when browser is idle             |
+| (none)           | SSR only, no client-side interactivity   |
+
+**Requirements**:
+
+- Only **standalone components** (Angular 14.2+)
+- Use signals for reactive state
+- Prefer `[class.X]` bindings over `NgClass` for IDE compatibility
 
 ### apps/dashboard (Angular v21)
 
