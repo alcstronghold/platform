@@ -1,0 +1,20 @@
+language: typescript
+type: library
+
+dependsOn:
+  - domain
+
+tasks:
+  build:
+    command: tsc -b
+    inputs:
+      - src/**/*
+      - tsconfig.json
+    outputs:
+      - dist/**/*
+
+  typecheck:
+    command: tsc --noEmit
+    inputs:
+      - src/**/*
+      - tsconfig.json

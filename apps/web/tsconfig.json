@@ -1,13 +1,14 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [
-    ".astro/types.d.ts",
-    "**/*"
-  ],
-  "exclude": [
-    "dist"
-  ],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
   "references": [
+    {
+      "path": "../../packages/directus-client"
+    },
+    {
+      "path": "../../packages/domain"
+    },
     {
       "path": "../../packages/ui"
     }
