@@ -3,7 +3,7 @@
 #             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
 #-------------------------------------------------------------------------------#
 
-version: "1.0"
+version: '1.0'
 
 # Specify the inspection profile for code analysis
 profile:
@@ -15,8 +15,8 @@ exclude:
     paths:
       - inspections
       - apps/web/.astro
-      - "**/*.tsbuildinfo"
-      - "**/*.pem"
+      - '**/*.tsbuildinfo'
+      - '**/*.pem'
 
   # Disable noisy inspections
   - name: SpellCheckingInspection

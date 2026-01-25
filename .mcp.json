@@ -4,15 +4,19 @@
       "command": "cmd",
       "args": ["/c", "npx", "-y", "@angular/cli", "mcp"]
     },
+    "astro-docs": {
+      "type": "http",
+      "url": "https://mcp.docs.astro.build/mcp"
+    },
     "directus-stronghold": {
       "type": "http",
       "url": "https://backend.alcstronghold.local/mcp",
       "headers": {
-        "Authorization": "Bearer 39qSmoXG5MsfGYX3G9jPsQ2YnsEhU026",
+        "Authorization": "Bearer EvgObszQss_qqXjeneIsDNVjo8G0OjcW",
         "Content-Type": "application/json"
       }
     },
-    "jetbrains": {
+    "jetbrains-webstorm": {
       "command": "D:\\JetBrains\\Programs\\WebStorm\\jbr\\bin\\java",
       "args": [
         "-classpath",
