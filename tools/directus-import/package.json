@@ -27,11 +27,11 @@
   "dependencies": {
     "@alcstronghold/directus-schema": "workspace:*",
     "@alcstronghold/directus-payload": "workspace:*",
-    "@directus/sdk": "^18.0.3",
-    "commander": "^13.0.0"
+    "@directus/sdk": "21.0.0",
+    "commander": "14.0.2"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "typescript": "^5.7.2"
+    "bun-types": "1.3.6",
+    "typescript": "5.9.3"
   }
 }

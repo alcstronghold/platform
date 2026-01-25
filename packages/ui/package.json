@@ -12,15 +12,14 @@
     "./styles/globals.css": "./src/styles/globals.css"
   },
   "dependencies": {
-    "flowbite": "^4.0.1"
+    "flowbite": "4.0.1"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.18",
-    "@types/bun": "^1.3.5",
-    "tailwindcss": "^4.1.18"
+    "@tailwindcss/cli": "4.1.18",
+    "@types/bun": "1.3.6",
+    "tailwindcss": "4.1.18"
   },
   "peerDependencies": {
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "5.9.3"
   }
 }
