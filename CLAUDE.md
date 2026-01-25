@@ -127,7 +127,7 @@ docker compose restart directus
 ### Services & URLs
 
 | Service           | URL                                 | Description              |
-|-------------------|-------------------------------------|--------------------------|
+| ----------------- | ----------------------------------- | ------------------------ |
 | Directus Admin    | https://backend.alcstronghold.local | Headless CMS dashboard   |
 | Traefik Dashboard | http://localhost:8080               | Reverse proxy management |
 
@@ -159,8 +159,8 @@ platform/
 ├── packages/                # Shared libraries
 │   ├── directus-schema/     # TypeScript types for Directus collections
 │   ├── directus-payload/    # Payload interfaces for JSON import/export
+│   ├── directus-client/     # Directus SDK client for authentication
 │   ├── domain/              # Business entities and use cases
-│   ├── infrastructure/      # External services adapters (Directus SDK)
 │   └── ui/                  # Shared Tailwind and Flowbite theme
 ├── tools/                   # Development utilities
 │   └── directus-import/     # CLI for importing/exporting Directus data
@@ -235,6 +235,83 @@ During development, packages export source TypeScript directly:
 }
 ```
 
+## Domain Layer
+
+### @alcstronghold/domain
+
+Business logic layer following Clean Architecture principles. Contains entities, ports (interfaces), and use cases.
+
+```
+packages/domain/src/
+├── entities/
+│   └── user.entity.ts      # User, AuthenticatedUser, computeDisplayName
+├── ports/
+│   └── auth.port.ts        # AuthPort interface, LoginCredentials, AuthResult
+├── use-cases/auth/
+│   ├── login.use-case.ts   # LoginUseCase with email validation
+│   ├── logout.use-case.ts  # LogoutUseCase
+│   └── get-current-user.use-case.ts
+└── index.ts
+```
+
+**Key interfaces**:
+
+```typescript
+// User entity
+interface User {
+  id: string;
+  email: string;
+  firstName: string | null;
+  lastName: string | null;
+  avatar: string | null;
+}
+
+interface AuthenticatedUser extends User {
+  displayName: string; // Computed: "FirstName LastName" or email prefix
+}
+
+// Auth port (interface for adapters)
+interface AuthPort {
+  login(credentials: LoginCredentials): Promise<AuthResult>;
+  logout(): Promise<void>;
+  refreshToken(): Promise<AuthResult>;
+  getCurrentUser(): Promise<AuthenticatedUser | null>;
+}
+```
+
+**Security note**: Email validation uses string methods (no regex) to prevent ReDoS vulnerabilities.
+
+### @alcstronghold/directus-client
+
+Directus SDK client implementing domain ports. Uses session-based authentication with HTTP-only cookies for security.
+
+```
+packages/directus-client/src/
+├── client.ts         # createBrowserClient, createServerClient factories
+├── auth.adapter.ts   # DirectusAuthAdapter implements AuthPort
+└── index.ts
+```
+
+**Client factories**:
+
+- `createBrowserClient(config)`: For client-side use, includes `credentials: 'include'`
+- `createServerClient(config, headers)`: For SSR, forwards cookies from request headers
+
+**Usage**:
+
+```typescript
+import { createBrowserClient, DirectusAuthAdapter } from '@alcstronghold/directus-client';
+import { LoginUseCase } from '@alcstronghold/domain';
+
+// Create client and adapter
+const client = createBrowserClient({ url: 'https://backend.alcstronghold.local' });
+const authAdapter = new DirectusAuthAdapter(client);
+
+// Use domain use case
+const loginUseCase = new LoginUseCase(authAdapter);
+const result = await loginUseCase.execute({ email, password });
+```
+
 ## Directus Data Packages
 
 ### @alcstronghold/directus-schema
@@ -277,7 +354,7 @@ Usage in apps:
 
 ```css
 /* Import shared theme */
-@import "@alcstronghold/ui/styles/globals.css";
+@import '@alcstronghold/ui/styles/globals.css';
 
 /* Scan app files for Tailwind classes */
 @source "./**/*.html";
@@ -339,12 +416,12 @@ import { CounterComponent } from '../components/counter.component';
 
 **Hydration directives**:
 
-| Directive        | Description                              |
-|------------------|------------------------------------------|
-| `client:load`    | Hydrate immediately on page load         |
-| `client:visible` | Hydrate when visible (recommended)       |
-| `client:idle`    | Hydrate when browser is idle             |
-| (none)           | SSR only, no client-side interactivity   |
+| Directive        | Description                            |
+| ---------------- | -------------------------------------- |
+| `client:load`    | Hydrate immediately on page load       |
+| `client:visible` | Hydrate when visible (recommended)     |
+| `client:idle`    | Hydrate when browser is idle           |
+| (none)           | SSR only, no client-side interactivity |
 
 **Requirements**:
 
@@ -495,7 +572,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Roles** define which applications a user can access:
 
 | Role          | Directus Admin | Backend Dashboard | Public API |
-|---------------|----------------|-------------------|------------|
+| ------------- | -------------- | ----------------- | ---------- |
 | Administrator | ✓              | ✓                 | ✓          |
 | Collaborator  | ✗              | ✓                 | ✓          |
 | Member        | ✗              | ✗                 | ✓          |
@@ -503,7 +580,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Policies** define granular permissions per feature:
 
 | Policy                    | Description                              |
-|---------------------------|------------------------------------------|
+| ------------------------- | ---------------------------------------- |
 | `base:content-reader`     | Read public content (genres, systems...) |
 | `user-profiles:self`      | Manage own user profile                  |
 | `rpg-sessions:player`     | Register as player in sessions           |
@@ -715,11 +792,11 @@ Excessive coupling between classes:
 
 ```typescript
 // BAD: Negated condition
-existingId != null ? { id: existingId } : {}
+existingId != null ? { id: existingId } : {};
 
 // GOOD: Named boolean variable
 const hasExistingId = existingId != null;
-hasExistingId ? { id: existingId } : {}
+hasExistingId ? { id: existingId } : {};
 ```
 
 ### TypeScript Typing Conventions
