@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Entorno de Desarrollo
+
+**CRÍTICO:** El desarrollo se realiza en **Windows con PowerShell Core**.
+
+Ver `~/.claude/CLAUDE.md` para la guía completa sobre:
+
+- Herramientas especializadas de Claude Code (Grep, Read, Glob)
+- Uso correcto de Bash tool con pwsh
+- Comandos PowerShell y Windows
+
 ## User Settings
 
 - **Code language**: English
@@ -17,6 +27,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Bold labels**: Use colon: `**Tema**: descripción` (not `**tema** - descripción`)
 - **Avoid**: Spaces inside bold markers (`** text **`)
 
+## Mensajes de Commit
+
+**Formato:** Palabras técnicas en inglés, explicación en castellano.
+
+```bash
+✅ CORRECTO:
+refactor(frontend): eliminar allowSignalWrites deprecated de los effects
+
+Se elimina la opción allowSignalWrites de todos los effect() porque está
+deprecated en Angular v21 y ya no es necesaria.
+
+❌ INCORRECTO (todo en inglés):
+refactor(frontend): remove deprecated allowSignalWrites from effects
+
+Remove allowSignalWrites option from all effect() calls as it is deprecated
+in Angular v21 and is no longer needed.
+```
+
+**Reglas:**
+
+- Tipo de commit en inglés: `feat`, `fix`, `refactor`, `chore`, `docs`, etc.
+- Scope en inglés cuando sea técnico: `frontend`, `backend`, `api`, etc.
+- Título: mezcla natural (técnico en inglés, verbos/acciones en castellano)
+- Cuerpo: explicación completa en castellano, manteniendo términos técnicos en inglés
+- Términos técnicos siempre en inglés: `signal`, `effect`, `component`, `service`, `endpoint`, etc.
+
 ## Development Tools
 
 ### IDE: WebStorm
@@ -27,21 +63,6 @@ The project uses WebStorm with JetBrains MCP integration for:
 - Code navigation and search
 - Terminal command execution
 - Refactoring operations
-
-### Git Client: GitKraken
-
-GitKraken MCP tools are available for git operations:
-
-- `mcp__gitkraken__git_status` - Working tree status
-- `mcp__gitkraken__git_add_or_commit` - Stage and commit changes
-- `mcp__gitkraken__git_log_or_diff` - View history and changes
-- `mcp__gitkraken__git_branch` - List/create branches
-- `mcp__gitkraken__git_checkout` - Switch branches
-- `mcp__gitkraken__git_push` - Push to remote
-- `mcp__gitkraken__pull_request_*` - PR management (GitHub/GitLab/Azure)
-- `mcp__gitkraken__issues_*` - Issue tracking integration
-
-**Prefer GitKraken MCP tools over bash git commands** for better integration.
 
 ## Project Overview
 
