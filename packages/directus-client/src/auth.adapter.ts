@@ -24,7 +24,10 @@ export class DirectusAuthAdapter implements AuthPort {
 
   async login(credentials: LoginCredentials): Promise<AuthResult> {
     try {
-      await this.client.login(credentials.email, credentials.password);
+      await this.client.login({
+        email: credentials.email,
+        password: credentials.password,
+      });
 
       const user = await this.getCurrentUser();
       if (!user) {
