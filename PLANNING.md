@@ -9,9 +9,11 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 - [ ] **Autenticación Login**: Flujo de login compartido entre Astro y Angular:
   - [x] packages/domain: User entity, AuthPort interface, use cases (Login, Logout, GetCurrentUser)
   - [x] packages/directus-client: Directus SDK client factories, DirectusAuthAdapter
+  - [x] packages/infrastructure: SignalFormDescriptor para gestión de formularios con Signal Forms
+  - [x] apps/dashboard: LoginComponent con Signal Forms, guards (authGuard, loginGuard) y AuthService
+  - [x] apps/web: LoginComponent island con Signal Forms
   - [ ] apps/web: Astro SSR híbrido con middleware de auth
   - [ ] apps/web: Página de login, Header con usuario, API endpoints
-  - [ ] apps/dashboard: Angular guards y auth service
   - [ ] Configuración CORS en Directus para cookies cross-origin
 - [ ] **Sistema de Partidas (rpg_sessions)**: MVP para gestión de partidas:
   - [x] Tipos TypeScript para colecciones auxiliares (11 enums)

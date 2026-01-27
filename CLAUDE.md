@@ -64,6 +64,206 @@ The project uses WebStorm with JetBrains MCP integration for:
 - Terminal command execution
 - Refactoring operations
 
+## Metodología de Desarrollo
+
+### Test-Driven Development (TDD)
+
+**OBLIGATORIO**: Claude Code DEBE seguir TDD para TODO el código nuevo.
+
+#### Ciclo Red-Green-Refactor
+
+**Red (Rojo)**:
+
+1. Escribir tests que describan el comportamiento deseado
+2. Ejecutar tests - deben FALLAR (no existe implementación aún)
+3. Verificar que fallan por la razón correcta
+
+**Green (Verde)**:
+
+1. Escribir el código MÍNIMO necesario para que los tests pasen
+2. No optimizar ni sobre-diseñar
+3. Ejecutar tests - deben PASAR
+
+**Refactor**:
+
+1. Limpiar código manteniendo tests verdes
+2. Aplicar Clean Code, SOLID, eliminar code smells
+3. Ejecutar tests después de cada cambio - deben permanecer verdes
+
+#### Reglas de TDD
+
+1. **NO escribir código de producción** sin un test que falle primero
+2. **NO escribir más test** del necesario para fallar (compilación fallida cuenta)
+3. **NO escribir más código** del necesario para pasar el test actual
+4. **Tests primero, SIEMPRE**: Excepciones solo para:
+   - HTML/CSS puro (no lógica)
+   - Configuración de build tools
+   - Scripts de deployment
+
+#### Estructura de Tests
+
+**Angular (Dashboard)**:
+
+- Framework: Vitest (configurado en el proyecto)
+- Ubicación: `*.spec.ts` junto al archivo de código
+- Naming: `<component-name>.component.spec.ts`, `<service-name>.service.spec.ts`
+
+**Astro (Web - Angular Islands)**:
+
+- Framework: Vitest
+- Ubicación: `*.spec.ts` junto al componente
+
+**Convenciones**:
+
+```typescript
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+
+describe('ComponentName o FunctionName', () => {
+  describe('feature o method name', () => {
+    it('should describe expected behavior in specific scenario', () => {
+      // Arrange (preparar)
+      const input = setupInput();
+
+      // Act (ejecutar)
+      const result = functionUnderTest(input);
+
+      // Assert (verificar)
+      expect(result).toBe(expected);
+    });
+  });
+});
+```
+
+#### Coverage Mínimo
+
+- **Statements**: 80% mínimo
+- **Branches**: 75% mínimo
+- **Functions**: 80% mínimo
+- **Lines**: 80% mínimo
+
+**IMPORTANTE**: Coverage NO es el objetivo, sino un indicador. Tests deben probar comportamiento, no líneas.
+
+#### Qué Testear (Prioridad)
+
+**ALTA**:
+
+- Business logic (use cases, services)
+- Validaciones y transformaciones de datos
+- Conditional logic y edge cases
+- Error handling
+
+**MEDIA**:
+
+- Componentes con lógica (computed signals, form validation)
+- Guards y interceptors
+- Utilities y helpers
+
+**BAJA (o Skip)**:
+
+- Componentes puramente presentacionales (solo template)
+- Getters/setters triviales
+- Configuración de DI
+
+#### Testing Utilities
+
+**Angular Testing**:
+
+```typescript
+import { TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
+import { signal } from '@angular/core';
+
+// Mock signals
+const mockUser = signal<User | null>(null);
+
+// Mock services con Vitest
+const mockAuthService = {
+  user: mockUser,
+  login: vi.fn(),
+  logout: vi.fn(),
+};
+```
+
+**DOM Testing (opcional, para componentes complejos)**:
+
+```typescript
+import { render, screen } from '@testing-library/angular';
+import userEvent from '@testing-library/user-event';
+
+// Preferir testing-library para tests de integración de componentes
+```
+
+#### Ejemplo Completo TDD
+
+**Red - Test que falla**:
+
+```typescript
+describe('AuthService', () => {
+  it('should return false when login fails with invalid credentials', async () => {
+    const service = new AuthService(mockAuthPort);
+    const result = await service.login('invalid@email.com', 'wrong');
+    expect(result).toBe(false);
+  });
+});
+```
+
+**Green - Implementación mínima**:
+
+```typescript
+async login(email: string, password: string): Promise<boolean> {
+  const result = await this.loginUseCase.execute({ email, password });
+  return result.success;
+}
+```
+
+**Refactor - Mejorar sin romper tests**:
+
+```typescript
+async login(email: string, password: string): Promise<boolean> {
+  this.setState({ ...this.state(), isLoading: true, error: null });
+  const result = await this.loginUseCase.execute({ email, password });
+
+  if (result.success && result.user) {
+    this.setState({ user: result.user, isLoading: false, error: null });
+    return true;
+  }
+
+  this.setState({
+    user: null,
+    isLoading: false,
+    error: result.error || 'Error de autenticación',
+  });
+  return false;
+}
+```
+
+#### Comandos
+
+```bash
+# Ejecutar todos los tests
+moon run :test
+
+# Ejecutar tests de un proyecto específico
+moon run dashboard:test
+moon run web:test
+
+# Watch mode (re-ejecutar al guardar)
+moon run dashboard:test -- --watch
+
+# Coverage report
+moon run dashboard:test -- --coverage
+```
+
+#### Checklist Pre-Commit
+
+Antes de hacer commit, verificar:
+
+- [ ] Todos los tests pasan (`moon run :test`)
+- [ ] Coverage mínimo alcanzado
+- [ ] No hay tests skipped sin justificación (`it.skip`)
+- [ ] No hay console.log en tests
+- [ ] Nombres de tests son descriptivos
+
 ## Project Overview
 
 ALC Stronghold Platform <https://www.alcstronghold.com>
@@ -464,6 +664,118 @@ moon run dashboard:build  # Production build
 - Flowbite components with `initFlowbite()`
 - Vitest for unit testing
 - **Known warning**: "Empty sub-selector" from esbuild/critters CSS optimizer (Flowbite-related, safe to ignore)
+
+#### Angular Signal Forms API
+
+**CRÍTICO**: Esta es la API correcta para trabajar con `SignalFormDescriptor` y Angular Signal Forms. NO desviarse de estas convenciones.
+
+**Actualizar valores en formularios**:
+
+```typescript
+// ✅ CORRECTO - Actualizar UN SOLO campo:
+descriptor.form.email().value.set('test@example.com');
+descriptor.form.password().value.set('mypassword');
+
+// ✅ CORRECTO - Actualizar MÚLTIPLES campos (objeto):
+descriptor.updateModel({ email: 'test@example.com', password: 'mypassword' });
+
+// ❌ INCORRECTO - NO usar .set() directamente en el field:
+descriptor.form.email.set('test@example.com'); // ERROR
+descriptor.form.email().set('test@example.com'); // ERROR
+```
+
+**Binding en templates HTML**:
+
+```html
+<!-- ✅ CORRECTO - FormField directive SIN paréntesis: -->
+<input [formField]="descriptor.form.email" />
+
+<!-- ❌ INCORRECTO - NO añadir paréntesis al field: -->
+<input [formField]="descriptor.form.email()" />
+```
+
+**Leer valores del formulario**:
+
+```typescript
+// ✅ CORRECTO - Leer valor individual:
+const email = descriptor.model().email;
+
+// ✅ CORRECTO - Leer objeto completo:
+const formData = descriptor.model();
+
+// ❌ INCORRECTO - NO usar form field para lectura:
+const email = descriptor.form.email(); // Devuelve el field object, no el valor
+```
+
+**Acceder a errores de validación**:
+
+```typescript
+// ✅ CORRECTO - Obtener errores de un campo:
+const emailField = descriptor.form.email();
+const errors = emailField.errors();
+const firstError = errors.length > 0 ? errors[0].message : null;
+
+// ✅ CORRECTO - Verificar si un campo fue touched:
+const touched = emailField.touched();
+
+// ✅ CORRECTO - Marcar campo como touched:
+emailField.markAsTouched();
+```
+
+**Testing con Vitest**:
+
+```typescript
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { beforeEach, describe, expect, it } from 'vitest';
+
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>; // ✅ NUNCA usar any
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    fixture = TestBed.createComponent(LoginComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should update form field value', () => {
+    // ✅ CORRECTO - Actualizar un campo:
+    component.descriptor.form.email().value.set('test@example.com');
+
+    expect(component.descriptor.model().email).toBe('test@example.com');
+  });
+
+  it('should update multiple fields', () => {
+    // ✅ CORRECTO - Actualizar varios campos:
+    component.descriptor.updateModel({
+      email: 'test@example.com',
+      password: 'password123'
+    });
+
+    expect(component.descriptor.model().email).toBe('test@example.com');
+    expect(component.descriptor.model().password).toBe('password123');
+  });
+
+  it('should test InputSignal', () => {
+    // ✅ CORRECTO - Cambiar InputSignal en test:
+    fixture.componentRef.setInput('redirectUrl', '/dashboard');
+
+    expect(component.redirectUrl()).toBe('/dashboard');
+
+    // ❌ INCORRECTO - NO usar .set() en InputSignal:
+    // component.redirectUrl.set('/dashboard'); // ERROR
+  });
+});
+```
+
+**Reglas de oro**:
+
+1. **Para actualizar UN campo**: `descriptor.form.campo().value.set(valor)` - GRÁBATELO A FUEGO
+2. **Para actualizar MÚLTIPLES campos**: `descriptor.updateModel({ campo1, campo2 })`
+3. **Binding en template**: `[formField]="descriptor.form.campo"` (SIN paréntesis)
+4. **NUNCA usar `any`**: Siempre tipos específicos como `ComponentFixture<T>`
+5. **InputSignals en tests**: `fixture.componentRef.setInput('name', value)`
 
 ## Directus Import CLI
 
