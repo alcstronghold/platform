@@ -1,6 +1,7 @@
-import { Injectable } from '@angular/core';
 import { Settings, type SettingsData } from '@alcstronghold/infrastructure';
+import { Injectable } from '@angular/core';
 import { ofetch } from 'ofetch';
+
 import { environment } from '../../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
@@ -12,7 +13,7 @@ export class ConfigService {
    * Orden de carga:
    * 1. config.json (base)
    * 2. config.<environment>.json (development, staging, production)
-   * 3. config.local.json (opcional, no commiteado)
+   * 3. config.local.json (opcional, no hacer commit)
    */
   async loadConfig(): Promise<void> {
     const configuration = environment.configuration;
@@ -48,8 +49,7 @@ export class ConfigService {
     optional = false
   ): Promise<Partial<SettingsData> | null> {
     try {
-      const config = await ofetch<Partial<SettingsData>>(`/${filename}`);
-      return config;
+      return await ofetch<Partial<SettingsData>>(`/${filename}`);
     } catch (error) {
       if (optional) return null;
 

@@ -28,10 +28,8 @@ export default tseslint.config(
     },
     languageOptions: {
       parserOptions: {
-        projectService: {
-          allowDefaultProject: ['*.config.js', '*.config.ts'],
-        },
-        tsconfigRootDir: import.meta.dirname,
+        ecmaVersion: 'latest',
+        sourceType: 'module',
       },
     },
     rules: {

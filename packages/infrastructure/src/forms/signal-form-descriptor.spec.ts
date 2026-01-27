@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
-import { beforeEach, describe, expect, it } from 'vitest';
 import { email, required } from '@angular/forms/signals';
+import { beforeEach, describe, expect, it } from 'vitest';
+
 import { SignalFormDescriptor } from './signal-form-descriptor';
 
 interface TestFormData {

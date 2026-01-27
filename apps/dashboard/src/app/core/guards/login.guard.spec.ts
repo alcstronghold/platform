@@ -1,9 +1,10 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { TestBed } from '@angular/core/testing';
-import { Router } from '@angular/router';
 import { signal } from '@angular/core';
-import { loginGuard } from './login.guard';
+import { TestBed } from '@angular/core/testing';
+import { ActivatedRouteSnapshot, Router, RouterStateSnapshot } from '@angular/router';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+
 import { AuthService } from '../services/auth.service';
+import { loginGuard } from './login.guard';
 
 describe('loginGuard', () => {
   let mockAuthService: {
@@ -31,7 +32,9 @@ describe('loginGuard', () => {
   it('should allow access to login when user is NOT authenticated', () => {
     mockAuthService.isAuthenticated.set(false);
 
-    const result = TestBed.runInInjectionContext(() => loginGuard({} as any, {} as any));
+    const result = TestBed.runInInjectionContext(() =>
+      loginGuard({} as ActivatedRouteSnapshot, {} as RouterStateSnapshot)
+    );
 
     expect(result).toBe(true);
   });
@@ -39,7 +42,9 @@ describe('loginGuard', () => {
   it('should redirect to /dashboard when user is already authenticated', () => {
     mockAuthService.isAuthenticated.set(true);
 
-    TestBed.runInInjectionContext(() => loginGuard({} as any, {} as any));
+    TestBed.runInInjectionContext(() =>
+      loginGuard({} as ActivatedRouteSnapshot, {} as RouterStateSnapshot)
+    );
 
     expect(mockRouter.createUrlTree).toHaveBeenCalledWith(['/dashboard']);
   });

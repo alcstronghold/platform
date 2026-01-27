@@ -109,7 +109,7 @@ describe('LoginComponent', () => {
 
   describe('loginDisabled computed', () => {
     it('should be true when form is invalid', () => {
-      component.descriptor.patchValue({ email: '', password: '' });
+      component.descriptor.updateModel({ email: '', password: '' });
       expect(component.loginDisabled()).toBe(true);
     });
 
@@ -118,32 +118,32 @@ describe('LoginComponent', () => {
     });
 
     it('should be false when form is valid and dirty', () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       expect(component.loginDisabled()).toBe(false);
     });
 
     it('should be true when submitting', () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       component.isSubmitting.set(true);
       expect(component.loginDisabled()).toBe(true);
     });
   });
 
   describe('form field binding', () => {
-    it('should update email value via patchValue', () => {
-      component.descriptor.patchValue({ email: 'test@example.com' });
+    it('should update email value via updateModel', () => {
+      component.descriptor.updateModel({ email: 'test@example.com' });
       expect(component.descriptor.model().email).toBe('test@example.com');
     });
 
-    it('should update password value via patchValue', () => {
-      component.descriptor.patchValue({ password: 'password123' });
+    it('should update password value via updateModel', () => {
+      component.descriptor.updateModel({ password: 'password123' });
       expect(component.descriptor.model().password).toBe('password123');
     });
 
     it('should clear authError when form changes', () => {
       component.authError.set('Error anterior');
-      component.descriptor.patchValue({ email: 'test@example.com' });
-      // El component puede o no tener lógica para limpiar authError en patchValue
+      component.descriptor.updateModel({ email: 'test@example.com' });
+      // El component puede o no tener lógica para limpiar authError en updateModel
       // Este test verifica el estado actual
       expect(component.authError()).toBe('Error anterior');
     });

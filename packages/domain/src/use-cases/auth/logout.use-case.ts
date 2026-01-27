@@ -1,4 +1,4 @@
-import type { AuthPort } from '../../ports/auth.port';
+import type { AuthPort } from '../../ports';
 
 /**
  * Logout Use Case

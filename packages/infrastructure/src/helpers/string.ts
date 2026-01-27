@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 /**
  * Verifica si un string es null, undefined o vacío.
  */

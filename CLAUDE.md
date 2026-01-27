@@ -160,7 +160,7 @@ describe('ComponentName o FunctionName', () => {
 
 **BAJA (o Skip)**:
 
-- Componentes puramente presentacionales (solo template)
+- Componentes puramente de presentación (solo témplate)
 - Getters/setters triviales
 - Configuración de DI
 
@@ -348,7 +348,7 @@ docker compose restart directus
 ### Services & URLs
 
 | Service           | URL                                 | Description              |
-| ----------------- | ----------------------------------- | ------------------------ |
+|-------------------|-------------------------------------|--------------------------|
 | Directus Admin    | https://backend.alcstronghold.local | Headless CMS dashboard   |
 | Traefik Dashboard | http://localhost:8080               | Reverse proxy management |
 
@@ -638,7 +638,7 @@ import { CounterComponent } from '../components/counter.component';
 **Hydration directives**:
 
 | Directive        | Description                            |
-| ---------------- | -------------------------------------- |
+|------------------|----------------------------------------|
 | `client:load`    | Hydrate immediately on page load       |
 | `client:visible` | Hydrate when visible (recommended)     |
 | `client:idle`    | Hydrate when browser is idle           |
@@ -698,6 +698,8 @@ descriptor.form.email().set('test@example.com'); // ERROR
 
 ```typescript
 // ✅ CORRECTO - Leer valor individual:
+// noinspection JSAnnotator
+
 const email = descriptor.model().email;
 
 // ✅ CORRECTO - Leer objeto completo:
@@ -905,7 +907,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Roles** define which applications a user can access:
 
 | Role          | Directus Admin | Backend Dashboard | Public API |
-| ------------- | -------------- | ----------------- | ---------- |
+|---------------|----------------|-------------------|------------|
 | Administrator | ✓              | ✓                 | ✓          |
 | Collaborator  | ✗              | ✓                 | ✓          |
 | Member        | ✗              | ✗                 | ✓          |
@@ -913,7 +915,7 @@ The permission system separates **Roles** (application access levels) from **Pol
 **Policies** define granular permissions per feature:
 
 | Policy                    | Description                              |
-| ------------------------- | ---------------------------------------- |
+|---------------------------|------------------------------------------|
 | `base:content-reader`     | Read public content (genres, systems...) |
 | `user-profiles:self`      | Manage own user profile                  |
 | `rpg-sessions:player`     | Register as player in sessions           |

@@ -1,10 +1,11 @@
-import { InjectionToken, type Provider } from '@angular/core';
 import {
   createBrowserClient,
   DirectusAuthAdapter,
   type DirectusAuthClient,
 } from '@alcstronghold/directus-client';
 import type { AuthPort } from '@alcstronghold/domain';
+import { InjectionToken, type Provider } from '@angular/core';
+
 import { ConfigService } from '../config/config.service';
 
 export const DIRECTUS_CLIENT = new InjectionToken<DirectusAuthClient>('DIRECTUS_CLIENT');

@@ -3,8 +3,8 @@ import type { AuthenticatedUser } from '@alcstronghold/domain';
 import { TestBed } from '@angular/core/testing';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-import { AuthService } from './auth.service';
 import { AUTH_PORT } from '../providers/directus.provider';
+import { AuthService } from './auth.service';
 
 describe('AuthService', () => {
   let service: AuthService;
@@ -66,7 +66,7 @@ describe('AuthService', () => {
 
       expect(service.user()).toBeNull();
       expect(service.isAuthenticated()).toBe(false);
-      expect(service.error()).toBeNull(); // initialize no debe setear error
+      expect(service.error()).toBeNull();
     });
   });
 

@@ -64,17 +64,17 @@ describe('LoginComponent', () => {
       const hasRequiredError = emailField.errors().some((e) => e.message === 'El email es obligatorio');
       expect(hasRequiredError).toBe(true);
 
-      component.descriptor.patchValue({ email: 'test@example.com' });
+      component.descriptor.updateModel({ email: 'test@example.com' });
       const stillHasError = component.descriptor.form.email().errors().some((e) => e.message === 'El email es obligatorio');
       expect(stillHasError).toBe(false);
     });
 
     it('should validate email format', () => {
-      component.descriptor.patchValue({ email: 'invalid-email' });
+      component.descriptor.updateModel({ email: 'invalid-email' });
       let hasEmailError = component.descriptor.form.email().errors().some((e) => e.message === 'El formato del email no es válido');
       expect(hasEmailError).toBe(true);
 
-      component.descriptor.patchValue({ email: 'valid@example.com' });
+      component.descriptor.updateModel({ email: 'valid@example.com' });
       hasEmailError = component.descriptor.form.email().errors().some((e) => e.message === 'El formato del email no es válido');
       expect(hasEmailError).toBe(false);
     });
@@ -84,17 +84,17 @@ describe('LoginComponent', () => {
       const hasRequiredError = passwordField.errors().some((e) => e.message === 'La contraseña es obligatoria');
       expect(hasRequiredError).toBe(true);
 
-      component.descriptor.patchValue({ password: 'password123' });
+      component.descriptor.updateModel({ password: 'password123' });
       const stillHasError = component.descriptor.form.password().errors().some((e) => e.message === 'La contraseña es obligatoria');
       expect(stillHasError).toBe(false);
     });
 
     it('should validate password min length (6 characters)', () => {
-      component.descriptor.patchValue({ password: '12345' });
+      component.descriptor.updateModel({ password: '12345' });
       let hasMinLengthError = component.descriptor.form.password().errors().some((e) => e.message === 'La contraseña debe tener al menos 6 caracteres');
       expect(hasMinLengthError).toBe(true);
 
-      component.descriptor.patchValue({ password: '123456' });
+      component.descriptor.updateModel({ password: '123456' });
       hasMinLengthError = component.descriptor.form.password().errors().some((e) => e.message === 'La contraseña debe tener al menos 6 caracteres');
       expect(hasMinLengthError).toBe(false);
     });
@@ -112,7 +112,7 @@ describe('LoginComponent', () => {
     });
 
     it('should show format error for invalid email when touched', () => {
-      component.descriptor.patchValue({ email: 'invalid' });
+      component.descriptor.updateModel({ email: 'invalid' });
       component.descriptor.form.email().markAsTouched();
 
       expect(component.emailError()).toBe('El formato del email no es válido');
@@ -129,7 +129,7 @@ describe('LoginComponent', () => {
     });
 
     it('should show minlength error for short password when touched', () => {
-      component.descriptor.patchValue({ password: '123' });
+      component.descriptor.updateModel({ password: '123' });
       component.descriptor.form.password().markAsTouched();
 
       expect(component.passwordError()).toBe('La contraseña debe tener al menos 6 caracteres');
@@ -146,7 +146,7 @@ describe('LoginComponent', () => {
     });
 
     it('should call authService.login with form values when valid', async () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       mockAuthService.login.mockResolvedValue(true);
       vi.spyOn(mockRouter, 'navigate').mockResolvedValue(true);
 
@@ -156,7 +156,7 @@ describe('LoginComponent', () => {
     });
 
     it('should clear error before submitting', async () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       mockAuthService.login.mockResolvedValue(true);
       vi.spyOn(mockRouter, 'navigate').mockResolvedValue(true);
 
@@ -166,7 +166,7 @@ describe('LoginComponent', () => {
     });
 
     it('should set isSubmitting to true during login', async () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       vi.spyOn(mockRouter, 'navigate').mockResolvedValue(true);
 
       mockAuthService.login.mockImplementation(
@@ -185,7 +185,7 @@ describe('LoginComponent', () => {
 
   describe('redirect behavior after successful login', () => {
     beforeEach(() => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'password123' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'password123' });
       mockAuthService.login.mockResolvedValue(true);
       vi.spyOn(mockRouter, 'navigateByUrl').mockResolvedValue(true);
       vi.spyOn(mockRouter, 'navigate').mockResolvedValue(true);
@@ -236,7 +236,7 @@ describe('LoginComponent', () => {
 
   describe('failed login behavior', () => {
     it('should not navigate when login fails', async () => {
-      component.descriptor.patchValue({ email: 'test@example.com', password: 'wrong' });
+      component.descriptor.updateModel({ email: 'test@example.com', password: 'wrong' });
       mockAuthService.login.mockResolvedValue(false);
 
       vi.spyOn(mockRouter, 'navigate');

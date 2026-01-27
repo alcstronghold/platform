@@ -171,6 +171,7 @@ export async function schemaClearCommand(
   if (options.dryRun) log.warn('DRY RUN - No changes will be applied');
 
   log.info('Fetching collections and relations...');
+  // noinspection ES6MissingAwait
   const [allCollections, allRelations] = await Promise.all([
     client.request(readCollections()) as Promise<CollectionInfo[]>,
     client.request(readRelations()) as Promise<RelationInfo[]>,

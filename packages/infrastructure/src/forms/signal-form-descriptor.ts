@@ -7,7 +7,6 @@ import {
   type FieldTree,
   form,
   type FormOptions,
-  type PathKind,
   type SchemaOrSchemaFn,
   type SchemaPath
 } from '@angular/forms/signals';
@@ -43,7 +42,7 @@ export class SignalFormDescriptor<TModel> {
     this._model = signal({ ...initialValue });
 
     this.form = form(this._model, (root) => {
-      disabled(root as SchemaPath<TModel, 1, PathKind.Root>, () => this._isDisabled());
+      disabled(root as SchemaPath<TModel>, () => this._isDisabled());
       if (typeof schemaFn === 'function')         schemaFn(root);
     }, options ?? {});
 

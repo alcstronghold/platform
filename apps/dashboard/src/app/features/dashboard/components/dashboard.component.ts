@@ -1,10 +1,12 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component, computed, inject } from '@angular/core';
 import { Router } from '@angular/router';
+
 import { AuthService } from '../../../core/services/auth.service';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })

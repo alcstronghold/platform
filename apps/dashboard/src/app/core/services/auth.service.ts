@@ -1,6 +1,7 @@
-import { computed, inject, Injectable, signal } from '@angular/core';
 import type { AuthenticatedUser } from '@alcstronghold/domain';
 import { GetCurrentUserUseCase, LoginUseCase, LogoutUseCase } from '@alcstronghold/domain';
+import { computed, inject, Injectable, signal } from '@angular/core';
+
 import { AUTH_PORT } from '../providers/directus.provider';
 
 export interface AuthState {

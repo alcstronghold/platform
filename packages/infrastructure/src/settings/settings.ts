@@ -1,5 +1,8 @@
+// noinspection JSUnusedGlobalSymbols
+
 import { z } from 'zod';
-import { isNotBlank } from '../helpers/string';
+
+import { isNotBlank } from '../helpers';
 
 /**
  * Schema Zod para validar configuración de la aplicación.
