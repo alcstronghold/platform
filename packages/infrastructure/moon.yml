@@ -1,0 +1,24 @@
+language: typescript
+type: library
+
+tasks:
+  build:
+    command: tsc -b
+    inputs:
+      - src/**/*
+      - tsconfig.json
+    outputs:
+      - dist/**/*
+
+  test:
+    command: vitest run
+    inputs:
+      - src/**/*
+      - vitest.config.ts
+      - vitest.setup.ts
+
+  typecheck:
+    command: tsc --noEmit
+    inputs:
+      - src/**/*
+      - tsconfig.json
