@@ -2,7 +2,7 @@
   "$schema": "node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "bun"
+    "packageManager": "bun@1.3.7"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -45,7 +45,13 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"

@@ -28,6 +28,15 @@
       "path": "./tsconfig.spec.json"
     },
     {
+      "path": "../../packages/directus-client"
+    },
+    {
+      "path": "../../packages/domain"
+    },
+    {
+      "path": "../../packages/infrastructure"
+    },
+    {
       "path": "../../packages/ui"
     }
   ]
