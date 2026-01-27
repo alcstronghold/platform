@@ -1661,5 +1661,22 @@
       "ca-ES": "Les Fairelands (Candela Obscura)"
     },
     "genres": ["gothic-horror", "investigation", "supernatural-horror", "fantasy", "mystery"]
+  },
+  {
+    "identifier": "empire-without-end",
+    "name": "The Empire Without End",
+    "translations": {
+      "es-ES": "El Imperio Sin Fin",
+      "ca-ES": "L'Imperi Sense Fi"
+    },
+    "genres": [
+      "alternate-history",
+      "ancient",
+      "fantasy",
+      "investigation",
+      "mythology",
+      "greek-roman-myth",
+      "action-adventure"
+    ]
   }
 ]

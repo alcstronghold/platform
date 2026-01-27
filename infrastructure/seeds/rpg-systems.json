@@ -610,5 +610,14 @@
       "es-ES": "Index Card RPG System",
       "ca-ES": "Index Card RPG System"
     }
+  },
+  {
+    "identifier": "lex-arcana-system",
+    "name": "Lex Arcana System (Roll & Mix)",
+    "bgg_id": null,
+    "translations": {
+      "es-ES": "Lex Arcana System (Roll & Mix)",
+      "ca-ES": "Lex Arcana System (Roll & Mix)"
+    }
   }
 ]
