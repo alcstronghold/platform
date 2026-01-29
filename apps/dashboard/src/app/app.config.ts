@@ -1,21 +1,17 @@
-import { IMAGE_LOADER } from '@angular/common';
-import { type ApplicationConfig, inject, provideAppInitializer, provideBrowserGlobalErrorListeners } from '@angular/core';
+import { type ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
-import { ConfigService } from './core/config/config.service';
+import { provideAuthInitialization } from './core/providers/auth-initialization.provider';
+import { provideConfiguration } from './core/providers/config.provider';
 import { provideDirectus } from './core/providers/directus.provider';
+import { provideImageLoader } from './core/providers/image-loader.provider';
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideAppInitializer(() => {
-      const configService = inject(ConfigService);
-      return configService.loadConfig();
-    }),
-    {
-      provide: IMAGE_LOADER,
-      useValue: (config: { src: string }) => config.src,
-    },
+    provideConfiguration(),
+    provideImageLoader(),
+    provideAuthInitialization(),
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes),
     provideDirectus(),
