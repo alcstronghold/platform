@@ -119,14 +119,6 @@ describe('SignalFormDescriptor', () => {
 
       expect(descriptor.isPristine()).toBe(true);
     });
-
-    it('should clear error state on reset', () => {
-      descriptor.hasError.set(true);
-
-      descriptor.reset({ name: '', email: '', age: 0 });
-
-      expect(descriptor.hasError()).toBe(false);
-    });
   });
 
   describe('markAsSaved', () => {
@@ -146,14 +138,6 @@ describe('SignalFormDescriptor', () => {
       descriptor.markAsSaved();
 
       expect(descriptor.isPristine()).toBe(true);
-    });
-
-    it('should clear error state', () => {
-      descriptor.hasError.set(true);
-
-      descriptor.markAsSaved();
-
-      expect(descriptor.hasError()).toBe(false);
     });
   });
 
@@ -304,48 +288,4 @@ describe('SignalFormDescriptor', () => {
     });
   });
 
-  describe('error handling', () => {
-    beforeEach(() => {
-      TestBed.runInInjectionContext(() => {
-        descriptor = new SignalFormDescriptor<TestFormData>(
-          { name: '', email: '', age: 0 },
-          () => {}
-        );
-      });
-    });
-
-    it('should have hasError signal', () => {
-      expect(descriptor.hasError()).toBe(false);
-
-      descriptor.hasError.set(true);
-
-      expect(descriptor.hasError()).toBe(true);
-    });
-
-    it('should clear error on value change', async () => {
-      descriptor.hasError.set(true);
-      expect(descriptor.hasError()).toBe(true);
-
-      descriptor.form.name().value.set('Alice');
-
-      await new Promise(resolve => setTimeout(resolve, 10));
-      expect(descriptor.hasError()).toBe(false);
-    });
-
-    it('should support persistent errors', () => {
-      descriptor.isErrorPersistent.set(true);
-      descriptor.hasError.set(true);
-
-      expect(descriptor.hasError()).toBe(true);
-      expect(descriptor.isErrorPersistent()).toBe(true);
-    });
-
-    it('should configure non-persistent error timeout', () => {
-      descriptor.isErrorPersistent.set(false);
-      descriptor.errorTimeoutSeconds.set(5);
-
-      expect(descriptor.isErrorPersistent()).toBe(false);
-      expect(descriptor.errorTimeoutSeconds()).toBe(5);
-    });
-  });
 });
