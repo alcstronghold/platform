@@ -18,6 +18,9 @@ export class DashboardComponent {
 
   protected async onLogout(): Promise<void> {
     await this.authService.logout();
-    await this.router.navigate(['/login']);
+    await this.router.navigate(['/login'], {
+      queryParams: {},
+      queryParamsHandling: '',
+    });
   }
 }
