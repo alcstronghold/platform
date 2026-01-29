@@ -14,9 +14,10 @@ export class LoginUseCase {
 
     if (!result.success) {
       // Return first validation error
+      const firstError = result.error.issues[0];
       return {
         success: false,
-        error: result.error.errors[0].message,
+        error: firstError?.message ?? 'Error de validación',
       };
     }
 
