@@ -10,7 +10,7 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "ES2022",
+    "target": "ES2023",
     "module": "preserve"
   },
   "angularCompilerOptions": {
@@ -26,18 +26,6 @@
     },
     {
       "path": "./tsconfig.spec.json"
-    },
-    {
-      "path": "../../packages/directus-client"
-    },
-    {
-      "path": "../../packages/domain"
-    },
-    {
-      "path": "../../packages/infrastructure"
-    },
-    {
-      "path": "../../packages/ui"
     }
   ]
 }
