@@ -6,6 +6,15 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
 
 - [ ] **SonarQube / Inspections**: Pendiente revisar issues restantes
 - [ ] **Proto bunx plugin**: `moon run :lint` falla en directus-schema y directus-import (bunx no configurado en `.prototools`)
+- [ ] **Autenticación Login**: Flujo de login compartido entre Astro y Angular:
+  - [x] packages/domain: User entity, AuthPort interface, use cases (Login, Logout, GetCurrentUser)
+  - [x] packages/directus-client: Directus SDK client factories, DirectusAuthAdapter
+  - [x] packages/infrastructure: SignalFormDescriptor para gestión de formularios con Signal Forms
+  - [x] apps/dashboard: LoginComponent con Signal Forms, guards (authGuard, loginGuard) y AuthService
+  - [x] apps/web: LoginComponent island con Signal Forms
+  - [ ] apps/web: Astro SSR híbrido con middleware de auth
+  - [ ] apps/web: Página de login, Header con usuario, API endpoints
+  - [ ] Configuración CORS en Directus para cookies cross-origin
 - [ ] **Sistema de Partidas (rpg_sessions)**: MVP para gestión de partidas:
   - [x] Tipos TypeScript para colecciones auxiliares (11 enums)
   - [x] Payloads y seeds para colecciones auxiliares
@@ -25,15 +34,13 @@ Tareas pendientes del proyecto. Priorizar moviendo hacia arriba.
     - [x] identifier: display `formatted-value` con monospace and bold
     - [x] status: display `labels` con `showAsDot: true` y colores
     - [x] Comando `fields-display` creado (37 campos actualizados)
-  - [ ] packages/domain con entidades y casos de uso
 
 ## Pendiente - Alta Prioridad
 
-- [ ] **Integración Directus**: Login y user management en apps/dashboard
+(Vacío - ver "En Progreso")
 
 ## Pendiente - Media Prioridad
 
-- [ ] **packages/domain**: Entidades de negocio y casos de uso
 - [ ] **packages/ui**: Componentes UI compartidos
 - [ ] **Documentación API**: Generar docs desde tipos TypeScript
 

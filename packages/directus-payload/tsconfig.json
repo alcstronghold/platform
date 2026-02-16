@@ -1,13 +1,16 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "composite": true,
-    "noEmit": false,
-    "declaration": true,
-    "declarationMap": true
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2023"
   },
-  "include": ["src/**/*"],
-  "references": [{ "path": "../directus-schema" }]
+  "include": [
+    "src/**/*"
+  ],
+  "references": [
+    {
+      "path": "../directus-schema"
+    }
+  ]
 }

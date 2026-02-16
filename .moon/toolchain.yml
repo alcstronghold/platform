@@ -3,9 +3,9 @@ $schema: './cache/schemas/toolchain.json'
 
 # Use Bun as the primary package manager and runtime
 bun:
-  version: '1.3.5'
+  version: '1.3.8'
 
 # TypeScript configuration
 typescript:
   routeOutDirToCache: false
-  syncProjectReferences: true
+  syncProjectReferences: false

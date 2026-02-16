@@ -1,6 +1,7 @@
 {
   "name": "@alcstronghold/directus-payload",
   "version": "0.1.0",
+  "packageManager": "bun@1.3.9",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -10,15 +11,7 @@
       "import": "./src/index.ts"
     }
   },
-  "scripts": {
-    "build": "tsc -b",
-    "typecheck": "tsc --noEmit"
-  },
   "dependencies": {
     "@alcstronghold/directus-schema": "workspace:*"
-  },
-  "devDependencies": {
-    "bun-types": "latest",
-    "typescript": "^5.7.2"
   }
 }

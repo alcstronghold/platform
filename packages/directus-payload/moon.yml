@@ -5,14 +5,15 @@ dependsOn:
   - directus-schema
 
 tasks:
-  build:
-    command: bun run build
+  test:
+    command: "bunx vitest run"
     inputs:
       - src/**/*
-    outputs:
-      - dist/**/*
+      - vitest.config.ts
+      - vitest.setup.ts
 
   typecheck:
-    command: bun run typecheck
+    command: bun run tsc --noEmit
     inputs:
       - src/**/*
+      - tsconfig.json

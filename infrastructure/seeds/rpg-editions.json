@@ -2351,5 +2351,27 @@
     "rpg_system_id": "hitos",
     "rpg_family_id": "cthulhu-mythos",
     "bgg_id": 27017
+  },
+  {
+    "identifier": "lex-arcana-1st-edition",
+    "name": "Lex Arcana (1st Edition)",
+    "translations": {
+      "es-ES": "Lex Arcana (1ª Edición)",
+      "ca-ES": "Lex Arcana (1ª Edició)"
+    },
+    "rpg_system_id": "lex-arcana-system",
+    "rpg_family_id": "lex-arcana",
+    "bgg_id": 47180
+  },
+  {
+    "identifier": "lex-arcana-2nd-edition",
+    "name": "Lex Arcana (2nd Edition)",
+    "translations": {
+      "es-ES": "Lex Arcana (2ª Edición)",
+      "ca-ES": "Lex Arcana (2ª Edició)"
+    },
+    "rpg_system_id": "lex-arcana-system",
+    "rpg_family_id": "lex-arcana",
+    "bgg_id": 303622
   }
 ]

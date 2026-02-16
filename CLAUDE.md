@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Entorno de Desarrollo
+
+**CRÍTICO:** El desarrollo se realiza en **Windows con PowerShell Core**.
+
+Ver `~/.claude/CLAUDE.md` para la guía completa sobre:
+
+- Herramientas especializadas de Claude Code (Grep, Read, Glob)
+- Uso correcto de Bash tool con pwsh
+- Comandos PowerShell y Windows
+
 ## User Settings
 
 - **Code language**: English
@@ -17,6 +27,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Bold labels**: Use colon: `**Tema**: descripción` (not `**tema** - descripción`)
 - **Avoid**: Spaces inside bold markers (`** text **`)
 
+## Mensajes de Commit
+
+**Formato:** Palabras técnicas en inglés, explicación en castellano.
+
+```bash
+✅ CORRECTO:
+refactor(frontend): eliminar allowSignalWrites deprecated de los effects
+
+Se elimina la opción allowSignalWrites de todos los effect() porque está
+deprecated en Angular v21 y ya no es necesaria.
+
+❌ INCORRECTO (todo en inglés):
+refactor(frontend): remove deprecated allowSignalWrites from effects
+
+Remove allowSignalWrites option from all effect() calls as it is deprecated
+in Angular v21 and is no longer needed.
+```
+
+**Reglas:**
+
+- Tipo de commit en inglés: `feat`, `fix`, `refactor`, `chore`, `docs`, etc.
+- Scope en inglés cuando sea técnico: `frontend`, `backend`, `api`, etc.
+- Título: mezcla natural (técnico en inglés, verbos/acciones en castellano)
+- Cuerpo: explicación completa en castellano, manteniendo términos técnicos en inglés
+- Términos técnicos siempre en inglés: `signal`, `effect`, `component`, `service`, `endpoint`, etc.
+
 ## Development Tools
 
 ### IDE: WebStorm
@@ -28,20 +64,205 @@ The project uses WebStorm with JetBrains MCP integration for:
 - Terminal command execution
 - Refactoring operations
 
-### Git Client: GitKraken
+## Metodología de Desarrollo
 
-GitKraken MCP tools are available for git operations:
+### Test-Driven Development (TDD)
 
-- `mcp__gitkraken__git_status` - Working tree status
-- `mcp__gitkraken__git_add_or_commit` - Stage and commit changes
-- `mcp__gitkraken__git_log_or_diff` - View history and changes
-- `mcp__gitkraken__git_branch` - List/create branches
-- `mcp__gitkraken__git_checkout` - Switch branches
-- `mcp__gitkraken__git_push` - Push to remote
-- `mcp__gitkraken__pull_request_*` - PR management (GitHub/GitLab/Azure)
-- `mcp__gitkraken__issues_*` - Issue tracking integration
+**OBLIGATORIO**: Claude Code DEBE seguir TDD para TODO el código nuevo.
 
-**Prefer GitKraken MCP tools over bash git commands** for better integration.
+#### Ciclo Red-Green-Refactor
+
+**Red (Rojo)**:
+
+1. Escribir tests que describan el comportamiento deseado
+2. Ejecutar tests - deben FALLAR (no existe implementación aún)
+3. Verificar que fallan por la razón correcta
+
+**Green (Verde)**:
+
+1. Escribir el código MÍNIMO necesario para que los tests pasen
+2. No optimizar ni sobre-diseñar
+3. Ejecutar tests - deben PASAR
+
+**Refactor**:
+
+1. Limpiar código manteniendo tests verdes
+2. Aplicar Clean Code, SOLID, eliminar code smells
+3. Ejecutar tests después de cada cambio - deben permanecer verdes
+
+#### Reglas de TDD
+
+1. **NO escribir código de producción** sin un test que falle primero
+2. **NO escribir más test** del necesario para fallar (compilación fallida cuenta)
+3. **NO escribir más código** del necesario para pasar el test actual
+4. **Tests primero, SIEMPRE**: Excepciones solo para:
+   - HTML/CSS puro (no lógica)
+   - Configuración de build tools
+   - Scripts de deployment
+
+#### Estructura de Tests
+
+**Angular (Dashboard)**:
+
+- Framework: Vitest (configurado en el proyecto)
+- Ubicación: `*.spec.ts` junto al archivo de código
+- Naming: `<component-name>.component.spec.ts`, `<service-name>.service.spec.ts`
+
+**Astro (Web - Angular Islands)**:
+
+- Framework: Vitest
+- Ubicación: `*.spec.ts` junto al componente
+
+**Convenciones**:
+
+```typescript
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+
+describe('ComponentName o FunctionName', () => {
+  describe('feature o method name', () => {
+    it('should describe expected behavior in specific scenario', () => {
+      // Arrange (preparar)
+      const input = setupInput();
+
+      // Act (ejecutar)
+      const result = functionUnderTest(input);
+
+      // Assert (verificar)
+      expect(result).toBe(expected);
+    });
+  });
+});
+```
+
+#### Coverage Mínimo
+
+- **Statements**: 80% mínimo
+- **Branches**: 75% mínimo
+- **Functions**: 80% mínimo
+- **Lines**: 80% mínimo
+
+**IMPORTANTE**: Coverage NO es el objetivo, sino un indicador. Tests deben probar comportamiento, no líneas.
+
+#### Qué Testear (Prioridad)
+
+**ALTA**:
+
+- Business logic (use cases, services)
+- Validaciones y transformaciones de datos
+- Conditional logic y edge cases
+- Error handling
+
+**MEDIA**:
+
+- Componentes con lógica (computed signals, form validation)
+- Guards y interceptors
+- Utilities y helpers
+
+**BAJA (o Skip)**:
+
+- Componentes puramente de presentación (solo témplate)
+- Getters/setters triviales
+- Configuración de DI
+
+#### Testing Utilities
+
+**Angular Testing**:
+
+```typescript
+import { TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
+import { signal } from '@angular/core';
+
+// Mock signals
+const mockUser = signal<User | null>(null);
+
+// Mock services con Vitest
+const mockAuthService = {
+  user: mockUser,
+  login: vi.fn(),
+  logout: vi.fn(),
+};
+```
+
+**DOM Testing (opcional, para componentes complejos)**:
+
+```typescript
+import { render, screen } from '@testing-library/angular';
+import userEvent from '@testing-library/user-event';
+
+// Preferir testing-library para tests de integración de componentes
+```
+
+#### Ejemplo Completo TDD
+
+**Red - Test que falla**:
+
+```typescript
+describe('AuthService', () => {
+  it('should return false when login fails with invalid credentials', async () => {
+    const service = new AuthService(mockAuthPort);
+    const result = await service.login('invalid@email.com', 'wrong');
+    expect(result).toBe(false);
+  });
+});
+```
+
+**Green - Implementación mínima**:
+
+```typescript
+async login(email: string, password: string): Promise<boolean> {
+  const result = await this.loginUseCase.execute({ email, password });
+  return result.success;
+}
+```
+
+**Refactor - Mejorar sin romper tests**:
+
+```typescript
+async login(email: string, password: string): Promise<boolean> {
+  this.setState({ ...this.state(), isLoading: true, error: null });
+  const result = await this.loginUseCase.execute({ email, password });
+
+  if (result.success && result.user) {
+    this.setState({ user: result.user, isLoading: false, error: null });
+    return true;
+  }
+
+  this.setState({
+    user: null,
+    isLoading: false,
+    error: result.error || 'Error de autenticación',
+  });
+  return false;
+}
+```
+
+#### Comandos
+
+```bash
+# Ejecutar todos los tests
+moon run :test
+
+# Ejecutar tests de un proyecto específico
+moon run dashboard:test
+moon run web:test
+
+# Watch mode (re-ejecutar al guardar)
+moon run dashboard:test -- --watch
+
+# Coverage report
+moon run dashboard:test -- --coverage
+```
+
+#### Checklist Pre-Commit
+
+Antes de hacer commit, verificar:
+
+- [ ] Todos los tests pasan (`moon run :test`)
+- [ ] Coverage mínimo alcanzado
+- [ ] No hay tests skipped sin justificación (`it.skip`)
+- [ ] No hay console.log en tests
+- [ ] Nombres de tests son descriptivos
 
 ## Project Overview
 
@@ -159,8 +380,8 @@ platform/
 ├── packages/                # Shared libraries
 │   ├── directus-schema/     # TypeScript types for Directus collections
 │   ├── directus-payload/    # Payload interfaces for JSON import/export
+│   ├── directus-client/     # Directus SDK client for authentication
 │   ├── domain/              # Business entities and use cases
-│   ├── infrastructure/      # External services adapters (Directus SDK)
 │   └── ui/                  # Shared Tailwind and Flowbite theme
 ├── tools/                   # Development utilities
 │   └── directus-import/     # CLI for importing/exporting Directus data
@@ -235,6 +456,83 @@ During development, packages export source TypeScript directly:
 }
 ```
 
+## Domain Layer
+
+### @alcstronghold/domain
+
+Business logic layer following Clean Architecture principles. Contains entities, ports (interfaces), and use cases.
+
+```
+packages/domain/src/
+├── entities/
+│   └── user.entity.ts      # User, AuthenticatedUser, computeDisplayName
+├── ports/
+│   └── auth.port.ts        # AuthPort interface, LoginCredentials, AuthResult
+├── use-cases/auth/
+│   ├── login.use-case.ts   # LoginUseCase with email validation
+│   ├── logout.use-case.ts  # LogoutUseCase
+│   └── get-current-user.use-case.ts
+└── index.ts
+```
+
+**Key interfaces**:
+
+```typescript
+// User entity
+interface User {
+  id: string;
+  email: string;
+  firstName: string | null;
+  lastName: string | null;
+  avatar: string | null;
+}
+
+interface AuthenticatedUser extends User {
+  displayName: string; // Computed: "FirstName LastName" or email prefix
+}
+
+// Auth port (interface for adapters)
+interface AuthPort {
+  login(credentials: LoginCredentials): Promise<AuthResult>;
+  logout(): Promise<void>;
+  refreshToken(): Promise<AuthResult>;
+  getCurrentUser(): Promise<AuthenticatedUser | null>;
+}
+```
+
+**Security note**: Email validation uses string methods (no regex) to prevent ReDoS vulnerabilities.
+
+### @alcstronghold/directus-client
+
+Directus SDK client implementing domain ports. Uses session-based authentication with HTTP-only cookies for security.
+
+```
+packages/directus-client/src/
+├── client.ts         # createBrowserClient, createServerClient factories
+├── auth.adapter.ts   # DirectusAuthAdapter implements AuthPort
+└── index.ts
+```
+
+**Client factories**:
+
+- `createBrowserClient(config)`: For client-side use, includes `credentials: 'include'`
+- `createServerClient(config, headers)`: For SSR, forwards cookies from request headers
+
+**Usage**:
+
+```typescript
+import { createBrowserClient, DirectusAuthAdapter } from '@alcstronghold/directus-client';
+import { LoginUseCase } from '@alcstronghold/domain';
+
+// Create client and adapter
+const client = createBrowserClient({ url: 'https://backend.alcstronghold.local' });
+const authAdapter = new DirectusAuthAdapter(client);
+
+// Use domain use case
+const loginUseCase = new LoginUseCase(authAdapter);
+const result = await loginUseCase.execute({ email, password });
+```
+
 ## Directus Data Packages
 
 ### @alcstronghold/directus-schema
@@ -277,7 +575,7 @@ Usage in apps:
 
 ```css
 /* Import shared theme */
-@import "@alcstronghold/ui/styles/globals.css";
+@import '@alcstronghold/ui/styles/globals.css';
 
 /* Scan app files for Tailwind classes */
 @source "./**/*.html";
@@ -339,12 +637,12 @@ import { CounterComponent } from '../components/counter.component';
 
 **Hydration directives**:
 
-| Directive        | Description                              |
-|------------------|------------------------------------------|
-| `client:load`    | Hydrate immediately on page load         |
-| `client:visible` | Hydrate when visible (recommended)       |
-| `client:idle`    | Hydrate when browser is idle             |
-| (none)           | SSR only, no client-side interactivity   |
+| Directive        | Description                            |
+|------------------|----------------------------------------|
+| `client:load`    | Hydrate immediately on page load       |
+| `client:visible` | Hydrate when visible (recommended)     |
+| `client:idle`    | Hydrate when browser is idle           |
+| (none)           | SSR only, no client-side interactivity |
 
 **Requirements**:
 
@@ -366,6 +664,120 @@ moon run dashboard:build  # Production build
 - Flowbite components with `initFlowbite()`
 - Vitest for unit testing
 - **Known warning**: "Empty sub-selector" from esbuild/critters CSS optimizer (Flowbite-related, safe to ignore)
+
+#### Angular Signal Forms API
+
+**CRÍTICO**: Esta es la API correcta para trabajar con `SignalFormDescriptor` y Angular Signal Forms. NO desviarse de estas convenciones.
+
+**Actualizar valores en formularios**:
+
+```typescript
+// ✅ CORRECTO - Actualizar UN SOLO campo:
+descriptor.form.email().value.set('test@example.com');
+descriptor.form.password().value.set('mypassword');
+
+// ✅ CORRECTO - Actualizar MÚLTIPLES campos (objeto):
+descriptor.updateModel({ email: 'test@example.com', password: 'mypassword' });
+
+// ❌ INCORRECTO - NO usar .set() directamente en el field:
+descriptor.form.email.set('test@example.com'); // ERROR
+descriptor.form.email().set('test@example.com'); // ERROR
+```
+
+**Binding en templates HTML**:
+
+```html
+<!-- ✅ CORRECTO - FormField directive SIN paréntesis: -->
+<input [formField]="descriptor.form.email" />
+
+<!-- ❌ INCORRECTO - NO añadir paréntesis al field: -->
+<input [formField]="descriptor.form.email()" />
+```
+
+**Leer valores del formulario**:
+
+```typescript
+// ✅ CORRECTO - Leer valor individual:
+// noinspection JSAnnotator
+
+const email = descriptor.model().email;
+
+// ✅ CORRECTO - Leer objeto completo:
+const formData = descriptor.model();
+
+// ❌ INCORRECTO - NO usar form field para lectura:
+const email = descriptor.form.email(); // Devuelve el field object, no el valor
+```
+
+**Acceder a errores de validación**:
+
+```typescript
+// ✅ CORRECTO - Obtener errores de un campo:
+const emailField = descriptor.form.email();
+const errors = emailField.errors();
+const firstError = errors.length > 0 ? errors[0].message : null;
+
+// ✅ CORRECTO - Verificar si un campo fue touched:
+const touched = emailField.touched();
+
+// ✅ CORRECTO - Marcar campo como touched:
+emailField.markAsTouched();
+```
+
+**Testing con Vitest**:
+
+```typescript
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { beforeEach, describe, expect, it } from 'vitest';
+
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>; // ✅ NUNCA usar any
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    fixture = TestBed.createComponent(LoginComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should update form field value', () => {
+    // ✅ CORRECTO - Actualizar un campo:
+    component.descriptor.form.email().value.set('test@example.com');
+
+    expect(component.descriptor.model().email).toBe('test@example.com');
+  });
+
+  it('should update multiple fields', () => {
+    // ✅ CORRECTO - Actualizar varios campos:
+    component.descriptor.updateModel({
+      email: 'test@example.com',
+      password: 'password123'
+    });
+
+    expect(component.descriptor.model().email).toBe('test@example.com');
+    expect(component.descriptor.model().password).toBe('password123');
+  });
+
+  it('should test InputSignal', () => {
+    // ✅ CORRECTO - Cambiar InputSignal en test:
+    fixture.componentRef.setInput('redirectUrl', '/dashboard');
+
+    expect(component.redirectUrl()).toBe('/dashboard');
+
+    // ❌ INCORRECTO - NO usar .set() en InputSignal:
+    // component.redirectUrl.set('/dashboard'); // ERROR
+  });
+});
+```
+
+**Reglas de oro**:
+
+1. **Para actualizar UN campo**: `descriptor.form.campo().value.set(valor)` - GRÁBATELO A FUEGO
+2. **Para actualizar MÚLTIPLES campos**: `descriptor.updateModel({ campo1, campo2 })`
+3. **Binding en template**: `[formField]="descriptor.form.campo"` (SIN paréntesis)
+4. **NUNCA usar `any`**: Siempre tipos específicos como `ComponentFixture<T>`
+5. **InputSignals en tests**: `fixture.componentRef.setInput('name', value)`
 
 ## Directus Import CLI
 
@@ -715,11 +1127,11 @@ Excessive coupling between classes:
 
 ```typescript
 // BAD: Negated condition
-existingId != null ? { id: existingId } : {}
+existingId != null ? { id: existingId } : {};
 
 // GOOD: Named boolean variable
 const hasExistingId = existingId != null;
-hasExistingId ? { id: existingId } : {}
+hasExistingId ? { id: existingId } : {};
 ```
 
 ### TypeScript Typing Conventions

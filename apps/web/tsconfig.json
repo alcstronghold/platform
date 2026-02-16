@@ -7,9 +7,26 @@
   "exclude": [
     "dist"
   ],
-  "references": [
-    {
-      "path": "../../packages/ui"
-    }
-  ]
+  "compilerOptions": {
+    "verbatimModuleSyntax": true,
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@astro-stronghold/layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@astro-stronghold/pages/*": [
+        "./src/pages/*"
+      ],
+      "@astro-stronghold/components/*": [
+        "./src/components/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      }
+    ]
+  }
 }

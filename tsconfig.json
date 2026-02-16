@@ -3,7 +3,9 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -12,28 +14,15 @@
     "declarationMap": true,
     "sourceMap": true,
     "noEmit": true,
-    "types": ["bun-types"]
+    "types": [
+      "bun-types"
+    ]
   },
-  "include": ["scripts/**/*"],
-  "exclude": ["node_modules", "dist"],
-  "references": [
-    {
-      "path": "apps/dashboard"
-    },
-    {
-      "path": "apps/web"
-    },
-    {
-      "path": "packages/directus-payload"
-    },
-    {
-      "path": "packages/directus-schema"
-    },
-    {
-      "path": "packages/ui"
-    },
-    {
-      "path": "tools/directus-import"
-    }
+  "include": [
+    "scripts/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
   ]
 }

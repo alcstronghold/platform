@@ -188,14 +188,14 @@ describe('withRetry', () => {
   it('lanza el error después de agotar reintentos', async () => {
     const fn = mock(() => Promise.reject(new Error('connection timeout')));
 
-    await expect(withRetry(fn, { retries: 3, delayMs: 1 })).rejects.toThrow('connection timeout');
+    expect(withRetry(fn, { retries: 3, delayMs: 1 })).rejects.toThrow('connection timeout');
     expect(fn).toHaveBeenCalledTimes(3);
   });
 
   it('falla inmediatamente sin reintentar con error NO retryable', async () => {
     const fn = mock(() => Promise.reject(new Error('Unauthorized: bad token')));
 
-    await expect(withRetry(fn, { retries: 5, delayMs: 1 })).rejects.toThrow('Unauthorized: bad token');
+    expect(withRetry(fn, { retries: 5, delayMs: 1 })).rejects.toThrow('Unauthorized: bad token');
     expect(fn).toHaveBeenCalledTimes(1);
   });
 

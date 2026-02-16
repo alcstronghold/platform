@@ -18,7 +18,8 @@ export async function createClient(config: DirectusConfig) {
 
   if (config.email && config.password) {
     const authClient = client.with(authentication());
-    await authClient.login(config.email, config.password);
+    const payload = { email: config.email, password: config.password };
+    await authClient.login(payload);
     return authClient;
   }
 

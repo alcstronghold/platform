@@ -2,14 +2,14 @@ name: alc-stronghold
 
 services:
   # =============================================================================
-  # PostgreSQL Database
+  # PostgreSQL Database (with PostGIS)
   # =============================================================================
   database:
-    image: postgres:17
+    image: postgis/postgis:18-3.6
     container_name: alc-stronghold-database
     restart: unless-stopped
     volumes:
-      - ${COMMON_PATH}\StrongholdPlatform\volumes\database:/var/lib/postgresql/data
+      - ${COMMON_PATH}\StrongholdPlatform\volumes\database:/var/lib/postgresql
     environment:
       POSTGRES_USER: ${DB_USER:-directus}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-directus}
@@ -28,7 +28,7 @@ services:
   # Redis Cache
   # =============================================================================
   cache:
-    image: redis:7
+    image: redis:7.4
     container_name: alc-stronghold-cache
     restart: unless-stopped
     volumes:
@@ -47,7 +47,7 @@ services:
   # Directus CMS
   # =============================================================================
   directus:
-    image: directus/directus:11
+    image: directus/directus:11.14.1
     container_name: alc-stronghold-directus
     restart: unless-stopped
     volumes:

@@ -1033,6 +1033,15 @@
     "settings": ["outer-dark-setting"]
   },
   {
+    "identifier": "lex-arcana",
+    "name": "Lex Arcana",
+    "translations": {
+      "es-ES": "Lex Arcana",
+      "ca-ES": "Lex Arcana"
+    },
+    "settings": ["empire-without-end"]
+  },
+  {
     "identifier": "cthulhu-mythos",
     "name": "The Cthulhu Mythos",
     "translations": {

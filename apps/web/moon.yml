@@ -21,3 +21,11 @@ tasks:
   preview:
     command: bun run preview
     local: true
+
+  test:
+    command: bun run test
+    inputs:
+      - src/**/*.ts
+      - src/**/*.spec.ts
+      - vitest.config.ts
+      - vitest.setup.ts
