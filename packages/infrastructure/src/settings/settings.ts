@@ -2,7 +2,7 @@
 
 import { z } from 'zod';
 
-import { isNotBlank } from '../helpers';
+import { isNotBlank } from '../helpers/index.js';
 
 /**
  * Schema Zod para validar configuración de la aplicación.

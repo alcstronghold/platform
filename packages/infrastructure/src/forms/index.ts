@@ -1,1 +1,1 @@
-export { SignalFormDescriptor } from './signal-form-descriptor';
+export { SignalFormDescriptor } from './signal-form-descriptor.js';

@@ -2,7 +2,7 @@ import type { AuthenticatedUser,AuthPort, AuthResult, LoginCredentials } from '@
 import { toAuthenticatedUser } from '@alcstronghold/domain';
 import { readMe } from '@directus/sdk';
 
-import type { DirectusAuthClient } from './client';
+import type { DirectusAuthClient } from './client.js';
 
 /**
  * Directus user response from /users/me

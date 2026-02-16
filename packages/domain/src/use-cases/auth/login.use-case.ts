@@ -1,5 +1,5 @@
-import type { AuthPort, AuthResult, LoginCredentials } from '../../ports';
-import { LoginCredentialsSchema } from '../../ports';
+import type { AuthPort, AuthResult, LoginCredentials } from '../../ports/index.js';
+import { LoginCredentialsSchema } from '../../ports/index.js';
 
 /**
  * Login Use Case

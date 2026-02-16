@@ -1,5 +1,5 @@
-import type { AuthenticatedUser } from '../../entities';
-import type { AuthPort } from '../../ports';
+import type { AuthenticatedUser } from '../../entities/index.js';
+import type { AuthPort } from '../../ports/index.js';
 
 /**
  * Get Current User Use Case

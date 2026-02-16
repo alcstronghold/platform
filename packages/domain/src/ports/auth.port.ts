@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import type { AuthenticatedUser } from '../entities';
+import type { AuthenticatedUser } from '../entities/index.js';
 
 /**
  * Login credentials schema with validation
