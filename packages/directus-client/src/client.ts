@@ -27,8 +27,8 @@ export interface DirectusClientConfig {
  */
 export function createBrowserClient(config: DirectusClientConfig): DirectusAuthClient {
   return createDirectus(config.url)
-    .with(authentication('session', { credentials: 'include' }))
-    .with(rest({ credentials: 'include' }));
+    .with(authentication('json'))
+    .with(rest());
 }
 
 /**
