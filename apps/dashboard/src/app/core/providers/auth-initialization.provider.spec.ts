@@ -2,6 +2,7 @@ import { ApplicationInitStatus, type Provider } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
+import { ConfigService } from '../config/config.service';
 import { AuthService } from '../services/auth.service';
 import { provideAuthInitialization } from './auth-initialization.provider';
 
@@ -9,10 +10,16 @@ describe('provideAuthInitialization', () => {
   let mockAuthService: {
     initialize: ReturnType<typeof vi.fn>;
   };
+  let mockConfigService: {
+    loadConfig: ReturnType<typeof vi.fn>;
+  };
 
   beforeEach(() => {
     mockAuthService = {
       initialize: vi.fn().mockResolvedValue(undefined),
+    };
+    mockConfigService = {
+      loadConfig: vi.fn().mockResolvedValue(undefined),
     };
   });
 
@@ -23,35 +30,37 @@ describe('provideAuthInitialization', () => {
     expect(typeof provider).toBe('object');
   });
 
-  it('should initialize AuthService on app bootstrap', async () => {
+  it('should wait for config then initialize AuthService on app bootstrap', async () => {
     TestBed.configureTestingModule({
       providers: [
         provideAuthInitialization(),
+        { provide: ConfigService, useValue: mockConfigService } as Provider,
         { provide: AuthService, useValue: mockAuthService } as Provider,
       ],
     });
 
     await TestBed.inject(ApplicationInitStatus).donePromise;
 
+    expect(mockConfigService.loadConfig).toHaveBeenCalledOnce();
     expect(mockAuthService.initialize).toHaveBeenCalledOnce();
   });
 
-  it('should propagate initialization errors to APP_INITIALIZER', async () => {
-    mockAuthService.initialize.mockRejectedValueOnce(new Error('Network error'));
+  it('should propagate errors from config loading', async () => {
+    mockConfigService.loadConfig.mockRejectedValueOnce(new Error('Config failed'));
 
     TestBed.configureTestingModule({
       providers: [
         provideAuthInitialization(),
+        { provide: ConfigService, useValue: mockConfigService } as Provider,
         { provide: AuthService, useValue: mockAuthService } as Provider,
       ],
     });
 
-    // APP_INITIALIZER propaga errores (AuthService.initialize tiene try-catch pero retorna Promise)
     await expect(TestBed.inject(ApplicationInitStatus).donePromise).rejects.toThrow(
-      'Network error'
+      'Config failed'
     );
 
-    expect(mockAuthService.initialize).toHaveBeenCalledOnce();
+    expect(mockAuthService.initialize).not.toHaveBeenCalled();
   });
 
   it('should complete even if AuthService.initialize() takes time', async () => {
@@ -62,6 +71,7 @@ describe('provideAuthInitialization', () => {
     TestBed.configureTestingModule({
       providers: [
         provideAuthInitialization(),
+        { provide: ConfigService, useValue: mockConfigService } as Provider,
         { provide: AuthService, useValue: mockAuthService } as Provider,
       ],
     });

@@ -7,15 +7,24 @@ import { environment } from '../../../environments/environment';
 @Injectable({ providedIn: 'root' })
 export class ConfigService {
   private settings: Settings | null = null;
+  private loadPromise: Promise<void> | null = null;
 
   /**
    * Carga la configuración desde archivos JSON incrementales.
+   * Idempotente: si ya se está cargando, retorna la misma promise.
+   *
    * Orden de carga:
    * 1. config.json (base)
    * 2. config.<environment>.json (development, staging, production)
    * 3. config.local.json (opcional, no hacer commit)
    */
-  async loadConfig(): Promise<void> {
+  loadConfig(): Promise<void> {
+    if (this.loadPromise != null) return this.loadPromise;
+    this.loadPromise = this.doLoadConfig();
+    return this.loadPromise;
+  }
+
+  private async doLoadConfig(): Promise<void> {
     const configuration = environment.configuration;
 
     // Cargar archivos en orden con ofetch
