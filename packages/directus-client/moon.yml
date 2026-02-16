@@ -5,16 +5,15 @@ dependsOn:
   - domain
 
 tasks:
-  build:
-    command: tsc -b
+  test:
+    command: "bunx vitest run"
     inputs:
       - src/**/*
-      - tsconfig.json
-    outputs:
-      - dist/**/*
+      - vitest.config.ts
+      - vitest.setup.ts
 
   typecheck:
-    command: tsc --noEmit
+    command: bun run tsc --noEmit
     inputs:
       - src/**/*
       - tsconfig.json
