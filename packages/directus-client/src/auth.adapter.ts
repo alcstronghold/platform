@@ -17,7 +17,7 @@ interface DirectusUser {
 
 /**
  * Directus Auth Adapter
- * Implements AuthPort using Directus SDK with session-based cookies
+ * Implementa AuthPort usando el Directus SDK con JSON tokens
  */
 export class DirectusAuthAdapter implements AuthPort {
   constructor(private readonly client: DirectusAuthClient) {}
