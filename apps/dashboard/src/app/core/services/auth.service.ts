@@ -28,6 +28,10 @@ export class AuthService {
   async initialize(): Promise<void> {
     this.setLoading(true);
     try {
+      // Refrescar el token almacenado en localStorage antes de obtener el usuario.
+      // Sin esto, un access_token expirado haría fallar el readMe().
+      await this.authPort.refreshToken();
+
       const getCurrentUserUseCase = new GetCurrentUserUseCase(this.authPort);
       const user = await getCurrentUserUseCase.execute();
       this.setState({ user, isLoading: false, error: null });

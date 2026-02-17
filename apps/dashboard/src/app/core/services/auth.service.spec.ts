@@ -31,6 +31,15 @@ describe('AuthService', () => {
   });
 
   describe('initialize', () => {
+    it('should refresh token before fetching user', async () => {
+      vi.mocked(mockAuthPort.refreshToken).mockResolvedValue({ success: true });
+      vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(null);
+
+      await service.initialize();
+
+      expect(mockAuthPort.refreshToken).toHaveBeenCalled();
+    });
+
     it('should set user when valid session exists', async () => {
       const mockUser: AuthenticatedUser = {
         id: '1',
