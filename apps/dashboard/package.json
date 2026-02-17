@@ -16,6 +16,7 @@
     "@alcstronghold/infrastructure": "workspace:*",
     "@alcstronghold/ui": "workspace:*",
     "@angular/common": "21.1.4",
+    "@directus/sdk": "21.1.0",
     "@angular/compiler": "21.1.4",
     "@angular/core": "21.1.4",
     "@angular/forms": "21.1.4",
@@ -27,7 +28,8 @@
     "ofetch": "1.5.1",
     "rxjs": "7.8.2",
     "tailwindcss": "4.1.18",
-    "tslib": "2.8.1"
+    "tslib": "2.8.1",
+    "zod": "4.3.6"
   },
   "devDependencies": {
     "@angular/build": "21.1.4",

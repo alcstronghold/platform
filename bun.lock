@@ -42,6 +42,7 @@
         "@angular/forms": "21.1.4",
         "@angular/platform-browser": "21.1.4",
         "@angular/router": "21.1.4",
+        "@directus/sdk": "21.1.0",
         "@tailwindcss/postcss": "4.1.18",
         "flowbite": "4.0.1",
         "lodash-es": "4.17.23",
@@ -49,6 +50,7 @@
         "rxjs": "7.8.2",
         "tailwindcss": "4.1.18",
         "tslib": "2.8.1",
+        "zod": "4.3.6",
       },
       "devDependencies": {
         "@angular/build": "21.1.4",
