@@ -60,6 +60,7 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: null,
         displayName: 'Test User',
+        role: null,
       });
 
       fixture.detectChanges();
@@ -77,7 +78,8 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: 'https://example.com/avatar.png',
         displayName: 'Test User',
-      });
+        role: null,
+      } as AuthenticatedUser);
 
       fixture.detectChanges();
 
@@ -97,6 +99,7 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: null,
         displayName: 'Test User',
+        role: null,
       });
 
       fixture.detectChanges();
@@ -114,6 +117,7 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: null,
         displayName: 'Admin User',
+        role: null,
       });
 
       fixture.detectChanges();
@@ -140,6 +144,7 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: null,
         displayName: 'Test User',
+        role: null,
       });
 
       fixture.detectChanges();
@@ -191,6 +196,7 @@ describe('DashboardComponent', () => {
         lastName: 'User',
         avatar: null,
         displayName: 'Test User',
+        role: null,
       });
 
       fixture.detectChanges();

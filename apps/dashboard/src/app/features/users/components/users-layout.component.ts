@@ -1,0 +1,55 @@
+import { Component, computed, inject } from '@angular/core';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
+
+import { AuthService } from '../../../core/services/auth.service';
+
+@Component({
+  selector: 'app-users-layout',
+  imports: [RouterOutlet, RouterLink],
+  template: `
+    <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <nav class="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <div class="flex items-center gap-4">
+            <a routerLink="/dashboard" class="text-xl font-semibold text-gray-900 dark:text-white hover:text-blue-600">
+              ALC Stronghold Dashboard
+            </a>
+            <span class="text-gray-400">/</span>
+            <a routerLink="/users" class="text-sm font-medium text-blue-600 dark:text-blue-400">
+              Usuarios
+            </a>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="text-sm text-gray-600 dark:text-gray-400">
+              {{ displayName() }}
+            </span>
+            <button
+              type="button"
+              (click)="onLogout()"
+              class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+            >
+              Cerrar sesión
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <main class="max-w-7xl mx-auto p-4 md:p-6">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+          <router-outlet />
+        </div>
+      </main>
+    </div>
+  `,
+})
+export class UsersLayoutComponent {
+  private readonly authService = inject(AuthService);
+  private readonly router = inject(Router);
+
+  protected readonly displayName = computed(() => this.authService.user()?.displayName ?? '');
+
+  protected async onLogout(): Promise<void> {
+    await this.authService.logout();
+    await this.router.navigate(['/login']);
+  }
+}

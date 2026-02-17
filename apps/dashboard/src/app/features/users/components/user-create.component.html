@@ -1,0 +1,99 @@
+<div class="max-w-lg">
+  <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-6">Crear usuario</h2>
+
+  @if (serverError()) {
+    <div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+      {{ serverError() }}
+    </div>
+  }
+
+  <form (submit)="submit(); $event.preventDefault()" class="space-y-4">
+    <div>
+      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+      <input
+        type="email"
+        id="email"
+        [formField]="descriptor.form.email"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+        placeholder="usuario@ejemplo.com"
+      />
+      @if (emailError()) {
+        <p class="mt-1 text-sm text-red-600 dark:text-red-500">{{ emailError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contraseña</label>
+      <input
+        type="password"
+        id="password"
+        [formField]="descriptor.form.password"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+        placeholder="Mínimo 8 caracteres"
+      />
+      @if (passwordError()) {
+        <p class="mt-1 text-sm text-red-600 dark:text-red-500">{{ passwordError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="firstName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre</label>
+      <input
+        type="text"
+        id="firstName"
+        [formField]="descriptor.form.firstName"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      />
+      @if (firstNameError()) {
+        <p class="mt-1 text-sm text-red-600 dark:text-red-500">{{ firstNameError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="lastName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido</label>
+      <input
+        type="text"
+        id="lastName"
+        [formField]="descriptor.form.lastName"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      />
+      @if (lastNameError()) {
+        <p class="mt-1 text-sm text-red-600 dark:text-red-500">{{ lastNameError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="roleId" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rol</label>
+      <select
+        id="roleId"
+        [formField]="descriptor.form.roleId"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      >
+        <option value="">Seleccionar rol</option>
+        @for (role of roles(); track role.id) {
+          <option [value]="role.id">{{ role.name }}</option>
+        }
+      </select>
+    </div>
+
+    <div class="flex gap-3 pt-2">
+      <button
+        type="submit"
+        [disabled]="isSubmitting()"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disabled:opacity-50"
+      >
+        @if (isSubmitting()) {
+          Creando...
+        } @else {
+          Crear usuario
+        }
+      </button>
+      <a
+        routerLink="/users"
+        class="text-gray-900 bg-white border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+      >
+        Cancelar
+      </a>
+    </div>
+  </form>
+</div>

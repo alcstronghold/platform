@@ -1,0 +1,75 @@
+<div class="max-w-lg">
+  @if (user(); as user) {
+    <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-6">
+      Editar usuario: {{ user.firstName }} {{ user.lastName }}
+    </h2>
+
+    @if (error()) {
+      <div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+        {{ error() }}
+      </div>
+    }
+
+    <div class="space-y-6">
+      <!-- Info básica (solo lectura) -->
+      <div class="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+        <p class="text-sm text-gray-600 dark:text-gray-400">Email</p>
+        <p class="font-medium text-gray-900 dark:text-white">{{ user.email }}</p>
+      </div>
+
+      <!-- Rol -->
+      <div>
+        <label for="role" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Rol</label>
+        <select
+          id="role"
+          [value]="user.role?.id ?? ''"
+          (change)="onRoleChange($event)"
+          [disabled]="isSaving()"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white disabled:opacity-50"
+        >
+          @for (role of roles(); track role.id) {
+            <option [value]="role.id">{{ role.name }}</option>
+          }
+        </select>
+      </div>
+
+      <!-- Policies -->
+      <div>
+        <h3 class="mb-3 text-sm font-medium text-gray-900 dark:text-white">Policies</h3>
+        <div class="space-y-2">
+          @for (policy of policies(); track policy.id) {
+            <label class="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-700 rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600">
+              <input
+                type="checkbox"
+                [checked]="isPolicyAssigned(policy.id)"
+                (change)="togglePolicy(policy)"
+                [disabled]="isSaving()"
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-600 dark:border-gray-500"
+              />
+              <div>
+                <span class="text-sm font-medium text-gray-900 dark:text-white">{{ policy.name }}</span>
+                @if (policy.description) {
+                  <p class="text-xs text-gray-500 dark:text-gray-400">{{ policy.description }}</p>
+                }
+              </div>
+            </label>
+          }
+        </div>
+      </div>
+
+      <div class="pt-2">
+        <a
+          routerLink="/users"
+          class="text-gray-900 bg-white border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        >
+          Volver a la lista
+        </a>
+      </div>
+    </div>
+  } @else {
+    <div class="text-center py-8">
+      <p class="text-gray-600 dark:text-gray-400">Usuario no encontrado</p>
+      <a routerLink="/users" class="mt-2 inline-block text-blue-600 hover:underline">Volver a la lista</a>
+    </div>
+  }
+</div>

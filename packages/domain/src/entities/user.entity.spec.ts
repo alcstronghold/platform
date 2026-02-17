@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { computeDisplayName, toAuthenticatedUser, type User } from './user.entity';
+import { computeDisplayName, toAuthenticatedUser, type User, type UserRole } from './user.entity';
 
 describe('computeDisplayName', () => {
   it('should use full name when both firstName and lastName exist', () => {
@@ -67,6 +67,7 @@ describe('toAuthenticatedUser', () => {
     expect(authUser).toEqual({
       ...user,
       displayName: 'John Doe',
+      role: null,
     });
   });
 
@@ -87,5 +88,41 @@ describe('toAuthenticatedUser', () => {
     expect(authUser.lastName).toBeNull();
     expect(authUser.avatar).toBe('https://example.com/avatar.png');
     expect(authUser.displayName).toBe('Test');
+    expect(authUser.role).toBeNull();
+  });
+
+  it('should include role when provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'admin@example.com',
+      firstName: 'Admin',
+      lastName: 'User',
+      avatar: null,
+    };
+
+    const role: UserRole = {
+      id: 'role-1',
+      name: 'Administrator',
+      adminAccess: true,
+    };
+
+    const authUser = toAuthenticatedUser(user, role);
+
+    expect(authUser.role).toEqual(role);
+    expect(authUser.role?.adminAccess).toBe(true);
+  });
+
+  it('should set role to null when not provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'member@example.com',
+      firstName: 'Member',
+      lastName: null,
+      avatar: null,
+    };
+
+    const authUser = toAuthenticatedUser(user);
+
+    expect(authUser.role).toBeNull();
   });
 });

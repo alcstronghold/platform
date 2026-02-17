@@ -1,8 +1,17 @@
-import type { AuthenticatedUser,AuthPort, AuthResult, LoginCredentials } from '@alcstronghold/domain';
+import type { AuthenticatedUser, AuthPort, AuthResult, LoginCredentials, UserRole } from '@alcstronghold/domain';
 import { toAuthenticatedUser } from '@alcstronghold/domain';
 import { readMe } from '@directus/sdk';
 
 import type { DirectusAuthClient } from './client.js';
+
+/**
+ * Directus role response anidada en /users/me
+ */
+interface DirectusRole {
+  id: string;
+  name: string;
+  admin_access: boolean;
+}
 
 /**
  * Directus user response from /users/me
@@ -13,6 +22,15 @@ interface DirectusUser {
   first_name: string | null;
   last_name: string | null;
   avatar: string | null;
+  role: DirectusRole | null;
+}
+
+function toUserRole(role: DirectusRole): UserRole {
+  return {
+    id: role.id,
+    name: role.name,
+    adminAccess: role.admin_access,
+  };
 }
 
 /**
@@ -65,7 +83,8 @@ export class DirectusAuthAdapter implements AuthPort {
     try {
       const me = await this.client.request<DirectusUser>(
         readMe({
-          fields: ['id', 'email', 'first_name', 'last_name', 'avatar'],
+          // Los campos anidados de role no están tipados en el SDK genérico
+          fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role.id', 'role.name', 'role.admin_access'] as any,
         })
       );
 
@@ -73,13 +92,18 @@ export class DirectusAuthAdapter implements AuthPort {
         return null;
       }
 
-      return toAuthenticatedUser({
-        id: me.id,
-        email: me.email,
-        firstName: me.first_name,
-        lastName: me.last_name,
-        avatar: me.avatar,
-      });
+      const role = me.role ? toUserRole(me.role) : undefined;
+
+      return toAuthenticatedUser(
+        {
+          id: me.id,
+          email: me.email,
+          firstName: me.first_name,
+          lastName: me.last_name,
+          avatar: me.avatar,
+        },
+        role,
+      );
     } catch {
       return null;
     }

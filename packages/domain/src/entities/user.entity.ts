@@ -10,10 +10,20 @@ export interface User {
 }
 
 /**
+ * Rol del usuario en Directus con nivel de acceso
+ */
+export interface UserRole {
+  id: string;
+  name: string;
+  adminAccess: boolean;
+}
+
+/**
  * Authenticated user with computed display name
  */
 export interface AuthenticatedUser extends User {
   displayName: string;
+  role: UserRole | null;
 }
 
 /**
@@ -33,9 +43,10 @@ export function computeDisplayName(user: User): string {
 /**
  * Create an AuthenticatedUser from a User
  */
-export function toAuthenticatedUser(user: User): AuthenticatedUser {
+export function toAuthenticatedUser(user: User, role?: UserRole): AuthenticatedUser {
   return {
     ...user,
     displayName: computeDisplayName(user),
+    role: role ?? null,
   };
 }
