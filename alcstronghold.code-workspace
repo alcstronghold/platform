@@ -32,7 +32,7 @@
   "extensions": {
     "recommendations": [
       "moonrepo.moon-console",
-      "prettier.prettier-vscode",
+      "esbenp.prettier-vscode",
       "dbaeumer.vscode-eslint",
       "angular.ng-template",
       "astro-build.astro-vscode",
