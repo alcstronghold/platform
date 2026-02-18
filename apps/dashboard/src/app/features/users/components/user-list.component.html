@@ -43,7 +43,7 @@
               <td class="px-6 py-4">{{ user.email }}</td>
               <td class="px-6 py-4">
                 @if (user.role) {
-                  <span class="text-xs font-medium px-2.5 py-0.5 rounded" [class]="getRoleBadgeClass(user.role.adminAccess)">
+                  <span class="text-xs font-medium px-2.5 py-0.5 rounded" [class]="roleBadgeClass">
                     {{ user.role.name }}
                   </span>
                 } @else {

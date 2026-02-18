@@ -19,11 +19,11 @@ import {
 import type { DirectusAuthClient } from './client.js';
 
 // Tipos de respuesta de Directus
+// Nota: En Directus 11, admin_access y app_access no existen en directus_roles;
+// el acceso se gestiona mediante políticas (policies).
 interface DirectusRole {
   id: string;
   name: string;
-  admin_access: boolean;
-  app_access: boolean;
 }
 
 interface DirectusUserWithRole {
@@ -48,12 +48,7 @@ interface DirectusPolicy {
 }
 
 function toRole(r: DirectusRole): Role {
-  return {
-    id: r.id,
-    name: r.name,
-    adminAccess: r.admin_access,
-    appAccess: r.app_access,
-  };
+  return { id: r.id, name: r.name };
 }
 
 function toManagedUser(u: DirectusUserWithRole, assignments: PolicyAssignment[]): ManagedUser {
@@ -135,7 +130,7 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
   async listRoles(): Promise<Role[]> {
     const roles = await this.client.request<DirectusRole[]>(
       readRoles({
-        fields: ['id', 'name', 'admin_access', 'app_access'] as any,
+        fields: ['id', 'name'] as any,
       })
     );
     return roles.map(toRole);

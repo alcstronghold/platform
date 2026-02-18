@@ -31,7 +31,7 @@ const mockManagedUser: ManagedUser = {
   firstName: 'New',
   lastName: 'User',
   avatar: null,
-  role: { id: 'role-1', name: 'Member', adminAccess: false, appAccess: true },
+  role: { id: 'role-1', name: 'Member' },
   policyAssignments: [],
 };
 

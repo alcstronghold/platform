@@ -4,38 +4,47 @@ import { readMe } from '@directus/sdk';
 
 import type { DirectusAuthClient } from './client.js';
 
-/**
- * Directus role response anidada en /users/me
- */
-interface DirectusRole {
+interface DirectusRoleBasic {
   id: string;
   name: string;
-  admin_access: boolean;
 }
 
-/**
- * Directus user response from /users/me
- */
 interface DirectusUser {
   id: string;
   email: string | null;
   first_name: string | null;
   last_name: string | null;
   avatar: string | null;
-  role: DirectusRole | null;
+  role: DirectusRoleBasic | null;
 }
 
-function toUserRole(role: DirectusRole): UserRole {
-  return {
-    id: role.id,
-    name: role.name,
-    adminAccess: role.admin_access,
-  };
+interface JwtPayload {
+  admin_access?: boolean;
+}
+
+/**
+ * Decodifica el payload de un JWT sin verificar la firma.
+ * Solo se usa en el cliente para obtener claims como admin_access.
+ */
+function decodeJwtPayload(token: string): JwtPayload {
+  try {
+    const base64 = token.split('.')[1];
+    if (!base64) return {};
+    // Reemplazar caracteres base64url a base64 estándar
+    const normalized = base64.replace(/-/g, '+').replace(/_/g, '/');
+    return JSON.parse(atob(normalized)) as JwtPayload;
+  } catch {
+    return {};
+  }
 }
 
 /**
  * Directus Auth Adapter
- * Implementa AuthPort usando el Directus SDK con JSON tokens
+ * Implementa AuthPort usando el Directus SDK con JSON tokens.
+ *
+ * Nota sobre admin_access: En Directus 11, el campo admin_access de
+ * directus_roles es inaccesible vía la API REST. Se obtiene del JWT
+ * del access_token, donde Directus incluye este claim directamente.
  */
 export class DirectusAuthAdapter implements AuthPort {
   constructor(private readonly client: DirectusAuthClient) {}
@@ -63,7 +72,7 @@ export class DirectusAuthAdapter implements AuthPort {
     try {
       await this.client.logout();
     } catch {
-      // Ignore logout errors (session may already be invalid)
+      // Ignorar errores de logout (la sesión puede ya ser inválida)
     }
   }
 
@@ -83,8 +92,7 @@ export class DirectusAuthAdapter implements AuthPort {
     try {
       const me = await this.client.request<DirectusUser>(
         readMe({
-          // Los campos anidados de role no están tipados en el SDK genérico
-          fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role.id', 'role.name', 'role.admin_access'] as any,
+          fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role.id', 'role.name'] as any,
         })
       );
 
@@ -92,7 +100,15 @@ export class DirectusAuthAdapter implements AuthPort {
         return null;
       }
 
-      const role = me.role ? toUserRole(me.role) : undefined;
+      let role: UserRole | undefined;
+      if (me.role?.id) {
+        // admin_access no es accesible vía la API REST de Directus 11 (campo restringido).
+        // Se obtiene del JWT donde Directus incluye este claim directamente.
+        const token = await (this.client as any).getToken?.() as string | null | undefined;
+        const adminAccess = token ? decodeJwtPayload(token).admin_access === true : false;
+
+        role = { id: me.role.id, name: me.role.name, adminAccess };
+      }
 
       return toAuthenticatedUser(
         {

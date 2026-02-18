@@ -24,11 +24,11 @@ const mockUser: ManagedUser = {
   firstName: 'Test',
   lastName: 'User',
   avatar: null,
-  role: { id: 'r1', name: 'Member', adminAccess: false, appAccess: true },
+  role: { id: 'r1', name: 'Member' },
   policyAssignments: [],
 };
 
-const mockRole: Role = { id: 'r1', name: 'Member', adminAccess: false, appAccess: true };
+const mockRole: Role = { id: 'r1', name: 'Member' };
 const mockPolicy: Policy = { id: 'p1', name: 'base:content-reader', description: 'Read content' };
 
 describe('UserManagementService', () => {
