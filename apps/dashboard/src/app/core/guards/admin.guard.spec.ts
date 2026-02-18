@@ -35,6 +35,7 @@ describe('adminGuard', () => {
       firstName: 'Admin',
       lastName: null,
       avatar: null,
+      status: 'active',
       displayName: 'Admin',
       role: { id: 'r1', name: 'Administrator', adminAccess: true },
     });
@@ -52,6 +53,7 @@ describe('adminGuard', () => {
       firstName: 'Member',
       lastName: null,
       avatar: null,
+      status: 'active',
       displayName: 'Member',
       role: { id: 'r2', name: 'Member', adminAccess: false },
     });
@@ -69,6 +71,7 @@ describe('adminGuard', () => {
       firstName: 'NoRole',
       lastName: null,
       avatar: null,
+      status: 'active',
       displayName: 'NoRole',
       role: null,
     });

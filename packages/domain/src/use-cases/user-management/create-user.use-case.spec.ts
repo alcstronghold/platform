@@ -14,6 +14,7 @@ function createMockPort(): UserManagementPort {
     getUserPolicyAssignments: vi.fn(),
     assignPolicy: vi.fn(),
     removePolicy: vi.fn(),
+    updateUserStatus: vi.fn(),
   };
 }
 
@@ -31,6 +32,7 @@ const mockManagedUser: ManagedUser = {
   firstName: 'New',
   lastName: 'User',
   avatar: null,
+  status: 'active',
   role: { id: 'role-1', name: 'Member' },
   policyAssignments: [],
 };

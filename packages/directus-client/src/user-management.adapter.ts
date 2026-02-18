@@ -5,6 +5,7 @@ import type {
   PolicyAssignment,
   Role,
   UserManagementPort,
+  UserStatus,
 } from '@alcstronghold/domain';
 import {
   createUser,
@@ -31,6 +32,7 @@ interface DirectusUserWithRole {
   first_name: string | null;
   last_name: string | null;
   avatar: string | null;
+  status: string | null;
   role: DirectusRole | null;
 }
 
@@ -50,6 +52,18 @@ function toRole(r: DirectusRole): Role {
   return { id: r.id, name: r.name };
 }
 
+function extractPolicyId(policy: string | DirectusPolicyItem): string {
+  return typeof policy === 'string' ? policy : policy.id;
+}
+
+function extractPolicyName(policy: string | DirectusPolicyItem): string {
+  return typeof policy === 'string' ? '' : (policy.name ?? '');
+}
+
+function parseUserStatus(status: string | null): UserStatus {
+  return status === 'suspended' ? 'suspended' : 'active';
+}
+
 function toManagedUser(u: DirectusUserWithRole, assignments: PolicyAssignment[]): ManagedUser {
   return {
     id: u.id,
@@ -57,6 +71,7 @@ function toManagedUser(u: DirectusUserWithRole, assignments: PolicyAssignment[])
     firstName: u.first_name,
     lastName: u.last_name,
     avatar: u.avatar,
+    status: parseUserStatus(u.status),
     role: u.role ? toRole(u.role) : null,
     policyAssignments: assignments,
   };
@@ -74,10 +89,12 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
   constructor(private readonly client: DirectusAuthClient) {}
 
   async listUsers(): Promise<ManagedUser[]> {
+    // Excluir administradores: se gestionan solo desde Directus
     const users = await this.client.request<DirectusUserWithRole[]>(
       readUsers({
-        fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role.id', 'role.name'] as any,
-      })
+        fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'status', 'role.id', 'role.name'],
+        filter: { role: { name: { _neq: 'Administrator' } } },
+      } as any)
     );
 
     // Obtener todas las asignaciones de policies en batch (evita N+1).
@@ -96,16 +113,13 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
     const assignmentsByUser = new Map<string, PolicyAssignment[]>();
     for (const access of allAccess) {
       const userId = access.user;
-      const policy = access.policy as DirectusPolicyItem;
-      if (!userId || !policy?.id) continue;
+      if (!userId || !access.policy) continue;
+
+      const policyId = extractPolicyId(access.policy);
+      const policyName = extractPolicyName(access.policy);
 
       const existing = assignmentsByUser.get(userId) ?? [];
-      existing.push({
-        id: access.id,
-        userId,
-        policyId: policy.id,
-        policyName: policy.name,
-      });
+      existing.push({ id: access.id, userId, policyId, policyName });
       assignmentsByUser.set(userId, existing);
     }
 
@@ -123,7 +137,7 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
       } as any)
     );
 
-    return toManagedUser({ ...created, role: created.role ?? null }, []);
+    return toManagedUser({ ...created, status: created.status ?? 'active', role: created.role ?? null }, []);
   }
 
   async updateUserRole(userId: string, roleId: string): Promise<void> {
@@ -147,11 +161,15 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
         fields: ['id', 'name', 'description'],
       })
     );
-    return policies.map(p => ({
-      id: p.id,
-      name: p.name,
-      description: p.description,
-    }));
+
+    // Excluir la policy interna "Administrator" de Directus
+    return policies
+      .filter(p => p.name !== 'Administrator')
+      .map(p => ({
+        id: p.id,
+        name: p.name,
+        description: p.description,
+      }));
   }
 
   async getUserPolicyAssignments(userId: string): Promise<PolicyAssignment[]> {
@@ -166,16 +184,13 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
     );
 
     return access
-      .filter(a => (a.policy as DirectusPolicyItem)?.id)
-      .map(a => {
-        const policy = a.policy as DirectusPolicyItem;
-        return {
-          id: a.id,
-          userId,
-          policyId: policy.id,
-          policyName: policy.name,
-        };
-      });
+      .filter(a => !!a.policy)
+      .map(a => ({
+        id: a.id,
+        userId,
+        policyId: extractPolicyId(a.policy),
+        policyName: extractPolicyName(a.policy),
+      }));
   }
 
   async assignPolicy(userId: string, policyId: string): Promise<PolicyAssignment> {
@@ -201,6 +216,12 @@ export class DirectusUserManagementAdapter implements UserManagementPort {
         path: `/access/${assignmentId}`,
         method: 'DELETE',
       })
+    );
+  }
+
+  async updateUserStatus(userId: string, status: UserStatus): Promise<void> {
+    await this.client.request(
+      updateUser(userId, { status })
     );
   }
 }

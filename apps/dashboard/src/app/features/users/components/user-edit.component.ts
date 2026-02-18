@@ -1,4 +1,4 @@
-import type { ManagedUser, Policy } from '@alcstronghold/domain';
+import type { ManagedUser } from '@alcstronghold/domain';
 import { Component, computed, inject, type OnInit, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 
@@ -13,10 +13,12 @@ export class UserEditComponent implements OnInit {
   private readonly route = inject(ActivatedRoute);
   private readonly userManagement = inject(UserManagementService);
 
-  readonly roles = this.userManagement.roles;
   readonly policies = this.userManagement.policies;
   readonly isSaving = signal(false);
   readonly error = signal<string | null>(null);
+
+  /** Estado local de policies seleccionadas (no persiste hasta guardar) */
+  readonly selectedPolicyIds = signal(new Set<string>());
 
   readonly user = computed<ManagedUser | undefined>(() => {
     const userId = this.route.snapshot.paramMap.get('id');
@@ -28,16 +30,36 @@ export class UserEditComponent implements OnInit {
     return new Set(user?.policyAssignments.map(pa => pa.policyId) ?? []);
   });
 
+  /** Detecta si el estado local difiere de las assignments actuales */
+  readonly hasChanges = computed(() => {
+    const selected = this.selectedPolicyIds();
+    const assigned = this.assignedPolicyIds();
+    if (selected.size !== assigned.size) return true;
+    for (const id of selected) {
+      if (!assigned.has(id)) return true;
+    }
+    return false;
+  });
+
   async ngOnInit(): Promise<void> {
     await Promise.all([
       this.userManagement.loadUsers(),
-      this.userManagement.loadRoles(),
       this.userManagement.loadPolicies(),
     ]);
+    this.syncLocalState();
   }
 
-  async onRoleChange(event: Event): Promise<void> {
-    const select = event.target as HTMLSelectElement;
+  toggleLocalPolicy(policyId: string): void {
+    const current = new Set(this.selectedPolicyIds());
+    if (current.has(policyId)) {
+      current.delete(policyId);
+    } else {
+      current.add(policyId);
+    }
+    this.selectedPolicyIds.set(current);
+  }
+
+  async savePolicies(): Promise<void> {
     const user = this.user();
     if (!user) return;
 
@@ -45,36 +67,33 @@ export class UserEditComponent implements OnInit {
     this.error.set(null);
 
     try {
-      await this.userManagement.updateUserRole(user.id, select.value);
+      const selected = this.selectedPolicyIds();
+      const assigned = this.assignedPolicyIds();
+
+      // Policies que hay que añadir (seleccionadas pero no asignadas)
+      const toAdd = [...selected].filter(id => !assigned.has(id));
+      // Policies que hay que quitar (asignadas pero no seleccionadas)
+      const toRemove = user.policyAssignments.filter(pa => !selected.has(pa.policyId));
+
+      await Promise.all([
+        ...toAdd.map(policyId => this.userManagement.assignPolicy(user.id, policyId)),
+        ...toRemove.map(pa => this.userManagement.removePolicy(pa.id)),
+      ]);
+
+      this.syncLocalState();
     } catch (e) {
-      this.error.set(e instanceof Error ? e.message : 'Error al cambiar rol');
+      this.error.set(e instanceof Error ? e.message : 'Error al guardar policies');
     }
 
     this.isSaving.set(false);
   }
 
-  async togglePolicy(policy: Policy): Promise<void> {
-    const user = this.user();
-    if (!user) return;
-
-    this.isSaving.set(true);
-    this.error.set(null);
-
-    try {
-      const existing = user.policyAssignments.find(pa => pa.policyId === policy.id);
-      if (existing) {
-        await this.userManagement.removePolicy(existing.id);
-      } else {
-        await this.userManagement.assignPolicy(user.id, policy.id);
-      }
-    } catch (e) {
-      this.error.set(e instanceof Error ? e.message : 'Error al modificar policy');
-    }
-
-    this.isSaving.set(false);
+  isSelected(policyId: string): boolean {
+    return this.selectedPolicyIds().has(policyId);
   }
 
-  isPolicyAssigned(policyId: string): boolean {
-    return this.assignedPolicyIds().has(policyId);
+  /** Sincroniza el estado local con las assignments reales del usuario */
+  private syncLocalState(): void {
+    this.selectedPolicyIds.set(new Set(this.assignedPolicyIds()));
   }
 }

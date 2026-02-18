@@ -1,3 +1,4 @@
+import type { ManagedUser } from '@alcstronghold/domain';
 import { Component, computed, inject, type OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
@@ -20,6 +21,10 @@ export class UserListComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     await this.userManagement.loadUsers();
+  }
+
+  protected async toggleStatus(user: ManagedUser): Promise<void> {
+    await this.userManagement.toggleUserStatus(user.id);
   }
 
   protected readonly roleBadgeClass = 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300';

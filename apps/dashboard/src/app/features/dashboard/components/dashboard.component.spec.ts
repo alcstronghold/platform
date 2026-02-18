@@ -59,6 +59,7 @@ describe('DashboardComponent', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
         role: null,
       });
@@ -98,6 +99,7 @@ describe('DashboardComponent', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
         role: null,
       });
@@ -116,6 +118,7 @@ describe('DashboardComponent', () => {
         firstName: 'Admin',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Admin User',
         role: null,
       });
@@ -143,6 +146,7 @@ describe('DashboardComponent', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
         role: null,
       });
@@ -195,6 +199,7 @@ describe('DashboardComponent', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
         role: null,
       });

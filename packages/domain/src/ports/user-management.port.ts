@@ -1,6 +1,7 @@
 import type { ManagedUser } from '../entities/managed-user.entity.js';
 import type { Policy, PolicyAssignment } from '../entities/policy.entity.js';
 import type { Role } from '../entities/role.entity.js';
+import type { UserStatus } from '../entities/user.entity.js';
 
 /**
  * Datos necesarios para crear un usuario
@@ -25,4 +26,5 @@ export interface UserManagementPort {
   getUserPolicyAssignments(userId: string): Promise<PolicyAssignment[]>;
   assignPolicy(userId: string, policyId: string): Promise<PolicyAssignment>;
   removePolicy(assignmentId: string): Promise<void>;
+  updateUserStatus(userId: string, status: UserStatus): Promise<void>;
 }

@@ -15,6 +15,7 @@ function createMockPort(): UserManagementPort {
     getUserPolicyAssignments: vi.fn(),
     assignPolicy: vi.fn(),
     removePolicy: vi.fn(),
+    updateUserStatus: vi.fn(),
   };
 }
 
@@ -24,12 +25,13 @@ const mockUser: ManagedUser = {
   firstName: 'Test',
   lastName: 'User',
   avatar: null,
-  role: { id: 'r1', name: 'Member' },
+  status: 'active',
+  role: { id: 'r1', name: 'User' },
   policyAssignments: [],
 };
 
-const mockRole: Role = { id: 'r1', name: 'Member' };
-const mockPolicy: Policy = { id: 'p1', name: 'base:content-reader', description: 'Read content' };
+const mockRole: Role = { id: 'r1', name: 'User' };
+const mockPolicy: Policy = { id: 'p1', name: 'Member', description: 'Socio de la asociación' };
 
 describe('UserManagementService', () => {
   let service: UserManagementService;
@@ -98,7 +100,8 @@ describe('UserManagementService', () => {
   });
 
   describe('createUser', () => {
-    it('should create user and reload list', async () => {
+    it('should resolve User role and create user', async () => {
+      vi.mocked(mockPort.listRoles).mockResolvedValue([mockRole]);
       vi.mocked(mockPort.createUser).mockResolvedValue(mockUser);
       vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
 
@@ -107,30 +110,34 @@ describe('UserManagementService', () => {
         password: 'securepass1',
         firstName: 'New',
         lastName: 'User',
-        roleId: 'r1',
       });
 
       expect(result.success).toBe(true);
+      expect(mockPort.createUser).toHaveBeenCalledWith(expect.objectContaining({
+        roleId: 'r1',
+      }));
       expect(mockPort.listUsers).toHaveBeenCalled();
     });
-  });
 
-  describe('updateUserRole', () => {
-    it('should update role and reload list', async () => {
-      vi.mocked(mockPort.updateUserRole).mockResolvedValue();
-      vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
+    it('should fail if User role is not found', async () => {
+      vi.mocked(mockPort.listRoles).mockResolvedValue([]);
 
-      await service.updateUserRole('u1', 'r2');
+      const result = await service.createUser({
+        email: 'new@example.com',
+        password: 'securepass1',
+        firstName: 'New',
+        lastName: 'User',
+      });
 
-      expect(mockPort.updateUserRole).toHaveBeenCalledWith('u1', 'r2');
-      expect(mockPort.listUsers).toHaveBeenCalled();
+      expect(result.success).toBe(false);
+      expect(result.error).toContain('User');
     });
   });
 
   describe('assignPolicy', () => {
-    it('should assign policy and return assignment', async () => {
+    it('should assign policy and reload users', async () => {
       const assignment: PolicyAssignment = {
-        id: 'a1', userId: 'u1', policyId: 'p1', policyName: 'base:content-reader',
+        id: 'a1', userId: 'u1', policyId: 'p1', policyName: 'Member',
       };
       vi.mocked(mockPort.assignPolicy).mockResolvedValue(assignment);
       vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
@@ -149,6 +156,74 @@ describe('UserManagementService', () => {
       await service.removePolicy('a1');
 
       expect(mockPort.removePolicy).toHaveBeenCalledWith('a1');
+    });
+  });
+
+  describe('assignPolicies', () => {
+    it('should assign multiple policies and reload users once', async () => {
+      const assignment: PolicyAssignment = {
+        id: 'a1', userId: 'u1', policyId: 'p1', policyName: 'Member',
+      };
+      vi.mocked(mockPort.assignPolicy).mockResolvedValue(assignment);
+      vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
+
+      await service.assignPolicies('u1', ['p1', 'p2', 'p3']);
+
+      expect(mockPort.assignPolicy).toHaveBeenCalledTimes(3);
+      expect(mockPort.assignPolicy).toHaveBeenCalledWith('u1', 'p1');
+      expect(mockPort.assignPolicy).toHaveBeenCalledWith('u1', 'p2');
+      expect(mockPort.assignPolicy).toHaveBeenCalledWith('u1', 'p3');
+      expect(mockPort.listUsers).toHaveBeenCalledTimes(1);
+    });
+
+    it('should not reload users when no policies provided', async () => {
+      await service.assignPolicies('u1', []);
+
+      expect(mockPort.assignPolicy).not.toHaveBeenCalled();
+      expect(mockPort.listUsers).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('toggleUserStatus', () => {
+    it('should suspend an active user', async () => {
+      vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
+      vi.mocked(mockPort.updateUserStatus).mockResolvedValue();
+      await service.loadUsers();
+
+      await service.toggleUserStatus('u1');
+
+      expect(mockPort.updateUserStatus).toHaveBeenCalledWith('u1', 'suspended');
+    });
+
+    it('should reactivate a suspended user', async () => {
+      const suspendedUser = { ...mockUser, status: 'suspended' as const };
+      vi.mocked(mockPort.listUsers).mockResolvedValue([suspendedUser]);
+      vi.mocked(mockPort.updateUserStatus).mockResolvedValue();
+      await service.loadUsers();
+
+      await service.toggleUserStatus('u1');
+
+      expect(mockPort.updateUserStatus).toHaveBeenCalledWith('u1', 'active');
+    });
+
+    it('should reload users after status change', async () => {
+      vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
+      vi.mocked(mockPort.updateUserStatus).mockResolvedValue();
+      await service.loadUsers();
+
+      await service.toggleUserStatus('u1');
+
+      // 1 carga inicial + 1 recarga después del toggle
+      expect(mockPort.listUsers).toHaveBeenCalledTimes(2);
+    });
+
+    it('should do nothing if user not found', async () => {
+      vi.mocked(mockPort.listUsers).mockResolvedValue([mockUser]);
+      await service.loadUsers();
+
+      await service.toggleUserStatus('unknown-id');
+
+      expect(mockPort.updateUserStatus).not.toHaveBeenCalled();
     });
   });
 });

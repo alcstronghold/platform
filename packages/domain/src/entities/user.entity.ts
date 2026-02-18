@@ -1,4 +1,9 @@
 /**
+ * Estado de un usuario en el sistema
+ */
+export type UserStatus = 'active' | 'suspended';
+
+/**
  * User entity - Core domain model for authenticated users
  */
 export interface User {
@@ -7,6 +12,7 @@ export interface User {
   firstName: string | null;
   lastName: string | null;
   avatar: string | null;
+  status: UserStatus;
 }
 
 /**

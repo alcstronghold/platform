@@ -1,5 +1,5 @@
 // Entities
-export type { AuthenticatedUser, User, UserRole } from './entities/index.js';
+export type { AuthenticatedUser, User, UserRole, UserStatus } from './entities/index.js';
 export type { ManagedUser } from './entities/index.js';
 export type { Role } from './entities/index.js';
 export type { Policy, PolicyAssignment } from './entities/index.js';

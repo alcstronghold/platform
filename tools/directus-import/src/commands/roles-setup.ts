@@ -4,6 +4,7 @@ import {
   createRole,
   deletePermission,
   deletePolicy,
+  deleteRole,
   readPermissions,
   readPolicies,
   readRoles,
@@ -49,33 +50,7 @@ interface PermissionDefinition {
 // COLLECTION GROUPS
 // =============================================================================
 
-/** Auxiliary enum collections (read-only reference data) */
-const AUXILIARY_COLLECTIONS = [
-  'age_ranges',
-  'age_ranges_translations',
-  'knowledge_levels',
-  'knowledge_levels_translations',
-  'accessibility_options',
-  'accessibility_options_translations',
-  'session_languages',
-  'session_languages_translations',
-  'content_warnings',
-  'content_warnings_translations',
-  'safety_measures',
-  'safety_measures_translations',
-  'pronouns',
-  'pronouns_translations',
-  'membership_statuses',
-  'membership_statuses_translations',
-  'gender_identities',
-  'gender_identities_translations',
-  'lgbtiq_options',
-  'lgbtiq_options_translations',
-  'discovery_sources',
-  'discovery_sources_translations',
-];
-
-/** Content collections */
+/** Colecciones de contenido del catálogo (solo lectura para members) */
 const CONTENT_COLLECTIONS = [
   'genres',
   'genres_translations',
@@ -94,7 +69,7 @@ const CONTENT_COLLECTIONS = [
   'languages',
 ];
 
-/** RPG Sessions M2M junction tables */
+/** M2M junctions de rpg_sessions */
 const SESSION_M2M_COLLECTIONS = [
   'rpg_sessions_genres',
   'rpg_sessions_accessibility_options',
@@ -104,14 +79,32 @@ const SESSION_M2M_COLLECTIONS = [
 ];
 
 // =============================================================================
+// PERMISSION FILTERS
+// =============================================================================
+
+/** Filtro para sesiones propias (master_id = usuario actual) */
+const OWN_SESSION_FILTER = {
+  _and: [{ master_id: { _eq: '$CURRENT_USER' } }],
+};
+
+/** Filtro para traducciones de sesiones propias */
+const OWN_SESSION_TRANSLATION_FILTER = {
+  _and: [{ rpg_sessions_id: { master_id: { _eq: '$CURRENT_USER' } } }],
+};
+
+/** Filtro para M2M junctions de sesiones propias */
+const OWN_SESSION_M2M_FILTER = {
+  _and: [{ rpg_sessions_id: { master_id: { _eq: '$CURRENT_USER' } } }],
+};
+
+// =============================================================================
 // ROLES DEFINITIONS
 // =============================================================================
 
 /**
- * Roles define ACCESS LEVELS to applications:
- * - Administrator: Full access to Directus Admin, Backend, and Public
- * - Collaborator: Access to Backend and Public (no Directus Admin)
- * - Member: Access to Public only (registered users)
+ * Roles de la asociación ALC Stronghold:
+ * - Administrator: acceso total a Directus y al dashboard
+ * - User: usuario registrado, recibe permisos via policies
  */
 const ROLES: Record<string, RoleDefinition> = {
   administrator: {
@@ -121,88 +114,38 @@ const ROLES: Record<string, RoleDefinition> = {
     admin_access: true,
     app_access: true,
   },
-  collaborator: {
-    name: 'Collaborator',
-    icon: 'badge',
-    description: 'Access to Backend dashboard and Public website (no Directus Admin)',
-    admin_access: false,
-    app_access: true,
-  },
-  member: {
-    name: 'Member',
+  user: {
+    name: 'User',
     icon: 'person',
-    description: 'Registered user with access to Public website and API',
+    description: 'Registered user. Permissions are granted via policies.',
     admin_access: false,
     app_access: false,
   },
 };
 
-// =============================================================================
-// PERMISSION FILTERS
-// =============================================================================
-
-/** Filter for own sessions (master_id = current user) */
-const OWN_SESSION_FILTER = {
-  _and: [{ master_id: { _eq: '$CURRENT_USER' } }],
-};
-
-/** Filter for translations of own sessions */
-const OWN_SESSION_TRANSLATION_FILTER = {
-  _and: [{ rpg_sessions_id: { master_id: { _eq: '$CURRENT_USER' } } }],
-};
-
-/** Filter for M2M junctions of own sessions */
-const OWN_SESSION_M2M_FILTER = {
-  _and: [{ rpg_sessions_id: { master_id: { _eq: '$CURRENT_USER' } } }],
-};
-
-/** Filter for players of own sessions */
-const OWN_SESSION_PLAYERS_FILTER = {
-  _and: [{ session_id: { master_id: { _eq: '$CURRENT_USER' } } }],
-};
-
-/** Filter for own user profile */
-const OWN_PROFILE_FILTER = {
-  _and: [{ user_id: { _eq: '$CURRENT_USER' } }],
-};
-
-/** Filter for own player registrations */
-const OWN_PLAYER_REGISTRATION_FILTER = {
-  _and: [{ user_id: { _eq: '$CURRENT_USER' } }],
-};
+/** Roles legacy que deben eliminarse si existen y no tienen usuarios asignados */
+const LEGACY_ROLE_NAMES = ['Collaborator', 'Member'];
 
 // =============================================================================
 // POLICY DEFINITIONS
 // =============================================================================
 
 /**
- * Policies define GRANULAR PERMISSIONS for specific features.
- * They can be attached to roles or directly to users.
+ * Policies de la asociación ALC Stronghold.
+ * Se asignan a usuarios directamente según su rol en la asociación.
  */
 const POLICIES: Record<string, PolicyDefinition> = {
-  // -------------------------------------------------------------------------
-  // BASE POLICIES
-  // -------------------------------------------------------------------------
-  'base:content-reader': {
-    name: 'Base: Content Reader',
-    icon: 'menu_book',
-    description: 'Read access to public content (genres, systems, settings, etc.)',
+  member: {
+    name: 'Member',
+    icon: 'badge',
+    description: 'Socio de la asociación. Lectura del catálogo de contenido.',
     permissions: [
-      // Auxiliary collections
-      ...AUXILIARY_COLLECTIONS.map((collection) => ({
-        collection,
-        action: 'read' as const,
-        fields: ['*'] as ['*'],
-        permissions: {},
-      })),
-      // Content collections
       ...CONTENT_COLLECTIONS.map((collection) => ({
         collection,
         action: 'read' as const,
         fields: ['*'] as ['*'],
         permissions: {},
       })),
-      // Directus system collections
       {
         collection: 'directus_files',
         action: 'read' as const,
@@ -212,123 +155,26 @@ const POLICIES: Record<string, PolicyDefinition> = {
     ],
   },
 
-  // -------------------------------------------------------------------------
-  // USER PROFILES POLICIES
-  // -------------------------------------------------------------------------
-  'user-profiles:self': {
-    name: 'User Profiles: Self',
-    icon: 'person',
-    description: 'Manage own user profile',
-    permissions: [
-      // Read own profile
-      {
-        collection: 'user_profiles',
-        action: 'read',
-        fields: ['*'],
-        permissions: OWN_PROFILE_FILTER,
-      },
-      // Update own profile
-      {
-        collection: 'user_profiles',
-        action: 'update',
-        fields: ['*'],
-        permissions: OWN_PROFILE_FILTER,
-      },
-      // Create own profile (first time)
-      {
-        collection: 'user_profiles',
-        action: 'create',
-        fields: ['*'],
-        permissions: {},
-        validation: OWN_PROFILE_FILTER,
-      },
-      // M2M: discovery sources
-      {
-        collection: 'user_profiles_discovery_sources',
-        action: 'create',
-        fields: ['*'],
-        permissions: {},
-      },
-      {
-        collection: 'user_profiles_discovery_sources',
-        action: 'read',
-        fields: ['*'],
-        permissions: { _and: [{ user_profiles_id: { user_id: { _eq: '$CURRENT_USER' } } }] },
-      },
-      {
-        collection: 'user_profiles_discovery_sources',
-        action: 'delete',
-        permissions: { _and: [{ user_profiles_id: { user_id: { _eq: '$CURRENT_USER' } } }] },
-      },
-      // Read basic user info
-      {
-        collection: 'directus_users',
-        action: 'read',
-        fields: ['id', 'email', 'first_name', 'last_name', 'avatar'],
-        permissions: {},
-      },
-    ],
+  voluntario: {
+    name: 'Voluntario',
+    icon: 'volunteer_activism',
+    description: 'Voluntario de la asociación. Permisos pendientes de definir.',
+    permissions: [],
   },
 
-  // -------------------------------------------------------------------------
-  // RPG SESSIONS POLICIES
-  // -------------------------------------------------------------------------
-  'rpg-sessions:player': {
-    name: 'RPG Sessions: Player',
-    icon: 'groups',
-    description: 'Register as player in RPG sessions',
-    permissions: [
-      // Read published sessions
-      {
-        collection: 'rpg_sessions',
-        action: 'read',
-        fields: ['*'],
-        permissions: { _and: [{ status: { _eq: 'published' } }] },
-      },
-      {
-        collection: 'rpg_sessions_translations',
-        action: 'read',
-        fields: ['*'],
-        permissions: { _and: [{ rpg_sessions_id: { status: { _eq: 'published' } } }] },
-      },
-      // Read session M2M junctions
-      ...SESSION_M2M_COLLECTIONS.map((collection) => ({
-        collection,
-        action: 'read' as const,
-        fields: ['*'] as ['*'],
-        permissions: { _and: [{ rpg_sessions_id: { status: { _eq: 'published' } } }] },
-      })),
-      // Register as the player
-      {
-        collection: 'rpg_session_players',
-        action: 'create',
-        fields: ['*'],
-        permissions: {},
-        validation: OWN_PLAYER_REGISTRATION_FILTER,
-      },
-      // Read own registrations
-      {
-        collection: 'rpg_session_players',
-        action: 'read',
-        fields: ['*'],
-        permissions: OWN_PLAYER_REGISTRATION_FILTER,
-      },
-      // Cancel own registration
-      {
-        collection: 'rpg_session_players',
-        action: 'update',
-        fields: ['status'],
-        permissions: OWN_PLAYER_REGISTRATION_FILTER,
-      },
-    ],
+  minion: {
+    name: 'Minion',
+    icon: 'emoji_people',
+    description: 'Minion de la asociación. Permisos pendientes de definir.',
+    permissions: [],
   },
 
-  'rpg-sessions:master': {
-    name: 'RPG Sessions: Master',
+  master: {
+    name: 'Master',
     icon: 'sports_esports',
-    description: 'Create and manage own RPG sessions',
+    description: 'Puede crear y gestionar sus propias sesiones de rol.',
     permissions: [
-      // CRUD own sessions
+      // CRUD sesiones propias
       {
         collection: 'rpg_sessions',
         action: 'create',
@@ -353,7 +199,7 @@ const POLICIES: Record<string, PolicyDefinition> = {
         action: 'delete',
         permissions: OWN_SESSION_FILTER,
       },
-      // CRUD own session translations
+      // CRUD traducciones de sesiones propias
       {
         collection: 'rpg_sessions_translations',
         action: 'create',
@@ -377,7 +223,7 @@ const POLICIES: Record<string, PolicyDefinition> = {
         action: 'delete',
         permissions: OWN_SESSION_TRANSLATION_FILTER,
       },
-      // CRUD M2M junctions for own sessions
+      // CRUD M2M junctions de sesiones propias
       ...SESSION_M2M_COLLECTIONS.flatMap((collection) => [
         {
           collection,
@@ -403,135 +249,38 @@ const POLICIES: Record<string, PolicyDefinition> = {
           permissions: OWN_SESSION_M2M_FILTER,
         },
       ]),
-      // Read players registered to own sessions
-      {
-        collection: 'rpg_session_players',
-        action: 'read',
-        fields: ['*'],
-        permissions: OWN_SESSION_PLAYERS_FILTER,
-      },
-      // Update player status in own sessions (approve, waitlist, etc.)
-      {
-        collection: 'rpg_session_players',
-        action: 'update',
-        fields: ['status'],
-        permissions: OWN_SESSION_PLAYERS_FILTER,
-      },
     ],
   },
 
-  'rpg-sessions:moderator': {
-    name: 'RPG Sessions: Moderator',
+  'comision-rol': {
+    name: 'Comisión de Rol',
     icon: 'shield',
-    description: 'Moderate all RPG sessions',
+    description: 'Coordinadora de sesiones de rol. Puede ver todas las sesiones y usuarios.',
     permissions: [
-      // Full CRUD on all sessions
-      ...(['create', 'read', 'update', 'delete'] as const).map((action) => ({
+      // Lectura de todas las sesiones
+      {
         collection: 'rpg_sessions',
-        action,
+        action: 'read' as const,
         fields: ['*'] as ['*'],
         permissions: {},
-      })),
-      // Full CRUD on translations
-      ...(['create', 'read', 'update', 'delete'] as const).map((action) => ({
+      },
+      {
         collection: 'rpg_sessions_translations',
-        action,
+        action: 'read' as const,
         fields: ['*'] as ['*'],
-        permissions: {},
-      })),
-      // Full CRUD on M2M junctions
-      ...SESSION_M2M_COLLECTIONS.flatMap((collection) =>
-        (['create', 'read', 'update', 'delete'] as const).map((action) => ({
-          collection,
-          action,
-          fields: ['*'] as ['*'],
-          permissions: {},
-        }))
-      ),
-      // Full CRUD on player registrations
-      ...(['create', 'read', 'update', 'delete'] as const).map((action) => ({
-        collection: 'rpg_session_players',
-        action,
-        fields: ['*'] as ['*'],
-        permissions: {},
-      })),
-      // Read all user profiles (for moderation)
-      {
-        collection: 'user_profiles',
-        action: 'read',
-        fields: ['*'],
         permissions: {},
       },
-      // Read users (for display)
+      ...SESSION_M2M_COLLECTIONS.map((collection) => ({
+        collection,
+        action: 'read' as const,
+        fields: ['*'] as ['*'],
+        permissions: {},
+      })),
+      // Lectura de usuarios (para identificar masters y jugadores)
       {
         collection: 'directus_users',
-        action: 'read',
-        fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'status'],
-        permissions: {},
-      },
-    ],
-  },
-
-  // -------------------------------------------------------------------------
-  // CONTENT MODERATION POLICIES
-  // -------------------------------------------------------------------------
-  'content:moderator': {
-    name: 'Content: Moderator',
-    icon: 'edit_note',
-    description: 'Moderate catalog content (genres, systems, settings, etc.)',
-    permissions: [
-      // Full CRUD on auxiliary collections
-      ...AUXILIARY_COLLECTIONS.flatMap((collection) =>
-        (['create', 'read', 'update', 'delete'] as const).map((action) => ({
-          collection,
-          action,
-          fields: ['*'] as ['*'],
-          permissions: {},
-        }))
-      ),
-      // Full CRUD on content collections
-      ...CONTENT_COLLECTIONS.flatMap((collection) =>
-        (['create', 'read', 'update', 'delete'] as const).map((action) => ({
-          collection,
-          action,
-          fields: ['*'] as ['*'],
-          permissions: {},
-        }))
-      ),
-    ],
-  },
-
-  'user-profiles:moderator': {
-    name: 'User Profiles: Moderator',
-    icon: 'manage_accounts',
-    description: 'Moderate all user profiles',
-    permissions: [
-      // Full CRUD on user profiles
-      ...(['create', 'read', 'update', 'delete'] as const).map((action) => ({
-        collection: 'user_profiles',
-        action,
-        fields: ['*'] as ['*'],
-        permissions: {},
-      })),
-      // Full CRUD on M2M
-      ...(['create', 'read', 'update', 'delete'] as const).map((action) => ({
-        collection: 'user_profiles_discovery_sources',
-        action,
-        fields: ['*'] as ['*'],
-        permissions: {},
-      })),
-      // Read users
-      {
-        collection: 'directus_users',
-        action: 'read',
-        fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role', 'status'],
-        permissions: {},
-      },
-      // Read roles
-      {
-        collection: 'directus_roles',
-        action: 'read',
-        fields: ['id', 'name', 'icon'],
+        action: 'read' as const,
+        fields: ['id', 'email', 'first_name', 'last_name', 'avatar'],
         permissions: {},
       },
     ],
@@ -543,15 +292,13 @@ const POLICIES: Record<string, PolicyDefinition> = {
 // =============================================================================
 
 /**
- * Default policies to attach to each role
+ * Policies que se asignan por defecto a cada rol al crearlo.
+ * Los administrators tienen admin_access; no necesitan policies.
+ * Los usuarios normales reciben Member por defecto.
  */
 const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
-  // Administrator has admin_access, so no policies needed
   administrator: [],
-  // Collaborator gets base content reading
-  collaborator: ['base:content-reader'],
-  // Member gets base content, self-profile and player
-  member: ['base:content-reader', 'user-profiles:self', 'rpg-sessions:player'],
+  user: ['member'],
 };
 
 // =============================================================================
@@ -561,7 +308,7 @@ const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
 type DirectusClient = Awaited<ReturnType<typeof createClient>>;
 
 /**
- * Link a policy to a role via directus_access
+ * Enlaza una policy a un rol via directus_access
  */
 async function linkPolicyToRole(
   config: DirectusConfig,
@@ -574,10 +321,7 @@ async function linkPolicyToRole(
       'Content-Type': 'application/json',
       Authorization: `Bearer ${config.token}`,
     },
-    body: JSON.stringify({
-      role: roleId,
-      policy: policyId,
-    }),
+    body: JSON.stringify({ role: roleId, policy: policyId }),
   });
 
   if (!response.ok) {
@@ -587,7 +331,7 @@ async function linkPolicyToRole(
 }
 
 /**
- * Delete all permissions for a policy
+ * Elimina todos los permisos de una policy
  */
 async function deletePolicyPermissions(
   client: DirectusClient,
@@ -608,24 +352,32 @@ async function deletePolicyPermissions(
 }
 
 /**
- * Delete a single policy
+ * Elimina una policy
  */
 async function deleteSinglePolicy(
   client: DirectusClient,
   policyId: string,
   policyName: string,
   dryRun: boolean
-): Promise<void> {
+): Promise<boolean> {
   if (dryRun) {
     log.item('deleted', `Would delete policy: ${policyName}`);
-  } else {
+    return true;
+  }
+
+  try {
     await client.request(deletePolicy(policyId));
     log.item('deleted', `Deleted policy: ${policyName}`);
+    return true;
+  } catch {
+    log.warn(`Could not delete policy '${policyName}' — it may be a system admin policy.`);
+    return false;
   }
 }
 
 /**
- * Clean up existing policies (roles are kept if they have users)
+ * Limpia TODAS las policies existentes para recrearlas desde cero.
+ * Esto asegura que se eliminen tanto las antiguas como las obsoletas.
  */
 async function cleanupPolicies(
   client: DirectusClient,
@@ -636,10 +388,13 @@ async function cleanupPolicies(
   const existingPolicies = await client.request(readPolicies());
   const existingPermissions = await client.request(readPermissions()) as { id: number; policy: string | null }[];
 
-  const customPolicyNames = new Set(Object.values(POLICIES).map((p) => p.name));
-
   for (const policy of existingPolicies) {
-    if (!customPolicyNames.has(policy.name)) continue;
+    // No borrar policies internas de Directus (ej: $t:public_label)
+    const isSystemPolicy = policy.name.startsWith('$t:');
+    if (isSystemPolicy) {
+      log.item('skipped', `System policy: ${policy.name}`);
+      continue;
+    }
 
     await deletePolicyPermissions(client, policy.id, policy.name, existingPermissions, dryRun);
     await deleteSinglePolicy(client, policy.id, policy.name, dryRun);
@@ -647,7 +402,40 @@ async function cleanupPolicies(
 }
 
 /**
- * Find existing roles by name
+ * Elimina los roles legacy (Collaborator, Member) si no tienen usuarios asignados.
+ * Si tienen usuarios, registra un aviso sin fallar.
+ */
+async function cleanupLegacyRoles(
+  client: DirectusClient,
+  dryRun: boolean
+): Promise<void> {
+  log.info('Cleaning up legacy roles...');
+
+  const existingRoles = await client.request(readRoles());
+  const legacyRoles = existingRoles.filter((r) => LEGACY_ROLE_NAMES.includes(r.name));
+
+  if (legacyRoles.length === 0) {
+    log.item('skipped', 'No legacy roles found');
+    return;
+  }
+
+  for (const role of legacyRoles) {
+    if (dryRun) {
+      log.item('deleted', `Would delete legacy role: ${role.name}`);
+      continue;
+    }
+
+    try {
+      await client.request(deleteRole(role.id));
+      log.item('deleted', `Deleted legacy role: ${role.name}`);
+    } catch {
+      log.warn(`Could not delete role '${role.name}' — it may have users assigned. Remove users first.`);
+    }
+  }
+}
+
+/**
+ * Busca los roles actuales por nombre
  */
 async function findExistingRoles(
   client: DirectusClient
@@ -666,7 +454,7 @@ async function findExistingRoles(
 }
 
 /**
- * Create all policies and their permissions
+ * Crea todas las policies y sus permisos
  */
 async function createAllPolicies(
   client: DirectusClient,
@@ -706,14 +494,16 @@ async function createAllPolicies(
         })
       );
     }
-    log.item('detail', `  → ${policyDef.permissions.length} permissions`);
+    if (policyDef.permissions.length > 0) {
+      log.item('detail', `  → ${policyDef.permissions.length} permissions`);
+    }
   }
 
   return createdPolicies;
 }
 
 /**
- * Establish all functions and connect permissions
+ * Crea o reutiliza los roles y les asigna sus policies por defecto
  */
 async function setupAllRoles(
   client: DirectusClient,
@@ -745,7 +535,6 @@ async function setupAllRoles(
       log.item('created', `Created role: ${roleDef.name} (${role.id})`);
     }
 
-    // Link default policies
     await linkDefaultPolicies(config, key, createdRoles, createdPolicies, dryRun);
   }
 
@@ -753,7 +542,7 @@ async function setupAllRoles(
 }
 
 /**
- * Link default policies to a role
+ * Asigna las policies por defecto a un rol
  */
 async function linkDefaultPolicies(
   config: DirectusConfig,
@@ -763,7 +552,7 @@ async function linkDefaultPolicies(
   dryRun: boolean
 ): Promise<void> {
   const roleId = createdRoles.get(roleKey);
-  const defaultPolicies = ROLE_DEFAULT_POLICIES[roleKey] || [];
+  const defaultPolicies = ROLE_DEFAULT_POLICIES[roleKey] ?? [];
 
   for (const policyKey of defaultPolicies) {
     const policyId = createdPolicies.get(policyKey);
@@ -775,14 +564,14 @@ async function linkDefaultPolicies(
 }
 
 /**
- * Print setup summary
+ * Imprime el resumen del setup
  */
 function printSummary(): void {
   log.success('Setup completed!');
 
   log.summary('Roles created:');
   for (const [key, roleDef] of Object.entries(ROLES)) {
-    const defaultPolicies = ROLE_DEFAULT_POLICIES[key] || [];
+    const defaultPolicies = ROLE_DEFAULT_POLICIES[key] ?? [];
     const policiesList = defaultPolicies.length > 0
       ? ` → [${defaultPolicies.join(', ')}]`
       : ' (admin_access)';
@@ -800,7 +589,7 @@ function printSummary(): void {
 }
 
 /**
- * Setup roles and policies
+ * Configura roles y policies en Directus
  */
 export async function rolesSetupCommand(
   config: DirectusConfig,
@@ -815,13 +604,14 @@ export async function rolesSetupCommand(
   }
 
   try {
+    if (options.clean !== false) {
+      await cleanupLegacyRoles(client, dryRun);
+      await cleanupPolicies(client, dryRun);
+    }
+
     const existingRoles = await findExistingRoles(client);
     if (existingRoles.size > 0) {
       log.info(`Found ${existingRoles.size} existing role(s) - will reuse them`);
-    }
-
-    if (options.clean !== false) {
-      await cleanupPolicies(client, dryRun);
     }
 
     const createdPolicies = await createAllPolicies(client, dryRun);

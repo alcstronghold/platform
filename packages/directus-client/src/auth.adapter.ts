@@ -117,6 +117,7 @@ export class DirectusAuthAdapter implements AuthPort {
           firstName: me.first_name,
           lastName: me.last_name,
           avatar: me.avatar,
+          status: 'active',
         },
         role,
       );

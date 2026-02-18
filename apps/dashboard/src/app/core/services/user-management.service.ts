@@ -1,8 +1,16 @@
-import type { CreateUserData, ManagedUser, Policy, Role, UserManagementPort } from '@alcstronghold/domain';
+import type { ManagedUser, Policy, Role, UserManagementPort } from '@alcstronghold/domain';
 import { CreateUserUseCase, type CreateUserResult } from '@alcstronghold/domain';
 import { computed, inject, Injectable, signal } from '@angular/core';
 
 import { USER_MANAGEMENT_PORT } from '../providers/directus.provider';
+
+/** Datos del formulario de creación (sin roleId, se asigna automáticamente) */
+export interface CreateUserInput {
+  email: string;
+  password: string;
+  firstName: string;
+  lastName: string;
+}
 
 interface UserManagementState {
   users: ManagedUser[];
@@ -59,9 +67,17 @@ export class UserManagementService {
     }
   }
 
-  async createUser(data: CreateUserData): Promise<CreateUserResult> {
+  async createUser(input: CreateUserInput): Promise<CreateUserResult> {
+    let roleId: string;
+    try {
+      roleId = await this.resolveUserRoleId();
+    } catch (e) {
+      const message = e instanceof Error ? e.message : 'Error al resolver el rol';
+      return { success: false, error: message };
+    }
+
     const useCase = new CreateUserUseCase(this.port);
-    const result = await useCase.execute(data);
+    const result = await useCase.execute({ ...input, roleId });
 
     if (result.success) {
       await this.loadUsers();
@@ -70,19 +86,44 @@ export class UserManagementService {
     return result;
   }
 
-  async updateUserRole(userId: string, roleId: string): Promise<void> {
-    await this.port.updateUserRole(userId, roleId);
-    await this.loadUsers();
-  }
-
   async assignPolicy(userId: string, policyId: string): Promise<void> {
     await this.port.assignPolicy(userId, policyId);
     await this.loadUsers();
   }
 
+  /** Asigna múltiples policies a un usuario y recarga la lista una sola vez */
+  async assignPolicies(userId: string, policyIds: string[]): Promise<void> {
+    await Promise.all(policyIds.map(id => this.port.assignPolicy(userId, id)));
+    if (policyIds.length > 0) {
+      await this.loadUsers();
+    }
+  }
+
   async removePolicy(assignmentId: string): Promise<void> {
     await this.port.removePolicy(assignmentId);
     await this.loadUsers();
+  }
+
+  /** Alterna el status de un usuario entre active y suspended */
+  async toggleUserStatus(userId: string): Promise<void> {
+    const user = this.users().find(u => u.id === userId);
+    if (!user) return;
+
+    const newStatus = user.status === 'active' ? 'suspended' : 'active';
+    await this.port.updateUserStatus(userId, newStatus);
+    await this.loadUsers();
+  }
+
+  /** Resuelve el ID del rol "User" consultando Directus */
+  private async resolveUserRoleId(): Promise<string> {
+    const roles = await this.port.listRoles();
+    const userRole = roles.find(r => r.name === 'User');
+
+    if (!userRole) {
+      throw new Error('Rol "User" no encontrado en Directus');
+    }
+
+    return userRole.id;
   }
 
   private patchState(patch: Partial<UserManagementState>): void {

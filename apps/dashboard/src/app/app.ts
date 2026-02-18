@@ -16,8 +16,6 @@ export class App {
   protected readonly authService = inject(AuthService);
 
   constructor() {
-    afterNextRender(() => {
-      initFlowbite();
-    });
+    afterNextRender(() => initFlowbite());
   }
 }

@@ -10,6 +10,7 @@ describe('computeDisplayName', () => {
       firstName: 'John',
       lastName: 'Doe',
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('John Doe');
@@ -22,6 +23,7 @@ describe('computeDisplayName', () => {
       firstName: 'John',
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('John');
@@ -34,6 +36,7 @@ describe('computeDisplayName', () => {
       firstName: null,
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('john.doe');
@@ -46,6 +49,7 @@ describe('computeDisplayName', () => {
       firstName: '',
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('jane');
@@ -60,6 +64,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'John',
       lastName: 'Doe',
       avatar: null,
+      status: 'active',
     };
 
     const authUser = toAuthenticatedUser(user);
@@ -78,6 +83,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'Test',
       lastName: null,
       avatar: 'https://example.com/avatar.png',
+      status: 'active',
     };
 
     const authUser = toAuthenticatedUser(user);
@@ -98,6 +104,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'Admin',
       lastName: 'User',
       avatar: null,
+      status: 'active',
     };
 
     const role: UserRole = {
@@ -119,6 +126,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'Member',
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     const authUser = toAuthenticatedUser(user);

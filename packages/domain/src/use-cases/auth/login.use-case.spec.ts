@@ -127,6 +127,7 @@ describe('LoginUseCase', () => {
           firstName: 'John',
           lastName: 'Doe',
           avatar: null,
+          status: 'active',
           displayName: 'John Doe',
         },
       };
