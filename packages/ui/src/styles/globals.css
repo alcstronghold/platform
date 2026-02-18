@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @import 'tailwindcss';
 /*noinspection CssUnknownTarget*/
 @import 'flowbite/src/themes/default';
 @import './fonts.css';
+@import './components.css';
 
 @plugin "flowbite/plugin";

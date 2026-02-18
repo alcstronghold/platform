@@ -6,52 +6,55 @@ import { loginGuard } from './core/guards/login.guard';
 
 export const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full',
-  },
-  {
     path: 'login',
     canActivate: [loginGuard],
     loadComponent: () =>
       import('./features/auth/components/login.component').then((m) => m.LoginComponent),
   },
   {
-    path: 'dashboard',
+    path: '',
     canActivate: [authGuard],
     loadComponent: () =>
-      import('./features/dashboard/components/dashboard.component').then(
-        (m) => m.DashboardComponent
-      ),
-  },
-  {
-    path: 'users',
-    canActivate: [authGuard, adminGuard],
-    loadComponent: () =>
-      import('./features/users/components/users-layout.component').then(
-        (m) => m.UsersLayoutComponent
-      ),
+      import('./core/components/app-layout.component').then((m) => m.AppLayoutComponent),
     children: [
       {
         path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+      },
+      {
+        path: 'dashboard',
         loadComponent: () =>
-          import('./features/users/components/user-list.component').then(
-            (m) => m.UserListComponent
+          import('./features/dashboard/components/dashboard.component').then(
+            (m) => m.DashboardComponent,
           ),
       },
       {
-        path: 'create',
-        loadComponent: () =>
-          import('./features/users/components/user-create.component').then(
-            (m) => m.UserCreateComponent
-          ),
-      },
-      {
-        path: ':id/edit',
-        loadComponent: () =>
-          import('./features/users/components/user-edit.component').then(
-            (m) => m.UserEditComponent
-          ),
+        path: 'users',
+        canActivate: [adminGuard],
+        children: [
+          {
+            path: '',
+            loadComponent: () =>
+              import('./features/users/components/user-list.component').then(
+                (m) => m.UserListComponent,
+              ),
+          },
+          {
+            path: 'create',
+            loadComponent: () =>
+              import('./features/users/components/user-create.component').then(
+                (m) => m.UserCreateComponent,
+              ),
+          },
+          {
+            path: ':id/edit',
+            loadComponent: () =>
+              import('./features/users/components/user-edit.component').then(
+                (m) => m.UserEditComponent,
+              ),
+          },
+        ],
       },
     ],
   },

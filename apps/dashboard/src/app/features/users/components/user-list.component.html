@@ -1,10 +1,7 @@
 <div class="space-y-4">
   <div class="flex items-center justify-between">
-    <h2 class="text-xl font-bold text-gray-900 dark:text-white">Usuarios</h2>
-    <a
-      routerLink="/users/create"
-      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 transition-colors duration-150 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-    >
+    <h2 class="text-heading">Usuarios</h2>
+    <a routerLink="/users/create" class="btn-primary px-4 py-2">
       Crear usuario
     </a>
   </div>
@@ -12,12 +9,12 @@
   @if (isLoading()) {
     <div class="text-center py-8">
       <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent"></div>
-      <p class="mt-2 text-gray-600 dark:text-gray-400">Cargando usuarios...</p>
+      <p class="mt-2 text-muted">Cargando usuarios...</p>
     </div>
   }
 
   @if (error()) {
-    <div class="p-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+    <div class="alert-error" role="alert">
       {{ error() }}
     </div>
   }
@@ -44,18 +41,14 @@
                 <div class="flex items-center gap-2">
                   {{ user.firstName }} {{ user.lastName }}
                   @if (user.status === 'suspended') {
-                    <span class="text-xs font-medium px-2 py-0.5 rounded bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400">
-                      Suspendido
-                    </span>
+                    <span class="badge-red">Suspendido</span>
                   }
                 </div>
               </td>
               <td class="px-6 py-4">{{ user.email }}</td>
               <td class="px-6 py-4">
                 @if (user.role) {
-                  <span class="text-xs font-medium px-2.5 py-0.5 rounded" [class]="roleBadgeClass">
-                    {{ user.role.name }}
-                  </span>
+                  <span class="badge-blue">{{ user.role.name }}</span>
                 } @else {
                   <span class="text-xs text-gray-400">Sin rol</span>
                 }
@@ -63,9 +56,7 @@
               <td class="px-6 py-4">
                 <div class="flex flex-wrap gap-1">
                   @for (pa of user.policyAssignments; track pa.id) {
-                    <span class="text-xs font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300">
-                      {{ pa.policyName }}
-                    </span>
+                    <span class="badge-gray">{{ pa.policyName }}</span>
                   }
                   @if (user.policyAssignments.length === 0) {
                     <span class="text-xs text-gray-400">&mdash;</span>
@@ -86,7 +77,6 @@
                       </svg>
                     </a>
                     @if (user.status === 'active') {
-                      <!-- Suspender: candado abierto → rojo en hover -->
                       <button
                         type="button"
                         (click)="toggleStatus(user)"
@@ -99,7 +89,6 @@
                         </svg>
                       </button>
                     } @else {
-                      <!-- Reactivar: candado cerrado → verde en hover -->
                       <button
                         type="button"
                         (click)="toggleStatus(user)"
