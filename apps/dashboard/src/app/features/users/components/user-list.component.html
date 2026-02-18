@@ -1,6 +1,6 @@
 <div class="space-y-4">
   <div class="flex items-center justify-between">
-    <h2 class="text-heading">Usuarios</h2>
+    <h2 class="heading">Usuarios</h2>
     <a routerLink="/users/create" class="btn-primary px-4 py-2">
       Crear usuario
     </a>
@@ -9,7 +9,7 @@
   @if (isLoading()) {
     <div class="text-center py-8">
       <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent"></div>
-      <p class="mt-2 text-muted">Cargando usuarios...</p>
+      <p class="mt-2 text-subtle">Cargando usuarios...</p>
     </div>
   }
 

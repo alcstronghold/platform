@@ -100,14 +100,14 @@
 }
 
 /* Texto */
-.text-muted {
+.text-subtle {
   @apply text-sm text-gray-600;
   :where(.dark, .dark *) & {
     @apply text-gray-400;
   }
 }
 
-.text-heading {
+.heading {
   @apply text-xl font-bold text-gray-900;
   :where(.dark, .dark *) & {
     @apply text-white;
