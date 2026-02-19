@@ -80,6 +80,7 @@ describe('AppLayoutComponent', () => {
         status: 'active',
         displayName: 'Admin User',
         role: { id: 'r1', name: 'Administrator', adminAccess: true },
+        policies: [],
       });
       fixture.detectChanges();
 
@@ -97,6 +98,7 @@ describe('AppLayoutComponent', () => {
         status: 'active',
         displayName: 'Regular User',
         role: { id: 'r2', name: 'Member', adminAccess: false },
+        policies: [],
       });
       fixture.detectChanges();
 
@@ -106,6 +108,66 @@ describe('AppLayoutComponent', () => {
         a.textContent?.includes('Usuarios'),
       );
       expect(hasUsuarios).toBe(false);
+    });
+  });
+
+  describe('sessions navigation', () => {
+    it('should show Juegos de rol link when user has Master policy', () => {
+      mockAuthService.user.set({
+        id: '1',
+        email: 'master@test.com',
+        firstName: 'Master',
+        lastName: 'User',
+        avatar: null,
+        status: 'active',
+        displayName: 'Master User',
+        role: { id: 'r2', name: 'User', adminAccess: false },
+        policies: ['Master'],
+      });
+      fixture.detectChanges();
+
+      const compiled = fixture.nativeElement as HTMLElement;
+      expect(compiled.textContent).toContain('Juegos de rol');
+    });
+
+    it('should hide Juegos de rol link for member without relevant policies', () => {
+      mockAuthService.user.set({
+        id: '1',
+        email: 'member@test.com',
+        firstName: 'Member',
+        lastName: 'User',
+        avatar: null,
+        status: 'active',
+        displayName: 'Member User',
+        role: { id: 'r2', name: 'User', adminAccess: false },
+        policies: ['Member'],
+      });
+      fixture.detectChanges();
+
+      const compiled = fixture.nativeElement as HTMLElement;
+      const navLinks = compiled.querySelectorAll('nav a');
+      const hasJuegos = Array.from(navLinks).some((a) =>
+        a.textContent?.includes('Juegos de rol'),
+      );
+      expect(hasJuegos).toBe(false);
+    });
+
+    it('should show Juegos de rol link for admin', () => {
+      mockAuthService.user.set({
+        id: '1',
+        email: 'admin@test.com',
+        firstName: 'Admin',
+        lastName: 'User',
+        avatar: null,
+        status: 'active',
+        displayName: 'Admin User',
+        role: { id: 'r1', name: 'Administrator', adminAccess: true },
+        policies: [],
+      });
+      fixture.detectChanges();
+
+      const compiled = fixture.nativeElement as HTMLElement;
+      expect(compiled.textContent).toContain('Juegos de rol');
     });
   });
 
@@ -120,6 +182,7 @@ describe('AppLayoutComponent', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       });
       fixture.detectChanges();
 
@@ -139,6 +202,7 @@ describe('AppLayoutComponent', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       });
       fixture.detectChanges();
 
@@ -163,6 +227,7 @@ describe('AppLayoutComponent', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       });
       fixture.detectChanges();
 

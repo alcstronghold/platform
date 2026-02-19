@@ -50,6 +50,7 @@ describe('DashboardComponent', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       });
 
       fixture.detectChanges();
@@ -66,9 +67,11 @@ describe('DashboardComponent', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: 'https://example.com/avatar.png',
+        status: 'active',
         displayName: 'Test User',
         role: null,
-      } as AuthenticatedUser);
+        policies: [],
+      });
 
       fixture.detectChanges();
 
@@ -89,6 +92,7 @@ describe('DashboardComponent', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       });
 
       fixture.detectChanges();
@@ -108,6 +112,7 @@ describe('DashboardComponent', () => {
         status: 'active',
         displayName: 'Admin User',
         role: null,
+        policies: [],
       });
 
       fixture.detectChanges();

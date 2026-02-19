@@ -3,6 +3,7 @@ import { Routes } from '@angular/router';
 import { adminGuard } from './core/guards/admin.guard';
 import { authGuard } from './core/guards/auth.guard';
 import { loginGuard } from './core/guards/login.guard';
+import { sessionsGuard } from './core/guards/sessions.guard';
 
 export const routes: Routes = [
   {
@@ -28,6 +29,33 @@ export const routes: Routes = [
           import('./features/dashboard/components/dashboard.component').then(
             (m) => m.DashboardComponent,
           ),
+      },
+      {
+        path: 'rpg-sessions',
+        canActivate: [sessionsGuard],
+        children: [
+          {
+            path: '',
+            loadComponent: () =>
+              import('./features/rpg-sessions/components/session-list.component').then(
+                (m) => m.SessionListComponent,
+              ),
+          },
+          {
+            path: 'create',
+            loadComponent: () =>
+              import('./features/rpg-sessions/components/session-create.component').then(
+                (m) => m.SessionCreateComponent,
+              ),
+          },
+          {
+            path: ':id/edit',
+            loadComponent: () =>
+              import('./features/rpg-sessions/components/session-edit.component').then(
+                (m) => m.SessionEditComponent,
+              ),
+          },
+        ],
       },
       {
         path: 'users',

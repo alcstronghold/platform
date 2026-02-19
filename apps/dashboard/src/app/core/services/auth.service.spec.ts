@@ -50,6 +50,7 @@ describe('AuthService', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       };
 
       vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(mockUser);
@@ -92,6 +93,7 @@ describe('AuthService', () => {
         status: 'active',
         displayName: 'Test User',
         role: null,
+        policies: [],
       };
 
       vi.mocked(mockAuthPort.login).mockResolvedValue({
@@ -142,6 +144,7 @@ describe('AuthService', () => {
           status: 'active',
           displayName: 'Test User',
           role: null,
+          policies: [],
         },
       });
 
@@ -174,6 +177,7 @@ describe('AuthService', () => {
           status: 'active',
           displayName: 'Test User',
           role: null,
+          policies: [],
         },
       });
       await service.login('test@example.com', 'password123');
@@ -199,6 +203,7 @@ describe('AuthService', () => {
           status: 'active',
           displayName: 'Test User',
           role: null,
+          policies: [],
         },
       });
       await service.login('test@example.com', 'password123');

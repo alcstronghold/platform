@@ -67,6 +67,19 @@ const CONTENT_COLLECTIONS = [
   'rpg_editions',
   'rpg_editions_translations',
   'languages',
+  // Colecciones auxiliares para formulario de sesiones
+  'age_ranges',
+  'age_ranges_translations',
+  'knowledge_levels',
+  'knowledge_levels_translations',
+  'accessibility_options',
+  'accessibility_options_translations',
+  'session_languages',
+  'session_languages_translations',
+  'content_warnings',
+  'content_warnings_translations',
+  'safety_measures',
+  'safety_measures_translations',
 ];
 
 /** M2M junctions de rpg_sessions */
@@ -150,6 +163,24 @@ const POLICIES: Record<string, PolicyDefinition> = {
         collection: 'directus_files',
         action: 'read' as const,
         fields: ['*'] as ['*'],
+        permissions: {},
+      },
+      // Lectura de las asignaciones propias de policies (para cargar policies en el dashboard)
+      {
+        collection: 'directus_access',
+        action: 'read' as const,
+        fields: ['id', 'policy', 'user', 'role'] as any,
+        permissions: {
+          _or: [
+            { user: { _eq: '$CURRENT_USER' } },
+            { role: { _eq: '$CURRENT_ROLE' } },
+          ],
+        },
+      },
+      {
+        collection: 'directus_policies',
+        action: 'read' as const,
+        fields: ['id', 'name'] as any,
         permissions: {},
       },
     ],

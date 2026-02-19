@@ -1,12 +1,19 @@
 import type { AuthenticatedUser, AuthPort, AuthResult, LoginCredentials, UserRole } from '@alcstronghold/domain';
 import { toAuthenticatedUser } from '@alcstronghold/domain';
-import { readMe } from '@directus/sdk';
+import { customEndpoint, readMe } from '@directus/sdk';
 
 import type { DirectusAuthClient } from './client.js';
 
 interface DirectusRoleBasic {
   id: string;
   name: string;
+}
+
+interface DirectusAccessItem {
+  id: string;
+  policy: { id: string; name: string } | string;
+  user: string | null;
+  role: string | null;
 }
 
 interface DirectusUser {
@@ -110,6 +117,9 @@ export class DirectusAuthAdapter implements AuthPort {
         role = { id: me.role.id, name: me.role.name, adminAccess };
       }
 
+      // Obtener policies del usuario (directas + via rol)
+      const policies = await this.loadUserPolicies(me.id, me.role?.id ?? null);
+
       return toAuthenticatedUser(
         {
           id: me.id,
@@ -120,9 +130,58 @@ export class DirectusAuthAdapter implements AuthPort {
           status: 'active',
         },
         role,
+        policies,
       );
     } catch {
       return null;
+    }
+  }
+
+  /**
+   * Carga los nombres de policies asignadas al usuario.
+   * Combina asignaciones directas (por user) y por rol (por role), sin duplicados.
+   */
+  private async loadUserPolicies(userId: string, roleId: string | null): Promise<string[]> {
+    try {
+      // Consulta asignaciones directas al usuario
+      const userAccess = await this.client.request<DirectusAccessItem[]>(
+        customEndpoint<DirectusAccessItem[]>({
+          path: '/access',
+          params: {
+            fields: ['id', 'policy.id', 'policy.name'],
+            filter: { user: { _eq: userId } },
+          },
+        })
+      );
+
+      // Consulta asignaciones al rol del usuario
+      let roleAccess: DirectusAccessItem[] = [];
+      if (roleId) {
+        roleAccess = await this.client.request<DirectusAccessItem[]>(
+          customEndpoint<DirectusAccessItem[]>({
+            path: '/access',
+            params: {
+              fields: ['id', 'policy.id', 'policy.name'],
+              filter: { role: { _eq: roleId } },
+            },
+          })
+        );
+      }
+
+      // Combinar y deduplicar por nombre de policy
+      const allAccess = [...userAccess, ...roleAccess];
+      const policyNames = new Set<string>();
+      for (const item of allAccess) {
+        const name = typeof item.policy === 'string' ? '' : item.policy?.name;
+        if (name) {
+          policyNames.add(name);
+        }
+      }
+
+      return [...policyNames];
+    } catch {
+      // Si falla la carga de policies, continuar sin ellas
+      return [];
     }
   }
 }

@@ -2,6 +2,7 @@ import { Component, computed, inject } from '@angular/core';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 import { AuthService } from '../services/auth.service';
+import { PermissionService } from '../services/permission.service';
 import { ThemeService } from '../services/theme.service';
 
 @Component({
@@ -11,13 +12,13 @@ import { ThemeService } from '../services/theme.service';
 })
 export class AppLayoutComponent {
   private readonly authService = inject(AuthService);
+  private readonly permissions = inject(PermissionService);
   private readonly themeService = inject(ThemeService);
   private readonly router = inject(Router);
 
   protected readonly user = computed(() => this.authService.user());
-  protected readonly isAdmin = computed(
-    () => this.authService.user()?.role?.adminAccess === true,
-  );
+  protected readonly isAdmin = this.permissions.isAdmin;
+  protected readonly canAccessSessions = this.permissions.canAccessSessions;
   protected readonly isDark = this.themeService.isDark;
 
   protected toggleTheme(): void {

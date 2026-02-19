@@ -73,6 +73,7 @@ describe('toAuthenticatedUser', () => {
       ...user,
       displayName: 'John Doe',
       role: null,
+      policies: [],
     });
   });
 
@@ -132,5 +133,36 @@ describe('toAuthenticatedUser', () => {
     const authUser = toAuthenticatedUser(user);
 
     expect(authUser.role).toBeNull();
+  });
+
+  it('should include policies when provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'master@example.com',
+      firstName: 'Master',
+      lastName: null,
+      avatar: null,
+      status: 'active',
+    };
+
+    const policies = ['Master', 'Member'];
+    const authUser = toAuthenticatedUser(user, undefined, policies);
+
+    expect(authUser.policies).toEqual(['Master', 'Member']);
+  });
+
+  it('should default policies to empty array when not provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'basic@example.com',
+      firstName: 'Basic',
+      lastName: null,
+      avatar: null,
+      status: 'active',
+    };
+
+    const authUser = toAuthenticatedUser(user);
+
+    expect(authUser.policies).toEqual([]);
   });
 });

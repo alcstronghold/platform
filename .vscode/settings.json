@@ -1,0 +1,24 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.moon/cache": true,
+    "**/.angular": true,
+    "**/.astro": true,
+  },
+  "yaml.schemas": {
+    ".moon/cache/schemas/workspace.json": ".moon/workspace.yml",
+    ".moon/cache/schemas/toolchain.json": ".moon/toolchain.yml",
+    ".moon/cache/schemas/project.json": "**/moon.yml",
+  },
+}

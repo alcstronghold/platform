@@ -30,6 +30,7 @@ export interface UserRole {
 export interface AuthenticatedUser extends User {
   displayName: string;
   role: UserRole | null;
+  policies: string[];
 }
 
 /**
@@ -49,10 +50,15 @@ export function computeDisplayName(user: User): string {
 /**
  * Create an AuthenticatedUser from a User
  */
-export function toAuthenticatedUser(user: User, role?: UserRole): AuthenticatedUser {
+export function toAuthenticatedUser(
+  user: User,
+  role?: UserRole,
+  policies?: string[],
+): AuthenticatedUser {
   return {
     ...user,
     displayName: computeDisplayName(user),
     role: role ?? null,
+    policies: policies ?? [],
   };
 }

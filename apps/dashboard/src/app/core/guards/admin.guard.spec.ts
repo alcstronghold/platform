@@ -38,6 +38,7 @@ describe('adminGuard', () => {
       status: 'active',
       displayName: 'Admin',
       role: { id: 'r1', name: 'Administrator', adminAccess: true },
+      policies: [],
     });
 
     const result = TestBed.runInInjectionContext(() =>
@@ -56,6 +57,7 @@ describe('adminGuard', () => {
       status: 'active',
       displayName: 'Member',
       role: { id: 'r2', name: 'Member', adminAccess: false },
+      policies: [],
     });
 
     TestBed.runInInjectionContext(() =>
@@ -74,6 +76,7 @@ describe('adminGuard', () => {
       status: 'active',
       displayName: 'NoRole',
       role: null,
+      policies: [],
     });
 
     TestBed.runInInjectionContext(() =>

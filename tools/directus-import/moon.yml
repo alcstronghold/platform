@@ -1,57 +1,46 @@
 language: typescript
-type: tool
-
-dependsOn:
-  - directus-schema
-  - directus-payload
-
 tasks:
   build:
     command: bun run build
     inputs:
-      - src/**/*
+    - src/**/*
     outputs:
-      - dist/**/*
-
+    - dist/**/*
   typecheck:
     command: bun run typecheck
     inputs:
-      - src/**/*
-
+    - src/**/*
   test:
     command: bun test
     inputs:
-      - src/**/*
-
+    - src/**/*
   import:
     command: bun x dotenvx run -- bun run src/index.ts import
-    local: true
-
+    preset: server
   export:
     command: bun x dotenvx run -- bun run src/index.ts export
-    local: true
-
+    preset: server
   schema-export:
     command: bun x dotenvx run -- bun run src/index.ts schema-export
-    local: true
-
+    preset: server
   schema-import:
     command: bun x dotenvx run -- bun run src/index.ts schema-import
-    local: true
-
+    preset: server
   schema-clear:
     command: bun x dotenvx run -- bun run src/index.ts schema-clear
-    local: true
-
+    preset: server
   env-encrypt:
     command: bun x dotenvx encrypt -ek DIRECTUS_URL -ek NODE_TLS_REJECT_UNAUTHORIZED
-    local: true
     inputs:
-      - .env
-
+    - .env
+    preset: server
   env-decrypt:
     command: bun x dotenvx decrypt
-    local: true
     inputs:
-      - .env
-      - .env.keys
+    - .env
+    - .env.keys
+    preset: server
+dependsOn:
+- directus-schema
+- directus-payload
+layer: tool

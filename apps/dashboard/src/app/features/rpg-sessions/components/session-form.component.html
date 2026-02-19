@@ -1,0 +1,214 @@
+<form (submit)="submit(); $event.preventDefault()" class="space-y-8 max-w-2xl">
+
+  <!-- Sección 1: Información básica -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Información básica</legend>
+
+    <div>
+      <label for="title" class="label">Título *</label>
+      <input type="text" id="title" [formField]="descriptor.form.title" class="input" placeholder="Nombre de la sesión" />
+      @if (titleError()) {
+        <p class="field-error">{{ titleError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="slogan" class="label">Subtítulo</label>
+      <input type="text" id="slogan" [formField]="descriptor.form.slogan" class="input" placeholder="Breve tagline (opcional)" />
+    </div>
+
+    <div>
+      <label for="synopsis" class="label">Sinopsis</label>
+      <textarea id="synopsis" [formField]="descriptor.form.synopsis" class="input" rows="4" placeholder="Descripción de la aventura (opcional)"></textarea>
+    </div>
+  </fieldset>
+
+  <!-- Sección 2: Juego de rol -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Juego de rol</legend>
+
+    <div>
+      <label class="label">Familia RPG</label>
+      <app-searchable-select [options]="familyOptions()" [formField]="descriptor.form.familyId" />
+    </div>
+
+    <div>
+      <label class="label">Edición</label>
+      <app-searchable-select [options]="editionOptions()" [formField]="descriptor.form.editionId" />
+    </div>
+
+    <div>
+      <label class="label">Sistema de juego</label>
+      <app-searchable-select [options]="systemOptions()" [formField]="descriptor.form.systemId" />
+    </div>
+  </fieldset>
+
+  <!-- Sección 3: Ambientación -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Ambientación</legend>
+
+    <div>
+      <label class="label">Setting</label>
+      <app-searchable-select [options]="settingOptions()" [formField]="descriptor.form.settingId" />
+    </div>
+
+    <div>
+      <p class="label">Géneros</p>
+      <div class="flex flex-wrap gap-2">
+        @for (genre of genreOptions(); track genre.id) {
+          <label
+            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
+            [class]="isInSet(selectedGenreIds, genre.id)
+              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
+              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
+          >
+            <input type="checkbox" [checked]="isInSet(selectedGenreIds, genre.id)" (change)="toggleSet(selectedGenreIds, genre.id)" class="sr-only" />
+            {{ genre.name }}
+            @if (suggestedGenreIds().has(genre.id)) {
+              <span class="text-xs text-blue-500" title="Sugerido por el setting">★</span>
+            }
+          </label>
+        }
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- Sección 4: Configuración de mesa -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Configuración de mesa</legend>
+
+    <div>
+      <label class="label">Rango de edad *</label>
+      <app-searchable-select [options]="ageRangeOptions()" [formField]="descriptor.form.ageRangeId" [searchable]="false" placeholder="— Seleccionar —" />
+    </div>
+
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <label for="minPlayers" class="label">Mín. jugadores *</label>
+        <input type="number" id="minPlayers" [formField]="descriptor.form.minPlayers" class="input" />
+      </div>
+      <div>
+        <label for="maxPlayers" class="label">Máx. jugadores *</label>
+        <input type="number" id="maxPlayers" [formField]="descriptor.form.maxPlayers" class="input" />
+      </div>
+    </div>
+    @if (playersError()) {
+      <p class="field-error">{{ playersError() }}</p>
+    }
+
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <label for="minDuration" class="label">Duración mín. (min) *</label>
+        <input type="number" id="minDuration" [formField]="descriptor.form.minDurationMinutes" class="input" />
+      </div>
+      <div>
+        <label for="maxDuration" class="label">Duración máx. (min) *</label>
+        <input type="number" id="maxDuration" [formField]="descriptor.form.maxDurationMinutes" class="input" />
+      </div>
+    </div>
+    @if (durationError()) {
+      <p class="field-error">{{ durationError() }}</p>
+    }
+
+    <div>
+      <label class="label">Nivel de conocimiento *</label>
+      <app-searchable-select [options]="knowledgeLevelOptions()" [formField]="descriptor.form.knowledgeLevelId" [searchable]="false" placeholder="— Seleccionar —" />
+    </div>
+
+    @if (isKnowledgeLevelOther()) {
+      <div>
+        <label for="knowledgeLevelOther" class="label">Especificar nivel</label>
+        <input type="text" id="knowledgeLevelOther" [formField]="descriptor.form.knowledgeLevelOther" class="input" placeholder="Describe el nivel requerido" />
+      </div>
+    }
+  </fieldset>
+
+  <!-- Sección 5: Accesibilidad y seguridad -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Accesibilidad y seguridad</legend>
+
+    <div>
+      <p class="label">Idiomas de la sesión</p>
+      <div class="flex flex-wrap gap-2">
+        @for (lang of sessionLanguages(); track lang.id) {
+          <label
+            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
+            [class]="isInSet(selectedLanguageIds, lang.id)
+              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
+              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
+          >
+            <input type="checkbox" [checked]="isInSet(selectedLanguageIds, lang.id)" (change)="toggleSet(selectedLanguageIds, lang.id)" class="sr-only" />
+            {{ lang.name }}
+          </label>
+        }
+      </div>
+    </div>
+
+    <div>
+      <p class="label">Opciones de accesibilidad</p>
+      <div class="flex flex-wrap gap-2">
+        @for (option of accessibilityOptions(); track option.id) {
+          <label
+            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
+            [class]="isInSet(selectedAccessibilityIds, option.id)
+              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
+              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
+          >
+            <input type="checkbox" [checked]="isInSet(selectedAccessibilityIds, option.id)" (change)="toggleSet(selectedAccessibilityIds, option.id)" class="sr-only" />
+            {{ option.name }}
+          </label>
+        }
+      </div>
+    </div>
+
+    <div>
+      <p class="label">Avisos de contenido</p>
+      <div class="flex flex-wrap gap-2">
+        @for (warning of contentWarnings(); track warning.id) {
+          <label
+            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
+            [class]="isInSet(selectedContentWarningIds, warning.id)
+              ? 'border-orange-500 bg-orange-50 text-orange-700 dark:border-orange-400 dark:bg-orange-900/20 dark:text-orange-300'
+              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
+          >
+            <input type="checkbox" [checked]="isInSet(selectedContentWarningIds, warning.id)" (change)="toggleSet(selectedContentWarningIds, warning.id)" class="sr-only" />
+            {{ warning.name }}
+          </label>
+        }
+      </div>
+    </div>
+
+    <div>
+      <p class="label">Medidas de seguridad</p>
+      <div class="flex flex-wrap gap-2">
+        @for (measure of safetyMeasures(); track measure.id) {
+          <label
+            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
+            [class]="isInSet(selectedSafetyMeasureIds, measure.id)
+              ? 'border-green-500 bg-green-50 text-green-700 dark:border-green-400 dark:bg-green-900/20 dark:text-green-300'
+              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
+          >
+            <input type="checkbox" [checked]="isInSet(selectedSafetyMeasureIds, measure.id)" (change)="toggleSet(selectedSafetyMeasureIds, measure.id)" class="sr-only" />
+            {{ measure.name }}
+          </label>
+        }
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- Sección 6: Comentarios -->
+  <fieldset class="space-y-4">
+    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Comentarios</legend>
+    <div>
+      <textarea id="comments" [formField]="descriptor.form.comments" class="input" rows="3" placeholder="Notas adicionales para los jugadores (opcional)"></textarea>
+    </div>
+  </fieldset>
+
+  <!-- Botones -->
+  <div class="flex gap-3 pt-2">
+    <button type="submit" [disabled]="isSubmitting()" class="btn-primary px-5 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed">
+      @if (isSubmitting()) { Guardando... } @else { {{ submitLabel() }} }
+    </button>
+    <button type="button" (click)="cancel()" class="btn-outline px-5 py-2.5">Cancelar</button>
+  </div>
+</form>
