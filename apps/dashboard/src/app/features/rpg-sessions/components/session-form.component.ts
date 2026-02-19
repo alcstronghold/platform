@@ -103,7 +103,13 @@ export class SessionFormComponent {
       });
       max(schema.maxDurationMinutes, 480, { message: 'La duración máxima no puede ser mayor de 480 minutos' });
 
+      required(schema.ageRangeId, { message: 'El rango de edad es obligatorio' });
+      required(schema.knowledgeLevelId, { message: 'El nivel de conocimiento es obligatorio' });
+
       minLength(schema.languageIds, 1, { message: 'Selecciona al menos un idioma' });
+      minLength(schema.accessibilityOptionIds, 1, { message: 'Selecciona al menos una opción de accesibilidad' });
+      minLength(schema.contentWarningIds, 1, { message: 'Selecciona al menos un aviso de contenido' });
+      minLength(schema.safetyMeasureIds, 1, { message: 'Selecciona al menos una medida de seguridad' });
     },
   );
 
@@ -113,6 +119,8 @@ export class SessionFormComponent {
   readonly step1Valid = computed(() =>
     [
       this.descriptor.form.title(),
+      this.descriptor.form.ageRangeId(),
+      this.descriptor.form.knowledgeLevelId(),
       this.descriptor.form.minPlayers(),
       this.descriptor.form.maxPlayers(),
       this.descriptor.form.minDurationMinutes(),
@@ -120,8 +128,28 @@ export class SessionFormComponent {
     ].every(f => f.errors().length === 0)
   );
 
+  // Indica si el paso 3 es válido (idiomas, accesibilidad, avisos y medidas obligatorios)
+  readonly step3Valid = computed(() =>
+    [
+      this.descriptor.form.languageIds(),
+      this.descriptor.form.accessibilityOptionIds(),
+      this.descriptor.form.contentWarningIds(),
+      this.descriptor.form.safetyMeasureIds(),
+    ].every(f => f.errors().length === 0)
+  );
+
   readonly titleError = computed(() => {
     const field = this.descriptor.form.title();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
+  });
+
+  readonly ageRangeError = computed(() => {
+    const field = this.descriptor.form.ageRangeId();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
+  });
+
+  readonly knowledgeLevelError = computed(() => {
+    const field = this.descriptor.form.knowledgeLevelId();
     return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
   });
 
@@ -143,6 +171,21 @@ export class SessionFormComponent {
 
   readonly languagesError = computed(() => {
     const field = this.descriptor.form.languageIds();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
+  });
+
+  readonly accessibilityError = computed(() => {
+    const field = this.descriptor.form.accessibilityOptionIds();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
+  });
+
+  readonly contentWarningsError = computed(() => {
+    const field = this.descriptor.form.contentWarningIds();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
+  });
+
+  readonly safetyMeasuresError = computed(() => {
+    const field = this.descriptor.form.safetyMeasureIds();
     return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
   });
 
@@ -278,6 +321,8 @@ export class SessionFormComponent {
   goToStep2(): void {
     const step1Fields = [
       this.descriptor.form.title(),
+      this.descriptor.form.ageRangeId(),
+      this.descriptor.form.knowledgeLevelId(),
       this.descriptor.form.minPlayers(),
       this.descriptor.form.maxPlayers(),
       this.descriptor.form.minDurationMinutes(),
@@ -300,6 +345,9 @@ export class SessionFormComponent {
   submit(): void {
     if (!this.descriptor.form().valid()) {
       this.descriptor.form.languageIds().markAsTouched();
+      this.descriptor.form.accessibilityOptionIds().markAsTouched();
+      this.descriptor.form.contentWarningIds().markAsTouched();
+      this.descriptor.form.safetyMeasureIds().markAsTouched();
       return;
     }
 

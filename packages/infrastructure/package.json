@@ -17,16 +17,16 @@
     }
   },
   "dependencies": {
-    "@angular/core": "21.1.4",
-    "@angular/forms": "21.1.4",
+    "@angular/core": "21.1.5",
+    "@angular/forms": "21.1.5",
     "lodash-es": "4.17.23",
     "zod": "4.3.6"
   },
   "devDependencies": {
     "@analogjs/vitest-angular": "2.2.3",
-    "@angular/compiler": "21.1.4",
-    "@angular/compiler-cli": "21.1.4",
-    "@angular/platform-browser-dynamic": "21.1.4",
+    "@angular/compiler": "21.1.5",
+    "@angular/compiler-cli": "21.1.5",
+    "@angular/platform-browser-dynamic": "21.1.5",
     "@types/lodash-es": "4.17.12",
     "jsdom": "28.1.0"
   }

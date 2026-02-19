@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@alcstronghold/domain": "workspace:*",
-    "@directus/sdk": "21.1.0"
+    "@directus/sdk": "21.1.0",
+    "slugify": "^1.6.6"
   }
 }

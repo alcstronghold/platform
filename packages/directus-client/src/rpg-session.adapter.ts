@@ -7,6 +7,7 @@ import type {
   UpdateRpgSessionData,
 } from '@alcstronghold/domain';
 import { customEndpoint } from '@directus/sdk';
+import slugify from 'slugify';
 
 import type { DirectusAuthClient } from './client.js';
 
@@ -142,11 +143,21 @@ export function mapToSessionDetail(item: DirectusSessionDetailItem): RpgSessionD
 }
 
 /**
+ * Genera un identifier único a partir del título de la sesión.
+ * Normaliza a ASCII, reemplaza espacios por guiones y añade sufijo de timestamp.
+ */
+export function generateSessionIdentifier(title: string): string {
+  const slug = slugify(title, { lower: true, strict: true, locale: 'es' });
+  return `${slug}-${Date.now().toString(36)}`;
+}
+
+/**
  * Convierte datos de dominio al formato Directus para crear/actualizar sesiones
  */
 export function mapToDirectusPayload(data: CreateRpgSessionData, masterId?: string): Record<string, unknown> {
   const payload: Record<string, unknown> = {
     title: data.title,
+    identifier: masterId ? generateSessionIdentifier(data.title) : undefined,
     slogan: data.slogan,
     synopsis: data.synopsis,
     rpg_system_id: data.rpgSystemId,

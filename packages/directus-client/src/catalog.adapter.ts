@@ -190,7 +190,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
   }
 
   async listAccessibilityOptions(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('accessibility_options', WITH_DESCRIPTION);
+    return this.listSimpleCatalog('accessibility_options', WITH_EXCLUSIVE_AND_DESCRIPTION);
   }
 
   async listSessionLanguages(): Promise<CatalogItem[]> {
