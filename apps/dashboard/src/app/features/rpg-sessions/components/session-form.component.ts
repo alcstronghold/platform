@@ -1,7 +1,7 @@
 import type { CatalogItem, CreateRpgSessionData, GenreCatalog, RpgEditionCatalog, RpgFamilyCatalog, RpgSessionDetail, RpgSystemCatalog, SettingCatalog } from '@alcstronghold/domain';
 import { SignalFormDescriptor } from '@alcstronghold/infrastructure';
 import { Component, computed, effect, input, output, signal, untracked } from '@angular/core';
-import { FormField, required } from '@angular/forms/signals';
+import { FormField, max, min, required } from '@angular/forms/signals';
 
 import type { SelectOption } from '../../../core/components/searchable-select.component';
 import { SearchableSelectComponent } from '../../../core/components/searchable-select.component';
@@ -70,6 +70,26 @@ export class SessionFormComponent {
     },
     (schema) => {
       required(schema.title, { message: 'El título es obligatorio' });
+
+      min(schema.minPlayers, 2, { message: 'El mínimo de jugadores no puede ser menor de 2' });
+      max(schema.minPlayers, () => this.descriptor.model().maxPlayers, {
+        message: 'El mínimo de jugadores no puede superar el máximo',
+      });
+
+      min(schema.maxPlayers, () => this.descriptor.model().minPlayers, {
+        message: 'El máximo de jugadores no puede ser menor que el mínimo',
+      });
+      max(schema.maxPlayers, 20, { message: 'El máximo de jugadores no puede ser mayor de 20' });
+
+      min(schema.minDurationMinutes, 60, { message: 'La duración mínima no puede ser menor de 60 minutos' });
+      max(schema.minDurationMinutes, () => this.descriptor.model().maxDurationMinutes, {
+        message: 'La duración mínima no puede superar la máxima',
+      });
+
+      min(schema.maxDurationMinutes, () => this.descriptor.model().minDurationMinutes, {
+        message: 'La duración máxima no puede ser menor que la mínima',
+      });
+      max(schema.maxDurationMinutes, 480, { message: 'La duración máxima no puede ser mayor de 480 minutos' });
     },
   );
 
@@ -84,8 +104,21 @@ export class SessionFormComponent {
     const field = this.descriptor.form.title();
     return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
   });
-  readonly playersError = signal<string | null>(null);
-  readonly durationError = signal<string | null>(null);
+  readonly playersError = computed(() => {
+    const minField = this.descriptor.form.minPlayers();
+    const maxField = this.descriptor.form.maxPlayers();
+    if (minField.touched() && minField.errors().length > 0) return minField.errors()[0].message;
+    if (maxField.touched() && maxField.errors().length > 0) return maxField.errors()[0].message;
+    return null;
+  });
+
+  readonly durationError = computed(() => {
+    const minField = this.descriptor.form.minDurationMinutes();
+    const maxField = this.descriptor.form.maxDurationMinutes();
+    if (minField.touched() && minField.errors().length > 0) return minField.errors()[0].message;
+    if (maxField.touched() && maxField.errors().length > 0) return maxField.errors()[0].message;
+    return null;
+  });
 
   // Opciones para los dropdowns (formato { value, name, preferred? })
   readonly familyOptions = computed<SelectOption[]>(() =>
@@ -232,24 +265,16 @@ export class SessionFormComponent {
   }
 
   submit(): void {
-    this.playersError.set(null);
-    this.durationError.set(null);
-
     if (!this.descriptor.form().valid()) {
       this.descriptor.form.title().markAsTouched();
+      this.descriptor.form.minPlayers().markAsTouched();
+      this.descriptor.form.maxPlayers().markAsTouched();
+      this.descriptor.form.minDurationMinutes().markAsTouched();
+      this.descriptor.form.maxDurationMinutes().markAsTouched();
       return;
     }
 
     const fields = this.descriptor.model();
-
-    if (fields.minPlayers > fields.maxPlayers) {
-      this.playersError.set('El mínimo de jugadores no puede ser mayor al máximo');
-      return;
-    }
-    if (fields.minDurationMinutes > fields.maxDurationMinutes) {
-      this.durationError.set('La duración mínima no puede ser mayor a la máxima');
-      return;
-    }
 
     this.formSubmit.emit({
       title: fields.title.trim(),
