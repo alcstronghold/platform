@@ -1,154 +1,231 @@
 <form (submit)="submit(); $event.preventDefault()" class="space-y-8 max-w-2xl">
 
-  <!-- Sección 1: Información básica -->
-  <fieldset class="space-y-4">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Información básica</legend>
-
-    <div>
-      <label for="title" class="label">Título *</label>
-      <input type="text" id="title" [formField]="descriptor.form.title" class="input" placeholder="Nombre de la sesión" />
-      @if (titleError()) {
-        <p class="field-error">{{ titleError() }}</p>
-      }
+  <!-- Stepper indicator -->
+  <div class="flex items-center gap-3">
+    <div class="flex items-center gap-2 shrink-0">
+      <div class="flex h-7 w-7 items-center justify-center rounded-full text-sm font-semibold bg-blue-600 text-white">1</div>
+      <span
+        class="text-sm font-medium"
+        [class.text-gray-900]="currentStep() === 1"
+        [class.dark:text-white]="currentStep() === 1"
+        [class.text-gray-400]="currentStep() !== 1"
+        [class.dark:text-gray-500]="currentStep() !== 1"
+      >Básico</span>
     </div>
 
-    <div>
-      <label for="slogan" class="label">Subtítulo</label>
-      <input type="text" id="slogan" [formField]="descriptor.form.slogan" class="input" placeholder="Breve tagline (opcional)" />
+    <div class="flex-1 border-t border-gray-300 dark:border-gray-600"></div>
+
+    <div class="flex items-center gap-2 shrink-0">
+      <div
+        class="flex h-7 w-7 items-center justify-center rounded-full text-sm font-semibold"
+        [class.bg-blue-600]="currentStep() === 2"
+        [class.text-white]="currentStep() === 2"
+        [class.bg-gray-200]="currentStep() !== 2"
+        [class.dark:bg-gray-700]="currentStep() !== 2"
+        [class.text-gray-500]="currentStep() !== 2"
+        [class.dark:text-gray-400]="currentStep() !== 2"
+      >2</div>
+      <span
+        class="text-sm font-medium"
+        [class.text-gray-900]="currentStep() === 2"
+        [class.dark:text-white]="currentStep() === 2"
+        [class.text-gray-400]="currentStep() !== 2"
+        [class.dark:text-gray-500]="currentStep() !== 2"
+      >Juego</span>
     </div>
 
-    <div>
-      <label for="synopsis" class="label">Sinopsis</label>
-      <textarea id="synopsis" [formField]="descriptor.form.synopsis" class="input" rows="4" placeholder="Descripción de la aventura (opcional)"></textarea>
+    <div class="flex-1 border-t border-gray-300 dark:border-gray-600"></div>
+
+    <div class="flex items-center gap-2 shrink-0">
+      <div
+        class="flex h-7 w-7 items-center justify-center rounded-full text-sm font-semibold"
+        [class.bg-blue-600]="currentStep() === 3"
+        [class.text-white]="currentStep() === 3"
+        [class.bg-gray-200]="currentStep() !== 3"
+        [class.dark:bg-gray-700]="currentStep() !== 3"
+        [class.text-gray-500]="currentStep() !== 3"
+        [class.dark:text-gray-400]="currentStep() !== 3"
+      >3</div>
+      <span
+        class="text-sm font-medium"
+        [class.text-gray-900]="currentStep() === 3"
+        [class.dark:text-white]="currentStep() === 3"
+        [class.text-gray-400]="currentStep() !== 3"
+        [class.dark:text-gray-500]="currentStep() !== 3"
+      >Requisitos</span>
     </div>
-  </fieldset>
-
-  <!-- Sección 2: Juego de rol -->
-  <fieldset class="space-y-4">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Juego de rol</legend>
-
-    <div>
-      <label class="label">Familia RPG</label>
-      <app-searchable-select [options]="familyOptions()" [formField]="descriptor.form.familyId" />
-    </div>
-
-    <div>
-      <label class="label">Edición</label>
-      <app-searchable-select [options]="editionOptions()" [formField]="descriptor.form.editionId" />
-    </div>
-
-    <div>
-      <label class="label">Sistema de juego</label>
-      <app-searchable-select [options]="systemOptions()" [formField]="descriptor.form.systemId" />
-    </div>
-  </fieldset>
-
-  <!-- Sección 3: Ambientación -->
-  <fieldset class="space-y-4">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Ambientación</legend>
-
-    <div>
-      <label class="label">Setting</label>
-      <app-searchable-select [options]="settingOptions()" [formField]="descriptor.form.settingId" />
-    </div>
-
-    <div>
-      <p class="label">Géneros</p>
-      <app-genre-picker [options]="genres()" [suggestedIds]="suggestedGenreIds()" [formField]="descriptor.form.genreIds" />
-    </div>
-  </fieldset>
-
-  <!-- Sección 4: Configuración de mesa -->
-  <fieldset class="space-y-4">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Configuración de mesa</legend>
-
-    <div>
-      <label class="label">Rango de edad *</label>
-      <app-searchable-select [options]="ageRangeOptions()" [formField]="descriptor.form.ageRangeId" [searchable]="false" placeholder="— Seleccionar —" />
-    </div>
-
-    <div class="grid grid-cols-2 gap-4">
-      <div>
-        <label for="minPlayers" class="label">Mín. jugadores *</label>
-        <input type="number" id="minPlayers" [formField]="descriptor.form.minPlayers" class="input" />
-      </div>
-      <div>
-        <label for="maxPlayers" class="label">Máx. jugadores *</label>
-        <input type="number" id="maxPlayers" [formField]="descriptor.form.maxPlayers" class="input" />
-      </div>
-    </div>
-    @if (playersError()) {
-      <p class="field-error">{{ playersError() }}</p>
-    }
-
-    <div class="grid grid-cols-2 gap-4">
-      <div>
-        <label for="minDuration" class="label">Duración mín. (min) *</label>
-        <input type="number" id="minDuration" [formField]="descriptor.form.minDurationMinutes" class="input" />
-      </div>
-      <div>
-        <label for="maxDuration" class="label">Duración máx. (min) *</label>
-        <input type="number" id="maxDuration" [formField]="descriptor.form.maxDurationMinutes" class="input" />
-      </div>
-    </div>
-    @if (durationError()) {
-      <p class="field-error">{{ durationError() }}</p>
-    }
-
-    <div>
-      <label class="label">Nivel de conocimiento *</label>
-      <app-searchable-select [options]="knowledgeLevelOptions()" [formField]="descriptor.form.knowledgeLevelId" [searchable]="false" placeholder="— Seleccionar —" />
-    </div>
-
-    @if (isKnowledgeLevelOther()) {
-      <div>
-        <label for="knowledgeLevelOther" class="label">Especificar nivel</label>
-        <input type="text" id="knowledgeLevelOther" [formField]="descriptor.form.knowledgeLevelOther" class="input" placeholder="Describe el nivel requerido" />
-      </div>
-    }
-  </fieldset>
-
-  <!-- Sección 5: Accesibilidad y seguridad -->
-  <fieldset class="space-y-6">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Accesibilidad y seguridad</legend>
-
-    <div class="space-y-2">
-      <p class="label">Idiomas de la sesión *</p>
-      <app-toggle-option-list [options]="sessionLanguages()" [formField]="descriptor.form.languageIds" />
-      @if (languagesError()) {
-        <p class="field-error">{{ languagesError() }}</p>
-      }
-    </div>
-
-    <div class="space-y-2">
-      <p class="label">Opciones de accesibilidad</p>
-      <app-toggle-option-list [options]="accessibilityOptions()" [formField]="descriptor.form.accessibilityOptionIds" />
-    </div>
-
-    <div class="space-y-2">
-      <p class="label">Avisos de contenido</p>
-      <app-toggle-option-list [options]="contentWarnings()" [formField]="descriptor.form.contentWarningIds" />
-    </div>
-
-    <div class="space-y-2">
-      <p class="label">Medidas de seguridad</p>
-      <app-toggle-option-list [options]="safetyMeasures()" [formField]="descriptor.form.safetyMeasureIds" />
-    </div>
-  </fieldset>
-
-  <!-- Sección 6: Comentarios -->
-  <fieldset class="space-y-4">
-    <legend class="text-lg font-semibold text-gray-900 dark:text-white">Comentarios</legend>
-    <div>
-      <textarea id="comments" [formField]="descriptor.form.comments" class="input" rows="3" placeholder="Notas adicionales para los jugadores (opcional)"></textarea>
-    </div>
-  </fieldset>
-
-  <!-- Botones -->
-  <div class="flex gap-3 pt-2">
-    <button type="submit" [disabled]="isSubmitting()" class="btn-primary px-5 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed">
-      @if (isSubmitting()) { Guardando... } @else { {{ submitLabel() }} }
-    </button>
-    <button type="button" (click)="cancel()" class="btn-outline px-5 py-2.5">Cancelar</button>
   </div>
+
+  <!-- ─── Paso 1: Información básica + Configuración ────── -->
+  @if (currentStep() === 1) {
+
+    <fieldset class="space-y-4">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Información básica</legend>
+
+      <div>
+        <label for="title" class="label">Título *</label>
+        <input type="text" id="title" [formField]="descriptor.form.title" class="input" placeholder="Nombre de la sesión" />
+        @if (titleError()) {
+          <p class="field-error">{{ titleError() }}</p>
+        }
+      </div>
+
+      <div>
+        <label for="slogan" class="label">Subtítulo</label>
+        <input type="text" id="slogan" [formField]="descriptor.form.slogan" class="input" placeholder="Breve tagline (opcional)" />
+      </div>
+
+      <div>
+        <label for="synopsis" class="label">Sinopsis</label>
+        <textarea id="synopsis" [formField]="descriptor.form.synopsis" class="input" rows="4" placeholder="Descripción de la aventura (opcional)"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset class="space-y-4">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Configuración de mesa</legend>
+
+      <div>
+        <label class="label">Rango de edad *</label>
+        <app-searchable-select [options]="ageRangeOptions()" [formField]="descriptor.form.ageRangeId" [searchable]="false" placeholder="— Seleccionar —" />
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label for="minPlayers" class="label">Mín. jugadores *</label>
+          <input type="number" id="minPlayers" [formField]="descriptor.form.minPlayers" class="input" />
+        </div>
+        <div>
+          <label for="maxPlayers" class="label">Máx. jugadores *</label>
+          <input type="number" id="maxPlayers" [formField]="descriptor.form.maxPlayers" class="input" />
+        </div>
+      </div>
+      @if (playersError()) {
+        <p class="field-error">{{ playersError() }}</p>
+      }
+
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label for="minDuration" class="label">Duración mín. (min) *</label>
+          <input type="number" id="minDuration" [formField]="descriptor.form.minDurationMinutes" class="input" />
+        </div>
+        <div>
+          <label for="maxDuration" class="label">Duración máx. (min) *</label>
+          <input type="number" id="maxDuration" [formField]="descriptor.form.maxDurationMinutes" class="input" />
+        </div>
+      </div>
+      @if (durationError()) {
+        <p class="field-error">{{ durationError() }}</p>
+      }
+
+      <div>
+        <label class="label">Nivel de conocimiento *</label>
+        <app-searchable-select [options]="knowledgeLevelOptions()" [formField]="descriptor.form.knowledgeLevelId" [searchable]="false" placeholder="— Seleccionar —" />
+      </div>
+
+      @if (isKnowledgeLevelOther()) {
+        <div>
+          <label for="knowledgeLevelOther" class="label">Especificar nivel</label>
+          <input type="text" id="knowledgeLevelOther" [formField]="descriptor.form.knowledgeLevelOther" class="input" placeholder="Describe el nivel requerido" />
+        </div>
+      }
+    </fieldset>
+
+    <div class="flex items-center justify-between pt-2">
+      <button type="button" (click)="cancel()" class="btn-outline px-5 py-2.5">Cancelar</button>
+      <button
+        type="button"
+        (click)="goToStep2()"
+        [disabled]="!step1Valid()"
+        class="btn-primary px-5 py-2.5 disabled:cursor-not-allowed disabled:opacity-50"
+      >Continuar →</button>
+    </div>
+  }
+
+  <!-- ─── Paso 2: Juego y ambientación ─────────────────── -->
+  @if (currentStep() === 2) {
+
+    <fieldset class="space-y-4">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Juego de rol</legend>
+
+      <div>
+        <label class="label">Familia RPG</label>
+        <app-searchable-select [options]="familyOptions()" [formField]="descriptor.form.familyId" />
+      </div>
+
+      <div>
+        <label class="label">Edición</label>
+        <app-searchable-select [options]="editionOptions()" [formField]="descriptor.form.editionId" />
+      </div>
+
+      <div>
+        <label class="label">Sistema de juego</label>
+        <app-searchable-select [options]="systemOptions()" [formField]="descriptor.form.systemId" />
+      </div>
+    </fieldset>
+
+    <fieldset class="space-y-4">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Ambientación</legend>
+
+      <div>
+        <label class="label">Setting</label>
+        <app-searchable-select [options]="settingOptions()" [formField]="descriptor.form.settingId" />
+      </div>
+
+      <div>
+        <p class="label">Géneros</p>
+        <app-genre-picker [options]="genres()" [suggestedIds]="suggestedGenreIds()" [formField]="descriptor.form.genreIds" />
+      </div>
+    </fieldset>
+
+    <div class="flex items-center justify-between pt-2">
+      <button type="button" (click)="goToStep1()" class="btn-outline px-5 py-2.5">← Atrás</button>
+      <button type="button" (click)="goToStep3()" class="btn-primary px-5 py-2.5">Continuar →</button>
+    </div>
+  }
+
+  <!-- ─── Paso 3: Requisitos ───────────────────────────── -->
+  @if (currentStep() === 3) {
+
+    <fieldset class="space-y-6">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Idiomas e inclusión</legend>
+
+      <div class="space-y-2">
+        <p class="label">Idiomas de la sesión *</p>
+        <app-toggle-option-list [options]="sessionLanguages()" [formField]="descriptor.form.languageIds" />
+        @if (languagesError()) {
+          <p class="field-error">{{ languagesError() }}</p>
+        }
+      </div>
+
+      <div class="space-y-2">
+        <p class="label">Opciones de accesibilidad</p>
+        <app-toggle-option-list [options]="accessibilityOptions()" [formField]="descriptor.form.accessibilityOptionIds" />
+      </div>
+
+      <div class="space-y-2">
+        <p class="label">Avisos de contenido</p>
+        <app-toggle-option-list [options]="contentWarnings()" [formField]="descriptor.form.contentWarningIds" />
+      </div>
+
+      <div class="space-y-2">
+        <p class="label">Medidas de seguridad</p>
+        <app-toggle-option-list [options]="safetyMeasures()" [formField]="descriptor.form.safetyMeasureIds" />
+      </div>
+    </fieldset>
+
+    <fieldset class="space-y-4">
+      <legend class="text-lg font-semibold text-gray-900 dark:text-white">Comentarios</legend>
+      <div>
+        <textarea id="comments" [formField]="descriptor.form.comments" class="input" rows="3" placeholder="Notas adicionales para los jugadores (opcional)"></textarea>
+      </div>
+    </fieldset>
+
+    <div class="flex items-center justify-between pt-2">
+      <button type="button" (click)="goToStep2()" class="btn-outline px-5 py-2.5">← Atrás</button>
+      <button type="submit" [disabled]="isSubmitting()" class="btn-primary px-5 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed">
+        @if (isSubmitting()) { Guardando... } @else { {{ submitLabel() }} }
+      </button>
+    </div>
+  }
+
 </form>

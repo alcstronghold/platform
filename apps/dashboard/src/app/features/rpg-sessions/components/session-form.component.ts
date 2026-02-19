@@ -1,6 +1,6 @@
 import type { CatalogItem, CreateRpgSessionData, GenreCatalog, RpgEditionCatalog, RpgFamilyCatalog, RpgSessionDetail, RpgSystemCatalog, SettingCatalog } from '@alcstronghold/domain';
 import { SignalFormDescriptor } from '@alcstronghold/infrastructure';
-import { Component, computed, effect, input, output, untracked } from '@angular/core';
+import { Component, computed, effect, input, output, signal, untracked } from '@angular/core';
 import { FormField, max, min, minLength, required } from '@angular/forms/signals';
 
 import { GenrePickerComponent } from '../../../core/components/genre-picker.component';
@@ -107,6 +107,19 @@ export class SessionFormComponent {
     },
   );
 
+  readonly currentStep = signal<1 | 2 | 3>(1);
+
+  // Indica si el paso 1 es válido para habilitar el botón "Continuar"
+  readonly step1Valid = computed(() =>
+    [
+      this.descriptor.form.title(),
+      this.descriptor.form.minPlayers(),
+      this.descriptor.form.maxPlayers(),
+      this.descriptor.form.minDurationMinutes(),
+      this.descriptor.form.maxDurationMinutes(),
+    ].every(f => f.errors().length === 0)
+  );
+
   readonly titleError = computed(() => {
     const field = this.descriptor.form.title();
     return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
@@ -188,52 +201,53 @@ export class SessionFormComponent {
     return level?.identifier === 'other';
   });
 
+  // Computeds privados para narrowing del tracking en effects (evitan bucles reactivos)
+  private readonly _familyId = computed(() => this.descriptor.model().familyId);
+  private readonly _editionId = computed(() => this.descriptor.model().editionId);
+  private readonly _settingId = computed(() => this.descriptor.model().settingId);
+
   constructor() {
-    effect(() => this.onFamilyChanged());
-    effect(() => this.onEditionChanged());
-    effect(() => this.onSettingChanged());
+    effect(() => {
+      const familyId = this._familyId();
+      if (familyId) this.onFamilyChanged(familyId);
+    });
+
+    effect(() => {
+      const editionId = this._editionId();
+      if (!editionId) return;
+      const edition = untracked(() => this.editions().find(e => e.id === editionId));
+      if (!edition) return;
+
+      const { familyId, systemId } = untracked(() => this.descriptor.model());
+      const updates: Partial<SessionFormFields> = {};
+      if (edition.rpgFamilyId && edition.rpgFamilyId !== familyId) updates.familyId = edition.rpgFamilyId;
+      if (edition.rpgSystemId && edition.rpgSystemId !== systemId) updates.systemId = edition.rpgSystemId;
+
+      if (Object.keys(updates).length > 0) this.descriptor.updateModel(updates);
+    });
+
+    effect(() => {
+      const settingId = this._settingId();
+      if (!settingId) return;
+      const setting = untracked(() => this.settings().find(s => s.id === settingId));
+      if (setting?.genreIds.length) this.descriptor.updateModel({ genreIds: setting.genreIds });
+    });
   }
 
-  private onFamilyChanged(): void {
-    const { familyId, editionId, systemId } = this.descriptor.model();
-    if (!familyId) return;
-
+  private onFamilyChanged(familyId: string): void {
     const allEditions = untracked(() => this.editions());
+    const { editionId, systemId } = untracked(() => this.descriptor.model());
     const updates: Partial<SessionFormFields> = {};
 
-    if (editionId && !allEditions.some(e => e.id === editionId && e.rpgFamilyId === familyId)) {
-      updates.editionId = null;
-    }
+    const editionBelongsToFamily = (id: string) => allEditions.some(e => e.id === id && e.rpgFamilyId === familyId);
+    if (editionId && !editionBelongsToFamily(editionId)) updates.editionId = null;
 
     const validSystemIds = new Set(
       allEditions.filter(e => e.rpgFamilyId === familyId && e.rpgSystemId).map(e => e.rpgSystemId as string)
     );
-    if (systemId && !validSystemIds.has(systemId)) {
-      updates.systemId = null;
-    }
+    if (systemId && !validSystemIds.has(systemId)) updates.systemId = null;
 
     if (Object.keys(updates).length > 0) this.descriptor.updateModel(updates);
-  }
-
-  private onEditionChanged(): void {
-    const { editionId, familyId, systemId } = this.descriptor.model();
-    if (!editionId) return;
-
-    const edition = untracked(() => this.editions().find(e => e.id === editionId));
-    if (!edition) return;
-
-    const updates: Partial<SessionFormFields> = {};
-    if (edition.rpgFamilyId && edition.rpgFamilyId !== familyId) updates.familyId = edition.rpgFamilyId;
-    if (edition.rpgSystemId && edition.rpgSystemId !== systemId) updates.systemId = edition.rpgSystemId;
-
-    if (Object.keys(updates).length > 0) this.descriptor.updateModel(updates);
-  }
-
-  private onSettingChanged(): void {
-    const settingId = this.descriptor.model().settingId;
-    if (!settingId) return;
-    const setting = untracked(() => this.settings().find(s => s.id === settingId));
-    if (setting?.genreIds.length) this.descriptor.updateModel({ genreIds: setting.genreIds });
   }
 
   loadData(data: RpgSessionDetail): void {
@@ -261,13 +275,30 @@ export class SessionFormComponent {
     });
   }
 
+  goToStep2(): void {
+    const step1Fields = [
+      this.descriptor.form.title(),
+      this.descriptor.form.minPlayers(),
+      this.descriptor.form.maxPlayers(),
+      this.descriptor.form.minDurationMinutes(),
+      this.descriptor.form.maxDurationMinutes(),
+    ];
+    step1Fields.forEach((f) => f.markAsTouched());
+
+    const hasErrors = step1Fields.some((f) => f.errors().length > 0);
+    if (!hasErrors) this.currentStep.set(2);
+  }
+
+  goToStep3(): void {
+    this.currentStep.set(3);
+  }
+
+  goToStep1(): void {
+    this.currentStep.set(1);
+  }
+
   submit(): void {
     if (!this.descriptor.form().valid()) {
-      this.descriptor.form.title().markAsTouched();
-      this.descriptor.form.minPlayers().markAsTouched();
-      this.descriptor.form.maxPlayers().markAsTouched();
-      this.descriptor.form.minDurationMinutes().markAsTouched();
-      this.descriptor.form.maxDurationMinutes().markAsTouched();
       this.descriptor.form.languageIds().markAsTouched();
       return;
     }
