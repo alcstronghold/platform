@@ -1,6 +1,7 @@
 [
   {
     "identifier": "none",
+    "exclusive_selection": true,
     "translations": {
       "es-ES": {
         "name": "Ninguno",
@@ -14,6 +15,7 @@
   },
   {
     "identifier": "violence",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Violencia",
@@ -27,6 +29,7 @@
   },
   {
     "identifier": "hospitals",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Hospitales/Médico",
@@ -40,6 +43,7 @@
   },
   {
     "identifier": "mental_health",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Salud mental",
@@ -53,6 +57,7 @@
   },
   {
     "identifier": "discrimination",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Discriminación",
@@ -66,6 +71,7 @@
   },
   {
     "identifier": "sexual_violence",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Violencia sexual",
@@ -79,6 +85,7 @@
   },
   {
     "identifier": "other",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Otro",

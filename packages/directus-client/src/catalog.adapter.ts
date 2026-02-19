@@ -14,12 +14,14 @@ import type { DirectusAuthClient } from './client.js';
 interface DirectusTranslation {
   languages_code: string;
   name?: string;
+  description?: string | null;
 }
 
 interface DirectusCatalogItem {
   id: string;
   identifier: string;
   translations: DirectusTranslation[];
+  exclusive_selection?: boolean;
 }
 
 interface DirectusGenre extends DirectusCatalogItem {
@@ -41,26 +43,35 @@ interface DirectusSetting extends DirectusCatalogItem {
 }
 
 /**
- * Resuelve el nombre traducido, priorizando el locale indicado
+ * Resuelve un campo de la traducción, priorizando el locale indicado
  */
-function resolveTranslation(
+function resolveTranslatedField(
   translations: DirectusTranslation[] | undefined,
+  field: 'name' | 'description',
   locale = 'es-ES',
-): string {
-  if (!translations?.length) return '';
+): string | null {
+  if (!translations?.length) return null;
   const match = translations.find(t => t.languages_code === locale);
-  return (match ?? translations[0])?.name ?? '';
+  const translation = match ?? translations[0];
+  const value = translation?.[field];
+  return typeof value === 'string' ? value : null;
 }
 
 function toCatalogItem(item: DirectusCatalogItem): CatalogItem {
   return {
     id: item.id,
     identifier: item.identifier,
-    name: resolveTranslation(item.translations),
+    name: resolveTranslatedField(item.translations, 'name') ?? '',
+    description: resolveTranslatedField(item.translations, 'description'),
+    exclusive: item.exclusive_selection ?? false,
   };
 }
 
-const CATALOG_FIELDS = ['id', 'identifier', 'translations.languages_code', 'translations.name'];
+const BASE_FIELDS = ['id', 'identifier', 'translations.languages_code', 'translations.name'];
+const WITH_DESCRIPTION = [...BASE_FIELDS, 'translations.description'];
+const WITH_EXCLUSIVE = [...BASE_FIELDS, 'exclusive_selection'];
+const WITH_EXCLUSIVE_AND_DESCRIPTION = [...BASE_FIELDS, 'translations.description', 'exclusive_selection'];
+
 const CATALOG_FILTER = { status: { _eq: 'published' } };
 const CATALOG_LIMIT = -1; // Traer todos sin paginación (Directus default: 100)
 
@@ -81,7 +92,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
       customEndpoint<DirectusRpgFamily[]>({
         path: '/items/rpg_families',
         params: {
-          fields: [...CATALOG_FIELDS, 'settings.settings_id'],
+          fields: [...BASE_FIELDS, 'settings.settings_id'],
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],
@@ -100,7 +111,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
       customEndpoint<DirectusRpgEdition[]>({
         path: '/items/rpg_editions',
         params: {
-          fields: [...CATALOG_FIELDS, 'rpg_family_id', 'rpg_system_id'],
+          fields: [...BASE_FIELDS, 'rpg_family_id', 'rpg_system_id'],
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],
@@ -120,7 +131,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
       customEndpoint<DirectusCatalogItem[]>({
         path: '/items/rpg_systems',
         params: {
-          fields: CATALOG_FIELDS,
+          fields: BASE_FIELDS,
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],
@@ -136,7 +147,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
       customEndpoint<DirectusSetting[]>({
         path: '/items/settings',
         params: {
-          fields: [...CATALOG_FIELDS, 'genres.genres_id', 'rpg_families.rpg_families_id'],
+          fields: [...BASE_FIELDS, 'genres.genres_id', 'rpg_families.rpg_families_id'],
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],
@@ -156,7 +167,7 @@ export class DirectusCatalogAdapter implements CatalogPort {
       customEndpoint<DirectusGenre[]>({
         path: '/items/genres',
         params: {
-          fields: [...CATALOG_FIELDS, 'parent_id'],
+          fields: [...BASE_FIELDS, 'parent_id'],
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],
@@ -171,38 +182,38 @@ export class DirectusCatalogAdapter implements CatalogPort {
   }
 
   async listAgeRanges(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('age_ranges');
+    return this.listSimpleCatalog('age_ranges', BASE_FIELDS);
   }
 
   async listKnowledgeLevels(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('knowledge_levels');
+    return this.listSimpleCatalog('knowledge_levels', WITH_DESCRIPTION);
   }
 
   async listAccessibilityOptions(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('accessibility_options');
+    return this.listSimpleCatalog('accessibility_options', WITH_DESCRIPTION);
   }
 
   async listSessionLanguages(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('session_languages');
+    return this.listSimpleCatalog('session_languages', WITH_EXCLUSIVE);
   }
 
   async listContentWarnings(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('content_warnings');
+    return this.listSimpleCatalog('content_warnings', WITH_EXCLUSIVE_AND_DESCRIPTION);
   }
 
   async listSafetyMeasures(): Promise<CatalogItem[]> {
-    return this.listSimpleCatalog('safety_measures');
+    return this.listSimpleCatalog('safety_measures', WITH_DESCRIPTION);
   }
 
   /**
-   * Lee una colección de catálogo simple (solo id, identifier, translations)
+   * Lee una colección de catálogo simple con los fields indicados
    */
-  private async listSimpleCatalog(collection: string): Promise<CatalogItem[]> {
+  private async listSimpleCatalog(collection: string, fields: string[]): Promise<CatalogItem[]> {
     const items = await this.client.request<DirectusCatalogItem[]>(
       customEndpoint<DirectusCatalogItem[]>({
         path: `/items/${collection}`,
         params: {
-          fields: CATALOG_FIELDS,
+          fields,
           filter: CATALOG_FILTER,
           limit: CATALOG_LIMIT,
           sort: ['sort'],

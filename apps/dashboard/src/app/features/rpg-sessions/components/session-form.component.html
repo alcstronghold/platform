@@ -54,22 +54,7 @@
 
     <div>
       <p class="label">Géneros</p>
-      <div class="flex flex-wrap gap-2">
-        @for (genre of genreOptions(); track genre.id) {
-          <label
-            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
-            [class]="isInSet(selectedGenreIds, genre.id)
-              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
-              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
-          >
-            <input type="checkbox" [checked]="isInSet(selectedGenreIds, genre.id)" (change)="toggleSet(selectedGenreIds, genre.id)" class="sr-only" />
-            {{ genre.name }}
-            @if (suggestedGenreIds().has(genre.id)) {
-              <span class="text-xs text-blue-500" title="Sugerido por el setting">★</span>
-            }
-          </label>
-        }
-      </div>
+      <app-genre-picker [options]="genres()" [suggestedIds]="suggestedGenreIds()" [formField]="descriptor.form.genreIds" />
     </div>
   </fieldset>
 
@@ -124,75 +109,30 @@
   </fieldset>
 
   <!-- Sección 5: Accesibilidad y seguridad -->
-  <fieldset class="space-y-4">
+  <fieldset class="space-y-6">
     <legend class="text-lg font-semibold text-gray-900 dark:text-white">Accesibilidad y seguridad</legend>
 
-    <div>
-      <p class="label">Idiomas de la sesión</p>
-      <div class="flex flex-wrap gap-2">
-        @for (lang of sessionLanguages(); track lang.id) {
-          <label
-            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
-            [class]="isInSet(selectedLanguageIds, lang.id)
-              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
-              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
-          >
-            <input type="checkbox" [checked]="isInSet(selectedLanguageIds, lang.id)" (change)="toggleSet(selectedLanguageIds, lang.id)" class="sr-only" />
-            {{ lang.name }}
-          </label>
-        }
-      </div>
+    <div class="space-y-2">
+      <p class="label">Idiomas de la sesión *</p>
+      <app-toggle-option-list [options]="sessionLanguages()" [formField]="descriptor.form.languageIds" />
+      @if (languagesError()) {
+        <p class="field-error">{{ languagesError() }}</p>
+      }
     </div>
 
-    <div>
+    <div class="space-y-2">
       <p class="label">Opciones de accesibilidad</p>
-      <div class="flex flex-wrap gap-2">
-        @for (option of accessibilityOptions(); track option.id) {
-          <label
-            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
-            [class]="isInSet(selectedAccessibilityIds, option.id)
-              ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-900/20 dark:text-blue-300'
-              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
-          >
-            <input type="checkbox" [checked]="isInSet(selectedAccessibilityIds, option.id)" (change)="toggleSet(selectedAccessibilityIds, option.id)" class="sr-only" />
-            {{ option.name }}
-          </label>
-        }
-      </div>
+      <app-toggle-option-list [options]="accessibilityOptions()" [formField]="descriptor.form.accessibilityOptionIds" />
     </div>
 
-    <div>
+    <div class="space-y-2">
       <p class="label">Avisos de contenido</p>
-      <div class="flex flex-wrap gap-2">
-        @for (warning of contentWarnings(); track warning.id) {
-          <label
-            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
-            [class]="isInSet(selectedContentWarningIds, warning.id)
-              ? 'border-orange-500 bg-orange-50 text-orange-700 dark:border-orange-400 dark:bg-orange-900/20 dark:text-orange-300'
-              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
-          >
-            <input type="checkbox" [checked]="isInSet(selectedContentWarningIds, warning.id)" (change)="toggleSet(selectedContentWarningIds, warning.id)" class="sr-only" />
-            {{ warning.name }}
-          </label>
-        }
-      </div>
+      <app-toggle-option-list [options]="contentWarnings()" [formField]="descriptor.form.contentWarningIds" />
     </div>
 
-    <div>
+    <div class="space-y-2">
       <p class="label">Medidas de seguridad</p>
-      <div class="flex flex-wrap gap-2">
-        @for (measure of safetyMeasures(); track measure.id) {
-          <label
-            class="inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm cursor-pointer transition-colors duration-150"
-            [class]="isInSet(selectedSafetyMeasureIds, measure.id)
-              ? 'border-green-500 bg-green-50 text-green-700 dark:border-green-400 dark:bg-green-900/20 dark:text-green-300'
-              : 'border-gray-200 bg-white text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'"
-          >
-            <input type="checkbox" [checked]="isInSet(selectedSafetyMeasureIds, measure.id)" (change)="toggleSet(selectedSafetyMeasureIds, measure.id)" class="sr-only" />
-            {{ measure.name }}
-          </label>
-        }
-      </div>
+      <app-toggle-option-list [options]="safetyMeasures()" [formField]="descriptor.form.safetyMeasureIds" />
     </div>
   </fieldset>
 

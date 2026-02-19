@@ -5,6 +5,8 @@ export interface CatalogItem {
   id: string;
   identifier: string;
   name: string;
+  description: string | null;
+  exclusive: boolean;
 }
 
 /**

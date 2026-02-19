@@ -59,6 +59,7 @@ export class DescribedEnumImporter extends BaseImporter<DescribedEnumPayload, De
 
     return {
       identifier: payload.identifier,
+      ...(payload.exclusive_selection !== undefined && { exclusive_selection: payload.exclusive_selection }),
       translations,
     };
   }

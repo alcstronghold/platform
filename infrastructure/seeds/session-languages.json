@@ -1,6 +1,7 @@
 [
   {
     "identifier": "es",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": "Castellano",
       "ca-ES": "Castellà"
@@ -8,6 +9,7 @@
   },
   {
     "identifier": "ca",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": "Catalán",
       "ca-ES": "Català"
@@ -15,6 +17,7 @@
   },
   {
     "identifier": "en",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": "Inglés",
       "ca-ES": "Anglès"
@@ -22,6 +25,7 @@
   },
   {
     "identifier": "decided_by_group",
+    "exclusive_selection": true,
     "translations": {
       "es-ES": "Lo decide el grupo",
       "ca-ES": "Ho decideix el grup"

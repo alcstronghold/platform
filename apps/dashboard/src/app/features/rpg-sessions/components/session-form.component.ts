@@ -1,10 +1,12 @@
 import type { CatalogItem, CreateRpgSessionData, GenreCatalog, RpgEditionCatalog, RpgFamilyCatalog, RpgSessionDetail, RpgSystemCatalog, SettingCatalog } from '@alcstronghold/domain';
 import { SignalFormDescriptor } from '@alcstronghold/infrastructure';
-import { Component, computed, effect, input, output, signal, untracked } from '@angular/core';
-import { FormField, max, min, required } from '@angular/forms/signals';
+import { Component, computed, effect, input, output, untracked } from '@angular/core';
+import { FormField, max, min, minLength, required } from '@angular/forms/signals';
 
+import { GenrePickerComponent } from '../../../core/components/genre-picker.component';
 import type { SelectOption } from '../../../core/components/searchable-select.component';
 import { SearchableSelectComponent } from '../../../core/components/searchable-select.component';
+import { ToggleOptionListComponent } from '../../../core/components/toggle-option-list.component';
 
 interface SessionFormFields {
   title: string;
@@ -22,11 +24,16 @@ interface SessionFormFields {
   maxPlayers: number;
   minDurationMinutes: number;
   maxDurationMinutes: number;
+  genreIds: string[];
+  languageIds: string[];
+  accessibilityOptionIds: string[];
+  contentWarningIds: string[];
+  safetyMeasureIds: string[];
 }
 
 @Component({
   selector: 'app-session-form',
-  imports: [FormField, SearchableSelectComponent],
+  imports: [FormField, GenrePickerComponent, SearchableSelectComponent, ToggleOptionListComponent],
   templateUrl: './session-form.component.html',
 })
 export class SessionFormComponent {
@@ -67,6 +74,11 @@ export class SessionFormComponent {
       maxPlayers: 6,
       minDurationMinutes: 120,
       maxDurationMinutes: 240,
+      genreIds: [],
+      languageIds: [],
+      accessibilityOptionIds: [],
+      contentWarningIds: [],
+      safetyMeasureIds: [],
     },
     (schema) => {
       required(schema.title, { message: 'El título es obligatorio' });
@@ -90,20 +102,16 @@ export class SessionFormComponent {
         message: 'La duración máxima no puede ser menor que la mínima',
       });
       max(schema.maxDurationMinutes, 480, { message: 'La duración máxima no puede ser mayor de 480 minutos' });
+
+      minLength(schema.languageIds, 1, { message: 'Selecciona al menos un idioma' });
     },
   );
-
-  // Signals para campos multi-valor (Sets), no van en el descriptor
-  readonly selectedGenreIds = signal(new Set<string>());
-  readonly selectedAccessibilityIds = signal(new Set<string>());
-  readonly selectedLanguageIds = signal(new Set<string>());
-  readonly selectedContentWarningIds = signal(new Set<string>());
-  readonly selectedSafetyMeasureIds = signal(new Set<string>());
 
   readonly titleError = computed(() => {
     const field = this.descriptor.form.title();
     return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
   });
+
   readonly playersError = computed(() => {
     const minField = this.descriptor.form.minPlayers();
     const maxField = this.descriptor.form.maxPlayers();
@@ -118,6 +126,11 @@ export class SessionFormComponent {
     if (minField.touched() && minField.errors().length > 0) return minField.errors()[0].message;
     if (maxField.touched() && maxField.errors().length > 0) return maxField.errors()[0].message;
     return null;
+  });
+
+  readonly languagesError = computed(() => {
+    const field = this.descriptor.form.languageIds();
+    return field.touched() && field.errors().length > 0 ? field.errors()[0].message : null;
   });
 
   // Opciones para los dropdowns (formato { value, name, preferred? })
@@ -159,8 +172,6 @@ export class SessionFormComponent {
   readonly knowledgeLevelOptions = computed<SelectOption[]>(() =>
     this.knowledgeLevels().map(l => ({ value: l.id, name: l.name }))
   );
-
-  readonly genreOptions = computed(() => this.sortByName(this.genres()));
 
   // Géneros sugeridos por el setting seleccionado
   readonly suggestedGenreIds = computed(() => {
@@ -222,7 +233,7 @@ export class SessionFormComponent {
     const settingId = this.descriptor.model().settingId;
     if (!settingId) return;
     const setting = untracked(() => this.settings().find(s => s.id === settingId));
-    if (setting?.genreIds.length) this.selectedGenreIds.set(new Set(setting.genreIds));
+    if (setting?.genreIds.length) this.descriptor.updateModel({ genreIds: setting.genreIds });
   }
 
   loadData(data: RpgSessionDetail): void {
@@ -242,26 +253,12 @@ export class SessionFormComponent {
       maxPlayers: data.maxPlayers,
       minDurationMinutes: data.minDurationMinutes,
       maxDurationMinutes: data.maxDurationMinutes,
+      genreIds: data.genreIds,
+      languageIds: data.languageIds,
+      accessibilityOptionIds: data.accessibilityOptionIds,
+      contentWarningIds: data.contentWarningIds,
+      safetyMeasureIds: data.safetyMeasureIds,
     });
-    this.selectedGenreIds.set(new Set(data.genreIds));
-    this.selectedAccessibilityIds.set(new Set(data.accessibilityOptionIds));
-    this.selectedLanguageIds.set(new Set(data.languageIds));
-    this.selectedContentWarningIds.set(new Set(data.contentWarningIds));
-    this.selectedSafetyMeasureIds.set(new Set(data.safetyMeasureIds));
-  }
-
-  toggleSet(setSignal: typeof this.selectedGenreIds, id: string): void {
-    const current = new Set(setSignal());
-    if (current.has(id)) {
-      current.delete(id);
-    } else {
-      current.add(id);
-    }
-    setSignal.set(current);
-  }
-
-  isInSet(setSignal: typeof this.selectedGenreIds, id: string): boolean {
-    return setSignal().has(id);
   }
 
   submit(): void {
@@ -271,6 +268,7 @@ export class SessionFormComponent {
       this.descriptor.form.maxPlayers().markAsTouched();
       this.descriptor.form.minDurationMinutes().markAsTouched();
       this.descriptor.form.maxDurationMinutes().markAsTouched();
+      this.descriptor.form.languageIds().markAsTouched();
       return;
     }
 
@@ -292,11 +290,11 @@ export class SessionFormComponent {
       minDurationMinutes: fields.minDurationMinutes,
       maxDurationMinutes: fields.maxDurationMinutes,
       comments: fields.comments.trim() || null,
-      genreIds: [...this.selectedGenreIds()],
-      accessibilityOptionIds: [...this.selectedAccessibilityIds()],
-      languageIds: [...this.selectedLanguageIds()],
-      contentWarningIds: [...this.selectedContentWarningIds()],
-      safetyMeasureIds: [...this.selectedSafetyMeasureIds()],
+      genreIds: fields.genreIds,
+      accessibilityOptionIds: fields.accessibilityOptionIds,
+      languageIds: fields.languageIds,
+      contentWarningIds: fields.contentWarningIds,
+      safetyMeasureIds: fields.safetyMeasureIds,
     });
   }
 
