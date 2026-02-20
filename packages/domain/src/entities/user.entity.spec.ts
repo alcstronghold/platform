@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { computeDisplayName, toAuthenticatedUser, type User } from './user.entity';
+import { computeDisplayName, toAuthenticatedUser, type User, type UserRole } from './user.entity';
 
 describe('computeDisplayName', () => {
   it('should use full name when both firstName and lastName exist', () => {
@@ -10,6 +10,7 @@ describe('computeDisplayName', () => {
       firstName: 'John',
       lastName: 'Doe',
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('John Doe');
@@ -22,6 +23,7 @@ describe('computeDisplayName', () => {
       firstName: 'John',
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('John');
@@ -34,6 +36,7 @@ describe('computeDisplayName', () => {
       firstName: null,
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('john.doe');
@@ -46,6 +49,7 @@ describe('computeDisplayName', () => {
       firstName: '',
       lastName: null,
       avatar: null,
+      status: 'active',
     };
 
     expect(computeDisplayName(user)).toBe('jane');
@@ -60,6 +64,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'John',
       lastName: 'Doe',
       avatar: null,
+      status: 'active',
     };
 
     const authUser = toAuthenticatedUser(user);
@@ -67,6 +72,8 @@ describe('toAuthenticatedUser', () => {
     expect(authUser).toEqual({
       ...user,
       displayName: 'John Doe',
+      role: null,
+      policies: [],
     });
   });
 
@@ -77,6 +84,7 @@ describe('toAuthenticatedUser', () => {
       firstName: 'Test',
       lastName: null,
       avatar: 'https://example.com/avatar.png',
+      status: 'active',
     };
 
     const authUser = toAuthenticatedUser(user);
@@ -87,5 +95,74 @@ describe('toAuthenticatedUser', () => {
     expect(authUser.lastName).toBeNull();
     expect(authUser.avatar).toBe('https://example.com/avatar.png');
     expect(authUser.displayName).toBe('Test');
+    expect(authUser.role).toBeNull();
+  });
+
+  it('should include role when provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'admin@example.com',
+      firstName: 'Admin',
+      lastName: 'User',
+      avatar: null,
+      status: 'active',
+    };
+
+    const role: UserRole = {
+      id: 'role-1',
+      name: 'Administrator',
+      adminAccess: true,
+    };
+
+    const authUser = toAuthenticatedUser(user, role);
+
+    expect(authUser.role).toEqual(role);
+    expect(authUser.role?.adminAccess).toBe(true);
+  });
+
+  it('should set role to null when not provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'member@example.com',
+      firstName: 'Member',
+      lastName: null,
+      avatar: null,
+      status: 'active',
+    };
+
+    const authUser = toAuthenticatedUser(user);
+
+    expect(authUser.role).toBeNull();
+  });
+
+  it('should include policies when provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'master@example.com',
+      firstName: 'Master',
+      lastName: null,
+      avatar: null,
+      status: 'active',
+    };
+
+    const policies = ['Master', 'Member'];
+    const authUser = toAuthenticatedUser(user, undefined, policies);
+
+    expect(authUser.policies).toEqual(['Master', 'Member']);
+  });
+
+  it('should default policies to empty array when not provided', () => {
+    const user: User = {
+      id: '1',
+      email: 'basic@example.com',
+      firstName: 'Basic',
+      lastName: null,
+      avatar: null,
+      status: 'active',
+    };
+
+    const authUser = toAuthenticatedUser(user);
+
+    expect(authUser.policies).toEqual([]);
   });
 });

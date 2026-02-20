@@ -1,31 +1,26 @@
 language: typescript
-type: application
-
-dependsOn:
-  - ui
-
 tasks:
   dev:
     command: bun run dev
-    local: true
-
+    preset: server
   build:
     command: bun run build
     inputs:
-      - src/**/*
-      - public/**/*
-      - astro.config.mjs
+    - src/**/*
+    - public/**/*
+    - astro.config.mjs
     outputs:
-      - dist/**/*
-
+    - dist/**/*
   preview:
     command: bun run preview
-    local: true
-
+    preset: server
   test:
     command: bun run test
     inputs:
-      - src/**/*.ts
-      - src/**/*.spec.ts
-      - vitest.config.ts
-      - vitest.setup.ts
+    - src/**/*.ts
+    - src/**/*.spec.ts
+    - vitest.config.ts
+    - vitest.setup.ts
+dependsOn:
+- ui
+layer: application

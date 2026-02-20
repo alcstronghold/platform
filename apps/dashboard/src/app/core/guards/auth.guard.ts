@@ -7,9 +7,7 @@ export const authGuard: CanActivateFn = (route: ActivatedRouteSnapshot) => {
   const authService = inject(AuthService);
   const router = inject(Router);
 
-  if (authService.isAuthenticated()) {
-    return true;
-  }
+  if (authService.isAuthenticated()) return true;
 
   // Captura la URL actual para redirigir después del login
   const currentUrl = `/${route.url.map((segment) => segment.path).join('/')}`;

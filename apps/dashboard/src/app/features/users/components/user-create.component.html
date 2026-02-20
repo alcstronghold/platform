@@ -1,0 +1,111 @@
+<div class="max-w-lg">
+  <h2 class="heading mb-6">Crear usuario</h2>
+
+  @if (serverError()) {
+    <div class="alert-error mb-4" role="alert">
+      {{ serverError() }}
+    </div>
+  }
+
+  <form (submit)="submit(); $event.preventDefault()" class="space-y-4">
+    <div>
+      <label for="email" class="label">Email</label>
+      <input
+        type="email"
+        id="email"
+        [formField]="descriptor.form.email"
+        class="input"
+        placeholder="usuario@ejemplo.com"
+      />
+      @if (emailError()) {
+        <p class="field-error">{{ emailError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="password" class="label">Contraseña</label>
+      <input
+        type="password"
+        id="password"
+        [formField]="descriptor.form.password"
+        class="input"
+        placeholder="Mínimo 8 caracteres"
+      />
+      @if (passwordError()) {
+        <p class="field-error">{{ passwordError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="firstName" class="label">Nombre</label>
+      <input
+        type="text"
+        id="firstName"
+        [formField]="descriptor.form.firstName"
+        class="input"
+      />
+      @if (firstNameError()) {
+        <p class="field-error">{{ firstNameError() }}</p>
+      }
+    </div>
+
+    <div>
+      <label for="lastName" class="label">Apellido</label>
+      <input
+        type="text"
+        id="lastName"
+        [formField]="descriptor.form.lastName"
+        class="input"
+      />
+      @if (lastNameError()) {
+        <p class="field-error">{{ lastNameError() }}</p>
+      }
+    </div>
+
+    <!-- Policies -->
+    @if (policies().length > 0) {
+      <div>
+        <p class="label">Policies</p>
+        <div class="space-y-2">
+          @for (policy of policies(); track policy.id) {
+            <label
+              class="policy-option"
+              [class]="isSelected(policy.id) ? 'policy-option-selected' : 'policy-option-unselected'"
+            >
+              <input
+                type="checkbox"
+                [checked]="isSelected(policy.id)"
+                (change)="togglePolicy(policy.id)"
+                [disabled]="isSubmitting()"
+                class="checkbox"
+              />
+              <div>
+                <span class="text-sm font-medium text-gray-900 dark:text-white">{{ policy.name }}</span>
+                @if (policy.description) {
+                  <p class="text-xs text-gray-500 dark:text-gray-400">{{ policy.description }}</p>
+                }
+              </div>
+            </label>
+          }
+        </div>
+      </div>
+    }
+
+    <div class="flex gap-3 pt-2">
+      <button
+        type="submit"
+        [disabled]="isSubmitting()"
+        class="btn-primary px-5 py-2.5 disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        @if (isSubmitting()) {
+          Creando...
+        } @else {
+          Crear usuario
+        }
+      </button>
+      <a routerLink="/users" class="btn-outline px-5 py-2.5">
+        Cancelar
+      </a>
+    </div>
+  </form>
+</div>

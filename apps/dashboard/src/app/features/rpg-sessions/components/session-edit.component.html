@@ -1,0 +1,39 @@
+<div>
+  <h2 class="heading mb-6">Editar sesión de rol</h2>
+
+  @if (serverError()) {
+    <div class="alert-error mb-4" role="alert">
+      {{ serverError() }}
+    </div>
+  }
+
+  @if (isLoading()) {
+    <div class="text-center py-8">
+      <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent"></div>
+      <p class="mt-2 text-subtle">Cargando sesión...</p>
+    </div>
+  } @else if (!session()) {
+    <div class="alert-error" role="alert">
+      No se encontró la sesión solicitada.
+    </div>
+  } @else {
+    <app-session-form
+      [families]="catalog.families()"
+      [editions]="catalog.editions()"
+      [systems]="catalog.systems()"
+      [settings]="catalog.settings()"
+      [genres]="catalog.genres()"
+      [ageRanges]="catalog.ageRanges()"
+      [knowledgeLevels]="catalog.knowledgeLevels()"
+      [accessibilityOptions]="catalog.accessibilityOptions()"
+      [sessionLanguages]="catalog.sessionLanguages()"
+      [contentWarnings]="catalog.contentWarnings()"
+      [safetyMeasures]="catalog.safetyMeasures()"
+      [initialData]="session()"
+      [isSubmitting]="isSubmitting()"
+      submitLabel="Guardar cambios"
+      (formSubmit)="onSubmit($event)"
+      (formCancel)="onCancel()"
+    />
+  }
+</div>

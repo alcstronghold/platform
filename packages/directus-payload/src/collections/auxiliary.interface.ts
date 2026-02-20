@@ -5,6 +5,7 @@ import type { LanguageCodes } from '@alcstronghold/directus-schema';
  */
 export interface SimpleEnumPayload {
   identifier: string;
+  exclusive_selection?: boolean;
   translations: Record<LanguageCodes, string>;
 }
 
@@ -13,6 +14,7 @@ export interface SimpleEnumPayload {
  */
 export interface DescribedEnumPayload {
   identifier: string;
+  exclusive_selection?: boolean;
   translations: Record<LanguageCodes, { name: string; description: string | null }>;
 }
 

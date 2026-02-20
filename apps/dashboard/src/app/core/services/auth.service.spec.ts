@@ -31,6 +31,15 @@ describe('AuthService', () => {
   });
 
   describe('initialize', () => {
+    it('should refresh token before fetching user', async () => {
+      vi.mocked(mockAuthPort.refreshToken).mockResolvedValue({ success: true });
+      vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(null);
+
+      await service.initialize();
+
+      expect(mockAuthPort.refreshToken).toHaveBeenCalled();
+    });
+
     it('should set user when valid session exists', async () => {
       const mockUser: AuthenticatedUser = {
         id: '1',
@@ -38,7 +47,10 @@ describe('AuthService', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
+        role: null,
+        policies: [],
       };
 
       vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(mockUser);
@@ -78,7 +90,10 @@ describe('AuthService', () => {
         firstName: 'Test',
         lastName: 'User',
         avatar: null,
+        status: 'active',
         displayName: 'Test User',
+        role: null,
+        policies: [],
       };
 
       vi.mocked(mockAuthPort.login).mockResolvedValue({
@@ -126,7 +141,10 @@ describe('AuthService', () => {
           firstName: 'Test',
           lastName: 'User',
           avatar: null,
+          status: 'active',
           displayName: 'Test User',
+          role: null,
+          policies: [],
         },
       });
 
@@ -156,7 +174,10 @@ describe('AuthService', () => {
           firstName: 'Test',
           lastName: 'User',
           avatar: null,
+          status: 'active',
           displayName: 'Test User',
+          role: null,
+          policies: [],
         },
       });
       await service.login('test@example.com', 'password123');
@@ -179,7 +200,10 @@ describe('AuthService', () => {
           firstName: 'Test',
           lastName: 'User',
           avatar: null,
+          status: 'active',
           displayName: 'Test User',
+          role: null,
+          policies: [],
         },
       });
       await service.login('test@example.com', 'password123');

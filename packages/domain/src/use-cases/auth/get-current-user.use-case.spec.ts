@@ -24,7 +24,10 @@ describe('GetCurrentUserUseCase', () => {
       firstName: 'John',
       lastName: 'Doe',
       avatar: null,
+      status: 'active',
       displayName: 'John Doe',
+      role: null,
+      policies: [],
     };
     vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(mockUser);
 
@@ -66,7 +69,10 @@ describe('GetCurrentUserUseCase', () => {
       firstName: 'Jane',
       lastName: null,
       avatar: 'https://example.com/avatar.png',
+      status: 'active',
       displayName: 'Jane',
+      role: null,
+      policies: [],
     };
     vi.mocked(mockAuthPort.getCurrentUser).mockResolvedValue(mockUser);
 

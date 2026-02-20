@@ -1,6 +1,7 @@
 [
   {
     "identifier": "visual",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Visual",
@@ -14,6 +15,7 @@
   },
   {
     "identifier": "auditory",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Auditivo",
@@ -27,6 +29,7 @@
   },
   {
     "identifier": "reading",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Lectura",
@@ -40,6 +43,7 @@
   },
   {
     "identifier": "other",
+    "exclusive_selection": false,
     "translations": {
       "es-ES": {
         "name": "Otro",
@@ -48,6 +52,20 @@
       "ca-ES": {
         "name": "Altre",
         "description": "Altres adaptacions disponibles"
+      }
+    }
+  },
+  {
+    "identifier": "none",
+    "exclusive_selection": true,
+    "translations": {
+      "es-ES": {
+        "name": "Ninguna",
+        "description": "La sesión no requiere adaptaciones de accesibilidad"
+      },
+      "ca-ES": {
+        "name": "Cap",
+        "description": "La sessió no requereix adaptacions d'accessibilitat"
       }
     }
   }

@@ -43,6 +43,7 @@ export class SimpleEnumImporter extends TranslatableImporter<SimpleEnumPayload, 
 
     return {
       identifier: payload.identifier,
+      ...(payload.exclusive_selection !== undefined && { exclusive_selection: payload.exclusive_selection }),
       translations,
     };
   }

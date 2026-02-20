@@ -1,4 +1,9 @@
 /**
+ * Estado de un usuario en el sistema
+ */
+export type UserStatus = 'active' | 'suspended';
+
+/**
  * User entity - Core domain model for authenticated users
  */
 export interface User {
@@ -7,6 +12,16 @@ export interface User {
   firstName: string | null;
   lastName: string | null;
   avatar: string | null;
+  status: UserStatus;
+}
+
+/**
+ * Rol del usuario en Directus con nivel de acceso
+ */
+export interface UserRole {
+  id: string;
+  name: string;
+  adminAccess: boolean;
 }
 
 /**
@@ -14,6 +29,8 @@ export interface User {
  */
 export interface AuthenticatedUser extends User {
   displayName: string;
+  role: UserRole | null;
+  policies: string[];
 }
 
 /**
@@ -33,9 +50,15 @@ export function computeDisplayName(user: User): string {
 /**
  * Create an AuthenticatedUser from a User
  */
-export function toAuthenticatedUser(user: User): AuthenticatedUser {
+export function toAuthenticatedUser(
+  user: User,
+  role?: UserRole,
+  policies?: string[],
+): AuthenticatedUser {
   return {
     ...user,
     displayName: computeDisplayName(user),
+    role: role ?? null,
+    policies: policies ?? [],
   };
 }

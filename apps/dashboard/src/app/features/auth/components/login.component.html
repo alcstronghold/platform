@@ -1,56 +1,47 @@
 <div class="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
   <div class="w-full max-w-md">
-    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 md:p-8">
+    <div class="card md:p-8">
       <div class="mb-6 text-center">
+        <img src="images/logo.svg" alt="ALC Stronghold" class="h-24 w-24 mx-auto mb-3" />
         <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">
           ALC Stronghold Dashboard
         </h1>
-        <p class="text-sm text-gray-600 dark:text-gray-400">
+        <p class="text-subtle">
           Inicia sesión para acceder al panel de administración
         </p>
       </div>
 
       @if (authError()) {
-        <div class="mb-4 p-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+        <div class="alert-error mb-4" role="alert">
           <span class="font-medium">Error de autenticación:</span> {{ authError() }}
         </div>
       }
 
       <form class="space-y-6">
         <div>
-          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-            Email
-          </label>
+          <label for="email" class="label">Email</label>
           <input
             type="email"
             id="email"
             [formField]="descriptor.form.email"
-            [class]="emailError()
-              ? 'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 focus:ring-red-500 focus:border-red-500'
-              : 'bg-gray-50 border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white'"
-            class="text-sm rounded-lg block w-full p-2.5"
+            [class]="emailError() ? 'input input-error' : 'input'"
             placeholder="tu@email.com"
           />
           @if (emailError()) {
-            <p class="mt-2 text-sm text-red-600 dark:text-red-500">{{ emailError() }}</p>
+            <p class="field-error mt-2">{{ emailError() }}</p>
           }
         </div>
 
         <div>
-          <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-            Contraseña
-          </label>
+          <label for="password" class="label">Contraseña</label>
           <input
             type="password"
             id="password"
             [formField]="descriptor.form.password"
-            [class]="passwordError()
-              ? 'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 focus:ring-red-500 focus:border-red-500'
-              : 'bg-gray-50 border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white'"
-            class="text-sm rounded-lg block w-full p-2.5"
+            [class]="passwordError() ? 'input input-error' : 'input'"
           />
           @if (passwordError()) {
-            <p class="mt-2 text-sm text-red-600 dark:text-red-500">{{ passwordError() }}</p>
+            <p class="field-error mt-2">{{ passwordError() }}</p>
           }
         </div>
 
@@ -58,7 +49,7 @@
           type="button"
           (click)="login()"
           [disabled]="isSubmitting()"
-          class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disabled:opacity-50 disabled:cursor-not-allowed"
+          class="btn-primary w-full px-5 py-2.5 text-center disabled:opacity-50 disabled:cursor-not-allowed"
         >
           @if (isSubmitting()) {
             <span>

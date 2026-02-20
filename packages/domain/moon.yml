@@ -1,16 +1,14 @@
 language: typescript
-type: library
-
 tasks:
   test:
-    command: "bunx vitest run"
+    command: bunx vitest run
     inputs:
-      - src/**/*
-      - vitest.config.ts
-      - vitest.setup.ts
-
+    - src/**/*
+    - vitest.config.ts
+    - vitest.setup.ts
   typecheck:
     command: bun run tsc --noEmit
     inputs:
-      - src/**/*
-      - tsconfig.json
+    - src/**/*
+    - tsconfig.json
+layer: library

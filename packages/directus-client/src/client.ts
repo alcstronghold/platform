@@ -1,6 +1,8 @@
 import {
   authentication,
   type AuthenticationClient,
+  type AuthenticationData,
+  type AuthenticationStorage,
   createDirectus,
   type DirectusClient,
   rest,
@@ -21,13 +23,36 @@ export interface DirectusClientConfig {
   url: string;
 }
 
+const AUTH_STORAGE_KEY = 'directus-auth';
+
+/**
+ * Almacena los tokens de autenticación en localStorage
+ * para que sobrevivan al refresh del navegador.
+ */
+function browserStorage(): AuthenticationStorage {
+  return {
+    get() {
+      const raw = localStorage.getItem(AUTH_STORAGE_KEY);
+      if (!raw) return null;
+      return JSON.parse(raw) as AuthenticationData;
+    },
+    set(data: AuthenticationData | null) {
+      if (data) {
+        localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(data));
+      } else {
+        localStorage.removeItem(AUTH_STORAGE_KEY);
+      }
+    },
+  };
+}
+
 /**
  * Create an auth client for browser/client-side use
- * Uses cookie-based sessions with credentials included
+ * Persiste tokens en localStorage para mantener la sesión entre recargas.
  */
 export function createBrowserClient(config: DirectusClientConfig): DirectusAuthClient {
   return createDirectus(config.url)
-    .with(authentication('json'))
+    .with(authentication('json', { storage: browserStorage() }))
     .with(rest());
 }
 
