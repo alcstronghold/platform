@@ -132,7 +132,8 @@ export class DirectusAuthAdapter implements AuthPort {
         role,
         policies,
       );
-    } catch {
+    } catch (error) {
+      console.error('[DirectusAuthAdapter] getCurrentUser failed:', error);
       return null;
     }
   }

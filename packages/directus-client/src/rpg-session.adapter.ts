@@ -53,7 +53,7 @@ interface DirectusSessionDetailItem extends DirectusSessionSummaryItem {
   min_duration_minutes: number;
   max_duration_minutes: number;
   comments: string | null;
-  rpg_edition_id: { id: string; rpg_family: string | null; translations: DirectusTranslation[] } | null;
+  rpg_edition_id: { id: string; rpg_family_id: string | null; translations: DirectusTranslation[] } | null;
   genres: DirectusJunctionItem[];
   accessibility_options: DirectusJunctionItem[];
   languages: DirectusJunctionItem[];
@@ -129,7 +129,7 @@ export function mapToSessionDetail(item: DirectusSessionDetailItem): RpgSessionD
     minDurationMinutes: item.min_duration_minutes,
     maxDurationMinutes: item.max_duration_minutes,
     comments: item.comments,
-    rpgFamilyId: item.rpg_edition_id?.rpg_family ?? null,
+    rpgFamilyId: item.rpg_edition_id?.rpg_family_id ?? null,
     rpgEditionId: item.rpg_edition_id?.id ?? null,
     rpgSystemId: item.rpg_system_id?.id ?? null,
     settingId: item.setting_id?.id ?? null,
@@ -201,7 +201,7 @@ const DETAIL_FIELDS = [
   ...SUMMARY_FIELDS,
   'synopsis', 'knowledge_level_other', 'min_duration_minutes', 'max_duration_minutes', 'comments',
   'knowledge_level.id', 'knowledge_level.translations.languages_code', 'knowledge_level.translations.name',
-  'rpg_edition_id.rpg_family',
+  'rpg_edition_id.rpg_family_id',
   'genres.id', 'genres.genres_id',
   'accessibility_options.id', 'accessibility_options.accessibility_options_id',
   'languages.id', 'languages.session_languages_id',

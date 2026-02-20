@@ -3,11 +3,11 @@ import {
   createPolicy,
   createRole,
   deletePermission,
-  deletePolicy,
   deleteRole,
   readPermissions,
   readPolicies,
   readRoles,
+  updatePolicy,
 } from '@directus/sdk';
 
 import { createClient } from '../services/directus';
@@ -16,7 +16,6 @@ import { log } from '../utils';
 
 export interface RolesSetupOptions {
   dryRun?: boolean;
-  clean?: boolean;
 }
 
 // =============================================================================
@@ -183,6 +182,19 @@ const POLICIES: Record<string, PolicyDefinition> = {
         fields: ['id', 'name'] as any,
         permissions: {},
       },
+      // Lectura del propio usuario y su rol (necesario para el login del dashboard)
+      {
+        collection: 'directus_users',
+        action: 'read' as const,
+        fields: ['id', 'email', 'first_name', 'last_name', 'avatar', 'role'],
+        permissions: { id: { _eq: '$CURRENT_USER' } },
+      },
+      {
+        collection: 'directus_roles',
+        action: 'read' as const,
+        fields: ['id', 'name'],
+        permissions: {},
+      },
     ],
   },
 
@@ -339,13 +351,27 @@ const ROLE_DEFAULT_POLICIES: Record<string, string[]> = {
 type DirectusClient = Awaited<ReturnType<typeof createClient>>;
 
 /**
- * Enlaza una policy a un rol via directus_access
+ * Enlaza una policy a un rol via directus_access.
+ * Verifica si el link ya existe para evitar duplicados.
  */
 async function linkPolicyToRole(
   config: DirectusConfig,
   roleId: string,
   policyId: string
-): Promise<void> {
+): Promise<boolean> {
+  // Verificar si el link ya existe
+  const checkUrl = `${config.url}/access?filter[role][_eq]=${roleId}&filter[policy][_eq]=${policyId}&limit=1`;
+  const checkResponse = await fetch(checkUrl, {
+    headers: { Authorization: `Bearer ${config.token}` },
+  });
+
+  if (checkResponse.ok) {
+    const data = await checkResponse.json() as { data: unknown[] };
+    if (data.data.length > 0) {
+      return false; // Ya existe
+    }
+  }
+
   const response = await fetch(`${config.url}/access`, {
     method: 'POST',
     headers: {
@@ -359,6 +385,8 @@ async function linkPolicyToRole(
     const error = await response.json();
     throw new Error(`Failed to link policy to role: ${JSON.stringify(error)}`);
   }
+
+  return true; // Creado
 }
 
 /**
@@ -367,69 +395,19 @@ async function linkPolicyToRole(
 async function deletePolicyPermissions(
   client: DirectusClient,
   policyId: string,
-  policyName: string,
   permissions: { id: number; policy: string | null }[],
   dryRun: boolean
-): Promise<void> {
+): Promise<number> {
   const policyPermissions = permissions.filter((p) => p.policy === policyId);
-  if (policyPermissions.length === 0) return;
+  if (policyPermissions.length === 0) return 0;
 
   if (!dryRun) {
     for (const perm of policyPermissions) {
       await client.request(deletePermission(perm.id));
     }
   }
-  log.item('deleted', `Deleted ${policyPermissions.length} permissions for ${policyName}`);
-}
 
-/**
- * Elimina una policy
- */
-async function deleteSinglePolicy(
-  client: DirectusClient,
-  policyId: string,
-  policyName: string,
-  dryRun: boolean
-): Promise<boolean> {
-  if (dryRun) {
-    log.item('deleted', `Would delete policy: ${policyName}`);
-    return true;
-  }
-
-  try {
-    await client.request(deletePolicy(policyId));
-    log.item('deleted', `Deleted policy: ${policyName}`);
-    return true;
-  } catch {
-    log.warn(`Could not delete policy '${policyName}' — it may be a system admin policy.`);
-    return false;
-  }
-}
-
-/**
- * Limpia TODAS las policies existentes para recrearlas desde cero.
- * Esto asegura que se eliminen tanto las antiguas como las obsoletas.
- */
-async function cleanupPolicies(
-  client: DirectusClient,
-  dryRun: boolean
-): Promise<void> {
-  log.info('Cleaning up existing policies...');
-
-  const existingPolicies = await client.request(readPolicies());
-  const existingPermissions = await client.request(readPermissions()) as { id: number; policy: string | null }[];
-
-  for (const policy of existingPolicies) {
-    // No borrar policies internas de Directus (ej: $t:public_label)
-    const isSystemPolicy = policy.name.startsWith('$t:');
-    if (isSystemPolicy) {
-      log.item('skipped', `System policy: ${policy.name}`);
-      continue;
-    }
-
-    await deletePolicyPermissions(client, policy.id, policy.name, existingPermissions, dryRun);
-    await deleteSinglePolicy(client, policy.id, policy.name, dryRun);
-  }
+  return policyPermissions.length;
 }
 
 /**
@@ -485,52 +463,126 @@ async function findExistingRoles(
 }
 
 /**
- * Crea todas las policies y sus permisos
+ * Crea los permisos definidos para una policy
  */
-async function createAllPolicies(
+async function createPolicyPermissions(
+  client: DirectusClient,
+  policyId: string,
+  permissions: PermissionDefinition[]
+): Promise<void> {
+  for (const perm of permissions) {
+    await client.request(
+      createPermission({
+        policy: policyId,
+        collection: perm.collection,
+        action: perm.action,
+        fields: perm.fields,
+        permissions: perm.permissions,
+        validation: perm.validation,
+      })
+    );
+  }
+}
+
+/**
+ * Actualiza una policy existente: metadata y reemplazo completo de permisos
+ */
+async function updateExistingPolicy(
+  client: DirectusClient,
+  policyId: string,
+  policyDef: PolicyDefinition,
+  existingPermissions: { id: number; policy: string | null }[]
+): Promise<void> {
+  await client.request(
+    updatePolicy(policyId, {
+      icon: policyDef.icon,
+      description: policyDef.description,
+    })
+  );
+
+  const deletedCount = await deletePolicyPermissions(client, policyId, existingPermissions, false);
+  await createPolicyPermissions(client, policyId, policyDef.permissions);
+  log.item('updated', `Synced policy: ${policyDef.name} (${deletedCount} old → ${policyDef.permissions.length} new permissions)`);
+}
+
+/**
+ * Crea una policy nueva con todos sus permisos
+ */
+async function createNewPolicy(
+  client: DirectusClient,
+  policyDef: PolicyDefinition
+): Promise<string> {
+  const policy = await client.request(
+    createPolicy({
+      name: policyDef.name,
+      icon: policyDef.icon,
+      description: policyDef.description,
+      admin_access: false,
+      app_access: false,
+    })
+  );
+
+  await createPolicyPermissions(client, policy.id, policyDef.permissions);
+  log.item('created', `Created policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
+  return policy.id;
+}
+
+interface SyncPolicyContext {
+  client: DirectusClient;
+  dryRun: boolean;
+  existingPermissions: { id: number; policy: string | null }[];
+}
+
+/**
+ * Sincroniza una policy individual: upsert si existe, crear si no.
+ * Retorna el ID de la policy (existente o nuevo).
+ */
+async function syncSinglePolicy(
+  ctx: SyncPolicyContext,
+  key: string,
+  policyDef: PolicyDefinition,
+  existing: { id: string; name: string } | undefined
+): Promise<string> {
+  if (existing) {
+    if (!ctx.dryRun) {
+      await updateExistingPolicy(ctx.client, existing.id, policyDef, ctx.existingPermissions);
+    } else {
+      log.item('updated', `Would sync policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
+    }
+    return existing.id;
+  }
+
+  if (ctx.dryRun) {
+    log.item('created', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
+    return `[dry-run-${key}]`;
+  }
+
+  return createNewPolicy(ctx.client, policyDef);
+}
+
+/**
+ * Sincroniza todas las policies con patrón upsert.
+ * Las policies existentes se actualizan (permisos reemplazados),
+ * preservando sus IDs y las asignaciones de directus_access.
+ */
+async function syncAllPolicies(
   client: DirectusClient,
   dryRun: boolean
 ): Promise<Map<string, string>> {
-  const createdPolicies = new Map<string, string>();
-  log.info('Creating policies...');
+  const syncedPolicies = new Map<string, string>();
+  log.info('Syncing policies...');
+
+  const existingPolicies = await client.request(readPolicies());
+  const existingPermissions = await client.request(readPermissions()) as { id: number; policy: string | null }[];
+  const ctx: SyncPolicyContext = { client, dryRun, existingPermissions };
 
   for (const [key, policyDef] of Object.entries(POLICIES)) {
-    if (dryRun) {
-      log.item('created', `Would create policy: ${policyDef.name} (${policyDef.permissions.length} permissions)`);
-      createdPolicies.set(key, `[dry-run-${key}]`);
-      continue;
-    }
-
-    const policy = await client.request(
-      createPolicy({
-        name: policyDef.name,
-        icon: policyDef.icon,
-        description: policyDef.description,
-        admin_access: false,
-        app_access: false,
-      })
-    );
-    createdPolicies.set(key, policy.id);
-    log.item('created', `Created policy: ${policyDef.name}`);
-
-    for (const perm of policyDef.permissions) {
-      await client.request(
-        createPermission({
-          policy: policy.id,
-          collection: perm.collection,
-          action: perm.action,
-          fields: perm.fields,
-          permissions: perm.permissions,
-          validation: perm.validation,
-        })
-      );
-    }
-    if (policyDef.permissions.length > 0) {
-      log.item('detail', `  → ${policyDef.permissions.length} permissions`);
-    }
+    const existing = existingPolicies.find((p) => p.name === policyDef.name);
+    const policyId = await syncSinglePolicy(ctx, key, policyDef, existing);
+    syncedPolicies.set(key, policyId);
   }
 
-  return createdPolicies;
+  return syncedPolicies;
 }
 
 /**
@@ -540,7 +592,7 @@ async function setupAllRoles(
   client: DirectusClient,
   config: DirectusConfig,
   existingRoles: Map<string, string>,
-  createdPolicies: Map<string, string>,
+  syncedPolicies: Map<string, string>,
   dryRun: boolean
 ): Promise<Map<string, string>> {
   const createdRoles = new Map<string, string>(existingRoles);
@@ -566,30 +618,40 @@ async function setupAllRoles(
       log.item('created', `Created role: ${roleDef.name} (${role.id})`);
     }
 
-    await linkDefaultPolicies(config, key, createdRoles, createdPolicies, dryRun);
+    await ensureDefaultPolicyLinks(config, key, createdRoles, syncedPolicies, dryRun);
   }
 
   return createdRoles;
 }
 
 /**
- * Asigna las policies por defecto a un rol
+ * Asegura que las policies por defecto estén vinculadas al rol.
+ * Verifica si el link ya existe para evitar duplicados.
  */
-async function linkDefaultPolicies(
+async function ensureDefaultPolicyLinks(
   config: DirectusConfig,
   roleKey: string,
   createdRoles: Map<string, string>,
-  createdPolicies: Map<string, string>,
+  syncedPolicies: Map<string, string>,
   dryRun: boolean
 ): Promise<void> {
   const roleId = createdRoles.get(roleKey);
   const defaultPolicies = ROLE_DEFAULT_POLICIES[roleKey] ?? [];
 
   for (const policyKey of defaultPolicies) {
-    const policyId = createdPolicies.get(policyKey);
-    if (policyId && roleId && !dryRun) {
-      await linkPolicyToRole(config, roleId, policyId);
+    const policyId = syncedPolicies.get(policyKey);
+    if (!policyId || !roleId) continue;
+
+    if (dryRun) {
+      log.item('detail', `  → Would ensure link: ${POLICIES[policyKey].name}`);
+      continue;
+    }
+
+    const wasCreated = await linkPolicyToRole(config, roleId, policyId);
+    if (wasCreated) {
       log.item('detail', `  → Linked: ${POLICIES[policyKey].name}`);
+    } else {
+      log.item('skipped', `  → Already linked: ${POLICIES[policyKey].name}`);
     }
   }
 }
@@ -600,7 +662,7 @@ async function linkDefaultPolicies(
 function printSummary(): void {
   log.success('Setup completed!');
 
-  log.summary('Roles created:');
+  log.summary('Roles:');
   for (const [key, roleDef] of Object.entries(ROLES)) {
     const defaultPolicies = ROLE_DEFAULT_POLICIES[key] ?? [];
     const policiesList = defaultPolicies.length > 0
@@ -609,7 +671,7 @@ function printSummary(): void {
     log.item('success', `${roleDef.name}${policiesList}`);
   }
 
-  log.summary('Policies created:');
+  log.summary('Policies:');
   for (const [_key, policyDef] of Object.entries(POLICIES)) {
     log.item('success', `${policyDef.name} (${policyDef.permissions.length} permissions)`);
   }
@@ -620,7 +682,9 @@ function printSummary(): void {
 }
 
 /**
- * Configura roles y policies en Directus
+ * Configura roles y policies en Directus usando patrón upsert.
+ * Las policies existentes se actualizan (permisos reemplazados),
+ * preservando sus IDs y las asignaciones de usuarios en directus_access.
  */
 export async function rolesSetupCommand(
   config: DirectusConfig,
@@ -635,18 +699,15 @@ export async function rolesSetupCommand(
   }
 
   try {
-    if (options.clean !== false) {
-      await cleanupLegacyRoles(client, dryRun);
-      await cleanupPolicies(client, dryRun);
-    }
+    await cleanupLegacyRoles(client, dryRun);
 
     const existingRoles = await findExistingRoles(client);
     if (existingRoles.size > 0) {
       log.info(`Found ${existingRoles.size} existing role(s) - will reuse them`);
     }
 
-    const createdPolicies = await createAllPolicies(client, dryRun);
-    await setupAllRoles(client, config, existingRoles, createdPolicies, dryRun);
+    const syncedPolicies = await syncAllPolicies(client, dryRun);
+    await setupAllRoles(client, config, existingRoles, syncedPolicies, dryRun);
     printSummary();
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
