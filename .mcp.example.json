@@ -18,6 +18,7 @@
       "type": "http",
       "url": "https://backend.alcstronghold.local/mcp",
       "headers": {
+        "Authorization": "Bearer EvgObszQss_qqXjeneIsDNVjo8G0OjcW",
         "Authorization": "Bearer 0GHu7Pikqj5cC5lZD7GtLI6K3IgOPHnX",
         "Content-Type": "application/json"
       }
